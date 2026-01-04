@@ -1,41 +1,29 @@
 export const supportMenu = [
   {
-    sectionTitle: "Documentation",
+    sectionTitle: "Get Started",
     items: [
       {
-        icon: "articles",
-        title: "Articles",
-        description: "Learn from our collection of insightful articles.",
-        href: "/support/articles",
+        icon: "info",
+        title: "How It Works",
+        description: "Understand the three-step process and what you'll receive.",
+        href: "/how-it-works",
       },
       {
-        icon: "documentChartBar",
-        title: "Sample Spreadsheets",
-        description: "Download sample spreadsheets to practice with.",
-        href: "/support/sample-spreadsheets",
-      },
-      {
-        icon: "blankDocument",
-        title: "Whitepapers",
-        description: "Access detailed reports on advanced analytics techniques.",
-        href: "/support/whitepapers",
-      },
-      {
-        icon: "documentMagnifyingGlass",
-        title: "Reference",
-        description: "Find technical documentation and reference materials.",
-        href: "/support/reference",
+        icon: "calendar",
+        title: "Pilot Program",
+        description: "Learn about our risk-free one-cycle pilot offer.",
+        href: "/pilot",
       },
     ],
   },
   {
-    sectionTitle: "Knowledge Base",
+    sectionTitle: "Contact",
     items: [
       {
-        icon: "info",
-        title: "Search the Knowledge Base",
-        description: "Search for answers to your questions in our Knowledge Base.",
-        href: "/support/knowledge-base",
+        icon: "documentChartBar",
+        title: "Book a Call",
+        description: "Talk to a human. We respond fast.",
+        href: "/contact",
       },
     ],
   },

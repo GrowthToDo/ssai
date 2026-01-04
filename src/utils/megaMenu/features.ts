@@ -1,29 +1,29 @@
 export const featuresMenu = [
   {
-    sectionTitle: "AI-Powered Insights",
+    sectionTitle: "Service Features",
     items: [
       {
-        icon: "chartPie",
-        title: "Predictive Modeling",
-        description: "Use AI-driven simulations to forecast outcomes with confidence.",
-        href: "#",
+        icon: "calendar",
+        title: "Weekly Schedules",
+        description: "Post-ready schedules delivered every week using your rules and constraints.",
+        href: "/#deliverables",
       },
       {
-        icon: "portfolio",
-        title: "Market Trends",
-        description: "Identify key trends and make strategic decisions with real-time insights.",
-        href: "#",
+        icon: "clock",
+        title: "Coverage Workflow",
+        description: "We run the call-out coverage workflow so you don't have to patch holes.",
+        href: "/#coverage",
       },
     ],
   },
   {
-    sectionTitle: "Advanced Data Tools",
+    sectionTitle: "Quality & Control",
     items: [
       {
-        icon: "presentationChart",
-        title: "Automated Reports",
-        description: "Generate detailed reports and dashboards in seconds.",
-        href: "#",
+        icon: "shield",
+        title: "Leadership-Ready Logs",
+        description: "Complete exceptions and decisions log for transparency and audit.",
+        href: "/#quality",
       },
     ],
   },
