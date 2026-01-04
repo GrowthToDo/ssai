@@ -1,40 +1,40 @@
 ---
 import Icon from "@ui/icons/Icon.astro";
 
-const title = "Built for Critical Access Hospitals in Texas";
+const title = "Real scenarios we handle every week";
 
-const subTitle = "";
+const subTitle = "These are the daily challenges Texas CAH nurse managers face. We build schedules that account for these constraints before they become emergencies.";
 
 const texasCahImage = "/texas-cah.png";
 
 const features = [
   {
-    borderClasses: "md:border-r",
+    borderClasses: "md:border-r md:border-b",
     gradientClasses: "bg-linear-to-l/oklch from-teal-200 to-transparent",
     icon: "clock",
     heading: "7 PM call-out: hole on next shift",
-    description: "",
+    description: "Last-minute call-outs create immediate gaps. We track eligibility and build coverage workflows that keep the escalation path clean.",
   },
   {
-    borderClasses: "md:border-r",
+    borderClasses: "md:border-b",
     gradientClasses: "bg-linear-to-t/oklch from-teal-200 to-transparent",
     icon: "calendar",
-    heading: "Two PTO overlaps plus an admission spike",
-    description: "",
+    heading: "PTO overlaps during admission spike",
+    description: "Planned time off collides with unexpected patient volume. We validate coverage against census patterns and flag conflicts early.",
   },
   {
     borderClasses: "md:border-r",
     gradientClasses: "bg-linear-to-tr/oklch from-teal-200 to-transparent",
     icon: "users",
-    heading: "Weekend rotation dispute and fairness complaints",
-    description: "",
+    heading: "Weekend rotation fairness disputes",
+    description: "Shift distribution must be equitable and transparent. We track rotation patterns and document exceptions to prevent complaints.",
   },
   {
     borderClasses: "",
     gradientClasses: "bg-linear-to-l/oklch from-teal-200 to-transparent",
     icon: "shield",
-    heading: "Float pool too small to cover the hole; escalation path must be clean",
-    description: "",
+    heading: "Float pool exhausted, escalation needed",
+    description: "When internal coverage fails, the escalation process must be documented and clean for leadership review.",
   },
 ];
 ---
@@ -44,6 +44,9 @@ const features = [
     <h2 class="text-balance text-2xl font-semibold text-slate-800 md:text-3xl md:leading-tight">
       {title}
     </h2>
+    <p class="mt-4 text-lg text-slate-700">
+      {subTitle}
+    </p>
   </div>
 
   <div class="mx-auto mb-12 max-w-2xl">
@@ -54,20 +57,18 @@ const features = [
     />
   </div>
 
-  <div class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-4 border-dashed border-t border-slate-400">
+  <div class="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 border-dashed border-t border-slate-400">
 
     {features.map((feature) => (
-      <div class={`group relative mx-auto flex flex-col border-dashed border-slate-400 py-10 ${feature.borderClasses} ${feature.gridClasses}`}>
+      <div class={`group relative mx-auto flex flex-col border-dashed border-slate-400 p-10 ${feature.borderClasses}`}>
         <div class={`pointer-events-none absolute inset-0 h-full w-full ${feature.gradientClasses} opacity-0 transition duration-300 group-hover:opacity-100`} />
-        <div class="relative z-10 mb-4 px-10">
+        <div class="relative z-10 mb-4">
           <Icon name={feature.icon} />
         </div>
-        <div class="relative z-10 mb-2 px-10 text-lg font-semibold">
-          <span class="inline-block text-balance text-slate-800 transition duration-300 group-hover:translate-x-2">
-            {feature.heading}
-          </span>
-        </div>
-        <p class="z-10 max-w-sm px-4 text-pretty text-sm text-slate-700 sm:max-w-lg md:mx-auto">
+        <h3 class="relative z-10 mb-3 text-lg font-semibold text-slate-800">
+          {feature.heading}
+        </h3>
+        <p class="relative z-10 text-pretty text-base text-slate-600 leading-relaxed">
           {feature.description}
         </p>
       </div>

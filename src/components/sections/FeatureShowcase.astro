@@ -47,10 +47,6 @@ const processImage = "/process-flow.png";
           <Fragment set:html={feature.description || ""} />
         </p>
 
-        {feature.image && (
-          <Image class={`${feature.alignment || ""}`} src={feature.image} alt="" />
-        )}
-
         {feature.moreFeatures && (
           <ul class="ml-4 mt-4 w-4/5 list-inside list-disc space-y-2 text-base/6 text-slate-600 marker:text-teal-600">
             {feature.moreFeatures.map((item) => <li>{item}</li>)}

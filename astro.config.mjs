@@ -7,8 +7,8 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   // The `site` property specifies the base URL for your site.
-  site: "https://mindcharting.github.io",
-  base: "/SimpleScheduleAI",
+  site: "https://growthtodo.github.io",
+  base: "/ssai",
   prefetch: true,
   trailingSlash: "never",
   integrations: [
