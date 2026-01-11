@@ -23,7 +23,7 @@ export const supportMenu = [
         icon: "documentChartBar",
         title: "Book a Call",
         description: "Talk to a human. We respond fast.",
-        href: "/contact",
+        href: "https://cal.com/gautham-8bdvdx/30min",
       },
     ],
   },

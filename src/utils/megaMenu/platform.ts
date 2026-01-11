@@ -10,7 +10,7 @@ export const platformMenu = [
     description: "One unit, one cycle, risk-free pilot to prove it works.",
   },
   {
-    href: "/contact",
+    href: "https://cal.com/gautham-8bdvdx/30min",
     title: "Book a Call",
     description: "Talk to a human. We respond fast.",
   },

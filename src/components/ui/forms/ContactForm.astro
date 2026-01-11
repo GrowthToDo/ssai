@@ -4,18 +4,16 @@ const formStrings = {
   email: "Email",
   message: "Message",
   submit: "Submit",
+  submitting: "Submitting...",
+  success: "Thank you! We'll be in touch soon.",
+  error: "Something went wrong. Please try again or email us directly.",
 };
+
+// Google Apps Script Web App URL - deployed from your Google Sheet
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5BZhSHWIljxWLWBPngX1CuHyIO4jvd3vQH-HYuPbgfPjj7kA8O4rhQoIHaK10RSJJ/exec";
 ---
 
-<form class="p-4" aria-labelledby="form-title" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  {/* Hidden fields for Netlify */}
-  <input type="hidden" name="form-name" value="contact" />
-  <div class="hidden">
-    <label>
-      Don't fill this out if you're human: <input name="bot-field" />
-    </label>
-  </div>
-
+<form id="contact-form" class="p-4" aria-labelledby="form-title">
   {/* Fieldset and legend for grouping form elements */}
   <fieldset class="space-y-4">
     <legend id="form-title" class="sr-only">{formStrings.submit}</legend>
@@ -83,14 +81,77 @@ const formStrings = {
     </div>
   </fieldset>
 
-      {/* Submit button */}
+  {/* Submit button */}
   <div class="mt-8">
     <button
       type="submit"
-      class="inline-flex items-center text-nowrap rounded-lg bg-teal-100 px-6 py-2 font-medium text-slate-700 transition-colors duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700/80 focus:outline-hidden"
+      id="submit-btn"
+      class="inline-flex items-center text-nowrap rounded-lg bg-teal-100 px-6 py-2 font-medium text-slate-700 transition-colors duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700/80 focus:outline-hidden disabled:opacity-50 disabled:cursor-not-allowed"
       aria-label={formStrings.submit}
     >
-      {formStrings.submit}
+      <span id="btn-text">{formStrings.submit}</span>
     </button>
   </div>
+
+  {/* Success/Error messages */}
+  <div id="form-success" class="hidden mt-4 p-4 rounded-lg bg-teal-100 text-teal-800 text-sm">
+    {formStrings.success}
+  </div>
+  <div id="form-error" class="hidden mt-4 p-4 rounded-lg bg-red-100 text-red-800 text-sm">
+    {formStrings.error}
+  </div>
 </form>
+
+<script define:vars={{ GOOGLE_SCRIPT_URL, formStrings }}>
+  document.addEventListener("astro:page-load", () => {
+    const form = document.getElementById("contact-form");
+    const submitBtn = document.getElementById("submit-btn");
+    const btnText = document.getElementById("btn-text");
+    const successDiv = document.getElementById("form-success");
+    const errorDiv = document.getElementById("form-error");
+
+    if (!form) return;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      // Hide any previous messages
+      successDiv.classList.add("hidden");
+      errorDiv.classList.add("hidden");
+
+      // Disable button and show loading state
+      submitBtn.disabled = true;
+      btnText.textContent = formStrings.submitting;
+
+      const formData = new FormData(form);
+      const data = {
+        name: formData.get("name"),
+        email: formData.get("email"),
+        message: formData.get("message"),
+        timestamp: new Date().toISOString(),
+      };
+
+      try {
+        const response = await fetch(GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        // With no-cors, we can't read the response, but if fetch completes without error, assume success
+        successDiv.classList.remove("hidden");
+        form.reset();
+      } catch (error) {
+        console.error("Form submission error:", error);
+        errorDiv.classList.remove("hidden");
+      } finally {
+        // Re-enable button
+        submitBtn.disabled = false;
+        btnText.textContent = formStrings.submit;
+      }
+    });
+  });
+</script>

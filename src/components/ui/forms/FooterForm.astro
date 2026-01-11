@@ -3,12 +3,18 @@ const formStrings = {
   legend: "Subscribe to our newsletter",
   placeholder: "Enter your email",
   submit: "Submit",
+  submitting: "...",
+  success: "Thanks! We'll be in touch.",
+  error: "Something went wrong.",
   description:
     "Get all the information you need. Enter your email, and we'll be in touch.",
 };
+
+// Google Apps Script Web App URL - deployed from your Google Sheet
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5BZhSHWIljxWLWBPngX1CuHyIO4jvd3vQH-HYuPbgfPjj7kA8O4rhQoIHaK10RSJJ/exec";
 ---
 
-<form>
+<form id="footer-form">
   {/* Fieldset for grouping form elements */}
   <fieldset
     class="mt-4 flex flex-col items-center gap-2 rounded-lg bg-teal-400 p-2 sm:flex-row sm:gap-3"
@@ -21,16 +27,16 @@ const formStrings = {
 
     {/* Email input */}
     <div class="w-full">
-      <label for="email-input" class="sr-only">{formStrings.placeholder}</label>
+      <label for="footer-email-input" class="sr-only">{formStrings.placeholder}</label>
       <input
         type="email"
-        id="email-input"
+        id="footer-email-input"
         name="email"
         class="block w-full rounded-lg border-transparent px-4 py-3 text-sm focus:border-teal-700/80 focus:ring-teal-700/80"
         placeholder={formStrings.placeholder}
         required
         aria-label={formStrings.placeholder}
-        aria-describedby="form-description"
+        aria-describedby="footer-form-description"
         autocomplete="email"
         spellcheck="false"
       />
@@ -39,15 +45,78 @@ const formStrings = {
     {/* Submit button */}
     <button
       type="submit"
-      class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-teal-100 p-3 text-sm font-medium text-slate-700 transition duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700 focus:text-white focus:outline-hidden sm:w-auto"
+      id="footer-submit-btn"
+      class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-teal-100 p-3 text-sm font-medium text-slate-700 transition duration-300 hover:bg-teal-700/80 hover:text-white focus:bg-teal-700 focus:text-white focus:outline-hidden sm:w-auto disabled:opacity-50 disabled:cursor-not-allowed"
       aria-label="Submit email"
     >
-      {formStrings.submit}
+      <span id="footer-btn-text">{formStrings.submit}</span>
     </button>
   </fieldset>
 
   {/* Description paragraph with ARIA association */}
-  <p id="form-description" class="mt-3 text-sm text-slate-400">
+  <p id="footer-form-description" class="mt-3 text-sm text-slate-400">
     {formStrings.description}
   </p>
+
+  {/* Success/Error messages */}
+  <div id="footer-form-success" class="hidden mt-2 text-sm text-teal-700">
+    {formStrings.success}
+  </div>
+  <div id="footer-form-error" class="hidden mt-2 text-sm text-red-600">
+    {formStrings.error}
+  </div>
 </form>
+
+<script define:vars={{ GOOGLE_SCRIPT_URL, formStrings }}>
+  document.addEventListener("astro:page-load", () => {
+    const form = document.getElementById("footer-form");
+    const submitBtn = document.getElementById("footer-submit-btn");
+    const btnText = document.getElementById("footer-btn-text");
+    const successDiv = document.getElementById("footer-form-success");
+    const errorDiv = document.getElementById("footer-form-error");
+
+    if (!form) return;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      // Hide any previous messages
+      successDiv.classList.add("hidden");
+      errorDiv.classList.add("hidden");
+
+      // Disable button and show loading state
+      submitBtn.disabled = true;
+      btnText.textContent = formStrings.submitting;
+
+      const formData = new FormData(form);
+      const data = {
+        name: "Footer Signup",
+        email: formData.get("email"),
+        message: "Newsletter signup from footer",
+        timestamp: new Date().toISOString(),
+      };
+
+      try {
+        const response = await fetch(GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        // With no-cors, we can't read the response, but if fetch completes without error, assume success
+        successDiv.classList.remove("hidden");
+        form.reset();
+      } catch (error) {
+        console.error("Form submission error:", error);
+        errorDiv.classList.remove("hidden");
+      } finally {
+        // Re-enable button
+        submitBtn.disabled = false;
+        btnText.textContent = formStrings.submit;
+      }
+    });
+  });
+</script>
