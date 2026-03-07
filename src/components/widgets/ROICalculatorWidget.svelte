@@ -158,7 +158,7 @@
     <!-- Blurred teaser card -->
     <div class="mt-10 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 p-8 text-center shadow-sm">
       <p class="text-sm text-muted">Your estimated hidden scheduling cost</p>
-      <div class="pointer-events-none mt-2 select-none text-5xl font-bold tracking-tight blur-sm">
+      <div class="pointer-events-none mt-2 select-none text-5xl font-bold tracking-tight blur-2xl">
         $222,784
       </div>
       <p class="mt-3 text-sm text-muted">Enter your details to reveal your number</p>

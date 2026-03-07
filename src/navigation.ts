@@ -23,7 +23,7 @@ export const headerData = {
       href: getBlogPermalink(),
     },
   ],
-  actions: [{ text: 'Contact', href: getPermalink('/contact') }],
+  actions: [{ text: 'Book a Call', href: 'https://cal.com/gautham-8bdvdx/30min' }],
 };
 
 export const footerData = {
@@ -56,9 +56,7 @@ export const footerData = {
     { text: 'Privacy', href: getPermalink('/privacy') },
     { text: 'Terms', href: getPermalink('/terms') },
   ],
-  socialLinks: [
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-  ],
+  socialLinks: [],
   footNote: `
     <div class="flex flex-col gap-1">
       <div>Email: <a href="mailto:support@simplescheduleai.com" class="text-primary hover:underline">support@simplescheduleai.com</a></div>
