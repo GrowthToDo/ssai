@@ -1,0 +1,41 @@
+---
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Headline from '~/components/ui/Headline.astro';
+import Button from '~/components/ui/Button.astro';
+import { Icon } from 'astro-icon/components';
+import type { Widget } from '~/types';
+
+interface Props extends Widget {}
+
+const {
+  id,
+  isDark = true,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+
+const title = "Every schedule is compliant before it posts.";
+const subtitle = "13 compliance and safety rules guaranteed on every schedule. 8 fairness goals actively optimized. No manual checking. No missed violations.";
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-3xl ${classes?.container ?? ''}`} bg={bg}>
+  <div class="text-center">
+    <p class="mb-4 text-xs font-semibold uppercase tracking-widest text-blue-400">Built-in compliance</p>
+    <div class="mb-4 text-8xl font-black text-primary sm:text-9xl leading-none">21</div>
+    <Headline
+      title={title}
+      subtitle={subtitle}
+      classes={{
+        title: 'text-3xl sm:text-4xl text-white',
+        subtitle: 'text-lg text-gray-400'
+      }}
+    />
+    <a
+      href="/how-it-works"
+      class="mt-8 inline-flex items-center gap-2 text-primary font-medium hover:text-secondary transition-colors duration-200"
+    >
+      See how the rules engine works
+      <Icon name="tabler:arrow-right" class="w-4 h-4" />
+    </a>
+  </div>
+</WidgetWrapper>

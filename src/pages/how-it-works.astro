@@ -1,0 +1,165 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import DarkHero from '~/components/widgets/DarkHero.astro';
+import Content from '~/components/widgets/Content.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import ComplianceRules from '~/components/widgets/ComplianceRules.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Icon } from 'astro-icon/components';
+
+const metadata = {
+  title: 'How it Works',
+  description: 'A simple, collaborative workflow for assisted nurse scheduling at Critical Access Hospitals in Texas. Your rules, your final approval, fewer headaches.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Dark Hero -->
+  <DarkHero
+    badge="Clear workflow. Predictable handoffs."
+    title="How it Works"
+    subtitle="Assisted scheduling that fits into your current process. You keep control and final approval. We reduce the weekly load."
+    actions={[
+      { text: 'View the Pilot', href: '/pilot', variant: 'primary' },
+      { text: 'Ask a question', href: 'https://cal.com/gautham-8bdvdx/30min', variant: 'secondary' },
+    ]}
+  />
+
+  <!-- What you send / What you get -->
+  <section class="bg-page">
+    <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-start">
+        <div>
+          <p class="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">Simple handoff</p>
+          <h2 class="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
+            What you send us. What you get back.
+          </h2>
+          <p class="mt-5 text-lg text-muted">
+            We work with the format you already use. Excel is fine. No new software for your staff.
+          </p>
+
+          <div class="mt-8 rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-slate-800 p-7">
+            <h3 class="font-bold">What you send us</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span class="text-muted">Staff roster via Excel (roles, competency levels, home units)</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span class="text-muted">PRN availability submissions and leave requests</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-primary"></span>
+                <span class="text-muted">Unit rules: weekend requirements, escalation order, OT thresholds</span>
+              </li>
+            </ul>
+            <p class="mt-4 text-sm text-muted">Export your current data, edit in Excel, re-import. Simple.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="rounded-2xl border-2 border-primary bg-blue-50 dark:bg-blue-950/30 p-7">
+            <h3 class="font-bold">What you get back</h3>
+            <ul class="mt-4 space-y-3">
+              <li class="flex items-start gap-3">
+                <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1 shrink-0" />
+                <span class="text-gray-700 dark:text-gray-300">Compliant, post-ready schedule (21 rules checked automatically)</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1 shrink-0" />
+                <span class="text-gray-700 dark:text-gray-300">Multiple schedule drafts showing different coverage, cost, and fairness trade-offs</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1 shrink-0" />
+                <span class="text-gray-700 dark:text-gray-300">Auto-recommended replacements when leave is approved</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1 shrink-0" />
+                <span class="text-gray-700 dark:text-gray-300">Full audit trail of every change for compliance</span>
+              </li>
+            </ul>
+            <p class="mt-4 text-sm text-muted">Nothing is final until your team signs off.</p>
+          </div>
+
+          <div class="mt-6 rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-slate-800 p-6">
+            <p class="text-sm font-semibold">Delivered every Thursday, 3pm</p>
+            <p class="mt-2 text-sm text-muted">PDF schedule, a manager summary with flagged items, and full data for your records. Ready for your review before posting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-step workflow -->
+  <Steps
+    title="Four steps. No surprises."
+    subtitle="A structured collaboration that respects your existing process."
+    tagline="The process"
+    items={[
+      {
+        title: 'Kickoff and rules',
+        description: 'We document your rules, constraints, and what a good schedule looks like for your unit.',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Inputs and handoff',
+        description: 'Your team shares availability and coverage requirements in the format you already use.',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Build and validate',
+        description: 'We build the schedule and check all 21 rules: coverage, compliance, fairness, and conflict gaps.',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Your review and approval',
+        description: 'Your team reviews, adjusts if needed, and approves. You stay in full control.',
+        icon: 'tabler:number-4',
+      },
+    ]}
+  />
+
+  <!-- 13 + 8 Rules Detail -->
+  <ComplianceRules />
+
+  <!-- FAQ -->
+  <FAQs
+    title="Questions about the process"
+    tagline="Common questions"
+    items={[
+      {
+        title: 'How do we get our data in?',
+        description: 'Excel upload. Export your current data, edit, re-import anytime. No new software for your staff.',
+      },
+      {
+        title: 'What happens when someone calls out?',
+        description: 'The system auto-finds the top 3 replacement candidates with reasons. You approve with one click. You do not have to call us, but we are reachable if something unusual comes up.',
+      },
+      {
+        title: 'How is fairness tracked?',
+        description: 'Weekends (no more than 3 per 6-week period), holidays (tracked annually), overtime, and charge duty distribution. All automatic.',
+      },
+      {
+        title: 'What about compliance and audits?',
+        description: 'Full audit trail of every change: who, what, when. Exportable anytime. Staffing committee packet ready in one click.',
+      },
+      {
+        title: 'What if we already use a scheduling system?',
+        description: 'We do not replace your EMR. Most pilots come from teams using spreadsheets or a basic tool that does not enforce rules. We deliver the schedule so you do not have to build it.',
+      },
+    ]}
+  />
+
+  <!-- CTA -->
+  <CallToAction
+    title="Ready to test this in your hospital?"
+    subtitle="The pilot is a low-risk way to see if assisted scheduling reduces effort and stress for your team. Free for 60 days."
+    tagline="3 spots open"
+    actions={[
+      { text: 'View the Pilot', href: '/pilot', variant: 'primary' },
+      { text: 'Book a call', href: 'https://cal.com/gautham-8bdvdx/30min', variant: 'secondary' },
+    ]}
+  />
+</Layout>
