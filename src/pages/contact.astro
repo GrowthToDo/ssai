@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import DarkHero from '~/components/widgets/DarkHero.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import ContactForm from '~/components/ui/forms/ContactForm.astro';
 import { Icon } from 'astro-icon/components';
 
@@ -12,16 +12,15 @@ const metadata = {
 const contactDetails = {
   location: "Remote, US",
   email: "support@simplescheduleai.com",
-  website: "simplescheduleai.com",
 };
 
 const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
 ---
 
 <Layout metadata={metadata}>
-  <!-- Dark Hero -->
-  <DarkHero
-    badge="Talk to us"
+  <!-- Hero -->
+  <Hero
+    tagline="Talk to us"
     title="Contact"
     subtitle={metadata.description}
     actions={[
@@ -77,19 +76,6 @@ const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
                   href={`mailto:${contactDetails.email}`}
                 >
                   {contactDetails.email}
-                </a>
-              </div>
-            </div>
-
-            <div class="flex gap-x-4">
-              <Icon name="tabler:world" class="mt-0.5 w-6 h-6 shrink-0 text-primary" />
-              <div class="grow">
-                <p class="font-semibold">Website</p>
-                <a
-                  class="text-sm text-default underline decoration-gray-300 dark:decoration-gray-600 underline-offset-4 transition-colors hover:text-primary"
-                  href={`https://${contactDetails.website}`}
-                >
-                  {contactDetails.website}
                 </a>
               </div>
             </div>
