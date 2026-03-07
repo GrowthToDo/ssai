@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
+import svelte from '@astrojs/svelte';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
@@ -30,6 +31,7 @@ export default defineConfig({
     }),
     sitemap(),
     mdx(),
+    svelte(),
     icon({
       include: {
         tabler: ['*'],
