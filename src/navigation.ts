@@ -3,23 +3,19 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'How It Works',
+      text: 'How it Works',
       href: getPermalink('/how-it-works'),
     },
     {
-      text: 'The Pilot',
+      text: 'Pilot',
       href: getPermalink('/pilot'),
     },
     {
-      text: 'ROI Calculator',
+      text: 'Scheduling Cost Calculator',
       href: getPermalink('/roi'),
     },
     {
-      text: 'About',
-      href: getPermalink('/about'),
-    },
-    {
-      text: 'Blog',
+      text: 'Articles',
       href: getBlogPermalink(),
     },
   ],
@@ -39,7 +35,6 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: getPermalink('/about') },
         { text: 'Blog', href: getBlogPermalink() },
         { text: 'Contact', href: getPermalink('/contact') },
       ],
@@ -53,14 +48,10 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
+    { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Privacy', href: getPermalink('/privacy') },
     { text: 'Terms', href: getPermalink('/terms') },
   ],
   socialLinks: [],
-  footNote: `
-    <div class="flex flex-col gap-1">
-      <div>Email: <a href="mailto:support@simplescheduleai.com" class="text-primary hover:underline">support@simplescheduleai.com</a></div>
-      <div>© ${new Date().getFullYear()} SimpleScheduleAI. All rights reserved.</div>
-    </div>
-  `,
+  footNote: `Built for Critical Access Hospitals in Texas.`,
 };
