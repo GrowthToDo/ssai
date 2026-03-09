@@ -31,11 +31,46 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
   <div
     class="relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300 intersect-once intersect-quarter intersect-no-queue motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
   >
+    {/* Brand Section with CTA Buttons */}
+    <div class="border-b border-gray-200 dark:border-gray-700 py-8 md:py-12">
+      <div class="max-w-3xl">
+        <a
+          href={getHomePermalink()}
+          class="inline-block text-2xl font-bold mb-4"
+          translate="no"
+        >
+          <span class="text-primary">Simple</span><span class="text-gray-900 dark:text-gray-100">Schedule</span><span class="text-primary">AI</span>
+        </a>
+
+        <p class="text-gray-600 dark:text-gray-400 mb-6 text-base leading-relaxed">
+          Assisted nurse scheduling for Critical Access Hospitals in Texas. Keep your tools, keep control, reduce the weekly scheduling load.
+        </p>
+
+        <div class="flex flex-wrap gap-3">
+          <a
+            href="/how-it-works"
+            class="inline-flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          >
+            How it Works
+          </a>
+          <a
+            href="/pilot"
+            class="inline-flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm font-semibold text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+          >
+            Pilot
+          </a>
+          <a
+            href="https://cal.com/gautham-8bdvdx/30min"
+            class="inline-flex items-center justify-center rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-secondary transition-colors"
+          >
+            Book a Call
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
-        <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE?.name}</a>
-        </div>
         <div class="text-sm text-muted flex gap-1">
           {
             secondaryLinks.map(({ text, href }, index) => (
