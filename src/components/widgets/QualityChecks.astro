@@ -1,11 +1,10 @@
 ---
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
-import Button from '~/components/ui/Button.astro';
 import { Icon } from 'astro-icon/components';
 import type { Widget } from '~/types';
 
-interface Props extends Widget {}
+type Props = Widget;
 
 const {
   id,
