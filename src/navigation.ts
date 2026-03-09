@@ -15,7 +15,7 @@ export const headerData = {
       href: getPermalink('/roi'),
     },
     {
-      text: 'Articles',
+      text: 'Blog',
       href: getBlogPermalink(),
     },
   ],
@@ -29,12 +29,13 @@ export const footerData = {
       links: [
         { text: 'How It Works', href: getPermalink('/how-it-works') },
         { text: 'The Pilot', href: getPermalink('/pilot') },
-        { text: 'ROI Calculator', href: getPermalink('/roi') },
+        { text: 'Scheduling Cost Calculator', href: getPermalink('/roi') },
       ],
     },
     {
       title: 'Company',
       links: [
+        { text: 'About', href: getPermalink('/about') },
         { text: 'Blog', href: getBlogPermalink() },
         { text: 'Contact', href: getPermalink('/contact') },
       ],
@@ -47,11 +48,7 @@ export const footerData = {
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Contact', href: getPermalink('/contact') },
-    { text: 'Privacy', href: getPermalink('/privacy') },
-    { text: 'Terms', href: getPermalink('/terms') },
-  ],
+  secondaryLinks: [],
   socialLinks: [],
   footNote: `Built for Critical Access Hospitals in Texas.`,
 };
