@@ -1,7 +1,7 @@
 ---
 publishDate: 2025-01-07T00:00:00Z
 author: SimpleScheduleAI Team
-title: "Healthcare Scheduling Crisis: The $26,000 Administrative Burden"
+title: 'Healthcare Scheduling Crisis: The $26,000 Administrative Burden'
 excerpt: Two months of interviews with 30 nurse managers revealed a critical but overlooked profit drain - inefficient scheduling systems costing facilities thousands annually.
 image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations

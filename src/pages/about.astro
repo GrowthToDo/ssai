@@ -4,47 +4,48 @@ import DarkHero from '~/components/widgets/DarkHero.astro';
 
 const metadata = {
   title: 'About SimpleScheduleAI',
-  description: 'Assisted nurse scheduling for Critical Access Hospitals in Texas. We reduce scheduling load while your team keeps tools, control, and final approval.',
+  description:
+    'Assisted nurse scheduling for Critical Access Hospitals in Texas. We reduce scheduling load while your team keeps tools, control, and final approval.',
 };
 
 const stats = [
-  { label: "Built for", value: "Critical Access Hospitals in Texas" },
-  { label: "Works with", value: "Excel and your current format" },
-  { label: "Designed for", value: "Nurse managers and leadership" },
-  { label: "Approach", value: "Assisted, not replacement" },
+  { label: 'Built for', value: 'Critical Access Hospitals in Texas' },
+  { label: 'Works with', value: 'Excel and your current format' },
+  { label: 'Designed for', value: 'Nurse managers and leadership' },
+  { label: 'Approach', value: 'Assisted, not replacement' },
 ];
 
 const principles = [
   {
-    title: "You keep control",
+    title: 'You keep control',
     description:
-      "Your team owns the rules, the exceptions, and the final approval. We support the work, you decide what goes live.",
+      'Your team owns the rules, the exceptions, and the final approval. We support the work, you decide what goes live.',
   },
   {
-    title: "Fits your current workflow",
+    title: 'Fits your current workflow',
     description:
-      "No new software rollout. No training burden. We work with the format you already use, including Excel.",
+      'No new software rollout. No training burden. We work with the format you already use, including Excel.',
   },
   {
-    title: "Clear handoffs",
+    title: 'Clear handoffs',
     description:
-      "You get a review ready schedule, notes on conflicts and assumptions, and a simple validation summary for quick sign off.",
+      'You get a review ready schedule, notes on conflicts and assumptions, and a simple validation summary for quick sign off.',
   },
 ];
 
 const whatWeDo = [
-  "Build draft schedules based on your inputs and constraints",
-  "Validate coverage, gaps, conflicts, and common failure points",
-  "Return a clean, review ready version for your approval",
+  'Build draft schedules based on your inputs and constraints',
+  'Validate coverage, gaps, conflicts, and common failure points',
+  'Return a clean, review ready version for your approval',
 ];
 
 const whatWeDoNotDo = [
-  "We do not publish schedules without your approval",
-  "We do not change your policies or override your leadership",
-  "We do not replace your staff or act as your HR system",
+  'We do not publish schedules without your approval',
+  'We do not change your policies or override your leadership',
+  'We do not replace your staff or act as your HR system',
 ];
 
-const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
+const ctaLink = 'https://cal.com/gautham-8bdvdx/30min';
 ---
 
 <Layout metadata={metadata}>
@@ -80,12 +81,8 @@ const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
     <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <div class="mx-auto mb-12 max-w-2xl text-center">
         <p class="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">How we operate</p>
-        <h2 class="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
-          Our operating principles
-        </h2>
-        <p class="mt-4 text-lg text-muted">
-          This is a workflow support service, not a software rollout.
-        </p>
+        <h2 class="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Our operating principles</h2>
+        <p class="mt-4 text-lg text-muted">This is a workflow support service, not a software rollout.</p>
       </div>
 
       <div class="grid gap-6 lg:grid-cols-3">
@@ -106,39 +103,37 @@ const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
     <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <div class="mx-auto mb-12 max-w-2xl text-center">
         <p class="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">Scope of service</p>
-        <h2 class="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
-          Clear boundaries, by design
-        </h2>
+        <h2 class="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Clear boundaries, by design</h2>
       </div>
       <div class="mx-auto max-w-6xl grid gap-6 lg:grid-cols-2">
         <div class="rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-slate-800 p-7">
           <h3 class="text-xl font-semibold">What we do</h3>
           <ul class="mt-4 space-y-3">
-            {whatWeDo.map((item) => (
-              <li class="flex items-start gap-3">
-                <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-primary"></span>
-                <span class="text-default">{item}</span>
-              </li>
-            ))}
+            {
+              whatWeDo.map((item) => (
+                <li class="flex items-start gap-3">
+                  <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-primary" />
+                  <span class="text-default">{item}</span>
+                </li>
+              ))
+            }
           </ul>
-          <p class="mt-5 text-sm text-muted">
-            You review and approve. Nothing is final until your team signs off.
-          </p>
+          <p class="mt-5 text-sm text-muted">You review and approve. Nothing is final until your team signs off.</p>
         </div>
 
         <div class="rounded-2xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-slate-800 p-7">
           <h3 class="text-xl font-semibold">What we do not do</h3>
           <ul class="mt-4 space-y-3">
-            {whatWeDoNotDo.map((item) => (
-              <li class="flex items-start gap-3">
-                <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-gray-400"></span>
-                <span class="text-default">{item}</span>
-              </li>
-            ))}
+            {
+              whatWeDoNotDo.map((item) => (
+                <li class="flex items-start gap-3">
+                  <span class="mt-1.5 w-1.5 h-1.5 shrink-0 rounded-full bg-gray-400" />
+                  <span class="text-default">{item}</span>
+                </li>
+              ))
+            }
           </ul>
-          <p class="mt-5 text-sm text-muted">
-            This clarity is intentional. It keeps expectations clean and risk low.
-          </p>
+          <p class="mt-5 text-sm text-muted">This clarity is intentional. It keeps expectations clean and risk low.</p>
         </div>
       </div>
     </div>
@@ -156,16 +151,8 @@ const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
           If scheduling is draining time and attention, the pilot is a low risk way to test a better workflow.
         </p>
         <div class="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <a
-            href="/pilot"
-            class="btn btn-primary"
-          >
-            View the pilot
-          </a>
-          <a
-            href={ctaLink}
-            class="btn text-white border-white/30 hover:bg-white/10 hover:border-white"
-          >
+          <a href="/pilot" class="btn btn-primary"> View the pilot </a>
+          <a href={ctaLink} class="btn text-white border-white/30 hover:bg-white/10 hover:border-white">
             Book a call
           </a>
         </div>

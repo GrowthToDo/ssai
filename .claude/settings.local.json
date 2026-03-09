@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev -- --port 3000)",
+      "Bash(npx astro dev --port 3000)",
+      "Bash(./node_modules/.bin/astro dev --port 3000)",
+      "Bash(npm install)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist /FI \"PID eq 8984\")",
+      "Bash(tasklist /FI \"PID eq 27440\")",
+      "Bash(powershell -Command \"Get-Process -Id 8984, 27440 | Select-Object Id, ProcessName, MainWindowTitle\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(./node_modules/.bin/astro dev --port 4000)",
+      "Bash(./node_modules/.bin/prettier --write .)"
+    ]
+  }
+}

@@ -6,15 +6,11 @@ import type { Widget } from '~/types';
 
 type Props = Widget;
 
-const {
-  id,
-  isDark = true,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
-} = Astro.props;
+const { id, isDark = true, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
 
-const title = "Every schedule is compliant before it posts.";
-const subtitle = "13 compliance and safety rules guaranteed on every schedule. 8 fairness goals actively optimized. No manual checking. No missed violations.";
+const title = 'Every schedule is compliant before it posts.';
+const subtitle =
+  '13 compliance and safety rules guaranteed on every schedule. 8 fairness goals actively optimized. No manual checking. No missed violations.';
 ---
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-3xl ${classes?.container ?? ''}`} bg={bg}>
@@ -26,7 +22,7 @@ const subtitle = "13 compliance and safety rules guaranteed on every schedule. 8
       subtitle={subtitle}
       classes={{
         title: 'text-3xl sm:text-4xl text-white',
-        subtitle: 'text-lg text-gray-400'
+        subtitle: 'text-lg text-gray-400',
       }}
     />
     <a
