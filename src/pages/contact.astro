@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
 import ContactForm from '~/components/ui/forms/ContactForm.astro';
 import { Icon } from 'astro-icon/components';
 
@@ -18,20 +17,14 @@ const ctaLink = "https://cal.com/gautham-8bdvdx/30min";
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero -->
-  <Hero
-    tagline="Talk to us"
-    title="Contact"
-    subtitle={metadata.description}
-    actions={[
-      { text: 'How it works', href: '/how-it-works', variant: 'secondary' },
-      { text: 'View the pilot', href: '/pilot', variant: 'secondary' },
-    ]}
-  />
-
   <!-- Form + details -->
   <section class="bg-page">
-    <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+    <div class="mx-auto max-w-7xl px-4 pt-28 pb-16 sm:px-6 lg:px-8">
+      <div class="mb-10">
+        <p class="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Talk to us</p>
+        <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-3">Contact</h1>
+        <p class="text-lg text-muted max-w-2xl">{metadata.description}</p>
+      </div>
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
         <div class="rounded-3xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 p-6 shadow-sm sm:p-8">
           <div class="mb-5">
