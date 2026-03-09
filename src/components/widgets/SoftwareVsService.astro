@@ -6,35 +6,30 @@ import type { Widget } from '~/types';
 
 type Props = Widget;
 
-const {
-  id,
-  isDark = false,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
-} = Astro.props;
+const { id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
 
 const title = 'This isn\'t "another scheduling tool"';
-const subtitle = "Software is just a faster way to make mistakes. Our service removes the patching burden entirely.";
+const subtitle = 'Software is just a faster way to make mistakes. Our service removes the patching burden entirely.';
 
 const software = {
-  title: "Software",
-  subtitle: "(You do the work, the tool just hosts it)",
+  title: 'Software',
+  subtitle: '(You do the work, the tool just hosts it)',
   points: [
-    "You build drafts + train staff on the tool",
-    "You configure and maintain 21 scheduling rules",
-    "You manually find replacements when someone calls out",
-    "You track weekend/holiday fairness in spreadsheets",
+    'You build drafts + train staff on the tool',
+    'You configure and maintain 21 scheduling rules',
+    'You manually find replacements when someone calls out',
+    'You track weekend/holiday fairness in spreadsheets',
   ],
 };
 
 const service = {
-  title: "Our Service",
-  subtitle: "(We deliver post-ready schedules, you approve)",
+  title: 'Our Service',
+  subtitle: '(We deliver post-ready schedules, you approve)',
   points: [
-    "Upload your data via Excel → we handle the rest",
-    "13 compliance rules + 8 fairness goals enforced automatically to deliver compliant, fair schedules",
-    "Call-out or leave? Top 3 replacements with reasons, one-click approve",
-    "Fairness tracked automatically: weekends, holidays, overtime",
+    'Upload your data via Excel → we handle the rest',
+    '13 compliance rules + 8 fairness goals enforced automatically to deliver compliant, fair schedules',
+    'Call-out or leave? Top 3 replacements with reasons, one-click approve',
+    'Fairness tracked automatically: weekends, holidays, overtime',
   ],
 };
 ---
@@ -51,12 +46,14 @@ const service = {
       <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{software.title}</h3>
       <p class="mt-2 text-sm text-muted">{software.subtitle}</p>
       <ul class="mt-6 space-y-4">
-        {software.points.map((point) => (
-          <li class="flex items-start gap-3">
-            <Icon name="tabler:x" class="w-5 h-5 text-red-500 mt-1" />
-            <span class="text-gray-700 dark:text-gray-300">{point}</span>
-          </li>
-        ))}
+        {
+          software.points.map((point) => (
+            <li class="flex items-start gap-3">
+              <Icon name="tabler:x" class="w-5 h-5 text-red-500 mt-1" />
+              <span class="text-gray-700 dark:text-gray-300">{point}</span>
+            </li>
+          ))
+        }
       </ul>
     </div>
 
@@ -65,12 +62,14 @@ const service = {
       <h3 class="text-xl font-semibold text-gray-900 dark:text-white">{service.title}</h3>
       <p class="mt-2 text-sm text-muted">{service.subtitle}</p>
       <ul class="mt-6 space-y-4">
-        {service.points.map((point) => (
-          <li class="flex items-start gap-3">
-            <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1" />
-            <span class="text-gray-700 dark:text-gray-300">{point}</span>
-          </li>
-        ))}
+        {
+          service.points.map((point) => (
+            <li class="flex items-start gap-3">
+              <Icon name="tabler:check" class="w-5 h-5 text-primary mt-1" />
+              <span class="text-gray-700 dark:text-gray-300">{point}</span>
+            </li>
+          ))
+        }
       </ul>
     </div>
   </div>

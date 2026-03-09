@@ -15,7 +15,8 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'SimpleScheduleAI - Assisted Nurse Scheduling for Critical Access Hospitals',
-  description: 'Scheduling stress drives your best nurses out and burns your budget. We deliver a compliant, post-ready schedule every week, with automatic callout coverage.',
+  description:
+    'Scheduling stress drives your best nurses out and burns your budget. We deliver a compliant, post-ready schedule every week, with automatic callout coverage.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -38,12 +39,11 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title">
-      Your nurses shouldn't be leaving over a spreadsheet.
-    </Fragment>
+    <Fragment slot="title"> Your nurses shouldn't be leaving over a spreadsheet. </Fragment>
 
     <Fragment slot="subtitle">
-      Scheduling stress drives your best nurses out and burns your budget. We deliver a compliant, post-ready schedule every week, with automatic callout coverage.
+      Scheduling stress drives your best nurses out and burns your budget. We deliver a compliant, post-ready schedule
+      every week, with automatic callout coverage.
     </Fragment>
   </Hero>
 
@@ -81,7 +81,8 @@ const metadata = {
     items={[
       {
         title: 'How long does it take to get started?',
-        description: 'Under two weeks. You send us your staff list and shift structure via Excel. We configure the rules, run a test cycle, and hand you a draft schedule for review. No IT involvement required.',
+        description:
+          'Under two weeks. You send us your staff list and shift structure via Excel. We configure the rules, run a test cycle, and hand you a draft schedule for review. No IT involvement required.',
       },
       {
         title: 'Do my nurses need to create accounts or download anything?',
@@ -89,15 +90,18 @@ const metadata = {
       },
       {
         title: 'What if we already have a scheduling system?',
-        description: "Most of our pilots come from teams using spreadsheets or a basic tool that doesn't enforce rules. We don't replace your EMR. We deliver the schedule so you don't have to build it.",
+        description:
+          "Most of our pilots come from teams using spreadsheets or a basic tool that doesn't enforce rules. We don't replace your EMR. We deliver the schedule so you don't have to build it.",
       },
       {
         title: 'How do you handle our unit-specific rules?',
-        description: 'We configure them before your first cycle. Charge nurse requirements, skill mix ratios, on-call limits: all mapped to your unit. Changes take effect the next cycle.',
+        description:
+          'We configure them before your first cycle. Charge nurse requirements, skill mix ratios, on-call limits: all mapped to your unit. Changes take effect the next cycle.',
       },
       {
         title: "Who do we contact when there's a call-out at 2AM?",
-        description: "The system auto-generates replacement candidates as soon as a call-out is logged. You get the top 3 with reasons. One click to approve. You don't have to call us, but we're reachable if something unusual comes up.",
+        description:
+          "The system auto-generates replacement candidates as soon as a call-out is logged. You get the top 3 with reasons. One click to approve. You don't have to call us, but we're reachable if something unusual comes up.",
       },
     ]}
   />
@@ -120,38 +124,66 @@ const metadata = {
         <li class="flex items-start gap-3">
           <span class="mt-1 shrink-0 text-blue-400 dark:text-blue-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
             </svg>
           </span>
-          <span class="text-lg leading-relaxed text-gray-300">A compliant, post-ready schedule delivered every week</span>
+          <span class="text-lg leading-relaxed text-gray-300"
+            >A compliant, post-ready schedule delivered every week</span
+          >
         </li>
         <li class="flex items-start gap-3">
           <span class="mt-1 shrink-0 text-blue-400 dark:text-blue-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
             </svg>
           </span>
-          <span class="text-lg leading-relaxed text-gray-300">Call-out replacement candidates, ready to approve in one click</span>
+          <span class="text-lg leading-relaxed text-gray-300"
+            >Call-out replacement candidates, ready to approve in one click</span
+          >
         </li>
         <li class="flex items-start gap-3">
           <span class="mt-1 shrink-0 text-blue-400 dark:text-blue-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
             </svg>
           </span>
-          <span class="text-lg leading-relaxed text-gray-300">A weekly manager summary: what changed, budget impact, pending approvals</span>
+          <span class="text-lg leading-relaxed text-gray-300"
+            >A weekly manager summary: what changed, budget impact, pending approvals</span
+          >
         </li>
       </ul>
 
       <p class="mt-6 text-pretty text-base leading-relaxed text-gray-400">
-        After 60 days, we sit down for a strategic review. If it is working and you want to continue, we build a plan together. The pilot costs you nothing.
+        After 60 days, we sit down for a strategic review. If it is working and you want to continue, we build a plan
+        together. The pilot costs you nothing.
       </p>
 
       <div class="mt-8 flex flex-wrap items-center justify-center gap-2">
-        <span class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300">Free for 60 Days</span>
-        <span class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300">3 Hospitals Only</span>
-        <span class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300">Full Managed Service</span>
-        <span class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300">No IT Setup</span>
+        <span
+          class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300"
+          >Free for 60 Days</span
+        >
+        <span
+          class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300"
+          >3 Hospitals Only</span
+        >
+        <span
+          class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300"
+          >Full Managed Service</span
+        >
+        <span
+          class="inline-flex items-center gap-x-1.5 rounded-full border border-blue-800/50 bg-blue-900/30 px-3 py-1.5 text-xs font-medium text-blue-300"
+          >No IT Setup</span
+        >
       </div>
     </Fragment>
   </CallToAction>
