@@ -3,38 +3,33 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import type { Widget } from '~/types';
 
-interface Props extends Widget {}
+type Props = Widget;
 
-const {
-  id,
-  isDark = true,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
-} = Astro.props;
+const { id, isDark = true, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
 
-const title = "The schedule posts itself. You just approve.";
+const title = 'The schedule posts itself. You just approve.';
 const subtitle = "We don't just fill slots; we manage the integrity of the unit.";
 
 const metrics = [
   {
-    title: "On-Time Every Week",
-    description: "Schedule posted by Thursday 3pm, before the weekend team needs to know.",
+    title: 'On-Time Every Week',
+    description: 'Schedule posted by Thursday 3pm, before the weekend team needs to know.',
   },
   {
-    title: "Zero Coverage Gaps",
-    description: "Gaps caught before staff see the board, not after.",
+    title: 'Zero Coverage Gaps',
+    description: 'Gaps caught before staff see the board, not after.',
   },
   {
-    title: "Call-Outs Handled",
-    description: "Replacements surface automatically. Call-outs stop coming to your phone.",
+    title: 'Call-Outs Handled',
+    description: 'Replacements surface automatically. Call-outs stop coming to your phone.',
   },
   {
-    title: "OT Flagged Early",
-    description: "Overtime risk surfaced before it hits payroll.",
+    title: 'OT Flagged Early',
+    description: 'Overtime risk surfaced before it hits payroll.',
   },
   {
-    title: "Audit-Ready",
-    description: "Staffing committee packet ready in one click, always current.",
+    title: 'Audit-Ready',
+    description: 'Staffing committee packet ready in one click, always current.',
   },
 ];
 ---
@@ -45,11 +40,13 @@ const metrics = [
   </div>
 
   <div class="grid gap-8 md:grid-cols-5">
-    {metrics.map((metric) => (
-      <div class="text-center">
-        <h3 class="text-lg font-bold text-white">{metric.title}</h3>
-        <p class="mt-2 text-sm text-gray-400">{metric.description}</p>
-      </div>
-    ))}
+    {
+      metrics.map((metric) => (
+        <div class="text-center">
+          <h3 class="text-lg font-bold text-white">{metric.title}</h3>
+          <p class="mt-2 text-sm text-gray-400">{metric.description}</p>
+        </div>
+      ))
+    }
   </div>
 </WidgetWrapper>
