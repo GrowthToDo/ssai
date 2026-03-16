@@ -3,38 +3,34 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import type { Widget } from '~/types';
 
-interface Props extends Widget {}
+type Props = Widget;
 
-const {
-  id,
-  isDark = false,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
-} = Astro.props;
+const { id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
 
-const title = "Your Weekly Schedule Package";
-const subtitle = 'Delivered every Thursday 3pm (or your chosen cadence). No more spreadsheet chaos. Just post and hand off.';
+const title = 'Your Weekly Schedule Package';
+const subtitle =
+  'Delivered every Thursday 3pm (or your chosen cadence). No more spreadsheet chaos. Just post and hand off.';
 
 const deliverables = [
   {
-    title: "Schedule PDF",
-    description: "Post-ready, cleanly formatted for the unit board.",
+    title: 'Schedule PDF',
+    description: 'Post-ready, cleanly formatted for the unit board.',
   },
   {
-    title: "Excel Workbook",
-    description: "Final schedule + exceptions log + risk flags. Export → Edit → Re-import anytime.",
+    title: 'Excel Workbook',
+    description: 'Final schedule + exceptions log + risk flags. Export → Edit → Re-import anytime.',
   },
   {
-    title: "Schedule Options",
-    description: "Multiple drafts scored by coverage, fairness, and cost. You pick the best fit.",
+    title: 'Schedule Options',
+    description: 'Multiple drafts scored by coverage, fairness, and cost. You pick the best fit.',
   },
   {
-    title: "Manager Summary",
-    description: "What changed, pending approvals, and budget impact.",
+    title: 'Manager Summary',
+    description: 'What changed, pending approvals, and budget impact.',
   },
   {
-    title: "Audit Trail",
-    description: "Complete history of every change: who, what, when. For compliance.",
+    title: 'Audit Trail',
+    description: 'Complete history of every change: who, what, when. For compliance.',
   },
 ];
 ---
@@ -42,27 +38,37 @@ const deliverables = [
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl ${classes?.container ?? ''}`} bg={bg}>
   <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
     <div>
-      <Headline title={title} subtitle={subtitle} classes={{ title: 'text-3xl sm:text-4xl text-left', subtitle: 'text-lg text-left' }} />
+      <Headline
+        title={title}
+        subtitle={subtitle}
+        classes={{ title: 'text-3xl sm:text-4xl text-left', subtitle: 'text-lg text-left' }}
+      />
 
       <div class="mt-10 space-y-6">
-        {deliverables.map((item) => (
-          <div class="border-l-4 border-primary pl-4">
-            <h3 class="font-semibold">{item.title}</h3>
-            <p class="mt-1 text-muted">{item.description}</p>
-          </div>
-        ))}
+        {
+          deliverables.map((item) => (
+            <div class="border-l-4 border-primary pl-4">
+              <h3 class="font-semibold">{item.title}</h3>
+              <p class="mt-1 text-muted">{item.description}</p>
+            </div>
+          ))
+        }
       </div>
     </div>
 
     {/* Schedule PDF mockup */}
-    <div class="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 shadow-xl overflow-hidden">
+    <div
+      class="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 shadow-xl overflow-hidden"
+    >
       {/* PDF header */}
       <div class="bg-primary px-5 py-4 flex items-center justify-between">
         <div>
           <p class="text-xs font-semibold text-blue-200 uppercase tracking-wider">CAH Medical-Surgical Unit</p>
           <p class="text-sm font-bold text-white mt-0.5">Week of Jun 2–8, 2025</p>
         </div>
-        <span class="rounded-full bg-white/20 border border-white/30 px-3 py-1 text-xs font-semibold text-white">PDF Ready</span>
+        <span class="rounded-full bg-white/20 border border-white/30 px-3 py-1 text-xs font-semibold text-white"
+          >PDF Ready</span
+        >
       </div>
 
       {/* Schedule grid */}
@@ -120,7 +126,9 @@ const deliverables = [
       </div>
 
       {/* Footer */}
-      <div class="flex items-center justify-between border-t border-gray-200 dark:border-gray-700 px-5 py-3 bg-gray-50 dark:bg-slate-900">
+      <div
+        class="flex items-center justify-between border-t border-gray-200 dark:border-gray-700 px-5 py-3 bg-gray-50 dark:bg-slate-900"
+      >
         <div class="flex items-center gap-3">
           <div class="flex items-center gap-1.5">
             <span class="h-2 w-2 rounded-full bg-green-500"></span>

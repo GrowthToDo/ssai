@@ -10,12 +10,17 @@ const metadata = {
 <Layout metadata={metadata}>
   <section class="relative overflow-hidden bg-page">
     <div class="pointer-events-none absolute inset-0">
-      <div class="absolute -top-24 left-1/2 h-80 w-[52rem] -translate-x-1/2 rounded-full bg-blue-200/40 dark:bg-blue-900/20 blur-3xl"></div>
+      <div
+        class="absolute -top-24 left-1/2 h-80 w-[52rem] -translate-x-1/2 rounded-full bg-blue-200/40 dark:bg-blue-900/20 blur-3xl"
+      >
+      </div>
     </div>
 
     <div class="relative mx-auto max-w-7xl px-4 pb-20 pt-32 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-3xl text-center">
-        <span class="inline-block rounded-full bg-blue-100 dark:bg-blue-900/30 px-4 py-2 text-sm font-semibold text-blue-700 dark:text-blue-300">
+        <span
+          class="inline-block rounded-full bg-blue-100 dark:bg-blue-900/30 px-4 py-2 text-sm font-semibold text-blue-700 dark:text-blue-300"
+        >
           Coming Soon
         </span>
 
@@ -27,9 +32,7 @@ const metadata = {
           <p>
             We built an Excel-based scheduling simulator to understand the complexity of nurse scheduling firsthand.
           </p>
-          <p>
-            It includes patient census data, real-world compliance rules, PTO tracking, and skill-matching.
-          </p>
+          <p>It includes patient census data, real-world compliance rules, PTO tracking, and skill-matching.</p>
           <p class="font-semibold">
             Soon, you'll be able to try it yourself and see why "just use Excel" breaks down at scale.
           </p>
@@ -38,12 +41,7 @@ const metadata = {
         {/* Email Capture Form */}
         <div class="mx-auto mt-12 max-w-md">
           <div class="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 p-8 shadow-sm">
-            <form
-              name="simulator-waitlist"
-              method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-            >
+            <form name="simulator-waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="simulator-waitlist" />
               <div class="hidden">
                 <label>
@@ -81,16 +79,9 @@ const metadata = {
                   />
                 </div>
 
-                <button
-                  type="submit"
-                  class="btn btn-primary w-full"
-                >
-                  Notify me
-                </button>
+                <button type="submit" class="btn btn-primary w-full"> Notify me </button>
 
-                <p class="text-sm text-muted">
-                  We'll send you one email when the simulator is ready. No spam.
-                </p>
+                <p class="text-sm text-muted">We'll send you one email when the simulator is ready. No spam.</p>
               </div>
             </form>
           </div>
@@ -98,9 +89,7 @@ const metadata = {
 
         {/* Back to Home */}
         <div class="mt-12">
-          <a href="/" class="btn">
-            ← Back to homepage
-          </a>
+          <a href="/" class="btn"> ← Back to homepage </a>
         </div>
       </div>
     </div>

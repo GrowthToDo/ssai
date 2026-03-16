@@ -3,32 +3,28 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import type { Widget } from '~/types';
 
-interface Props extends Widget {}
+type Props = Widget;
 
-const {
-  id,
-  isDark = false,
-  classes = {},
-  bg = await Astro.slots.render('bg'),
-} = Astro.props;
+const { id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
 
-const title = "Built by listening to people in the room";
-const subtitle = "We interviewed 30+ nurse managers before writing a single line of code. Not surveys. Real conversations about real scheduling problems.";
+const title = 'Built by listening to people in the room';
+const subtitle =
+  'We interviewed 30+ nurse managers before writing a single line of code. Not surveys. Real conversations about real scheduling problems.';
 
 const founders = [
   {
-    name: "Pradeep Pandey",
-    title: "Co-founder",
-    bio: "7 years inside hospital operations. Watched scheduling break good nurses and decided to fix it before it happened to your unit.",
-    imageAlt: "Pradeep Pandey, Co-founder of SimpleScheduleAI",
-    imageSrc: "/founders/pradeep.webp",
+    name: 'Pradeep Pandey',
+    title: 'Co-founder',
+    bio: '7 years inside hospital operations. Watched scheduling break good nurses and decided to fix it before it happened to your unit.',
+    imageAlt: 'Pradeep Pandey, Co-founder of SimpleScheduleAI',
+    imageSrc: '/founders/pradeep.webp',
   },
   {
-    name: "Gautham",
-    title: "Co-founder",
-    bio: "3x founder, 15 years in tech. Built the system so it works without your nurses or staff touching any software.",
-    imageAlt: "Gautham, Co-founder of SimpleScheduleAI",
-    imageSrc: "/founders/gautham.png",
+    name: 'Gautham',
+    title: 'Co-founder',
+    bio: '3x founder, 15 years in tech. Built the system so it works without your nurses or staff touching any software.',
+    imageAlt: 'Gautham, Co-founder of SimpleScheduleAI',
+    imageSrc: '/founders/gautham.png',
   },
 ];
 ---
@@ -40,19 +36,21 @@ const founders = [
   </div>
 
   <div class="flex flex-col items-center justify-center gap-12 sm:flex-row sm:items-start sm:gap-20">
-    {founders.map((founder) => (
-      <div class="flex max-w-xs flex-col items-center text-center">
-        <img
-          src={founder.imageSrc}
-          alt={founder.imageAlt}
-          class="h-24 w-24 rounded-full object-cover ring-4 ring-blue-100 dark:ring-blue-900"
-          loading="lazy"
-          decoding="async"
-        />
-        <h3 class="mt-5 text-lg font-bold">{founder.name}</h3>
-        <p class="text-sm font-semibold text-primary">{founder.title}</p>
-        <p class="mt-3 text-sm leading-relaxed text-muted">{founder.bio}</p>
-      </div>
-    ))}
+    {
+      founders.map((founder) => (
+        <div class="flex max-w-xs flex-col items-center text-center">
+          <img
+            src={founder.imageSrc}
+            alt={founder.imageAlt}
+            class="h-24 w-24 rounded-full object-cover ring-4 ring-blue-100 dark:ring-blue-900"
+            loading="lazy"
+            decoding="async"
+          />
+          <h3 class="mt-5 text-lg font-bold">{founder.name}</h3>
+          <p class="text-sm font-semibold text-primary">{founder.title}</p>
+          <p class="mt-3 text-sm leading-relaxed text-muted">{founder.bio}</p>
+        </div>
+      ))
+    }
   </div>
 </WidgetWrapper>
