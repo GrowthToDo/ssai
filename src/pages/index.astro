@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import ProductShowcase from '~/components/widgets/ProductShowcase.astro';
 import SoftwareVsService from '~/components/widgets/SoftwareVsService.astro';
@@ -19,9 +20,88 @@ const metadata = {
     'Scheduling stress drives your best nurses out and burns your budget. We deliver a compliant, post-ready schedule every week, with automatic callout coverage.',
   ignoreTitleTemplate: true,
 };
+
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SimpleScheduleAI",
+  "url": "https://simplescheduleai.com"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does SimpleScheduleAI handle last-minute nurse callouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a nurse calls out, SimpleScheduleAI instantly generates a ranked replacement shortlist from available, qualified staff — factoring in overtime rules, fairness, and Texas compliance. The nurse manager receives the list and can notify replacements directly, reducing coverage time from hours to minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is SimpleScheduleAI compliant with Texas nurse staffing regulations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. SimpleScheduleAI tracks Texas state overtime rules and federal staffing guidelines for critical access hospitals, flagging compliance issues before the schedule is published. An audit trail log is maintained for regulatory review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does implementation look like for a 25-bed hospital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Onboarding for a typical 25-bed critical access hospital takes less than a week. The nurse manager uploads the existing roster via Excel, configures shift rules and preferences, and SimpleScheduleAI generates the first draft schedule for review. No complex IT integration is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most critical access hospitals are up and running within 3–5 business days. The process involves uploading your nurse roster in Excel format, setting shift rules, and reviewing the first AI-generated schedule. Our team handles configuration support throughout onboarding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can SimpleScheduleAI replace our existing scheduling spreadsheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. SimpleScheduleAI is designed to replace manual Excel scheduling for critical access hospitals. It accepts Excel roster uploads, so there is no need to rebuild your nurse database from scratch, and schedule outputs can be exported for staff distribution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ROI for a critical access hospital using SimpleScheduleAI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critical access hospitals using SimpleScheduleAI typically see 12–18% operational efficiency improvement in Year 1, up to 30% reduction in overtime costs through predictive scheduling, and 12% reduction in agency staffing reliance within 6 months. Nurse manager administrative time drops by 15–28%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is our staff data protected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SimpleScheduleAI does not store patient data. All scheduling data is encrypted at rest (AES-256) and in transit (TLS 1.3). SimpleScheduleAI does not share staff data with third parties and maintains data handling practices aligned with healthcare privacy requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a nurse declines a shift offered through the system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a nurse declines, SimpleScheduleAI automatically moves to the next ranked candidate on the replacement shortlist. The manager sees the full ranked list and can work through it sequentially until coverage is confirmed. All actions are logged in the audit trail."
+      }
+    }
+  ]
+};
 ---
 
 <Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={[webSiteSchema, faqSchema]} />
   <!-- Hero Section -->
   <Hero
     announcement="3 CAH pilot spots open. Full managed service, free for 60 days."

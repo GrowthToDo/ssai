@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
 import DarkHero from '~/components/widgets/DarkHero.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import ComplianceRules from '~/components/widgets/ComplianceRules.astro';
@@ -12,9 +13,67 @@ const metadata = {
   description:
     'A simple, collaborative workflow for assisted nurse scheduling at Critical Access Hospitals in Texas. Your rules, your final approval, fewer headaches.',
 };
+
+const softwareAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SimpleScheduleAI",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Healthcare Scheduling Software",
+  "operatingSystem": "Web",
+  "url": "https://simplescheduleai.com",
+  "description": "AI-powered nurse scheduling software for critical access hospitals. Generates balanced, fair, and cost-optimized nurse schedules, handles callout replacements automatically, and tracks Texas overtime compliance.",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Nurse Managers, Directors of Nursing, CAH Administrators"
+  },
+  "featureList": [
+    "AI-generated nurse schedules",
+    "Three draft options: balanced, fairness-optimized, cost-optimized",
+    "Real-time callout replacement shortlist",
+    "Excel roster upload",
+    "Texas overtime compliance tracking",
+    "Audit trail logging"
+  ]
+};
+
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Set Up Automated Nurse Scheduling for a Critical Access Hospital",
+  "description": "A step-by-step guide to implementing AI-assisted nurse scheduling at a 25-bed critical access hospital using SimpleScheduleAI.",
+  "totalTime": "PT1W",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Upload your existing nurse roster",
+      "text": "Export your current nurse roster from your HR or EHR system into Excel format and upload it to SimpleScheduleAI. The system accepts standard .xlsx files with columns for nurse name, role, certifications, and availability."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Configure shift rules and compliance parameters",
+      "text": "Set your hospital's shift structure (days, nights, weekends), Texas overtime rules, and any facility-specific constraints such as minimum rest periods between shifts."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Review the three AI-generated schedule drafts",
+      "text": "SimpleScheduleAI generates three schedule options: balanced coverage, fairness-optimized (equitable shift distribution), and cost-optimized (minimizes overtime). The nurse manager reviews and selects or modifies."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Publish and distribute the approved schedule",
+      "text": "Once approved, the schedule is published and distributed to nursing staff. The audit trail is automatically logged for compliance review."
+    }
+  ]
+};
 ---
 
 <Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={[softwareAppSchema, howToSchema]} />
   <!-- Dark Hero -->
   <DarkHero
     badge="Clear workflow. Predictable handoffs."
