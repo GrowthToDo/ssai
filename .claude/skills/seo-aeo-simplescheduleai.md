@@ -1,0 +1,1031 @@
+---
+name: seo-aeo-simplescheduleai
+description: >
+  Use whenever working on SimpleScheduleAI website: writing or editing page copy,
+  meta tags, schema markup, blog posts, FAQ sections, robots.txt, llms.txt, or
+  auditing SEO/GEO visibility in Google AI Overviews, Perplexity, ChatGPT, Claude.
+  Triggers: any content creation, structured data, technical SEO, or AEO task.
+product: SimpleScheduleAI
+target_audience: CAH Administrators, Hospital CEOs, Nurse Managers, Directors of Nursing (DONs)
+primary_market: Critical Access Hospitals (≤25 beds), Texas, United States
+last_updated: 2026-03
+---
+
+# SEO & GEO/AEO Skill — SimpleScheduleAI
+
+## PRODUCT CONTEXT (Read first, always)
+
+**SimpleScheduleAI** is an AI-powered nurse scheduling managed service targeting
+Critical Access Hospitals (CAHs) in Texas (≤25 beds). Key differentiators:
+Excel-based roster upload, three schedule draft options (balanced /
+fairness-optimized / cost-optimized), ranked callout replacement shortlists,
+audit trail logging, and Texas-specific overtime compliance. Decision-makers are
+**CAH Administrators / Hospital CEOs** and **Nurse Managers / Directors of
+Nursing (DONs)**.
+
+---
+
+## PART 1 — CONCEPTS (UNDERSTAND BEFORE ACTING)
+
+### 1.1 SEO vs AEO/GEO in 2026
+
+**SEO** = making pages discoverable and rankable in Google's blue-link results.
+Governed by crawlability, E-E-A-T, helpful content, Core Web Vitals, and
+on-page signals.
+
+**AEO/GEO** (Answer Engine / Generative Engine Optimization) = making content
+the source that AI systems (Google AI Overviews, Perplexity, ChatGPT, Claude,
+Gemini) choose to cite when generating synthesized answers. GEO targets
+retrieval-augmented generation (RAG) pipelines, not keyword rankings.
+
+AI engines favor:
+- Content crawlable by Googlebot and all AI crawlers (see Part 2.1)
+- Concise, extractable answer blocks (40–70 words under a question-style heading)
+- Accurate, complete JSON-LD structured data (schema stacking = 1.8x citations)
+- Strong entity signals (Organization, Product, Author with sameAs links)
+- Fresh, well-sourced, clearly attributed facts
+- Brand mentions across multiple authoritative platforms
+
+**YMYL consideration**: Healthcare staffing affects patient safety, nurse
+well-being, and hospital finances. This puts SimpleScheduleAI near YMYL
+(Your Money or Your Life) territory. Every page must show real expertise,
+real authors, and credible sources.
+
+### 1.2 Why AI Citation Position Is Everything
+
+In traditional SEO, position #1 captured ~30% of clicks. In AI search,
+concentration is far more extreme:
+
+| AI Citation Position | Share of User Clicks |
+|---------------------|---------------------|
+| 1st cited source | 43% |
+| 2nd cited source | 28% |
+| 3rd cited source | 15% |
+| 4th+ cited sources | < 5% each |
+
+AI-referred sessions grew **+527% year-over-year** (Jan–May 2025). ChatGPT
+accounts for **87.4%** of all AI referral traffic. Being cited 3rd is nearly
+worthless. Every content and schema decision must optimize for being the FIRST
+cited source, not just appearing somewhere.
+
+### 1.3 AI Ranking Factor Weights (2026)
+
+| Ranking Factor | Weight | What it means for SimpleScheduleAI |
+|----------------|--------|-------------------------------------|
+| Entity Recognition & Knowledge Graph | 20% | Build Crunchbase, LinkedIn, G2, Capterra profiles. Brand mentions correlate 3x more strongly with AI visibility than backlinks. |
+| Schema Markup Completeness | 18% | Complete JSON-LD on every page. Triple-stacking (Article + FAQPage + ItemList) = 1.8x more citations. Pages without schema risk 60% AI visibility loss by 2026. |
+| Content Structure & Answerability | 17% | Question-format headings + 40–70 word answer blocks (Content Capsule Technique). |
+| E-E-A-T Signals | 15% | Author credentials, external citations, verifiable claims. Healthcare = high bar. |
+| Content Freshness & Update Frequency | 12% | Content older than 14 days shows 23% citation decline in AI engines. Publish ≥2 pieces/week. |
+| Semantic Depth & Comprehensiveness | 10% | Anticipate follow-up questions. Cover adjacent topics (compliance, burnout, callouts). |
+| User Engagement Signals | 5% | CTR and dwell time on traditional search indirectly inform AI confidence. |
+| Backlink Profile | 3% | Still foundational, but semantic relevance now outweighs raw volume. |
+
+### 1.4 Per-Engine Optimization (Enhanced — 2026 Research)
+
+Each AI engine has a distinct retrieval architecture. Optimize for all four:
+
+| Engine | Favors | Citation Style | Key Action |
+|--------|--------|----------------|------------|
+| **ChatGPT** (87% of AI referrals) | 120–180 word sections, balanced pros/cons, follow-up Q coverage, encyclopedic depth | Footnote superscripts at end | Long-form pillar content; never one-sided; always acknowledge tradeoffs |
+| **Perplexity** | Factual density, explicit source-backed claims with hyperlinks, recency, structured pages | Numbered inline [n], research-paper style | Every stat/claim must hyperlink to a primary source; vague claims = ignored |
+| **Gemini** | Standard Google SEO signals, Core Web Vitals, localized signals, technical SEO | Inherited Google ranking | Traditional SEO cannot be skipped; Gemini inherits Google's ranking system |
+| **Claude** | Multi-source verified content, objective analysis, balanced perspectives, explicit acknowledgment of limitations | Cited when asked; handles 5,000+ word passages | Include "not right for" section in product pages; counter-intuitive honesty = citation boost |
+
+**Copilot** (Microsoft): Favors diversity of source types and methodology depth.
+**Google AI Overviews**: Only 11% of domains are cited by both ChatGPT and Google AI Overviews for the same query — track separately.
+
+---
+
+## PART 2 — TECHNICAL SEO CHECKLIST
+
+### 2.1 Robots & Crawlability (Full AI Crawler List — 2026)
+
+```
+# Correct robots.txt for SimpleScheduleAI
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI training
+User-agent: Google-Extended
+Allow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (feeds most LLM training data)
+User-agent: CCBot
+Allow: /
+
+# ByteDance / TikTok
+User-agent: Bytespider
+Allow: /
+
+User-agent: TikTokSpider
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# AI2 (Allen Institute)
+User-agent: AI2Bot
+Allow: /
+
+Sitemap: https://simplescheduleai.com/sitemap-index.xml
+```
+
+**NEVER** add `Disallow: /` for AI crawlers. Blocking ANY of these removes
+SimpleScheduleAI from LLM training data and citation pools. GPTBot traffic
+grew from 5% to 30% of bot traffic between May 2024 and May 2025.
+
+### 2.2 XML Sitemap
+
+Include ALL indexable marketing pages and blog posts. Exclude: thank-you pages,
+admin pages, duplicate/parameterized URLs.
+
+Update the sitemap and resubmit to Google Search Console whenever a new page
+is published.
+
+### 2.3 URL Structure Rules
+
+| ✅ DO | ❌ DON'T |
+|-------|---------|
+| `/nurse-scheduling-software` | `/page?id=12` |
+| `/critical-access-hospital-scheduling` | `/p1` |
+| `/blog/nurse-callout-coverage-tips` | `/blog/post-3` |
+| `/roi-calculator` | `/calculator.php?type=roi` |
+
+Rules: lowercase, hyphens (not underscores), keyword-bearing, under 60 chars.
+
+### 2.4 Core Web Vitals Targets
+
+| Metric | Target | Fix |
+|--------|--------|-----|
+| LCP | < 2.5s | Compress hero image, preload fonts, use WebP/AVIF |
+| INP | < 200ms | Reduce JS bundle, defer non-critical scripts |
+| CLS | < 0.1 | Set explicit width/height on all images |
+
+**Critical rule**: H1, value proposition text, and CTA must be in server-rendered
+HTML — NOT injected by JavaScript. AI crawlers and Googlebot may not execute JS.
+
+### 2.5 Meta Tags Template
+
+```html
+<!-- TITLE: 50-60 chars -->
+<title>Nurse Scheduling Software for Critical Access Hospitals | SimpleScheduleAI</title>
+
+<!-- META DESCRIPTION: 140-160 chars -->
+<meta name="description" content="AI-powered nurse scheduling for critical access hospitals. Reduce overtime, handle callouts instantly, stay Texas-compliant. Built for CAH nurse managers.">
+
+<link rel="canonical" href="https://simplescheduleai.com/nurse-scheduling-software">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nurse Scheduling Software for Critical Access Hospitals | SimpleScheduleAI">
+<meta property="og:description" content="AI-powered nurse scheduling built for 25-bed critical access hospitals.">
+<meta property="og:image" content="https://simplescheduleai.com/images/og-nurse-scheduling.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+```
+
+**DO NOT** write the same title/description on multiple pages. Every page must
+have unique meta tags.
+
+### 2.6 HTML Heading Hierarchy
+
+```
+H1 → One per page. Contains primary keyword. States the outcome.
+  H2 → Major sections. Question-format for AEO.
+    H3 → Subsections. Supporting detail or secondary questions.
+```
+
+Never skip levels or use headings for visual styling.
+
+---
+
+## PART 3 — ON-PAGE SEO RULES
+
+### 3.1 H1 Rules
+
+- One H1 per page. Always.
+- Must contain the primary keyword naturally.
+- Should communicate a clear outcome.
+
+```
+✅ "Nurse Scheduling Software for Critical Access Hospitals"
+✅ "Cut Overtime and Cover Callouts — Automated Nurse Scheduling for CAHs"
+❌ "Welcome to SimpleScheduleAI"
+❌ "Our Product"
+```
+
+### 3.2 Body Copy Rules
+
+- Primary keyword in the first 100 words of body text.
+- Use semantic variants: "nurse scheduling", "staff scheduling", "nurse roster
+  management", "shift scheduling for nurses", "CAH scheduling".
+- Minimum 600 words for product/landing pages; 1,200+ for blog posts.
+- Each paragraph: 2–4 sentences max.
+
+### 3.3 Image Alt Text Rules
+
+```html
+<!-- CORRECT -->
+<img src="/images/schedule-grid.png"
+     alt="SimpleScheduleAI nurse schedule grid for 25-bed critical access hospital"
+     width="800" height="450">
+
+<!-- WRONG — too vague -->
+<img src="/images/schedule-grid.png" alt="schedule">
+```
+
+### 3.4 Internal Linking Rules
+
+- Every blog post must link to the primary pillar page with keyword anchor text.
+- Use descriptive anchor text (NOT "click here" or "read more").
+- No orphan pages — every page linked from at least one other page.
+
+---
+
+## PART 4 — AEO CONTENT PATTERNS
+
+### 4.1 The Content Capsule Technique (Primary AEO Method)
+
+This is the single highest-impact AEO writing pattern. Apply to EVERY H2 and H3.
+
+**The formula:**
+```
+[H2/H3 — phrased as a conversational question matching search intent]
+[40–70 word direct, declarative answer — the "capsule"]
+[Deeper explanation: 120–180 words for ChatGPT citation boost]
+```
+
+**The capsule (40–70 word block) must:**
+- Start IMMEDIATELY under the question heading — zero preamble
+- Be a direct, declarative answer in plain language
+- Be self-contained — make sense if extracted and read in isolation
+- Not begin with "I", the company name, or "This article..."
+- Contain at least one verifiable, specific fact
+
+**WRONG (traditional):**
+```
+H2: Modern Staffing Solutions
+[Long introductory paragraph that takes 3 sentences to get to the point...]
+```
+
+**CORRECT (Content Capsule):**
+```
+H2: How does scheduling software reduce nurse burnout?
+[Nurse scheduling software reduces burnout by distributing shift loads
+equitably across staff, preventing any single nurse from repeatedly
+drawing overnight or weekend assignments. Algorithms flag fatigue risk
+before publishing the schedule. Optimized scheduling reduces reported
+burnout symptoms by up to 23% within six months of implementation.]
+[Deeper explanation: 120–180 words follows...]
+```
+
+### 4.2 Question Heading Templates
+
+**Homepage / Product page:**
+```
+H2: What is AI-assisted nurse scheduling?
+H2: How does SimpleScheduleAI work for critical access hospitals?
+H2: How much time can nurse managers save per week?
+H2: How does SimpleScheduleAI handle last-minute callouts?
+H2: Is SimpleScheduleAI compliant with Texas nurse staffing regulations?
+```
+
+**Blog posts / Educational content:**
+```
+H2: What are the staffing requirements for critical access hospitals?
+H2: How do small hospitals handle nurse callouts without agency staff?
+H2: What causes nurse burnout in 25-bed hospitals — and how do you prevent it?
+H2: What is the true cost of nurse overtime in a critical access hospital?
+```
+
+### 4.3 FAQ Section Template
+
+Add to every high-intent page (homepage, product, pilot signup).
+Mark with FAQPage schema (see Part 5.4).
+
+**Mandatory FAQs for SimpleScheduleAI pages:**
+1. How does SimpleScheduleAI handle last-minute nurse callouts?
+2. Is SimpleScheduleAI compliant with Texas and federal nurse staffing regulations?
+3. What does implementation look like for a 25-bed hospital?
+4. How long does it take to get started?
+5. What happens if a nurse declines a shift offered through the system?
+6. How is our patient and staff data protected?
+7. Can SimpleScheduleAI replace our existing scheduling spreadsheets?
+8. What's the ROI for a critical access hospital using SimpleScheduleAI?
+
+### 4.4 Comparison Tables for AEO
+
+AI engines extract clearly structured comparison tables reliably.
+
+```html
+<table>
+  <caption>Nurse Scheduling Options for Critical Access Hospitals</caption>
+  <thead>
+    <tr><th>Method</th><th>Time Cost</th><th>Overtime Risk</th><th>Callout Coverage</th><th>Compliance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Manual Spreadsheets</td><td>8–12 hrs/week</td><td>High</td><td>Manual calls</td><td>None</td></tr>
+    <tr><td>Staffing Agency</td><td>Low setup, high cost</td><td>Very High</td><td>24–48 hrs</td><td>None</td></tr>
+    <tr><td><strong>SimpleScheduleAI</strong></td><td>1–2 hrs/week</td><td>Low</td><td>Instant ranked list</td><td>Audit trail + TX</td></tr>
+  </tbody>
+</table>
+```
+
+### 4.5 Source-Backed Claims Mandate
+
+Content with unsupported claims is routinely discarded during AI generation.
+Source-backed content gets cited 115% more often than unsupported content.
+
+**RULE: Every statistic, regulatory reference, or operational claim must
+hyperlink to a primary source.**
+
+| ❌ WRONG | ✅ RIGHT |
+|----------|---------|
+| "Nurse scheduling software improves efficiency" | "Optimized nurse allocation reduces agency staffing reliance by 12% within six months [link to source]" |
+| "Overtime is a major problem in small hospitals" | "CAHs spend 18–22% of labor budgets on overtime [link to HRSA rural workforce data]" |
+
+**Approved primary sources:**
+- CMS (cms.gov) — CAH regulations
+- HRSA (hrsa.gov) — rural health workforce data
+- Texas DSHS (dshs.texas.gov) — Texas nursing regulations
+- American Nurses Association (nursingworld.org) — staffing standards
+- AONL (aonl.org) — nursing leadership research
+- Flex Monitoring Team (flexmonitoring.org) — CAH-specific data
+
+### 4.6 ROI Data Points
+
+Embed these throughout copy, tables, and schema:
+- 12–18% operational efficiency improvement in Year 1
+- 12% reduction in agency staffing reliance within 6 months
+- 15–28% reduction in administrative work for nurse managers
+- Up to 30% reduction in overtime costs through predictive scheduling
+- Up to 25% reduction in appointment no-show rates via automated reminders
+
+Always attribute: "In our Texas CAH pilot cohort, [metric]..." or "Research shows [metric] [link to source]."
+
+### 4.7 Multimodal Content Strategy
+
+Written blog posts with embedded YouTube videos are cited in Google AI Overviews
+156% more frequently than text-only pages.
+
+**Content repurposing pipeline per pillar topic:**
+1. Long-form written article (1,500–3,000 words, Content Capsule format)
+2. Short YouTube explainer (3–5 min) on same topic — embed in article
+3. FAQ array from article — add FAQPage schema
+4. LinkedIn post summarizing key insight — links to full article
+
+**Minimum content velocity:** 2 comprehensive pieces per week.
+
+### 4.8 GEO Citability Scoring (2026 Research Data)
+
+| Content Layer | Target Word Count | Citation Impact |
+|--------------|-------------------|-----------------|
+| TL;DR / Capsule Answer | 40–70 words | Fastest AI extraction point |
+| Per-Section Depth | 120–180 words | +70% ChatGPT citations |
+| FAQ Answers | 50–60 words | Self-contained, quotable |
+| Full Article | 1,500–3,000 words | Claude handles 5,000+ |
+| Fact Frequency | 1 stat per 150–200 words | Critical for Perplexity |
+
+**Schema stacking rule**: Article + FAQPage + ItemList = **1.8x more citations**
+than single schema. Valid structured data = **2.3x more likely** to appear in
+AI citations. Schema markup alone = **36%+ boost** in AI citation chances.
+
+**Content freshness**: Content older than 14 days shows **23% citation decline**
+in AI engines. Update time-sensitive content every 7–14 days and refresh the
+`dateModified` field in your Article/BlogPosting schema.
+
+**Evidence density rule**: Replace marketing language with specific data points
+and third-party validation. AI systems are trust verification engines — vague
+promotional content is discarded.
+
+---
+
+## PART 5 — STRUCTURED DATA (JSON-LD SCHEMA)
+
+Implement ALL of these on the appropriate pages. Place JSON-LD in `<head>`.
+Validate at: https://search.google.com/test/rich-results
+
+### 5.1 Organization Schema (Global — every page)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SimpleScheduleAI",
+  "url": "https://simplescheduleai.com",
+  "logo": "https://simplescheduleai.com/images/logo.png",
+  "description": "AI-powered nurse scheduling managed service for critical access hospitals in Texas.",
+  "foundingDate": "2024",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "hello@simplescheduleai.com"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/simplescheduleai",
+    "https://twitter.com/simplescheduleai"
+  ]
+}
+```
+
+### 5.2 SoftwareApplication Schema (How It Works / Product page)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SimpleScheduleAI",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Healthcare Scheduling Software",
+  "operatingSystem": "Web",
+  "url": "https://simplescheduleai.com",
+  "description": "AI-powered nurse scheduling software for critical access hospitals.",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Nurse Managers, Directors of Nursing, CAH Administrators"
+  },
+  "featureList": [
+    "AI-generated nurse schedules",
+    "Three draft options: balanced, fairness-optimized, cost-optimized",
+    "Real-time callout replacement shortlist",
+    "Excel roster upload",
+    "Texas overtime compliance tracking",
+    "Audit trail logging"
+  ]
+}
+```
+
+### 5.3 WebSite Schema (Homepage only)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SimpleScheduleAI",
+  "url": "https://simplescheduleai.com"
+}
+```
+
+### 5.4 FAQPage Schema (FAQ sections on product/home/pilot pages)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does SimpleScheduleAI handle last-minute nurse callouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a nurse calls out, SimpleScheduleAI instantly generates a ranked replacement shortlist from available, qualified staff — factoring in overtime rules, fairness, and Texas compliance. The nurse manager receives the list and can notify replacements directly, reducing coverage time from hours to minutes."
+      }
+    }
+  ]
+}
+```
+
+### 5.5 BlogPosting Schema (Every blog post)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Post title",
+  "description": "Post excerpt",
+  "url": "https://simplescheduleai.com/blog/post-slug",
+  "datePublished": "2026-03-01T00:00:00Z",
+  "dateModified": "2026-03-15T00:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Author Name",
+    "jobTitle": "Co-founder, SimpleScheduleAI"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SimpleScheduleAI",
+    "logo": { "@type": "ImageObject", "url": "https://simplescheduleai.com/images/logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://simplescheduleai.com/blog/post-slug" },
+  "image": "https://simplescheduleai.com/images/blog/post-image.png",
+  "keywords": ["nurse scheduling", "critical access hospital", "CAH staffing"]
+}
+```
+
+**CRITICAL**: Keep `dateModified` current. Stale dates = AI citation penalty.
+
+### 5.6 BreadcrumbList Schema (All inner pages)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://simplescheduleai.com" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://simplescheduleai.com/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Post Title", "item": "https://simplescheduleai.com/blog/post-slug" }
+  ]
+}
+```
+
+### 5.7 HowTo Schema (How It Works page)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Set Up Automated Nurse Scheduling for a Critical Access Hospital",
+  "description": "Step-by-step guide to implementing AI-assisted nurse scheduling at a 25-bed CAH.",
+  "totalTime": "PT1W",
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "Upload nurse roster", "text": "Export roster to Excel and upload to SimpleScheduleAI." },
+    { "@type": "HowToStep", "position": 2, "name": "Configure shift rules", "text": "Set shift structure, Texas overtime rules, and facility constraints." },
+    { "@type": "HowToStep", "position": 3, "name": "Review three AI-generated drafts", "text": "Choose from balanced, fairness-optimized, or cost-optimized schedule." },
+    { "@type": "HowToStep", "position": 4, "name": "Publish and distribute", "text": "Approve and publish; audit trail logged automatically." }
+  ]
+}
+```
+
+---
+
+## PART 6 — KEYWORD STRATEGY
+
+### 6.1 Keyword Tiers
+
+**Tier 1 — High Intent, Low Volume (Priority: Highest)**
+```
+nurse scheduling software critical access hospital
+CAH nurse scheduling software
+nurse scheduling software small hospital Texas
+automated nurse scheduling critical access
+AI nurse scheduling software
+```
+
+**Tier 2 — Problem-Aware, Mid Funnel (Priority: High)**
+```
+nurse callout coverage hospital
+how to reduce nurse overtime hospital
+nurse scheduling burnout prevention
+critical access hospital staffing challenges
+nurse scheduling compliance Texas
+```
+
+**Tier 3 — Awareness / Top of Funnel (Priority: Medium)**
+```
+what is a critical access hospital
+nurse staffing ratios Texas
+how to build a nurse schedule
+nurse scheduling best practices
+rural hospital staffing solutions
+```
+
+**Question keywords (AEO — write FAQ and blog content around these):**
+```
+how do critical access hospitals manage nurse scheduling?
+what software do small hospitals use for nurse scheduling?
+how do nurse managers handle last-minute callouts?
+what causes nurse burnout in small hospitals?
+how much does nurse overtime cost a small hospital?
+what are Texas staffing requirements for critical access hospitals?
+can AI help with hospital nurse scheduling?
+```
+
+### 6.2 Keyword-to-Page Mapping
+
+| Target Keyword | Target Page |
+|---------------|-------------|
+| nurse scheduling software critical access hospital | `/critical-access-hospital-scheduling` (Pillar) |
+| AI nurse scheduling software | `/nurse-scheduling-software` |
+| nurse callout coverage | `/blog/nurse-callout-coverage-tips` |
+| reduce nurse overtime hospital | `/blog/reduce-nurse-overtime-critical-access-hospitals` |
+| nurse scheduling compliance Texas | `/blog/texas-nurse-staffing-compliance` |
+| SimpleScheduleAI | `/` (Homepage) |
+| nurse scheduling ROI | `/roi` |
+
+---
+
+## PART 7 — CONTENT STRATEGY
+
+### 7.1 Mandatory Site Pages
+
+| Page | Primary Keyword | Priority |
+|------|----------------|----------|
+| Homepage `/` | simplescheduleai, nurse scheduling AI | Must-have |
+| Pillar `/critical-access-hospital-scheduling` | nurse scheduling for critical access hospitals | Must-have |
+| Product `/nurse-scheduling-software` | AI nurse scheduling software | Must-have |
+| How It Works `/how-it-works` | how does AI nurse scheduling work | Must-have |
+| ROI Calculator `/roi` | nurse scheduling ROI | Must-have |
+| Pilot Signup `/pilot` | CAH pilot program | Must-have |
+| About `/about` | SimpleScheduleAI team, founders | Must-have (E-E-A-T) |
+| Blog Index `/blog` | nurse scheduling tips | High |
+| Texas Compliance `/blog/texas-nurse-staffing-compliance` | Texas nurse staffing regulations | High |
+
+### 7.2 Blog Topic Cluster Plan
+
+**Pillar:** "Nurse Scheduling Software for Critical Access Hospitals"
+
+Cluster articles (in order of priority):
+1. How Critical Access Hospitals Can Reduce Nurse Overtime [Awareness]
+2. The True Cost of Manual Nurse Scheduling in a 25-Bed Hospital [Awareness]
+3. How to Handle Last-Minute Nurse Callouts Without Agency Staff [Awareness]
+4. Nurse Scheduling Compliance in Texas: What CAH Administrators Need to Know [Awareness]
+5. Spreadsheet vs Software: Nurse Scheduling Options for Small Hospitals [Consideration]
+6. How AI-Assisted Scheduling Reduces Nurse Manager Burnout [Consideration]
+7. ROI of Automated Nurse Scheduling for Critical Access Hospitals [Consideration]
+8. SimpleScheduleAI Pilot Program: What to Expect in 90 Days [Decision]
+9. Case Study: How [Hospital Name] Cut Overtime by X% [Decision]
+10. Nurse Self-Scheduling: Pros, Cons, and When It Works in CAHs [Awareness]
+
+### 7.3 Blog Post Structure Template
+
+```markdown
+# [Keyword-rich H1 — outcome-focused]
+
+[Author name, credentials, date, last updated]
+
+[40–60 word intro — AEO extract target]
+
+## The Problem: [State the pain point clearly]
+[200–300 words. Real data/sources. Link to CMS, ANA, state nursing board.]
+
+## [Question H2]
+[40–70 word direct answer — capsule]
+[120–180 word deeper explanation]
+
+## How SimpleScheduleAI Helps
+[Natural product mention — not a hard pitch.]
+
+## Frequently Asked Questions
+[3–5 FAQs with FAQPage schema]
+
+## Summary
+[5–7 bulleted key takeaways]
+
+[CTA: "Explore how SimpleScheduleAI works →"]
+```
+
+---
+
+## PART 8 — E-E-A-T IMPLEMENTATION
+
+### 8.1 Mandatory E-E-A-T Elements
+
+**Author bylines on ALL blog posts:**
+```html
+<div class="author-bio">
+  <img src="/images/team/pradeep.jpg" alt="Pradeep [Last Name], Co-founder SimpleScheduleAI">
+  <div>
+    <strong>Written by Pradeep [Last Name]</strong><br>
+    Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals.
+    MBA from IIM Trichy. Deep background in healthcare operations and workforce optimization.<br>
+    <a href="https://linkedin.com/in/pradeep-[profile]">LinkedIn →</a>
+  </div>
+</div>
+```
+
+**Trust signals to add site-wide:**
+- HIPAA data handling statement: "SimpleScheduleAI does not store patient data. Scheduling data is encrypted at rest (AES-256) and in transit (TLS 1.3)."
+- Contact info in footer (email minimum)
+- Privacy policy and terms of service pages
+- SSL/HTTPS on all pages
+
+### 8.2 Source Citation Rules
+
+- Always link to primary source (CMS, Texas DSHS, ANA, HRSA, peer-reviewed studies)
+- Format: "According to CMS guidelines for Critical Access Hospitals..."
+- Do NOT make regulatory or safety claims without a source link
+- If a stat is older than 2 years, find a newer source or note the date
+
+---
+
+## PART 9 — OFF-PAGE & AUTHORITY BUILDING
+
+### 9.1 Priority Link Building Targets
+
+**Tier 1:**
+- National Rural Health Association (nrha.org)
+- Texas Organization of Rural and Community Hospitals (torchnet.org)
+- Flex Monitoring Team (flexmonitoring.org)
+- AONL (aonl.org)
+
+**Tier 2:**
+- Becker's Hospital Review, HealthLeaders Media, Fierce Healthcare
+- G2, Capterra, Software Advice listings
+
+### 9.2 Entity Presence Checklist
+
+- [ ] LinkedIn Company Page active
+- [ ] Crunchbase listing with description and founders
+- [ ] G2 listing (even with no reviews)
+- [ ] Capterra listing
+- [ ] AngelList / Wellfound profile
+- [ ] ProductHunt launch
+
+### 9.3 Brand & Entity Monitoring (GEO Signal — 2026)
+
+**Brand mentions correlate 3x more strongly with AI visibility than backlinks.**
+AI knowledge graphs recognize entities by consistent appearance across sources.
+Time-to-citation (speed at which content gets cited after publication) is an
+emerging signal.
+
+**Track SimpleScheduleAI mentions monthly across:**
+- LinkedIn (posts, comments, company page)
+- Reddit (r/nursing, r/healthcareit, r/hospitaladministration)
+- Capterra, G2, Software Advice (reviews + mentions)
+- Google AI Overviews (manual search for target queries)
+- Perplexity (manual check for target queries)
+- ChatGPT with browsing (manual check)
+
+**AI Share of Voice** = % of AI-generated answers in niche that cite SimpleScheduleAI.
+This is the primary KPI for GEO success — track monthly in the AEO tracking spreadsheet.
+
+---
+
+## PART 10 — AEO MEASUREMENT & TRACKING
+
+### 10.1 Core Query Set to Monitor
+
+**Check weekly:**
+- "nurse scheduling software for critical access hospitals"
+- "AI nurse scheduling software small hospital"
+- "CAH nurse scheduling tool"
+
+**Check monthly:**
+- "how to reduce nurse overtime critical access hospital"
+- "nurse callout coverage hospital software"
+- "best nurse scheduling software 25 bed hospital"
+- "Texas nurse staffing compliance software"
+
+**Check quarterly:**
+- "what is assisted nurse scheduling"
+- "nurse scheduling burnout prevention"
+- "hospital nurse schedule automation"
+
+### 10.2 AEO Tracking Spreadsheet
+
+| Date | Query | Engine | SimpleScheduleAI cited? | Position/context | Competing brands | Action taken |
+|------|-------|--------|------------------------|------------------|-----------------|--------------|
+
+Check: Google AI Overviews, Perplexity, ChatGPT with browsing, Claude.
+
+### 10.3 Tools
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| Google Search Console | Track impressions, clicks, positions | Free |
+| Google Rich Results Test | Validate schema markup | Free |
+| Screaming Frog | Technical crawl audits | Free ≤500 URLs |
+| PageSpeed Insights | Core Web Vitals testing | Free |
+| Perplexity.ai | Manual AEO citation checks | Free |
+| Ahrefs / Semrush | Keyword tracking, backlinks | Paid |
+
+---
+
+## PART 11 — DO'S AND DON'TS
+
+### ✅ SEO DO'S
+1. Write every page for a specific human audience with a specific problem in mind.
+2. Use one H1 per page containing the primary keyword.
+3. Write unique meta titles (50–60 chars) and descriptions (140–160 chars) for every page.
+4. Compress all images, serve in WebP/AVIF, set explicit width and height.
+5. Build internal links from blog posts to pillar pages using keyword-rich anchor text.
+6. Keep sitemap updated and submit to Google Search Console after new pages launch.
+7. Publish articles with real author bylines and credentials.
+8. Ensure HTTPS on all pages.
+
+### ❌ SEO DON'TS
+1. Do NOT keyword-stuff page copy, titles, alt text, or meta descriptions.
+2. Do NOT publish thin content (under 400 words) on core product/blog pages.
+3. Do NOT use the same title tag or meta description on multiple pages.
+4. Do NOT use JavaScript to render the H1, main value prop, or primary CTA.
+5. Do NOT create doorway pages (near-identical pages targeting slight keyword variations).
+6. Do NOT publish AI-generated blog posts without expert review and real author attribution.
+
+### ✅ AEO/GEO DO'S
+1. Use question-format H2/H3 headings mirroring natural language queries.
+2. Write a 40–70 word direct answer immediately after every question heading.
+3. Add FAQ sections with FAQPage schema to every high-intent page.
+4. Triple-stack schemas: Article + FAQPage + ItemList for blog posts.
+5. Allow ALL legitimate AI crawlers in robots.txt.
+6. Keep `dateModified` current in all Article/BlogPosting schemas.
+7. Build entity profiles on LinkedIn, Crunchbase, G2, Capterra.
+8. Update llms.txt whenever a feature, pricing, or key page changes.
+9. Track AI Share of Voice monthly.
+10. Include "not right for" context on product pages (honesty = Claude/ChatGPT citation boost).
+
+### ❌ AEO/GEO DON'TS
+1. Do NOT block AI crawlers (GPTBot, CCBot, PerplexityBot, ClaudeBot) in robots.txt.
+2. Do NOT let schema data contradict or add to what's visible on the page.
+3. Do NOT use fake reviews or inflated ratings in schema.
+4. Do NOT make safety or clinical claims without sourced evidence (YMYL risk).
+5. Do NOT assume Google ranking = appearing in AI Overviews (track separately).
+6. Do NOT let content go unupdated for 14+ days if it covers time-sensitive data.
+
+---
+
+## PART 12 — PHASE-BY-PHASE IMPLEMENTATION ROADMAP
+
+### Phase 1: Technical Foundation ✅ COMPLETED
+- [x] robots.txt — 14+ AI crawler allowlist
+- [x] llms.txt — AI-readable site summary
+- [x] SchemaOrg.astro — reusable JSON-LD component
+- [x] Organization schema — global (every page)
+- [x] WebSite + FAQPage schemas — homepage
+- [x] SoftwareApplication + HowTo schemas — how-it-works
+- [x] FAQPage schema — pilot page
+- [x] BlogPosting + BreadcrumbList schemas — all blog posts
+- [ ] Google Search Console setup + sitemap submission
+- [ ] Core Web Vitals audit (PageSpeed Insights)
+
+### Phase 2: Content & AEO (Weeks 4–12)
+- [ ] Create/rewrite pillar page: `/critical-access-hospital-scheduling`
+- [ ] Create product page: `/nurse-scheduling-software`
+- [ ] Write 4 cluster blog posts (overtime, callouts, compliance, burnout)
+- [ ] Add real author bios with credentials to all blog posts
+- [ ] Implement comparison table section on product pages
+- [ ] Build ROI calculator page schema
+- [ ] Add ItemList schema to blog index for schema triple-stacking
+
+### Phase 3: Authority & Measurement (Weeks 8–24)
+- [ ] Build About/Team pages with detailed bios and LinkedIn links
+- [ ] Add HIPAA/security trust section to homepage and product page
+- [ ] Create first case study with before/after metrics
+- [ ] Submit to G2, Capterra, Crunchbase
+- [ ] Set up AEO tracking spreadsheet — baseline check
+- [ ] Begin outreach to NRHA, TORCH, health IT publications
+- [ ] Set up Ahrefs or Semrush for keyword rank tracking
+
+---
+
+## PART 13 — llms.txt FILE
+
+Place at `https://simplescheduleai.com/llms.txt`. Plain Markdown only.
+Update whenever: new feature added, pricing changes, new key page published.
+
+Current file: `public/llms.txt` in the project root.
+
+**Claude Code instruction**: After any product or page changes, update `public/llms.txt`.
+
+---
+
+## PART 14 — COMPETITOR COMPARISON STRATEGY
+
+Bottom-of-funnel comparison searches have the highest conversion rates.
+LLMs actively surface comparison content during evaluation mode.
+
+**Target pages to build:**
+
+| Competitor | Target URL | Priority |
+|-----------|-----------|---------|
+| NurseGrid | `/alternatives/nursegrid-vs-simplescheduleai` | High |
+| ShiftWizard | `/alternatives/shiftwizard-vs-simplescheduleai` | High |
+| Excel scheduling | `/alternatives/excel-vs-nurse-scheduling-software` | High |
+| Deputy | `/alternatives/deputy-vs-simplescheduleai` | Medium |
+
+**Tone rule for comparison pages**: Be factually honest. Acknowledge what the
+competitor does well and where SimpleScheduleAI may NOT be the right fit.
+This counter-intuitive balance dramatically increases AI citation likelihood.
+
+---
+
+## PART 15 — HIPAA-COMPLIANT TECHNICAL SEO
+
+```
+MANDATORY:
+[ ] SSL/TLS on ALL pages (HTTPS everywhere)
+[ ] No contact forms capturing PHI without BAA with form provider
+[ ] Analytics: Use Plausible, Fathom, or PostHog (HIPAA-aligned)
+    DO NOT use standard GA4 without careful HIPAA config
+[ ] Any third-party tool that could receive session data must have BAA
+[ ] Hosting provider must have BAA capability (Vercel, AWS, Azure)
+
+STRONGLY RECOMMENDED:
+[ ] Dedicated /security page with encryption details
+[ ] Statement: "SimpleScheduleAI does not store patient data."
+[ ] Privacy policy addressing healthcare data handling
+[ ] Cookie consent banner
+```
+
+HIPAA compliance is an E-E-A-T and AI citation signal. AI engines cross-reference
+company compliance status when evaluating healthcare content credibility.
+
+---
+
+## VALIDATION CHECKLIST (Run before publishing any new page)
+
+```
+[ ] Unique, keyword-rich title tag (50–60 chars)
+[ ] Unique meta description (140–160 chars)
+[ ] One H1 with primary keyword
+[ ] Primary keyword in first 100 words
+[ ] All H2/H3 headings phrased as questions with 40–70 word capsule answers
+[ ] FAQ section with FAQPage schema (product/landing pages)
+[ ] Appropriate JSON-LD schema (BlogPosting for blogs, SoftwareApplication for product)
+[ ] BreadcrumbList schema (all inner pages)
+[ ] Author byline with credentials (blog posts — NOT "SimpleScheduleAI Team")
+[ ] All stats and claims hyperlink to primary source
+[ ] All images have descriptive alt text + width/height
+[ ] All images are WebP/AVIF and compressed
+[ ] Internal links to pillar page with keyword anchor text
+[ ] Canonical tag points to correct URL
+[ ] Page added to XML sitemap
+[ ] llms.txt updated if new feature or page added
+[ ] PageSpeed Insights: LCP < 2.5s, CLS < 0.1
+[ ] Schema validated in Google Rich Results Test
+[ ] robots.txt still allows all AI crawlers (no accidental blocks)
+[ ] No PHI-capturing forms or HIPAA-violating tracking code added
+[ ] dateModified in BlogPosting schema reflects actual update date
+[ ] AI Share of Voice check queued for next monthly review
+```
+
+---
+
+## PART 16 — CLAUDE CODE SKILL SYNERGY
+
+### 16.1 How This Skill Works with the Project
+
+This skill is installed at `.claude/skills/seo-aeo-simplescheduleai.md` and is
+automatically triggered by Claude Code when the task involves any of:
+- Writing or editing page copy or blog content
+- Adding or editing meta tags
+- Implementing JSON-LD schema markup
+- Creating FAQ sections
+- Auditing technical SEO
+- Writing comparison or alternative pages
+- Updating robots.txt or llms.txt
+
+**Separation of concerns:**
+- **This skill** = SEO/AEO/GEO strategy, content rules, schema templates, checklists
+- **CLAUDE.md** = Tech stack, deployment process, brand guidelines, file structure
+
+This prevents generating SEO-compliant content that conflicts with engineering
+constraints of the codebase.
+
+### 16.2 Project Technical Context for SEO Work
+
+```
+Framework: Astro 5 (static output)
+Blog posts: src/data/post/*.md or *.mdx
+Schema injection: SchemaOrg.astro component (src/components/common/SchemaOrg.astro)
+  — accepts: schema prop (object or array)
+  — usage: <SchemaOrg slot="head" schema={[schema1, schema2]} />
+Layout chain: PageLayout.astro → Layout.astro (head slot forwarded)
+Organization schema: hardcoded in Layout.astro (runs on every page)
+Sitemap: auto-generated by @astrojs/sitemap on build
+robots.txt: public/robots.txt (static file)
+llms.txt: public/llms.txt (static file — update manually when product changes)
+Analytics: Google Analytics 4 (G-J2WK4QR3RC)
+Hosting: Netlify (netlify.toml) or Vercel (vercel.json)
+```
+
+### 16.3 Slash Command Trigger
+
+Invoke this skill explicitly in Claude Code with:
+```
+/seo-aeo-simplescheduleai
+```
+
+Or reference it by name when asking Claude Code to write blog posts, audit SEO,
+add schema, or review page content.
+
+### 16.4 Content Brand Voice
+
+- **Tone**: Professional, empathetic, direct — like a trusted colleague who
+  understands hospital operations
+- **Audience**: Nurse managers and CAH administrators (not tech-savvy B2B buyers)
+- **Avoid**: Jargon, vague claims, passive voice, generic AI-generated copy
+- **Always**: Acknowledge tradeoffs; include what SimpleScheduleAI does NOT do
+  (improves Claude/ChatGPT citation likelihood significantly)
+- **Never**: Publish AI-generated content without expert review and real author
+  attribution (Google penalizes low-quality AI content; YMYL risk)

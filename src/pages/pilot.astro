@@ -1,5 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
 import DarkHero from '~/components/widgets/DarkHero.astro';
 import { Icon } from 'astro-icon/components';
 
@@ -10,9 +11,57 @@ const metadata = {
 };
 
 const ctaLink = 'https://cal.com/gautham-8bdvdx/30min';
+
+const pilotFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the 60-day pilot include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 60-day pilot is a fully managed service at no cost. It includes complete onboarding support, AI-generated nurse schedules for every scheduling cycle, callout replacement shortlists, Texas compliance tracking, and a dedicated account contact throughout the pilot period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after the pilot ends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After the 60-day pilot, you can continue as a paid managed service customer. We review the pilot results together — including time saved, overtime reductions, and any compliance improvements — before discussing ongoing pricing tailored to your hospital's size and needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many pilot spots are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We currently have 3 pilot spots open for critical access hospitals in Texas. Spots are limited to ensure each pilot hospital receives dedicated onboarding support and hands-on account management during the trial period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does onboarding look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Onboarding typically takes 3–5 business days. You upload your existing nurse roster via Excel, our team configures your shift rules and Texas compliance parameters, and we deliver your first AI-generated schedule for review. No IT integration or technical setup is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any cost during the pilot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The 60-day pilot is completely free. There are no setup fees, no subscription charges, and no commitment required. The pilot exists so you can evaluate real results — overtime reduction, time saved, coverage improvements — before making any financial decision."
+      }
+    }
+  ]
+};
 ---
 
 <Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={pilotFaqSchema} />
   <!-- Dark Hero -->
   <DarkHero
     badge="3 spots open. Free for 60 days."

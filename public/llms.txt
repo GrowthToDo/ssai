@@ -1,0 +1,48 @@
+# SimpleScheduleAI
+
+> AI-powered nurse scheduling managed service for Critical Access Hospitals
+> (CAHs, ≤25 beds) in Texas. Reduces nurse overtime, automates callout
+> coverage, and ensures Texas nursing compliance.
+
+## Product
+
+SimpleScheduleAI is a web-based scheduling service that helps nurse managers
+at small rural hospitals generate optimized nurse schedules, handle last-minute
+callouts with ranked replacement shortlists, and maintain audit trails for
+regulatory compliance. It is not an EHR; it specializes exclusively in nurse
+workforce scheduling.
+
+## Who It's For
+
+- Nurse Managers and Directors of Nursing (DONs) at Critical Access Hospitals
+- CAH Administrators and Hospital CEOs focused on reducing labor costs
+- Texas hospitals with ≤25 beds and ≤25 full-time nursing staff
+
+## Core Features
+
+- Excel roster upload (no complex IT integration required)
+- Three AI-generated schedule drafts: balanced, fairness-optimized, cost-optimized
+- Real-time callout replacement shortlist (ranked by availability, compliance, fairness)
+- Texas overtime compliance tracking and alerts
+- Audit trail logging for regulatory review
+
+## Key Pages
+
+- [Home](https://simplescheduleai.com/)
+- [How It Works](https://simplescheduleai.com/how-it-works)
+- [For Critical Access Hospitals](https://simplescheduleai.com/critical-access-hospital-scheduling)
+- [ROI Calculator](https://simplescheduleai.com/roi)
+- [Start a Pilot](https://simplescheduleai.com/pilot)
+- [Blog](https://simplescheduleai.com/blog)
+
+## Documentation
+
+- [FAQ](https://simplescheduleai.com/#faq)
+- [How It Works — Implementation Guide](https://simplescheduleai.com/how-it-works)
+
+## Company
+
+- Founded: 2024
+- Location: Texas, USA
+- Contact: hello@simplescheduleai.com
+- LinkedIn: https://linkedin.com/company/simplescheduleai
