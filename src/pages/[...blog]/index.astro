@@ -55,7 +55,8 @@ const blogPostingSchema = {
   "dateModified": (post.updateDate ?? post.publishDate)?.toISOString(),
   "author": {
     "@type": "Person",
-    "name": post.author ?? "SimpleScheduleAI Team"
+    "name": post.author ?? "SimpleScheduleAI Team",
+    "url": "https://www.linkedin.com/in/pradeep-pandeyji/"
   },
   "publisher": {
     "@type": "Organization",
