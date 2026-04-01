@@ -632,6 +632,16 @@ can AI help with hospital nurse scheduling?
 | nurse scheduling compliance Texas | `/blog/texas-nurse-staffing-compliance` |
 | SimpleScheduleAI | `/` (Homepage) |
 | nurse scheduling ROI | `/roi` |
+| nurse scheduling software | `/nurse-scheduling-software` (Hub) |
+| best nurse scheduling software | `/nurse-scheduling-software` (Hub) |
+| healthcare scheduling software | `/healthcare-staff-scheduling` (Hub) |
+| medical scheduling software | `/healthcare-staff-scheduling` (Hub) |
+| healthcare staff scheduling software | `/critical-access-hospital-scheduling` (Hub) |
+| hospital scheduling | `/critical-access-hospital-scheduling` (Hub) |
+| free nurse scheduling tools | `/tools` (Tools index) |
+| nurse schedule generator free | `/tools/nurse-schedule-generator` |
+| nursing overtime calculator | `/tools/overtime-calculator` |
+| hospital shift schedule template | `/tools/shift-schedule-builder` |
 
 ---
 
@@ -694,6 +704,93 @@ Cluster articles (in order of priority):
 
 [CTA: "Explore how SimpleScheduleAI works →"]
 ```
+
+### 7.4 Glossary Page Pattern ("What is X?")
+
+Use for definitional posts at `/blog/what-is-[term]`. These are low competition and
+have high GEO citation value because AI systems prioritize canonical definitions.
+
+**Structure:**
+- Length: 600–800 words
+- H1: "What Is [Term]? A Guide for Hospital Administrators" (contains keyword)
+- First paragraph: self-contained 40–70 word definition (AI extracts this directly)
+- H2: "How [Term] Works in a Critical Access Hospital" — CAH-specific angle
+- H2: "How [Term] Differs from [Related Term]" — contrast for clarity
+- H2: "Why [Term] Matters for Nurse Managers" — operational relevance
+- FAQ section: 3 questions with FAQPage schema
+- CTA: link to the most relevant pillar hub page
+
+**Schema:** FAQPage + BlogPosting (auto-applied). Add `DefinedTerm` if the post
+is the canonical definition page for a term.
+
+**Keyword tip:** These pages rank for long-tail "what is" queries AND get cited
+in AI Overviews for definitional queries. Publish under `/blog/` not a separate
+URL since they use the same BlogPosting schema pipeline.
+
+### 7.5 Interactive Tools Page Pattern
+
+Use for tools at `/tools/[name]`. Ungated — SEO and link magnet, not lead capture.
+
+**Page structure:**
+1. H1 with primary keyword (e.g., "Free Nurse Schedule Generator for Hospitals")
+2. 150-word explainer: what the tool does, who it's for, why it's free
+3. The interactive tool itself (Astro island with `client:load`)
+4. H2: "How to Use the [Tool Name]" — 400 words, step-by-step
+5. 3–5 FAQ with FAQPage schema
+6. CTA block → `/pilot` or `/how-it-works`
+
+**Schema:** HowTo (for the how-to section) + FAQPage + SoftwareApplication (mark
+the tool itself as a SoftwareApplication with applicationCategory "Utility")
+
+**SEO target:** "[thing] generator free", "[thing] calculator", "free [tool type]"
+
+**Link strategy:** Ungated tools attract backlinks from nurse manager blogs, HR
+publications, and hospital association resource pages. Do not gate them.
+
+**Internal links:** Each tool page links to its closest blog post (e.g., the
+overtime calculator links to the Texas overtime compliance post).
+
+### 7.6 Content Upgrade CTA Template
+
+For blog posts that have a companion downloadable template, add this block
+immediately after the third H2 section:
+
+```html
+<div class="my-8 rounded-lg border border-blue-200 bg-blue-50 dark:bg-blue-900/20 p-6">
+  <p class="font-semibold text-blue-900 dark:text-blue-100">Free template</p>
+  <p class="mt-1 text-blue-800 dark:text-blue-200">[Template name] — [value prop].</p>
+  <a href="/resources/[template-slug]" class="mt-3 inline-block font-medium text-blue-700 dark:text-blue-300 underline">
+    Download free →
+  </a>
+</div>
+```
+
+Only add this block to posts that have a companion template. Do not add it to
+posts without a template — it will look broken.
+
+### 7.7 Buyer Stage Framework
+
+Map every piece of content to a buyer stage before writing. This determines
+the tone, CTA, and publish priority.
+
+| Stage | Searcher's mindset | Content goal | CTA |
+|---|---|---|---|
+| **Awareness** | "I have a problem I'm starting to understand" | Educate, build trust | "Learn how it works" → /how-it-works |
+| **Consideration** | "I'm evaluating solutions" | Differentiate, compare | "See the ROI" → /roi or /how-it-works |
+| **Decision** | "I'm ready to try something" | Remove friction | "Apply for a pilot" → /pilot |
+
+**Publish order rule:** On a new domain, publish Awareness content first to
+build topical breadth. Then Consideration. Then Decision. Never lead a new
+site with Decision-only content — it has no topical authority to stand on.
+
+**Signs a post is Awareness:** title contains "what is", "how to", "guide",
+"best practices", "challenges", explainer language.
+
+**Signs a post is Consideration:** title contains "vs", "alternatives",
+"buyer's guide", "software for", "features", comparison language.
+
+**Signs a post is Decision:** title contains "compliance", "implementation",
+"how [specific software] handles", "ROI", "case study", pilot-specific content.
 
 ---
 
@@ -868,27 +965,120 @@ Check: Google AI Overviews, Perplexity, ChatGPT with browsing, Claude.
 - [ ] Google Search Console setup + sitemap submission
 - [ ] Core Web Vitals audit (PageSpeed Insights)
 
-### Phase 2: Content & AEO (Weeks 4–12)
-- [ ] Create/rewrite pillar page: `/critical-access-hospital-scheduling`
-- [ ] Create product page: `/nurse-scheduling-software`
-- [ ] Write 4 cluster blog posts (overtime, callouts, compliance, burnout)
-- [ ] Add real author bios with credentials to all blog posts
-- [ ] Implement comparison table section on product pages
-- [ ] Build ROI calculator page schema
-- [ ] Add ItemList schema to blog index for schema triple-stacking
+### Phase 2: Content & AEO — IN PROGRESS
+See `docs/superpowers/plans/` for execution plans.
 
-### Phase 3: Authority & Measurement (Weeks 8–24)
-- [ ] Build About/Team pages with detailed bios and LinkedIn links
-- [ ] Add HIPAA/security trust section to homepage and product page
-- [ ] Create first case study with before/after metrics
-- [ ] Submit to G2, Capterra, Crunchbase
-- [ ] Set up AEO tracking spreadsheet — baseline check
-- [ ] Begin outreach to NRHA, TORCH, health IT publications
-- [ ] Set up Ahrefs or Semrush for keyword rank tracking
+**Phase 2A (Hubs + Infrastructure):**
+- [ ] Update SEO/GEO skill with evergreen patterns
+- [ ] Create pillar page: `/nurse-scheduling-software`
+- [ ] Create pillar page: `/critical-access-hospital-scheduling`
+- [ ] Create pillar page: `/healthcare-staff-scheduling`
+- [ ] Create G2 + Capterra + Crunchbase profiles
+
+**Phase 2B (Blog + Glossary):**
+- [ ] 35 blog posts (hub spokes) — see Plan 2
+- [ ] 8 glossary pages — see Plan 2
+- [ ] 1 original data post — see Plan 2
+
+**Phase 2C (Tools + Templates):**
+- [ ] 4 interactive tools + tools index — see Plan 3
+- [ ] 5 downloadable templates + landing pages — see Plan 4
+
+### Phase 3: Programmatic SEO (after 20+ posts indexed)
+- [ ] 5 location pages (`/nurse-scheduling-software/[state]`)
+- [ ] 4 persona pages (`/nurse-scheduling-for/[audience]`)
+- [ ] Competitor pages (`/vs/`, `/alternatives/`, `/compare/`)
+- [ ] Best-of roundup (`/best-nurse-scheduling-software`)
 
 ---
 
-## PART 13 — llms.txt FILE
+## PART 13 — PROGRAMMATIC SEO PATTERNS
+
+Deploy pSEO pages only after Phase 1 content (20+ posts) is indexed and domain
+has initial authority. Thin pSEO from a new domain risks deindexing.
+
+### 13.1 Location Page Pattern
+
+URL: `/nurse-scheduling-software/[state]`
+
+Every page MUST have genuinely unique content for that state. Never just swap
+the state name in identical copy — Google will deindex thin location pages.
+
+**Unique content per page must include:**
+- State-specific CAH count (from HRSA Flex Program data)
+- State nursing board overtime regulations (link to state health dept)
+- Rural nursing workforce stats for that state
+- Any state-specific grant programs or rural health initiatives
+
+**Structure:**
+- H1: "Nurse Scheduling Software for [State] Critical Access Hospitals"
+- 150-word intro: why [state] CAHs face specific scheduling challenges
+- H2: "[State] Critical Access Hospital Regulations" — unique regulatory content
+- H2: "Nurse Scheduling Challenges in Rural [State]" — state-specific data
+- H2: "How SimpleScheduleAI Helps [State] CAHs" — product section
+- FAQ: 3–5 questions (FAQPage schema)
+- CTA → /pilot
+
+**Schema:** Article + FAQPage
+
+### 13.2 Persona Page Pattern
+
+URL: `/nurse-scheduling-for-[audience]`
+
+Not a reskin of the homepage. Each page must address that audience's specific
+pain points, language, and decision criteria.
+
+| Audience slug | Their primary pain point | Different CTA angle |
+|---|---|---|
+| critical-access-hospitals | Compliance + overtime cost | "Built specifically for CAHs" |
+| small-hospitals | Admin burden, no IT department | "No IT required, 3-day setup" |
+| rural-hospitals | Coverage gaps, no agency access | "Fill gaps without agencies" |
+| nurse-managers | Time spent on scheduling | "Save 8 hours/week" |
+
+**Schema:** Article + FAQPage
+
+### 13.3 Competitor Page Patterns
+
+Four formats. All require competitor research first (sign up, document features,
+mine G2/Capterra reviews). Minimum competitor research before writing: 2 hours.
+
+**Honesty rule:** Acknowledge competitor strengths explicitly. Biased comparisons
+are penalized by AI citation systems and lose trust with evaluating buyers.
+Include "best for" and "not best for" for BOTH products.
+
+**Format A — You vs Competitor** (`/vs/[competitor]`):
+- H1: "SimpleScheduleAI vs [Competitor]: Which Is Right for Your Hospital?"
+- TL;DR: 2–3 sentence honest summary of key differences
+- Comparison table: Features, Pricing, Support, CAH-specific fit
+- "Who SimpleScheduleAI is best for" section
+- "Who [Competitor] is best for" section (be honest)
+- CTA → /pilot
+
+**Format B — Competitor Alternatives** (`/alternatives/[competitor]`):
+- For searchers actively looking to leave a competitor
+- List 4–6 real alternatives (you + others), not just yourself
+
+**Format C — Competitor vs Competitor** (`/compare/[a]-vs-[b]`):
+- Captures traffic for competitor queries where you're not directly involved
+- Introduce SimpleScheduleAI as "the third option" toward the end
+
+**Format D — Best-of Roundup** (`/best-nurse-scheduling-software`):
+- List top 5–7 options with honest ratings
+- You appear first but other tools are rated fairly
+- Comparison table with feature matrix
+
+### 13.4 Quality Rule
+
+Every pSEO page must provide value that a user couldn't get by reading a
+different page on the site. Ask before publishing:
+- "Does this page have at least one section that is unique to this [state/audience/competitor]?"
+- "Would a CAH administrator in [state] find something here they couldn't find on our other pages?"
+
+If the answer is no, the page is not ready. Add unique content or don't publish.
+
+---
+
+## PART 14 — llms.txt FILE
 
 Place at `https://simplescheduleai.com/llms.txt`. Plain Markdown only.
 Update whenever: new feature added, pricing changes, new key page published.

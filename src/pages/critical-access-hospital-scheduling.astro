@@ -1,0 +1,221 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
+import DarkHero from '~/components/widgets/DarkHero.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Critical Access Hospital Scheduling: The Complete Guide | SimpleScheduleAI',
+  description: 'Healthcare staff scheduling software for critical access hospitals. Manage nurse shifts, callout coverage, and Texas compliance at 25-bed rural hospitals.',
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Critical Access Hospital Scheduling: The Complete Guide",
+  "description": "Comprehensive guide to healthcare staff scheduling for critical access hospitals — covering shift management, callout coverage, Texas compliance, and AI-assisted scheduling.",
+  "url": "https://simplescheduleai.com/critical-access-hospital-scheduling",
+  "author": {
+    "@type": "Person",
+    "name": "Pradeep Pandey",
+    "jobTitle": "Co-founder, SimpleScheduleAI",
+    "url": "https://www.linkedin.com/in/pradeeppandey99"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SimpleScheduleAI",
+    "logo": { "@type": "ImageObject", "url": "https://simplescheduleai.com/images/logo.png" }
+  },
+  "datePublished": "2026-03-31T00:00:00Z",
+  "dateModified": "2026-03-31T00:00:00Z"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the staffing requirements for critical access hospitals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critical access hospitals must have a registered nurse on duty or on call at all times under CMS Conditions of Participation (42 CFR §485.635). Texas additionally requires CAHs to comply with DSHS staffing standards and FLSA overtime rules. CAHs with 25 or fewer beds must maintain adequate coverage without the budget of larger health systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do critical access hospitals handle nurse callouts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most CAHs rely on a manual phone tree when a nurse calls out — the charge nurse or manager calls available staff until someone agrees to come in. This process typically takes 1–3 hours and often results in overtime. Automated callout coverage tools generate a ranked replacement shortlist instantly from available, qualified staff."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What scheduling software is designed for critical access hospitals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most nurse scheduling software is built for large health systems. SimpleScheduleAI is purpose-built for critical access hospitals: no IT integration required, Excel roster upload, 3–5 day onboarding, Texas overtime compliance built in, and a ranked callout replacement shortlist for immediate coverage needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a nurse manager spend on scheduling at a critical access hospital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CAH nurse managers spend an average of 8–12 hours per week on manual scheduling tasks — building the schedule, handling callouts, tracking overtime, and managing schedule changes. At a $50/hr loaded rate, that's a $26,000 annual administrative burden that scheduling software can reduce to 1–2 hours per week."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does AI scheduling work for small hospitals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI scheduling for small hospitals works by ingesting the nurse roster, shift rules, and compliance parameters, then generating multiple draft schedule options — typically balanced (equitable shift distribution), fairness-optimized (minimizing repeated undesirable shifts), and cost-optimized (minimizing overtime cost). The nurse manager reviews and approves the final schedule."
+      }
+    }
+  ]
+};
+---
+
+<Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={[articleSchema, faqSchema]} />
+
+  <DarkHero
+    badge="Healthcare Staff Scheduling"
+    title="Critical Access Hospital Scheduling: The Complete Guide"
+    subtitle="How rural hospitals with 25 or fewer beds manage nurse shifts, callout coverage, and compliance without an IT department or a large HR team."
+    actions={[
+      { text: 'Apply for a Pilot Spot', href: '/pilot', variant: 'primary' },
+      { text: 'How It Works', href: '/how-it-works', variant: 'secondary' },
+    ]}
+  />
+
+  <section class="bg-page py-16 md:py-20">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 prose dark:prose-invert prose-lg max-w-none">
+
+      <h2>What Makes Critical Access Hospital Scheduling Different?</h2>
+      <p>
+        Critical access hospitals (CAHs) are federally designated rural hospitals with 25 or fewer acute care
+        beds, certified under CMS Conditions of Participation (42 CFR §485.635). There are approximately
+        1,350 CAHs in the United States — 84 in Texas alone — serving rural communities where the nearest
+        alternative hospital may be 30–60 miles away.
+      </p>
+      <p>
+        CAH scheduling is fundamentally different from large-system scheduling in three ways: the volume is
+        small enough that spreadsheets feel manageable until they aren't, the coverage requirements are
+        unforgiving (a CAH must have a registered nurse on duty or on call at all times), and there is no
+        large float pool or agency network to absorb callouts. When a nurse calls out at 5 AM at a 25-bed
+        hospital, the charge nurse personally calls staff until someone comes in.
+      </p>
+
+      <h2>The Core Scheduling Challenges at Critical Access Hospitals</h2>
+      <p>
+        CAH scheduling problems are not unique — but the lack of resources to address them is. The five most
+        common friction points:
+      </p>
+      <ul>
+        <li><strong>Manual roster management:</strong> Most CAHs still use Excel or paper. Building a 4-week schedule takes 4–6 hours and has to be rebuilt from scratch each cycle.</li>
+        <li><strong>Callout coverage gaps:</strong> The manual phone tree for callout replacement takes 1–3 hours on average and often ends in mandatory overtime or uncovered shifts.</li>
+        <li><strong>Overtime creep:</strong> Without automated overtime tracking, managers often don't realize a nurse is approaching 40 hours until it's too late to adjust the schedule.</li>
+        <li><strong>Fairness conflicts:</strong> When schedules are built manually, the same nurses tend to draw undesirable shifts — nights, weekends, holidays — creating morale and retention problems.</li>
+        <li><strong>Compliance documentation:</strong> Texas DSHS requirements and CMS CoPs require staffing documentation that manual systems create inconsistently.</li>
+      </ul>
+
+      <h2>Texas Compliance Requirements for CAH Nurse Scheduling</h2>
+      <p>
+        Texas critical access hospitals must comply with both federal CMS Conditions of Participation and
+        Texas DSHS nursing facility standards. Key compliance requirements affecting scheduling:
+      </p>
+      <ul>
+        <li>RN on duty or on call at all times (CMS CoP §485.635(c)(4))</li>
+        <li>FLSA overtime rules: 1.5x pay for hours over 40 in a workweek for non-exempt staff</li>
+        <li>Texas Payday Law requirements for shift premiums and overtime documentation</li>
+        <li>Staffing ratio documentation for CMS cost reports</li>
+      </ul>
+      <p>
+        Every schedule change, callout, and replacement must be documented. Manual scheduling systems create
+        documentation gaps that surface during CMS surveys. An automated scheduling system with an audit
+        trail addresses this compliance requirement automatically.
+      </p>
+
+      <h2>How SimpleScheduleAI Handles Critical Access Hospital Scheduling</h2>
+      <p>
+        SimpleScheduleAI is a managed scheduling service built specifically for critical access hospitals.
+        The workflow: upload your existing nurse roster via Excel, our team configures your shift rules and
+        compliance parameters, and the system generates three AI-drafted schedule options for your review.
+        When a nurse calls out, the system produces a ranked replacement shortlist from available qualified
+        staff in seconds.
+      </p>
+      <p>
+        The nurse manager makes the final call on every schedule and every replacement. The software
+        eliminates the 8–10 hours of administrative work per week — it doesn't replace the clinical judgment
+        that only an experienced nurse manager can provide.
+      </p>
+      <p>
+        <strong>Not right for:</strong> Hospitals with more than 50 beds or those needing deep EHR integration.
+        SimpleScheduleAI is purpose-built for the critical access context.
+      </p>
+
+      <h2>Critical Access Hospital Scheduling Guides</h2>
+      <ul>
+        <li><a href="/blog/fair-nurse-schedule-critical-access-hospital">How to Build a Fair Nurse Schedule at a Critical Access Hospital</a></li>
+        <li><a href="/blog/per-diem-nursing-shifts-critical-access-hospitals">Per Diem Nursing Shifts: How CAHs Can Fill Gaps Without Agency Costs</a></li>
+        <li><a href="/blog/hospital-callout-coverage-ranked-shortlist">Hospital Callout Coverage: Building a Ranked Shortlist That Works</a></li>
+        <li><a href="/blog/texas-nursing-overtime-compliance-cah">Texas Nursing Overtime Compliance: A Guide for CAH Administrators</a></li>
+        <li><a href="/blog/12-hour-hospital-shifts-scheduling">12-Hour Hospital Shifts: Scheduling Challenges and Solutions</a></li>
+        <li><a href="/blog/night-shift-nurse-schedule-coverage">Night Shift Nurse Schedule: How to Ensure Adequate Coverage</a></li>
+        <li><a href="/blog/nursing-staff-scheduling-best-practices-25-bed">Nursing Staff Scheduling Best Practices for 25-Bed Hospitals</a></li>
+        <li><a href="/blog/hospital-staffing-software-features-cah">Hospital Staffing Software: The 7 Features CAHs Actually Need</a></li>
+        <li><a href="/blog/healthcare-staffing-solutions-critical-access-hospitals">Healthcare Staffing Solutions for Critical Access Hospitals: What Actually Works</a></li>
+        <li><a href="/blog/hospital-staff-scheduling-software">Hospital Staff Scheduling Software: What Critical Access Hospitals Need</a></li>
+        <li><a href="/blog/nurse-shift-schedule-daily-coverage">Nurse Shift Schedule: How to Manage Daily Coverage at a Critical Access Hospital</a></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <FAQs
+    title="Critical Access Hospital Scheduling: Common Questions"
+    items={[
+      {
+        title: "What are the staffing requirements for critical access hospitals?",
+        description: "CMS requires CAHs to have an RN on duty or on call at all times (42 CFR §485.635). Texas additionally requires DSHS staffing compliance and FLSA overtime documentation. Staffing ratios must be documented for CMS cost reports.",
+      },
+      {
+        title: "How do CAHs handle nurse callouts without a large float pool?",
+        description: "Most CAHs rely on manual phone trees when a nurse calls out — a process that takes 1–3 hours and often ends in overtime or uncovered shifts. Automated scheduling tools generate a ranked replacement shortlist from available qualified staff in seconds.",
+      },
+      {
+        title: "What is the best scheduling software for a 25-bed hospital?",
+        description: "SimpleScheduleAI is purpose-built for CAHs: no IT integration required, 3–5 day onboarding via Excel upload, Texas compliance built in, ranked callout replacement list, and three AI-drafted schedule options per cycle.",
+      },
+      {
+        title: "How much time do nurse managers spend on scheduling?",
+        description: "CAH nurse managers spend 8–12 hours per week on scheduling tasks. At a $50/hr loaded rate, that's a $26,000 annual administrative burden — before counting overtime costs from coverage gaps.",
+      },
+      {
+        title: "Can scheduling software help with Texas nursing compliance?",
+        description: "Yes. Automated scheduling software tracks overtime approaching thresholds, logs every schedule change with a timestamp, and generates documentation suitable for CMS surveys and Texas DSHS compliance checks.",
+      },
+    ]}
+  />
+
+  <CallToAction
+    title="Ready to Fix Scheduling at Your Critical Access Hospital?"
+    subtitle="Free 60-day managed pilot. No IT setup. No commitment required."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Apply for a Pilot Spot',
+        href: '/pilot',
+      },
+      {
+        variant: 'secondary',
+        text: 'How It Works',
+        href: '/how-it-works',
+      },
+    ]}
+  />
+</Layout>
