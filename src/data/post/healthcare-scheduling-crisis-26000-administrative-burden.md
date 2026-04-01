@@ -21,7 +21,7 @@ metadata:
 ## TL;DR
 
 Critical Access Hospital nurse managers spend roughly 10 hours per week on manual
-scheduling — the equivalent of a $26,000 annual "shadow salary" at a $50/hour loaded
+scheduling, the equivalent of a $26,000 annual "shadow salary" at a $50/hour loaded
 rate. The root cause isn't a nursing shortage: it's fragmented, spreadsheet-driven
 processes that leave leadership doing clerical work. Five friction points drive this
 cost, and each one can be measurably reduced.
@@ -30,7 +30,7 @@ cost, and each one can be measurably reduced.
 
 Manual nurse scheduling costs a Critical Access Hospital approximately $26,000
 annually in misallocated leadership time. At a loaded rate of $50/hour for nurse
-managers and CNOs, 10 hours of weekly scheduling work totals $26,000 per year — time
+managers and CNOs, 10 hours of weekly scheduling work totals $26,000 per year, time
 that cannot be redirected toward patient care quality, staff retention, or regulatory
 compliance.
 
@@ -44,12 +44,12 @@ healthcare facilities, we identified five recurring friction points that drive t
 burden.
 
 > "I spend more time fighting with spreadsheets than I do with my actual nursing
-> team. It's exhausting." — Nurse Manager, 25-bed Critical Access Hospital
+> team. It's exhausting.". Nurse Manager, 25-bed Critical Access Hospital
 
 ## Why Do Last-Minute Callouts Cost So Much More Than the Agency Invoice?
 
 Last-minute nurse callouts force a two-to-three hour coordination scramble that
-almost always ends at agency rates — typically 2–3× the standard hourly wage,
+almost always ends at agency rates, typically 2–3× the standard hourly wage,
 [per AONL workforce data](https://www.aonl.org/resources/nursing-workforce-now).
 For a CAH on Medicare-dependent margins, this premium compounds quickly. But the
 invoice is only part of the cost: agency staff unfamiliar with your unit's protocols,
@@ -58,14 +58,14 @@ shift.
 
 [HRSA rural workforce capacity data](https://data.hrsa.gov/topics/health-workforce/shortage-areas)
 identifies this orientation gap as a compounding factor in rural hospital quality
-metrics. The real cost of a callout isn't just what you paid — it's the hours spent
+metrics. The real cost of a callout isn't just what you paid, it's the hours spent
 calling people, the rate premium, and the quality variance you can't measure on a
 spreadsheet.
 
 ## How Does Spreadsheet-Based Scheduling Create Compliance Risk?
 
-Version drift — when the unit whiteboard, the Excel master file, and the portal PDF
-each show a different version of the schedule — creates a CMS-surveyable deficiency.
+Version drift, when the unit whiteboard, the Excel master file, and the portal PDF
+each show a different version of the schedule, creates a CMS-surveyable deficiency.
 Under [CMS Conditions of Participation for Critical Access Hospitals (§485.635)](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals),
 staffing records must be accurate and available for review. A discrepancy between
 posted and actual schedules is a finding that surveyors can and do flag.
@@ -73,7 +73,7 @@ posted and actual schedules is a finding that surveyors can and do flag.
 Manual post-schedule edits also lack audit trails for overtime verification. Under
 [Texas Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm),
 overtime rules apply to healthcare employers. Documentation gaps leave facilities
-unable to reconstruct who worked what shift if an audit question arises — an exposure
+unable to reconstruct who worked what shift if an audit question arises, an exposure
 that grows with every undocumented change.
 
 **How it happens in practice:** A nurse calls out. You update the unit whiteboard.
@@ -83,7 +83,7 @@ have three conflicting sources of truth and no clear record.
 ## Why Do Your Most Reliable Nurses Burn Out First?
 
 Fair workload distribution is nearly impossible to enforce manually. Managers default
-to calling the nurses they trust — those nurses say yes, until they don't.
+to calling the nurses they trust, those nurses say yes, until they don't.
 [AONL research on nurse manager burnout](https://www.aonl.org/resources/nurse-manager-competencies)
 links scheduling inequity directly to voluntary turnover among high-performing staff.
 
@@ -93,8 +93,8 @@ The [NSI 2024 report](https://www.nsinursingsolutions.com/Documents/Library/NSI_
 puts average RN turnover cost at $52,350 per departure. For a 25-bed CAH with 15–20
 nurses, losing two or three to avoidable burnout is a six-figure operational event.
 
-A fairness flag system — tracking callout frequency and overtime distribution per
-nurse — makes this invisible problem visible before it becomes a resignation letter.
+A fairness flag system, tracking callout frequency and overtime distribution per
+nurse, makes this invisible problem visible before it becomes a resignation letter.
 
 ## How SimpleScheduleAI Addresses These Friction Points
 
@@ -102,7 +102,7 @@ SimpleScheduleAI is a managed scheduling service built for Critical Access Hospi
 You keep your Excel roster; we handle the scheduling logic. The system generates
 three draft schedule options (balanced, cost-optimized, and fairness-prioritized),
 builds a ranked callout shortlist when a nurse is unavailable, and maintains a full
-audit trail for every schedule change — so you have documentation if a surveyor asks.
+audit trail for every schedule change, so you have documentation if a surveyor asks.
 
 It is not a self-serve software tool. A scheduling specialist handles setup and
 ongoing support, which means there is no learning curve for your team.
@@ -118,7 +118,7 @@ surface this during onboarding.
 **Q: How many hours per week do nurse managers typically spend on scheduling?**
 
 Based on interviews with 30+ nurse managers at Texas Critical Access Hospitals, the
-average is 8–12 hours per week on scheduling-related tasks — data entry, callout
+average is 8–12 hours per week on scheduling-related tasks, data entry, callout
 coordination, and version reconciliation. At a $50/hour loaded rate, this represents
 $20,800–$31,200 in annual leadership cost per facility before accounting for agency
 premiums or overtime.
@@ -127,7 +127,7 @@ premiums or overtime.
 
 Yes. CMS Conditions of Participation for CAHs (§485.635) require accurate, reviewable
 staffing records. Spreadsheet-based scheduling without an audit trail creates gaps
-that surveyors can flag — particularly when posted schedules don't match actual shifts
+that surveyors can flag, particularly when posted schedules don't match actual shifts
 worked. An automated system with a full change log addresses this directly.
 
 **Q: Why do reliable nurses burn out faster at facilities with manual scheduling?**
@@ -135,14 +135,14 @@ worked. An automated system with a full change log addresses this directly.
 Manual scheduling defaults to calling the most dependable nurses first. Over time,
 those nurses accumulate disproportionate overtime and callout coverage, driving
 voluntary turnover. NSI 2024 data puts average RN replacement cost at $52,350.
-Tracking fairness metrics — who is being called and how often — requires data that
+Tracking fairness metrics, who is being called and how often, requires data that
 manual spreadsheets typically don't capture.
 
 **Q: What is the "shadow salary" in healthcare scheduling?**
 
 The shadow salary is the dollar value of leadership time consumed by scheduling tasks
 that don't require clinical expertise. A nurse manager spending 10 hours per week on
-data entry, at $50/hour, represents $26,000 annually — a cost that rarely appears in
+data entry, at $50/hour, represents $26,000 annually, a cost that rarely appears in
 scheduling budget discussions but is very real.
 
 **Q: How does SimpleScheduleAI handle last-minute callouts?**
