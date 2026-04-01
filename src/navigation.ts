@@ -19,8 +19,13 @@ export const headerData = {
       href: getPermalink('/roi'),
     },
     {
-      text: 'Blog',
-      href: getBlogPermalink(),
+      text: 'Resources',
+      links: [
+        { text: 'Nurse Scheduling Software', href: getPermalink('/nurse-scheduling-software') },
+        { text: 'Healthcare Staff Scheduling', href: getPermalink('/healthcare-staff-scheduling') },
+        { text: 'Critical Access Hospital Scheduling', href: getPermalink('/critical-access-hospital-scheduling') },
+        { text: 'Blog', href: getBlogPermalink() },
+      ],
     },
   ],
   actions: [{ text: 'Book a Call', href: 'https://cal.com/gautham-8bdvdx/30min' }],
@@ -37,10 +42,18 @@ export const footerData = {
       ],
     },
     {
+      title: 'Resources',
+      links: [
+        { text: 'Nurse Scheduling Software', href: getPermalink('/nurse-scheduling-software') },
+        { text: 'Healthcare Staff Scheduling', href: getPermalink('/healthcare-staff-scheduling') },
+        { text: 'CAH Scheduling Guide', href: getPermalink('/critical-access-hospital-scheduling') },
+        { text: 'Blog', href: getBlogPermalink() },
+      ],
+    },
+    {
       title: 'Company',
       links: [
         { text: 'About', href: getPermalink('/about') },
-        { text: 'Blog', href: getBlogPermalink() },
         { text: 'Contact', href: getPermalink('/contact') },
       ],
     },
