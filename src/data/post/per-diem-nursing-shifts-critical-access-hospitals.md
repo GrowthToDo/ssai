@@ -55,7 +55,7 @@ for a typical 25-bed CAH.
 ## How do CAHs build and manage a per diem nurse pool?
 
 Building a per diem pool requires sourcing, credentialing, availability tracking, and
-a consistent offer process. Most CAHs do the first two and fail on the last two  - 
+a consistent offer process. Most CAHs do the first two and fail on the last two -
 which is why their pools erode over time.
 
 **Sourcing per diem nurses:** The most reliable sources are former staff who left for
@@ -71,7 +71,7 @@ weekends) so candidates self-select realistically.
 
 **Credentialing and onboarding:** Per diem nurses need the same credentialing as
 permanent staff: license verification, BLS/ACLS as required by unit, facility
-orientation, and EMR access. The onboarding investment is real, typically 4–8 hours  - 
+orientation, and EMR access. The onboarding investment is real, typically 4–8 hours -
 but it's a one-time cost that pays back every time that nurse covers a shift at
 standard rate instead of agency rate.
 

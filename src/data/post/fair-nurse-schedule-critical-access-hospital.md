@@ -113,7 +113,7 @@ weekends (at equal FTE)? If yes, adjust before posting.
 
 Night shift fairness is slightly different. Permanent night staff have presumably
 accepted that role. The fairness issue arises with float nurses and rotating staff
-who should share night coverage proportionally. Tracking consecutive night rotations  - 
+who should share night coverage proportionally. Tracking consecutive night rotations -
 ensuring no nurse works more than 3–4 consecutive nights without a break, matters
 both for fairness and for patient safety.
 

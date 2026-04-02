@@ -100,7 +100,7 @@ None of this requires clinical expertise. All of it is being done by your most e
 > "I spend more time fighting with spreadsheets than I do with my actual nursing
 > team. It's exhausting."
 >
-> *Nurse Manager, 25-bed Critical Access Hospital*
+> _Nurse Manager, 25-bed Critical Access Hospital_
 
 ## Why Do Last-Minute Callouts Cost So Much More Than the Agency Invoice?
 
