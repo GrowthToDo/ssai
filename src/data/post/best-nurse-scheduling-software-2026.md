@@ -82,7 +82,7 @@ Any software that does not provide all four of these is a compliance liability f
   <text x="350" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Three Tiers of Nurse Scheduling Software</text>
   <!-- Tier 1 -->
   <rect x="20" y="45" width="200" height="170" fill="#eff6ff" rx="10"/>
-  <text x="120" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Small / CAH</text>
+  <text x="120" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Small / Rural</text>
   <text x="120" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#3b82f6">Under 50 beds</text>
   <text x="120" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">SimpleScheduleAI</text>
   <text x="120" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">Aladtec</text>
@@ -152,7 +152,7 @@ ShiftAdmin is more hospital-focused than Aladtec and supports both physician and
 
 **What it does well:** Configurable rule sets handle complex scheduling requirements. Strong scheduling engine for hospitals with established workflows and an administrator who can configure it.
 
-**Honest limitation:** Configuration-heavy. A CAH without an administrator dedicated to scheduling setup will find the initial burden significant. Not built around the CAH operational model specifically.
+**Honest limitation:** Configuration-heavy. A small hospital without an administrator dedicated to scheduling setup will find the initial burden significant. Not purpose-built for small hospital operations.
 
 **Cost:** Approximately $300-$600/month for small hospital staff sizes.
 
@@ -180,7 +180,7 @@ NurseGrid is fundamentally a nurse-facing app. Individual nurses use it to view 
 
 **What it does well:** High staff adoption because nurses use it by choice. Good for posting open shifts and getting coverage quickly.
 
-**Honest limitation:** Not a scheduling engine. You still need to build the schedule somewhere else. Limited compliance documentation. Not designed for CAH regulatory requirements.
+**Honest limitation:** Not a scheduling engine. You still need to build the schedule somewhere else. Limited compliance documentation. Not designed for hospital regulatory requirements.
 
 **Cost:** Free for individual nurses. Manager tools via NurseGrid for Managers - pricing varies.
 
@@ -194,7 +194,7 @@ OnShift was acquired by Workday in 2022 and is now positioned as a workforce man
 
 **What it does well:** Strong in post-acute care context. Good mobile experience. Decent open shift management.
 
-**Honest limitation:** Now part of the Workday ecosystem, which is enterprise-grade and enterprise-priced. Not a natural fit for a standalone 25-bed CAH without a broader Workday deployment.
+**Honest limitation:** Now part of the Workday ecosystem, which is enterprise-grade and enterprise-priced. Not a natural fit for a standalone small hospital without a broader Workday deployment.
 
 **Cost:** Not publicly listed. Enterprise pricing applies post-acquisition.
 
@@ -204,11 +204,11 @@ OnShift was acquired by Workday in 2022 and is now positioned as a workforce man
 
 **Best for:** Non-healthcare businesses and hospitals with very simple scheduling needs and tight budgets.
 
-Deputy is a general workforce scheduling tool used across retail, hospitality, and food service. It has healthcare customers but is not built for clinical environments. Overtime tracking and shift scheduling work, but healthcare-specific features (credential verification, patient ratio logic, CAH compliance documentation) are absent.
+Deputy is a general workforce scheduling tool used across retail, hospitality, and food service. It has healthcare customers but is not built for clinical environments. Overtime tracking and shift scheduling work, but healthcare-specific features (credential verification, patient ratio logic, clinical compliance documentation) are absent.
 
 **What it does well:** Very easy to set up and use. Low cost. Good mobile app. Reasonable overtime tracking.
 
-**Honest limitation:** Not built for healthcare. No credential tracking. No clinical compliance logic. Would not satisfy a CMS surveyor looking for CAH staffing documentation.
+**Honest limitation:** Not built for healthcare. No credential tracking. No clinical compliance logic. Would not satisfy a CMS surveyor looking for hospital staffing documentation.
 
 **Cost:** Approximately $4-$6/employee/month.
 
@@ -230,16 +230,16 @@ UKG is the dominant workforce management platform in large hospital systems. It 
 
 ## Full Comparison: Features, Cost, and Fit by Size
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="Comparison of nurse scheduling software on CAH fit vs implementation burden">
-  <title>Nurse Scheduling Software: CAH Fit vs Implementation Burden</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="Comparison of nurse scheduling software on hospital fit vs implementation burden">
+  <title>Nurse Scheduling Software: Hospital Fit vs Implementation Burden</title>
   <rect width="700" height="310" fill="#f8fafc" rx="12"/>
-  <text x="350" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">CAH Fit vs Implementation Burden</text>
+  <text x="350" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Hospital Fit vs Implementation Burden</text>
   <!-- Axes -->
   <line x1="80" y1="260" x2="650" y2="260" stroke="#cbd5e1" stroke-width="1.5"/>
   <line x1="80" y1="50" x2="80" y2="260" stroke="#cbd5e1" stroke-width="1.5"/>
   <!-- Axis labels -->
   <text x="365" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Implementation Burden (Low to High)</text>
-  <text x="20" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" transform="rotate(-90, 20, 160)">CAH Fit (Low to High)</text>
+  <text x="20" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" transform="rotate(-90, 20, 160)">Hospital Fit (Low to High)</text>
   <!-- Grid lines -->
   <line x1="80" y1="155" x2="650" y2="155" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
   <line x1="365" y1="50" x2="365" y2="260" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
@@ -262,15 +262,15 @@ UKG is the dominant workforce management platform in large hospital systems. It 
   <!-- Deputy: low fit, very low burden -->
   <circle cx="150" cy="230" r="13" fill="#94a3b8" opacity="0.85"/>
   <text x="150" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Dep</text>
-  <!-- UKG: low CAH fit, very high burden -->
+  <!-- UKG: low fit for small hospitals, very high burden -->
   <circle cx="600" cy="220" r="17" fill="#ef4444" opacity="0.85"/>
   <text x="600" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">UKG</text>
   <!-- Legend -->
-  <text x="85" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#475569">High CAH Fit</text>
-  <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low CAH Fit</text>
+  <text x="85" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#475569">High Fit</text>
+  <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low Fit</text>
 </svg>
 
-| Platform | CAH Compliance | Callout Tools | Overtime Alerts | Audit Trail | Setup Time | Cost/Month |
+| Platform | Compliance | Callout Tools | Overtime Alerts | Audit Trail | Setup Time | Cost/Month |
 |---|---|---|---|---|---|---|
 | SimpleScheduleAI | Built-in | Ranked shortlist | Yes | Full | Days | Contact |
 | Aladtec | Good | Basic | Basic | Yes | 2-4 weeks | $200-450 |
@@ -295,7 +295,7 @@ Your first question is whether you want to manage scheduling yourself or elimina
 
 You have enough complexity to justify a real scheduling platform, but not enough scale to absorb enterprise implementation costs.
 
-- **Best options:** ShiftAdmin or Aladtec. Both have solid CAH-range features without enterprise pricing.
+- **Best options:** ShiftAdmin or Aladtec. Both have solid features for this size range without enterprise pricing.
 - **Also consider:** QGenda if you need physician scheduling alongside nursing.
 - **Avoid:** UKG (implementation burden is disproportionate), NurseGrid (not a full scheduling engine).
 
@@ -313,11 +313,11 @@ Several shifts in the market are worth knowing about before you buy:
 
 **AI-assisted scheduling is now table stakes, not a differentiator.** Every major platform has added AI-assisted scheduling in the last 18 months. The quality varies significantly. Ask specifically what the AI optimizes for (cost, fairness, compliance), whether it can explain its decisions, and what happens when the AI suggestion violates a rule.
 
-**Managed scheduling services emerged as a real category.** Five years ago, the only options were self-serve software or hiring a full-time scheduler. In 2026, managed scheduling services handle the weekly build for a flat fee. For CAHs without a dedicated scheduling administrator, this is worth evaluating seriously.
+**Managed scheduling services emerged as a real category.** Five years ago, the only options were self-serve software or hiring a full-time scheduler. In 2026, managed scheduling services handle the weekly build for a flat fee. For small hospitals without a dedicated scheduling administrator, this is worth evaluating seriously.
 
 **Integration requirements are rising.** Hospital EHR vendors are publishing more workforce data APIs. Expect scheduling platforms to offer EHR read access for credential and licensure data within the next 18 months. If you are evaluating platforms now, ask about their EHR integration roadmap.
 
-**Compliance documentation is getting audited more.** [CMS Survey and Certification activity](https://www.cms.gov/medicare/health-safety-standards/certification-compliance) has increased at CAH facilities. Facilities without auditable staffing documentation are getting findings. This is making "compliance-ready documentation" a real differentiator, not a feature-sheet checkbox.
+**Compliance documentation is getting audited more.** [CMS Survey and Certification activity](https://www.cms.gov/medicare/health-safety-standards/certification-compliance) has increased at small and critical access hospital facilities. Facilities without auditable staffing documentation are getting findings. This is making "compliance-ready documentation" a real differentiator, not a feature-sheet checkbox.
 
 ## How SimpleScheduleAI Fits in This Landscape
 
@@ -395,7 +395,7 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
   <!-- Avoid UKG warning for small -->
   <rect x="30" y="310" width="640" height="42" fill="#fef3c7" rx="8"/>
   <text x="350" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400e">Avoid UKG / enterprise WFM platforms if you have fewer than 75 beds.</text>
-  <text x="350" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a16207">Implementation burden alone (6-18 months) exceeds what most CAH administrative teams can absorb.</text>
+  <text x="350" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a16207">Implementation burden alone (6-18 months) exceeds what most small hospital administrative teams can absorb.</text>
 </svg>
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
@@ -420,11 +420,11 @@ It depends on the platform. CMS §485.635 requires CAHs to maintain accurate, au
 
 **Q: What is the difference between nurse scheduling software and a workforce management platform?**
 
-Nurse scheduling software handles shift creation, coverage, and compliance tracking. Workforce management platforms include scheduling plus time and attendance, payroll integration, HR analytics, and credential management across an entire health system. For most CAHs, full workforce management platforms are over-engineered and over-priced. The right tool is a scheduling-focused platform, not a full WFM suite.
+Nurse scheduling software handles shift creation, coverage, and compliance tracking. Workforce management platforms include scheduling plus time and attendance, payroll integration, HR analytics, and credential management across an entire health system. For most small hospitals, full workforce management platforms are over-engineered and over-priced. The right tool is a scheduling-focused platform, not a full WFM suite.
 
 **Q: How long does it take to implement nurse scheduling software?**
 
-Implementation time ranges from a few days (Deputy, SimpleScheduleAI, NurseGrid) to 4-8 weeks (Aladtec, ShiftAdmin) to 6-18 months (UKG, QGenda at enterprise scale). For a CAH, any implementation that requires more than 4 weeks of internal configuration time is a red flag. The administrative capacity to manage a long implementation does not exist at most small hospitals.
+Implementation time ranges from a few days (Deputy, SimpleScheduleAI, NurseGrid) to 4-8 weeks (Aladtec, ShiftAdmin) to 6-18 months (UKG, QGenda at enterprise scale). For a small hospital, any implementation that requires more than 4 weeks of internal configuration time is a red flag. The administrative capacity to manage a long implementation does not exist at most small hospitals.
 
 ---
 
