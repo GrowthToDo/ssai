@@ -315,10 +315,13 @@ When a nurse is unavailable, the system generates a ranked callout shortlist bas
 availability, overtime exposure, and fairness distribution. This replaces the 2-3
 hour manual coordination process with a prioritized list you can act on in minutes.
 
----
+<div class="not-prose mt-8 text-center">
 
 Ready to reduce overtime and handle callouts without the Sunday evening scramble?
+
 [See how SimpleScheduleAI works for critical access hospitals →](/how-it-works)
+
+</div>
 
 ---
 
