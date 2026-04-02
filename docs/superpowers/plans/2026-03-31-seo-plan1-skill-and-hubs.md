@@ -486,11 +486,13 @@ const faqSchema = {
       <ul>
         <li>
           <a href="/blog/nurse-scheduling-software-vs-excel"
-            >Nurse Scheduling Software vs. Excel: When to Make the Switch</a>
+            >Nurse Scheduling Software vs. Excel: When to Make the Switch</a
+          >
         </li>
         <li>
           <a href="/blog/best-nurse-scheduling-software"
-            >Best Nurse Scheduling Software for Small Hospitals: 2025 Buyer's Guide</a>
+            >Best Nurse Scheduling Software for Small Hospitals: 2025 Buyer's Guide</a
+          >
         </li>
         <li><a href="/blog/nurse-schedule-maker">Nurse Schedule Maker: Building Schedules That Reduce Burnout</a></li>
         <li>
@@ -498,11 +500,13 @@ const faqSchema = {
         </li>
         <li>
           <a href="/blog/nurse-rostering-vs-scheduling-software"
-            >Nurse Rostering Software vs. Scheduling Software: What's the Difference?</a>
+            >Nurse Rostering Software vs. Scheduling Software: What's the Difference?</a
+          >
         </li>
         <li>
           <a href="/blog/nursing-scheduling-app-what-to-look-for"
-            >Nursing Scheduling App: What to Look for Before You Buy</a>
+            >Nursing Scheduling App: What to Look for Before You Buy</a
+          >
         </li>
         <li>
           <a href="/blog/nurse-schedule-generator">Nurse Schedule Generator: How to Automate Your Weekly Roster</a>
@@ -765,35 +769,43 @@ const faqSchema = {
       <ul>
         <li>
           <a href="/blog/fair-nurse-schedule-critical-access-hospital"
-            >How to Build a Fair Nurse Schedule at a Critical Access Hospital</a>
+            >How to Build a Fair Nurse Schedule at a Critical Access Hospital</a
+          >
         </li>
         <li>
           <a href="/blog/per-diem-nursing-shifts-critical-access-hospitals"
-            >Per Diem Nursing Shifts: How CAHs Can Fill Gaps Without Agency Costs</a>
+            >Per Diem Nursing Shifts: How CAHs Can Fill Gaps Without Agency Costs</a
+          >
         </li>
         <li>
           <a href="/blog/hospital-callout-coverage-ranked-shortlist"
-            >Hospital Callout Coverage: Building a Ranked Shortlist That Works</a>
+            >Hospital Callout Coverage: Building a Ranked Shortlist That Works</a
+          >
         </li>
         <li>
           <a href="/blog/texas-nursing-overtime-compliance-cah"
-            >Texas Nursing Overtime Compliance: A Guide for CAH Administrators</a>
+            >Texas Nursing Overtime Compliance: A Guide for CAH Administrators</a
+          >
         </li>
         <li>
           <a href="/blog/12-hour-hospital-shifts-scheduling"
-            >12-Hour Hospital Shifts: Scheduling Challenges and Solutions</a>
+            >12-Hour Hospital Shifts: Scheduling Challenges and Solutions</a
+          >
         </li>
         <li>
           <a href="/blog/night-shift-nurse-schedule-coverage"
-            >Night Shift Nurse Schedule: How to Ensure Adequate Coverage</a>
+            >Night Shift Nurse Schedule: How to Ensure Adequate Coverage</a
+          >
         </li>
         <li>
           <a href="/blog/nursing-staff-scheduling-best-practices-25-bed"
-            >Nursing Staff Scheduling Best Practices for 25-Bed Hospitals</a>
+            >Nursing Staff Scheduling Best Practices for 25-Bed Hospitals</a
+          >
         </li>
         <li>
           <a href="/blog/hospital-staffing-software-features-cah"
-            >Hospital Staffing Software: The 7 Features CAHs Actually Need</a>
+            >Hospital Staffing Software: The 7 Features CAHs Actually Need</a
+          >
         </li>
       </ul>
     </div>
@@ -1036,31 +1048,38 @@ const faqSchema = {
       <ul>
         <li>
           <a href="/blog/medical-scheduling-software-buyer-guide"
-            >Medical Scheduling Software: A Buyer's Guide for Small Hospitals</a>
+            >Medical Scheduling Software: A Buyer's Guide for Small Hospitals</a
+          >
         </li>
         <li>
           <a href="/blog/what-is-clinical-scheduling"
-            >What Is Clinical Scheduling and How Does It Differ from Nurse Scheduling?</a>
+            >What Is Clinical Scheduling and How Does It Differ from Nurse Scheduling?</a
+          >
         </li>
         <li>
           <a href="/blog/healthcare-workforce-management-cah"
-            >Healthcare Workforce Management: Why CAHs Need a Different Approach</a>
+            >Healthcare Workforce Management: Why CAHs Need a Different Approach</a
+          >
         </li>
         <li>
           <a href="/blog/hospital-workforce-management-software-cah"
-            >Hospital Workforce Management Software: What CAHs Should Know</a>
+            >Hospital Workforce Management Software: What CAHs Should Know</a
+          >
         </li>
         <li>
           <a href="/blog/staff-scheduling-software-healthcare-vs-generic"
-            >Staff Scheduling Software for Healthcare vs. Generic Tools</a>
+            >Staff Scheduling Software for Healthcare vs. Generic Tools</a
+          >
         </li>
         <li>
           <a href="/blog/nursing-scheduling-software-ai"
-            >Nursing Scheduling Software: How AI Is Changing Hospital Rosters</a>
+            >Nursing Scheduling Software: How AI Is Changing Hospital Rosters</a
+          >
         </li>
         <li>
           <a href="/blog/healthcare-staffing-software-small-hospitals"
-            >Healthcare Staffing Software: What Small Hospitals Should Prioritize</a>
+            >Healthcare Staffing Software: What Small Hospitals Should Prioritize</a
+          >
         </li>
       </ul>
     </div>

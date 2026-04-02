@@ -51,7 +51,7 @@ of whether the total pay was fair.
 Key FLSA requirements for Texas CAHs:
 
 - Overtime calculated on actual hours worked, not scheduled hours
-- On-call and callback time may count as hours worked depending on conditions  - 
+- On-call and callback time may count as hours worked depending on conditions -
   consult legal counsel for your specific on-call policy
 - Automatic deductions for meal breaks are only permissible if the employee is
   completely relieved of duties during that break (rare in CAH nursing)
@@ -92,8 +92,9 @@ may still have CMS documentation gaps, and vice versa.
 
 In conversations with 30+ nurse managers and CAH administrators across Texas, five
 compliance gaps appear most consistently. None of them require intentional misconduct
- -  they all emerge from scheduling processes that prioritize getting coverage over
-documenting it.
+
+- they all emerge from scheduling processes that prioritize getting coverage over
+  documenting it.
 
 **Gap 1: No written 8-and-80 agreements.** Facilities using the 8-and-80 FLSA
 alternative without documented prior written agreements with each employee are
@@ -169,7 +170,7 @@ These records must be available to the Texas Workforce Commission on request.
 
 **Callout and coverage logs.** Documentation of each callout event, the coverage
 solution implemented, and any agency nurse credentials used. For agency nurses in
-particular, the facility must document that the agency nurse held current credentials  - 
+particular, the facility must document that the agency nurse held current credentials -
 relying on the agency's assurance is not sufficient for CMS purposes.
 
 ## How SimpleScheduleAI Helps
