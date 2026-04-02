@@ -66,16 +66,16 @@ CAH-appropriate hospital staff scheduling software has a different specification
 
 ## How Does SimpleScheduleAI Compare to Enterprise Hospital Scheduling Tools?
 
-| Feature | Enterprise Platforms | SimpleScheduleAI |
-|---|---|---|
-| Implementation time | 4–12 weeks | 3–5 business days |
-| IT requirement | Yes (EHR integration, API setup) | No (Excel upload only) |
-| Texas compliance | Configurable (requires setup) | Built in as default |
-| Callout coverage | Manual or configured workflow | Automatic ranked shortlist |
-| CMS audit trail | Included in premium tiers | Included as default |
-| Pricing model | Per-seat, large minimum | Pilot-first, CAH-specific |
-| Ongoing support | Ticketed support | Dedicated scheduling specialist |
-| Best for | 50–500+ bed systems with IT | 25-bed CAHs without IT |
+| Feature             | Enterprise Platforms             | SimpleScheduleAI                |
+| ------------------- | -------------------------------- | ------------------------------- |
+| Implementation time | 4–12 weeks                       | 3–5 business days               |
+| IT requirement      | Yes (EHR integration, API setup) | No (Excel upload only)          |
+| Texas compliance    | Configurable (requires setup)    | Built in as default             |
+| Callout coverage    | Manual or configured workflow    | Automatic ranked shortlist      |
+| CMS audit trail     | Included in premium tiers        | Included as default             |
+| Pricing model       | Per-seat, large minimum          | Pilot-first, CAH-specific       |
+| Ongoing support     | Ticketed support                 | Dedicated scheduling specialist |
+| Best for            | 50–500+ bed systems with IT      | 25-bed CAHs without IT          |
 
 Enterprise tools (Aladtec, SmartLinx, API Healthcare) are genuinely good products for the organizations they're built for. The mismatch isn't product quality, it's deployment context. A tool that works well at a 200-bed regional hospital with a staffing coordinator and IT team is not wrong; it's just wrong for a 25-bed CAH with neither.
 

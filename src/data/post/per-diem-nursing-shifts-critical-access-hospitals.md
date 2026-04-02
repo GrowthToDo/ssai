@@ -116,6 +116,7 @@ functioning per diem pool is $96,000–$144,000. For a CAH operating on 2–3% m
 this is a material line item.
 
 **Indirect costs of agency use that per diem eliminates:**
+
 - Orientation time: each new agency nurse requires 1–2 hours of orientation per shift
   for a nurse unfamiliar with your unit
 - Quality variance: agency nurses unfamiliar with your protocols, patient population,

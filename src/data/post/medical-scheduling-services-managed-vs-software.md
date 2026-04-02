@@ -49,23 +49,27 @@ For facilities where 4–6 hours of scheduling time is acceptable, software is t
 A managed scheduling service handles the mechanical scheduling work on behalf of the facility. The specific scope varies by provider, but a full-service model covers:
 
 **Schedule building:**
+
 - Collecting availability and time-off requests from staff
 - Generating multiple draft schedule options (cost-optimized, fairness-optimized, balanced)
 - Checking overtime thresholds before any draft is presented for approval
 - Presenting drafts in a readable format for nurse manager review
 
 **Callout coverage:**
+
 - Maintaining a ranked callout shortlist for each shift type
 - Shortlisting ranked by availability, overtime proximity, certification match, and fairness distribution
 - Providing the shortlist to the nurse manager within minutes of a callout notification
 - Updating the posted schedule after coverage is confirmed
 
 **Compliance documentation:**
+
 - Auto-logging every schedule change with timestamp and change description
 - Maintaining staffing records in CMS-compliant format
 - Producing documentation packages for survey readiness
 
 **Ongoing management:**
+
 - Tracking cumulative overtime across the cycle
 - Flagging nurses approaching the 40-hour threshold mid-cycle
 - Monitoring fairness distribution across rolling periods
@@ -77,12 +81,14 @@ The nurse manager's role becomes: final approval of schedule drafts, final conta
 Scheduling software gives you control that a managed service doesn't. For nurse managers who want to build every schedule themselves, with better tools than spreadsheets, software is the right model.
 
 Software advantages over a managed service:
+
 - **Real-time access**: You can modify the schedule at any time without going through a service
 - **Immediate visibility**: All data is available to you directly, not mediated by a specialist
 - **Lower cost at some scales**: For facilities with simpler scheduling needs, software subscription pricing may be lower than service fees
 - **Staff self-service**: Some software products include nurse-facing mobile apps for availability management and swap requests
 
 Managed service advantages over software:
+
 - **No operational burden**: You don't need to learn, operate, or troubleshoot a software system
 - **No IT requirements**: A managed service onboards via spreadsheet, no API integration, EHR connection, or IT vendor involvement
 - **Calibration expertise**: A scheduling specialist knows the clinical constraints and builds them in; software requires the manager to configure them
@@ -91,6 +97,7 @@ Managed service advantages over software:
 ## How Do You Choose Between a Service and Software?
 
 **Choose scheduling software if:**
+
 - You want to retain direct, hands-on control of every scheduling decision
 - You have or are willing to invest time in learning and configuring a scheduling system
 - You have IT support for implementation
@@ -98,6 +105,7 @@ Managed service advantages over software:
 - You're comfortable with 4–6 hours of scheduling work per week (vs. 1–2)
 
 **Choose a managed scheduling service if:**
+
 - You need structural burden reduction, not just better tools
 - You don't have an IT department or scheduling coordinator
 - You want to start getting value in days, not weeks

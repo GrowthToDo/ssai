@@ -3,6 +3,7 @@
 Run this before publishing any new page or blog post. Every item must be ✅.
 
 ## Content
+
 - [ ] Unique title tag (50–60 chars) containing primary keyword
 - [ ] Unique meta description (140–160 chars) with benefit + audience signal
 - [ ] One H1 per page containing primary keyword
@@ -18,12 +19,14 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] CTA at end linking to `/pilot` or `/how-it-works`
 
 ## Images
+
 - [ ] All images have descriptive alt text (not empty, not keyword-stuffed)
 - [ ] All images have explicit width and height attributes set
 - [ ] All images are WebP or AVIF format
 - [ ] Hero/featured image is compressed (< 200KB ideally)
 
 ## Schema & Technical
+
 - [ ] FAQPage JSON-LD schema added for FAQ sections
 - [ ] BlogPosting schema present on blog posts (datePublished + dateModified set)
 - [ ] BreadcrumbList schema present on all inner pages
@@ -33,12 +36,14 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] Schema validated at https://search.google.com/test/rich-results ✅
 
 ## AEO / GEO
+
 - [ ] `public/llms.txt` updated if this adds a new feature, page, or pricing change
 - [ ] `public/robots.txt` still allows all AI crawlers (no accidental blocks added)
 - [ ] No PHI-capturing forms or HIPAA-violating tracking code introduced
 - [ ] Build passes locally: `npm run build` completes without errors
 
 ## After Publishing
+
 - [ ] Submit URL to Google Search Console → URL Inspection → Request Indexing
 - [ ] Query the page's target keyword in Perplexity and ChatGPT to baseline AI visibility
 - [ ] Add to AEO tracking spreadsheet (monthly check schedule)

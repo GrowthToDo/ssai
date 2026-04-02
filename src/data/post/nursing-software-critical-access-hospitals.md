@@ -42,14 +42,14 @@ Per interviews with 30+ Texas CAH nurse managers, scheduling administrative work
 
 The breakdown of scheduling time per the analysis in our [administrative burden research](/blog/healthcare-scheduling-crisis-26000-administrative-burden):
 
-| Task | Weekly time | Reducible? |
-|---|---|---|
-| Building the 4-week schedule | 1–1.5 hrs average | Yes, automated draft generation |
+| Task                          | Weekly time                      | Reducible?                                |
+| ----------------------------- | -------------------------------- | ----------------------------------------- |
+| Building the 4-week schedule  | 1–1.5 hrs average                | Yes, automated draft generation           |
 | Callout coverage coordination | 2–4 hrs (varies by callout rate) | Yes, ranked shortlist replaces phone tree |
-| Overtime monitoring | 0.5–1 hr | Yes, automated alerts |
-| Compliance documentation | 0.5–1 hr | Yes, automatic audit trail |
-| Schedule change management | 1–2 hrs | Partially |
-| **Total** | **6–12 hrs** | **Most reducible** |
+| Overtime monitoring           | 0.5–1 hr                         | Yes, automated alerts                     |
+| Compliance documentation      | 0.5–1 hr                         | Yes, automatic audit trail                |
+| Schedule change management    | 1–2 hrs                          | Partially                                 |
+| **Total**                     | **6–12 hrs**                     | **Most reducible**                        |
 
 EHR documentation is handled by vendor selection (most CAHs already have an EHR). Clinical decision support is an add-on investment. Scheduling, the 8–12 hours per week of administrative burden, is addressable with existing technology at a fraction of the EHR cost.
 

@@ -39,12 +39,14 @@ Before comparing options, define what "best" means for your facility. Four quest
 **What it is:** Enterprise workforce management platform with dedicated healthcare scheduling modules. Used by large health systems and regional hospitals.
 
 **Strengths:**
+
 - Comprehensive feature set covering scheduling, time and attendance, workforce analytics
 - Deep EHR integration options (Epic, Cerner)
 - Proven at health system scale
 - Robust reporting and analytics
 
 **Weaknesses:**
+
 - Enterprise implementation: months, significant IT involvement required
 - Pricing starts at tens of thousands annually
 - Designed for scale; complexity is appropriate for 500-bed systems, burdensome for 25-bed CAHs
@@ -61,6 +63,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 **What it is:** Healthcare-specific scheduling platform designed for EMS, fire/rescue, and healthcare organizations. One of the more widely used healthcare scheduling tools at smaller facilities.
 
 **Strengths:**
+
 - Purpose-built for healthcare and public safety organizations
 - Covers certification tracking, overtime management, compliance documentation
 - Suitable for smaller facilities, not enterprise-only
@@ -68,6 +71,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 - Reasonable implementation timeline (2–4 weeks) compared to enterprise platforms
 
 **Weaknesses:**
+
 - Self-serve model: the nurse manager still operates the system and builds schedules
 - Implementation and configuration requires time investment
 - No managed service component, you're responsible for setup and ongoing management
@@ -85,6 +89,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 **What it is:** Generic scheduling platform with a healthcare vertical. Strong mobile app, good shift communication features, easy to implement.
 
 **Strengths:**
+
 - Fast implementation, operational in days
 - Strong nurse-facing mobile app (nurses view schedules, request time off, propose swaps)
 - Good team communication features
@@ -92,6 +97,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 - Easy to learn
 
 **Weaknesses:**
+
 - Not purpose-built for healthcare compliance
 - No certification-unit matching enforcement
 - No CMS audit trail documentation
@@ -109,12 +115,14 @@ Before comparing options, define what "best" means for your facility. Four quest
 **What it is:** Healthcare workforce management platform serving primarily long-term care and post-acute care organizations. Expanding into hospital settings.
 
 **Strengths:**
+
 - Healthcare-specific design with compliance features
 - Covers scheduling, time and attendance, payroll integration
 - Designed for smaller healthcare organizations (not just enterprise)
 - Includes CMS documentation support
 
 **Weaknesses:**
+
 - Stronger long-term care than acute care optimization
 - Implementation requires meaningful IT and configuration investment
 - Pricing comparable to or exceeding mid-market competitors
@@ -131,6 +139,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 **What it is:** Managed scheduling service purpose-built for Texas critical access hospitals. A scheduling specialist handles schedule building, callout shortlists, overtime tracking, and compliance documentation; the nurse manager reviews and approves.
 
 **Strengths:**
+
 - Managed service model, nurse manager reviews, doesn't build
 - No IT integration required; onboards via Excel roster upload in 3–5 business days
 - Texas compliance built in (FLSA, TX Labor Code, CMS §485.635)
@@ -140,6 +149,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 - Fairness distribution monitoring across rolling 6-week periods
 
 **Weaknesses:**
+
 - No nurse-facing mobile app (nurses don't interact with the system directly)
 - Managed service model requires comfort delegating draft generation to a specialist
 - Calibration period in first 2–4 weeks, output improves as the specialist learns facility patterns
@@ -153,13 +163,13 @@ Before comparing options, define what "best" means for your facility. Four quest
 
 ## Summary Comparison
 
-| Option | Implementation | IT Required | CAH Compliance | Callout Logic | Nurse Controls Schedule? |
-|---|---|---|---|---|---|
-| UKG | Months | Yes | Yes (configurable) | Yes | Yes |
-| Aladtec | 2–4 weeks | Minimal | Yes | Partial | Yes |
-| When I Work | Days | No | No | No | Yes |
-| SmartLinx | Weeks | Minimal | Partial | Partial | Yes |
-| SimpleScheduleAI | 3–5 days | No | Yes, built-in | Yes | No (approves) |
+| Option           | Implementation | IT Required | CAH Compliance     | Callout Logic | Nurse Controls Schedule? |
+| ---------------- | -------------- | ----------- | ------------------ | ------------- | ------------------------ |
+| UKG              | Months         | Yes         | Yes (configurable) | Yes           | Yes                      |
+| Aladtec          | 2–4 weeks      | Minimal     | Yes                | Partial       | Yes                      |
+| When I Work      | Days           | No          | No                 | No            | Yes                      |
+| SmartLinx        | Weeks          | Minimal     | Partial            | Partial       | Yes                      |
+| SimpleScheduleAI | 3–5 days       | No          | Yes, built-in      | Yes           | No (approves)            |
 
 ## The Right Question to Ask
 

@@ -72,15 +72,15 @@ The pattern: generic tools work when healthcare scheduling is simple. The more C
 
 ## How Healthcare-Specific Employee Scheduling Software Compares
 
-| Feature | Generic (Homebase, When I Work) | Healthcare-Specific (Aladtec, SimpleScheduleAI) |
-|---|---|---|
-| Certification-unit matching | Not included | Required, prevents unsafe assignments |
-| FLSA overtime tracking | Basic or not included | Proactive, flags before schedule publishes |
-| CMS audit trail | Not included | Automatic, timestamp-logged changes |
-| Callout coverage logic | Not included | Ranked shortlist with clinical constraints |
-| Per-diem pool management | Not included | Separate pool with different rules |
-| Setup time | Days | Days (managed service) to weeks (self-serve) |
-| IT requirements | None | None (managed service) to minimal |
+| Feature                     | Generic (Homebase, When I Work) | Healthcare-Specific (Aladtec, SimpleScheduleAI) |
+| --------------------------- | ------------------------------- | ----------------------------------------------- |
+| Certification-unit matching | Not included                    | Required, prevents unsafe assignments           |
+| FLSA overtime tracking      | Basic or not included           | Proactive, flags before schedule publishes      |
+| CMS audit trail             | Not included                    | Automatic, timestamp-logged changes             |
+| Callout coverage logic      | Not included                    | Ranked shortlist with clinical constraints      |
+| Per-diem pool management    | Not included                    | Separate pool with different rules              |
+| Setup time                  | Days                            | Days (managed service) to weeks (self-serve)    |
+| IT requirements             | None                            | None (managed service) to minimal               |
 
 ## For Critical Access Hospitals: What This Means Practically
 

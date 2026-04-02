@@ -34,12 +34,14 @@ metadata:
 This analysis draws on anonymized nurse scheduling data collected from [N] Texas critical access hospitals during [TIME PERIOD] as part of the SimpleScheduleAI pilot program. All data has been de-identified at the facility and individual nurse level. No patient data was collected or analyzed.
 
 **What was analyzed:**
+
 - Shift-level schedule data: assigned shift type (day/evening/night/weekend), planned vs. actual coverage, and callout events
 - Weekly hours per nurse, aggregated to identify overtime incidence and distribution
 - Weekend, night, and holiday assignment counts per nurse within each scheduling period
 - Schedule rebuild frequency, instances where the published schedule was materially changed after publication
 
 **Scope:**
+
 - Facilities: [N] Texas CAHs with ≤25 acute care beds
 - Nurses: [N] individual nursing staff records (RN, LVN, per diem)
 - Scheduling periods: [N] monthly scheduling cycles (covering [TIME PERIOD])
@@ -56,6 +58,7 @@ This analysis draws on anonymized nurse scheduling data collected from [N] Texas
 [TO BE FILLED]
 
 **What this section will include:**
+
 - Average overtime hours per nurse per scheduling period, by shift type
 - Percentage of total overtime attributable to callout-coverage shifts vs. planned schedule overruns
 - Comparison across hospitals in the dataset to identify outlier patterns
@@ -72,6 +75,7 @@ This analysis draws on anonymized nurse scheduling data collected from [N] Texas
 [TO BE FILLED]
 
 **What this section will include:**
+
 - Distribution of callout events by day of week
 - Distribution of callout events by shift (day/night/weekend)
 - Average notice time before shift start (how late the callout notification arrived)
@@ -89,6 +93,7 @@ This analysis draws on anonymized nurse scheduling data collected from [N] Texas
 [TO BE FILLED]
 
 **What this section will include:**
+
 - Weekend shift assignments per nurse per scheduling period (mean, median, range)
 - Night shift assignments per nurse per scheduling period
 - Holiday assignments per nurse
@@ -106,6 +111,7 @@ This analysis draws on anonymized nurse scheduling data collected from [N] Texas
 [TO BE FILLED]
 
 **What this section will include:**
+
 - Estimated overtime cost per scheduling period per facility (using Texas RN median hourly rate as a baseline)
 - Agency nurse spend in gap-coverage events vs. per diem nurse spend
 - Cost-per-callout-resolution across facilities with different coverage structures

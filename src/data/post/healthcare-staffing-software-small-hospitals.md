@@ -29,6 +29,7 @@ At a 200-bed regional hospital, the scheduling challenge is coordination: thousa
 At a 25-bed CAH, the scheduling challenge is precision: a small roster, no float pool, a nurse manager with no dedicated scheduling support, and continuous coverage requirements under [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) that can't be met by assigning whoever is available. The software needs to solve the right problem at the right scale.
 
 Enterprise staffing software typically requires:
+
 - IT department involvement for implementation
 - EHR or HRIS integration
 - Months-long onboarding
@@ -68,12 +69,12 @@ Healthcare staffing software that automatically logs every schedule change, with
 
 ## How Do Healthcare Staffing Software Options Compare for Small Hospitals?
 
-| Option | Implementation Time | IT Required | CAH Compliance | Callout Coverage Logic |
-|---|---|---|---|---|
-| Enterprise platforms (UKG, API Healthcare) | Months | Yes | Configurable | Yes |
-| Mid-market tools (Aladtec, SmartLinx) | Weeks | Minimal | Yes (healthcare-specific) | Partial |
-| Generic tools (Homebase, When I Work) | Days | No | No | No |
-| Managed service (SimpleScheduleAI) | 3–5 business days | No | Yes, built-in | Yes |
+| Option                                     | Implementation Time | IT Required | CAH Compliance            | Callout Coverage Logic |
+| ------------------------------------------ | ------------------- | ----------- | ------------------------- | ---------------------- |
+| Enterprise platforms (UKG, API Healthcare) | Months              | Yes         | Configurable              | Yes                    |
+| Mid-market tools (Aladtec, SmartLinx)      | Weeks               | Minimal     | Yes (healthcare-specific) | Partial                |
+| Generic tools (Homebase, When I Work)      | Days                | No          | No                        | No                     |
+| Managed service (SimpleScheduleAI)         | 3–5 business days   | No          | Yes, built-in             | Yes                    |
 
 The gap for small hospitals is in the middle: mid-market healthcare tools have the right features but require weeks of setup and ongoing configuration. Generic tools are fast to implement but don't cover healthcare compliance. A managed service model fills this gap, healthcare-specific capability with implementation time comparable to generic tools.
 

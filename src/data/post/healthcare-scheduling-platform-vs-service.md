@@ -35,6 +35,7 @@ The question for small hospitals: do you have the time and infrastructure to ope
 Enterprise platforms like UKG, API Healthcare, and Infor are designed for large health systems. Their feature sets and implementation models reflect that context:
 
 **What they assume you have:**
+
 - IT department for implementation and ongoing maintenance
 - EHR/HRIS systems to integrate with
 - Dedicated scheduling staff or department to operate the platform
@@ -42,6 +43,7 @@ Enterprise platforms like UKG, API Healthcare, and Infor are designed for large 
 - Implementation timeline measured in months
 
 **What they deliver when those assumptions are correct:**
+
 - Comprehensive workforce management (scheduling + time and attendance + payroll integration + analytics)
 - Health system-scale coordination across multiple facilities
 - Deep compliance features for large hospital regulatory environments
@@ -65,6 +67,7 @@ For a nurse manager who wants direct control over every scheduling decision and 
 A managed scheduling service changes the operating model: instead of a platform your team runs, it's a function a specialist runs on your behalf.
 
 The service model handles:
+
 - Building multiple draft schedule options per cycle
 - Checking overtime thresholds before presenting any draft for approval
 - Maintaining ranked callout shortlists with certification and overtime constraints applied
@@ -100,6 +103,7 @@ Neither model is inherently superior. The right choice depends on how the nurse 
 One practical consideration often overlooked in platform comparisons: time to value.
 
 A healthcare scheduling platform, even a mid-market, self-serve option, requires:
+
 1. Procurement decision and contract
 2. System configuration (entering all nurses, certifications, unit rules)
 3. Learning period for the nurse manager
@@ -107,6 +111,7 @@ A healthcare scheduling platform, even a mid-market, self-serve option, requires
 5. Full operational value: typically 4–8 weeks from start
 
 A managed service:
+
 1. Procurement decision and contract
 2. Roster upload (Excel, 3–5 business days)
 3. First draft schedule delivered
