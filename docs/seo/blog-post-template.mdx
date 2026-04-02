@@ -17,6 +17,9 @@ metadata:
   canonical: 'https://simplescheduleai.com/blog/[slug]'
 ---
 
+{/* SLUG RULES: lowercase, hyphens only, keywords/phrases only — NO numbers in slugs
+    Good: healthcare-scheduling-crisis | Bad: 1-healthcare-scheduling-crisis */}
+
 {/*
   AUTHOR BIO — add this at the end of the post body:
 
@@ -35,17 +38,61 @@ metadata:
   ANA (nursingworld.org), AONL (aonl.org), or Flex Monitoring Team (flexmonitoring.org)
 */}
 
+{/*
+  WORD COUNT TARGETS (by content type):
+  - BOFU comparison/best-of:  3,000–5,000 words
+  - How-to / tutorial:        2,000–3,000 words
+  - Problem-aware / MOFU:     1,500–2,500 words
+  - Glossary (what-is-X):     600–1,000 words
+
+  TONE RULES — strictly enforced:
+  - No em-dashes (—). Use commas, colons, or rewrite the sentence.
+  - No AI-generated tone: no "delve into", "dive into", "it's worth noting",
+    "in conclusion", "robust", "leverage", "game-changing", "seamless",
+    "comprehensive solution", "transformative", "at the end of the day",
+    "unlock", "harness".
+  - Write like a hospital operations veteran talking to a peer. Direct, plain,
+    specific. If a sentence could appear in a generic AI blog, rewrite it.
+  - No unverified claims framed as facts. If you can't link to a source,
+    rephrase as an observation.
+*/}
+
+## Table of Contents
+- [TL;DR](#tldr)
+- [Key Takeaways](#key-takeaways)
+- [The Problem](#the-problem)
+- [Section 1 title](#section-1)
+- [Section 2 title](#section-2)
+- [Section 3 title](#section-3)
+- [How SimpleScheduleAI Helps](#how-simplescheduleai-helps)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
 ## TL;DR
 
 [40–80 word direct summary of the key takeaway. This is the first capsule AI
 engines will extract. Make it self-contained — it must make sense without the
 rest of the article. Include one specific, source-backed stat.]
 
+## Key Takeaways
+
+- [Takeaway 1 — specific and actionable]
+- [Takeaway 2 — specific and actionable]
+- [Takeaway 3 — specific and actionable]
+- [Takeaway 4 — specific and actionable]
+- [Takeaway 5 — specific and actionable]
+
 ## The Problem: [State the pain point clearly]
 
 [200–300 words. Reference real data with source links. Example: "According to
 HRSA rural workforce data, CAHs spend 18–22% of labor budgets on overtime
 [link]. This translates to..."]
+
+{/*
+  DIAGRAM 1: Process or pain-point diagram
+  Show the problem visually — e.g., "flowchart of how a callout cascades into
+  overtime costs", "timeline of a scheduling manager's week", "cost breakdown chart".
+  Ask Claude Code: "Generate an SVG diagram showing [description]"
+*/}
 
 ## [Question H2 — mirrors what people search for]
 
@@ -61,6 +108,14 @@ This length maximizes ChatGPT citation probability.]
 
 [120–180 word explanation]
 
+{/*
+  DIAGRAM 2: Comparison or flow diagram
+  Show a comparison, decision flow, or process — e.g., "manual vs software scheduling
+  comparison table", "step-by-step how to build a fair nurse rotation",
+  "decision tree for choosing a scheduling approach".
+  Ask Claude Code: "Generate an SVG diagram showing [description]"
+*/}
+
 ## [Third Question H2]
 
 [40–70 word capsule]
@@ -72,6 +127,14 @@ This length maximizes ChatGPT citation probability.]
 [Natural product mention — not a hard pitch. 100–150 words. Link to
 /how-it-works or /pilot. Acknowledge one limitation honestly — this
 increases AI citation likelihood for Claude and ChatGPT.]
+
+{/*
+  DIAGRAM 3: Summary or decision diagram
+  Help the reader decide or synthesize — e.g., "is SimpleScheduleAI right for
+  your hospital? decision tree", "summary of key scheduling principles",
+  "before/after scheduling workflow".
+  Ask Claude Code: "Generate an SVG diagram showing [description]"
+*/}
 
 ## Frequently Asked Questions
 
@@ -89,14 +152,6 @@ self-contained. Add FAQPage JSON-LD schema for these questions.]
 **Q: [Question]**
 
 [50–60 word direct answer]
-
-## Key Takeaways
-
-- [Takeaway 1 — specific and actionable]
-- [Takeaway 2 — specific and actionable]
-- [Takeaway 3 — specific and actionable]
-- [Takeaway 4 — specific and actionable]
-- [Takeaway 5 — specific and actionable]
 
 ---
 
