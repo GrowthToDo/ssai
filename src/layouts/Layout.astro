@@ -26,21 +26,19 @@ const { metadata = {} } = Astro.props;
 const { language, textDirection } = I18N;
 
 const orgSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "SimpleScheduleAI",
-  "url": "https://simplescheduleai.com",
-  "logo": "https://simplescheduleai.com/images/logo.png",
-  "description": "AI-powered nurse scheduling managed service for critical access hospitals in Texas.",
-  "foundingDate": "2024",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer support",
-    "email": "hello@simplescheduleai.com"
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'SimpleScheduleAI',
+  url: 'https://simplescheduleai.com',
+  logo: 'https://simplescheduleai.com/images/logo.png',
+  description: 'AI-powered nurse scheduling managed service for critical access hospitals in Texas.',
+  foundingDate: '2024',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer support',
+    email: 'hello@simplescheduleai.com',
   },
-  "sameAs": [
-    "https://www.linkedin.com/company/simplescheduleai"
-  ]
+  sameAs: ['https://www.linkedin.com/company/simplescheduleai'],
 };
 ---
 

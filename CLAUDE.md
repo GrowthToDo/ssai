@@ -16,15 +16,15 @@ Pradeep is building this as a founder. Frame all suggestions from a hospital ope
 
 ## Key File Locations
 
-| What | Where |
-|------|-------|
-| Pages | `src/pages/` |
-| Blog posts | `src/data/post/` (Markdown/MDX) |
-| Blog route | `src/pages/[...blog]/index.astro` |
-| Schema component | `src/components/common/SchemaOrg.astro` |
-| SEO/AEO skill | `.claude/skills/seo-aeo-simplescheduleai.md` |
-| Blog post template | `docs/seo/blog-post-template.mdx` |
-| Pre-publish checklist | `docs/seo/pre-publish-checklist.md` |
+| What                  | Where                                        |
+| --------------------- | -------------------------------------------- |
+| Pages                 | `src/pages/`                                 |
+| Blog posts            | `src/data/post/` (Markdown/MDX)              |
+| Blog route            | `src/pages/[...blog]/index.astro`            |
+| Schema component      | `src/components/common/SchemaOrg.astro`      |
+| SEO/AEO skill         | `.claude/skills/seo-aeo-simplescheduleai.md` |
+| Blog post template    | `docs/seo/blog-post-template.mdx`            |
+| Pre-publish checklist | `docs/seo/pre-publish-checklist.md`          |
 
 ## Key Pages
 

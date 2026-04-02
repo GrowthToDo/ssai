@@ -42,15 +42,15 @@ Healthcare scheduling is structurally different in five ways:
 
 ## What Healthcare-Specific Features Does Scheduling Software Need?
 
-| Requirement | Generic Tool | Healthcare-Specific Tool |
-|---|---|---|
-| Certification matching | Not included | Required, prevents unsafe assignments |
-| FLSA overtime tracking | Sometimes (basic) | Required, proactive threshold alerts |
-| CMS audit trail | Not included | Required, timestamp-logged change history |
-| Callout coverage logic | Not included | Required, ranked, certified replacement list |
-| Per-diem pool management | Not included | Required, separate availability and OT rules |
-| Texas-specific compliance | Not included | Required for TX CAHs |
-| Multiple draft schedules | Not included | Useful, cost vs fairness tradeoff visibility |
+| Requirement               | Generic Tool      | Healthcare-Specific Tool                     |
+| ------------------------- | ----------------- | -------------------------------------------- |
+| Certification matching    | Not included      | Required, prevents unsafe assignments        |
+| FLSA overtime tracking    | Sometimes (basic) | Required, proactive threshold alerts         |
+| CMS audit trail           | Not included      | Required, timestamp-logged change history    |
+| Callout coverage logic    | Not included      | Required, ranked, certified replacement list |
+| Per-diem pool management  | Not included      | Required, separate availability and OT rules |
+| Texas-specific compliance | Not included      | Required for TX CAHs                         |
+| Multiple draft schedules  | Not included      | Useful, cost vs fairness tradeoff visibility |
 
 ## How Do Popular Generic Tools Compare to Healthcare-Specific Options?
 
@@ -67,12 +67,14 @@ Healthcare scheduling is structurally different in five ways:
 ## When Should a Healthcare Facility Use a Generic Tool vs. Healthcare-Specific Software?
 
 **Generic tools work for:**
+
 - Medical practices and clinics with predictable, non-rotating hours
 - Home health agencies where scheduling complexity is geographic rather than clinical
 - Small facilities where the primary need is shift assignment and staff communication, with compliance handled manually
 - Facilities already using a healthcare-specific system for compliance who need a staff-facing communication layer
 
 **Healthcare-specific tools or managed services are necessary when:**
+
 - Your facility has CMS documentation requirements (all CAHs do)
 - You have certification-specific staffing requirements by unit
 - You need automated callout coverage from a certified nurse pool

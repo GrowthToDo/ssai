@@ -11,7 +11,7 @@ const { id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } 
 
 const title = 'Call-outs become a workflow, not a fire drill';
 const subtitle =
-  'A nurse cancels at 9 PM. You\'re off the clock. The system logs the callout, finds charge-qualified replacements, flags overtime risks, and has a name ready for your approval before your shift starts.';
+  "A nurse cancels at 9 PM. You're off the clock. The system logs the callout, finds charge-qualified replacements, flags overtime risks, and has a name ready for your approval before your shift starts.";
 
 const details = [
   'We check eligible staff availability first (skills, role, charge)',
@@ -32,7 +32,6 @@ const logExample = {
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl ${classes?.container ?? ''}`} bg={bg}>
   <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
-
     <!-- Left: text + bullets + log box -->
     <div>
       <Headline
@@ -67,6 +66,5 @@ const logExample = {
 
     <!-- Right: animated callout coverage widget -->
     <ShowcaseCalloutCoverage client:visible />
-
   </div>
 </WidgetWrapper>

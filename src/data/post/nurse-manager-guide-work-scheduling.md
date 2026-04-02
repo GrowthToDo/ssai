@@ -29,6 +29,7 @@ Nurse managers at critical access hospitals own the entire scheduling lifecycle:
 At a critical access hospital, the nurse manager typically owns the complete scheduling function, there is no dedicated scheduler, no staffing coordinator, and no HR manager to share the load. The responsibilities span four categories:
 
 **Schedule building (4–6 hours per 4-week cycle):**
+
 - Collecting nurse availability and time-off requests
 - Building the draft schedule across all shifts for the cycle
 - Verifying coverage minimums per shift
@@ -36,6 +37,7 @@ At a critical access hospital, the nurse manager typically owns the complete sch
 - Distributing the schedule to staff
 
 **Callout management (1–3 hours per callout event):**
+
 - Receiving the callout notification
 - Identifying available, qualified replacements
 - Working through the contact sequence until coverage is secured
@@ -43,12 +45,14 @@ At a critical access hospital, the nurse manager typically owns the complete sch
 - Documenting the change
 
 **Ongoing management (2–3 hours per week):**
+
 - Responding to shift swap requests
 - Tracking overtime accumulation mid-cycle
 - Coordinating PRN/per-diem coverage for anticipated gaps
 - Updating the schedule as changes occur
 
 **Compliance documentation (1 hour per week):**
+
 - Maintaining accurate staffing records for CMS survey readiness
 - Documenting on-call arrangements
 - Tracking and logging schedule changes with timestamps
@@ -60,15 +64,15 @@ Across interviews with 30+ Texas CAH nurse managers, the consistent finding is 8
 
 The breakdown varies by facility size and scheduling complexity, but the pattern is consistent:
 
-| Task | Time per week | Reducible? |
-|---|---|---|
-| Building the 4-week schedule | 1–1.5 hrs/wk average | Yes, automated draft generation |
+| Task                          | Time per week                    | Reducible?                                |
+| ----------------------------- | -------------------------------- | ----------------------------------------- |
+| Building the 4-week schedule  | 1–1.5 hrs/wk average             | Yes, automated draft generation           |
 | Callout coverage coordination | 2–4 hrs (varies by callout rate) | Yes, ranked shortlist replaces phone tree |
-| Schedule change management | 1–2 hrs | Partially, change logging automation |
-| Overtime monitoring | 0.5–1 hr | Yes, automated threshold alerts |
-| Compliance documentation | 0.5–1 hr | Yes, automatic change audit trail |
-| Staff communication | 0.5–1 hr | Partially, templated communications |
-| **Total** | **6–12 hrs** | **Most reducible with managed service** |
+| Schedule change management    | 1–2 hrs                          | Partially, change logging automation      |
+| Overtime monitoring           | 0.5–1 hr                         | Yes, automated threshold alerts           |
+| Compliance documentation      | 0.5–1 hr                         | Yes, automatic change audit trail         |
+| Staff communication           | 0.5–1 hr                         | Partially, templated communications       |
+| **Total**                     | **6–12 hrs**                     | **Most reducible with managed service**   |
 
 The callout coverage component is proportionally the most variable and most disruptive. A nurse manager who averages two callouts per week at 1.5 hours each is spending 3 hours weekly on reactive coverage, every week, indefinitely, at unpredictable times that interrupt clinical supervision.
 

@@ -114,6 +114,7 @@ accumulating fatigue that doesn't show up in hours-worked data but shows up in
 nursing errors and eventual turnover.
 
 **Specific fatigue risk patterns to monitor at a 25-bed CAH:**
+
 - Nurses working 4 or more consecutive 12-hour shifts (callout coverage driving this)
 - Night-to-day rotation with fewer than 24 hours between final night shift and first
   day shift

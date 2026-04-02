@@ -83,11 +83,11 @@ Manual overtime management is reactive: overtime appears on payroll, the manager
 
 Scheduling software with overtime tracking is proactive: the system flags overtime risk during schedule building and ranks callout replacements by overtime proximity.
 
-| Approach | Overtime detection point | Preventable? |
-|---|---|---|
-| Manual (payroll-based) | After payment | No, already incurred |
-| Basic scheduling software | After schedule publishes | Partially, mid-cycle adjustments possible |
-| AI-assisted scheduling | During schedule building and callout replacement | Yes, most overtime prevented before incurred |
+| Approach                  | Overtime detection point                         | Preventable?                                 |
+| ------------------------- | ------------------------------------------------ | -------------------------------------------- |
+| Manual (payroll-based)    | After payment                                    | No, already incurred                         |
+| Basic scheduling software | After schedule publishes                         | Partially, mid-cycle adjustments possible    |
+| AI-assisted scheduling    | During schedule building and callout replacement | Yes, most overtime prevented before incurred |
 
 The financial case: reducing overtime by 15% at a 25-bed CAH with $400K annual nursing labor typically represents $9,000–$15,000 in annual savings. This exceeds the cost of most scheduling software at this scale.
 

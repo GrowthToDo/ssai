@@ -48,6 +48,7 @@ The result: CAHs that implement scheduling apps often see initial improvement fo
 A healthcare scheduling managed service inverts the model: instead of giving you tools to do the scheduling work, a service does the scheduling work for you.
 
 In practice, this means:
+
 - A scheduling specialist handles the initial setup, roster configuration, shift rules, Texas compliance parameters, using your existing Excel data
 - The system generates AI-drafted schedule options each cycle, which your nurse manager reviews and approves
 - Callout coverage is handled with a ranked replacement shortlist, not a phone tree
@@ -60,12 +61,14 @@ Based on research with 30+ Texas CAH nurse managers, this model reduces scheduli
 ## Which Approach Is Right for Your Hospital?
 
 **A healthcare scheduling app is a better fit if:**
+
 - You have a dedicated scheduler (not the nurse manager) who will operate it
 - You have IT support for initial configuration and ongoing maintenance
 - Your hospital has 50+ beds with scheduling complexity beyond what a service model handles
 - You want staff self-service features, nurses submitting availability, requesting swaps, checking schedules on mobile
 
 **A managed scheduling service is a better fit if:**
+
 - Your nurse manager is doing the scheduling alongside clinical duties
 - You have no IT department and need to be operational in days, not weeks
 - You need Texas compliance built in without manual configuration

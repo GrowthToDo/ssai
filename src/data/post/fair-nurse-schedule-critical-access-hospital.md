@@ -90,6 +90,7 @@ Equitable distribution requires three things: a written policy, a tracking mecha
 and a schedule-building process that checks compliance before posting.
 
 **The written policy should specify:**
+
 - Minimum and maximum weekend shifts per nurse per schedule period (typically 4–6 weeks)
 - A holiday rotation cycle (e.g., alternating Thanksgiving/Christmas each year)
 - Night shift frequency caps for nurses without permanent night positions

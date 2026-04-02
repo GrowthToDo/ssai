@@ -28,6 +28,7 @@ A nurse shift schedule at a critical access hospital must deliver continuous RN 
 A nurse shift schedule is the structured assignment of nursing staff to defined time blocks, shifts, across a scheduling period, typically 4–6 weeks. At a critical access hospital, the schedule must guarantee that at least one RN is on duty or on call at all times, as required by [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals).
 
 At a 25-bed CAH, a typical nurse shift schedule covers:
+
 - 3–4 shifts per day (day, evening, night, and sometimes a short bridge shift)
 - A roster of 15–25 nurses, including full-time, part-time, and per-diem staff
 - Unit-specific coverage requirements (some nurses may be assigned to specific units based on certification)
