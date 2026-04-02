@@ -7,3 +7,9 @@
   for = "/_astro/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/blog/healthcare-scheduling-crisis-26000-administrative-burden"
+  to = "/blog/healthcare-scheduling-crisis"
+  status = 301
+  force = true
