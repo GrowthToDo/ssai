@@ -72,7 +72,7 @@ at the moment of need.
 The concept is simple: instead of the manager deciding who to call during the
 scramble, the system has already ranked eligible nurses based on pre-defined criteria.
 The manager starts at #1 on the list and works down. When they reach the end of
-the list without a yes, escalation to per diem or agency is the defined next step —
+the list without a yes, escalation to per diem or agency is the defined next step  - 
 not an improvised decision made under pressure.
 
 **To build a ranked shortlist manually:**
@@ -114,7 +114,7 @@ higher-hours nurse from burnout accumulation.
 
 **Criterion 3: Callout coverage history (rolling 30 days).** Who has covered the most
 callout shifts recently? This is the fairness dimension. A nurse who has already
-covered three callouts this month should rank lower than a nurse who covered zero —
+covered three callouts this month should rank lower than a nurse who covered zero  - 
 even if both have similar available hours. Without this data, the phone tree defaults
 to habit, not equity.
 
@@ -155,11 +155,11 @@ if a surveyor asks how you covered a specific shift, you have a clear record.
 it has. If a nurse's availability data is outdated, they may appear on the list but
 decline because they're actually unavailable. The quality of the shortlist is a direct
 function of the quality of the underlying availability data. Facilities that allow
-informal availability updates via text, rather than through the scheduling system —
+informal availability updates via text, rather than through the scheduling system  - 
 will see degraded shortlist accuracy.
 
 **What this means for response time:** CAH nurse managers who have implemented
-systematic callout shortlists, whether software-generated or manually maintained —
+systematic callout shortlists, whether software-generated or manually maintained  - 
 report typical callout response times of 20–45 minutes versus 90–180 minutes for
 unstructured phone trees. For a shift starting in 2 hours, the difference between
 45 minutes and 3 hours determines whether you can avoid the agency call entirely.

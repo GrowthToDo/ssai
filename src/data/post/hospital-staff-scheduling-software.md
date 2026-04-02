@@ -7,7 +7,7 @@ title: "Hospital Staff Scheduling Software: What Critical Access Hospitals Need 
 excerpt: >
   Hospital staff scheduling software built for large health systems requires IT
   infrastructure, dedicated scheduling staff, and months-long implementation timelines
-  that critical access hospitals don't have. Here's what CAHs actually need —
+  that critical access hospitals don't have. Here's what CAHs actually need  - 
   and why purpose-built tools consistently outperform enterprise platforms at the 25-bed scale.
 image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations

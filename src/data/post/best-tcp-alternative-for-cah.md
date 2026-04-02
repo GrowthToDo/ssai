@@ -114,10 +114,10 @@ At minimum: an automatically maintained log of every schedule change with timest
 
 ## Key Takeaways
 
-- TCP Scheduling Software (Aladtec) is a self-serve platform that requires the nurse manager to configure, build, and maintain schedules — the burden is lower than spreadsheets but not eliminated
+- TCP Scheduling Software (Aladtec) is a self-serve platform that requires the nurse manager to configure, build, and maintain schedules - the burden is lower than spreadsheets but not eliminated
 - The best self-serve TCP alternative for CAHs is ShiftWizard (modern interface, hospital-specific, comparable setup time)
 - The best alternative if the goal is structural burden reduction is a managed scheduling service (specialist builds, nurse manager approves)
-- TCP has a nurse-facing mobile app that SimpleScheduleAI does not — this is the primary reason to choose TCP over a managed service if staff self-service is a priority
+- TCP has a nurse-facing mobile app that SimpleScheduleAI does not - this is the primary reason to choose TCP over a managed service if staff self-service is a priority
 - The right alternative depends on what problem you are actually trying to solve: better tools, or less work
 
 ---
