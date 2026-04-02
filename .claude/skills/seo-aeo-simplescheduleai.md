@@ -183,7 +183,7 @@ is published.
 | `/blog/nurse-callout-coverage-tips` | `/blog/post-3` |
 | `/roi-calculator` | `/calculator.php?type=roi` |
 
-Rules: lowercase, hyphens (not underscores), keyword-bearing, under 60 chars.
+Rules: lowercase, hyphens (not underscores), keyword-bearing, under 60 chars. No numbers in slugs — use keywords/phrases only (e.g., `healthcare-scheduling-crisis` not `1-healthcare-scheduling-crisis`).
 
 ### 2.4 Core Web Vitals Targets
 
@@ -250,7 +250,7 @@ Never skip levels or use headings for visual styling.
 - Primary keyword in the first 100 words of body text.
 - Use semantic variants: "nurse scheduling", "staff scheduling", "nurse roster
   management", "shift scheduling for nurses", "CAH scheduling".
-- Minimum 600 words for product/landing pages; 1,200+ for blog posts.
+- Minimum 600 words for product/landing pages. Blog posts: see content-type word count targets in Part 7.
 - Each paragraph: 2–4 sentences max.
 
 ### 3.3 Image Alt Text Rules
@@ -400,7 +400,11 @@ Written blog posts with embedded YouTube videos are cited in Google AI Overviews
 156% more frequently than text-only pages.
 
 **Content repurposing pipeline per pillar topic:**
-1. Long-form written article (1,500–3,000 words, Content Capsule format)
+1. Long-form written article (Content Capsule format) — word count by type:
+   - BOFU comparison/best-of: 3,000–5,000 words
+   - How-to / tutorial: 2,000–3,000 words
+   - Problem-aware / MOFU: 1,500–2,500 words
+   - Glossary (what-is-X): 600–1,000 words
 2. Short YouTube explainer (3–5 min) on same topic — embed in article
 3. FAQ array from article — add FAQPage schema
 4. LinkedIn post summarizing key insight — links to full article
@@ -414,7 +418,7 @@ Written blog posts with embedded YouTube videos are cited in Google AI Overviews
 | TL;DR / Capsule Answer | 40–70 words | Fastest AI extraction point |
 | Per-Section Depth | 120–180 words | +70% ChatGPT citations |
 | FAQ Answers | 50–60 words | Self-contained, quotable |
-| Full Article | 1,500–3,000 words | Claude handles 5,000+ |
+| Full Article | BOFU: 3,000–5,000 / How-to: 2,000–3,000 / MOFU: 1,500–2,500 / Glossary: 600–1,000 | Claude handles 5,000+ |
 | Fact Frequency | 1 stat per 150–200 words | Critical for Perplexity |
 
 **Schema stacking rule**: Article + FAQPage + ItemList = **1.8x more citations**
@@ -679,31 +683,58 @@ Cluster articles (in order of priority):
 
 ### 7.3 Blog Post Structure Template
 
+Word count by type: BOFU 3,000–5,000 / How-to 2,000–3,000 / MOFU 1,500–2,500 / Glossary 600–1,000.
+
 ```markdown
 # [Keyword-rich H1 — outcome-focused]
 
 [Author name, credentials, date, last updated]
 
-[40–60 word intro — AEO extract target]
+## Table of Contents
+- [TL;DR](#tldr)
+- [Key Takeaways](#key-takeaways)
+- [The Problem](#the-problem)
+- ...section links...
+- [How SimpleScheduleAI Helps](#how-simplescheduleai-helps)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## TL;DR
+[40–80 word direct summary — first AEO capsule. Self-contained, source-backed stat.]
+
+## Key Takeaways
+[5 specific, actionable bullets — placed here, NOT at the bottom]
 
 ## The Problem: [State the pain point clearly]
 [200–300 words. Real data/sources. Link to CMS, ANA, state nursing board.]
+
+[DIAGRAM 1: process or pain-point visual — flowchart, cost breakdown, timeline]
 
 ## [Question H2]
 [40–70 word direct answer — capsule]
 [120–180 word deeper explanation]
 
+## [Second Question H2]
+[40–70 word capsule]
+[120–180 word explanation]
+
+[DIAGRAM 2: comparison table, flow diagram, or decision tree]
+
+## [Third Question H2]
+[40–70 word capsule]
+[120–180 word explanation]
+
 ## How SimpleScheduleAI Helps
-[Natural product mention — not a hard pitch.]
+[Natural product mention — not a hard pitch. Acknowledge one limitation honestly.]
+
+[DIAGRAM 3: summary, before/after, or decision diagram]
 
 ## Frequently Asked Questions
 [3–5 FAQs with FAQPage schema]
 
-## Summary
-[5–7 bulleted key takeaways]
-
 [CTA: "Explore how SimpleScheduleAI works →"]
 ```
+
+**Diagram rule:** Add diagrams wherever they explain a process, comparison, or decision better than prose. Ask Claude Code to generate SVG diagrams inline. Minimum 2–3 per article for BOFU/how-to content.
 
 ### 7.4 Glossary Page Pattern ("What is X?")
 
@@ -727,7 +758,29 @@ is the canonical definition page for a term.
 in AI Overviews for definitional queries. Publish under `/blog/` not a separate
 URL since they use the same BlogPosting schema pipeline.
 
-### 7.5 Interactive Tools Page Pattern
+### 7.5 BOFU Article Templates (High Conversion Priority)
+
+**"Best X software" variations** — each needs a distinct audience angle and comparison set. Not thin rewrites.
+
+Target titles (write all of these):
+- Best nurse scheduling software (2026)
+- Best healthcare staff scheduling software
+- Best nurse scheduling software for small hospitals
+- Best nurse scheduling software for critical access hospitals
+- Best nurse scheduling software for rural hospitals
+- Best scheduling software for 25-bed hospitals
+
+**"How to" tutorials** — step-by-step content, featured snippet targets:
+- How to schedule nurses for a 25-bed hospital
+- How to reduce nurse overtime in a critical access hospital
+- How to handle nurse callouts without an agency
+- How to build a fair nurse rotation schedule
+
+**Word count:** BOFU best-of posts: 3,000–5,000 words. How-to tutorials: 2,000–3,000 words.
+
+**Differentiation rule:** Each "best X" variation must cover different pain points, different buyer persona, and a different subset of competitors in the comparison table. Do not recycle the same comparison across variations.
+
+### 7.6 Interactive Tools Page Pattern
 
 Use for tools at `/tools/[name]`. Ungated — SEO and link magnet, not lead capture.
 
@@ -948,6 +1001,13 @@ Check: Google AI Overviews, Perplexity, ChatGPT with browsing, Claude.
 4. Do NOT make safety or clinical claims without sourced evidence (YMYL risk).
 5. Do NOT assume Google ranking = appearing in AI Overviews (track separately).
 6. Do NOT let content go unupdated for 14+ days if it covers time-sensitive data.
+
+### ❌ WRITING TONE — NON-NEGOTIABLE
+1. No em-dashes (—). Use commas, colons, or rewrite the sentence.
+2. No AI-generated phrasing: "delve into", "dive into", "it's worth noting", "in conclusion", "robust", "leverage", "game-changing", "seamless", "comprehensive solution", "transformative", "at the end of the day", "unlock", "harness", "navigating", "streamline".
+3. Write like a hospital operations veteran talking to a peer. Direct, plain, specific. If a sentence could appear in a generic AI marketing blog, rewrite it.
+4. No unverified claims framed as facts. If you cannot link to a primary source, rephrase as observation or experience.
+5. Sentences should be short. Paragraphs 2–4 sentences max. No throat-clearing intros.
 
 ---
 
