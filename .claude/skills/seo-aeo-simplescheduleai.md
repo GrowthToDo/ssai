@@ -456,13 +456,15 @@ Written blog posts with embedded YouTube videos are cited in Google AI Overviews
 
 ### 4.8 GEO Citability Scoring (2026 Research Data)
 
-| Content Layer          | Target Word Count                                                                 | Citation Impact             |
-| ---------------------- | --------------------------------------------------------------------------------- | --------------------------- |
-| TL;DR / Capsule Answer | 40–70 words                                                                       | Fastest AI extraction point |
-| Per-Section Depth      | 120–180 words                                                                     | +70% ChatGPT citations      |
-| FAQ Answers            | 50–60 words                                                                       | Self-contained, quotable    |
-| Full Article           | BOFU: 3,000–5,000 / How-to: 2,000–3,000 / MOFU: 1,500–2,500 / Glossary: 600–1,000 | Claude handles 5,000+       |
-| Fact Frequency         | 1 stat per 150–200 words                                                          | Critical for Perplexity     |
+| Content Layer     | Target Word Count                                                                 | Citation Impact                                 |
+| ----------------- | --------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Key Takeaways     | 5–6 bullets, ~100 words total                                                     | Fastest AI extraction point — placed before TOC |
+| Per-Section Depth | 120–180 words                                                                     | +70% ChatGPT citations                          |
+| FAQ Answers       | 50–60 words                                                                       | Self-contained, quotable                        |
+| Full Article      | BOFU: 3,000–5,000 / How-to: 2,000–3,000 / MOFU: 1,500–2,500 / Glossary: 600–1,000 | Claude handles 5,000+                           |
+| Fact Frequency    | 1 stat per 150–200 words                                                          | Critical for Perplexity                         |
+
+**Note on TL;DR:** Do not use a separate TL;DR section. Key Takeaways serves both purposes — a TL;DR is redundant and adds AI-tell patterns. Key Takeaways must be placed BEFORE the TOC, not after it.
 
 **Schema stacking rule**: Article + FAQPage + ItemList = **1.8x more citations**
 than single schema. Valid structured data = **2.3x more likely** to appear in
@@ -750,37 +752,130 @@ Cluster articles (in order of priority):
 
 Word count by type: BOFU 3,000–5,000 / How-to 2,000–3,000 / MOFU 1,500–2,500 / Glossary 600–1,000.
 
-```markdown
-# [Keyword-rich H1 — outcome-focused]
+**TONE RULES — strictly enforced:**
 
-[Author name, credentials, date, last updated]
+- No em-dashes (—). Use commas, colons, or rewrite the sentence.
+- No AI-generated phrases: "delve into", "dive into", "it's worth noting", "in conclusion", "robust", "leverage", "game-changing", "seamless", "comprehensive solution", "transformative", "at the end of the day", "unlock", "harness".
+- No `---` horizontal rules between sections — these are AI-tell patterns and visually cluttered.
+- Write like a hospital operations veteran talking to a peer. Direct, plain, specific.
+- No unverified claims framed as facts. Link every stat to a primary source.
+
+**SLUG RULES:**
+
+- Lowercase, hyphens only, keywords/phrases only.
+- No numbers in slugs (e.g., `healthcare-scheduling-crisis` not `1-healthcare-scheduling-crisis`).
+
+**For BOFU comparison posts ("Best X" posts), use this structure:**
+
+```markdown
+## Key Takeaways
+
+[5–6 specific, actionable bullets — placed BEFORE the TOC, not in TOC]
 
 ## Table of Contents
 
-- [TL;DR](#tldr)
-- [Key Takeaways](#key-takeaways)
+- [How to Evaluate [Category]](#how-to-evaluate)
+- [Quick Comparison: All [N] Platforms](#quick-comparison)
+- [The [N] Best Options, Reviewed](#the-n-best-options)
+  - [1. Tool Name](#1-tool-name)
+  - [2. Tool Name](#2-tool-name)
+  - ...all tools nested as sub-items...
+- [Which Is Right for Your Hospital?](#which-is-right)
+- [What to Do This Week](#what-to-do-this-week)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## How to Evaluate [Category]
+
+[Framework section: 3 evaluative criteria your product wins — primes buyer judgment]
+
+## Quick Comparison: All [N] Platforms
+
+[Intro line: "Here is how all N platforms compare before we go deeper:"]
+
+[HTML comparison table — wrap in <div class="not-prose overflow-x-auto"> to prevent column cutoff]
+[Columns: Platform | Best For | [Key Criterion 1] | [Key Criterion 2] | Setup Time | Cost/Month]
+[Add "Best For" as second column — this is missing from most tables and adds scannability]
+
+## The [N] Best Options, Reviewed
+
+### 1. [Tool Name](https://tool-url.com)
+
+<img src="/images/blog/[post-slug]/[toolname].png" alt="[Tool Name] scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
+[2–3 paragraph description of the tool]
+
+**Best for:** [one-line ideal use case]
+
+**Key advantages:**
+
+- [advantage 1]
+- [advantage 2]
+- [advantage 3]
+
+**Key limitations:**
+
+- [limitation 1]
+- [limitation 2]
+
+**Verdict:** [2-sentence wrap-up — when to choose this, when not to]
+
+**Cost:** [Pricing or "Pricing not listed on website. Contact for a quote."]
+
+[Repeat for all tools — NO --- between tools]
+
+## Which Is Right for Your Hospital?
+
+[By bed size: Under 25 / 25-75 / 75-200 / 200+]
+[SVG decision tree diagram here]
+
+## How SimpleScheduleAI Fits in This Landscape
+
+[Natural product mention, 100–150 words. Acknowledge one limitation honestly.]
+
+## What to Do This Week
+
+1. [Concrete action step — references SimpleScheduleAI or a diagnostic task]
+2. [Concrete action step]
+3. [Concrete action step — references SimpleScheduleAI]
+4. [Concrete action step]
+5. [Concrete action step — references SimpleScheduleAI]
+
+[Styled CTA card: not-prose div with blue background, headline, subtext, button]
+
+## Frequently Asked Questions
+
+[4–5 FAQs — must include competitor comparison queries, e.g.:]
+
+- "Is [Competitor A] or [Competitor B] better for a small hospital?"
+- "Does [Generic Tool] work for hospital nurse scheduling?"
+- "How long does [Enterprise Tool] take to implement?"
+- "What is the cheapest option for a 25-bed hospital?"
+  [Add FAQPage JSON-LD schema for all questions]
+```
+
+**For non-BOFU posts (How-to, MOFU, Glossary), use this structure:**
+
+```markdown
+## Key Takeaways
+
+[5 bullets — placed BEFORE TOC]
+
+## Table of Contents
+
 - [The Problem](#the-problem)
-- ...section links...
+- ...section links (H2 only)...
 - [How SimpleScheduleAI Helps](#how-simplescheduleai-helps)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## TL;DR
-
-[40–80 word direct summary — first AEO capsule. Self-contained, source-backed stat.]
-
-## Key Takeaways
-
-[5 specific, actionable bullets — placed here, NOT at the bottom]
-
 ## The Problem: [State the pain point clearly]
 
-[200–300 words. Real data/sources. Link to CMS, ANA, state nursing board.]
+[200–300 words. Real data/sources.]
 
-[DIAGRAM 1: process or pain-point visual — flowchart, cost breakdown, timeline]
+[DIAGRAM 1: process or pain-point visual]
 
 ## [Question H2]
 
-[40–70 word direct answer — capsule]
+[40–70 word direct answer capsule]
 [120–180 word deeper explanation]
 
 ## [Second Question H2]
@@ -788,7 +883,7 @@ Word count by type: BOFU 3,000–5,000 / How-to 2,000–3,000 / MOFU 1,500–2,5
 [40–70 word capsule]
 [120–180 word explanation]
 
-[DIAGRAM 2: comparison table, flow diagram, or decision tree]
+[DIAGRAM 2: comparison or flow diagram]
 
 ## [Third Question H2]
 
@@ -797,18 +892,31 @@ Word count by type: BOFU 3,000–5,000 / How-to 2,000–3,000 / MOFU 1,500–2,5
 
 ## How SimpleScheduleAI Helps
 
-[Natural product mention — not a hard pitch. Acknowledge one limitation honestly.]
+[Natural product mention. Acknowledge one limitation honestly.]
 
-[DIAGRAM 3: summary, before/after, or decision diagram]
+[DIAGRAM 3: summary or decision diagram]
+
+[Styled CTA card]
 
 ## Frequently Asked Questions
 
 [3–5 FAQs with FAQPage schema]
-
-[CTA: "Explore how SimpleScheduleAI works →"]
 ```
 
-**Diagram rule:** Add diagrams wherever they explain a process, comparison, or decision better than prose. Ask Claude Code to generate SVG diagrams inline. Minimum 2–3 per article for BOFU/how-to content.
+**Diagram rules:**
+
+- Minimum 3 SVG diagrams for BOFU/how-to, minimum 1 for MOFU/glossary.
+- No blank lines inside SVG blocks — MDX parser ends HTML blocks at blank lines.
+- All SVG comments use `<!-- comment -->` not `{/* */}` in .md files.
+- Every SVG must have `role="img"` and `aria-label` attributes.
+
+**Screenshot rules (BOFU comparison posts):**
+
+- Create folder: `public/images/blog/[post-slug]/`
+- One `.png` per tool reviewed, named `[toolname].png` (all lowercase, no spaces).
+- Use `<img>` HTML tag (not markdown `![]()`) so class and loading attributes can be set.
+- Place immediately after H3 tool heading, before any body text.
+- Alt text format: "[Tool Name] nurse scheduling software interface"
 
 ### 7.4 Glossary Page Pattern ("What is X?")
 

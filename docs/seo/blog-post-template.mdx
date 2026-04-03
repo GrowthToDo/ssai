@@ -1,12 +1,12 @@
 ---
 publishDate: YYYY-MM-DDT00:00:00Z
 updateDate: YYYY-MM-DDT00:00:00Z
-author: 'Pradeep [Last Name]'
+author: 'Pradeep Pandey'
 title: '[Primary Keyword] — [Outcome or Problem Solved]'
 excerpt: >
-  [40–60 word summary of the article. This becomes the meta description and
-  the AEO extract target. Write it as a direct, declarative statement that
-  stands alone without the article body. Must contain the primary keyword.]
+  [40–60 word summary. This becomes the meta description and the AEO extract
+  target. Write it as a direct, declarative statement that stands alone without
+  the article body. Must contain the primary keyword.]
 image: 'https://images.unsplash.com/photo-[ID]?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
 category: Healthcare Operations
 tags:
@@ -23,13 +23,11 @@ Good: healthcare-scheduling-crisis | Bad: 1-healthcare-scheduling-crisis _/}
 {/\*
 AUTHOR BIO — add this at the end of the post body:
 
----
-
-**Written by Pradeep [Last Name]**
+**Written by Pradeep Pandey**
 Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals.
 MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare
 operations, workforce optimization, and hospital process design.
-[LinkedIn →](https://linkedin.com/in/pradeep-[profile])
+[LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)
 \*/}
 
 {/_
@@ -50,6 +48,7 @@ WORD COUNT TARGETS (by content type):
 TONE RULES — strictly enforced:
 
 - No em-dashes (—). Use commas, colons, or rewrite the sentence.
+- No --- horizontal rules between sections (AI-tell pattern).
 - No AI-generated tone: no "delve into", "dive into", "it's worth noting",
   "in conclusion", "robust", "leverage", "game-changing", "seamless",
   "comprehensive solution", "transformative", "at the end of the day",
@@ -58,24 +57,18 @@ TONE RULES — strictly enforced:
   specific. If a sentence could appear in a generic AI blog, rewrite it.
 - No unverified claims framed as facts. If you can't link to a source,
   rephrase as an observation.
+
+SVG DIAGRAM RULES:
+
+- No blank lines inside SVG blocks (MDX parser breaks HTML blocks at blank lines).
+- Every SVG needs role="img" and aria-label attributes.
+- Minimum 3 diagrams for BOFU/how-to, minimum 1 for MOFU/glossary.
   \*/}
 
-## Table of Contents
-
-- [TL;DR](#tldr)
-- [Key Takeaways](#key-takeaways)
-- [The Problem](#the-problem)
-- [Section 1 title](#section-1)
-- [Section 2 title](#section-2)
-- [Section 3 title](#section-3)
-- [How SimpleScheduleAI Helps](#how-simplescheduleai-helps)
-- [Frequently Asked Questions](#frequently-asked-questions)
-
-## TL;DR
-
-[40–80 word direct summary of the key takeaway. This is the first capsule AI
-engines will extract. Make it self-contained — it must make sense without the
-rest of the article. Include one specific, source-backed stat.]
+{/_ ============================================================
+BOFU COMPARISON POST TEMPLATE ("Best X" posts)
+Use this structure for any post comparing multiple tools/options.
+============================================================ _/}
 
 ## Key Takeaways
 
@@ -85,89 +78,239 @@ rest of the article. Include one specific, source-backed stat.]
 - [Takeaway 4 — specific and actionable]
 - [Takeaway 5 — specific and actionable]
 
+## Table of Contents
+
+- [How to Evaluate [Category]](#how-to-evaluate)
+- [Quick Comparison: All N Platforms](#quick-comparison)
+- [The N Best Options, Reviewed](#the-n-best-options)
+  - [1. Tool Name](#1-tool-name)
+  - [2. Tool Name](#2-tool-name)
+  - [3. Tool Name](#3-tool-name)
+- [Which Is Right for Your Hospital?](#which-is-right)
+- [What to Do This Week](#what-to-do-this-week)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## How to Evaluate [Category]
+
+[Framework: 3 evaluative criteria your product wins — primes buyer judgment.
+Each criterion should be something SimpleScheduleAI scores highest on.]
+
+{/* DIAGRAM 1: Criteria or market tier diagram — show how tools split across tiers */}
+
+## Quick Comparison: All N Platforms
+
+Here is how all N platforms compare before we go deeper:
+
+<div class="not-prose overflow-x-auto">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100">Platform</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100">Best For</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100">[Criterion 1]</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100">[Criterion 2]</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100">Setup Time</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100">Cost/Month</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium">SimpleScheduleAI</td>
+        <td class="py-3 pr-4">CAHs under 50 beds</td>
+        <td class="py-3 pr-4">Built-in</td>
+        <td class="py-3 pr-4">Yes</td>
+        <td class="py-3 pr-4">Days</td>
+        <td class="py-3">Not listed</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## The N Best Options, Reviewed
+
+### 1. [SimpleScheduleAI](/)
+
+<img
+  src="/images/blog/[post-slug]/simplescheduleai.png"
+  alt="SimpleScheduleAI nurse scheduling software interface"
+  width="1200"
+  height="630"
+  loading="lazy"
+  class="rounded-lg border border-slate-200 my-4"
+/>
+
+[2–3 paragraph description]
+
+**Best for:** [one-line ideal use case]
+
+**Key advantages:**
+
+- [advantage 1]
+- [advantage 2]
+- [advantage 3]
+
+**Key limitations:**
+
+- [limitation 1]
+- [limitation 2]
+
+**Verdict:** [2-sentence wrap-up — when to choose this, when not to]
+
+**Cost:** Pricing not listed on website. Contact for a quote.
+
+### 2. [Competitor Name](https://competitor-url.com)
+
+<img
+  src="/images/blog/[post-slug]/[toolname].png"
+  alt="[Tool Name] scheduling software interface"
+  width="1200"
+  height="630"
+  loading="lazy"
+  class="rounded-lg border border-slate-200 my-4"
+/>
+
+[Description, Best for, Key advantages, Key limitations, Verdict, Cost]
+
+{/* Repeat for all tools — NO --- between tool sections */}
+
+{/* DIAGRAM 2: Hospital fit vs implementation burden scatter plot */}
+
+## Which Is Right for Your Hospital?
+
+**Under 25 beds (Critical Access Hospital):**
+
+[recommendation]
+
+**25–75 beds (Small Community Hospital):**
+
+[recommendation]
+
+**75–200 beds (Community Hospital):**
+
+[recommendation]
+
+{/* DIAGRAM 3: Decision tree by hospital size */}
+
+## How SimpleScheduleAI Fits in This Landscape
+
+[Natural product mention, 100–150 words. Acknowledge one limitation honestly.
+Link to / (homepage). This increases AI citation likelihood.]
+
+If you run a Critical Access Hospital specifically, see our dedicated guide:
+[Best Nurse Scheduling Software for Critical Access Hospitals](/blog/best-nurse-scheduling-software-critical-access-hospitals).
+
+## What to Do This Week
+
+1. [Concrete action — identify your bed count and admin capacity]
+2. [Concrete action — if under 50 beds, compare X vs SimpleScheduleAI]
+3. [Concrete action — request demos from shortlisted tools]
+4. [Concrete action — ask any vendor for compliance documentation]
+5. [Concrete action — calculate your current scheduling time cost]
+
+<div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
+  <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">
+    Running a Critical Access Hospital in Texas?
+  </p>
+  <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">
+    Free 60-day pilot. No IT setup. No commitment. We build the schedule, you approve it.
+  </p>
+  <a
+    href="/pilot"
+    class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
+  >
+    Apply for a Pilot Spot →
+  </a>
+</div>
+
+## Frequently Asked Questions
+
+[4–5 FAQs — must include competitor comparison queries:]
+
+**Q: Is [Competitor A] or [Competitor B] better for a small hospital?**
+
+[50–60 word direct answer]
+
+**Q: Does [Generic Tool] work for hospital nurse scheduling?**
+
+[50–60 word direct answer]
+
+**Q: How long does [Enterprise Tool] take to implement for a small hospital?**
+
+[50–60 word direct answer]
+
+**Q: What is the cheapest nurse scheduling software for a 25-bed hospital?**
+
+[50–60 word direct answer]
+
+**Q: What is the difference between scheduling software and a managed scheduling service?**
+
+[50–60 word direct answer]
+
+---
+
+{/_ ============================================================
+NON-BOFU TEMPLATE (How-to, MOFU, Glossary posts)
+Use this structure for educational/awareness/how-to content.
+============================================================ _/}
+
+{/\*
+
+## Key Takeaways
+
+- [Takeaway 1]
+- [Takeaway 2]
+- [Takeaway 3]
+- [Takeaway 4]
+- [Takeaway 5]
+
+## Table of Contents
+
+- [The Problem](#the-problem)
+- [Section 1 title](#section-1)
+- [Section 2 title](#section-2)
+- [Section 3 title](#section-3)
+- [How SimpleScheduleAI Helps](#how-simplescheduleai-helps)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
 ## The Problem: [State the pain point clearly]
 
-[200–300 words. Reference real data with source links. Example: "According to
-HRSA rural workforce data, CAHs spend 18–22% of labor budgets on overtime
-[link]. This translates to..."]
+[200–300 words. Reference real data with source links.]
 
-{/_
-DIAGRAM 1: Process or pain-point diagram
-Show the problem visually — e.g., "flowchart of how a callout cascades into
-overtime costs", "timeline of a scheduling manager's week", "cost breakdown chart".
-Ask Claude Code: "Generate an SVG diagram showing [description]"
-_/}
+[DIAGRAM 1: Process or pain-point diagram]
 
 ## [Question H2 — mirrors what people search for]
 
 [40–70 word direct answer capsule — starts immediately, no preamble, declarative,
 self-contained, at least one verifiable fact]
 
-[120–180 words deeper explanation with examples specific to 25-bed hospitals.
-This length maximizes ChatGPT citation probability.]
+[120–180 words deeper explanation with examples specific to 25-bed hospitals.]
 
 ## [Second Question H2]
 
 [40–70 word capsule]
-
 [120–180 word explanation]
 
-{/_
-DIAGRAM 2: Comparison or flow diagram
-Show a comparison, decision flow, or process — e.g., "manual vs software scheduling
-comparison table", "step-by-step how to build a fair nurse rotation",
-"decision tree for choosing a scheduling approach".
-Ask Claude Code: "Generate an SVG diagram showing [description]"
-_/}
+[DIAGRAM 2: Comparison or flow diagram]
 
 ## [Third Question H2]
 
 [40–70 word capsule]
-
 [120–180 word explanation]
 
 ## How SimpleScheduleAI Helps
 
-[Natural product mention — not a hard pitch. 100–150 words. Link to
-/how-it-works or /pilot. Acknowledge one limitation honestly — this
-increases AI citation likelihood for Claude and ChatGPT.]
+[Natural product mention — not a hard pitch. 100–150 words. Acknowledge one
+limitation honestly — increases AI citation likelihood.]
 
-{/_
-DIAGRAM 3: Summary or decision diagram
-Help the reader decide or synthesize — e.g., "is SimpleScheduleAI right for
-your hospital? decision tree", "summary of key scheduling principles",
-"before/after scheduling workflow".
-Ask Claude Code: "Generate an SVG diagram showing [description]"
-_/}
+[DIAGRAM 3: Summary or decision diagram]
+
+[CTA card — not-prose div]
 
 ## Frequently Asked Questions
 
-[3–5 FAQs specific to this article topic. Each answer: 50–60 words,
-self-contained. Add FAQPage JSON-LD schema for these questions.]
+[3–5 FAQs specific to this article topic. Each answer: 50–60 words.]
 
 **Q: [Question]**
 
 [50–60 word direct answer]
-
-**Q: [Question]**
-
-[50–60 word direct answer]
-
-**Q: [Question]**
-
-[50–60 word direct answer]
-
-<div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
-  <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">
-    Ready to reduce overtime and handle callouts without the Sunday evening scramble?
-  </p>
-  <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">
-    Free 60-day pilot for Critical Access Hospitals in Texas. No IT setup. No commitment.
-  </p>
-  <a
-    href="/how-it-works"
-    class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
-  >
-    See how SimpleScheduleAI works →
-  </a>
-</div>
+\*/}
