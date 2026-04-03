@@ -331,71 +331,81 @@ The pilot is free for 60 days. No IT setup. No commitment.
 
 If you run a Critical Access Hospital specifically, we have a dedicated guide that goes deeper on CAH compliance, Texas staffing rules, and callout coverage: [Best Nurse Scheduling Software for Critical Access Hospitals](/blog/best-nurse-scheduling-software-critical-access-hospitals).
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" role="img" aria-label="Decision tree for choosing nurse scheduling software by hospital size">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Decision tree for choosing nurse scheduling software by hospital size">
   <title>Which Nurse Scheduling Software Is Right for Your Hospital?</title>
-  <rect width="700" height="380" fill="#f8fafc" rx="12"/>
-  <text x="350" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Which Software Is Right for Your Hospital?</text>
-  <!-- Start node -->
-  <rect x="250" y="44" width="200" height="38" fill="#1d4ed8" rx="8"/>
-  <text x="350" y="67" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="white">How many beds?</text>
-  <!-- Arrow down from start -->
-  <line x1="350" y1="82" x2="350" y2="108" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="350,108 345,100 355,100" fill="#94a3b8"/>
-  <!-- Decision: Under 25 / 25-75 / 75+ -->
-  <!-- Left branch: Under 25 -->
-  <line x1="250" y1="63" x2="100" y2="63" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="100" y1="63" x2="100" y2="116" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="100,116 95,108 105,108" fill="#94a3b8"/>
-  <text x="175" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
-  <!-- Middle branch: 25-75 -->
-  <line x1="350" y1="82" x2="350" y2="116" stroke="#94a3b8" stroke-width="1.5"/>
-  <text x="350" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25-75</text>
-  <!-- Right branch: 75+ -->
-  <line x1="450" y1="63" x2="600" y2="63" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="600" y1="63" x2="600" y2="116" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="600,116 595,108 605,108" fill="#94a3b8"/>
-  <text x="525" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
-  <!-- Under 25 sub-decision -->
-  <rect x="30" y="116" width="140" height="38" fill="#e0f2fe" rx="8"/>
-  <text x="100" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">Manage scheduling</text>
-  <text x="100" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">yourself?</text>
-  <!-- Under 25 -> Yes: Aladtec -->
-  <line x1="100" y1="154" x2="100" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="100" y1="200" x2="50" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="50" y1="200" x2="50" y2="226" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="50,226 45,218 55,218" fill="#94a3b8"/>
-  <text x="75" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Yes</text>
-  <rect x="10" y="226" width="120" height="40" fill="#10b981" rx="8"/>
-  <text x="70" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Aladtec</text>
-  <text x="70" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">Self-serve, low burden</text>
-  <!-- Under 25 -> No: SSAI -->
-  <line x1="100" y1="154" x2="100" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="100" y1="200" x2="150" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="150" y1="200" x2="150" y2="226" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="150,226 145,218 155,218" fill="#94a3b8"/>
-  <text x="125" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">No</text>
-  <rect x="110" y="226" width="120" height="40" fill="#3b82f6" rx="8"/>
-  <text x="170" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">SimpleScheduleAI</text>
-  <text x="170" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dbeafe">Managed service</text>
-  <!-- 25-75 beds -->
-  <rect x="270" y="116" width="160" height="40" fill="#f0fdf4" rx="8"/>
-  <text x="350" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534">ShiftAdmin or Aladtec</text>
-  <text x="350" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#15803d">+ QGenda if physician sched.</text>
-  <line x1="350" y1="108" x2="350" y2="116" stroke="#94a3b8" stroke-width="1.5"/>
-  <!-- 75-200 beds -->
-  <rect x="520" y="116" width="160" height="40" fill="#fff7ed" rx="8"/>
-  <text x="600" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9a3412">QGenda or ShiftAdmin</text>
-  <text x="600" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#c2410c">+ OnShift if post-acute</text>
-  <!-- 200+ beds branch -->
-  <line x1="600" y1="156" x2="600" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="600,200 595,192 605,192" fill="#94a3b8"/>
-  <rect x="520" y="200" width="160" height="40" fill="#fee2e2" rx="8"/>
-  <text x="600" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#991b1b">200+ beds: UKG</text>
-  <text x="600" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#b91c1c">or API Healthcare</text>
-  <!-- Avoid UKG warning for small -->
-  <rect x="30" y="310" width="640" height="42" fill="#fef3c7" rx="8"/>
-  <text x="350" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400e">Avoid UKG / enterprise WFM platforms if you have fewer than 75 beds.</text>
-  <text x="350" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a16207">Implementation burden alone (6-18 months) exceeds what most small hospital administrative teams can absorb.</text>
+  <rect width="800" height="420" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Which Software Is Right for Your Hospital?</text>
+
+  <!-- Top decision box -->
+  <rect x="300" y="40" width="200" height="38" fill="#1d4ed8" rx="8"/>
+  <text x="400" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="white">How many beds?</text>
+
+  <!-- Vertical stem down from top box -->
+  <line x1="400" y1="78" x2="400" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
+  <!-- Horizontal bus line -->
+  <line x1="130" y1="98" x2="670" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
+  <!-- Three downward stems from bus -->
+  <line x1="130" y1="98" x2="130" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="130,120 125,112 135,112" fill="#94a3b8"/>
+  <line x1="400" y1="98" x2="400" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="400,120 395,112 405,112" fill="#94a3b8"/>
+  <line x1="670" y1="98" x2="670" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="670,120 665,112 675,112" fill="#94a3b8"/>
+
+  <!-- Branch labels on bus -->
+  <text x="265" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
+  <text x="400" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25–75 beds</text>
+  <text x="535" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
+
+  <!-- LEFT: Sub-decision box -->
+  <rect x="55" y="120" width="150" height="46" fill="#e0f2fe" rx="8"/>
+  <text x="130" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">Manage scheduling</text>
+  <text x="130" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">yourself?</text>
+
+  <!-- Sub-decision stem + Yes/No bus -->
+  <line x1="130" y1="166" x2="130" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="60" y1="186" x2="200" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="60" y1="186" x2="60" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="60,208 55,200 65,200" fill="#94a3b8"/>
+  <line x1="200" y1="186" x2="200" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="200,208 195,200 205,200" fill="#94a3b8"/>
+  <text x="95" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Yes</text>
+  <text x="165" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">No</text>
+
+  <!-- Aladtec box -->
+  <rect x="10" y="208" width="100" height="46" fill="#10b981" rx="8"/>
+  <text x="60" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Aladtec</text>
+  <text x="60" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">Self-serve</text>
+
+  <!-- SimpleScheduleAI box -->
+  <rect x="145" y="208" width="110" height="46" fill="#3b82f6" rx="8"/>
+  <text x="200" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="white">SimpleScheduleAI</text>
+  <text x="200" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dbeafe">Managed service</text>
+
+  <!-- CENTER: ShiftAdmin / Aladtec box -->
+  <rect x="310" y="120" width="180" height="52" fill="#f0fdf4" rx="8"/>
+  <text x="400" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#166534">ShiftAdmin or Aladtec</text>
+  <text x="400" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#15803d">+ QGenda if physician sched.</text>
+
+  <!-- RIGHT: 75-200 box -->
+  <rect x="590" y="120" width="160" height="52" fill="#fff7ed" rx="8"/>
+  <text x="670" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#9a3412">QGenda or ShiftAdmin</text>
+  <text x="670" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#c2410c">+ OnShift if post-acute</text>
+
+  <!-- 200+ arrow and box -->
+  <line x1="670" y1="172" x2="670" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="670,208 665,200 675,200" fill="#94a3b8"/>
+  <text x="690" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">200+</text>
+  <rect x="590" y="208" width="160" height="46" fill="#fee2e2" rx="8"/>
+  <text x="670" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991b1b">UKG / API Healthcare</text>
+  <text x="670" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#b91c1c">Enterprise-grade</text>
+
+  <!-- Warning bar -->
+  <rect x="20" y="310" width="760" height="52" fill="#fef3c7" rx="8"/>
+  <text x="400" y="332" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#92400e">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</text>
+  <text x="400" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a16207">Implementation takes 6-18 months — more than most small hospitals can manage internally.</text>
 </svg>
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
