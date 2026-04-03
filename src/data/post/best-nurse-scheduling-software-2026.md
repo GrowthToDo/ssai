@@ -345,9 +345,9 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
   <polygon points="400,120 395,112 405,112" fill="#94a3b8"/>
   <line x1="670" y1="98" x2="670" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
   <polygon points="670,120 665,112 675,112" fill="#94a3b8"/>
-  <text x="265" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
-  <text x="400" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25-75 beds</text>
-  <text x="535" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
+  <text x="230" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
+  <text x="420" y="112" text-anchor="start" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25-75 beds</text>
+  <text x="540" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
   <rect x="55" y="120" width="150" height="46" fill="#e0f2fe" rx="8"/>
   <text x="130" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">Manage scheduling</text>
   <text x="130" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">yourself?</text>
