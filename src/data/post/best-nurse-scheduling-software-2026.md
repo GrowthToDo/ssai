@@ -334,37 +334,23 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Decision tree for choosing nurse scheduling software by hospital size">
   <title>Which Nurse Scheduling Software Is Right for Your Hospital?</title>
   <rect width="800" height="420" fill="#f8fafc" rx="12"/>
-
-  <!-- Title -->
   <text x="400" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Which Software Is Right for Your Hospital?</text>
-
-  <!-- Top decision box -->
   <rect x="300" y="40" width="200" height="38" fill="#1d4ed8" rx="8"/>
   <text x="400" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="white">How many beds?</text>
-
-  <!-- Vertical stem down from top box -->
   <line x1="400" y1="78" x2="400" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
-  <!-- Horizontal bus line -->
   <line x1="130" y1="98" x2="670" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
-  <!-- Three downward stems from bus -->
   <line x1="130" y1="98" x2="130" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
   <polygon points="130,120 125,112 135,112" fill="#94a3b8"/>
   <line x1="400" y1="98" x2="400" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
   <polygon points="400,120 395,112 405,112" fill="#94a3b8"/>
   <line x1="670" y1="98" x2="670" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
   <polygon points="670,120 665,112 675,112" fill="#94a3b8"/>
-
-  <!-- Branch labels on bus -->
   <text x="265" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
-  <text x="400" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25–75 beds</text>
+  <text x="400" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25-75 beds</text>
   <text x="535" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
-
-  <!-- LEFT: Sub-decision box -->
   <rect x="55" y="120" width="150" height="46" fill="#e0f2fe" rx="8"/>
   <text x="130" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">Manage scheduling</text>
   <text x="130" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">yourself?</text>
-
-  <!-- Sub-decision stem + Yes/No bus -->
   <line x1="130" y1="166" x2="130" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
   <line x1="60" y1="186" x2="200" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
   <line x1="60" y1="186" x2="60" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
@@ -373,39 +359,27 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
   <polygon points="200,208 195,200 205,200" fill="#94a3b8"/>
   <text x="95" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Yes</text>
   <text x="165" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">No</text>
-
-  <!-- Aladtec box -->
   <rect x="10" y="208" width="100" height="46" fill="#10b981" rx="8"/>
   <text x="60" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Aladtec</text>
   <text x="60" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">Self-serve</text>
-
-  <!-- SimpleScheduleAI box -->
   <rect x="145" y="208" width="110" height="46" fill="#3b82f6" rx="8"/>
   <text x="200" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="white">SimpleScheduleAI</text>
   <text x="200" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dbeafe">Managed service</text>
-
-  <!-- CENTER: ShiftAdmin / Aladtec box -->
   <rect x="310" y="120" width="180" height="52" fill="#f0fdf4" rx="8"/>
   <text x="400" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#166534">ShiftAdmin or Aladtec</text>
   <text x="400" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#15803d">+ QGenda if physician sched.</text>
-
-  <!-- RIGHT: 75-200 box -->
   <rect x="590" y="120" width="160" height="52" fill="#fff7ed" rx="8"/>
   <text x="670" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#9a3412">QGenda or ShiftAdmin</text>
   <text x="670" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#c2410c">+ OnShift if post-acute</text>
-
-  <!-- 200+ arrow and box -->
   <line x1="670" y1="172" x2="670" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
   <polygon points="670,208 665,200 675,200" fill="#94a3b8"/>
   <text x="690" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">200+</text>
   <rect x="590" y="208" width="160" height="46" fill="#fee2e2" rx="8"/>
   <text x="670" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991b1b">UKG / API Healthcare</text>
   <text x="670" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#b91c1c">Enterprise-grade</text>
-
-  <!-- Warning bar -->
   <rect x="20" y="310" width="760" height="52" fill="#fef3c7" rx="8"/>
   <text x="400" y="332" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#92400e">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</text>
-  <text x="400" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a16207">Implementation takes 6-18 months — more than most small hospitals can manage internally.</text>
+  <text x="400" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a16207">Implementation takes 6-18 months - more than most small hospitals can manage internally.</text>
 </svg>
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
