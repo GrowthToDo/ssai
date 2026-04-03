@@ -69,6 +69,7 @@ Managed scheduling services take a different approach: a scheduling team handles
 [FLSA overtime rules](https://www.dol.gov/agencies/whd/flsa) apply to every hospital. Critical Access Hospitals (CAHs) also operate under [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals). Larger hospitals face JCAHO accreditation requirements and state-specific staffing ratios on top of that. The software you choose determines how easy it is to stay compliant and document it during a survey or audit.
 
 Minimum requirements for any hospital:
+
 - Auditable record of who was scheduled and who actually worked each shift
 - Documentation of credential status at time of scheduling
 - Overtime tracking against rolling 7-day windows, not just weekly pay periods
@@ -270,16 +271,16 @@ UKG is the dominant workforce management platform in large hospital systems. It 
   <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low Fit</text>
 </svg>
 
-| Platform | Compliance | Callout Tools | Overtime Alerts | Audit Trail | Setup Time | Cost/Month |
-|---|---|---|---|---|---|---|
-| SimpleScheduleAI | Built-in | Ranked shortlist | Yes | Full | Days | Contact |
-| Aladtec | Good | Basic | Basic | Yes | 2-4 weeks | $200-450 |
-| ShiftAdmin | Good | Moderate | Yes | Yes | 4-8 weeks | $300-600 |
-| QGenda | Moderate | Good | Yes | Yes | 6-12 weeks | $500+ |
-| NurseGrid Mgr | Basic | Open shifts only | No | Limited | Days | Low |
-| Deputy | None | Open shifts | Basic | No | Days | $4-6/user |
-| OnShift | Post-acute focus | Good | Yes | Yes | 4-8 weeks | Not listed |
-| UKG | Enterprise | Enterprise | Yes | Full | 6-18 months | $$$$ |
+| Platform         | Compliance       | Callout Tools    | Overtime Alerts | Audit Trail | Setup Time  | Cost/Month |
+| ---------------- | ---------------- | ---------------- | --------------- | ----------- | ----------- | ---------- |
+| SimpleScheduleAI | Built-in         | Ranked shortlist | Yes             | Full        | Days        | Contact    |
+| Aladtec          | Good             | Basic            | Basic           | Yes         | 2-4 weeks   | $200-450   |
+| ShiftAdmin       | Good             | Moderate         | Yes             | Yes         | 4-8 weeks   | $300-600   |
+| QGenda           | Moderate         | Good             | Yes             | Yes         | 6-12 weeks  | $500+      |
+| NurseGrid Mgr    | Basic            | Open shifts only | No              | Limited     | Days        | Low        |
+| Deputy           | None             | Open shifts      | Basic           | No          | Days        | $4-6/user  |
+| OnShift          | Post-acute focus | Good             | Yes             | Yes         | 4-8 weeks   | Not listed |
+| UKG              | Enterprise       | Enterprise       | Yes             | Full        | 6-18 months | $$$$       |
 
 ## Which Software Is Right for Your Hospital Size?
 
