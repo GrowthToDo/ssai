@@ -1,11 +1,14 @@
 ---
 draft: true
-publishDate: 2099-01-01T00:00:00Z
-updateDate: 2026-04-02T00:00:00Z
+publishDate: 2026-04-14T00:00:00Z
+updateDate: 2026-04-14T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'ShiftWizard Alternatives for Critical Access Hospitals'
 excerpt: >
-  ShiftWizard is a hospital scheduling platform used by 500+ facilities. Reviews on G2 and Capterra consistently flag mobile limitations, unreliable shift swapping, and weak onboarding support. For critical access hospitals evaluating alternatives, here is what the options actually look like.
+  ShiftWizard is a hospital scheduling platform used by 500+ facilities. Reviews on G2 and
+  Capterra consistently flag mobile limitations, unreliable shift swapping, and weak onboarding
+  support. For critical access hospitals evaluating alternatives, here is what the options
+  actually look like.
 image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -16,124 +19,248 @@ metadata:
   canonical: 'https://simplescheduleai.com/blog/shiftwizard-alternatives'
 ---
 
-## TL;DR
+## Key Takeaways
 
-ShiftWizard is a self-serve hospital scheduling platform designed by nurses and used by 500+ hospitals. The main complaints from current users: the mobile app lacks critical desktop features, shift swapping is unreliable, and departments can't see each other's schedules. The main alternatives for critical access hospitals are TCP Scheduling Software (Aladtec) for a comparable self-serve experience, and SimpleScheduleAI for a managed service that removes the configuration and operation burden entirely.
+- ShiftWizard is a legitimate hospital scheduling platform with 500+ deployments, but its mobile app, shift swap reliability, and onboarding support have consistent review-documented weaknesses that matter for a CAH nurse manager.
+- The four problems driving ShiftWizard departures at small hospitals: mobile app does not show full department schedules, shift swapping is unreliable, staff can only see their own position, and onboarding support is described as insufficient.
+- The main self-serve alternative is TCP (Aladtec), which has broader CAH adoption but similar self-serve trade-offs.
+- If the issue is the self-serve model itself -- not the specific platform -- a managed scheduling service removes the configuration and operation burden rather than relocating it.
+- Evaluate based on how much scheduling work your nurse manager can sustain weekly, not on feature comparison lists.
 
-## What Is ShiftWizard?
+## Table of Contents
 
-ShiftWizard is a healthcare scheduling platform built by nurses for nurses. It handles shift scheduling, self-scheduling, shift swaps, and basic overtime visibility. It is used by hospital systems of varying sizes and is positioned as a more clinically-aware alternative to generic scheduling tools.
+- [Why People Look for ShiftWizard Alternatives](#why-people-look-for-shiftwizard-alternatives)
+- [What a ShiftWizard Alternative Needs to Cover](#what-a-shiftwizard-alternative-needs-to-cover)
+- [ShiftWizard Alternatives: Comparison](#shiftwizard-alternatives-comparison)
+  - [TCP Scheduling Software (Aladtec)](#tcp-scheduling-software-aladtec)
+  - [SimpleScheduleAI](#simplescheduleai)
+  - [NurseGrid](#nursegrid)
+  - [QGenda](#qgenda)
+- [The Operating Model Question](#the-operating-model-question)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
-For a critical access hospital, ShiftWizard's healthcare-specific design is relevant. It understands shift patterns, nursing roles, and basic credential constraints in a way that generic tools like When I Work or Homebase do not.
-
-The question is whether the self-serve model, where your nurse manager configures and operates the platform, fits your facility's capacity.
+ShiftWizard is a hospital scheduling platform built by nurses and used by 500+ facilities. For a critical access hospital, its healthcare-specific design is an advantage over generic tools -- it understands shift patterns, nursing roles, and basic credential constraints in ways that When I Work or Homebase do not. The question is whether the self-serve model, where your nurse manager configures and operates the platform, fits your facility's actual capacity.
 
 ## Why People Look for ShiftWizard Alternatives
 
-Based on G2 and Capterra reviews, the patterns that drive ShiftWizard users to look for alternatives fall into four categories:
+Based on G2 and Capterra reviews, four patterns drive ShiftWizard departures at small hospitals:
 
-**Mobile app limitations.** This is the most frequently cited issue. ShiftWizard's desktop platform and its mobile app are not feature-equivalent. Managers cannot view department schedules on mobile, and date range visibility is restricted on the app. For a nurse manager who moves between the floor and her office, a mobile app that can't show her what she needs is a real operational gap.
+**Mobile app limitations.** The desktop platform and the mobile app are not feature-equivalent. Managers cannot view department schedules on mobile, and date range visibility is restricted in the app. For a nurse manager who moves between the floor and her desk, a mobile app that cannot show what she needs is a real operational gap.
 
-**Unreliable shift swapping.** Multiple reviewers describe the shift swap functionality as difficult to navigate and inconsistent in behavior. Nurses report confusion about whether swaps have been submitted or approved. For a clinical environment where shift coverage is a patient safety issue, unreliable swap workflows create risk.
+**Unreliable shift swapping.** Multiple reviewers describe shift swap functionality as difficult to navigate and inconsistent in behavior. Nurses report confusion about whether swaps have been submitted or approved. In a clinical environment where shift coverage is a patient safety issue, unreliable swap workflows create risk.
 
-**Department visibility gaps.** Staff can only see their own position's schedule, not adjacent departments. In a critical access hospital where nurses often cover multiple units, this fragmented view makes it harder to coordinate cross-department coverage.
+**Department visibility gaps.** Staff can only see their own position's schedule, not adjacent departments. In a critical access hospital where nurses often cover multiple units, this fragmented view makes cross-department coordination harder.
 
-**Weak onboarding and implementation support.** Reviewers describe the implementation process as tedious and the onboarding support as insufficient. For a nurse manager who has no IT background and is trying to configure a scheduling system between clinical duties, inadequate implementation support means weeks of self-directed setup work.
+**Weak onboarding support.** Reviewers describe the implementation process as tedious and the onboarding support as insufficient. For a nurse manager with no IT background who is configuring a scheduling system between clinical duties, inadequate implementation support means weeks of self-directed setup work.
 
-**Payroll integration problems.** Several reviews specifically cite issues with payroll system integrations, particularly Paycom. Scheduling data that doesn't flow cleanly to payroll creates manual reconciliation work and overtime calculation errors.
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Four reasons CAH nurse managers look for ShiftWizard alternatives">
+  <title>Why CAHs Look for ShiftWizard Alternatives</title>
+  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
+  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Four Reasons CAHs Leave ShiftWizard</text>
+  <rect x="20" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="20" y="44" width="162" height="36" fill="#dc2626" rx="8"/>
+  <rect x="20" y="68" width="162" height="16" fill="#dc2626"/>
+  <text x="101" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Mobile App</text>
+  <text x="101" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Can't show full</text>
+  <text x="101" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">department schedule</text>
+  <text x="101" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">on mobile; date range</text>
+  <text x="101" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">visibility restricted</text>
+  <rect x="192" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="192" y="44" width="162" height="36" fill="#ea580c" rx="8"/>
+  <rect x="192" y="68" width="162" height="16" fill="#ea580c"/>
+  <text x="273" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Shift Swapping</text>
+  <text x="273" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Unreliable and</text>
+  <text x="273" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">confusing; nurses</text>
+  <text x="273" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">unsure if swap was</text>
+  <text x="273" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">submitted or approved</text>
+  <rect x="364" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="364" y="44" width="162" height="36" fill="#d97706" rx="8"/>
+  <rect x="364" y="68" width="162" height="16" fill="#d97706"/>
+  <text x="445" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Dept Visibility</text>
+  <text x="445" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Staff see only their</text>
+  <text x="445" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">own position, not</text>
+  <text x="445" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">adjacent departments</text>
+  <text x="445" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">or units</text>
+  <rect x="536" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="536" y="44" width="162" height="36" fill="#7c3aed" rx="8"/>
+  <rect x="536" y="68" width="162" height="16" fill="#7c3aed"/>
+  <text x="617" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Onboarding Support</text>
+  <text x="617" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Implementation tedious;</text>
+  <text x="617" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">support insufficient</text>
+  <text x="617" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">for a nurse manager</text>
+  <text x="617" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">doing this solo</text>
+</svg>
 
-## What to Look for in a ShiftWizard Alternative
+## What a ShiftWizard Alternative Needs to Cover
 
-The core features that any ShiftWizard alternative needs to cover for a CAH:
+Any alternative for a CAH must handle these four requirements:
 
-**Healthcare-specific certification matching.** The scheduling system must understand that not all nurses are interchangeable across units. Assigning an uncertified nurse to a shift is a clinical error, not a scheduling inconvenience.
+**Healthcare-specific certification matching.** Not all nurses are interchangeable across units. Assigning an uncertified nurse to a shift is a clinical error, not a scheduling inconvenience.
 
-**Proactive [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime tracking.** The system should flag overtime risk before the schedule publishes, not after payroll runs. This is the difference between preventing overtime and reporting it.
+**Proactive FLSA overtime tracking.** The system should flag overtime risk before the schedule publishes, not after payroll runs. This is the difference between preventing overtime and reporting it.
 
 **[CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail.** Every schedule change needs a timestamp-logged record. CMS surveyors can ask for documentation of who was scheduled on any given shift and whether they held appropriate credentials.
 
-**Callout coverage logic.** When a nurse calls out, the replacement workflow should filter by certification, overtime status, and availability, producing a ranked shortlist rather than leaving the manager to check each constraint manually.
+**Callout coverage logic.** When a nurse calls out, the replacement workflow should filter by certification, overtime status, and availability -- producing a ranked shortlist rather than leaving the manager to check each constraint manually.
 
 ## ShiftWizard Alternatives: Comparison
 
-| Tool             | Type                | Mobile app            | Callout logic    | CMS audit trail | Setup time |
-| ---------------- | ------------------- | --------------------- | ---------------- | --------------- | ---------- |
-| ShiftWizard      | Self-serve platform | Limited               | Basic            | Limited         | 2-4 weeks  |
-| TCP (Aladtec)    | Self-serve platform | Basic                 | Manual           | Limited         | 2-4 weeks  |
-| SimpleScheduleAI | Managed service     | None (manager-facing) | Ranked shortlist | Auto-logged     | 3-5 days   |
-| NurseGrid        | Self-serve platform | Yes                   | None             | None            | 1-2 weeks  |
-| QGenda           | Self-serve platform | Limited               | Manual           | Partial         | 4-8 weeks  |
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse" style="min-width:680px">
+    <thead>
+      <tr class="bg-slate-100">
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Platform</th>
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Type</th>
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Mobile App</th>
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Callout Logic</th>
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">CMS Audit Trail</th>
+        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Setup Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-yellow-50">
+        <td class="border border-slate-300 px-4 py-2 font-medium">ShiftWizard</td>
+        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
+        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Limited (desktop parity gaps)</td>
+        <td class="border border-slate-300 px-4 py-2">Basic</td>
+        <td class="border border-slate-300 px-4 py-2">Limited</td>
+        <td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 px-4 py-2 font-medium">TCP (Aladtec)</td>
+        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
+        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Basic</td>
+        <td class="border border-slate-300 px-4 py-2">Manual</td>
+        <td class="border border-slate-300 px-4 py-2">Limited</td>
+        <td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
+      </tr>
+      <tr class="bg-slate-50">
+        <td class="border border-slate-300 px-4 py-2 font-medium">NurseGrid</td>
+        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
+        <td class="border border-slate-300 px-4 py-2 text-green-700">Strong (nurse-facing)</td>
+        <td class="border border-slate-300 px-4 py-2 text-red-700">None</td>
+        <td class="border border-slate-300 px-4 py-2 text-red-700">None</td>
+        <td class="border border-slate-300 px-4 py-2">1-2 weeks</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 px-4 py-2 font-medium">QGenda</td>
+        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
+        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Limited</td>
+        <td class="border border-slate-300 px-4 py-2">Manual</td>
+        <td class="border border-slate-300 px-4 py-2">Partial</td>
+        <td class="border border-slate-300 px-4 py-2">4-8 weeks</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 px-4 py-2 font-semibold text-blue-700">SimpleScheduleAI</td>
+        <td class="border border-slate-300 px-4 py-2">Managed service</td>
+        <td class="border border-slate-300 px-4 py-2">None (manager-facing)</td>
+        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">Ranked shortlist</td>
+        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">Auto-logged</td>
+        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">3-5 days</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-### TCP Scheduling Software (formerly Aladtec)
+### TCP Scheduling Software (Aladtec)
 
 TCP is the most widely deployed scheduling platform in small healthcare and EMS organizations. It has similar self-serve mechanics to ShiftWizard with broader adoption in critical access hospital settings specifically.
 
 The trade-offs relative to ShiftWizard are similar: TCP also requires significant configuration work upfront, has a steep learning curve, and places the full scheduling operation on the nurse manager. TCP users frequently report too many clicks for routine tasks and declining support quality since the TCP acquisition.
 
-If you are switching from ShiftWizard because of mobile limitations, TCP's mobile app has comparable limitations. If the issue is the self-serve model itself, a platform swap won't solve the underlying problem.
+If you are switching from ShiftWizard because of mobile limitations, TCP's mobile app has comparable limitations. If the issue is the self-serve model itself, a platform swap will not solve the underlying problem.
+
+**Best fit:** CAHs with a scheduling coordinator or administrator who has time to configure and maintain a self-serve system and can absorb 4-6 hours of weekly scheduling work.
 
 ### SimpleScheduleAI
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service. The distinction from ShiftWizard is fundamental: SimpleScheduleAI is not a platform your team configures and operates, it is a service where a specialist handles schedule generation and the nurse manager reviews and approves.
+SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service. The distinction from ShiftWizard is fundamental: SimpleScheduleAI is not a platform your team configures and operates -- it is a service where a specialist handles schedule generation and the nurse manager reviews and approves.
 
 What this means practically:
 
 - Setup takes 3 to 5 days via Excel roster upload, no IT involvement
-- The scheduling specialist builds draft schedules each cycle, the nurse manager approves
+- The scheduling specialist builds draft schedules each cycle; the nurse manager approves
 - Callout coverage shortlists are pre-ranked by certification, overtime status, and availability
-- CMS audit trail is automatic, every change is timestamp-logged
+- CMS audit trail is automatic -- every change is timestamp-logged
 - Texas compliance is the default, not a configuration option
 
-One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the system directly to view schedules or request swaps. If nurse self-service features are a priority, a hybrid approach, generic communication tool for nurse-facing features combined with managed service for scheduling management, is worth considering.
+One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the system directly to view schedules or request swaps. If nurse self-service features are a priority, a hybrid approach -- generic communication tool for nurse-facing features combined with managed service for scheduling management -- is worth considering.
+
+**Best fit:** CAHs where the nurse manager is already stretched and cannot absorb a new platform implementation, or where the self-serve model has consistently required more administrative time than available.
 
 ### NurseGrid
 
 NurseGrid is a lightweight scheduling tool with strong nurse-facing mobile features. It covers shift viewing, availability management, and basic schedule communication. What it does not cover: proactive overtime tracking, CMS-compliant audit trail, or clinical callout coverage logic. For a CAH with [Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requirements, NurseGrid is insufficient as a primary scheduling system.
 
+### QGenda
+
+QGenda is a scheduling platform with stronger credential management than ShiftWizard but a longer implementation timeline (4-8 weeks) and moderate IT involvement. It is better suited to larger hospitals or medical group scheduling than to a 25-bed CAH with no scheduling coordinator. Cost is also higher than either ShiftWizard or Aladtec.
+
 ## The Operating Model Question
 
 ShiftWizard and most of its alternatives are self-serve platforms. The nurse manager configures the system, builds schedules in the interface, and manages exceptions. The platform automates parts of the process, but a person still operates it.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Self-serve platform versus managed service operating model comparison">
+  <title>Self-Serve Platform vs. Managed Service: Operating Model</title>
+  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
+  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Self-Serve Platform vs. Managed Service</text>
+  <rect x="30" y="44" width="315" height="140" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
+  <rect x="30" y="44" width="315" height="36" fill="#dc2626" rx="8"/>
+  <rect x="30" y="68" width="315" height="16" fill="#dc2626"/>
+  <text x="187" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Self-Serve Platform (ShiftWizard, Aladtec)</text>
+  <text x="50" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager configures all scheduling rules</text>
+  <text x="50" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager builds every schedule draft</text>
+  <text x="50" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager checks callout constraints manually</text>
+  <text x="50" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Setup: 2-4 weeks; weekly burden: 4-6 hrs</text>
+  <text x="50" y="164" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Platform provides tools; manager does the work</text>
+  <rect x="375" y="44" width="315" height="140" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
+  <rect x="375" y="44" width="315" height="36" fill="#16a34a" rx="8"/>
+  <rect x="375" y="68" width="315" height="16" fill="#16a34a"/>
+  <text x="532" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Managed Service (SimpleScheduleAI)</text>
+  <text x="395" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Specialist configures and maintains all rules</text>
+  <text x="395" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Specialist builds every schedule draft</text>
+  <text x="395" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Ranked shortlist delivered for callout coverage</text>
+  <text x="395" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Setup: 3-5 days; weekly burden: 1-2 hrs</text>
+  <text x="395" y="164" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager reviews and approves; work is done</text>
+</svg>
 
 A managed service changes this model. The question worth asking before evaluating alternatives is not "which platform has better features?" but "how much of the scheduling burden do I want to carry?"
 
 If the answer is "I want direct control over every scheduling decision and I'm willing to invest time in learning and maintaining a platform," ShiftWizard, TCP, or QGenda are worth comparing based on feature specifics.
 
-If the answer is "the burden is too high and I want the scheduling work done for me while I retain approval authority," a managed service is the alternative, not another platform.
+If the answer is "the burden is too high and I want the scheduling work done for me while I retain approval authority," a managed service is the alternative -- not another platform.
 
-[See how the managed service model compares to self-serve platforms →](/how-it-works)
+<div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
+  <h2 class="mb-2 text-2xl font-bold text-white">Done Configuring Scheduling Platforms That Still Need You to Run Them?</h2>
+  <p class="mb-6 text-blue-100">
+    SimpleScheduleAI goes live in 3-5 days with no IT involvement. Your nurse manager reviews and approves -- the scheduling work is done. Schedule a free assessment to see how the managed service model fits your CAH.
+  </p>
+  <a
+    href="/pilot"
+    class="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-blue-50"
+  >
+    Request a Free Scheduling Assessment
+  </a>
+</div>
 
 ## Frequently Asked Questions
 
-**Q: What are the biggest problems with ShiftWizard according to users?**
+**What are the biggest problems with ShiftWizard according to users?**
 
-Based on G2 and Capterra reviews: the mobile app cannot display department schedules or extended date ranges, shift swapping is unreliable and confusing, staff can only see their own position's schedule rather than the full department, implementation support is weak, and payroll integrations (particularly Paycom) have reliability problems.
+Based on G2 and Capterra reviews: the mobile app cannot display department schedules or extended date ranges, shift swapping is unreliable and confusing, staff can only see their own position's schedule, implementation support is weak, and payroll integrations (particularly Paycom) have reliability problems.
 
-**Q: Is ShiftWizard good for critical access hospitals?**
+**Is ShiftWizard good for a 25-bed critical access hospital?**
 
-ShiftWizard's healthcare-specific design makes it more appropriate for CAHs than generic tools. However, the self-serve model, where the nurse manager configures and operates the platform, assumes scheduling capacity that most CAH nurse managers don't have. The mobile limitations and implementation support issues are particularly problematic for lean nursing management teams.
+ShiftWizard's healthcare-specific design makes it more appropriate for CAHs than generic tools. The practical challenge is the self-serve model: setup takes 2-4 weeks and ongoing operation requires consistent nurse manager time. CAHs with no dedicated scheduling coordinator find this burden adds to an already stretched management role.
 
-**Q: How does ShiftWizard compare to TCP (Aladtec) for a small hospital?**
+**How does ShiftWizard compare to TCP (Aladtec) for a small hospital?**
 
-Both are self-serve, healthcare-specific platforms with similar setup timelines (2 to 4 weeks). ShiftWizard has a more modern interface and stronger nurse-facing features. TCP has broader adoption in CAH settings and deeper EMS/fire industry roots. Both have mobile app limitations. The meaningful choice between them for a CAH is less important than the choice between self-serve platforms as a category and a managed scheduling service.
+Both are self-serve, healthcare-specific platforms with similar setup timelines (2-4 weeks). ShiftWizard has a more modern interface and stronger nurse-facing features. TCP has broader adoption in CAH settings and deeper roots in small healthcare facilities. Both have mobile app limitations. The choice between them is less important than the choice between the self-serve model as a category and a managed scheduling service.
 
-**Q: Can I switch from ShiftWizard to a managed service mid-contract?**
+**Can I switch from ShiftWizard to a managed service mid-contract?**
 
-Check your ShiftWizard contract terms. Most scheduling software contracts run annually. A managed service can typically onboard while you finish out a platform contract, running parallel for a scheduling cycle before full cutover.
+Check your ShiftWizard contract terms. Most scheduling software contracts run annually. A managed service can typically onboard while you finish out a platform contract, running parallel for one scheduling cycle before full cutover.
 
-## Key Takeaways
+**Does SimpleScheduleAI have a nurse-facing mobile app?**
 
-- ShiftWizard is a legitimate healthcare scheduling platform with real hospital deployments, but its mobile app, shift swap reliability, and implementation support have consistent review-documented weaknesses
-- The main self-serve alternative is TCP (Aladtec), which has similar trade-offs in a different interface
-- The alternative to the self-serve model entirely is a managed scheduling service, which removes the platform configuration and operation burden rather than relocating it
-- CAHs with no dedicated scheduling staff or IT support benefit more from the managed service model than from choosing between self-serve platforms
-- Evaluate based on how much scheduling labor your nurse manager can sustain, not on feature comparison lists
-
----
-
-Ready to see what a scheduling solution that removes the self-serve burden looks like? [See how SimpleScheduleAI works →](/how-it-works)
-
----
-
-**Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
-[LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)
+No. SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not view schedules or request swaps directly through the system. If nurse self-service mobile features are a priority, a hybrid approach -- using a communication tool for staff-facing features alongside a managed service for scheduling management -- is worth considering. If the priority is reducing nurse manager administrative burden, the absence of a staff app is not a meaningful limitation.
