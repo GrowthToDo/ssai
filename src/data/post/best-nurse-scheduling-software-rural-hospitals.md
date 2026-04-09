@@ -1,13 +1,13 @@
 ---
 draft: true
-publishDate: 2026-04-21T00:00:00Z
-updateDate: 2026-04-21T00:00:00Z
+publishDate: 2026-05-26T00:00:00Z
+updateDate: 2026-04-08T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software for Rural Hospitals in 2026'
 excerpt: >
   Rural hospitals face scheduling challenges that urban software vendors rarely account for: thin nurse
   pools, geographic isolation, limited IT support, and a nurse manager who is also working the floor.
-  This guide compares eight platforms on rural fit, compliance, and real implementation burden.
+  This guide compares five platforms on rural fit, compliance, and real implementation burden.
 image: https://images.unsplash.com/photo-1504439468489-c8920d796a29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -29,17 +29,14 @@ metadata:
 
 ## Table of Contents
 
-- [Quick Comparison: All 8 Platforms for Rural Hospitals](#quick-comparison-all-8-platforms-for-rural-hospitals)
+- [Quick Comparison: 5 Platforms for Rural Hospitals](#quick-comparison-5-platforms-for-rural-hospitals)
 - [How to Evaluate Scheduling Software for a Rural Hospital](#how-to-evaluate-scheduling-software-for-a-rural-hospital)
-- [The 8 Best Options, Reviewed for Rural Hospitals](#the-8-best-options-reviewed-for-rural-hospitals)
+- [The 5 Best Options, Reviewed for Rural Hospitals](#the-5-best-options-reviewed-for-rural-hospitals)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
-  - [3. NurseGrid Manager](#3-nursegrid-manager)
+  - [3. TCP](#3-tcp)
   - [4. SmartLinx](#4-smartlinx)
-  - [5. QGenda](#5-qgenda)
-  - [6. OnShift](#6-onshift-now-part-of-workday)
-  - [7. Deputy](#7-deputy)
-  - [8. UKG (formerly Kronos)](#8-ukg-formerly-kronos)
+  - [5. When I Work](#5-when-i-work)
 - [Which Software Fits Your Rural Hospital?](#which-software-fits-your-rural-hospital)
 - [What Changed in Rural Hospital Scheduling in 2026](#what-changed-in-rural-hospital-scheduling-in-2026)
 - [How SimpleScheduleAI Fits Rural Hospitals](#how-simplescheduleai-fits-rural-hospitals)
@@ -48,80 +45,59 @@ metadata:
 
 Rural hospitals operate under constraints that most scheduling software vendors have never considered. The vendor's ideal customer is a 300-bed suburban hospital with an HR department and an IT team. Your reality is a 25-bed facility in a county with 8,000 people, a nurse pool of 18, and a nurse manager who works the floor three days a week. The scheduling software market is not built for you — but the right tools within it are.
 
-Here is how all 8 platforms compare for rural hospital operations:
+Here is how five platforms that appear in rural hospital evaluations compare:
 
-## Quick Comparison: All 8 Platforms for Rural Hospitals
+## Quick Comparison: 5 Platforms for Rural Hospitals
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
-    <thead>
-      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Rural Fit</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Remote Setup</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CMS Compliance</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Built for rural CAH</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">100% remote, 3-5 days</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Built-in</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good rural fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">100% remote, 2-4 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Adequate</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">100% remote, days</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">None</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Low</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor rural fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Remote, 4-8 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor rural fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Remote, 6-12 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Moderate</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor rural fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Remote, 4-8 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Post-acute only</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not for rural hospitals</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Remote, days</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">None</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$4-6/user</td>
-      </tr>
-      <tr>
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">UKG</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not for rural hospitals</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Requires project team</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Enterprise</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="not-prose overflow-x-auto my-8">
+<table class="w-full text-sm border-collapse" style="min-width:620px">
+<thead>
+<tr class="bg-slate-100">
+<th class="border border-slate-300 px-4 py-2 text-left">Platform</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Rural Fit</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Remote Setup</th>
+<th class="border border-slate-300 px-4 py-2 text-left">CMS Compliance</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Cost/Month</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">SimpleScheduleAI</td>
+<td class="border border-slate-300 px-4 py-2">Built for rural CAH</td>
+<td class="border border-slate-300 px-4 py-2">100% remote, 3-5 days</td>
+<td class="border border-slate-300 px-4 py-2">Built-in</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">Aladtec</td>
+<td class="border border-slate-300 px-4 py-2">Good rural fit</td>
+<td class="border border-slate-300 px-4 py-2">100% remote, 2-4 weeks</td>
+<td class="border border-slate-300 px-4 py-2">Adequate</td>
+<td class="border border-slate-300 px-4 py-2">$200-450</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">TCP</td>
+<td class="border border-slate-300 px-4 py-2">Moderate fit</td>
+<td class="border border-slate-300 px-4 py-2">Remote, 4-8 weeks</td>
+<td class="border border-slate-300 px-4 py-2">Adequate</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">SmartLinx</td>
+<td class="border border-slate-300 px-4 py-2">Poor rural fit</td>
+<td class="border border-slate-300 px-4 py-2">Remote, 4-8 weeks</td>
+<td class="border border-slate-300 px-4 py-2">Good</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">When I Work</td>
+<td class="border border-slate-300 px-4 py-2">Budget option only</td>
+<td class="border border-slate-300 px-4 py-2">Remote, days</td>
+<td class="border border-slate-300 px-4 py-2">None</td>
+<td class="border border-slate-300 px-4 py-2">$2.50-6/user</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 ## How to Evaluate Scheduling Software for a Rural Hospital
@@ -174,7 +150,7 @@ Rural Critical Access Hospitals (CAHs) operate under [CMS §485.635](https://www
   <text x="580" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">on staff to fill gaps</text>
 </svg>
 
-## The 8 Best Options, Reviewed for Rural Hospitals
+## The 5 Best Options, Reviewed for Rural Hospitals
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -226,30 +202,30 @@ Setup runs 2-4 weeks entirely remotely. Credential tracking, shift coverage requ
 
 **Cost:** Approximately $200-$450/month for small hospital staff sizes.
 
-### 3. [NurseGrid Manager](https://nursegrid.com)
+### 3. [TCP](https://www.tcpsoftware.com)
 
-<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/Nursegrid.png" alt="NurseGrid Manager app for shift coordination" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
+<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/TCP.png" alt="TCP workforce management and scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-NurseGrid is a nurse-facing app for shift communication — viewing schedules, picking up open shifts, and managing availability. The manager version adds unit-level oversight. It is not a scheduling engine. You still need another tool to actually build the schedule.
+TCP (by TCP Software, formerly TimeClock Plus) is a workforce management platform that combines scheduling with time-and-attendance tracking. It has a presence in rural and community healthcare organizations, partly through its track record as a time-and-attendance system that hospitals later extended to scheduling. Some rural hospitals encounter TCP through vendor recommendations or regional health system affiliations.
 
-For rural hospitals, NurseGrid can be useful for spreading open shift notifications to staff across a geographic area without phone trees.
+For a rural CAH, TCP is a workable option when the scheduling problem and the time-and-attendance problem need to be solved together. Setup runs 4-8 weeks with remote implementation support.
 
-**Best for:** Rural hospitals that already have a scheduling platform and want a staff-facing communication layer for open shift posting.
+**Best for:** Rural hospitals where scheduling is inseparable from a time-and-attendance tracking need and there is an administrator available for setup and maintenance.
 
 **Key advantages:**
 
-- High voluntary staff adoption
-- Useful for reaching dispersed staff without phone calls
-- Free tier for individual nurses
+- Scheduling integrated with time-and-attendance on one platform reduces manual reconciliation between systems
+- Used in rural healthcare settings with support resources available remotely
+- Credential and overtime tracking available with configuration
 
 **Key limitations:**
 
-- Not a scheduling engine. Cannot replace a scheduling platform.
-- No clinical compliance documentation.
+- 4-8 week setup exceeds the implementation capacity of most 25-bed rural hospitals without dedicated admin staff
+- Feature scope is sized for 50-200 employee organizations, not a thin rural CAH roster
 
-**Verdict:** A useful add-on for shift communication. Not a standalone scheduling solution.
+**Verdict:** A reasonable consideration for rural hospitals where scheduling and time-and-attendance are both problems. For a rural CAH that only needs the schedule built, it is more platform than the problem requires.
 
-**Cost:** Free for individual nurses. Manager pricing on request.
+**Cost:** Pricing not listed on website. Contact for a quote.
 
 ### 4. [SmartLinx](https://www.smartlinx.com)
 
@@ -274,93 +250,27 @@ SmartLinx is a healthcare workforce management platform combining scheduling wit
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
-### 5. [QGenda](https://www.qgenda.com)
+### 5. [When I Work](https://wheniwork.com)
 
-<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/QGenda.png" alt="QGenda physician and nurse scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
+<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/WhenIWork.png" alt="When I Work shift scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-QGenda is a mid-market platform built primarily for physician scheduling. Its nursing module is a secondary product. For a rural hospital that only needs nursing scheduling, QGenda adds physician-scheduling overhead in both cost and complexity.
+When I Work is a general shift scheduling platform built for retail, hospitality, and food service. Rural hospitals sometimes consider it because setup is fast and the price is low. For non-clinical rural facilities or administrative scheduling, it works. For a licensed rural hospital requiring CMS-compliant staffing documentation, the compliance gap is a liability.
 
-**Best for:** Mid-size hospitals needing physician and nursing scheduling on one platform.
-
-**Key advantages:**
-
-- Best physician call schedule management in the mid-market
-- Strong analytics and mobile experience
-
-**Key limitations:**
-
-- 6-12 week implementation is unrealistic for most rural facilities.
-- Priced and scoped for organizations significantly larger than a rural CAH.
-
-**Verdict:** Not appropriate for a rural hospital. The physician scheduling focus and implementation demands do not match rural operational reality.
-
-**Cost:** Pricing not listed on website. Typically starts at $500+/month.
-
-### 6. [OnShift](https://www.onshift.com) (now part of Workday)
-
-<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/Onshift.png" alt="OnShift workforce management platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-OnShift was built for post-acute care and was acquired by Workday in 2022. If your rural hospital includes a significant nursing home or LTC component, OnShift has relevant features. For a standalone acute rural hospital, the Workday ecosystem pricing and the post-acute focus are both mismatches.
-
-**Best for:** LTC and SNF facilities, including rural nursing homes.
+**Best for:** Non-clinical businesses with hourly shift workers.
 
 **Key advantages:**
 
-- Strong in post-acute care environments
-- Good mobile experience for staff
+- Fast setup and low starting cost
+- Clean mobile app with strong staff communication features
 
 **Key limitations:**
 
-- Enterprise pricing post-acquisition is mismatched for rural small hospitals.
-- Not designed for acute inpatient rural nursing operations.
+- No credential tracking or clinical compliance documentation.
+- Not designed for licensed clinical environments -- a regulatory risk for any CAH.
 
-**Verdict:** Only relevant if your rural facility has a substantial LTC component. Otherwise, not a fit.
+**Verdict:** Works for non-clinical rural facilities. Not appropriate for a licensed rural hospital requiring CMS §485.635-compliant staffing records.
 
-**Cost:** Pricing not listed on website. Enterprise pricing.
-
-### 7. [Deputy](https://www.deputy.com)
-
-<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/Deputy.png" alt="Deputy workforce scheduling software" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-Deputy is a general workforce scheduling tool built for retail and hospitality. It has no credential tracking, no clinical compliance features, and no awareness of CAH regulatory requirements. The low cost is the only argument for it, and that argument does not survive the compliance gap.
-
-**Best for:** Non-healthcare businesses.
-
-**Key advantages:**
-
-- Lowest cost and fastest setup
-- Clean mobile app
-
-**Key limitations:**
-
-- No clinical compliance documentation.
-- No credential tracking — a regulatory liability for any licensed hospital.
-
-**Verdict:** Not appropriate for any licensed clinical environment. The compliance gap alone eliminates it.
-
-**Cost:** Approximately $4-$6/employee/month.
-
-### 8. [UKG](https://www.ukg.com) (formerly Kronos)
-
-<img src="/images/blog/best-nurse-scheduling-software-rural-hospitals/UKG.png" alt="UKG workforce management platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-UKG is an enterprise workforce management platform for large health systems. It requires a 6-18 month implementation, dedicated IT and HRIS resources, and five to six figures in annual licensing. Rural hospitals are sometimes on UKG through a regional health system contract — in those cases, the facility typically uses a small fraction of features while absorbing full implementation complexity.
-
-**Best for:** Large health systems with 200+ beds and dedicated HRIS infrastructure.
-
-**Key advantages:**
-
-- Best EHR and HRIS integration for large systems
-- Enterprise analytics and multi-facility management
-
-**Key limitations:**
-
-- Completely disproportionate for a rural small hospital in cost, complexity, and implementation time.
-- Multiple rural hospital administrators have purchased UKG and never successfully deployed it.
-
-**Verdict:** Wrong for rural hospitals in every scenario. If you are currently struggling with UKG at a rural facility, that is the expected outcome, not a user error.
-
-**Cost:** Pricing not listed on website. Enterprise pricing.
+**Cost:** Starting at approximately $2.50/employee/month.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="Rural hospital fit vs implementation burden for scheduling platforms">
   <title>Rural Hospital Fit vs Implementation Burden</title>
@@ -376,18 +286,12 @@ UKG is an enterprise workforce management platform for large health systems. It 
   <text x="120" y="69" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SSAI</text>
   <circle cx="230" cy="95" r="16" fill="#10b981" opacity="0.9"/>
   <text x="230" y="99" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Alad</text>
-  <circle cx="160" cy="175" r="14" fill="#f59e0b" opacity="0.85"/>
-  <text x="160" y="179" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">NG</text>
-  <circle cx="385" cy="200" r="15" fill="#8b5cf6" opacity="0.85"/>
-  <text x="385" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SL</text>
-  <circle cx="475" cy="210" r="15" fill="#ec4899" opacity="0.85"/>
-  <text x="475" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">QG</text>
-  <circle cx="355" cy="215" r="13" fill="#6366f1" opacity="0.85"/>
-  <text x="355" y="219" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">OS</text>
-  <circle cx="145" cy="235" r="13" fill="#94a3b8" opacity="0.85"/>
-  <text x="145" y="239" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Dep</text>
-  <circle cx="600" cy="230" r="17" fill="#ef4444" opacity="0.85"/>
-  <text x="600" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">UKG</text>
+  <circle cx="320" cy="130" r="15" fill="#f59e0b" opacity="0.85"/>
+  <text x="320" y="134" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">TCP</text>
+  <circle cx="390" cy="195" r="15" fill="#8b5cf6" opacity="0.85"/>
+  <text x="390" y="199" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SL</text>
+  <circle cx="130" cy="235" r="13" fill="#94a3b8" opacity="0.85"/>
+  <text x="130" y="239" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">WiW</text>
   <text x="85" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#475569">High Rural Fit</text>
   <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low Rural Fit</text>
 </svg>
@@ -404,9 +308,9 @@ Skip everything else on this list.
 
 Same two primary options, with Aladtec having slightly more configuration capacity at this size. If your facility is nearing 50 beds and you need time-and-attendance integration, SmartLinx enters the picture but requires dedicated admin capacity.
 
-**Rural hospital with LTC or SNF component:**
+**Rural hospital needing time-and-attendance integration:**
 
-OnShift is relevant for the LTC unit specifically. For the acute nursing unit, the above recommendations still apply.
+If your rural hospital requires scheduling connected directly to payroll time tracking, TCP adds that integration alongside shift scheduling. Requires more setup than Aladtec but covers both functions in one system.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" role="img" aria-label="Decision tree for rural hospital scheduling software selection">
   <title>Rural Hospital Scheduling: Which Tool?</title>
@@ -430,7 +334,7 @@ OnShift is relevant for the LTC unit specifically. For the acute nursing unit, t
   <text x="520" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Aladtec</text>
   <text x="520" y="162" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">Self-serve, remote setup</text>
   <rect x="140" y="210" width="420" height="35" fill="#fef3c7" rx="8"/>
-  <text x="350" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400e">NurseGrid can be added as a staff communication layer on top of either option.</text>
+  <text x="350" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400e">Add TCP if you need payroll time-and-attendance connected to scheduling.</text>
 </svg>
 
 ## What Changed in Rural Hospital Scheduling in 2026
@@ -473,13 +377,13 @@ The pilot is free for 60 days with no contract commitment.
 
 It depends on whether your nurse manager can realistically own a scheduling system. Aladtec is the better self-serve option: lower cost, fully remote setup, and a track record in rural hospitals. SimpleScheduleAI is the better fit when the nurse manager is also on the floor and cannot dedicate time to configuring and maintaining a scheduling platform. The managed model removes the burden from the facility entirely.
 
-**Q: Can rural hospitals use Deputy for nurse scheduling?**
+**Q: Can rural hospitals use When I Work for nurse scheduling?**
 
-No. Deputy handles basic shift scheduling but has no credential tracking, no clinical compliance documentation, and does not produce the staffing records required by CMS or state licensing bodies. Rural hospitals using Deputy for nursing scheduling face a compliance risk they may not discover until a survey.
+When I Work works for non-clinical shift scheduling but is not appropriate for a licensed rural hospital. It has no credential tracking, no clinical compliance documentation, and does not produce the staffing records required by CMS §485.635. Rural hospitals using When I Work for nursing scheduling face a compliance risk they may not discover until a survey.
 
-**Q: How long does UKG implementation take for a rural hospital?**
+**Q: What is the difference between Aladtec and TCP for a rural hospital?**
 
-Typically 6-18 months, requiring dedicated IT and HRIS resources most rural hospitals do not have. Rural CAHs that are on UKG are usually there through a regional health system contract, not by their own purchasing decision. The platform is not designed for rural standalone facilities, and the implementation demands reflect that.
+Aladtec (by TCP Software) is a scheduling-first platform built for healthcare and public safety. TCP (TimeClock Plus by TCP Software) is a workforce management platform that combines time-and-attendance with scheduling. For a rural hospital that only needs shift scheduling, Aladtec is simpler. If you need scheduling and payroll time tracking integrated, TCP covers both but requires more configuration. They are separate products from the same parent company.
 
 **Q: What does nurse scheduling compliance look like for a rural CAH?**
 

@@ -7,8 +7,8 @@ title: 'Best Nurse Scheduling Software for Texas Hospitals in 2026'
 excerpt: >
   Texas hospitals face a specific compliance environment: FLSA overtime, Texas Labor Code Chapter 62
   overtime provisions, and CMS §485.635 requirements for the state's 80+ Critical Access Hospitals.
-  This guide compares eight scheduling platforms on Texas compliance fit, implementation burden, and
-  operational match for hospitals of every size across the state.
+  This guide compares five scheduling platforms on Texas compliance fit, implementation burden, and
+  operational match for small and mid-size hospitals across the state.
 image: https://images.unsplash.com/photo-1578496781985-452d4a934d50?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:

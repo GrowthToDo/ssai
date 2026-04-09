@@ -1,13 +1,13 @@
 ---
 draft: true
-publishDate: 2026-04-07T00:00:00Z
-updateDate: 2026-04-07T00:00:00Z
+publishDate: 2026-04-30T00:00:00Z
+updateDate: 2026-04-08T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software for Critical Access Hospitals in 2026'
 excerpt: >
-  Critical Access Hospitals need scheduling software built for their scale — not enterprise platforms
-  stripped down from a 500-bed system. This guide compares eight platforms on CAH compliance, implementation
-  burden, and real operational fit for hospitals with 25 beds or fewer.
+  Critical Access Hospitals need scheduling software built for their scale, not enterprise platforms
+  stripped down from a 500-bed system. This guide compares five platforms that actually appear in CAH
+  evaluations on compliance, implementation burden, and real operational fit for hospitals with 25 beds or fewer.
 image: https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -21,25 +21,22 @@ metadata:
 
 ## Key Takeaways
 
-- For a Critical Access Hospital (CAH) with 25 beds or fewer, the only scheduling tools worth evaluating seriously are Aladtec (self-serve) and SimpleScheduleAI (managed service). Everything else is sized for a larger organization.
+- For a Critical Access Hospital (CAH) with 25 beds or fewer, the two tools worth evaluating seriously are Aladtec (self-serve) and SimpleScheduleAI (managed service). TCP and SmartLinx are sized for larger organizations; NurseGrid is a coordination layer, not a scheduling engine.
 - CMS §485.635 requires auditable staffing records, credential documentation at time of scheduling, and a log of every schedule change. Not all platforms produce this documentation in a format that satisfies a surveyor.
-- UKG, QGenda, and SmartLinx are built for hospitals 3-10x the size of a CAH. Buying them creates administrative overhead your team cannot sustain.
+- TCP and SmartLinx appear in CAH searches and are sometimes recommended by vendors, but their implementation complexity and feature scope are designed for 50-200 bed facilities, not 25-bed hospitals.
 - The largest scheduling cost at most CAHs is not the software license. It is the 8-12 hours per week the nurse manager spends building, adjusting, and managing the schedule manually.
 - Managed scheduling services now compete directly with self-serve software at this size. For a nurse manager who is also on the floor, having the schedule built for you often solves the real problem where software only moves the work to a different tool.
 
 ## Table of Contents
 
 - [How to Evaluate Scheduling Software for a CAH](#how-to-evaluate-nurse-scheduling-software-for-a-critical-access-hospital)
-- [Quick Comparison: All 8 Platforms by CAH Fit](#quick-comparison-all-8-platforms-by-cah-fit)
-- [The 8 Best Options, Reviewed for CAH Use](#the-8-best-options-reviewed-for-cah-use)
+- [Quick Comparison: 5 Platforms by CAH Fit](#quick-comparison-5-platforms-by-cah-fit)
+- [The 5 Best Options, Reviewed for CAH Use](#the-5-best-options-reviewed-for-cah-use)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
-  - [2. Aladtec](#2-aladtec)
+  - [2. Aladtec (by TCP Software)](#2-aladtec-by-tcp-software)
   - [3. NurseGrid Manager](#3-nursegrid-manager)
-  - [4. QGenda](#4-qgenda)
+  - [4. TCP](#4-tcp)
   - [5. SmartLinx](#5-smartlinx)
-  - [6. OnShift](#6-onshift-now-part-of-workday)
-  - [7. Deputy](#7-deputy)
-  - [8. UKG (formerly Kronos)](#8-ukg-formerly-kronos)
 - [Which Software Fits Your CAH?](#which-software-fits-your-cah)
 - [What Changed in CAH Scheduling in 2026](#what-changed-in-cah-scheduling-in-2026)
 - [How SimpleScheduleAI Was Built for This](#how-simplescheduleai-was-built-for-this)
@@ -48,80 +45,59 @@ metadata:
 
 Critical Access Hospitals operate under a different set of constraints than community or regional hospitals. You have a small nursing staff, a nurse manager who is often clinically active, no dedicated scheduling administrator, and a compliance burden that is specific to your CMS designation. The software market was not built for you — it was built for the 200-bed hospital down the road, and the CAH-appropriate options are a small subset of what gets marketed to hospital administrators.
 
-Here is how all 8 platforms stack up specifically for CAH operations before we go deeper:
+Here is how the five platforms that actually appear in CAH evaluations stack up before we go deeper:
 
-## Quick Comparison: All 8 Platforms by CAH Fit
+## Quick Comparison: 5 Platforms by CAH Fit
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
-    <thead>
-      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CAH Fit</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CMS §485.635 Ready</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Setup Time</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Built for CAH</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes - built in</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-5 days</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good CAH fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Adequate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">2-4 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Low</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor CAH fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Moderate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-12 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor CAH fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Poor CAH fit</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Post-acute only</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not for CAH</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$4-6/user</td>
-      </tr>
-      <tr>
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">UKG</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not for CAH</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes (overkill)</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-18 months</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="not-prose overflow-x-auto my-8">
+<table class="w-full text-sm border-collapse" style="min-width:620px">
+<thead>
+<tr class="bg-slate-100">
+<th class="border border-slate-300 px-4 py-2 text-left">Platform</th>
+<th class="border border-slate-300 px-4 py-2 text-left">CAH Fit</th>
+<th class="border border-slate-300 px-4 py-2 text-left">CMS §485.635 Ready</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Setup Time</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Cost/Month</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">SimpleScheduleAI</td>
+<td class="border border-slate-300 px-4 py-2">Built for CAH</td>
+<td class="border border-slate-300 px-4 py-2">Yes - built in</td>
+<td class="border border-slate-300 px-4 py-2">3-5 days</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">Aladtec (by TCP Software)</td>
+<td class="border border-slate-300 px-4 py-2">Good CAH fit</td>
+<td class="border border-slate-300 px-4 py-2">Adequate</td>
+<td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
+<td class="border border-slate-300 px-4 py-2">$200-450</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">NurseGrid Manager</td>
+<td class="border border-slate-300 px-4 py-2">Partial fit (add-on only)</td>
+<td class="border border-slate-300 px-4 py-2">No</td>
+<td class="border border-slate-300 px-4 py-2">Days</td>
+<td class="border border-slate-300 px-4 py-2">Low / free tier</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">TCP</td>
+<td class="border border-slate-300 px-4 py-2">Moderate fit</td>
+<td class="border border-slate-300 px-4 py-2">Adequate</td>
+<td class="border border-slate-300 px-4 py-2">4-8 weeks</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">SmartLinx</td>
+<td class="border border-slate-300 px-4 py-2">Poor CAH fit</td>
+<td class="border border-slate-300 px-4 py-2">Good</td>
+<td class="border border-slate-300 px-4 py-2">4-8 weeks</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 ## How to Evaluate Nurse Scheduling Software for a Critical Access Hospital
@@ -181,7 +157,7 @@ Many scheduling tools show you who is available. Fewer apply clinical constraint
   <text x="580" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">before shift start</text>
 </svg>
 
-## The 8 Best Options, Reviewed for CAH Use
+## The 5 Best Options, Reviewed for CAH Use
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -208,7 +184,7 @@ The model is the inverse of self-serve software. There is no platform to configu
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
-### 2. [Aladtec](https://www.aladtec.com)
+### 2. [Aladtec (by TCP Software)](https://www.aladtec.com)
 
 <img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/Aladtec.png" alt="Aladtec scheduling software interface for small hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
@@ -258,28 +234,30 @@ NurseGrid sees high staff adoption because nurses choose to use it voluntarily, 
 
 **Cost:** Free for individual nurses. Manager tools available on request.
 
-### 4. [QGenda](https://www.qgenda.com)
+### 4. [TCP](https://www.tcpsoftware.com)
 
-<img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/QGenda.png" alt="QGenda physician and nurse scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
+<img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/TCP.png" alt="TCP scheduling and workforce management software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-QGenda is a mid-market scheduling platform that started in physician scheduling and expanded into nursing. It has strong analytics, a good mobile experience, and a solid physician call schedule management module. For a CAH that needs only nursing scheduling, QGenda is significantly over-engineered.
+TCP (by TCP Software, formerly TimeClock Plus) is a workforce management platform used in community hospitals, rural healthcare organizations, and multi-site employers. It covers employee scheduling, time-and-attendance, and labor compliance in one platform. Some rural hospitals encounter TCP through regional health system recommendations or because of its time-and-attendance track record in healthcare settings.
 
-**Best for:** Hospitals needing physician and nursing scheduling managed together — typically 50-200 bed community hospitals, not CAHs.
+For a CAH, TCP is a workable option if your primary need is integrating scheduling with time-and-attendance tracking and you have administrative capacity for a 4-8 week setup. It is more implementation than a 25-bed hospital usually warrants.
+
+**Best for:** CAHs that need scheduling integrated with time-and-attendance and have a dedicated administrator available for setup and maintenance.
 
 **Key advantages:**
 
-- Best physician call schedule management in the mid-market
-- Strong reporting and analytics
-- Good mobile experience for staff
+- Combined scheduling and time-and-attendance in one platform reduces manual data reconciliation between systems
+- Healthcare-specific configuration options including credential tracking and overtime rules
+- Used in rural hospital settings with established support resources
 
 **Key limitations:**
 
-- Priced and scoped for organizations significantly larger than most CAHs.
-- Implementation requires 6-12 weeks and substantial vendor involvement — capacity most CAHs do not have.
+- Setup requires 4-8 weeks and administrator involvement that most CAHs cannot spare
+- Feature scope is sized for 50-200 employee organizations, not a 25-bed hospital staff
 
-**Verdict:** Not a practical choice for a CAH. The implementation burden alone exceeds most small hospitals' administrative capacity, and the physician scheduling features that drive the cost are rarely needed at this scale.
+**Verdict:** A reasonable choice if your scheduling problem is inseparable from a time-and-attendance problem and you have an administrator who can run the implementation. If you just need the schedule built, it is more platform than the problem requires.
 
-**Cost:** Pricing not listed on website. Contact for a quote. Typically starts at $500+/month.
+**Cost:** Pricing not listed on website. Contact for a quote.
 
 ### 5. [SmartLinx](https://www.smartlinx.com)
 
@@ -304,78 +282,7 @@ SmartLinx is a healthcare workforce management platform used in community hospit
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
-### 6. [OnShift](https://www.onshift.com) (now part of Workday)
-
-<img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/Onshift.png" alt="OnShift workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-OnShift was acquired by Workday in 2022 and is now marketed as a post-acute care workforce management platform. If your CAH has a significant skilled nursing or long-term care component, OnShift has relevant features. For a standalone acute care CAH, it is a poor fit in both design and pricing.
-
-**Best for:** Skilled nursing facilities, long-term care organizations, and senior living. Not built for acute inpatient nursing.
-
-**Key advantages:**
-
-- Strong in post-acute environments
-- Good mobile experience for staff
-- Solid open shift management for LTC staffing patterns
-
-**Key limitations:**
-
-- Post-acquisition pricing reflects the Workday enterprise ecosystem, not small hospital budgets.
-- Not designed for acute inpatient nursing unit operations.
-
-**Verdict:** Only relevant if your CAH has a substantial LTC or SNF component. For an acute-focused CAH, the product fit and pricing both work against you.
-
-**Cost:** Pricing not listed on website. Enterprise pricing post-acquisition.
-
-### 7. [Deputy](https://www.deputy.com)
-
-<img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/Deputy.png" alt="Deputy workforce scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-Deputy is a general workforce scheduling tool used in retail, hospitality, and food service. It handles basic scheduling and overtime tracking. It has no credential tracking, no clinical compliance documentation, and no awareness of healthcare regulatory requirements.
-
-**Best for:** Non-healthcare businesses. Not appropriate for any licensed clinical environment.
-
-**Key advantages:**
-
-- Extremely fast to set up
-- Lowest cost in this comparison
-- Good mobile app for staff shift visibility
-
-**Key limitations:**
-
-- No credential tracking or clinical compliance documentation — a direct compliance risk in a CAH.
-- Would not produce documentation that satisfies a CMS surveyor.
-
-**Verdict:** Not a viable option for a CAH. The compliance gap alone eliminates it. Use it for your cafeteria, not your nursing unit.
-
-**Cost:** Approximately $4-$6/employee/month.
-
-### 8. [UKG](https://www.ukg.com) (formerly Kronos)
-
-<img src="/images/blog/best-nurse-scheduling-software-critical-access-hospitals/UKG.png" alt="UKG workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
-
-UKG is the dominant workforce management platform for large hospital systems. It is an excellent product for the organizations it was designed for: 200+ bed health systems with dedicated HRIS teams, IT departments, and multi-year implementation capacity. It is completely mismatched for a CAH.
-
-CAHs are sometimes on UKG because a regional health system extended their enterprise contract to affiliated facilities. In those cases, the CAH is typically using 5-10% of UKG's features while absorbing 100% of its operational complexity.
-
-**Best for:** Large health systems with 200+ beds, dedicated HRIS teams, and existing UKG infrastructure.
-
-**Key advantages:**
-
-- Best EHR and HRIS integration depth in the market
-- Enterprise analytics and multi-facility management
-- Comprehensive workforce management for large health systems
-
-**Key limitations:**
-
-- Implementation takes 6-18 months and costs five to six figures — completely disproportionate for a CAH.
-- Multiple CAH administrators have purchased UKG and never successfully deployed it at their facility.
-
-**Verdict:** The wrong tool for a CAH in almost every scenario. If you are currently on UKG and struggling with it, that is a predictable outcome, not a user error.
-
-**Cost:** Pricing not listed on website. Enterprise pricing. Not appropriate for CAH scale.
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="CAH fit vs implementation burden for nurse scheduling platforms">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="CAH fit vs implementation burden for five nurse scheduling platforms">
   <title>CAH Scheduling Software: Hospital Fit vs Implementation Burden</title>
   <rect width="700" height="310" fill="#f8fafc" rx="12"/>
   <text x="350" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">CAH Fit vs Implementation Burden</text>
@@ -389,18 +296,12 @@ CAHs are sometimes on UKG because a regional health system extended their enterp
   <text x="120" y="69" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SSAI</text>
   <circle cx="230" cy="100" r="16" fill="#10b981" opacity="0.9"/>
   <text x="230" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Alad</text>
-  <circle cx="155" cy="175" r="14" fill="#f59e0b" opacity="0.85"/>
-  <text x="155" y="179" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">NG</text>
-  <circle cx="460" cy="195" r="15" fill="#ec4899" opacity="0.85"/>
-  <text x="460" y="199" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">QG</text>
-  <circle cx="390" cy="210" r="15" fill="#8b5cf6" opacity="0.85"/>
-  <text x="390" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SL</text>
-  <circle cx="350" cy="220" r="13" fill="#6366f1" opacity="0.85"/>
-  <text x="350" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">OS</text>
-  <circle cx="140" cy="235" r="13" fill="#94a3b8" opacity="0.85"/>
-  <text x="140" y="239" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Dep</text>
-  <circle cx="600" cy="230" r="17" fill="#ef4444" opacity="0.85"/>
-  <text x="600" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">UKG</text>
+  <circle cx="160" cy="178" r="14" fill="#f59e0b" opacity="0.85"/>
+  <text x="160" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">NG</text>
+  <circle cx="420" cy="165" r="15" fill="#6366f1" opacity="0.85"/>
+  <text x="420" y="169" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">TCP</text>
+  <circle cx="490" cy="210" r="15" fill="#8b5cf6" opacity="0.85"/>
+  <text x="490" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SL</text>
   <text x="85" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#475569">High CAH Fit</text>
   <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low CAH Fit</text>
 </svg>
@@ -412,21 +313,22 @@ CAHs are sometimes on UKG because a regional health system extended their enterp
 At this scale, complexity is the enemy. You need something that works in days, not weeks, and that does not require ongoing technical maintenance.
 
 - **Best option:** SimpleScheduleAI. The managed model eliminates the maintenance burden entirely.
-- **Self-serve alternative:** Aladtec if you have a coordinator who can own the setup.
-- **Avoid everything else** on this list.
+- **Self-serve alternative:** Aladtec (by TCP Software) if you have a coordinator who can own the setup.
+- **Avoid:** TCP and SmartLinx. Both are sized and scoped for larger organizations.
 
 **15-25 beds (standard CAH):**
 
-The two viable options are the same, with slightly more room to consider Aladtec as a self-serve choice.
+The two viable primary options are the same. NurseGrid can serve as a staff-facing communication add-on if your nurses are already using it.
 
 - **Best managed option:** SimpleScheduleAI.
-- **Best self-serve option:** Aladtec.
+- **Best self-serve option:** Aladtec (by TCP Software).
 - **Add-on layer:** NurseGrid for open shift communication on top of either platform.
-- **Avoid:** QGenda, SmartLinx, OnShift (sized for larger organizations), Deputy (no clinical compliance), UKG (implementation impossible at this scale).
+- **Consider TCP only if:** your scheduling problem is inseparable from a time-and-attendance tracking need and you have an administrator available for implementation.
+- **Avoid SmartLinx:** Implementation burden exceeds CAH administrative capacity.
 
-**CAH with LTC or SNF component:**
+**CAH with 50+ beds or multi-unit complexity:**
 
-If your facility has a significant post-acute unit, add OnShift to the evaluation for that unit. For the acute nursing unit, the above recommendations still apply.
+If your facility has grown beyond the standard CAH scale and has a dedicated scheduling administrator, TCP or SmartLinx become more viable. Both are designed for 50-200 employee organizations with administrative staff to maintain the system.
 
 ## What Changed in CAH Scheduling in 2026
 
@@ -478,9 +380,9 @@ This is one of the most underrated risks in CAH scheduling. If the nurse manager
 
 Not necessarily, and the comparison is more nuanced than a monthly fee comparison. The full cost of self-serve software includes the nurse manager's time to configure, operate, and maintain it. At 8-12 hours per week, the labor cost of a nurse manager running scheduling often exceeds the fee for a managed service. The right comparison is total cost of scheduling ownership, not software license cost.
 
-**Q: Does UKG work for Critical Access Hospitals?**
+**Q: What is the difference between Aladtec and TCP for a small hospital?**
 
-It can be made to work, but the implementation burden is disproportionate and the ongoing operational overhead is significant. Most CAHs that land on UKG do so through an enterprise health system contract, not by choice. The practical result is usually a system that is nominally deployed but that the nurse manager works around rather than through.
+Aladtec (by TCP Software) is a self-serve scheduling platform built for small healthcare and EMS organizations. TCP (formerly TimeClock Plus, also by TCP Software) is a broader workforce management platform covering scheduling plus time-and-attendance. For a 25-bed CAH that only needs scheduling, Aladtec is the more appropriate fit. TCP makes more sense when the scheduling and time-and-attendance problems need to be solved together.
 
 ---
 
