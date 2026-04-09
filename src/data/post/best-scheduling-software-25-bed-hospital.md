@@ -1,13 +1,13 @@
 ---
 draft: true
-publishDate: 2026-05-05T00:00:00Z
-updateDate: 2026-05-05T00:00:00Z
+publishDate: 2026-05-23T00:00:00Z
+updateDate: 2026-04-08T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Scheduling Software for 25-Bed Hospitals in 2026'
 excerpt: >
   A 25-bed hospital runs on a roster of 15-25 nurses and one nurse manager who also takes shifts.
   Most scheduling software is designed for larger systems and creates more overhead than it eliminates.
-  This guide compares eight platforms specifically on fit for 25-bed hospitals where every scheduling
+  This guide compares five platforms specifically on fit for 25-bed hospitals where every scheduling
   hour costs clinical capacity.
 image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
@@ -27,21 +27,18 @@ metadata:
 - The nurse manager at a 25-bed hospital almost always takes clinical shifts in addition to managing schedules. A tool that demands 8-12 hours per week of administrative scheduling time is not viable.
 - Callout coverage is the highest-stakes daily task. With a pool of 15-25 nurses, a single callout can drop coverage below CMS §485.635 minimums. A ranked shortlist generated in under two minutes is not a luxury.
 - SimpleScheduleAI is purpose-built for 25-bed Critical Access Hospitals (CAHs). It handles three-option draft scheduling, instant callout shortlists, and CMS audit documentation as default behavior, not optional add-ons.
-- For hospitals that prefer self-serve software over a managed service, Aladtec and NurseGrid Manager are the strongest fits for 25-bed rosters. SmartLinx and QGenda scale better for hospitals growing toward 50-75 beds.
+- For hospitals that prefer self-serve software, Aladtec and NurseGrid Manager are the strongest fits for 25-bed rosters. When I Work and Homebase are lower-cost options for non-CAH facilities where clinical compliance documentation is less critical.
 
 ## Table of Contents
 
-- [Quick Comparison: All 8 Platforms for 25-Bed Hospitals](#quick-comparison-all-8-platforms-for-25-bed-hospitals)
+- [Quick Comparison: 5 Platforms for 25-Bed Hospitals](#quick-comparison-5-platforms-for-25-bed-hospitals)
 - [How to Evaluate Scheduling Software for a 25-Bed Hospital](#how-to-evaluate-scheduling-software-for-a-25-bed-hospital)
-- [The 8 Best Options, Reviewed for 25-Bed Hospitals](#the-8-best-options-reviewed-for-25-bed-hospitals)
+- [The 5 Best Options, Reviewed for 25-Bed Hospitals](#the-5-best-options-reviewed-for-25-bed-hospitals)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
   - [3. NurseGrid Manager](#3-nursegrid-manager)
-  - [4. SmartLinx](#4-smartlinx)
-  - [5. QGenda](#5-qgenda)
-  - [6. OnShift](#6-onshift-now-part-of-workday)
-  - [7. Deputy](#7-deputy)
-  - [8. UKG (formerly Kronos)](#8-ukg-formerly-kronos)
+  - [4. When I Work](#4-when-i-work)
+  - [5. Homebase](#5-homebase)
 - [What Makes 25-Bed Hospital Scheduling Uniquely Hard](#what-makes-25-bed-hospital-scheduling-uniquely-hard)
 - [Which Software Fits Your 25-Bed Hospital?](#which-software-fits-your-25-bed-hospital)
 - [How SimpleScheduleAI Fits the 25-Bed Model](#how-simplescheduleai-fits-the-25-bed-model)
@@ -50,80 +47,59 @@ metadata:
 
 At 25 beds, a hospital is typically a Critical Access Hospital (CAH). That designation brings federal CMS requirements around nurse-to-patient ratios, staffing documentation, and annual compliance reporting. It also brings a roster size that most scheduling vendors do not actually plan for. The math at 25 beds is unforgiving: one nurse calling out can trigger a compliance gap. One nurse manager spending 10 hours per week on scheduling instead of 2 loses 400 clinical hours per year.
 
-Here is how all 8 platforms compare before we go deeper:
+Here is how the five platforms most commonly evaluated at 25-bed scale compare before we go deeper:
 
-## Quick Comparison: All 8 Platforms for 25-Bed Hospitals
+## Quick Comparison: 5 Platforms for 25-Bed Hospitals
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
-    <thead>
-      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">25-Bed Fit</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CAH Ready</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Callout Coverage</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Built for 25-bed CAHs</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — built in</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Ranked shortlist in 2 min</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good for small rosters</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Adequate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual with alerts</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Nurse communication add-on</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Broadcast only</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Better for 50+ beds</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Rules-based</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Mid-market, config-heavy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Moderate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Rules-based</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">LTC-focused</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Open-shift posting</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Generic, not healthcare</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Open-shift posting</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$4.50/user</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">UKG</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Enterprise, overkill</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, with IT resources</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Rules-based</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500-1,200+</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="not-prose overflow-x-auto my-8">
+<table class="w-full text-sm border-collapse" style="min-width:620px">
+<thead>
+<tr class="bg-slate-100">
+<th class="border border-slate-300 px-4 py-2 text-left">Platform</th>
+<th class="border border-slate-300 px-4 py-2 text-left">25-Bed Fit</th>
+<th class="border border-slate-300 px-4 py-2 text-left">CAH Ready</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Callout Coverage</th>
+<th class="border border-slate-300 px-4 py-2 text-left">Cost/Month</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">SimpleScheduleAI</td>
+<td class="border border-slate-300 px-4 py-2">Built for 25-bed CAHs</td>
+<td class="border border-slate-300 px-4 py-2">Yes, built in</td>
+<td class="border border-slate-300 px-4 py-2">Ranked shortlist in 2 min</td>
+<td class="border border-slate-300 px-4 py-2">Not listed</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">Aladtec</td>
+<td class="border border-slate-300 px-4 py-2">Good for small rosters</td>
+<td class="border border-slate-300 px-4 py-2">Adequate</td>
+<td class="border border-slate-300 px-4 py-2">Manual with alerts</td>
+<td class="border border-slate-300 px-4 py-2">$200-450</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">NurseGrid Manager</td>
+<td class="border border-slate-300 px-4 py-2">Nurse comm add-on only</td>
+<td class="border border-slate-300 px-4 py-2">No</td>
+<td class="border border-slate-300 px-4 py-2">Broadcast only</td>
+<td class="border border-slate-300 px-4 py-2">~$150-300</td>
+</tr>
+<tr class="bg-slate-50">
+<td class="border border-slate-300 px-4 py-2 font-medium">When I Work</td>
+<td class="border border-slate-300 px-4 py-2">Budget option, limited compliance</td>
+<td class="border border-slate-300 px-4 py-2">No</td>
+<td class="border border-slate-300 px-4 py-2">Open-shift posting</td>
+<td class="border border-slate-300 px-4 py-2">$2.50-6/user</td>
+</tr>
+<tr>
+<td class="border border-slate-300 px-4 py-2 font-medium">Homebase</td>
+<td class="border border-slate-300 px-4 py-2">Under 20 staff only</td>
+<td class="border border-slate-300 px-4 py-2">No</td>
+<td class="border border-slate-300 px-4 py-2">Basic notifications</td>
+<td class="border border-slate-300 px-4 py-2">Free-$100</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 ## How to Evaluate Scheduling Software for a 25-Bed Hospital
@@ -182,7 +158,7 @@ The criteria for a 25-bed hospital are not a compressed version of what a 200-be
 
 **Shift fairness:** With a roster of 15-25 nurses, perceived unfairness in weekend or overnight assignment distribution accelerates turnover. The [NSI National Health Care Retention Report](https://www.nsinursingsolutions.com) puts registered nurse turnover at 18.4% nationally. At 25 beds, losing two nurses is losing 10% of the roster.
 
-## The 8 Best Options, Reviewed for 25-Bed Hospitals
+## The 5 Best Options, Reviewed for 25-Bed Hospitals
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -257,124 +233,54 @@ NurseGrid Manager is a nurse communication and schedule visibility tool rather t
 
 **Cost:** Approximately $150-300 per month for the manager tier. Exact pricing requires contact.
 
-### 4. [SmartLinx](https://www.smartlinx.com)
+### 4. [When I Work](https://wheniwork.com)
 
-<img src="/images/blog/best-scheduling-software-25-bed-hospital/Smartlinx.png" alt="SmartLinx workforce management platform for healthcare" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/best-scheduling-software-25-bed-hospital/WhenIWork.png" alt="When I Work scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-SmartLinx is a workforce management platform originally built for long-term care (LTC) and skilled nursing facilities, with a growing footprint in community hospitals. The platform covers scheduling, time and attendance, and labor analytics in one system. It is more capable than Aladtec but also more complex to configure and implement.
+When I Work is a workforce scheduling platform used by small businesses across healthcare, retail, and hospitality. For a 25-bed hospital considering a low-cost digital step up from Excel, When I Work is the most functional budget option. It handles shift scheduling, time tracking, and staff communication in a clean mobile-first interface.
 
-**Best for:** 25-bed hospitals that are planning to grow toward 50-75 beds within the next three years and want a platform that will scale with them, or hospitals that already have an IT resource who can manage the implementation.
+The limitation at a CAH is compliance. When I Work does not have credential tracking or CMS §485.635 documentation built in. For a standalone non-CAH clinic this may be manageable, but for a facility under CMS Conditions of Participation, the documentation gap is a real survey risk.
 
-**Key advantages:**
-
-- Integrated time and attendance with scheduling reduces double-entry and simplifies payroll reconciliation
-- Labor analytics dashboards give administrators real-time visibility into overtime spend and coverage gaps
-- CMS compliance support is better than most general workforce tools
-
-**Key limitations:**
-
-- Implementation for a 25-bed hospital typically takes 8-14 weeks with vendor support involvement; not a quick-start tool
-- Per-user pricing model means cost scales with roster additions even for a small hospital
-
-**Verdict:** SmartLinx is a capable platform, but its strength is in hospitals with more complex multi-department scheduling needs and IT capacity to support implementation. For a pure 25-bed CAH nursing roster, it is more tool than the problem requires.
-
-**Cost:** Pricing not listed on website. Contact for a quote.
-
-### 5. [QGenda](https://www.qgenda.com)
-
-<img src="/images/blog/best-scheduling-software-25-bed-hospital/QGenda.png" alt="QGenda provider scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-QGenda started as a physician scheduling platform and has expanded into nursing and advanced practice scheduling for mid-market hospitals. The configuration depth is substantial: call schedules, complex rotation rules, credential-based assignments. At a 25-bed CAH, most of that depth goes unused.
-
-**Best for:** 25-bed hospitals that need to schedule both physicians and nurses on one platform, or that have a complex mix of per-diem, part-time, and full-time nurses requiring sophisticated rotation rules.
+**Best for:** Small non-CAH hospitals or outpatient facilities where CMS survey documentation is handled through separate systems and the primary need is a budget digital step up from spreadsheets.
 
 **Key advantages:**
 
-- Best-in-class physician and provider scheduling logic, which matters for CAHs where the same administrator may oversee both nursing and provider scheduling
-- Strong compliance tracking with configurable rule sets
-- Integration options with major EMR systems
+- Fast setup, intuitive interface, good mobile adoption among floor staff
+- Affordable per-user pricing that scales with team size
+- Shift swap and open-shift posting features reduce direct manager involvement in coverage calls
 
 **Key limitations:**
 
-- Expensive relative to small-roster use cases; per-user pricing compounds quickly at 25 beds
-- Configuration complexity means a longer time-to-value for hospitals without an IT resource
-- Designed around provider scheduling logic that does not map neatly to floor nursing shift patterns
+- No credential tracking, no CMS-compliant audit documentation
+- Callout replacement is broadcast-based, not ranked by overtime risk or qualifications
 
-**Verdict:** QGenda is a legitimate choice for a 25-bed CAH that needs unified physician and nursing scheduling. For hospitals scheduling nursing only, the cost-to-benefit ratio at this roster size is unfavorable.
+**Verdict:** A reasonable budget option for non-CAH facilities. Not appropriate for a CMS-designated Critical Access Hospital where survey documentation is a compliance requirement.
 
-**Cost:** $500 or more per month. Pricing requires a quote.
+**Cost:** Approximately $2.50-$6 per user per month. At a 20-nurse roster, approximately $50-$120/month.
 
-### 6. [OnShift](https://www.onshift.com) (now part of Workday)
+### 5. [Homebase](https://joinhomebase.com)
 
-<img src="/images/blog/best-scheduling-software-25-bed-hospital/Onshift.png" alt="OnShift workforce management software for healthcare" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/best-scheduling-software-25-bed-hospital/Homebase.png" alt="Homebase scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-OnShift was built for long-term care and assisted living environments. Its acquisition by Workday has shifted its development roadmap toward larger enterprise customers. The scheduling and engagement features work adequately for small hospitals with relatively stable rosters, but the platform increasingly assumes a larger organizational context.
+Homebase is a scheduling and time tracking tool built for very small businesses, primarily under 20 staff. It has a free tier that covers basic scheduling and shift communication. For a 25-bed hospital, Homebase is below the complexity threshold the tool was designed for: most hospitals will have more than 20 nursing staff, and the free tier limits will push the facility onto a paid plan that costs more than the compliance benefit justifies.
 
-**Best for:** 25-bed hospitals that already use other Workday modules or have a long-term care component alongside acute care and want a unified platform.
+**Best for:** Very small non-clinical operations (maintenance, housekeeping, food service) attached to a hospital that need simple scheduling without clinical compliance requirements.
 
 **Key advantages:**
 
-- Open-shift posting and employee self-scheduling reduce administrative burden once the system is configured
-- Push notifications for available shifts generate faster fill rates than phone-based outreach
-- Caregiver engagement features (rewards, feedback) are differentiating for retention-focused administrators
+- Free tier available for locations under 20 staff
+- Near-zero setup time, no training required
+- Clean mobile interface for shift viewing and swaps
 
 **Key limitations:**
 
-- Healthcare-specific compliance for CAH environments requires custom configuration
-- Post-Workday acquisition, smaller standalone customers receive less prioritized support
-- Not designed for the specific callout coverage dynamics of a 25-bed hospital
+- No clinical compliance features, credential tracking, or healthcare-specific documentation
+- Free tier staff limits are too low for most hospital nursing rosters
+- Not appropriate for any unit operating under CMS survey oversight
 
-**Verdict:** A functional scheduling tool for healthcare environments, but increasingly optimized for LTC and enterprise Workday customers. Not the strongest independent fit for a standalone 25-bed CAH.
+**Verdict:** Below the functional requirements for a hospital nursing unit. Consider it for non-clinical support staff scheduling at the same facility, not for nursing operations.
 
-**Cost:** Pricing not listed on website. Contact for a quote.
-
-### 7. [Deputy](https://www.deputy.com)
-
-<img src="/images/blog/best-scheduling-software-25-bed-hospital/Deputy.png" alt="Deputy employee scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-Deputy is a general-purpose workforce scheduling platform used across retail, hospitality, and some healthcare settings. It is affordable, easy to set up, and has strong mobile usability. It is not built for healthcare compliance, CMS documentation, or the specific constraints of a CAH.
-
-**Best for:** 25-bed hospitals that need a low-cost scheduling tool to replace Excel immediately and are not yet focused on CMS compliance automation or overtime optimization.
-
-**Key advantages:**
-
-- Fastest time to first published schedule of any tool in this list; most teams are operational within a day
-- Per-user pricing is the most transparent and predictable at small roster sizes
-- Strong mobile app with shift acknowledgment and swap features nurses actually use
-
-**Key limitations:**
-
-- No healthcare compliance features, CAH-specific documentation, or CMS-aligned reporting
-- Overtime rules require manual configuration and do not default to healthcare standards
-- No callout ranking logic; replacements are found by broadcasting open shifts
-
-**Verdict:** Deputy is the right answer for a hospital that needs scheduling software today and has no budget. It is not the right answer for a hospital managing CMS compliance obligations or trying to reduce overtime spend systematically.
-
-**Cost:** $4.50 per user per month. At a 20-nurse roster, approximately $90/month.
-
-### 8. [UKG (formerly Kronos)](https://www.ukg.com)
-
-<img src="/images/blog/best-scheduling-software-25-bed-hospital/UKG.png" alt="UKG workforce management software for healthcare organizations" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-UKG is the dominant enterprise workforce management platform in U.S. healthcare. Hundreds of hospital systems run on it. At 25 beds, it is almost always the wrong choice: the implementation requires dedicated IT, the contract requires a multi-year commitment, and the cost structure is designed for organizations with HR departments that actively manage the platform.
-
-**Best for:** 25-bed hospitals that are subsidiaries of a larger health system and inherit UKG as a system-wide standard, rather than standalone community hospitals choosing independently.
-
-**Key advantages:**
-
-- Deepest healthcare compliance coverage of any platform, including all standard FLSA configurations
-- Enterprise-grade integrations with EMR, payroll, and HR systems
-- No practical upper limit on scheduling complexity
-
-**Key limitations:**
-
-- Implementation at a 25-bed site typically takes 6-18 months and requires dedicated IT involvement
-- Total cost of ownership (licensing, implementation, support, IT maintenance) frequently exceeds $1,000-1,200 per month for small sites
-- Support responsiveness for small customers does not match the experience of enterprise accounts
-
-**Verdict:** UKG is the right tool for a large health system, not a standalone 25-bed CAH. Unless it is mandated by a parent organization, the implementation cost and administrative overhead make it a poor fit for this roster size.
-
-**Cost:** $500-1,200 or more per month. Pricing requires a quote.
+**Cost:** Free tier for one location with up to 20 staff. Paid plans from $24-$100/month per location.
 
 ## What Makes 25-Bed Hospital Scheduling Uniquely Hard
 
@@ -471,10 +377,10 @@ The three challenges above interact. A callout triggers a manual overtime calcul
   <text x="160" y="237" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">Is a managed service</text>
   <text x="160" y="253" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">acceptable?</text>
 
-  <!-- No path: Q2 Need physician scheduling? -->
+  <!-- No path: Q2 Budget priority? -->
   <rect x="530" y="220" width="220" height="44" rx="6" fill="#fff" stroke="#64748b" stroke-width="1.5"/>
-  <text x="640" y="237" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">Need physician and</text>
-  <text x="640" y="253" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">nurse scheduling?</text>
+  <text x="640" y="237" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">Is lowest cost the</text>
+  <text x="640" y="253" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0f172a">primary priority?</text>
 
   <!-- Yes managed service -->
   <line x1="100" y1="264" x2="100" y2="320" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -490,19 +396,19 @@ The three challenges above interact. A callout triggers a manual overtime calcul
   <text x="280" y="337" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Aladtec</text>
   <text x="280" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">Self-serve, best small fit</text>
 
-  <!-- Yes physician scheduling -->
+  <!-- Yes budget: When I Work -->
   <line x1="640" y1="264" x2="640" y2="320" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
   <text x="658" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">Yes</text>
   <rect x="560" y="320" width="160" height="44" rx="6" fill="#f0f9ff" stroke="#64748b" stroke-width="1.5"/>
-  <text x="640" y="337" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">QGenda</text>
-  <text x="640" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">Physician + nursing</text>
+  <text x="640" y="337" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">When I Work</text>
+  <text x="640" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">If no CMS survey exposure</text>
 
-  <!-- No physician scheduling -->
+  <!-- No budget: NurseGrid add-on -->
   <line x1="530" y1="264" x2="440" y2="320" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
   <text x="465" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dc2626">No</text>
   <rect x="380" y="320" width="160" height="44" rx="6" fill="#f0f9ff" stroke="#64748b" stroke-width="1.5"/>
-  <text x="460" y="337" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">SmartLinx</text>
-  <text x="460" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">Good for growth path</text>
+  <text x="460" y="337" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">NurseGrid + Aladtec</text>
+  <text x="460" y="354" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#475569">Comm layer + scheduling</text>
 
   <!-- Arrow marker definition -->
   <defs>
@@ -550,18 +456,18 @@ For Texas CAHs specifically, Texas Labor Code Chapter 62 overtime provisions and
 
 It depends on how much direct control the nurse manager wants over the scheduling process. Aladtec is a self-serve tool that gives the manager full control once it is configured, but the initial setup takes 4-6 weeks and ongoing use requires 4-6 hours per week. SimpleScheduleAI is a managed service: the manager submits preferences and receives finished draft schedules, reducing the weekly time investment to under two hours with no configuration burden. For a dual-role nurse manager who also takes clinical shifts, the managed service model typically produces a better time ROI.
 
-**Does Deputy work for nurse scheduling at a 25-bed hospital?**
+**Does When I Work work for nurse scheduling at a 25-bed hospital?**
 
-Deputy works for basic shift scheduling, but it is a general-purpose workforce tool with no healthcare compliance features. It does not provide CMS documentation, does not apply FLSA overtime rules by default, and has no callout ranking logic. For a 25-bed CAH managing compliance obligations, Deputy solves the schedule visibility problem but leaves the compliance and callout problems unsolved.
+When I Work handles basic shift scheduling but has no healthcare compliance features. It does not provide CMS documentation, does not apply FLSA overtime rules by default for healthcare, and has no callout ranking logic. For a 25-bed CAH, it solves the schedule visibility problem but leaves compliance and callout gaps. For a non-CAH outpatient clinic with fewer compliance requirements, it is a reasonable budget option.
 
-**How long does UKG take to implement at a 25-bed hospital?**
+**Is Homebase suitable for a 25-bed hospital nursing unit?**
 
-UKG implementations at small hospital sites typically take 6-18 months, require dedicated IT involvement, and often involve a consulting engagement on top of the licensing fee. A standalone 25-bed CAH without an IT department should not evaluate UKG as an independent choice. If a parent health system mandates UKG, that is a separate conversation about system-wide standardization.
+Homebase is below the functional requirements for a hospital nursing unit. The free tier's 20-staff limit is often below hospital roster size, and the tool has no clinical compliance features, credential tracking, or CMS documentation. It may be useful for non-clinical departments (housekeeping, food service) at the same facility, but not for nursing operations.
 
 **What is the cheapest scheduling software for a 25-bed hospital?**
 
-Deputy at $4.50 per user per month is the lowest-cost option in this list, totaling approximately $90-110 per month for a 20-25 nurse roster. NurseGrid Manager runs approximately $150-300 per month and adds communication features. Aladtec starts around $200-450 per month. None of these include healthcare compliance features as defaults. For hospitals where the compliance documentation burden is significant, a slightly higher-cost tool that automates that work often costs less in total labor than the cheapest subscription plus manual documentation time.
+When I Work at $2.50-$6 per user per month is the lowest-cost option, totaling approximately $50-$120/month for a 20-nurse roster. NurseGrid Manager runs approximately $150-$300/month and adds communication features. Aladtec starts around $200-$450/month. None of these include CAH-specific compliance documentation as defaults. For hospitals where the compliance burden is significant, the total cost including nurse manager documentation time often makes a higher-cost automated tool less expensive overall.
 
 **What is the difference between scheduling software and a managed scheduling service for a 25-bed hospital?**
 
-Scheduling software gives the nurse manager tools to build and manage schedules. A managed scheduling service builds the schedules for the nurse manager. At a 25-bed hospital where the manager takes clinical shifts, the distinction matters: software reduces scheduling time by 30-50%, while a managed service reduces it by 80-90%. SimpleScheduleAI is a managed service. Aladtec, SmartLinx, QGenda, OnShift, Deputy, and UKG are all software platforms.
+Scheduling software gives the nurse manager tools to build and manage schedules. A managed scheduling service builds the schedules for the nurse manager. At a 25-bed hospital where the manager takes clinical shifts, the distinction matters: software reduces scheduling time by 30-50%, while a managed service reduces it by 80-90%. SimpleScheduleAI is a managed service. Aladtec, NurseGrid, When I Work, and Homebase are all self-serve software platforms.

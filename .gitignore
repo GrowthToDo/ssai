@@ -19,6 +19,9 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Playwright MCP session files
+.playwright-mcp/
+
 pnpm-lock.yaml
 
 .astro
