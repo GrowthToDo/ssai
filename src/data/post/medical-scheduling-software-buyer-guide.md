@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-05-26T00:00:00Z
 updateDate: 2026-05-26T00:00:00Z
 author: 'Pradeep Pandey'
-title: "Medical Scheduling Software: A Buyer's Guide for Small Hospitals"
+title: "Medical Scheduling Software: A Buyer's Guide for Small Hospitals (2026)"
 excerpt: >
   Medical scheduling software automates shift coverage, compliance tracking, and callout
   management for hospitals. This buyer's guide helps small hospital administrators evaluate

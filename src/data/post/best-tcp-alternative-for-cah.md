@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-04-30T00:00:00Z
 updateDate: 2026-04-30T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Best TCP Scheduling Software Alternative for Critical Access Hospitals'
+title: 'Best TCP Scheduling Software Alternative for Critical Access Hospitals in 2026'
 excerpt: >
   TCP Scheduling Software (formerly Aladtec) is the default choice for many critical access
   hospitals, but it is a self-serve platform built for organizations with dedicated scheduling

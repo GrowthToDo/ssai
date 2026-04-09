@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-04-21T00:00:00Z
 updateDate: 2026-04-21T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'QGenda Alternatives for Small Hospitals and Critical Access Facilities'
+title: 'Best QGenda Alternatives for Small Hospitals and Critical Access Facilities in 2026'
 excerpt: >
   QGenda is designed for large health systems and physician scheduling at enterprise scale.
   Small hospitals and critical access hospitals on QGenda consistently report the same

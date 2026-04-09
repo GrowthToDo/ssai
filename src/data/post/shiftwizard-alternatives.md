@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-04-14T00:00:00Z
 updateDate: 2026-04-14T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'ShiftWizard Alternatives for Critical Access Hospitals'
+title: 'Best ShiftWizard Alternatives for Critical Access Hospitals in 2026'
 excerpt: >
   ShiftWizard is a hospital scheduling platform used by 500+ facilities. Reviews on G2 and
   Capterra consistently flag mobile limitations, unreliable shift swapping, and weak onboarding
