@@ -8,7 +8,7 @@ excerpt: >
   SmartLinx is a capable workforce management platform, but many small and community hospitals
   find it over-engineered for their needs. Implementation takes 3-4 months, configuration requires
   IT support most small hospitals do not have, and per-user pricing compounds quickly at rosters
-  under 50. This guide reviews the six best SmartLinx alternatives for hospitals ready to right-size
+  under 50. This guide reviews the five best SmartLinx alternatives for hospitals ready to right-size
   their scheduling solution.
 image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
@@ -27,20 +27,20 @@ metadata:
 - SmartLinx is a strong workforce management platform for long-term care facilities and community hospitals in the 50-150 bed range. Its primary misfit for smaller hospitals is implementation complexity: a full deployment takes 3-4 months, requires IT involvement, and demands ongoing configuration maintenance.
 - The most common reason small hospitals leave SmartLinx is cost-to-value mismatch. At a 25-bed hospital, you are paying for compliance automation and labor analytics that a larger facility justifies through scale, but a small roster cannot.
 - SimpleScheduleAI is the strongest alternative for Critical Access Hospitals (CAHs). It delivers the compliance documentation, callout management, and overtime tracking that SmartLinx provides, without the implementation burden, through a managed service model.
-- For hospitals that want to remain on self-serve software, Aladtec is a leaner and faster-to-configure option for small rosters. QGenda is a better alternative for hospitals that need physician scheduling alongside nursing.
-- Deputy and NurseGrid Manager are appropriate for hospitals that discover they were using SmartLinx features minimally and need a simpler, lower-cost tool for schedule visibility and communication.
+- For hospitals that want to stay in the TCP Software ecosystem, TCP Scheduling (SmartLinx's direct competitor from Aladtec's parent company) offers comparable compliance automation with a different pricing and implementation approach.
+- Aladtec is a leaner, faster-to-configure option for small rosters leaving SmartLinx because of cost-to-value mismatch.
+- NurseGrid Manager and Deputy are appropriate for hospitals that discover they were using SmartLinx minimally and need schedule visibility and communication without full workforce management complexity.
 
 ## Table of Contents
 
 - [Why Hospitals Switch Away from SmartLinx](#why-hospitals-switch-away-from-smartlinx)
 - [Quick Comparison: SmartLinx vs. The Alternatives](#quick-comparison-smartlinx-vs-the-alternatives)
-- [The 6 Best SmartLinx Alternatives for Hospital Scheduling](#the-6-best-smartlinx-alternatives-for-hospital-scheduling)
+- [The 5 Best SmartLinx Alternatives for Hospital Scheduling](#the-5-best-smartlinx-alternatives-for-hospital-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
-  - [3. QGenda](#3-qgenda)
+  - [3. TCP Scheduling](#3-tcp-scheduling)
   - [4. NurseGrid Manager](#4-nursegrid-manager)
-  - [5. OnShift](#5-onshift-now-part-of-workday)
-  - [6. Deputy](#6-deputy)
+  - [5. Deputy](#5-deputy)
 - [When to Stay with SmartLinx](#when-to-stay-with-smartlinx)
 - [How SimpleScheduleAI Compares to SmartLinx](#how-simplescheduleai-compares-to-smartlinx)
 - [What to Do This Week](#what-to-do-this-week)
@@ -127,25 +127,18 @@ Here is how the alternatives compare:
         <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Physician + nurse scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">8-16 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Mid-size hospitals, TCP ecosystem</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-5 months, needs IT</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Communication layer</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Communication layer add-on</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">LTC, Workday integration</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
@@ -158,7 +151,7 @@ Here is how the alternatives compare:
   </table>
 </div>
 
-## The 6 Best SmartLinx Alternatives for Hospital Scheduling
+## The 5 Best SmartLinx Alternatives for Hospital Scheduling
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -212,29 +205,31 @@ The tradeoff is that Aladtec has meaningful gaps compared to SmartLinx: no integ
 
 **Cost:** $200-450 per month depending on roster size. Pricing requires a quote.
 
-### 3. [QGenda](https://www.qgenda.com)
+### 3. [TCP Scheduling](https://www.tcpsoftware.com)
 
-<img src="/images/blog/smartlinx-alternatives/QGenda.png" alt="QGenda provider scheduling platform for hospital departments" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/smartlinx-alternatives/TCP.png" alt="TCP Scheduling Software enterprise workforce management platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-QGenda is a lateral move from SmartLinx for hospitals that need to extend their scheduling system to include physicians and advanced practice providers. QGenda's core strength is provider scheduling, which SmartLinx does not address. For hospitals running SmartLinx for nursing and a separate system for providers, QGenda can consolidate both into one platform.
+TCP Scheduling is TCP Software's enterprise-tier platform — the same parent company that owns Aladtec. It competes directly with SmartLinx in the mid-market healthcare segment and offers comparable compliance automation, credential tracking, and time and attendance integration. For hospitals evaluating a SmartLinx replacement that are already familiar with the TCP Software vendor ecosystem, TCP Scheduling is a natural comparison.
 
-**Best for:** Hospitals leaving SmartLinx because nursing and provider scheduling are fragmented across two systems, and where unified scheduling across disciplines is the primary improvement target.
+Implementation is similar in scope to SmartLinx: IT involvement is required, deployment typically runs 3-5 months, and ongoing configuration maintenance is part of the operational model. The differentiator is the vendor relationship — for hospitals that have existing TCP contracts through Aladtec, migration may carry pricing and relationship advantages.
+
+**Best for:** Hospitals leaving SmartLinx that already use Aladtec or have a TCP Software relationship, and want to consolidate scheduling under one vendor.
 
 **Key advantages:**
 
-- Best-in-class provider and nursing unified scheduling
-- Configurable credential and compliance rules for both nursing and provider types
-- Strong analytics that cover scheduling patterns across disciplines in a single dashboard
+- Comparable compliance automation and credential tracking to SmartLinx
+- If the hospital already has a TCP vendor relationship (through Aladtec), pricing discussions may include bundling or migration incentives
+- Integration with TCP's broader workforce management ecosystem
 
 **Key limitations:**
 
-- Similar implementation complexity to SmartLinx; not a simpler alternative
-- Per-user pricing can be higher than SmartLinx for mixed nursing and provider rosters
-- The compliance automation that SmartLinx provides for nursing-specific workflows (T&A integration, CMS documentation) is not as strong in QGenda
+- Implementation complexity and IT dependency are similar to SmartLinx; it does not solve the resource requirement that makes SmartLinx difficult for small hospitals
+- Not appropriate for hospitals under 50 beds or without dedicated IT
+- Switching from SmartLinx to TCP Scheduling requires a full implementation project
 
-**Verdict:** QGenda is a good SmartLinx replacement when the driving reason for switching is provider scheduling consolidation, not simplification or cost reduction. For hospitals looking to reduce complexity, QGenda is not simpler than SmartLinx.
+**Verdict:** A comparable platform to SmartLinx in both capability and complexity. Worth evaluating when there is an existing TCP vendor relationship or pricing advantage, but not a meaningful simplification from SmartLinx.
 
-**Cost:** $500 or more per month. Pricing requires a quote.
+**Cost:** Pricing not listed. Contact TCP Software for a quote.
 
 ### 4. [NurseGrid Manager](https://nursegrid.com)
 
@@ -260,31 +255,7 @@ NurseGrid Manager is not a full SmartLinx replacement but can supplement or part
 
 **Cost:** Approximately $150-300 per month. Pricing requires contact.
 
-### 5. [OnShift](https://www.onshift.com) (now part of Workday)
-
-<img src="/images/blog/smartlinx-alternatives/Onshift.png" alt="OnShift healthcare workforce management software for long-term care and hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-OnShift and SmartLinx address similar markets: long-term care and community healthcare environments with 24/7 coverage requirements. Moving from SmartLinx to OnShift is a lateral platform switch, not a right-sizing move. OnShift's caregiver engagement features and shift pickup model are different from SmartLinx's rules-based scheduling approach.
-
-**Best for:** Hospitals leaving SmartLinx specifically for better caregiver engagement and shift pickup features, or that are moving to Workday enterprise HR and want integrated scheduling.
-
-**Key advantages:**
-
-- Caregiver engagement and shift pickup model reduces manager outreach for planned coverage gaps
-- Workday integration is available for hospitals in the Workday ecosystem
-- Lower implementation complexity than SmartLinx for the scheduling features
-
-**Key limitations:**
-
-- Does not improve on SmartLinx's compliance documentation or overtime tracking capabilities
-- Post-Workday acquisition, smaller independent customers have less support prioritization
-- Caregiver engagement features are designed for LTC environments and may not map to acute care nursing
-
-**Verdict:** A valid SmartLinx alternative for long-term care environments specifically. For acute care or CAH environments, neither the features nor the vendor trajectory are an improvement over SmartLinx.
-
-**Cost:** Pricing not listed on website. Contact for a quote.
-
-### 6. [Deputy](https://www.deputy.com)
+### 5. [Deputy](https://www.deputy.com)
 
 <img src="/images/blog/smartlinx-alternatives/Deputy.png" alt="Deputy general-purpose workforce scheduling software" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 

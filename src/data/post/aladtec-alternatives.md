@@ -27,8 +27,10 @@ metadata:
 - Aladtec is a strong scheduling tool for emergency services and small organizations with 24/7 coverage needs. For hospital nurse scheduling specifically, its gaps include: no automated CMS §485.635 documentation, manual overtime checking during callout events, and no default healthcare-specific configuration.
 - The most common reason hospital nurse managers leave Aladtec is configuration maintenance burden. Once configured, it works well. Keeping credential tracking, overtime rules, and minimum staffing logic current as staff changes requires sustained IT attention that most small hospitals cannot provide.
 - SimpleScheduleAI is the strongest alternative for Critical Access Hospitals (CAHs). It eliminates the configuration burden entirely through a managed service model and adds automated callout ranking, CMS documentation, and Texas overtime compliance as defaults.
-- For hospitals that want to stay on self-serve software, NurseGrid Manager adds better nurse communication features, SmartLinx provides more automated compliance logic, and QGenda is stronger for hospitals scheduling physicians alongside nurses.
-- Deputy is a cost-effective alternative for hospitals that primarily need schedule visibility and shift communication, without the healthcare compliance requirements.
+- For hospitals that want to stay in the TCP Software ecosystem, TCP Scheduling (the enterprise product from Aladtec's parent company) offers more automated compliance logic and analytics, but requires IT support and a longer implementation.
+- SmartLinx is the best self-serve upgrade for hospitals growing toward 50-100 beds that need stronger compliance automation than Aladtec provides.
+- When I Work and Homebase are simpler alternatives for facilities that primarily need schedule visibility and communication and can handle compliance separately. Both are a step backward on healthcare-specific features.
+- Deputy is a cost-effective option for basic scheduling with no compliance requirements.
 
 ## Table of Contents
 
@@ -36,10 +38,10 @@ metadata:
 - [Quick Comparison: Aladtec vs. The Alternatives](#quick-comparison-aladtec-vs-the-alternatives)
 - [The 6 Best Aladtec Alternatives for Hospital Scheduling](#the-6-best-aladtec-alternatives-for-hospital-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
-  - [2. NurseGrid Manager](#2-nursegrid-manager)
+  - [2. TCP Scheduling](#2-tcp-scheduling)
   - [3. SmartLinx](#3-smartlinx)
-  - [4. QGenda](#4-qgenda)
-  - [5. OnShift](#5-onshift-now-part-of-workday)
+  - [4. When I Work](#4-when-i-work)
+  - [5. Homebase](#5-homebase)
   - [6. Deputy](#6-deputy)
 - [When to Stay with Aladtec](#when-to-stay-with-aladtec)
 - [How SimpleScheduleAI Compares to Aladtec](#how-simplescheduleai-compares-to-aladtec)
@@ -125,11 +127,11 @@ Here is how the alternatives compare before we go deeper:
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Communication layer add-on</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Hospitals staying in TCP ecosystem</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — configurable</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — configurable</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
@@ -139,18 +141,18 @@ Here is how the alternatives compare before we go deeper:
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Physician + nurse scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — configurable</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">When I Work</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Simple schedule visibility</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">$2.50-4/user</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">LTC and Workday users</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, low complexity</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$80/month</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
@@ -196,31 +198,32 @@ Callout replacement generates a ranked shortlist in under two minutes, cross-ref
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
-### 2. [NurseGrid Manager](https://nursegrid.com)
+### 2. [TCP Scheduling](https://www.tcpsoftware.com)
 
-<img src="/images/blog/aladtec-alternatives/Nursegrid.png" alt="NurseGrid Manager nurse communication and scheduling interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/aladtec-alternatives/TCP.png" alt="TCP Scheduling Software workforce management platform for healthcare" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-NurseGrid Manager is best understood as a supplement to Aladtec rather than a replacement. Many hospitals run both: Aladtec for schedule construction and rule enforcement, NurseGrid Manager for nurse-facing communication and shift visibility. As a standalone Aladtec replacement, it does not build schedules or enforce compliance rules.
+TCP Software owns Aladtec. TCP Scheduling is their enterprise-tier product — more powerful, more configurable, and significantly more complex than Aladtec. For a hospital that wants to stay within the TCP vendor ecosystem but needs capabilities that Aladtec does not provide, TCP Scheduling is the direct upgrade path.
 
-If the primary reason for leaving Aladtec is poor nurse communication and low app adoption among floor nurses, NurseGrid Manager solves that specific problem. If the reason is configuration burden or compliance gaps, it does not.
+The tradeoff is considerable. TCP Scheduling requires a longer implementation, IT involvement, and ongoing configuration expertise. It is designed for mid-size and larger healthcare organizations, not for 25-bed CAHs. If the reason for leaving Aladtec is configuration burden, moving to TCP Scheduling does not solve the problem — it moves you to a more configurable tool that requires even more configuration management.
 
-**Best for:** Hospitals leaving Aladtec specifically because nurses are not using the Aladtec mobile app and open-shift communication is still happening by phone.
+**Best for:** Hospitals at 75-200 beds that are outgrowing Aladtec's scheduling capacity, have IT resources for a full implementation, and want to stay within the same vendor relationship.
 
 **Key advantages:**
 
-- Strong nurse-facing mobile app with high adoption rates; nurses use it to view shifts, request time off, and receive open-shift notifications
-- Broadcast open-shift notifications reach the entire nursing pool simultaneously
-- Simple manager dashboard for viewing availability and publishing schedules
+- Same parent company as Aladtec; data migration within the TCP ecosystem is simpler than switching vendors entirely
+- More automated compliance logic and credential tracking than Aladtec
+- Better analytics and reporting for larger nursing rosters
+- Broader integration options with EHR and payroll systems
 
 **Key limitations:**
 
-- Does not build schedules; a separate scheduling process is still required
-- No overtime tracking, CMS documentation, credential enforcement, or compliance features
-- Replacing Aladtec with NurseGrid Manager means losing the scheduling and rule-enforcement functions that Aladtec provided
+- Implementation is substantially more complex than Aladtec; not appropriate for a CAH without IT support
+- Does not solve the configuration maintenance burden that drives most Aladtec dissatisfaction — it shifts you to a higher-maintenance platform
+- Overkill for hospitals under 50 beds
 
-**Verdict:** A good supplemental tool for communication problems. Not a complete Aladtec replacement for hospitals with scheduling and compliance requirements.
+**Verdict:** The right upgrade from Aladtec for growing hospitals that need enterprise features and have the IT capacity to support them. Not recommended for CAHs where the configuration burden is already the primary pain point.
 
-**Cost:** Approximately $150-300 per month. Pricing requires contact.
+**Cost:** Pricing not listed. Contact TCP Software for a quote.
 
 ### 3. [SmartLinx](https://www.smartlinx.com)
 
@@ -248,57 +251,57 @@ Hospitals that leave Aladtec because of configuration burden and then adopt Smar
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
-### 4. [QGenda](https://www.qgenda.com)
+### 4. [When I Work](https://wheniwork.com)
 
-<img src="/images/blog/aladtec-alternatives/QGenda.png" alt="QGenda provider and nurse scheduling software platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/aladtec-alternatives/WhenIWork.png" alt="When I Work scheduling and shift management app for healthcare teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-QGenda is a stronger alternative than Aladtec specifically for hospitals where the nurse manager also oversees physician or advanced practice provider scheduling. QGenda's core competency is provider scheduling with complex rotation rules, and it extends well to nursing scheduling in provider-heavy environments.
+When I Work is a widely used scheduling app that prioritizes simplicity and mobile-first shift communication. For facilities leaving Aladtec because the configuration and interface feel too complex, When I Work is a genuine simplification. The mobile app is well-designed, shift pickup and communication features are intuitive, and setup takes hours rather than weeks.
 
-For hospitals scheduling nurses only, QGenda's depth is underutilized relative to its cost.
+The simplification comes at a cost: When I Work has no healthcare-specific compliance features. There is no CMS documentation, no FLSA 8-and-80 tracking, no credential-based constraint enforcement. These functions that Aladtec at least attempts must be handled entirely outside of When I Work.
 
-**Best for:** Hospitals leaving Aladtec because physician and nursing schedules are managed separately and creating coordination problems, and where unified scheduling across disciplines is the priority.
-
-**Key advantages:**
-
-- Best-in-class unified physician and nursing scheduling; replaces Aladtec and a separate provider scheduling system with one platform
-- Configurable compliance rules cover both provider-specific and nursing-specific requirements
-- Strong analytics for scheduling patterns across disciplines
-
-**Key limitations:**
-
-- Expensive relative to nursing-only scheduling; physician scheduling capability is priced into the platform
-- Configuration complexity is higher than Aladtec; the migration from Aladtec to QGenda typically takes 8-16 weeks
-- Not cost-effective for hospitals without significant provider scheduling needs
-
-**Verdict:** The right Aladtec alternative when the root problem is scheduling fragmentation across nursing and provider disciplines. Not cost-effective for hospitals scheduling nurses only.
-
-**Cost:** $500 or more per month. Pricing requires a quote.
-
-### 5. [OnShift](https://www.onshift.com) (now part of Workday)
-
-<img src="/images/blog/aladtec-alternatives/Onshift.png" alt="OnShift healthcare workforce management software" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-OnShift is a better fit for long-term care and assisted living than for acute care hospital scheduling. As an Aladtec alternative for CAH or community hospital scheduling, it does not solve the compliance documentation or overtime tracking gaps that typically drive the switch.
-
-If the primary reason for leaving Aladtec is nurse engagement and shift pickup friction, OnShift's caregiver engagement features are relevant. If the reason is compliance or callout management, OnShift does not provide meaningful improvement.
-
-**Best for:** Hospitals leaving Aladtec specifically for a better nurse engagement and shift pickup platform, and who are using Workday for HR and want scheduling integration.
+**Best for:** Small outpatient clinics or non-acute healthcare facilities leaving Aladtec because scheduling complexity is low and ease of use is the primary need. Not appropriate for hospitals with CMS compliance obligations.
 
 **Key advantages:**
 
-- Strong nurse engagement features encourage proactive availability flagging and shift pickup
-- Post-Workday acquisition, integration with Workday HR modules is available
-- Open-shift notification system reduces manager outreach time for planned coverage gaps
+- Very fast to set up; a manager with no IT support can be running shifts in a day
+- Strong mobile app with high nurse adoption; shift pickup, swap requests, and availability work well
+- Transparent per-user pricing with a free tier for small teams
 
 **Key limitations:**
 
-- No meaningful improvement over Aladtec for CMS documentation or automated overtime checking
-- Not designed for acute care scheduling dynamics; LTC-focused features are not relevant to hospital nursing
-- Post-Workday acquisition, smaller independent customers have reduced support attention
+- No CMS §485.635 documentation, no FLSA overtime tracking for healthcare employers, no credential enforcement
+- Switching from Aladtec to When I Work means manually handling all compliance functions that Aladtec partially addressed
+- Not designed for hospital nursing environments; scheduling logic does not account for unit-specific or certification-based constraints
 
-**Verdict:** A lateral move from Aladtec for most hospital nursing use cases. Not recommended as the primary Aladtec replacement unless nurse engagement and Workday integration are the specific drivers of the switch.
+**Verdict:** Appropriate only for facilities where Aladtec's complexity was genuinely unnecessary and compliance requirements are minimal. For any hospital with active CMS obligations, When I Work is a backward step on every compliance dimension.
 
-**Cost:** Pricing not listed on website. Contact for a quote.
+**Cost:** $2.50 per user per month (Essentials) to $4.00 per user per month (Pro).
+
+### 5. [Homebase](https://joinhomebase.com)
+
+<img src="/images/blog/aladtec-alternatives/Homebase.png" alt="Homebase workforce scheduling and time tracking app" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
+Homebase is primarily designed for retail, restaurant, and service industry scheduling. It is mentioned here because some very small outpatient or clinic settings use it as a low-cost Aladtec replacement when their scheduling needs are minimal. For any actual hospital nursing environment, Homebase lacks the healthcare-specific features that make scheduling manageable.
+
+The free tier and low cost make Homebase attractive as a pure cost-reduction move. The tradeoff is that every healthcare compliance function Aladtec partially covered — overtime tracking, credential matching, CMS documentation — must be handled manually outside the tool.
+
+**Best for:** Outpatient clinics or very small care settings with 5-15 staff and minimal scheduling complexity, where cost reduction is the primary goal and compliance is handled through separate processes.
+
+**Key advantages:**
+
+- Free plan available for unlimited employees at a single location; paid plans start low
+- Extremely simple setup; no IT required and no configuration learning curve
+- Basic time clock, PTO tracking, and schedule publishing work well for simple rosters
+
+**Key limitations:**
+
+- No healthcare compliance features of any kind; CMS documentation, FLSA 8-and-80 tracking, and credential constraints are entirely absent
+- Not built for hospital nursing; unit-based scheduling, charge nurse designation, and clinical constraint logic do not exist
+- Replacing Aladtec with Homebase means losing all compliance-adjacent features Aladtec provided
+
+**Verdict:** Appropriate only as a cost-cutting move for clinics with the simplest possible scheduling needs. Any facility with active CMS survey obligations should not use Homebase as a scheduling system.
+
+**Cost:** Free for one location; paid plans from $20-80 per month depending on features.
 
 ### 6. [Deputy](https://www.deputy.com)
 
@@ -419,7 +422,7 @@ For a nurse manager at a 25-bed CAH who takes clinical shifts, the overhead mode
 
 4. **Request a demo of SimpleScheduleAI and explain your current Aladtec setup.** Describe what you have configured in Aladtec, what is not working, and what your CMS survey cycle looks like. Ask how SimpleScheduleAI would handle the same scenarios. Contact via [simplescheduleai.com](/contact).
 
-5. **If you want to stay on self-serve software, request a SmartLinx evaluation.** SmartLinx requires more implementation investment than Aladtec, but the ongoing maintenance burden is lower because the compliance logic is more automated. Evaluate it specifically on the gaps that drove the Aladtec dissatisfaction.
+5. **If you want to stay on self-serve software, request a SmartLinx evaluation.** SmartLinx requires more implementation investment than Aladtec, but ongoing maintenance is lower once configured because compliance logic is more automated. Alternatively, TCP Scheduling is worth evaluating if you want to stay within the TCP vendor ecosystem and have IT capacity for a longer implementation.
 
 <div class="not-prose mt-10 rounded-xl bg-blue-50 border border-blue-100 px-8 py-7 flex flex-col gap-4">
   <div>
@@ -439,9 +442,9 @@ For CAHs specifically, SimpleScheduleAI addresses the two gaps in Aladtec that a
 
 The migration effort depends primarily on how complex your current Aladtec configuration is and how current your data is. For a managed service like SimpleScheduleAI, migration is straightforward: the nurse manager provides a current roster in Excel and the service handles setup. For a self-serve platform like SmartLinx, migration requires reconfiguring your scheduling rules, credential tracking, and minimum staffing requirements in the new system. Budget 4-8 weeks for a self-serve migration that includes a parallel run period.
 
-**Does NurseGrid Manager replace Aladtec?**
+**Can you upgrade from Aladtec to TCP Scheduling without switching vendors?**
 
-No. NurseGrid Manager handles nurse communication and schedule visibility. Aladtec handles schedule construction, rule enforcement, and availability management. Replacing Aladtec with NurseGrid Manager means losing the scheduling and rule functions without a replacement. The tools address different parts of the scheduling workflow and are often used together, not as alternatives.
+Yes. TCP Software owns both Aladtec and TCP Scheduling. For hospitals that want more capability but prefer to stay within the same vendor relationship, TCP Scheduling is the direct upgrade path. The migration is typically simpler than switching vendors entirely. However, TCP Scheduling is more complex to implement and maintain than Aladtec, so it is best suited for hospitals with 75 or more beds and dedicated IT or HRIS support.
 
 **What does Aladtec cost compared to its alternatives?**
 
