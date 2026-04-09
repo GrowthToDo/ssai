@@ -8,7 +8,7 @@ excerpt: >
   Deputy is a general-purpose workforce scheduling platform used across retail, hospitality, and
   some healthcare settings. For hospital nurse scheduling, it lacks the features that matter most:
   credential enforcement, CMS compliance documentation, automated overtime tracking, and callout
-  replacement logic suited to acute care urgency. This guide reviews the six best Deputy
+  replacement logic suited to acute care urgency. This guide reviews the five best Deputy
   alternatives for healthcare organizations with clinical scheduling requirements.
 image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
@@ -27,20 +27,20 @@ metadata:
 - Deputy is a well-designed general workforce scheduling tool. For hospital nurse scheduling, its gaps are categorical: no credential enforcement, no CMS compliance documentation, no FLSA healthcare overtime rules, and no callout ranking by overtime or credential status.
 - Most hospitals using Deputy for nurse scheduling are doing so because they needed a scheduling tool quickly and Deputy was the easiest to deploy. The compliance and credential gaps accumulate as a hidden cost — manual work that someone is absorbing without it appearing in the scheduling software budget.
 - SimpleScheduleAI is the strongest alternative for Critical Access Hospitals (CAHs). It provides credential-filtered callout replacement, automated CMS §485.635 documentation, and Texas overtime compliance as defaults — none of which Deputy offers.
-- For hospitals that want self-serve healthcare scheduling software, Aladtec provides the strongest small-roster alternative to Deputy with meaningful healthcare credential and coverage tracking. NurseGrid Manager addresses the communication gaps that drive Deputy adoption without adding scheduling complexity.
-- Deputy is appropriate for healthcare-adjacent settings like outpatient clinics and home health offices where CMS compliance documentation and credential enforcement are not active requirements.
+- For hospitals that want self-serve healthcare scheduling software, Aladtec provides the strongest small-roster alternative with meaningful credential and coverage tracking.
+- When I Work, Connecteam, and Homebase are similar in simplicity to Deputy but do not solve the healthcare compliance gaps. They make sense only for outpatient or non-clinical settings where compliance requirements are minimal.
+- Deputy is appropriate for non-clinical or outpatient settings, but any hospital with active CMS obligations should move to a purpose-built healthcare scheduling tool.
 
 ## Table of Contents
 
 - [Why Hospitals Move Away from Deputy](#why-hospitals-move-away-from-deputy)
 - [Quick Comparison: Deputy vs. The Alternatives](#quick-comparison-deputy-vs-the-alternatives)
-- [The 6 Best Deputy Alternatives for Healthcare Scheduling](#the-6-best-deputy-alternatives-for-healthcare-scheduling)
+- [The 5 Best Deputy Alternatives for Healthcare Scheduling](#the-5-best-deputy-alternatives-for-healthcare-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
-  - [3. NurseGrid Manager](#3-nursegrid-manager)
-  - [4. SmartLinx](#4-smartlinx)
-  - [5. OnShift](#5-onshift-now-part-of-workday)
-  - [6. QGenda](#6-qgenda)
+  - [3. When I Work](#3-when-i-work)
+  - [4. Connecteam](#4-connecteam)
+  - [5. Homebase](#5-homebase)
 - [When Deputy Is Still Adequate for Healthcare](#when-deputy-is-still-adequate-for-healthcare)
 - [How SimpleScheduleAI Compares to Deputy](#how-simplescheduleai-compares-to-deputy)
 - [What to Do This Week](#what-to-do-this-week)
@@ -127,38 +127,31 @@ Here is how the alternatives compare before we go deeper:
         <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Nurse communication layer</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">When I Work</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Simple teams, low complexity</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">$2.50-4/user</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">50-100 bed hospitals</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — automated</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — configurable</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
-      </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">LTC, Workday integration</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Connecteam</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Deskless workforce, mobile teams</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$99/month</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Physician + nurse scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes — configurable</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Partial</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, single location</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$80/month</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## The 6 Best Deputy Alternatives for Healthcare Scheduling
+## The 5 Best Deputy Alternatives for Healthcare Scheduling
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -214,106 +207,84 @@ The migration from Deputy to Aladtec is straightforward: export your current sta
 
 **Cost:** $200-450 per month. Pricing requires a quote.
 
-### 3. [NurseGrid Manager](https://nursegrid.com)
+### 3. [When I Work](https://wheniwork.com)
 
-<img src="/images/blog/deputy-alternatives-healthcare/Nursegrid.png" alt="NurseGrid Manager nurse scheduling and communication platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/deputy-alternatives-healthcare/WhenIWork.png" alt="When I Work scheduling and shift communication app for healthcare teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-NurseGrid Manager and Deputy have significant feature overlap in the scheduling visibility and shift communication area. If the primary reason for moving away from Deputy is that nurses do not engage with the app and shift communication is still phone-based, NurseGrid Manager's nurse-first design may be a better fit.
+When I Work is the most direct like-for-like alternative to Deputy in the general workforce scheduling category. It shares Deputy's model: fast setup, per-user pricing, strong mobile app, and shift communication without healthcare compliance features. The distinction is interface design and specific features like scheduling templates and shift-pool management.
 
-NurseGrid Manager does not solve the credential, compliance, or overtime gaps that are Deputy's core healthcare limitations. It is a communication layer, not a compliance solution.
+For healthcare organizations using Deputy primarily for schedule publishing and communication — and handling compliance manually — When I Work offers equivalent capability at a slightly lower price point. It does not solve the healthcare compliance gaps; it provides the same category of tool with a different interface.
 
-**Best for:** Healthcare organizations that deployed Deputy primarily for schedule visibility and shift communication, and where nurse app adoption is the primary gap. NurseGrid Manager is appropriate for outpatient clinics, home health offices, and healthcare-adjacent settings without CMS compliance obligations.
-
-**Key advantages:**
-
-- Better nurse app adoption than Deputy in direct healthcare comparisons
-- Schedule visibility and open-shift broadcast features are equivalent to Deputy at a comparable cost
-- Simpler interface specifically designed for nursing staff rather than a general workforce audience
-
-**Key limitations:**
-
-- Does not address credential enforcement, FLSA tracking, or CMS documentation
-- Still a broadcast shift-pickup model with no credential filtering
-- Replacing Deputy with NurseGrid Manager does not eliminate any of the compliance gaps that Deputy creates
-
-**Verdict:** A lateral move from Deputy that improves nurse app adoption but does not solve the compliance problems that drive healthcare organizations away from Deputy. Appropriate for non-hospital healthcare settings.
-
-**Cost:** Approximately $150-300 per month. Pricing requires contact.
-
-### 4. [SmartLinx](https://www.smartlinx.com)
-
-<img src="/images/blog/deputy-alternatives-healthcare/Smartlinx.png" alt="SmartLinx healthcare workforce management platform with compliance automation" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
-
-SmartLinx is the most feature-complete self-serve alternative to Deputy for hospitals in the 50-150 bed range. It addresses every Deputy gap: credential tracking, CMS compliance documentation, integrated time and attendance, FLSA overtime enforcement, and callout management with rules-based replacement logic.
-
-The cost and implementation complexity are significantly higher than Deputy. The switch from Deputy to SmartLinx is not a simplification — it is a platform upgrade with a corresponding implementation investment.
-
-**Best for:** Hospitals in the 50-150 bed range that need to move from Deputy to a full-featured healthcare workforce management platform, have IT resources available for a 3-4 month implementation, and need integrated time and attendance alongside scheduling.
+**Best for:** Outpatient clinics, home health agencies, and non-clinical healthcare departments that are using Deputy primarily for schedule visibility and communication, and want a comparable tool at a lower cost.
 
 **Key advantages:**
 
-- Comprehensive healthcare credential and competency tracking, configurable by unit and role
-- CMS compliance documentation with configurable reporting, reducing manual survey prep
-- Integrated time and attendance eliminates the payroll reconciliation gap Deputy creates
-- Labor analytics show overtime patterns, callout frequency, and coverage gaps at a department level
+- Comparable feature set to Deputy for general scheduling and shift communication
+- Slightly lower per-user pricing in most plan tiers
+- Shift templates and scheduling wizards simplify recurring schedule patterns
+- Free plan available for very small teams
 
 **Key limitations:**
 
-- Implementation cost and timeline are significantly higher than Deputy; 3-4 months with IT involvement
-- Per-user pricing is a large cost increase from Deputy's $4.50 per user
-- Configuration complexity is much higher than Deputy; the simplicity that made Deputy attractive is lost
+- No credential enforcement, FLSA healthcare overtime tracking, or CMS documentation — the same gaps as Deputy
+- A lateral move from Deputy on compliance, not an improvement
+- Not built for hospital nursing environments or acute care scheduling dynamics
 
-**Verdict:** The right hospital-grade platform to move toward when Deputy's compliance limitations have created a real problem, the hospital has 50+ nurses, and IT resources are available. Not a simple or cheap upgrade path from Deputy.
+**Verdict:** A reasonable Deputy alternative for non-clinical healthcare settings where compliance is not the driver of the switch. For hospital nursing, it solves none of the problems that make Deputy inadequate.
 
-**Cost:** Pricing not listed on website. Contact for a quote.
+**Cost:** $2.50 per user per month (Essentials) to $4.00 per user per month (Pro).
 
-### 5. [OnShift](https://www.onshift.com) (now part of Workday)
+### 4. [Connecteam](https://connecteam.com)
 
-<img src="/images/blog/deputy-alternatives-healthcare/Onshift.png" alt="OnShift healthcare workforce management and caregiver engagement platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/deputy-alternatives-healthcare/Connecteam.png" alt="Connecteam workforce management and scheduling app for deskless teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-OnShift is a healthcare-specific upgrade from Deputy for long-term care and assisted living environments. It has stronger caregiver engagement features and a healthcare-oriented scheduling model. For acute care hospitals, OnShift has the same callout and credential gaps that Deputy has, just with a healthcare-specific wrapper.
+Connecteam is a mobile-first workforce management platform designed for deskless and distributed teams. It has a broader feature set than Deputy — including training and onboarding tools, internal communications, and task management alongside scheduling — at a comparable price. For healthcare organizations using Deputy primarily as a communication and coordination tool, Connecteam's broader feature surface may be useful.
 
-**Best for:** Outpatient, LTC, or assisted living healthcare organizations that deployed Deputy and want a healthcare-specific tool with better caregiver engagement, and are not managing acute care nursing scheduling requirements.
+Like Deputy and When I Work, Connecteam has no healthcare-specific compliance features. Its broader tool set is useful for administrative and operational teams, but does not address credential enforcement, FLSA tracking, or CMS documentation requirements.
+
+**Best for:** Healthcare-adjacent operations teams or outpatient clinics that need schedule management alongside staff communication and task tracking, and do not have acute care nursing compliance requirements.
 
 **Key advantages:**
 
-- Healthcare-specific scheduling context and caregiver engagement features that Deputy lacks
-- Strong shift pickup and availability management for stable-schedule LTC environments
-- Workday integration for organizations in the Workday HCM ecosystem
+- Broader feature set than Deputy: task management, training tools, and internal communication alongside scheduling
+- Free plan for up to 10 users
+- Strong mobile app designed specifically for deskless and distributed workforces
 
 **Key limitations:**
 
-- No credential enforcement during callout replacement, same as Deputy
-- No CMS §485.635 compliance documentation for acute care hospitals
-- Not a meaningful improvement over Deputy for the compliance and credential gaps that drive hospital migrations
+- No healthcare compliance features; credential tracking, CMS documentation, and FLSA overtime rules are outside the platform's scope
+- Not designed for hospital nursing scheduling; unit-based assignment and callout ranking logic do not exist
+- For hospitals, Connecteam would need to be paired with a separate clinical scheduling system
 
-**Verdict:** An improvement over Deputy for LTC and assisted living environments. Not meaningfully better than Deputy for acute care hospitals or CAHs with CMS compliance obligations and credential requirements.
+**Verdict:** A strong choice for administrative and operational deskless teams within a healthcare organization. Not a suitable replacement for hospital nurse scheduling regardless of the broader feature set.
 
-**Cost:** Pricing not listed on website. Contact for a quote.
+**Cost:** Free for up to 10 users; paid plans from $29-99 per month for the first 30 users.
 
-### 6. [QGenda](https://www.qgenda.com)
+### 5. [Homebase](https://joinhomebase.com)
 
-<img src="/images/blog/deputy-alternatives-healthcare/QGenda.png" alt="QGenda provider and nurse scheduling software for hospital departments" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+<img src="/images/blog/deputy-alternatives-healthcare/Homebase.png" alt="Homebase scheduling and time tracking platform for small teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-QGenda is rarely the right next step from Deputy for small hospitals. The cost and implementation complexity represent a two-tier jump from Deputy's simplicity. QGenda's primary value is in unified physician and nursing scheduling — a problem that Deputy did not address and that most small hospitals moving away from Deputy are not primarily trying to solve.
+Homebase is designed for retail and service industry scheduling but is used by some small clinics and outpatient settings as a lower-cost alternative to Deputy. It has fewer features than Deputy, a simpler interface, and a free tier that makes it the lowest-cost general scheduling option in this list.
 
-**Best for:** Hospitals that used Deputy as a temporary scheduling solution and are now implementing QGenda as part of a broader scheduling modernization that includes physician scheduling consolidation.
+For any hospital nursing environment, Homebase is the wrong category of tool. It has no healthcare-specific features of any kind and does not address any of the compliance gaps that make Deputy inadequate for hospital scheduling.
+
+**Best for:** Outpatient medical offices and clinics with very simple scheduling needs, minimal staff, and no compliance requirements beyond basic time tracking. The free tier makes it viable for operations that previously used a spreadsheet.
 
 **Key advantages:**
 
-- Best-in-class physician and provider scheduling alongside nursing
-- Configurable credential and compliance rules across disciplines
-- Strong analytics for multi-department scheduling patterns
+- Free plan for unlimited employees at a single location
+- Integrated time clock, basic PTO tracking, and payroll export
+- Extremely simple setup with no configuration learning curve
 
 **Key limitations:**
 
-- Expensive and implementation-intensive relative to the typical Deputy migration
-- Credential enforcement and CMS documentation — the primary Deputy gaps — require significant configuration in QGenda
-- Provider scheduling capability is underutilized for hospitals migrating from Deputy to improve nursing compliance only
+- No healthcare compliance features whatsoever
+- Fewer scheduling features than Deputy; a step backward from Deputy's capability
+- Not appropriate for any facility with CMS survey obligations, credential requirements, or overtime tracking needs
 
-**Verdict:** QGenda is not the natural next step from Deputy unless physician scheduling consolidation is a simultaneous priority. For hospitals moving from Deputy to address nursing compliance gaps, Aladtec or SimpleScheduleAI solve the right problems at a lower cost and complexity.
+**Verdict:** A cost reduction move for the simplest possible scheduling environments. Any hospital nursing context requires a purpose-built tool, not a retail scheduling app.
 
-**Cost:** $500 or more per month. Pricing requires a quote.
+**Cost:** Free for one location; paid plans from $24-80 per month depending on features.
 
 ## When Deputy Is Still Adequate for Healthcare
 
