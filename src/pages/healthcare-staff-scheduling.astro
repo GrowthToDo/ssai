@@ -6,7 +6,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Healthcare Staff Scheduling Software: Guide for Small Hospitals | SimpleScheduleAI',
+  title: 'Healthcare Staff Scheduling for Small Hospitals | SimpleScheduleAI',
   description:
     'Healthcare staff scheduling software for small hospitals and medical facilities. Compare medical scheduling systems, understand workforce management, and find the right solution.',
 };
@@ -14,23 +14,43 @@ const metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  '@id': 'https://simplescheduleai.com/healthcare-staff-scheduling#article',
   headline: 'Healthcare Staff Scheduling Software: A Guide for Small Hospitals',
   description:
     'Complete guide to healthcare staff scheduling software — covering medical scheduling systems, workforce management, and how to choose the right solution for small hospitals.',
   url: 'https://simplescheduleai.com/healthcare-staff-scheduling',
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': 'https://simplescheduleai.com/healthcare-staff-scheduling',
+  },
   author: {
     '@type': 'Person',
+    '@id': 'https://simplescheduleai.com/about/pradeep-pandey#person',
     name: 'Pradeep Pandey',
-    jobTitle: 'Co-founder, SimpleScheduleAI',
-    url: 'https://www.linkedin.com/in/pradeeppandey99',
+    url: 'https://simplescheduleai.com/about/pradeep-pandey',
   },
   publisher: {
     '@type': 'Organization',
+    '@id': 'https://simplescheduleai.com/#organization',
     name: 'SimpleScheduleAI',
     logo: { '@type': 'ImageObject', url: 'https://simplescheduleai.com/images/logo.png' },
   },
   datePublished: '2026-03-31T00:00:00Z',
-  dateModified: '2026-03-31T00:00:00Z',
+  dateModified: '2026-04-11T00:00:00Z',
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Healthcare Staff Scheduling',
+      item: 'https://simplescheduleai.com/healthcare-staff-scheduling',
+    },
+  ],
 };
 
 const faqSchema = {
@@ -74,7 +94,7 @@ const faqSchema = {
 ---
 
 <Layout metadata={metadata}>
-  <SchemaOrg slot="head" schema={[articleSchema, faqSchema]} />
+  <SchemaOrg slot="head" schema={[articleSchema, faqSchema, breadcrumbSchema]} />
 
   <DarkHero
     badge="Healthcare Staff Scheduling"
@@ -160,59 +180,15 @@ const faqSchema = {
       <h2>Healthcare Staff Scheduling Guides</h2>
       <ul>
         <li>
-          <a href="/blog/medical-scheduling-software-buyer-guide"
-            >Medical Scheduling Software: A Buyer's Guide for Small Hospitals</a
+          <a href="/blog/healthcare-scheduling-crisis">The $26,000 Scheduling Burden at Critical Access Hospitals</a>
+        </li>
+        <li>
+          <a href="/blog/best-nurse-scheduling-software-2026"
+            >Best Nurse Scheduling Software for Critical Access Hospitals (2026)</a
           >
         </li>
         <li>
-          <a href="/blog/what-is-clinical-scheduling"
-            >What Is Clinical Scheduling and How Does It Differ from Nurse Scheduling?</a
-          >
-        </li>
-        <li>
-          <a href="/blog/healthcare-workforce-management-cah"
-            >Healthcare Workforce Management: Why CAHs Need a Different Approach</a
-          >
-        </li>
-        <li>
-          <a href="/blog/hospital-workforce-management-software-cah"
-            >Hospital Workforce Management Software: What CAHs Should Know</a
-          >
-        </li>
-        <li>
-          <a href="/blog/staff-scheduling-software-healthcare-vs-generic"
-            >Staff Scheduling Software for Healthcare vs. Generic Tools</a
-          >
-        </li>
-        <li>
-          <a href="/blog/nursing-scheduling-software-ai"
-            >Nursing Scheduling Software: How AI Is Changing Hospital Rosters</a
-          >
-        </li>
-        <li>
-          <a href="/blog/healthcare-staffing-software-small-hospitals"
-            >Healthcare Staffing Software: What Small Hospitals Should Prioritize</a
-          >
-        </li>
-        <li>
-          <a href="/blog/medical-scheduling-services-managed-vs-software"
-            >Medical Scheduling Services vs. Software: Why CAHs Need a Different Model</a
-          >
-        </li>
-        <li>
-          <a href="/blog/employee-scheduling-software-for-healthcare"
-            >Employee Scheduling Software for Healthcare: Why Generic Tools Fall Short</a
-          >
-        </li>
-        <li>
-          <a href="/blog/best-healthcare-scheduling-software"
-            >Best Healthcare Scheduling Software for Small Hospitals: 2025 Comparison</a
-          >
-        </li>
-        <li>
-          <a href="/blog/nursing-software-critical-access-hospitals"
-            >Nursing Software for Critical Access Hospitals: What Actually Works</a
-          >
+          <a href="/blog/ukg-too-complex-small-hospital">UKG Is Too Complex for Small Hospitals: What to Use Instead</a>
         </li>
       </ul>
     </div>
