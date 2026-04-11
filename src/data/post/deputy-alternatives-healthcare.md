@@ -50,6 +50,8 @@ Deputy is one of the most widely used scheduling platforms across industries. It
 
 The problem with using Deputy for hospital nurse scheduling is not that it is poorly made. It is that it was designed for a completely different set of operational requirements. Retail stores and restaurants using Deputy do not need credential enforcement, FLSA healthcare overtime rules, or CMS compliance documentation. Hospitals do. Every one of those requirements is a manual process outside of Deputy.
 
+If your facility needs purpose-built [critical access hospital scheduling](/critical-access-hospital-scheduling) — not a general workforce tool adapted for clinical use — the evaluation criteria are different from standard software comparisons. Our [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide covers what CAH-specific compliance features to require before signing with any platform.
+
 Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Move Away from Deputy

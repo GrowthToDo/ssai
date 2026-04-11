@@ -6,31 +6,37 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Critical Access Hospital Scheduling: The Complete Guide | SimpleScheduleAI',
+  title: 'Critical Access Hospital Scheduling Guide | SimpleScheduleAI',
   description:
-    'Healthcare staff scheduling software for critical access hospitals. Manage nurse shifts, callout coverage, and Texas compliance at 25-bed rural hospitals.',
+    'How critical access hospitals manage nurse shifts, callout coverage, and Texas compliance at 25-bed rural hospitals — without an IT department or large HR team.',
 };
 
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  '@id': 'https://simplescheduleai.com/critical-access-hospital-scheduling#article',
   headline: 'Critical Access Hospital Scheduling: The Complete Guide',
   description:
     'Comprehensive guide to healthcare staff scheduling for critical access hospitals — covering shift management, callout coverage, Texas compliance, and AI-assisted scheduling.',
   url: 'https://simplescheduleai.com/critical-access-hospital-scheduling',
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': 'https://simplescheduleai.com/critical-access-hospital-scheduling',
+  },
   author: {
     '@type': 'Person',
+    '@id': 'https://simplescheduleai.com/about/pradeep-pandey#person',
     name: 'Pradeep Pandey',
-    jobTitle: 'Co-founder, SimpleScheduleAI',
-    url: 'https://www.linkedin.com/in/pradeeppandey99',
+    url: 'https://simplescheduleai.com/about/pradeep-pandey',
   },
   publisher: {
     '@type': 'Organization',
+    '@id': 'https://simplescheduleai.com/#organization',
     name: 'SimpleScheduleAI',
     logo: { '@type': 'ImageObject', url: 'https://simplescheduleai.com/images/logo.png' },
   },
   datePublished: '2026-03-31T00:00:00Z',
-  dateModified: '2026-03-31T00:00:00Z',
+  dateModified: '2026-04-11T00:00:00Z',
 };
 
 const faqSchema = {
@@ -79,10 +85,24 @@ const faqSchema = {
     },
   ],
 };
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Critical Access Hospital Scheduling',
+      item: 'https://simplescheduleai.com/critical-access-hospital-scheduling',
+    },
+  ],
+};
 ---
 
 <Layout metadata={metadata}>
-  <SchemaOrg slot="head" schema={[articleSchema, faqSchema]} />
+  <SchemaOrg slot="head" schema={[articleSchema, faqSchema, breadcrumbSchema]} />
 
   <DarkHero
     badge="Healthcare Staff Scheduling"
@@ -98,23 +118,27 @@ const faqSchema = {
     <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 prose dark:prose-invert prose-lg max-w-none">
       <h2>What Makes Critical Access Hospital Scheduling Different?</h2>
       <p>
-        Critical access hospitals (CAHs) are federally designated rural hospitals with 25 or fewer acute care beds,
-        certified under CMS Conditions of Participation (42 CFR §485.635). There are approximately 1,350 CAHs in the
-        United States — 84 in Texas alone — serving rural communities where the nearest alternative hospital may be
-        30–60 miles away.
+        CAH scheduling is fundamentally different from large-system scheduling because the margin for error is near
+        zero. With 25 or fewer acute care beds, a single callout can leave a unit uncovered. There is no float pool, no
+        agency desk on retainer, and no IT team to support scheduling software. The nurse manager handles everything,
+        often on a personal phone at 5 AM on a Sunday.
       </p>
       <p>
-        CAH scheduling is fundamentally different from large-system scheduling in three ways: the volume is small enough
-        that spreadsheets feel manageable until they aren't, the coverage requirements are unforgiving (a CAH must have
-        a registered nurse on duty or on call at all times), and there is no large float pool or agency network to
-        absorb callouts. When a nurse calls out at 5 AM at a 25-bed hospital, the charge nurse personally calls staff
-        until someone comes in.
+        Critical access hospitals are federally designated rural facilities certified under CMS Conditions of
+        Participation (42 CFR §485.635). There are approximately 1,350 CAHs in the United States — 84 in Texas alone —
+        serving rural communities where the nearest alternative hospital may be 30–60 miles away.
+      </p>
+      <p>
+        The volume is small enough that spreadsheets feel manageable until they aren't. The coverage requirements are
+        unforgiving: a CAH must have a registered nurse on duty or on call at all times. And when a nurse calls out, the
+        charge nurse personally works the phone tree until someone comes in.
       </p>
 
-      <h2>The Core Scheduling Challenges at Critical Access Hospitals</h2>
+      <h2>What Are the Core Scheduling Challenges at Critical Access Hospitals?</h2>
       <p>
-        CAH scheduling problems are not unique — but the lack of resources to address them is. The five most common
-        friction points:
+        Five problems repeat across nearly every CAH we interviewed before building SimpleScheduleAI: manual roster
+        management, callout coverage gaps, overtime creep, fairness conflicts, and compliance documentation. Each is
+        solvable. Each gets measurably worse with a spreadsheet-first approach.
       </p>
       <ul>
         <li>
@@ -139,10 +163,11 @@ const faqSchema = {
         </li>
       </ul>
 
-      <h2>Texas Compliance Requirements for CAH Nurse Scheduling</h2>
+      <h2>What Are the Texas Compliance Requirements for CAH Nurse Scheduling?</h2>
       <p>
-        Texas critical access hospitals must comply with both federal CMS Conditions of Participation and Texas DSHS
-        nursing facility standards. Key compliance requirements affecting scheduling:
+        Texas CAHs must comply with CMS Conditions of Participation (42 CFR §485.635), Texas DSHS nursing facility
+        standards, and FLSA overtime rules. At minimum: an RN on duty or on call at all times, documented shift ratios
+        for CMS cost reports, and overtime pay for all hours worked above 40 in a workweek for non-exempt staff.
       </p>
       <ul>
         <li>RN on duty or on call at all times (CMS CoP §485.635(c)(4))</li>
@@ -156,16 +181,16 @@ const faqSchema = {
         this compliance requirement automatically.
       </p>
 
-      <h2>How SimpleScheduleAI Handles Critical Access Hospital Scheduling</h2>
+      <h2>How Does SimpleScheduleAI Handle Critical Access Hospital Scheduling?</h2>
       <p>
-        SimpleScheduleAI is a managed scheduling service built specifically for critical access hospitals. The workflow:
-        upload your existing nurse roster via Excel, our team configures your shift rules and compliance parameters, and
-        the system generates three AI-drafted schedule options for your review. When a nurse calls out, the system
-        produces a ranked replacement shortlist from available qualified staff in seconds.
+        SimpleScheduleAI is a managed scheduling service, not a software license. Upload your existing nurse roster via
+        Excel. Our team configures your shift rules and compliance parameters. You receive three AI-drafted schedule
+        options each cycle for your review and approval. When a nurse calls out, the system produces a ranked
+        replacement shortlist from available, qualified staff in seconds.
       </p>
       <p>
-        The nurse manager makes the final call on every schedule and every replacement. The software eliminates the 8–10
-        hours of administrative work per week — it doesn't replace the clinical judgment that only an experienced nurse
+        The nurse manager makes the final call on every schedule and every replacement. The service eliminates the 8–10
+        hours of administrative work per week — it does not replace the clinical judgment that only an experienced nurse
         manager can provide.
       </p>
       <p>

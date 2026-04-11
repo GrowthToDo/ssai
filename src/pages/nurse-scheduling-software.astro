@@ -14,13 +14,25 @@ const metadata = {
 const softwareSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
+  '@id': 'https://simplescheduleai.com/nurse-scheduling-software#software',
   name: 'SimpleScheduleAI',
   applicationCategory: 'BusinessApplication',
   applicationSubCategory: 'Nurse Scheduling Software',
   operatingSystem: 'Web',
   url: 'https://simplescheduleai.com/nurse-scheduling-software',
   description:
-    'AI-powered nurse scheduling software for critical access hospitals. Reduces overtime, automates callout coverage, and tracks Texas nursing compliance.',
+    'AI-powered nurse scheduling managed service for critical access hospitals. Reduces overtime, automates callout coverage, and tracks Texas nursing compliance.',
+  author: {
+    '@type': 'Person',
+    '@id': 'https://simplescheduleai.com/about/pradeep-pandey#person',
+    name: 'Pradeep Pandey',
+    url: 'https://simplescheduleai.com/about/pradeep-pandey',
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': 'https://simplescheduleai.com/#organization',
+    name: 'SimpleScheduleAI',
+  },
   audience: {
     '@type': 'Audience',
     audienceType: 'Nurse Managers, Directors of Nursing, CAH Administrators',
@@ -32,6 +44,51 @@ const softwareSchema = {
     'Excel roster upload',
     'Texas overtime compliance tracking',
     'Audit trail logging',
+  ],
+};
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'SimpleScheduleAI',
+  description:
+    'AI-powered nurse scheduling managed service for critical access hospitals in Texas. Delivers compliant, post-ready nurse schedules with automated callout coverage and Texas overtime compliance.',
+  brand: {
+    '@type': 'Brand',
+    name: 'SimpleScheduleAI',
+  },
+  category: 'Nurse Scheduling Software',
+  url: 'https://simplescheduleai.com/nurse-scheduling-software',
+  manufacturer: {
+    '@type': 'Organization',
+    '@id': 'https://simplescheduleai.com/#organization',
+    name: 'SimpleScheduleAI',
+  },
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+    description: 'Free 60-day pilot for critical access hospitals in Texas. No IT setup. No commitment required.',
+    availability: 'https://schema.org/InStock',
+    seller: {
+      '@type': 'Organization',
+      '@id': 'https://simplescheduleai.com/#organization',
+      name: 'SimpleScheduleAI',
+    },
+  },
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Nurse Scheduling Software',
+      item: 'https://simplescheduleai.com/nurse-scheduling-software',
+    },
   ],
 };
 
@@ -84,7 +141,7 @@ const faqSchema = {
 ---
 
 <Layout metadata={metadata}>
-  <SchemaOrg slot="head" schema={[softwareSchema, faqSchema]} />
+  <SchemaOrg slot="head" schema={[softwareSchema, productSchema, faqSchema, breadcrumbSchema]} />
 
   <DarkHero
     badge="Nurse Scheduling Software"
@@ -112,13 +169,18 @@ const faqSchema = {
         nursing board regulations. These are not features a generic scheduling app can bolt on.
       </p>
 
-      <h2>Why Critical Access Hospitals Need Different Scheduling Software</h2>
+      <h2>Why Do Critical Access Hospitals Need Different Scheduling Software?</h2>
       <p>
-        Critical access hospitals (CAHs) — federally designated rural hospitals with 25 or fewer acute care beds —
-        operate under a unique set of constraints that most scheduling software ignores. They rarely have a full HR
-        department. Their nurse managers often handle scheduling alongside direct patient care. They can't rely on large
-        agency pools when a nurse calls out. And they face Texas-specific overtime regulations that generic scheduling
-        apps don't know about.
+        Critical access hospitals operate under constraints most scheduling software ignores: no dedicated HR team, no
+        IT department, no large agency pool, and Texas-specific overtime rules that generic apps don't handle. A
+        scheduling tool built for a 500-bed health system is not a smaller version of the right solution — it is the
+        wrong solution at any size for a 25-bed CAH.
+      </p>
+      <p>
+        CAHs — federally designated rural hospitals with 25 or fewer acute care beds — face a specific combination of
+        pressures. Their nurse managers often handle scheduling alongside direct patient care. They can't absorb a
+        callout by pulling from a float pool. And they face Texas DSHS and FLSA compliance requirements with no
+        compliance staff to manage them.
       </p>
       <p>
         The result: most CAH nurse managers spend 8–12 hours per week on scheduling tasks that should take 1–2 hours.

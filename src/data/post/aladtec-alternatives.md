@@ -52,6 +52,8 @@ Aladtec is one of the most widely used scheduling platforms for emergency servic
 
 The gaps are not product failures. Aladtec was built for fire departments, EMS agencies, and law enforcement. When hospitals use it, they are adapting an emergency services tool to a different regulatory environment. Most of the gaps require configuration work that the vendor does not provide and that most small hospital administrators cannot do themselves.
 
+If your priority is [critical access hospital scheduling](/critical-access-hospital-scheduling) compliance — CMS documentation, Texas overtime, credential-filtered callouts — review what those requirements actually demand before choosing a platform. Our [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide covers the specific features a 25-bed hospital needs that general scheduling tools do not provide.
+
 Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Switch Away from Aladtec
