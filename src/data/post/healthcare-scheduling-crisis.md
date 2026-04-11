@@ -324,7 +324,7 @@ hour manual coordination process with a prioritized list you can act on in minut
 ---
 
 **Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals.
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals.
 MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare
 operations, workforce optimization, and hospital process design.
 [LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)

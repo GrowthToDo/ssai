@@ -73,5 +73,5 @@ For more on overtime management and scheduling compliance at critical access hos
 ---
 
 **Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
 [LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)
