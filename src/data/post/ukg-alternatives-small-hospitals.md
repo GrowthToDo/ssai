@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-11T00:00:00Z
-updateDate: 2026-04-11T00:00:00Z
+publishDate: 2026-04-18T00:00:00Z
+updateDate: 2026-04-18T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'UKG Alternatives for Small Hospitals in 2026'
 excerpt: >

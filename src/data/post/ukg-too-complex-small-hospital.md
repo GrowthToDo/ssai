@@ -1,6 +1,5 @@
 ---
-draft: true
-publishDate: 2026-04-09T00:00:00Z
+publishDate: 2026-04-11T00:00:00Z
 updateDate: 2026-04-09T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'UKG Is Too Complex for Small Hospitals: What to Use Instead'

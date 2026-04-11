@@ -77,5 +77,5 @@ For a deeper look at how CAH staffing requirements shape nurse scheduling, see o
 ---
 
 **Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Former DGM Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
 [LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)

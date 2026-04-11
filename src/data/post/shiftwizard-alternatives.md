@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-14T00:00:00Z
-updateDate: 2026-04-14T00:00:00Z
+publishDate: 2026-04-21T00:00:00Z
+updateDate: 2026-04-21T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best ShiftWizard Alternatives for Critical Access Hospitals in 2026'
 excerpt: >
