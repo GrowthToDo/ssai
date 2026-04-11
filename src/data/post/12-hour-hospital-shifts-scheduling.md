@@ -228,4 +228,4 @@ Ready to reduce overtime and handle callouts without the Sunday evening scramble
 Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM
 Trichy (Operations & Marketing). Deep background in healthcare operations, workforce
 optimization, and hospital process design.
-[LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
