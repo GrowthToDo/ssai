@@ -78,4 +78,4 @@ For more on how nurse rostering connects to scheduling outcomes at small hospita
 
 **Written by Pradeep Pandey**
 Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
-[LinkedIn →](https://www.linkedin.com/in/pradeeppandey99)
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
