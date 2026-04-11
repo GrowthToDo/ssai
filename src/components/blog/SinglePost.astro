@@ -34,7 +34,9 @@ const { post, url } = Astro.props;
               <>
                 {' '}
                 · <Icon name="tabler:user" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-                <span class="inline-block">{post.author}</span>
+                <a href="/about/pradeep-pandey" class="inline-block hover:underline" rel="author">
+                  {post.author}
+                </a>
               </>
             )
           }
@@ -81,6 +83,7 @@ const { post, url } = Astro.props;
             width={900}
             height={506}
             loading="eager"
+            fetchpriority="high"
             decoding="async"
           />
         ) : (

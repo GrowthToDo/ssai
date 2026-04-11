@@ -28,11 +28,17 @@ const { language, textDirection } = I18N;
 const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://simplescheduleai.com/#organization',
   name: 'SimpleScheduleAI',
   url: 'https://simplescheduleai.com',
   logo: 'https://simplescheduleai.com/images/logo.png',
   description: 'AI-powered nurse scheduling managed service for critical access hospitals in Texas.',
   foundingDate: '2024',
+  founder: {
+    '@type': 'Person',
+    '@id': 'https://simplescheduleai.com/about/pradeep-pandey#person',
+    name: 'Pradeep Pandey',
+  },
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
