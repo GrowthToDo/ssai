@@ -5,7 +5,7 @@ import SchemaOrg from '~/components/common/SchemaOrg.astro';
 const metadata = {
   title: 'Pradeep Pandey — Co-Founder, SimpleScheduleAI',
   description:
-    'Pradeep Pandey is the co-founder of SimpleScheduleAI. With 7 years of hospital operations experience and 30+ nurse manager interviews, he builds AI-assisted scheduling for Critical Access Hospitals in Texas.',
+    'Pradeep Pandey is the co-founder of SimpleScheduleAI. Deputy General Manager of Operations, Apollo Hospitals, he builds AI-assisted scheduling for Critical Access Hospitals in Texas.',
 };
 
 const personSchema = {
@@ -19,22 +19,36 @@ const personSchema = {
   image: 'https://simplescheduleai.com/founders/pradeep.webp',
   jobTitle: 'Co-Founder',
   description:
-    'Co-founder of SimpleScheduleAI with 7 years of hospital operations experience. Helps Critical Access Hospitals in Texas eliminate scheduling overload for nurse managers.',
+    'Co-founder of SimpleScheduleAI. Deputy General Manager of Operations, Apollo Hospitals. Builds AI-assisted nurse scheduling for Critical Access Hospitals in Texas.',
   worksFor: {
     '@type': 'Organization',
     '@id': 'https://simplescheduleai.com/#organization',
     name: 'SimpleScheduleAI',
   },
+  affiliation: [
+    {
+      '@type': 'Organization',
+      name: 'Apollo Hospitals',
+      url: 'https://www.apollohospitals.com',
+    },
+  ],
   knowsAbout: [
     'Nurse scheduling',
+    'Hospital operations management',
+    'Healthcare S&OP and process reengineering',
     'Critical Access Hospital operations',
     'Texas nursing overtime compliance',
     'CMS §485.635 staffing documentation',
     'AI-assisted workforce management',
     'Healthcare workforce management',
     'Hospital scheduling software',
+    'Digital transformation in healthcare',
   ],
-  sameAs: ['https://www.linkedin.com/in/pradeep-pandeyji/'],
+  sameAs: [
+    'https://www.linkedin.com/in/pradeep-pandeyji/',
+    'https://www.crunchbase.com/person/pradeep-pandey',
+    'https://www.g2.com/users/pradeep-pandey',
+  ],
 };
 
 const topics = [
@@ -65,6 +79,9 @@ const topics = [
       <div>
         <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Pradeep Pandey</h1>
         <p class="mt-1 text-lg font-semibold text-primary">Co-Founder, SimpleScheduleAI</p>
+        <p class="mt-0.5 text-sm text-muted dark:text-slate-400">
+          Deputy General Manager of Operations, Apollo Hospitals
+        </p>
         <a
           href="https://www.linkedin.com/in/pradeep-pandeyji/"
           target="_blank"
@@ -91,17 +108,25 @@ const topics = [
     <div class="prose dark:prose-invert max-w-none">
       <h2 class="text-xl font-bold mb-4">About</h2>
       <p class="text-muted dark:text-slate-300 leading-relaxed">
-        Pradeep Pandey is the co-founder of SimpleScheduleAI, an AI-assisted nurse scheduling managed service built
-        specifically for Critical Access Hospitals in Texas. With 7 years of hospital operations experience, he
-        witnessed firsthand how manual scheduling drives nurse burnout, generates overtime errors, and consumes hours of
-        a nurse manager's week that should go to patient care.
+        Pradeep Pandey is the co-founder of SimpleScheduleAI and the Deputy General Manager of Operations at Apollo
+        Hospitals, where he leads corporate strategy across 19 hospitals in 6 states, optimizing operations for 2,000+
+        beds. His work spans process reengineering, digital transformation, and S&OP implementation across business
+        units. That experience includes watching, up close, how manual nurse scheduling creates cascading problems:
+        overtime spikes, agency dependency, staff burnout, and turnover that no spreadsheet can prevent.
       </p>
       <p class="mt-4 text-muted dark:text-slate-300 leading-relaxed">
-        Before writing a single line of code, Pradeep and his co-founder conducted more than 30 in-depth interviews with
-        nurse managers and CNOs at Critical Access Hospitals across Texas. Those conversations shaped every feature of
-        SimpleScheduleAI: credential-filtered callout replacement, automated CMS §485.635 documentation, Texas overtime
-        compliance by default, and a delivery format (PDF and Excel) that requires no software rollout for nursing
-        staff.
+        He built SimpleScheduleAI after hours because he saw a gap no one was filling. Large hospital systems have
+        enterprise scheduling platforms. Critical Access Hospitals, the small rural facilities that are often the only
+        care option for their communities, are left with Excel and sticky notes. SimpleScheduleAI is built specifically
+        for them: a managed scheduling service that delivers a compliant, post-ready schedule every cycle, with
+        automatic callout coverage and Texas overtime compliance built in.
+      </p>
+      <p class="mt-4 text-muted dark:text-slate-300 leading-relaxed">
+        Before shipping a single feature, Pradeep and his co-founder conducted more than 30 in-depth interviews with
+        nurse managers and CNOs at Critical Access Hospitals across Texas. Not surveys. Real conversations about real
+        scheduling problems. Those conversations shaped every design decision: credential-filtered callout replacement,
+        automated CMS §485.635 documentation, and a delivery format (PDF and Excel) that requires no software rollout
+        for nursing staff.
       </p>
       <p class="mt-4 text-muted dark:text-slate-300 leading-relaxed">
         He writes about nurse scheduling, CAH operations, hospital workforce management, and what it actually takes to
