@@ -1,12 +1,21 @@
 [build]
   publish = "dist"
   command = "npm run build"
+
 [build.processing.html]
   pretty_urls = false
+
 [[headers]]
   for = "/_astro/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# 301 from www subdomain to apex so Google consolidates signals on one host.
+[[redirects]]
+  from = "https://www.simplescheduleai.com/*"
+  to = "https://simplescheduleai.com/:splat"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/blog/healthcare-scheduling-crisis-26000-administrative-burden"

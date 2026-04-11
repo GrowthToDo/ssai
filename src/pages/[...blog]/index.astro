@@ -55,11 +55,13 @@ const blogPostingSchema = {
   dateModified: (post.updateDate ?? post.publishDate)?.toISOString(),
   author: {
     '@type': 'Person',
-    name: post.author ?? 'SimpleScheduleAI Team',
-    url: 'https://www.linkedin.com/in/pradeep-pandeyji/',
+    '@id': 'https://simplescheduleai.com/about/pradeep-pandey#person',
+    name: post.author ?? 'Pradeep Pandey',
+    url: 'https://simplescheduleai.com/about/pradeep-pandey',
   },
   publisher: {
     '@type': 'Organization',
+    '@id': 'https://simplescheduleai.com/#organization',
     name: 'SimpleScheduleAI',
     logo: {
       '@type': 'ImageObject',
