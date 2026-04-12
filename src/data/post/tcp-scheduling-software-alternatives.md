@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-23T00:00:00Z
-updateDate: 2026-04-23T00:00:00Z
+publishDate: 2026-05-21T00:00:00Z
+updateDate: 2026-05-21T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best TCP Scheduling Software Alternatives for Critical Access Hospitals in 2026'
 excerpt: >
@@ -215,6 +215,8 @@ The time difference is significant: a well-run TCP implementation reduces schedu
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
 
 ## Frequently Asked Questions
 

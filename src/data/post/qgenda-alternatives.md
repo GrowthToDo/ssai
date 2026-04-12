@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-21T00:00:00Z
-updateDate: 2026-04-21T00:00:00Z
+publishDate: 2026-05-14T00:00:00Z
+updateDate: 2026-05-14T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best QGenda Alternatives for Small Hospitals and Critical Access Facilities in 2026'
 excerpt: >
@@ -218,6 +218,8 @@ If you are currently on QGenda and evaluating alternatives, the practical steps:
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
 
 ## Frequently Asked Questions
 

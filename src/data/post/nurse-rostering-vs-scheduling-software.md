@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-05-28T00:00:00Z
-updateDate: 2026-05-28T00:00:00Z
+publishDate: 2026-06-18T00:00:00Z
+updateDate: 2026-06-18T00:00:00Z
 author: 'Pradeep Pandey'
 title: "Nurse Rostering Software vs. Scheduling Software: What's the Difference?"
 excerpt: >
@@ -148,6 +148,8 @@ The tools that work best for CAHs collapse the rostering and scheduling function
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 

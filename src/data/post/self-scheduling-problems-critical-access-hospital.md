@@ -1,7 +1,6 @@
 ---
-draft: true
-publishDate: 2099-01-01T00:00:00Z
-updateDate: 2099-01-01T00:00:00Z
+publishDate: 2026-04-12T00:00:00Z
+updateDate: 2026-04-12T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'When Self-Scheduling Becomes Selfish Scheduling at a CAH: How to Fix It'
 excerpt: >

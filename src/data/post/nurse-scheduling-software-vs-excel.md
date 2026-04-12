@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2099-01-01T00:00:00Z
-updateDate: 2026-04-01T00:00:00Z
+publishDate: 2026-05-28T00:00:00Z
+updateDate: 2026-05-28T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Nurse Scheduling Software vs. Excel: When to Make the Switch'
 excerpt: >
@@ -73,6 +73,8 @@ We handle the initial setup, the weekly schedule build, callout coverage logic, 
 One honest limitation: SimpleScheduleAI works best for hospitals that have reasonably stable staffing structures. If you're in an active staffing crisis with 30%+ vacancy rates, the scheduling problem is downstream of a hiring problem, and we'll tell you that upfront.
 
 [See how SimpleScheduleAI works for critical access hospitals →](/how-it-works)
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 
