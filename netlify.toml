@@ -22,3 +22,9 @@
   to = "/blog/healthcare-scheduling-crisis"
   status = 301
   force = true
+
+# Catch-all: return true 404 status for unmatched URLs (prevents soft 404s)
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404

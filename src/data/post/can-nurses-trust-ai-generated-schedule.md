@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2099-01-01T00:00:00Z
-updateDate: 2099-01-01T00:00:00Z
+publishDate: 2026-04-21T00:00:00Z
+updateDate: 2026-04-21T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Can Nurses Trust an AI-Generated Schedule? A Fairness Audit for Small Hospitals'
 excerpt: >

@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-28T00:00:00Z
-updateDate: 2026-04-28T00:00:00Z
+publishDate: 2026-06-06T00:00:00Z
+updateDate: 2026-06-06T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'TCP Scheduling Software vs. Managed Scheduling Service: Which Fits a CAH?'
 excerpt: >
@@ -191,6 +191,8 @@ For a nurse manager who is burned out on scheduling, experiencing weekly callout
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 

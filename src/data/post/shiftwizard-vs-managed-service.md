@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-23T00:00:00Z
-updateDate: 2026-04-23T00:00:00Z
+publishDate: 2026-06-02T00:00:00Z
+updateDate: 2026-06-02T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'ShiftWizard vs. Managed Scheduling Service: What Critical Access Hospitals Need to Know'
 excerpt: >
@@ -190,6 +190,8 @@ These are issues with ShiftWizard specifically, separate from the self-serve vs.
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 

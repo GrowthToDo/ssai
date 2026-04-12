@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-06-09T00:00:00Z
-updateDate: 2026-06-09T00:00:00Z
+publishDate: 2026-05-19T00:00:00Z
+updateDate: 2026-05-19T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best SmartLinx Alternatives for Hospital Nurse Scheduling in 2026'
 excerpt: >
@@ -370,6 +370,8 @@ For hospitals where T&A is managed through payroll software independently of the
   </div>
   <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
 </div>
+
+For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
 
 ## Frequently Asked Questions
 

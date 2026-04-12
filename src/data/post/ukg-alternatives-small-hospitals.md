@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-18T00:00:00Z
-updateDate: 2026-04-18T00:00:00Z
+publishDate: 2026-05-23T00:00:00Z
+updateDate: 2026-05-23T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'UKG Alternatives for Small Hospitals in 2026'
 excerpt: >
@@ -189,6 +189,8 @@ For a CAH coming off UKG, a managed service is typically the fastest path to ope
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
 
 ## Frequently Asked Questions
 

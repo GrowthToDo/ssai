@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-07-02T00:00:00Z
-updateDate: 2026-04-01T00:00:00Z
+publishDate: 2026-06-04T00:00:00Z
+updateDate: 2026-06-04T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Staff Scheduling Software for Healthcare vs. Generic Tools: Why the Difference Matters'
 excerpt: >
@@ -205,6 +205,8 @@ One honest limitation: SimpleScheduleAI does not include a staff-facing mobile a
   <p class="mt-2 text-blue-100">SimpleScheduleAI covers all five healthcare-specific requirements out of the box.</p>
   <a href="/how-it-works" class="mt-4 inline-block rounded-lg bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-blue-50">See How It Works</a>
 </div>
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 

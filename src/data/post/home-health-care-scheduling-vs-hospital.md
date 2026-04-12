@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-06-02T00:00:00Z
-updateDate: 2026-06-02T00:00:00Z
+publishDate: 2026-06-13T00:00:00Z
+updateDate: 2026-06-13T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Home Health Care Scheduling: Key Differences from Hospital Scheduling'
 excerpt: >
@@ -121,6 +121,8 @@ If you are a critical access hospital with 25 or fewer inpatient beds and your c
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 ## Frequently Asked Questions
 
