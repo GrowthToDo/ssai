@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-04-25T00:00:00Z
 updateDate: 2026-04-25T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Fair Holiday Rotation for Nurses: The A/B/C Block Method for CAHs'
+title: 'Fair Holiday Rotation for Nurses: A/B/C Block Method'
 excerpt: >
   At a 25-bed Critical Access Hospital, the same nurses end up working Christmas every year
   unless you have a documented rotation system. The A/B/C block method divides nursing staff
@@ -37,7 +37,7 @@ metadata:
 - [How SimpleScheduleAI Enforces the Rotation](#how-simplescheduleai-helps)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## Why Holiday Scheduling Breaks Down at Small Hospitals
+## Why Holiday Scheduling Breaks Down at Small Hospitals?
 
 Every nurse manager at a Critical Access Hospital has had this conversation: a nurse pulls up last year's schedule to prove they worked Christmas when someone else had it off. The accusation might be accurate or it might be misremembered, but the manager has no clean way to verify it. Without a written rotation system, the manager must either defend a judgment call or negotiate a swap in real time, both of which signal that holiday fairness is negotiable.
 
@@ -88,7 +88,7 @@ The key word is documented. A rotation that exists only in the manager's memory 
 
 For it to qualify as fair by most nursing staff standards, the rotation should satisfy three conditions: equal frequency of holiday coverage across all staff, equal distribution of high-demand dates (Christmas Eve/Christmas Day versus lower-demand holidays like Columbus Day), and a mechanism for new hires to enter the rotation without permanently disadvantaging existing staff.
 
-## How the A/B/C Block Method Works
+## How the A/B/C Block Method Works?
 
 The A/B/C block method divides your nursing staff into three groups that rotate through major holidays on a fixed three-year cycle. In Year 1, Group A works Thanksgiving, Group B works Christmas, and Group C works New Year's. In Year 2, the groups advance: Group B works Thanksgiving, Group C works Christmas, and Group A works New Year's. In Year 3, Group C works Thanksgiving, Group A works Christmas, and Group B works New Year's. After Year 3, the cycle resets.
 
@@ -134,7 +134,7 @@ The result is that no group works the same high-demand holiday two years in a ro
 
 The method works with any mix of full-time, part-time, and per-diem nurses, but the initial group assignment must be randomized or agreed upon to prevent the starting point from becoming a new source of grievance.
 
-## Setting Up the Rotation at a 25-Bed CAH
+## How Do You Set Up the Rotation at a 25-Bed CAH?
 
 Setup requires four decisions before you launch the rotation. Make these decisions with your charge nurses present, document the outcome, and distribute it to all nursing staff before the rotation begins.
 
@@ -146,7 +146,7 @@ Setup requires four decisions before you launch the rotation. Make these decisio
 
 **Decision 4: How the rotation handles partial-year availability.** Full-time nurses participate in all holidays in their group's rotation year. Part-time nurses (0.6 FTE or above) participate in a proportional subset, typically two of the three major holidays. Per-diem nurses do not participate in the mandatory rotation but are first on the callout list for holiday coverage bonuses.
 
-## Handling New Hires, Per-Diem Staff, and Callouts
+## How Do You Handle New Hires, Per-Diem Staff, and Callouts?
 
 New hires are assigned to the group with the smallest current headcount at the time of hire. If all three groups are equal in size, the new hire is assigned to the group that has not had the most recent addition. The new hire participates in the full rotation for whatever year they join, even if they are hired mid-cycle. This means a nurse hired in October may work a major holiday within two months; communicate this during hiring to prevent surprises.
 
@@ -187,7 +187,7 @@ Holiday callouts require a defined response protocol, not improvisation. When a 
 
 Document every contact attempt and outcome. If you ever face a CMS survey or a nurse grievance, the record of who was contacted in what order is your evidence that the process was followed correctly.
 
-## How SimpleScheduleAI Enforces the Rotation
+## How SimpleScheduleAI Enforces the Rotation?
 
 [SimpleScheduleAI's nurse scheduling system](/nurse-scheduling-software) stores the A/B/C group assignments for each nurse and automatically applies rotation rules when generating holiday schedules. The system surfaces which group covers which holiday for the upcoming cycle, flags if a nurse in the off-group is being scheduled on a holiday they are not supposed to cover, and generates the per-diem coverage shortlist in seniority order when a callout occurs.
 

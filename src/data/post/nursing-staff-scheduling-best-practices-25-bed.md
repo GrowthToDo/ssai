@@ -86,7 +86,7 @@ CMS surveys for critical access hospitals specifically review staffing documenta
 
 Manual systems produce this documentation inconsistently, it's generated as a retrospective when a survey is announced, not as a continuous record. Scheduling software with automatic logging produces compliant documentation as a byproduct of normal operations.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service that implements these seven best practices as defaults for every critical access hospital we work with. Fairness tracking, overtime threshold review, and change logging are built into the scheduling process, not add-on configurations.
 

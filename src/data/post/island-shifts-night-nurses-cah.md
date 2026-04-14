@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-04-23T00:00:00Z
 updateDate: 2026-04-23T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Island Shifts: Why a Single Shift Between Days Off Destroys Night Nurses'
+title: 'Island Shifts: Why One Shift Between Days Off Hurts'
 excerpt: >
   An island shift is a single scheduled workday surrounded by days off on both sides. For night
   nurses, it disrupts the sleep cycle they spent their days off recovering. At a 25-bed CAH,
@@ -129,7 +129,7 @@ The practical filter: when a night shift callout happens, rank available replace
 
 Most manual callout processes do not apply this filter. The manager calls nurses in order of availability or by memory, not by schedule position. A nurse who answers the phone gets the shift regardless of where it lands in her rotation.
 
-A ranked callout shortlist that factors in rotation position alongside availability, credentials, and overtime status directly addresses this. The manager still makes the final call. The list surfaces the option that minimizes fatigue cost alongside the options that just have availability.
+A replacement call list that factors in rotation position alongside availability, credentials, and overtime status directly addresses this. The manager still makes the final call. The list surfaces the option that minimizes fatigue cost alongside the options that just have availability.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Callout fill decision showing rotation-aware replacement versus rotation-blind replacement">
   <title>Rotation-Aware Callout Fill vs. Rotation-Blind Callout Fill</title>
@@ -149,7 +149,7 @@ A ranked callout shortlist that factors in rotation position alongside availabil
   <text x="400" y="144" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Island shift created, fatigue risk elevated</text>
 </svg>
 
-## How SimpleScheduleAI Handles Island Shift Prevention
+## How SimpleScheduleAI Handles Island Shift Prevention?
 
 SimpleScheduleAI flags single-shift insertions as schedule warnings in the generated schedule. A single-shift insertion surrounded by rest days on both sides appears in the violations panel with the affected nurse listed and the specific pattern described. The manager sees the flag before approving the schedule and can decide whether to adjust the assignment.
 
@@ -181,7 +181,7 @@ In the base schedule, yes, island shifts can be eliminated by building from rota
 
 **Q: Do island shifts count as a scheduling violation?**
 
-Island shifts are not a hard regulatory violation under CMS Conditions of Participation or Texas DSHS standards, which govern minimum staffing levels rather than shift pattern design. They are a scheduling quality concern — a pattern that does not meet best practices for nurse fatigue prevention and that increases turnover risk over time. Some nursing union contracts specify minimum consecutive-day rules that would make certain island shift patterns a contractual violation.
+Island shifts are not a hard regulatory violation under CMS Conditions of Participation or Texas DSHS standards, which govern minimum staffing levels rather than shift pattern design. They are a scheduling quality concern, a pattern that does not meet best practices for nurse fatigue prevention and that increases turnover risk over time. Some nursing union contracts specify minimum consecutive-day rules that would make certain island shift patterns a contractual violation.
 
 **Q: How do you tell a nurse that her schedule has an island shift without making it worse?**
 

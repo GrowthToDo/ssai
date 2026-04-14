@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-05-02T00:00:00Z
 updateDate: 2026-05-02T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Thanksgiving to New Year: How a CAH Should Plan December Nurse Staffing'
+title: 'Holiday Staffing: How CAHs Plan Thanksgiving to New Year'
 excerpt: >
   Critical Access Hospitals see nurse callout rates rise 25-35% between Thanksgiving and
   New Year's Day, while patient volume follows an unpredictable surge-and-dip pattern.
@@ -38,7 +38,7 @@ metadata:
 - [How SimpleScheduleAI Prepares CAHs for Holiday Surge](#how-simplescheduleai-helps)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## What Actually Happens to Nurse Staffing in December at a CAH
+## What Actually Happens to Nurse Staffing in December at a CAH?
 
 The holiday staffing problem at a Critical Access Hospital is not a single surge event. It is a six-week sequence of overlapping pressures that starts before Thanksgiving and does not resolve until after New Year's Day.
 
@@ -77,7 +77,7 @@ In weeks four through six (mid-December through New Year's): illness callouts, f
 
 The manager who accounts for this full six-week pattern is planning correctly. The manager who plans only for the three major holiday dates is planning for a fraction of the actual staffing problem.
 
-## Why Per-Diem Buffers Fail During Holiday Weeks
+## Why Per-Diem Buffers Fail During Holiday Weeks?
 
 Most CAH nurse managers rely on a per-diem pool to fill callout gaps throughout the year. During holiday weeks, that buffer partially or completely evaporates for three reasons.
 
@@ -89,7 +89,7 @@ Third, per-diem nurses who accept holiday shifts often do so for the premium pay
 
 The practical consequence: your backup for callout coverage during holiday weeks is effectively unavailable. Your planning for this period must account for full-time staff covering more of the gap than they do during the rest of the year.
 
-## The October Preparation Checklist
+## What Should You Prepare in October?
 
 Holiday staffing preparation should begin in October, not November. By the time Thanksgiving week arrives, every preparation step should already be complete.
 
@@ -143,7 +143,7 @@ Holiday staffing preparation should begin in October, not November. By the time 
   <text x="590" y="232" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">before Thanksgiving</text>
 </svg>
 
-## How to Build a Holiday Coverage Reserve Roster
+## How to Build a Holiday Coverage Reserve Roster?
 
 The holiday coverage reserve roster is a separate list from your standard callout replacement tree. It lists nurses who have pre-committed to holiday coverage under specific conditions, along with their contact information, their agreed premium rate, and the dates they are available.
 
@@ -159,7 +159,7 @@ The reserve roster should include, for each nurse: name, phone number, available
 
 Distribute the reserve roster to every charge nurse before November 15. This is the document they pull out at 5 a.m. on Christmas morning when someone calls in sick.
 
-## Managing the Callout Replacement Tree During Holiday Weeks
+## How Do You Manage the Callout Replacement Tree During Holiday Weeks?
 
 Your normal callout replacement tree, which probably works adequately during regular weeks, will fail during the holiday surge because it assumes per-diem availability and because nurses on the tree have competing holiday commitments.
 
@@ -171,7 +171,7 @@ Two modifications make the callout tree work better during holiday weeks:
 
 Document every call attempt during holiday weeks. If you ever face a CMS survey inquiry about holiday staffing adequacy, the call log and the reserve roster are your evidence that you had a systematic process and followed it.
 
-## Patient Volume Patterns: When to Staff Up vs. Staff Lean
+## Patient Volume Patterns: When to Staff Up vs. Staff Lean: Which Is Better?
 
 Not every day between Thanksgiving and New Year's requires elevated staffing. The volume pattern at most CAHs follows a predictable shape:
 
@@ -185,7 +185,7 @@ Not every day between Thanksgiving and New Year's requires elevated staffing. Th
 
 The most common planning mistake is applying uniform elevated staffing across all six weeks, which burns overtime budget on the slow days and leaves managers without resources on the actual surge days. Match your staffing level to the volume pattern, and build your reserve roster for the specific high-risk dates rather than blanket coverage.
 
-## How SimpleScheduleAI Prepares CAHs for Holiday Surge
+## How SimpleScheduleAI Prepares CAHs for Holiday Surge?
 
 [SimpleScheduleAI's scheduling system](/nurse-scheduling-software) supports holiday surge planning through several specific features. The reserve roster can be built and stored within the system in October, so charge nurses have instant access to the pre-committed nurses during holiday callouts rather than searching through text messages or a shared spreadsheet.
 

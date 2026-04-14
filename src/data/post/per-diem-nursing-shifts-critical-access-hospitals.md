@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Per Diem Nursing Shifts: How CAHs Can Fill Gaps Without Agency Costs'
+title: 'Per Diem Nursing Shifts: Fill Gaps Without Agency Costs'
 excerpt: >
   Per diem nursing shifts let critical access hospitals fill coverage gaps at standard
   hourly rates, avoiding the 2–3× agency premium that erodes thin CAH margins. This
@@ -143,7 +143,7 @@ who is available for which shifts before building the permanent schedule.
 **Callout shortlist generation:** When a permanent staff nurse calls out, the most
 time-consuming step is identifying which per diem nurse to call and in what order.
 A scheduling system that maintains current per diem availability can generate a ranked
-callout shortlist in seconds, showing which per diem nurses are available for that
+replacement list in seconds, showing which per diem nurses are available for that
 specific shift, haven't recently exceeded their hour preferences, and are appropriately
 credentialed for that unit.
 
@@ -159,7 +159,7 @@ per diem nurses to log in to a complex portal will have poor adoption. The best
 solutions use simple, low-friction channels, a text link, a simple web form, that
 nurses actually engage with.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service, not self-serve software. We handle
 the scheduling work, including per diem coordination, so you aren't managing two
@@ -209,7 +209,7 @@ communicate proactively when no shifts are available.
 - Per diem pool failure is almost always a management process failure, not a sourcing
   problem, availability tracking and consistent offer practices are the critical gaps
 - Scheduling software improves per diem management by centralizing availability data
-  and generating ranked callout shortlists, reducing the coordination time per callout
+  and generating replacement call lists, reducing the coordination time per callout
 - The indirect costs of agency use, orientation time, quality variance, administrative
   friction, are real but rarely captured in the "agency spend" line item
 

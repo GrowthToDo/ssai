@@ -9,7 +9,7 @@ excerpt: >
   management: building the weekly roster. For critical access hospitals spending
   8–12 hours per week on manual scheduling, a generator, or better, a managed
   scheduling service, can reclaim that time without sacrificing compliance.
-image: https://images.unsplash.com/photo-1573496800808-8a3a9e0e0a30?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1638202993928-7267aad84c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -27,7 +27,7 @@ A nurse schedule generator automates roster creation by processing staff availab
 
 A nurse schedule generator is a tool, software, spreadsheet, or service, that takes inputs (staff roster, availability, shift rules, compliance requirements) and produces a complete nurse shift schedule as output. It automates the mechanical work of schedule building: matching nurses to shifts, enforcing minimum rest periods, distributing weekends and nights equitably, and flagging overtime risk before the schedule publishes.
 
-The category spans a wide range. At the simple end: an Excel template with formulas that assigns shifts based on availability data you enter manually. At the sophisticated end: an AI-assisted service that generates multiple draft schedule options (balanced, fairness-optimized, cost-optimized), enforces Texas overtime rules automatically, and produces a callout coverage shortlist when a nurse is unavailable.
+The category spans a wide range. At the simple end: an Excel template with formulas that assigns shifts based on availability data you enter manually. At the sophisticated end: an AI-assisted service that generates multiple draft schedule options (balanced, fair-rotation, overtime-minimized), enforces Texas overtime rules automatically, and produces a callout coverage shortlist when a nurse is unavailable.
 
 For critical access hospitals currently spending 8–12 hours per week on manual scheduling at a $50/hr loaded rate, $26,000 per year in misallocated nurse manager time, the right generator can reclaim most of that time.
 
@@ -59,7 +59,7 @@ A reliable nurse schedule generator for a critical access hospital needs to unde
 
 **Fairness distribution.** Manual scheduling defaults to convenience: the nurse manager calls whoever is most likely to say yes. Over time, reliable nurses accumulate disproportionate overtime and undesirable shifts, driving the turnover that costs an average of $52,350 per RN departure ([NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf)). A generator that tracks fairness measures, weekend assignments, night shifts, holiday coverage, prevents this pattern from forming.
 
-**Multiple draft options.** No single scheduling algorithm produces the right answer for every situation. A useful generator produces 2–3 draft options (e.g., cost-minimized, fairness-optimized, coverage-maximized) and lets the nurse manager choose. This preserves clinical judgment while eliminating the mechanical work.
+**Multiple draft options.** No single scheduling algorithm produces the right answer for every situation. A useful generator produces 2–3 draft options (e.g., cost-minimized, fair-rotation, coverage-maximized) and lets the nurse manager choose. This preserves clinical judgment while eliminating the mechanical work.
 
 ## When Should a CAH Move Beyond a Generator to a Managed Service?
 
@@ -71,11 +71,11 @@ A managed scheduling service handles all of it. Rather than giving the nurse man
 
 The distinction matters for CAHs specifically because the staffing constraint isn't just time, it's the absence of a dedicated person to operate scheduling software.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI operates as a managed scheduling service for critical access hospitals. It generates three AI-drafted schedule options per cycle, balanced, fairness-optimized, and cost-optimized, incorporating Texas overtime rules, nurse certifications, and per-diem availability into every draft.
+SimpleScheduleAI operates as a managed scheduling service for critical access hospitals. It generates three AI-drafted schedule options per cycle, balanced, fair-rotation, and overtime-minimized, incorporating Texas overtime rules, nurse certifications, and per-diem availability into every draft.
 
-When a nurse is unavailable, the system instantly produces a ranked callout shortlist from available, qualified staff, factoring in overtime exposure and fairness distribution. The nurse manager approves replacements; they don't have to run the phone tree.
+When a nurse is unavailable, the system instantly produces a replacement call list from available, qualified staff, factoring in overtime exposure and fairness distribution. The nurse manager approves replacements; they don't have to run the phone tree.
 
 A free nurse schedule generator tool is available at [/tools/nurse-schedule-generator](/tools/nurse-schedule-generator) for basic roster creation. For hospitals needing compliance, callout coverage, and managed support, the pilot program starts with a 60-day free engagement.
 
@@ -110,7 +110,7 @@ Texas CAH nurse scheduling must comply with FLSA overtime rules (1.5× for hours
 - Nurse schedule generators automate roster creation from availability and rules, ranging from free Excel templates to AI-assisted managed services
 - Free tools miss hospital-grade requirements: overtime compliance, certification matching, callout coverage, CMS audit trail
 - A reliable hospital-grade generator needs Texas compliance, certification-aware assignment, fairness tracking, and multiple draft options
-- A managed scheduling service goes beyond generation, it delivers ready-to-approve drafts, callout shortlists, and compliance documentation
+- A managed scheduling service goes beyond generation, it delivers ready-to-approve drafts, replacement lists, and compliance documentation
 - CAH nurse managers currently spend 8–12 hours/week on scheduling; a managed service reduces this to 1–2 hours by removing operational burden, not just automating schedule building
 
 ---

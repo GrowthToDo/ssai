@@ -46,7 +46,7 @@ A nurse calls out at 10 PM for a 7 AM shift. The nurse manager, who may themselv
 
 The way that phone tree runs -- who gets called first, in what order, based on what criteria -- determines whether the callout results in covered care or uncovered care, appropriate overtime or avoidable overtime, and a documented decision or an undocumented one.
 
-## Why CAH Callout Coverage Is a Process Problem
+## Why CAH Callout Coverage Is a Process Problem?
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Three callout failure modes at a Critical Access Hospital">
   <title>Three CAH Callout Failure Modes</title>
@@ -81,7 +81,7 @@ The way that phone tree runs -- who gets called first, in what order, based on w
   <text x="589" y="178" font-family="system-ui,sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle">event at time of occurrence</text>
 </svg>
 
-## The Callout Policy: What Should Be in Writing
+## What Is the Callout Policy: What Should Be in Writing?
 
 A callout policy establishes the rules before the emergency. Nurses who understand the policy before they call out are less likely to dispute how coverage was handled. The policy should cover:
 
@@ -107,7 +107,7 @@ A callout policy establishes the rules before the emergency. Nurses who understa
 - State that all callout events are logged including time, circumstances, and coverage outcome
 - This language is important for both employee relations and CMS survey readiness
 
-## Building a Ranked Callout List
+## How Do You Build a Ranked Callout List?
 
 The ranked callout list is the operational tool that makes the policy work. It should be maintained continuously and consulted before any callout call is made.
 
@@ -156,7 +156,7 @@ For CAHs using scheduling software, the software should maintain this data autom
   <text x="360" y="295" font-family="system-ui,sans-serif" font-size="11" fill="#1e40af" text-anchor="middle" font-weight="600">Call from top of list. Document each attempt.</text>
 </svg>
 
-## The Callout Coverage Workflow: Step by Step
+## What Does the Callout Coverage Workflow Look Like?
 
 **When the callout comes in:**
 
@@ -178,7 +178,7 @@ Move to escalation: PRN nurses from outside the primary callout list, agency sta
 
 Document every step of this escalation, including the time each attempt was made and the response.
 
-## Documenting Every Callout Event
+## How Do You Document Every Callout Event?
 
 Callout documentation is not optional at a CAH. CMS surveyors may request staffing records covering any period up to 90 days prior to a survey. If a shift was staffed by a replacement nurse as the result of a callout, the documentation must show:
 
@@ -198,7 +198,7 @@ A callout log that is maintained manually should include, for each event:
 
 A spreadsheet callout log works. A shared document works. What does not work is verbal-only communication that leaves no record.
 
-## What to Do When You Cannot Fill the Shift
+## What to Do When You Cannot Fill the Shift?
 
 Despite a structured callout process, there will be shifts that cannot be filled from the available pool without mandatory overtime. In those situations:
 
@@ -210,7 +210,7 @@ Despite a structured callout process, there will be shifts that cannot be filled
 
 **Review the event afterward.** A shift that could not be filled is useful data. Was the pool insufficient? Was the callout at a time when roster availability was predictably low? Is there a pattern (certain shifts, certain days) where callout coverage consistently fails? Patterns indicate the schedule or PRN pool needs structural adjustment.
 
-## Reducing Callout Frequency Over Time
+## How Do You Reduce Callout Frequency Over Time?
 
 Handling callouts well is reactive management. Reducing callout frequency is proactive management. The most actionable levers:
 
@@ -224,7 +224,7 @@ Handling callouts well is reactive management. Reducing callout frequency is pro
 
 [SimpleScheduleAI](/) automates the ranked callout list, maintains running hour totals, and surfaces the credential-filtered replacement list in real time. When a callout event is entered, the nurse manager sees the ranked list immediately -- no calculation, no spreadsheet update, no manual OT check. The documentation is captured automatically.
 
-## What to Do This Week
+## What to Do This Week?
 
 1. **Review your last 10 callout events.** For each: who was called first? What were their hours at the time? Was the right nurse called first by overtime risk criteria, or was it the nurse most likely to answer? The honest answer reveals whether callout defaults are driving your overtime.
 

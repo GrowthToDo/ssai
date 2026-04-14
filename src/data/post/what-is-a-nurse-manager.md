@@ -3,10 +3,10 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'What Is a Nurse Manager? Role, Responsibilities, and Scheduling Duties'
+title: 'What Is a Nurse Manager? Role and Scheduling Duties'
 excerpt: >
   A nurse manager is a registered nurse (RN) with management responsibilities over a nursing unit, department, or facility. They oversee clinical staff, manage budgets, ensure regulatory compliance, and own the nurse scheduling process for their unit. At critical access hospitals, the role often includes direct patient care alongside administrative duties, making scheduling one of the largest uncompensated time burdens in the job.
-image: https://images.unsplash.com/photo-1516298773066-c48f8e9bd2b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1550831107-1553da8c8464?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary
@@ -19,7 +19,7 @@ metadata:
 
 A nurse manager is a registered nurse (RN) with management responsibilities over a nursing unit, department, or facility. They oversee clinical staff hiring, performance, and scheduling; manage departmental budgets; ensure compliance with regulatory requirements; and serve as the operational bridge between frontline nursing staff and hospital administration. The nurse manager owns the nurse scheduling process for their unit, building the monthly schedule, managing callouts, tracking overtime, and resolving last-minute coverage gaps. At critical access hospitals, these administrative duties frequently coexist with direct patient care responsibilities, creating a role that spans clinical practice and operational management simultaneously.
 
-## The Nurse Manager Role at a Critical Access Hospital
+## What Is the Nurse Manager Role at a Critical Access Hospital?
 
 At a large hospital, the nurse manager is a dedicated administrative position. At a 20-bed critical access hospital, the reality is often different. The nurse manager, or the DON filling an equivalent role, may also serve as a frontline nurse during understaffed shifts, participate in care delivery alongside the staff they supervise, and handle administrative functions without the support of a dedicated HR generalist, scheduling coordinator, or workforce analyst.
 
@@ -29,7 +29,7 @@ Industry benchmarks from [AONL](https://www.aonl.org/resources/nursing-workforce
 
 At an average RN compensation level, 10 hours per week represents approximately $26,000 per year in labor allocated to a task that many facilities have never formally measured. That figure does not include the downstream cost of scheduling errors, unnecessary overtime, compliance gaps, and the retention impact of perceived scheduling unfairness on nursing staff.
 
-## How Nurse Manager Differs from Charge Nurse
+## How Nurse Manager Differs from Charge Nurse?
 
 These two roles are frequently confused, particularly by administrators from outside a clinical background. The distinction matters because their scheduling involvement is different in kind, not just in degree.
 
@@ -39,7 +39,7 @@ These two roles are frequently confused, particularly by administrators from out
 
 At a small CAH, the same person may hold both roles on different occasions, the nurse manager may also serve as charge nurse on shifts they work clinically. This overlap is normal at small facilities but can create confusion about whose job it is to address a given scheduling issue.
 
-## Scheduling Duties of the Nurse Manager
+## What Are the Scheduling Duties of the Nurse Manager?
 
 The nurse manager's scheduling work breaks down into several distinct tasks, each with its own time and complexity profile:
 

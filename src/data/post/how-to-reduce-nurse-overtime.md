@@ -46,7 +46,7 @@ Nurse overtime at a small hospital does not feel like a system problem. It feels
 
 The structural fix is not hiring more nurses, though that helps. It is building a scheduling and callout process that tracks hours accurately and distributes the callout burden across the full roster rather than defaulting to the same people.
 
-## Why CAH Nurse Overtime Is Structural, Not Random
+## Why CAH Nurse Overtime Is Structural, Not Random?
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Three structural overtime sources at a Critical Access Hospital">
   <title>Three Structural Sources of CAH Nurse Overtime</title>
@@ -176,7 +176,7 @@ If you have not adopted the 8-and-80 rule, consult an employment attorney or HR 
 
 For CAHs that have properly adopted the 8-and-80 rule, the scheduling implication is clear: you can schedule a nurse for four 12-hour shifts in a week (48 hours) without triggering overtime, as long as their total in the 14-day period stays at or below 80 hours. That flexibility is not available under the standard 40-hour rule.
 
-## A Step-by-Step Overtime Reduction Process
+## What Is a Step-by-Step Overtime Reduction Process?
 
 **Step 1: Audit the last 90 days of overtime.** Pull payroll records and identify which nurses generated overtime, how many overtime hours each accumulated, and whether the overtime was planned (scheduled) or unplanned (callout coverage). This identifies whether your problem is schedule construction or callout defaults.
 
@@ -190,7 +190,7 @@ For CAHs that have properly adopted the 8-and-80 rule, the scheduling implicatio
 
 **Step 6: Evaluate PRN bench depth.** Compare your callout coverage success rate (how often did you cover the shift without overtime?) against your PRN roster size. If coverage required overtime more than 40% of the time, your PRN bench is insufficient and expansion is the structural fix.
 
-## When Overtime Cannot Be Eliminated
+## When Overtime Cannot Be Eliminated?
 
 Some overtime at a CAH is not eliminable. Census surges, multiple simultaneous callouts, and mandatory coverage requirements mean that there will be weeks where overtime happens despite a sound process.
 
@@ -202,7 +202,7 @@ Preventable overtime -- overtime that occurred because the wrong nurse was calle
 
 SimpleScheduleAI handles steps 1-6 above as part of the managed service: callout ranking is automated by OT risk and credentials, running hour totals are tracked continuously, and the FLSA 8-and-80 threshold is the default. The nurse manager reviews the callout ranking and makes the call. The calculation is already done.
 
-## What to Do This Week
+## What to Do This Week?
 
 1. **Pull your last 90-day overtime report from payroll.** Identify the top 3 nurses by overtime hours. If those same nurses are also your most frequent callout responders, callout defaults are your primary problem.
 

@@ -43,7 +43,7 @@ UKG (formerly Kronos) is the most deployed workforce management system in large 
 
 The result is a tool with enterprise complexity and CAH-scale support.
 
-## Why UKG Fails at Small Hospital Scale
+## Why Does UKG Fail at Small Hospital Scale?
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Four reasons UKG creates problems at a 25-bed Critical Access Hospital">
   <title>Why UKG Fails at CAH Scale: Four Structural Reasons</title>
@@ -96,7 +96,7 @@ The result is a tool with enterprise complexity and CAH-scale support.
 
 **The operational overhead.** Even after a successful implementation, UKG requires ongoing configuration management. Overtime rules, unit staffing requirements, and credential requirements must be kept current. At a large hospital, a workforce management analyst handles this. At a CAH, it falls to the nurse manager on top of her clinical and supervisory responsibilities.
 
-## What UKG Complexity Looks Like in Practice at a CAH
+## What Does UKG Complexity Look Like in Practice at a CAH?
 
 The typical CAH-on-UKG scenario follows a pattern. A regional health system negotiates an enterprise UKG contract. The CAH is affiliated with the system and gets included. Implementation is handled by the system's IT department with limited input from the CAH's nurse manager. The system goes live. The nurse manager is trained on the interface but not on configuration.
 
@@ -109,7 +109,7 @@ Over time:
 
 The system is nominally operational, but the nurse manager is doing manual verification on top of UKG because she does not trust the output.
 
-## The Complexity-to-Value Gap
+## What Is the Complexity-to-Value Gap?
 
 The right framing is not "is UKG too expensive?" It is: "is the complexity proportional to the value?"
 
@@ -129,7 +129,7 @@ UKG features that a 25-bed CAH actually uses:
 
 The complexity required to access the three features you use is the same as the complexity required to access the twenty you do not. The nurse manager at a CAH manages the full UKG operational burden for a fraction of the feature value.
 
-## What Works at CAH Scale
+## What Works at CAH Scale?
 
 The scheduling requirements for a CAH are not simple. They are just different from enterprise requirements:
 

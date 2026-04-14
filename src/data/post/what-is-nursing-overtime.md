@@ -19,7 +19,7 @@ metadata:
 
 Nursing overtime is any time a nurse works beyond 40 hours in a workweek, which triggers the requirement under the [Fair Labor Standards Act (FLSA)](https://www.dol.gov/agencies/whd/flsa) to pay at least 1.5 times the nurse's regular rate of pay for every hour over 40. For critical access hospitals operating on cost-based Medicare reimbursement, nursing overtime is one of the largest controllable labor costs, and one of the most common scheduling compliance gaps. Unlike most industries where overtime is exceptional, healthcare facilities run 24/7 and are structurally vulnerable to overtime accumulation whenever scheduling is managed reactively rather than proactively.
 
-## FLSA Rules for Hospital Nurses
+## What Are the FLSA Rules for Hospital Nurses?
 
 The FLSA governs overtime for most private-sector employees, including nurses at most hospitals and CAHs. The core rule is simple: non-exempt employees must be paid at least 1.5× their regular rate for all hours worked beyond 40 in a workweek. A workweek is a fixed, recurring period of seven consecutive days, it does not reset with the pay period, and it cannot be averaged across pay periods to reduce overtime liability.
 
@@ -33,7 +33,7 @@ Several FLSA provisions are relevant to hospital nursing specifically:
 
 A common misconception is that nurses are automatically exempt from overtime because they are licensed professionals. This is incorrect. The FLSA professional exemption requires that the employee's primary duty requires advanced knowledge in a field of science customarily acquired by a prolonged course of specialized intellectual instruction, and for this exemption to apply, the employee must earn a salary of at least $684 per week. Staff nurses paid hourly do not meet the salary requirement and are non-exempt regardless of their credentials.
 
-## Texas CAH Overtime Requirements
+## What Are the Texas CAH Overtime Requirements?
 
 Texas does not have a state overtime law that provides greater protection than the FLSA. The Texas Labor Code adopts the federal FLSA standard as the applicable overtime rule. However, several Texas-specific provisions affect CAH payroll compliance:
 
@@ -43,7 +43,7 @@ Texas does not have a state overtime law that provides greater protection than t
 
 **Documentation and audit trail:** CMS cost reports require accurate labor cost data. Overtime paid to nursing staff is reported as part of Medicare cost reports and affects reimbursement calculations under cost-based payment. CAHs with high overtime rates will see that reflected in cost reports, and CMS auditors may flag it as a potential efficiency issue. Maintaining an accurate, shift-level overtime record is both a labor law requirement and a Medicare reimbursement management tool.
 
-## How Overtime Accumulates in a Scheduling Context
+## How Overtime Accumulates in a Scheduling Context?
 
 The majority of nursing overtime at CAHs is not intentional, it accumulates through scheduling decisions that seem reasonable in isolation but compound across a workweek.
 

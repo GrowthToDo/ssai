@@ -2,7 +2,7 @@
 publishDate: 2026-04-12T00:00:00Z
 updateDate: 2026-04-12T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'When Self-Scheduling Becomes Selfish Scheduling at a CAH: How to Fix It'
+title: 'Self-Scheduling Problems at a CAH: How to Fix Them'
 excerpt: >
   Self-scheduling sounds fair until day shifts fill in the first hour and no one has touched
   nights or weekends. At a 25-bed Critical Access Hospital, that imbalance compounds every
@@ -141,9 +141,9 @@ The data to build this system already exists in every hospital's timesheets. The
   <text x="540" y="182" font-family="system-ui,sans-serif" font-size="10" fill="#166534" text-anchor="middle" font-weight="600">No awareness of the imbalance</text>
 </svg>
 
-## How SimpleScheduleAI Addresses Self-Scheduling Inequity
+## How Does SimpleScheduleAI Address Self-Scheduling Inequity?
 
-SimpleScheduleAI generates three schedule versions each cycle: balanced, cost-optimized, and fairness-optimized. The fairness-optimized version distributes weekend and holiday load equitably across the unit based on each nurse's accumulated load from prior cycles. The manager reviews a fairness score for each version and selects the one that fits the current cycle. The construction is done before any individual preference negotiation begins.
+SimpleScheduleAI generates three schedule versions each cycle: balanced, overtime-minimized, and fair-rotation. The fair-rotation version distributes weekend and holiday load equitably across the unit based on each nurse's accumulated load from prior cycles. The manager reviews a fairness score for each version and selects the one that fits the current cycle. The construction is done before any individual preference negotiation begins.
 
 One honest limitation: nurses do not submit preferences directly into a self-service portal. The nurse manager collects preferences and inputs them during setup. If nurse self-service portal access is a hard requirement for your unit, a hybrid approach, using a communication tool for preference collection alongside managed scheduling for schedule generation, handles both without losing compliance coverage.
 

@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Nurse Schedule Maker: Building Schedules That Reduce Burnout'
 excerpt: >
   A nurse schedule maker automates shift assignments and rotation patterns to distribute workload fairly across staff. At critical access hospitals, how you build a schedule directly determines whether nurses experience sustainable work patterns or the cumulative fatigue that leads to turnover costing an average of $52,350 per departing RN.
-image: https://images.unsplash.com/photo-1535615615789-c45df800ec59?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -66,7 +66,7 @@ Automation also removes the social pressure problem. When a manager manually ass
 
 Tools like [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) handle these rotation rules in a way that also tracks the cumulative pattern over time, not just this week's schedule in isolation. That historical view is what makes fair distribution sustainable.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is an AI-assisted managed scheduling service, our team builds the schedule using rotation logic designed for CAH constraints, and your nurse manager approves it. We don't hand you software to configure; we do the scheduling work.
 

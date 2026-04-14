@@ -19,7 +19,7 @@ metadata:
 
 Nurse rostering is the process of managing and assigning nursing staff to shifts over a scheduling period, including tracking who is available, what certifications they hold, and how their workload compares to peers. Where scheduling focuses on building a specific timetable, who works which shift on which day, rostering encompasses the ongoing management of the staff list itself: employment status, skill classifications, per diem availability windows, and cumulative assignment equity over time. In practice, the two terms are used interchangeably in most healthcare settings, and most software tools handle both.
 
-## How Nurse Rostering Works in a Critical Access Hospital
+## How Nurse Rostering Works in a Critical Access Hospital?
 
 At a critical access hospital with 10–20 nursing staff, rostering is a continuous process, not a one-time activity. The roster is effectively the master record of everyone available to work, full-time staff, part-time staff, and per diem nurses, along with the constraints and credentials that govern how each person can be assigned.
 
@@ -35,7 +35,7 @@ This information feeds directly into schedule-building. Without an accurate rost
 
 The small team size at most CAHs makes roster accuracy especially consequential. At a 15-nurse unit, one incorrect entry, a per diem nurse marked available who has accepted another position, or a credential listed as current when it has lapsed, can cascade into a scheduling error that requires emergency coverage.
 
-## How Nurse Rostering Differs from Scheduling
+## How Nurse Rostering Differs from Scheduling?
 
 The distinction matters in practice even if the terms overlap in conversation.
 
@@ -47,7 +47,7 @@ Scheduling depends on the roster. You cannot build a valid schedule without know
 
 Most scheduling software products sold to hospitals include both rostering and scheduling functions, which is why the terms are often used interchangeably in vendor marketing. The meaningful distinction arises when evaluating what a tool actually manages: a pure scheduling tool builds shift timetables but does not maintain ongoing credential or availability records; a rostering system does both.
 
-## Why Accurate Rostering Matters for Nurse Managers
+## Why Accurate Rostering Matters for Nurse Managers?
 
 Inaccurate rosters are one of the most common sources of downstream scheduling problems at small hospitals. The consequences are operational and regulatory.
 

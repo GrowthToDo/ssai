@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: "We Analyzed [N] Nurse Schedules from Texas Critical Access Hospitals. Here's What We Found"
+title: 'Analyzing Nurse Schedules at Texas CAHs: Key Findings'
 excerpt: >
   A data analysis of nurse schedules from Texas critical access hospitals revealing patterns in overtime rates by shift type, callout frequency, schedule fairness distribution, and the measurable cost impact of common scheduling decisions. Findings are drawn from anonymized scheduling data collected during the SimpleScheduleAI pilot program.
 image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
@@ -27,7 +27,7 @@ metadata:
 
 ---
 
-## Methodology
+## What Is the Methodology?
 
 <!-- Data will be updated when pilot hospital count reaches publication threshold. -->
 
@@ -121,7 +121,7 @@ This analysis draws on anonymized nurse scheduling data collected from [N] Texas
 
 ---
 
-## What This Means for CAH Administrators
+## What This Means for CAH Administrators?
 
 Even without the final dataset, the structural patterns that this analysis will document are consistent with what healthcare operations research has established about small-hospital scheduling:
 

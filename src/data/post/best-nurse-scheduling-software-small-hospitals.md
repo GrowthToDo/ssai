@@ -8,7 +8,7 @@ excerpt: >
   Small hospitals between 25 and 75 beds face a specific scheduling challenge: too complex for manual
   methods, too small for enterprise platforms. This guide compares five scheduling tools on implementation
   burden, compliance, and operational fit for hospitals at this scale.
-image: https://images.unsplash.com/photo-1608222351212-18fe0d7a4d6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
@@ -47,7 +47,7 @@ Small hospitals operate in a gap the scheduling software market has historically
 
 Here is how the five platforms most commonly evaluated by small hospital administrators compare before we go deeper:
 
-## Quick Comparison: 5 Platforms for Small Hospitals
+## How Does Quick Compare: 5 Platforms for Small Hospitals?
 
 <div class="not-prose overflow-x-auto my-8">
 <table class="w-full text-sm border-collapse" style="min-width:620px">
@@ -100,7 +100,7 @@ Here is how the five platforms most commonly evaluated by small hospital adminis
 </table>
 </div>
 
-## How to Evaluate Scheduling Software for a Small Hospital
+## How to Evaluate Scheduling Software for a Small Hospital?
 
 The vendor demos will show you features. What matters at your scale is whether the tool is operationally sustainable given the staff you actually have to run it.
 
@@ -152,7 +152,7 @@ Good tools show you who is available. Better tools filter by credentials and ove
   <text x="580" y="203" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">before shift starts</text>
 </svg>
 
-## The 5 Best Options, Reviewed for Small Hospitals
+## What Is the 5 Best Options, Reviewed for Small Hospitals?
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -365,7 +365,7 @@ At this size, Aladtec remains the best self-serve option. If you need scheduling
   <text x="350" y="277" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#92400e">Deputy and Homebase lack clinical compliance features for licensed hospital environments.</text>
 </svg>
 
-## What Changed in Small Hospital Scheduling in 2026
+## What Changed in Small Hospital Scheduling in 2026?
 
 **Managed scheduling services reached small hospitals.** Five years ago, the only options were self-serve software or a full-time scheduling coordinator. In 2026, managed services build the weekly schedule for a flat fee. For hospitals under 50 beds, this changes the buy-vs-build decision entirely.
 
@@ -375,7 +375,7 @@ At this size, Aladtec remains the best self-serve option. If you need scheduling
 
 **Compliance documentation pressure is increasing.** [CMS survey activity](https://www.cms.gov/medicare/health-safety-standards/certification-compliance) at small and critical access facilities has increased. Facilities that cannot produce auditable staffing records on demand are receiving findings.
 
-## How SimpleScheduleAI Fits in This Landscape
+## How SimpleScheduleAI Fits in This Landscape?
 
 SimpleScheduleAI was built for the under-50-bed segment where the nurse manager is also clinically active. It is a managed scheduling service: a scheduling specialist builds the weekly schedule using your roster, compliance rules, and fairness preferences. The nurse manager reviews and approves.
 
@@ -385,7 +385,7 @@ The pilot is free for 60 days. No IT setup. No contract.
 
 [See how SimpleScheduleAI works →](/how-it-works)
 
-## What to Do This Week
+## What to Do This Week?
 
 1. Count how many hours your nurse manager spent on scheduling last week, including callout coverage. That number is your baseline cost.
 2. Check whether your current scheduling tool can produce an auditable staffing record from 3 months ago in under 30 minutes. If not, you have a compliance gap.

@@ -2,7 +2,7 @@
 publishDate: 2026-04-14T00:00:00Z
 updateDate: 2026-04-14T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Can Nurses Trust an AI-Generated Schedule? A Fairness Audit for Small Hospitals'
+title: 'Can Nurses Trust an AI-Generated Schedule? An Audit'
 excerpt: >
   Nurses at small hospitals are right to ask whether an AI-generated schedule is fair before
   accepting it. This guide explains exactly what an AI scheduling system optimizes for, what it
@@ -92,7 +92,7 @@ The important distinction for staff is this: an AI-generated schedule is a draft
 
 Auditing an AI-generated schedule before posting requires checking three things: coverage compliance, fairness distribution, and shift preference fulfillment. A schedule that passes all three is ready to post. A schedule with gaps in any of the three requires adjustment before it goes out.
 
-**Coverage compliance** means verifying that no shift has an unqualified assignment, no nurse exceeds her overtime limit, and no nurse has less than the minimum required rest time between shifts. A well-designed system flags these issues directly. The manager does not need to find them manually — she needs to confirm that none exist, or address the ones that do.
+**Coverage compliance** means verifying that no shift has an unqualified assignment, no nurse exceeds her overtime limit, and no nurse has less than the minimum required rest time between shifts. A well-designed system flags these issues directly. The manager does not need to find them manually. She needs to confirm that none exist, or address the ones that do.
 
 **Fairness distribution** means looking at how weekend and night shifts are distributed across the team. The number to check is not absolute hours: it is each nurse's undesirable shift load relative to her FTE and her load from prior cycles. A nurse working 0.5 FTE should be carrying roughly half the weekend load of a full-time nurse. A nurse who worked the last three holiday weekends should be lower in the queue for this cycle.
 
@@ -140,7 +140,7 @@ The concern channel matters because some nurses will have legitimate objections 
 
 What does not work is asking nurses to trust a system they cannot see. Showing the fairness scores, explaining the coverage checks, and acknowledging the limitations honestly builds more acceptance than any amount of reassurance.
 
-## How SimpleScheduleAI Handles Transparency and Manager Control
+## How Does SimpleScheduleAI Handle Transparency and Manager Control?
 
 SimpleScheduleAI generates three schedule versions each cycle, each scored across coverage, fairness, cost, and preference match. The manager sees those scores before selecting a version to review. Every assignment is visible and adjustable before the schedule is posted. Every change after posting is logged in the event record with a timestamp and the identity of who made it.
 

@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-09-08T00:00:00Z
 updateDate: 2026-09-08T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'How to Stay CMS Compliant with Nurse Scheduling at a Critical Access Hospital'
+title: 'Staying CMS Compliant with Nurse Scheduling at CAHs'
 excerpt: >
   CMS compliance in nurse scheduling is not about having perfect staffing. It is
   about being able to show that you had appropriate staffing when a surveyor asks.
@@ -46,7 +46,7 @@ CMS surveyors do not expect perfection. They expect documentation. A CAH that ha
 
 The compliance work happens before the surveyor arrives, not when they walk through the door.
 
-## What CMS §485.635 Actually Requires for Nurse Staffing
+## What CMS §485.635 Actually Requires for Nurse Staffing?
 
 CMS Conditions of Participation for Critical Access Hospitals are codified at 42 CFR §485.635. The nursing services requirement states that a CAH must provide nursing services 24 hours a day, 7 days a week. Specifically:
 
@@ -86,7 +86,7 @@ The standard does not specify a minimum nurse-to-patient ratio. CMS expects CAHs
   <text x="360" y="58" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Policy</text>
 </svg>
 
-## The Three Documents CMS Surveyors Request
+## What Are the Three Documents CMS Surveyors Request?
 
 When a CMS surveyor requests staffing records for a CAH, they typically ask for three categories of documentation covering the survey period (usually 30-90 days prior to the survey date):
 
@@ -104,7 +104,7 @@ Evidence that nurses on duty during the survey period held the licenses and cert
 
 The surveyor is comparing these three documents. A mismatch between the schedule and the time and attendance record without a documented callout explanation is a finding. A time and attendance record showing a nurse on duty without a credential record confirming their license status is a finding.
 
-## Common Compliance Gaps in CAH Nurse Scheduling
+## What Are the Common Compliance Gaps in CAH Nurse Scheduling?
 
 **Gap 1: Schedule and time and attendance discrepancies**
 
@@ -130,7 +130,7 @@ The surveyor arrives and the nurse manager spends the next two hours assembling 
 
 Fix: Documentation should be maintained continuously and be retrievable within 15-30 minutes of request. Real-time documentation (recording shifts as they occur, logging callout replacements immediately) prevents survey-week scrambles.
 
-## Building a Compliant Documentation System
+## How Do You Build a Compliant Documentation System?
 
 A compliant documentation system does not require expensive software. It requires consistency. The following three-component system works for any CAH:
 
@@ -179,7 +179,7 @@ For every shift where no RN is physically on duty (typically overnight shifts st
   <text x="589" y="176" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">on-duty RN</text>
 </svg>
 
-## What to Do When a Surveyor Arrives Unannounced
+## What to Do When a Surveyor Arrives Unannounced?
 
 CMS surveys for CAHs can be unannounced. When a surveyor arrives, the compliance readiness checklist is:
 
@@ -199,7 +199,7 @@ CMS surveys for CAHs can be unannounced. When a surveyor arrives, the compliance
 
 **Do not reconstruct documentation during the survey.** A document created in response to a surveyor request that is dated as if it were created prior carries significant risk. If documentation does not exist, acknowledge the gap factually and do not fabricate.
 
-## How Scheduling Software Affects CMS Compliance
+## How Scheduling Software Affects CMS Compliance?
 
 The documentation burden described above is manual unless your scheduling system generates it automatically.
 
@@ -213,7 +213,7 @@ Nursing-specific platforms (NurseGrid Manager, Aladtec) are better suited to hea
 
 For a CAH that has had a CMS finding related to staffing documentation, or that has an upcoming survey and knows its current documentation is not complete, this is the most direct path to survey readiness.
 
-## What to Do This Week
+## What to Do This Week?
 
 1. **Pull your staffing records for the last 30 days.** Can you produce the schedule, time and attendance, and credential records for every shift in that period? If pulling those three documents would take more than 30 minutes, your documentation system is not survey-ready.
 

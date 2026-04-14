@@ -9,7 +9,7 @@ excerpt: >
   Before a critical access hospital buys a nurse scheduling app, there are five
   compliance and operational requirements most apps fail to meet, and one
   alternative that CAH administrators consistently overlook.
-image: https://images.unsplash.com/photo-1545420333-3a2f1b63bcee?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -67,15 +67,15 @@ A nursing scheduling app puts the operational burden on your team: someone has t
 
 At a critical access hospital, the nurse manager is often the scheduler, the compliance officer, and the charge nurse for half their shifts. Adding "app administrator" to that role doesn't reduce scheduling workload, it creates a new one.
 
-A managed scheduling service inverts this. Rather than giving you a tool to build schedules, a managed service builds the schedules for you. Your team provides availability and rules; the service returns draft schedules, callout shortlists, and compliance documentation. Your nurse manager reviews and approves.
+A managed scheduling service inverts this. Rather than giving you a tool to build schedules, a managed service builds the schedules for you. Your team provides availability and rules; the service returns draft schedules, replacement lists, and compliance documentation. Your nurse manager reviews and approves.
 
 According to research with 30+ Texas CAH nurse managers, this model reduces scheduling time from 8–12 hours per week to 1–2 hours, not because the app is more efficient, but because the administrative work moves off the nurse manager's plate entirely.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service, not a self-serve app. There's no configuration phase where your team has to learn a new system. A scheduling specialist handles setup via Excel roster upload (typically 3–5 business days) and configures Texas overtime rules, shift patterns, and compliance requirements for your facility.
 
-After that, your nurse manager receives three AI-drafted schedule options each cycle, balanced, fairness-optimized, and cost-optimized, and approves one. When a nurse calls out, the system surfaces a replacement shortlist in seconds.
+After that, your nurse manager receives three AI-drafted schedule options each cycle, balanced, fair-rotation, and overtime-minimized, and approves one. When a nurse calls out, the system surfaces a replacement shortlist in seconds.
 
 One honest limitation: if your facility needs a mobile app for nurses to self-manage their availability and swap shifts independently, SimpleScheduleAI is not that product. It's a management-side service, not a self-service staff portal.
 

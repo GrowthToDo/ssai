@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: "Free Nurse Scheduling Software: When Free Isn't Enough for a 25-Bed Hospital"
+title: 'Free Nurse Scheduling Software: When Free Falls Short'
 excerpt: >
   Free nurse scheduling software exists, and for simple rosters with no compliance
   requirements, it works. For critical access hospitals with Texas overtime rules,
@@ -79,7 +79,7 @@ At a $50/hr loaded rate for nurse managers, the annual cost of those 5–9 unaut
 
 Free tools work as part of the solution when paired with clear manual processes for compliance and callout coverage. They don't work as a complete solution for a CAH trying to reduce nurse manager administrative burden.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service that covers the full scheduling picture: schedule generation, overtime compliance, callout coverage shortlists, fairness tracking, and CMS audit trail, not just the basic roster.
 

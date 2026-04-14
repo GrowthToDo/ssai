@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Nurse Shift Schedule: How to Manage Daily Coverage at a Critical Access Hospital'
+title: 'Nurse Shift Schedule: Managing Daily Coverage at CAHs'
 excerpt: >
   A nurse shift schedule at a critical access hospital must ensure continuous RN
   coverage 24 hours a day, 7 days a week, with a roster of 15–25 nurses, no float
@@ -70,11 +70,11 @@ Consistent daily coverage at CAH scale is a scheduling precision problem: you do
 
 **Separate schedule publication from schedule management.** Publishing the schedule is one step; managing the schedule through the 4–6 week period is the ongoing work. Many CAH managers conflate these, they spend time building the schedule but have no systematic process for managing changes once it's published. Explicit processes for callout handling, change logging, and coverage reconciliation reduce the weekly management burden.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service that handles the daily coverage problem at its source: we build the schedule and manage the callout coverage logic, and the nurse manager approves the output.
 
-For each scheduling cycle, the service generates three draft schedule options, balanced, fairness-optimized, and cost-optimized, incorporating Texas overtime rules, per-diem availability, and coverage minimums. When a nurse calls out, the replacement shortlist is available immediately from available, qualified staff.
+For each scheduling cycle, the service generates three draft schedule options, balanced, fair-rotation, and overtime-minimized, incorporating Texas overtime rules, per-diem availability, and coverage minimums. When a nurse calls out, the replacement shortlist is available immediately from available, qualified staff.
 
 Fairness tracking is automatic: the system monitors weekend assignments, night shifts, callout coverage, and overtime per nurse across rolling 6-week periods and flags concentration patterns before they become retention risks.
 
@@ -105,7 +105,7 @@ Define minimum staffing per shift explicitly. Build the schedule 4 weeks out. In
 - A CAH nurse shift schedule must guarantee continuous RN coverage (CMS §485.635) from a small roster with no float pool
 - Three common daily coverage failures: predictable callout days without proactive coverage, concentration on reliable nurses, no per-diem pool
 - Publishing 4 weeks out reduces last-minute callouts significantly compared to the typical 2-week publication window
-- Pre-ranked callout shortlists built during schedule review convert 2-hour scramble events into 15-minute coverage decisions
+- Pre-replacement call lists built during schedule review convert 2-hour scramble events into 15-minute coverage decisions
 - Fairness tracking prevents the reliable-nurse burnout pattern that accounts for most CAH scheduling instability
 
 ---

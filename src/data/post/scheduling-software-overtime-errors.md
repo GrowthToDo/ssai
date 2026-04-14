@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-02T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Scheduling Software Overtime Errors: Why They Happen and How to Prevent Them'
+title: 'Scheduling Software Overtime Errors: How to Fix Them'
 excerpt: >
   Scheduling software overtime errors cost hospitals thousands of dollars per year. G2 reviewers of Deputy report "overtime calculation errors overpaying employees by thousands." The root cause is not the software - it is reactive overtime tracking that flags hours after payroll rather than preventing excess scheduling before it publishes.
 image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
@@ -20,7 +20,7 @@ metadata:
 
 Scheduling software overtime errors happen when tools track scheduled hours without flagging when a nurse crosses the [FLSA](https://www.dol.gov/agencies/whd/flsa) 40-hour threshold before payroll runs. The result is overpayment at 1.5x for unauthorized overtime hours, compliance exposure, and nurse manager accountability for errors the software should have caught. The fix is not better reporting, it is proactive overtime tracking that surfaces risk during schedule building rather than after the schedule publishes.
 
-## The Overtime Error Pattern
+## What Is the Overtime Error Pattern?
 
 This is how overtime errors happen at a critical access hospital running scheduling software:
 
@@ -35,7 +35,7 @@ This is how overtime errors happen at a critical access hospital running schedul
 
 The manager did not intend to schedule overtime. The software had the information to prevent it. The error happened because the tool tracks hours reactively rather than flagging risk proactively.
 
-## What G2 and Capterra Reviews Say About Overtime Errors
+## What G2 and Capterra Reviews Say About Overtime Errors?
 
 Deputy, a scheduling platform used in some healthcare settings, has multiple G2 reviewers specifically documenting overtime calculation errors. One reviewer described "payroll and overtime calculation errors overpaying employees by thousands of dollars" caused by incorrect platform configuration. Another cited the tool processing "overtime hours incorrectly."
 
@@ -45,7 +45,7 @@ The same pattern appears in reviews of other platforms. TCP (Aladtec) reviews no
 
 The common thread: these platforms show overtime data, they do not prevent overtime from being scheduled.
 
-## The FLSA Stakes
+## What Are the FLSA Stakes?
 
 Under [FLSA](https://www.dol.gov/agencies/whd/flsa), any hours over 40 in a workweek require 1.5x pay for covered employees, which includes most nursing staff. The math at a critical access hospital:
 
@@ -59,7 +59,7 @@ At a 25-bed CAH with 15 to 20 nurses, unmanaged overtime typically runs 15% to 2
 
 Beyond payroll cost, [FLSA](https://www.dol.gov/agencies/whd/flsa) violations carry civil liability. The Department of Labor can recover back wages for the prior two years, with willfulness extending that to three years. Overtime errors are not just expensive, they accumulate into compliance risk if not addressed systematically.
 
-## Reactive vs. Proactive Overtime Tracking
+## Reactive vs. Proactive Overtime Tracking: Which Is Better?
 
 Most scheduling software offers reactive overtime tracking: it shows you how many hours a nurse has scheduled, after the schedule is built. The manager is responsible for checking each nurse's hours before publishing.
 
@@ -74,7 +74,7 @@ Proactive overtime tracking works differently. Before any draft schedule is pres
 
 The difference is where the work happens: reactive tracking requires the manager to catch overtime risk manually; proactive tracking catches it before she sees the schedule.
 
-## Why Configuration Errors Cause Overtime Errors
+## Why Configuration Errors Cause Overtime Errors?
 
 A second category of overtime errors comes from incorrect configuration rather than reactive tracking.
 
@@ -88,7 +88,7 @@ Scheduling software calculates overtime based on the rules configured in the sys
 
 These errors do not surface until payroll. By then, the hours have been worked and the liability has accrued.
 
-## How SimpleScheduleAI Handles Overtime
+## How SimpleScheduleAI Handles Overtime?
 
 SimpleScheduleAI builds proactive [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime tracking into the scheduling process rather than offering it as a reporting feature:
 

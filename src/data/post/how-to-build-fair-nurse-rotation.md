@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-09-01T00:00:00Z
 updateDate: 2026-09-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'How to Build a Fair Nurse Rotation at a Critical Access Hospital'
+title: 'Building a Fair Nurse Rotation at a Small Hospital'
 excerpt: >
   An unfair nurse schedule is not just a morale problem. It is a retention problem
   and a scheduling problem: nurses who feel the rotation is inequitable call out
@@ -45,7 +45,7 @@ When a nurse says the schedule is unfair, the nurse manager's first instinct is 
 
 The resolution is a rotation that is visibly fair -- where the nurse can see, from the schedule data, that their holiday burden and weekend burden are comparable to their peers. Fairness that cannot be demonstrated is indistinguishable from unfairness to the nurse experiencing it.
 
-## What Nurses Mean When They Say the Schedule Is Unfair
+## What Nurses Mean When They Say the Schedule Is Unfair?
 
 Nurses rarely say the schedule is unfair because of a single assignment. They say it because of a pattern they have noticed or believe to exist. The most common patterns that trigger fairness complaints:
 
@@ -57,7 +57,7 @@ Nurses rarely say the schedule is unfair because of a single assignment. They sa
 
 **Night shift concentration.** Nurses who prefer day shifts but consistently receive night assignments, while others receive days, perceive systematic unfairness regardless of whether the distribution reflects availability patterns.
 
-## The Three Fairness Dimensions to Manage
+## What Are the Three Fairness Dimensions to Manage?
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Three dimensions of fairness in nurse rotation scheduling">
   <title>Three Nurse Rotation Fairness Dimensions</title>
@@ -98,7 +98,7 @@ Nurses rarely say the schedule is unfair because of a single assignment. They sa
   <text x="589" y="236" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">across eligible bench.</text>
 </svg>
 
-## Constraints That Limit Perfect Fairness at a CAH
+## What Constraints Limit Perfect Fairness at a CAH?
 
 A CAH cannot build a mathematically perfectly fair rotation without acknowledging the constraints that make that goal unreachable:
 
@@ -112,7 +112,7 @@ A CAH cannot build a mathematically perfectly fair rotation without acknowledgin
 
 These constraints should be documented. When a nurse argues that their weekend count is higher than a colleague, the documented constraints explain why the comparison is not apples-to-apples. If the constraints are not documented, the disparity looks like favoritism.
 
-## Step-by-Step: Building a Fair 4-Week Rotation
+## How Do You Build a Fair 4-Week Rotation Step by Step?
 
 **Before building:**
 
@@ -181,7 +181,7 @@ These constraints should be documented. When a nurse argues that their weekend c
   <text x="360" y="308" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Blue = fair (2 weekends). Amber = needs rebalancing (3 weekends). Gray = PT nurses (lower target).</text>
 </svg>
 
-## Documenting Fairness for Staff Transparency
+## How Do You Document Fairness for Staff Transparency?
 
 Building a fair rotation is not enough if nurses cannot verify it. Posting the rotation without any supporting data leaves fairness claims unresolvable.
 
@@ -195,7 +195,7 @@ Building a fair rotation is not enough if nurses cannot verify it. Posting the r
 
 This documentation takes 30-45 minutes to produce per quarter. It prevents dozens of one-on-one fairness conversations that each take 15-30 minutes and leave someone unsatisfied.
 
-## Handling Fairness Complaints
+## How Do You Handle Fairness Complaints?
 
 When a nurse raises a fairness complaint, the response has two parts:
 
@@ -211,7 +211,7 @@ Do not dismiss fairness complaints as complaints. A nurse who feels chronically 
 
 [SimpleScheduleAI](/) tracks weekend, holiday, and charge hour distribution automatically across each scheduling cycle. The nurse manager can pull a distribution summary at any time. When building the next cycle, the system weights assignments toward nurses with lower weekend and charge hour totals. The nurse manager reviews the proposed rotation and approves. Distribution data is available to share with staff as documentation.
 
-## What to Do This Week
+## What to Do This Week?
 
 1. **Run a weekend count for the last 8 weeks.** For each nurse, count how many Saturday and Sunday shifts they worked. If any nurse is more than 1.5x the average, that is an active fairness problem, not a hypothetical one.
 
