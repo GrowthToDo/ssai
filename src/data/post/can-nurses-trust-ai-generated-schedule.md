@@ -8,7 +8,7 @@ excerpt: >
   accepting it. This guide explains exactly what an AI scheduling system optimizes for, what it
   cannot judge, and how a nurse manager at a 25-bed CAH can audit a generated schedule before
   posting it.
-image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
 category: Healthcare Operations
 tags:
   - nurse-scheduling

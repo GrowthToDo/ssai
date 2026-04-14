@@ -9,7 +9,7 @@ excerpt: >
   Small hospitals and critical access hospitals on QGenda consistently report the same
   problems: pricing not designed for facilities under 100 beds, lengthy setup times, and swap
   workflows that require changing each day individually. Here are the practical alternatives.
-image: https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - qgenda-alternatives
