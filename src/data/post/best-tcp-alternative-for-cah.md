@@ -9,7 +9,7 @@ excerpt: >
   hospitals, but it is a self-serve platform built for organizations with dedicated scheduling
   staff. For CAHs where the nurse manager builds schedules in addition to clinical duties,
   the best alternative is one that reduces operating burden, not just changes the interface.
-image: https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software
@@ -83,7 +83,7 @@ What TCP does not cover well:
 
 - Proactive overtime flagging before the schedule publishes (TCP shows current hours; the manager must calculate risk manually)
 - Automatic CMS §485.635 audit trail documentation (available but requires correct configuration to work)
-- Ranked callout shortlists that apply certification, overtime, and fairness constraints automatically
+- Ranked callout shortlists that apply certification, overtime, and fair distribution rules automatically
 
 ## The Best TCP Alternative for Each Scenario
 

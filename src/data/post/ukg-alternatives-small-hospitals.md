@@ -10,7 +10,7 @@ excerpt: >
   hospitals and Critical Access Hospitals that ended up on UKG through a health system
   contract are finding they bought a system they cannot operate. Here are the practical
   alternatives.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1617576683096-00fc8eecb3af?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - ukg-alternatives
@@ -94,7 +94,7 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 
 Beyond the purchase price, the operational cost of running UKG at CAH scale is significant:
 
-**Configuration errors.** Without dedicated HRIS staff, overtime rules, certification constraints, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll -- sometimes after overpaying nurses by thousands of dollars. This is not hypothetical. It is a consistent pattern in user reviews from smaller UKG facilities.
+**Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll -- sometimes after overpaying nurses by thousands of dollars. This is not hypothetical. It is a consistent pattern in user reviews from smaller UKG facilities.
 
 **Compliance gaps.** UKG can produce CMS §485.635 documentation, but only if configured correctly. Misconfiguration means the audit trail has gaps, which creates survey exposure. At a large hospital with a workforce management team, someone is responsible for audit readiness. At a CAH, this falls to whoever has time.
 

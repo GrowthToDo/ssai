@@ -10,7 +10,7 @@ excerpt: >
   manager also takes clinical shifts, the distinction can mean the difference between 10 hours per
   week spent on scheduling and 2 hours. This guide explains the tradeoffs and helps hospitals
   choose the right model.
-image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1614728263952-84ea256f9d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

@@ -9,7 +9,7 @@ excerpt: >
   management: building the weekly roster. For critical access hospitals spending
   8–12 hours per week on manual scheduling, a generator, or better, a managed
   scheduling service, can reclaim that time without sacrificing compliance.
-image: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1573496800808-8a3a9e0e0a30?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -21,11 +21,11 @@ metadata:
 
 ## TL;DR
 
-A nurse schedule generator automates roster creation by processing staff availability, shift rules, and compliance parameters to produce a publishable schedule. Free generators handle basic patterns; hospital-grade tools add overtime compliance, callout coverage, and audit trails. Critical access hospitals spending 8–12 hours/week on manual scheduling can reduce this to 1–2 hours with the right tool, but the tool needs to understand healthcare rules, not just shift patterns.
+A nurse schedule generator automates roster creation by processing staff availability, shift rules, and compliance requirements to produce a publishable schedule. Free generators handle basic patterns; hospital-grade tools add overtime compliance, callout coverage, and audit trails. Critical access hospitals spending 8–12 hours/week on manual scheduling can reduce this to 1–2 hours with the right tool, but the tool needs to understand healthcare rules, not just shift patterns.
 
 ## What Is a Nurse Schedule Generator?
 
-A nurse schedule generator is a tool, software, spreadsheet, or service, that takes inputs (staff roster, availability, shift rules, compliance parameters) and produces a complete nurse shift schedule as output. It automates the mechanical work of schedule building: matching nurses to shifts, enforcing minimum rest periods, distributing weekends and nights equitably, and flagging overtime risk before the schedule publishes.
+A nurse schedule generator is a tool, software, spreadsheet, or service, that takes inputs (staff roster, availability, shift rules, compliance requirements) and produces a complete nurse shift schedule as output. It automates the mechanical work of schedule building: matching nurses to shifts, enforcing minimum rest periods, distributing weekends and nights equitably, and flagging overtime risk before the schedule publishes.
 
 The category spans a wide range. At the simple end: an Excel template with formulas that assigns shifts based on availability data you enter manually. At the sophisticated end: an AI-assisted service that generates multiple draft schedule options (balanced, fairness-optimized, cost-optimized), enforces Texas overtime rules automatically, and produces a callout coverage shortlist when a nurse is unavailable.
 
@@ -57,7 +57,7 @@ A reliable nurse schedule generator for a critical access hospital needs to unde
 
 **Clinical certification matching.** In a 25-bed CAH, the roster is small enough that certification gaps are frequent, there may be only 2–3 nurses certified for a particular unit on any given shift. The generator must know which nurses can cover which units and enforce this constraint automatically.
 
-**Fairness distribution.** Manual scheduling defaults to convenience: the nurse manager calls whoever is most likely to say yes. Over time, reliable nurses accumulate disproportionate overtime and undesirable shifts, driving the turnover that costs an average of $52,350 per RN departure ([NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf)). A generator that tracks fairness metrics, weekend assignments, night shifts, holiday coverage, prevents this pattern from forming.
+**Fairness distribution.** Manual scheduling defaults to convenience: the nurse manager calls whoever is most likely to say yes. Over time, reliable nurses accumulate disproportionate overtime and undesirable shifts, driving the turnover that costs an average of $52,350 per RN departure ([NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf)). A generator that tracks fairness measures, weekend assignments, night shifts, holiday coverage, prevents this pattern from forming.
 
 **Multiple draft options.** No single scheduling algorithm produces the right answer for every situation. A useful generator produces 2–3 draft options (e.g., cost-minimized, fairness-optimized, coverage-maximized) and lets the nurse manager choose. This preserves clinical judgment while eliminating the mechanical work.
 
@@ -87,7 +87,7 @@ One honest note: SimpleScheduleAI is built specifically for critical access hosp
 
 **Q: What is a nurse schedule generator?**
 
-A nurse schedule generator is a tool that automates nurse shift roster creation, processing staff availability, shift rules, and compliance parameters to produce a publishable schedule. They range from free Excel templates to AI-assisted managed services with compliance enforcement and callout coverage logic.
+A nurse schedule generator is a tool that automates nurse shift roster creation, processing staff availability, shift rules, and compliance requirements to produce a publishable schedule. They range from free Excel templates to AI-assisted managed services with compliance enforcement and callout coverage logic.
 
 **Q: Are free nurse schedule generators sufficient for hospitals?**
 

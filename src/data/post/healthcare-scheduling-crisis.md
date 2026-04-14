@@ -7,7 +7,7 @@ excerpt: >
   CAH nurse managers spend 10 hours weekly on manual scheduling — a hidden $26,000 annual
   cost in misallocated leadership time. Five friction points drive this burden, and each
   one is measurably reducible.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1583912268183-a34d6fe4a64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -300,7 +300,7 @@ worked. An automated system with a full change log addresses this directly.
 Manual scheduling defaults to calling the most dependable nurses first. Over time,
 those nurses accumulate disproportionate overtime and callout coverage, driving
 voluntary turnover. NSI 2024 data puts average RN replacement cost at $52,350.
-Tracking fairness metrics - who is being called and how often - requires data that
+Tracking fairness — who is being called and how often - requires data that
 manual spreadsheets typically do not capture.
 
 **Q: What is the "shadow salary" in healthcare scheduling?**

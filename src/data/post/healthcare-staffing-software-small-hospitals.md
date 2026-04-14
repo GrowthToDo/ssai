@@ -9,7 +9,7 @@ excerpt: >
   all: proactive overtime tracking before the schedule publishes, certification-matched callout
   replacement, and CMS-compliant audit trails. Features designed for 500-bed health systems
   create complexity without value at the critical access hospital scale.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1593491205049-7f032d28cf01?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - healthcare-staffing-software

@@ -10,7 +10,7 @@ excerpt: >
   §485.635 documentation, no credential-based callout filtering, and a caregiver engagement model
   that assumes predictable LTC scheduling patterns rather than acute care dynamics. This guide
   reviews the five best OnShift alternatives for hospitals with different scheduling needs.
-image: https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1629909615184-74f495363b67?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

@@ -9,7 +9,7 @@ excerpt: >
   Before a critical access hospital buys a nurse scheduling app, there are five
   compliance and operational requirements most apps fail to meet, and one
   alternative that CAH administrators consistently overlook.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1545420333-3a2f1b63bcee?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -73,9 +73,9 @@ According to research with 30+ Texas CAH nurse managers, this model reduces sche
 
 ## How SimpleScheduleAI Helps
 
-SimpleScheduleAI is a managed scheduling service, not a self-serve app. There's no configuration phase where your team has to learn a new system. A scheduling specialist handles setup via Excel roster upload (typically 3–5 business days) and configures Texas overtime rules, shift patterns, and compliance parameters for your facility.
+SimpleScheduleAI is a managed scheduling service, not a self-serve app. There's no configuration phase where your team has to learn a new system. A scheduling specialist handles setup via Excel roster upload (typically 3–5 business days) and configures Texas overtime rules, shift patterns, and compliance requirements for your facility.
 
-After that, your nurse manager receives three AI-drafted schedule options each cycle, balanced, fairness-optimized, and cost-optimized, and approves one. When a nurse calls out, the system surfaces a ranked replacement shortlist in seconds.
+After that, your nurse manager receives three AI-drafted schedule options each cycle, balanced, fairness-optimized, and cost-optimized, and approves one. When a nurse calls out, the system surfaces a replacement shortlist in seconds.
 
 One honest limitation: if your facility needs a mobile app for nurses to self-manage their availability and swap shifts independently, SimpleScheduleAI is not that product. It's a management-side service, not a self-service staff portal.
 

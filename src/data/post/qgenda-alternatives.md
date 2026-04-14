@@ -22,7 +22,7 @@ metadata:
 ## Key Takeaways
 
 - QGenda is an enterprise scheduling platform optimized for physician scheduling at large health systems. Small hospitals on QGenda typically use a fraction of its features while paying enterprise pricing and carrying enterprise-level configuration complexity.
-- The most operationally painful QGenda issue for small hospital users: week-long schedule changes require modifying each day individually rather than changing a rotation block, multiplying administrative time.
+- The most operationally painful QGenda issue for small hospital users: week-long schedule changes require modifying each day individually rather than changing a rotation, multiplying administrative time.
 - The main CAH-appropriate alternatives are TCP/Aladtec (self-serve, healthcare/EMS focus), ShiftWizard (self-serve, hospital nursing focus), and SimpleScheduleAI (managed service, CAH nursing focus).
 - The right alternative depends on whether the primary issue is pricing, complexity, or the self-serve model itself.
 - If the goal is reducing nurse manager burden rather than just replacing the platform, a managed service addresses that more directly than a platform swap.
@@ -110,7 +110,7 @@ For a critical access hospital, scheduling requirements differ from what QGenda 
 
 **[CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) compliant audit trail.** Every schedule change, automatically logged with timestamps -- not a feature to configure correctly, but a default.
 
-**Callout coverage logic.** When a nurse calls out, a ranked replacement list that applies certification, overtime, and fairness constraints.
+**Callout coverage logic.** When a nurse calls out, a ranked replacement list that applies certification, overtime, and fair distribution rules.
 
 **Fast implementation.** A CAH nurse manager cannot absorb a 4-8 week implementation project. Time to first operational schedule matters.
 
@@ -229,7 +229,7 @@ QGenda is designed for enterprise health systems and physician scheduling. Its f
 
 **What is the most common complaint from small hospitals using QGenda?**
 
-Based on G2 and Capterra reviews: pricing is not designed for smaller facilities, week-long schedule changes require modifying each day individually rather than changing a rotation block, and the mobile interface is limited for on-the-floor clinical use.
+Based on G2 and Capterra reviews: pricing is not designed for smaller facilities, week-long schedule changes require modifying each day individually rather than changing a rotation, and the mobile interface is limited for on-the-floor clinical use.
 
 **How long does it take to switch from QGenda to a simpler scheduling tool?**
 

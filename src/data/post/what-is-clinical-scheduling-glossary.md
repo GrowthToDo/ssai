@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is Clinical Scheduling? A Plain-Language Definition'
 excerpt: >
   Clinical scheduling is the process of assigning clinical (patient-facing) staff, nurses, physicians, technicians, and allied health workers, to shifts, on-call duties, and patient care assignments in a healthcare facility. It is distinct from administrative scheduling, which manages patient appointments. Clinical scheduling ensures continuous staffing coverage and regulatory compliance, not appointment availability.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary

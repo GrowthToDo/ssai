@@ -9,7 +9,7 @@ excerpt: >
   unless you have a documented rotation system. The A/B/C block method divides nursing staff
   into three groups that rotate through major holidays on a fixed three-year cycle, so no
   group draws the same holiday twice in a row.
-image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: 'https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
 category: Healthcare Operations
 tags:
   - nurse-scheduling

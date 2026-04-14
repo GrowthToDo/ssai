@@ -10,7 +10,7 @@ excerpt: >
   compliance, CMS documentation, and callout coverage logic that generic tools don't
   have and can't bolt on. Here's how to choose between healthcare-specific and
   generic scheduling options for your facility.
-image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - staff-scheduling-software

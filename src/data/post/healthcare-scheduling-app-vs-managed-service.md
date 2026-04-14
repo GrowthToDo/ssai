@@ -9,7 +9,7 @@ excerpt: >
   A managed scheduling service does the scheduling work for you. For critical access hospitals
   with no IT department and a nurse manager who is already stretched thin, the difference
   determines whether scheduling actually improves or just changes form.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - healthcare-scheduling-app
@@ -85,9 +85,9 @@ A healthcare scheduling managed service inverts the model: instead of giving you
 In practice with SimpleScheduleAI:
 
 - A scheduling specialist handles initial setup from your Excel roster (3-5 business days, no IT integration)
-- The specialist builds draft schedule options each cycle, checking overtime thresholds and certification constraints before presenting drafts
+- The specialist builds draft schedule options each cycle, checking overtime thresholds and credential requirements before presenting drafts
 - The nurse manager reviews draft schedules and approves or requests adjustments
-- When a nurse calls out, a ranked replacement shortlist is available within minutes -- filtered by certification, overtime status, and availability
+- When a nurse calls out, a replacement shortlist is available within minutes -- filtered by certification, overtime status, and availability
 - The [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail is maintained automatically, ready for surveyors
 - Texas compliance ([FLSA](https://www.dol.gov/agencies/whd/flsa), [Texas Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm)) is built in as default, not configured
 

@@ -177,7 +177,7 @@ A fairness score measures how equitably undesirable shifts, nights, weekends, an
 
 **Q: Can you use self-scheduling and a managed service at the same time?**
 
-Yes. A hybrid model works: nurses submit preferences through whatever communication channel the unit already uses, and the scheduling service uses those preferences as inputs when generating the schedule. The difference is that preferences are applied subject to fairness constraints and coverage requirements, not first-come-first-served. The nurse still has input. The manager still approves. The system enforces the rules that manual self-scheduling cannot consistently enforce.
+Yes. A hybrid model works: nurses submit preferences through whatever communication channel the unit already uses, and the scheduling service uses those preferences as inputs when generating the schedule. The difference is that preferences are applied subject to fair distribution rules and coverage requirements, not first-come-first-served. The nurse still has input. The manager still approves. The system enforces the rules that manual self-scheduling cannot consistently enforce.
 
 ---
 

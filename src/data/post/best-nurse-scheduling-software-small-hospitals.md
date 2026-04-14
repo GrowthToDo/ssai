@@ -8,7 +8,7 @@ excerpt: >
   Small hospitals between 25 and 75 beds face a specific scheduling challenge: too complex for manual
   methods, too small for enterprise platforms. This guide compares five scheduling tools on implementation
   burden, compliance, and operational fit for hospitals at this scale.
-image: https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1608222351212-18fe0d7a4d6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

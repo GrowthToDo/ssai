@@ -9,7 +9,7 @@ excerpt: >
   requirements, it works. For critical access hospitals with Texas overtime rules,
   callout coverage needs, and CMS documentation requirements, free tools solve the
   easy parts of scheduling while leaving the costly parts untouched.
-image: https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

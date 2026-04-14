@@ -424,7 +424,7 @@ Most scheduling software solves for roster size. SimpleScheduleAI solves for the
 
 The managed service model is the structural differentiator. Rather than configuring software and maintaining it, the nurse manager at a 25-bed CAH submits a roster and preferences, receives three draft schedules, selects one, and publishes it. The time cost per scheduling cycle drops from 8-12 hours to under two hours.
 
-The callout module generates a ranked replacement shortlist in under two minutes, factoring in current-week hours, FLSA overtime threshold proximity, and shift competency requirements. A nurse manager can identify, call, and confirm a replacement before she leaves the nurses station.
+The callout module generates a replacement shortlist in under two minutes, factoring in current-week hours, FLSA overtime threshold proximity, and shift competency requirements. A nurse manager can identify, call, and confirm a replacement before she leaves the nurses station.
 
 CMS §485.635 staffing documentation is logged automatically throughout each schedule cycle. Pre-survey prep that previously required assembling records from spreadsheets now takes under 30 minutes.
 

@@ -9,7 +9,7 @@ excerpt: >
   infrastructure, dedicated scheduling staff, and months-long implementation timelines
   that critical access hospitals don't have. Here's what CAHs actually need and
   why purpose-built tools consistently outperform enterprise platforms at the 25-bed scale.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1543269865-4430f94492d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - hospital-staff-scheduling-software
@@ -194,7 +194,7 @@ The comparison matters because CAH administrators often evaluate enterprise plat
 
 SimpleScheduleAI is a managed hospital staff scheduling service purpose-built for critical access hospitals. There is no IT integration, no configuration project, and no learning curve for the nurse manager.
 
-The workflow: upload your existing Excel roster, our scheduling specialist configures your facility's rules and compliance parameters in 3 to 5 business days, and from that point you receive AI-drafted schedule options each cycle for your review and approval.
+The workflow: upload your existing Excel roster, our scheduling specialist configures your facility's rules and compliance requirements in 3 to 5 business days, and from that point you receive AI-drafted schedule options each cycle for your review and approval.
 
 When a nurse calls out, the ranked callout shortlist is available immediately. The nurse manager contacts the top-ranked available nurse rather than running a phone tree.
 

@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is Clinical Scheduling and How Does It Differ from Nurse Scheduling?'
 excerpt: >
   Clinical scheduling is the process of coordinating when clinical staff, nurses, physicians, allied health professionals, and technicians, are available to deliver patient care. For critical access hospitals, clinical scheduling spans multiple care settings and requires compliance tracking, credential verification, and real-time callout management.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - clinical-scheduling

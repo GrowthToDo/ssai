@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Nurse Schedule Maker: Building Schedules That Reduce Burnout'
 excerpt: >
   A nurse schedule maker automates shift assignments and rotation patterns to distribute workload fairly across staff. At critical access hospitals, how you build a schedule directly determines whether nurses experience sustainable work patterns or the cumulative fatigue that leads to turnover costing an average of $52,350 per departing RN.
-image: https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1535615615789-c45df800ec59?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -22,7 +22,7 @@ Nurse burnout isn't just a morale problem, it's a financial one. The [NSI 2024 N
 
 ## What is a nurse schedule maker?
 
-A nurse schedule maker is any tool, from a paper template to an AI-assisted platform, that helps build a staffing schedule that covers all required shifts while respecting nurse availability, certifications, and fairness constraints. The goal is a schedule that meets patient care minimums without burning out the staff doing the work.
+A nurse schedule maker is any tool, from a paper template to an AI-assisted platform, that helps build a staffing schedule that covers all required shifts while respecting nurse availability, certifications, and fair distribution rules. The goal is a schedule that meets patient care minimums without burning out the staff doing the work.
 
 A good nurse schedule maker doesn't just fill slots, it distributes shifts with some logic behind the distribution. Who worked last weekend? Who has been on night shifts for three consecutive weeks? Who is approaching their overtime threshold? These questions are the difference between a schedule that merely works on paper and one that holds up when real people show up, or don't.
 

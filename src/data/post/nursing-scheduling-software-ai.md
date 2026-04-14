@@ -193,7 +193,7 @@ One honest limitation: the AI optimization improves over time as the system accu
 AI-assisted nurse scheduling uses machine learning to generate optimal draft schedules from a set of constraints (coverage requirements, certifications, overtime rules, fairness parameters), rank callout replacements by multiple criteria simultaneously, and identify overtime risk proactively. The nurse manager reviews and approves AI-generated outputs; final decisions remain human.
 
 **Can AI scheduling replace a nurse manager?**
-No. AI handles the mechanical optimization work: constraint satisfaction, ranked lists, overtime tracking. Clinical judgment about individual nurses, patient care requirements, and situational exceptions requires human experience. AI scheduling should eliminate administrative work, not clinical decision-making.
+No. AI handles the mechanical optimization work: coverage math, ranked lists, overtime tracking. Clinical judgment about individual nurses, patient care requirements, and situational exceptions requires human experience. AI scheduling should eliminate administrative work, not clinical decision-making.
 
 **How accurate is AI nurse scheduling for small hospitals?**
 Accuracy improves with data quality and calibration period. For critical access hospitals with clean roster data and a 2 to 4 week calibration period, AI scheduling consistently produces draft schedules that require minimal manual adjustment. Initial cycles require more review; later cycles require less.

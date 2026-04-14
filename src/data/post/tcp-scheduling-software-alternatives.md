@@ -9,7 +9,7 @@ excerpt: >
   small healthcare settings. But G2 and Capterra reviews consistently flag the same problems:
   too many clicks to build a schedule, steep learning curve, and declining support quality
   since the TCP acquisition. Here are the alternatives worth evaluating.
-image: https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1574158622682-e719686f4d7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software
@@ -238,4 +238,4 @@ Enterprise platforms like UKG and API Healthcare offer EHR integration. Most mid
 
 **What is the biggest scheduling compliance risk with TCP at a critical access hospital?**
 
-Configuration errors. TCP's overtime rules, certification constraints, and minimum staffing minimums all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that configuration burden falls entirely on the nurse manager -- and a misconfigured system produces errors that surface at payroll or during a CMS survey.
+Configuration errors. TCP's overtime rules, credential requirements, and minimum staffing minimums all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that configuration burden falls entirely on the nurse manager -- and a misconfigured system produces errors that surface at payroll or during a CMS survey.

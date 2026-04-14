@@ -9,7 +9,7 @@ excerpt: >
   the most feature-rich platform -- it is the one your team will actually use and that fits
   your compliance requirements. This guide compares five real options on cost, CAH fit, and
   implementation burden.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
@@ -174,7 +174,7 @@ The total cost calculation includes more than the subscription fee:
 
 **Subscription or service cost.** Self-serve SaaS platforms typically run $200-$600 per month for a 15-25 nurse team. Managed services are quote-based. Both categories are substantially less than the estimated $26,000 per year in manager time that manual scheduling consumes at $50/hour loaded rate.
 
-**Configuration cost.** Self-serve software requires someone to configure scheduling rules, enter staff profiles, and set up compliance parameters. For a nurse manager doing this without IT support, budget 20-40 hours of setup time. A managed service handles this as part of onboarding.
+**Configuration cost.** Self-serve software requires someone to configure scheduling rules, enter staff profiles, and set up compliance requirements. For a nurse manager doing this without IT support, budget 20-40 hours of setup time. A managed service handles this as part of onboarding.
 
 **Training cost.** Any new system requires staff orientation. Simple scheduling apps may need 1-2 hours per person; more complex platforms may require formal training sessions.
 

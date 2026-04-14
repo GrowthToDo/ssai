@@ -9,7 +9,7 @@ excerpt: >
   and operates. A managed scheduling service runs the scheduling function for you. For a
   critical access hospital with no dedicated scheduling staff, the operating model difference
   matters more than the feature list.
-image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software
@@ -53,7 +53,7 @@ A managed scheduling service changes the operating model. Instead of software yo
 With SimpleScheduleAI:
 
 - A scheduling specialist handles initial setup from your Excel roster upload (3-5 days)
-- The specialist builds draft schedule options each cycle, checking overtime thresholds and certification constraints before presenting drafts
+- The specialist builds draft schedule options each cycle, checking overtime thresholds and credential requirements before presenting drafts
 - The nurse manager reviews draft schedules and approves or requests adjustments
 - Callout coverage shortlists come pre-ranked by certification, overtime status, and availability
 - Every change is automatically logged for [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail

@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Why Nurse Scheduling Software Is Hard to Configure (and What to Do About It)'
 excerpt: >
   Configuration complexity is the most common reason nurse scheduling software fails at small hospitals. Reviews of TCP, QGenda, SmartLinx, and Deputy show the same pattern: the software can handle the requirements, but the nurse manager cannot absorb the setup burden on top of clinical responsibilities. Here is what the configuration gap looks like and how to work around it.
-image: https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1625134673337-519d4d10b313?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
@@ -18,7 +18,7 @@ metadata:
 
 ## TL;DR
 
-Nurse scheduling software is hard to configure because it requires encoding hospital-specific knowledge, unit rules, certification constraints, overtime policies, and shift patterns, into a platform interface before the first schedule can be built. At a critical access hospital with no IT department and a nurse manager already at capacity, this setup burden is a real barrier. The practical alternatives are platforms with minimal configuration requirements or a managed service where the specialist handles configuration entirely.
+Nurse scheduling software is hard to configure because it requires encoding hospital-specific knowledge, unit rules, credential requirements, overtime policies, and shift patterns, into a platform interface before the first schedule can be built. At a critical access hospital with no IT department and a nurse manager already at capacity, this setup burden is a real barrier. The practical alternatives are platforms with minimal configuration requirements or a managed service where the specialist handles configuration entirely.
 
 ## Why Scheduling Software Configuration Is Different from Other Software
 
@@ -47,7 +47,7 @@ Based on user reviews across the major nurse scheduling platforms:
 
 **SmartLinx:** Reviewers cite "complex setup due to numerous features" as a consistent complaint. The platform is healthcare-specific and capable, but the configuration overhead is significant. Multiple users describe resorting to spreadsheets for reporting because configuring the platform's reporting features is too time-consuming.
 
-**Deputy (healthcare use):** Configuration is faster than healthcare-specific platforms, but Deputy is a generic scheduling tool. Its setup doesn't require encoding certification constraints because it doesn't support them. Faster configuration, but you're building a less capable system.
+**Deputy (healthcare use):** Configuration is faster than healthcare-specific platforms, but Deputy is a generic scheduling tool. Its setup doesn't require encoding credential requirements because it doesn't support them. Faster configuration, but you're building a less capable system.
 
 The pattern across all self-serve platforms: the software can handle the requirements, but the nurse manager must do the work of encoding those requirements before the software is useful.
 
@@ -77,7 +77,7 @@ The consequences of misconfiguration range from inconvenient to serious:
 
 **Option 1: Platforms with minimal setup requirements.**
 
-Some scheduling tools require less initial configuration because they support fewer features. Generic tools like When I Work or Homebase are fast to set up but do not support certification constraints or CMS audit trail documentation. The trade-off is speed of setup vs. compliance coverage.
+Some scheduling tools require less initial configuration because they support fewer features. Generic tools like When I Work or Homebase are fast to set up but do not support credential requirements or CMS audit trail documentation. The trade-off is speed of setup vs. compliance coverage.
 
 **Option 2: Implementation services from the vendor.**
 
@@ -107,7 +107,7 @@ Incomplete or drifting configuration. A platform that is not kept current does n
 
 **Q: Is it faster to configure a generic scheduling tool vs. a healthcare-specific tool?**
 
-Yes, because generic tools do not support certification constraints, CMS documentation settings, or clinical callout logic. There is less to configure because the features do not exist. For a clinic with simple scheduling needs, this is acceptable. For a hospital with [CMS Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requirements, generic tools create the compliance burden they do not eliminate.
+Yes, because generic tools do not support credential requirements, CMS documentation settings, or clinical callout logic. There is less to configure because the features do not exist. For a clinic with simple scheduling needs, this is acceptable. For a hospital with [CMS Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requirements, generic tools create the compliance burden they do not eliminate.
 
 ## Key Takeaways
 

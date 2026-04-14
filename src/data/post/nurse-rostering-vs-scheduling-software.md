@@ -9,7 +9,7 @@ excerpt: >
   availability pools. Nurse scheduling software assigns those people to specific shifts.
   For critical access hospitals, the distinction matters because most tools market themselves
   as one while doing less of the other than you would expect.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-rostering

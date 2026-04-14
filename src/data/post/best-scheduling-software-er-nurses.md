@@ -10,7 +10,7 @@ excerpt: >
   charge nurse requirements, and callout events that cannot wait for open-shift posting.
   This guide reviews eight platforms on ER-specific scheduling fit for community and critical
   access hospitals.
-image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1588773846629-58d3d7f7f4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

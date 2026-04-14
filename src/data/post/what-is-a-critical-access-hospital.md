@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is a Critical Access Hospital? Definition, Requirements, and Benefits'
 excerpt: >
   A critical access hospital (CAH) is a CMS-designated rural hospital with 25 or fewer acute care beds, located at least 35 miles from the nearest hospital, providing 24-hour emergency care year-round. CAHs receive cost-based Medicare reimbursement, a significant financial benefit unavailable to standard hospitals. Approximately 1,350 CAHs exist across the US, including 84 in Texas.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary
