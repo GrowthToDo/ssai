@@ -9,7 +9,7 @@ excerpt: >
   scheduling service runs the scheduling function for you. For a critical access hospital with
   no dedicated scheduling staff, the choice between them comes down to how much scheduling work
   your nurse manager can actually sustain.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - shiftwizard
@@ -213,4 +213,4 @@ This hybrid can work in theory, but it creates two sources of truth for schedule
 
 **What is the biggest risk with the self-serve model at a small hospital?**
 
-Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors that surface at payroll or during a CMS survey. Overtime rules, certification constraints, and minimum staffing requirements all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that maintenance burden falls entirely on the nurse manager.
+Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors that surface at payroll or during a CMS survey. Overtime rules, credential requirements, and minimum staffing requirements all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that maintenance burden falls entirely on the nurse manager.

@@ -25,7 +25,7 @@ metadata:
 - An island shift is a single scheduled workday with days off on both sides. For night nurses, it forces a complete sleep-cycle disruption twice: once to work the island shift, once to recover from it.
 - Island shifts are almost always a scheduling artifact, not an operational requirement. They appear when a schedule is built shift-by-shift rather than in blocks, and they concentrate in the parts of the schedule that were hardest to fill.
 - The [American Nurses Association](https://www.nursingworld.org/practice-policy/work-environment/health-safety/nurse-fatigue/) links irregular shift patterns, including isolated single shifts, to increased nurse fatigue, error rates, and voluntary turnover.
-- At a 25-bed CAH with 15-20 nurses, eliminating island shifts from the schedule typically requires two things: building schedules in rotation blocks rather than individual shift assignments, and applying a consecutive-shift minimum rule that prevents single-shift insertions.
+- At a 25-bed CAH with 15-20 nurses, eliminating island shifts from the schedule typically requires two things: building schedules in rotations rather than filling individual shifts, and applying a minimum days-between-shifts rule that prevents single-shift insertions.
 - Island shifts in callout-fill scheduling are harder to eliminate but can be reduced by filtering the callout replacement list to prioritize nurses who are already mid-rotation.
 
 ## Table of Contents
@@ -102,7 +102,7 @@ The cumulative effect on retention is also well-documented. Nurses who experienc
 
 ## Why Do Island Shifts Appear in CAH Schedules?
 
-Island shifts appear in CAH schedules for two reasons: manual schedules are built by filling individual shifts rather than by assigning rotation blocks, and night shift gaps are the last to be filled because they are the least desirable.
+Island shifts appear in CAH schedules for two reasons: manual schedules are built by filling individual shifts rather than by building rotations, and night shift gaps are the last to be filled because they are the least desirable.
 
 When a nurse manager builds a six-week schedule in Excel, the typical process is to start with the easy fills: experienced nurses who have regular patterns, staff with stated preferences that match the high-demand day shifts. As the schedule fills, the remaining gaps are nights and weekends. The manager fills those by inserting available nurses into the open slots, often without looking at the full pattern of days off and days on for each nurse around the insertion.
 
@@ -112,11 +112,11 @@ A second cause is callout fill. When a nurse calls out of a night shift and the 
 
 ## How Do You Eliminate Island Shifts from a Rotation Schedule?
 
-Eliminating island shifts from a rotation schedule requires two things: building schedules in rotation blocks rather than individual shift assignments, and applying a consecutive-shift minimum rule that flags single-shift insertions before the schedule is posted.
+Eliminating island shifts from a rotation schedule requires two things: building schedules in rotations rather than filling individual shifts, and applying a minimum days-between-shifts rule that flags single-shift insertions before the schedule is posted.
 
-Building in rotation blocks means assigning each nurse to a pattern, such as three nights on, four nights off, rather than filling individual nights as they appear open. Block-based scheduling naturally prevents island shifts because the assignment is the block, not the individual shift. An island shift cannot exist within a block rotation.
+Building in rotations means assigning each nurse to a pattern, such as three nights on, four nights off, rather than filling individual nights as they appear open. Block-based scheduling naturally prevents island shifts because the assignment is the block, not the individual shift. An island shift cannot exist within a block rotation.
 
-The consecutive-shift minimum rule is a backup for cases where block rotation breaks down: callout fills, leave coverage, and partial-week assignments. The rule flags any assignment where a nurse is scheduled for one shift surrounded by two or more days off on each side. The scheduler sees the flag before the schedule is posted and can decide whether the coverage need outweighs the fatigue cost, or whether a different nurse can cover the gap with less disruption to her rotation.
+The minimum days-between-shifts rule is a backup for cases where rotation breaks down: callout fills, leave coverage, and partial-week assignments. The rule flags any single-shift assignment surrounded by two or more days off on each side. The scheduler sees the flag before the schedule is posted and can decide whether the coverage need outweighs the fatigue cost, or whether a different nurse can cover the gap with less disruption to her rotation.
 
 At a CAH building schedules manually, both of these practices require discipline that is easy to skip when the manager is filling gaps under time pressure. A scheduling system that enforces the minimum rule automatically and builds from rotation patterns by default removes the discipline requirement from the individual build process.
 
@@ -150,11 +150,11 @@ A ranked callout shortlist that factors in rotation position alongside availabil
 
 ## How SimpleScheduleAI Handles Island Shift Prevention
 
-SimpleScheduleAI flags consecutive-shift violations as soft violations in the generated schedule. A single-shift insertion surrounded by rest days on both sides appears in the violations panel with the affected nurse listed and the specific pattern described. The manager sees the flag before approving the schedule and can decide whether to adjust the assignment.
+SimpleScheduleAI flags single-shift insertions as schedule warnings in the generated schedule. A single-shift insertion surrounded by rest days on both sides appears in the violations panel with the affected nurse listed and the specific pattern described. The manager sees the flag before approving the schedule and can decide whether to adjust the assignment.
 
-For callout fill, the ranked replacement shortlist factors rotation position alongside availability, credentials, and overtime status. Nurses who are already working or starting a block rank above nurses who are mid-recovery, all else being equal. The manager still makes the final call, but the list surfaces the rotation-aware option at the top rather than burying it.
+For callout fill, the replacement shortlist factors rotation position alongside availability, credentials, and overtime status. Nurses who are already working or starting a block rank above nurses who are mid-recovery, all else being equal. The manager still makes the final call, but the list surfaces the rotation-aware option at the top rather than burying it.
 
-One limitation: the consecutive-shift flag is a soft violation, not a hard block. If coverage requirements are tight and no better option exists, the manager can approve a schedule with an island shift. The system flags it; the human decides. At a 25-bed CAH where staff depth is limited, some island shifts during peak callout periods may be unavoidable. The goal is to eliminate the ones that are scheduling artifacts, not the ones that reflect genuine coverage constraints.
+One limitation: the consecutive-shift flag is a warning, not a hard stop. If coverage requirements are tight and no better option exists, the manager can approve a schedule with an island shift. The system flags it; the human decides. At a 25-bed CAH where staff depth is limited, some island shifts during peak callout periods may be unavoidable. The goal is to eliminate the ones that are scheduling artifacts, not the ones that reflect genuine coverage needs.
 
 For more on how [critical access hospital scheduling](/critical-access-hospital-scheduling) handles coverage requirements and compliance at small hospitals, that guide covers the full operational context. For a comparison of scheduling approaches and what CAH-appropriate [nurse scheduling software](/nurse-scheduling-software) should enforce, see the feature guide.
 
@@ -168,7 +168,7 @@ For more on how [critical access hospital scheduling](/critical-access-hospital-
 
 **Q: What is an island shift in nursing?**
 
-An island shift is a single scheduled workday surrounded by days off on both sides. The nurse works one isolated shift that is not part of a consecutive rotation block. Island shifts are most common in night shift schedules at small hospitals and are almost always a scheduling artifact rather than an operational requirement. They are particularly damaging for night nurses because the sleep-cycle cost is incurred twice: once to work the shift, once to recover from it.
+An island shift is a single scheduled workday surrounded by days off on both sides. The nurse works one isolated shift that is not part of a consecutive rotation. Island shifts are most common in night shift schedules at small hospitals and are almost always a scheduling artifact rather than an operational requirement. They are particularly damaging for night nurses because the sleep-cycle cost is incurred twice: once to work the shift, once to recover from it.
 
 **Q: How many days off between shifts is too few for a night nurse?**
 
@@ -176,11 +176,11 @@ The [NIOSH guidelines on shift work](https://www.cdc.gov/niosh/topics/workschedu
 
 **Q: Can you completely eliminate island shifts at a 25-bed hospital?**
 
-In the base schedule, yes, island shifts can be eliminated by building from rotation blocks and applying a consecutive-shift minimum rule. In callout fill, island shifts are harder to eliminate completely because staff depth is limited and coverage needs are immediate. The realistic goal is to eliminate the scheduling-artifact island shifts while minimizing the callout-fill island shifts by prioritizing rotation-aware replacements.
+In the base schedule, yes, island shifts can be eliminated by building from rotations and applying a minimum days-between-shifts rule. In callout fill, island shifts are harder to eliminate completely because staff depth is limited and coverage needs are immediate. The realistic goal is to eliminate the scheduling-artifact island shifts while minimizing the callout-fill island shifts by prioritizing rotation-aware replacements.
 
 **Q: Do island shifts count as a scheduling violation?**
 
-Island shifts are not a hard regulatory violation under CMS Conditions of Participation or Texas DSHS standards, which govern minimum staffing levels rather than shift pattern design. They are a soft violation in scheduling quality terms: a pattern that does not meet best practices for nurse fatigue prevention and that increases turnover risk over time. Some nursing union contracts specify minimum consecutive-day rules that would make certain island shift patterns a contractual violation.
+Island shifts are not a hard regulatory violation under CMS Conditions of Participation or Texas DSHS standards, which govern minimum staffing levels rather than shift pattern design. They are a scheduling quality concern — a pattern that does not meet best practices for nurse fatigue prevention and that increases turnover risk over time. Some nursing union contracts specify minimum consecutive-day rules that would make certain island shift patterns a contractual violation.
 
 **Q: How do you tell a nurse that her schedule has an island shift without making it worse?**
 

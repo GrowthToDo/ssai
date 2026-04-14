@@ -24,9 +24,9 @@ metadata:
 
 - An AI-generated schedule is not making judgment calls. It is optimizing for measurable constraints: coverage, overtime limits, credential requirements, and shift distribution. What it cannot do is understand personal circumstances, unit culture, or informal agreements the manager has with specific staff.
 - The right question is not "do I trust the AI?" It is "can I verify what the AI produced before I post it?" A schedule that cannot be audited by the manager reviewing it should not be posted.
-- Three things to check on any AI-generated schedule before posting: hard rule compliance (no unqualified assignments, no overtime violations), fairness distribution (weekend and night load per nurse relative to FTE), and preference match rate (what percentage of stated preferences were honored).
+- Three things to check on any AI-generated schedule before posting: basic coverage check (no unqualified assignments, no overtime violations), fairness distribution (weekend and night load per nurse relative to FTE), and shift preference fulfillment (what percentage of stated preferences were honored).
 - The nurse manager retains full authority. An AI-generated schedule is a draft, not a decision. The manager reviews, adjusts, and approves. Every change is logged.
-- Staff skepticism about AI scheduling is legitimate and worth addressing directly. The answer is transparency: show nurses how the schedule was scored, what the fairness metrics are, and that every assignment is reviewable.
+- Staff skepticism about AI scheduling is legitimate and worth addressing directly. The answer is transparency: show nurses how the schedule was scored, how shifts were distributed fairly, and that every assignment is reviewable.
 
 ## Table of Contents
 
@@ -48,15 +48,15 @@ The answer starts with understanding what an AI scheduling system actually does,
 
 Nurse skepticism about AI scheduling comes from a reasonable concern: that a system operating on rules and data will miss the human context that makes a schedule workable on an actual nursing floor. That concern is partially correct, which is why dismissing it does not help.
 
-What nurses are really asking is whether the person responsible for the schedule is still making the decisions, or whether an algorithm has taken over. The honest answer is that the manager is still making every final decision. What the algorithm does is the construction work: generating draft options that satisfy coverage requirements, compliance rules, and fairness constraints. The manager reviews those options and approves one. If something in the draft does not reflect unit reality, she adjusts it before posting.
+What nurses are really asking is whether the person responsible for the schedule is still making the decisions, or whether an algorithm has taken over. The honest answer is that the manager is still making every final decision. What the algorithm does is the construction work: generating draft options that satisfy coverage requirements, compliance rules, and fairness goals. The manager reviews those options and approves one. If something in the draft does not reflect unit reality, she adjusts it before posting.
 
 [ANA research on nurse autonomy and scheduling](https://www.nursingworld.org/practice-policy/workforce/) consistently shows that nurses accept scheduling changes more readily when they understand the rationale and have a recognized channel to raise concerns. Transparency about how the schedule was built matters as much as the schedule itself.
 
 ## What Does an AI Scheduling System Actually Optimize For?
 
-An AI scheduling system optimizes for measurable constraints applied consistently across the entire schedule. At a well-designed system, those constraints include shift coverage requirements (minimum staffing per shift type), credential and competency matching (who can work which unit), overtime limits (hours per week per nurse), rest requirements (minimum time between shifts), and fairness metrics (weekend and holiday distribution relative to FTE and prior cycle load).
+An AI scheduling system optimizes for measurable requirements applied consistently across the entire schedule. At a well-designed system, those requirements include shift coverage requirements (minimum staffing per shift type), credential and competency matching (who can work which unit), overtime limits (hours per week per nurse), rest requirements (minimum time between shifts), and fairness tracking (weekend and holiday distribution relative to FTE and prior cycle load).
 
-The output is a schedule that satisfies all hard rules and scores as well as possible on the softer metrics. It does not produce a perfect schedule. It produces a schedule that is better on measurable fairness dimensions than what most manual processes produce, because it applies the same rules to every nurse without the informal shortcuts that accumulate in manually built schedules.
+The output is a schedule that meets all coverage requirements and scores as well as possible on the softer measures. It does not produce a perfect schedule. It produces a schedule that is better on measurable fairness measures than what most manual processes produce, because it applies the same rules to every nurse without the informal shortcuts that accumulate in manually built schedules.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="What an AI scheduling system optimizes for versus what it cannot assess">
   <title>AI Scheduling: What It Optimizes For vs. What It Cannot Assess</title>
@@ -80,23 +80,23 @@ The output is a schedule that satisfies all hard rules and scores as well as pos
 
 ## What Can an AI Scheduling System Not Do?
 
-An AI scheduling system cannot account for context that was not entered. If a nurse has a standing informal arrangement with the manager about a specific day, and that arrangement is not captured in the system as a preference or constraint, the system does not know about it. The draft schedule may violate that arrangement, and the manager needs to catch that during review.
+An AI scheduling system cannot account for context that was not entered. If a nurse has a standing informal arrangement with the manager about a specific day, and that arrangement is not entered in the system as a preference or scheduling rule, the system does not know about it. The draft schedule may violate that arrangement, and the manager needs to catch that during review.
 
 It also cannot assess unit culture, interpersonal dynamics, or the qualitative dimensions of team composition. Putting two strong personalities on the same night shift may be technically compliant but operationally unwise. That judgment belongs to the manager, not the algorithm.
 
-These are not failures of AI scheduling. They are the reason why the manager reviews and approves every schedule before it is posted. The system handles the work that does not require that judgment: the constraint satisfaction, the fairness math, the coverage arithmetic. The manager handles the work that does.
+These are not failures of AI scheduling. They are the reason why the manager reviews and approves every schedule before it is posted. The system handles the work that does not require that judgment: the coverage requirements, the fairness math, the scheduling arithmetic. The manager handles the work that does.
 
 The important distinction for staff is this: an AI-generated schedule is a draft produced by a process that applies the same rules to everyone. A manually built schedule is a draft produced by a human who has informal shortcuts, relationships, and cognitive biases that may or may not be applied consistently. Both require review. The AI version is more auditable because the rules that produced it are visible.
 
 ## How Do You Audit an AI-Generated Schedule Before Posting It?
 
-Auditing an AI-generated schedule before posting requires checking three things: hard rule compliance, fairness distribution, and preference match rate. A schedule that passes all three is ready to post. A schedule with gaps in any of the three requires adjustment before it goes out.
+Auditing an AI-generated schedule before posting requires checking three things: coverage compliance, fairness distribution, and shift preference fulfillment. A schedule that passes all three is ready to post. A schedule with gaps in any of the three requires adjustment before it goes out.
 
-**Hard rule compliance** means verifying that no shift has an unqualified assignment, no nurse exceeds her overtime limit, and no nurse has less than the minimum required rest time between shifts. A well-designed system flags these violations directly. The manager does not need to find them manually — she needs to confirm that none exist, or address the ones that do.
+**Coverage compliance** means verifying that no shift has an unqualified assignment, no nurse exceeds her overtime limit, and no nurse has less than the minimum required rest time between shifts. A well-designed system flags these issues directly. The manager does not need to find them manually — she needs to confirm that none exist, or address the ones that do.
 
 **Fairness distribution** means looking at how weekend and night shifts are distributed across the team. The number to check is not absolute hours: it is each nurse's undesirable shift load relative to her FTE and her load from prior cycles. A nurse working 0.5 FTE should be carrying roughly half the weekend load of a full-time nurse. A nurse who worked the last three holiday weekends should be lower in the queue for this cycle.
 
-**Preference match rate** is the percentage of stated shift preferences that were honored in the draft. No schedule can honor every preference, because some preferences conflict with coverage requirements. But a preference match rate below 60 to 70 percent is worth examining: it usually indicates a coverage gap that is being resolved by overriding preferences rather than by scheduling additional staff.
+**Shift preference fulfillment** is the percentage of stated shift preferences that were honored in the draft. No schedule can honor every preference, because some preferences conflict with coverage requirements. But a fulfillment rate below 60 to 70 percent is worth examining: it usually indicates a coverage gap that is being resolved by overriding preferences rather than by scheduling additional staff.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Three-step audit checklist for an AI-generated nurse schedule before posting">
   <title>AI Schedule Audit Checklist: Three Things to Check Before Posting</title>
@@ -105,7 +105,7 @@ Auditing an AI-generated schedule before posting requires checking three things:
   <rect x="20" y="44" width="214" height="136" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
   <rect x="20" y="44" width="214" height="36" fill="#2563eb" rx="8"/>
   <rect x="20" y="68" width="214" height="12" fill="#2563eb"/>
-  <text x="127" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Step 1: Hard Rule Check</text>
+  <text x="127" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Step 1: Coverage Check</text>
   <text x="127" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">No unqualified assignments</text>
   <text x="127" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">No overtime violations</text>
   <text x="127" y="136" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Minimum rest honored</text>
@@ -132,13 +132,13 @@ Auditing an AI-generated schedule before posting requires checking three things:
 
 Addressing staff skepticism about AI scheduling requires three things: an honest explanation of what the system does, a clear statement of who has final authority, and a visible channel for raising concerns about specific assignments.
 
-The explanation should be direct. The system generates a draft based on coverage requirements, compliance rules, and fairness metrics. The manager reviews and approves the draft before it is posted. Every assignment is adjustable. The system does not post anything without manager approval.
+The explanation should be direct. The system generates a draft based on coverage requirements, compliance rules, and how shifts were distributed. The manager reviews and approves the draft before it is posted. Every assignment is adjustable. The system does not post anything without manager approval.
 
 The authority statement matters because the most common fear is that the algorithm has replaced the manager's judgment. It has not. The manager reviews every assignment, makes changes where needed, and approves the final schedule. If a specific assignment does not make sense for reasons the system cannot see, the manager changes it.
 
 The concern channel matters because some nurses will have legitimate objections to specific assignments that were not captured in their stated preferences. A clear process for raising those objections, reviewed by the manager before the schedule is finalized, handles the edge cases that transparency alone does not resolve.
 
-What does not work is asking nurses to trust a system they cannot see. Showing the fairness scores, explaining the hard rule checks, and acknowledging the limitations honestly builds more acceptance than any amount of reassurance.
+What does not work is asking nurses to trust a system they cannot see. Showing the fairness scores, explaining the coverage checks, and acknowledging the limitations honestly builds more acceptance than any amount of reassurance.
 
 ## How SimpleScheduleAI Handles Transparency and Manager Control
 
@@ -146,9 +146,9 @@ SimpleScheduleAI generates three schedule versions each cycle, each scored acros
 
 The nurse manager approves every schedule. The system does not post anything autonomously. If a generated draft has an assignment that does not reflect unit reality, the manager changes it. The log records the change.
 
-For staff who want to understand why their assignments landed the way they did, the soft violations panel shows which constraints shaped the schedule: consecutive weekend penalties, overtime flags, preference mismatches. These are not hidden. The manager can walk a nurse through the scoring for her assignments if the question comes up.
+For staff who want to understand why their assignments landed the way they did, the schedule flags section shows which rules shaped each assignment: consecutive weekend penalties, overtime flags, preference mismatches. These are not hidden. The manager can walk a nurse through the scoring for her assignments if the question comes up.
 
-One limitation worth naming: the system works from the data it has. Informal arrangements that were not entered as preferences or constraints are not visible to the system. Keeping those inputs current is the manager's responsibility. The system applies the rules to the data; the manager ensures the data reflects how the unit actually operates.
+One limitation worth naming: the system works from the data it has. Informal arrangements that were not entered as preferences or scheduling rules are not visible to the system. Keeping those inputs current is the manager's responsibility. The system applies the rules to the data; the manager ensures the data reflects how the unit actually operates.
 
 For the broader context on [critical access hospital scheduling](/critical-access-hospital-scheduling) requirements and compliance, that guide covers what documentation and coverage rules a CAH scheduling system needs to handle. For a full feature comparison, see the [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide.
 
@@ -166,15 +166,15 @@ An AI scheduling system applies the same rules to every nurse in the roster. It 
 
 **Q: Does AI scheduling reduce nurse input into the schedule?**
 
-AI scheduling changes the form of nurse input, not its existence. Instead of claiming shifts in a first-come-first-served window, nurses submit preferences that the system applies subject to coverage requirements and fairness constraints. The output reflects those preferences within the constraints that apply to everyone. Nurses whose preferences are frequently overridden should raise that with the manager, who can review the constraint configuration.
+AI scheduling changes the form of nurse input, not its existence. Instead of claiming shifts in a first-come-first-served window, nurses submit preferences that the system applies subject to coverage requirements and fair distribution rules. The output reflects those preferences within the rules that apply to everyone. Nurses whose preferences are frequently overridden should raise that with the manager, who can review the rule setup.
 
 **Q: Who is responsible if an AI-generated schedule has an error?**
 
-The nurse manager who approved and posted the schedule is responsible. An AI-generated schedule is a draft. The manager reviews and approves it before it affects staff. If an error was present in the draft and was not caught during review, that is a review failure, not a system failure. This is why the three-step audit process matters: hard rule compliance, fairness distribution, and preference match rate should all be verified before any schedule is posted.
+The nurse manager who approved and posted the schedule is responsible. An AI-generated schedule is a draft. The manager reviews and approves it before it affects staff. If an error was present in the draft and was not caught during review, that is a review failure, not a system failure. This is why the three-step audit process matters: coverage compliance, fairness distribution, and shift preference fulfillment should all be verified before any schedule is posted.
 
 **Q: How does AI scheduling handle a nurse who has special circumstances the system does not know about?**
 
-The manager enters relevant constraints as part of setup and updates them as circumstances change. A nurse who cannot work nights for a medical reason, a nurse who has a standing agreement about a specific day, a nurse who is on a modified duty plan: all of these can be captured as constraints or preference entries that the system respects. What the system cannot do is infer circumstances that were never entered. Keeping the input data current is the manager's responsibility.
+The manager enters relevant constraints as part of setup and updates them as circumstances change. A nurse who cannot work nights for a medical reason, a nurse who has a standing agreement about a specific day, a nurse who is on a modified duty plan: all of these can be captured as scheduling rules or preference entries that the system respects. What the system cannot do is infer circumstances that were never entered. Keeping the input data current is the manager's responsibility.
 
 **Q: Is it fair to post an AI-generated schedule without telling nursing staff?**
 

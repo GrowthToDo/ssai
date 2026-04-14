@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is Per Diem Nursing? How It Works in Critical Access Hospitals'
 excerpt: >
   Per diem nursing means working on an as-needed, day-by-day basis without a guaranteed schedule or benefits. Per diem nurses are called to cover shifts when full-time staff are unavailable. They earn a premium above standard base rates, typically 20–30%, in exchange for accepting shift-by-shift uncertainty. For critical access hospitals, a well-managed per diem pool is the primary alternative to expensive agency nurses.
-image: https://images.unsplash.com/photo-1559757175-1b7accd944e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary

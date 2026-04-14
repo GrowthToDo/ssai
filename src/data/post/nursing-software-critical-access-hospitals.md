@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Nursing Software for Critical Access Hospitals: What Actually Works in a 25-Bed Setting'
 excerpt: >
   Nursing software covers a broad category. EHR systems, nurse scheduling software, documentation tools, clinical decision support. For critical access hospitals, the nursing software gap that costs the most time and money is scheduling: nurse managers at 25-bed CAHs spend 8–12 hours per week on administrative scheduling work that purpose-built tools can reduce to 1–2 hours.
-image: https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursing-software

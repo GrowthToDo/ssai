@@ -9,7 +9,7 @@ excerpt: >
   coverage 24 hours a day, 7 days a week, with a roster of 15–25 nurses, no float
   pool, and limited agency access. This guide covers how CAHs build and maintain
   daily coverage without burning out the nurses who hold the schedule together.
-image: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1585842378054-ee2e52f94ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-shift-schedule
@@ -66,7 +66,7 @@ Consistent daily coverage at CAH scale is a scheduling precision problem: you do
 
 **Use on-call coverage strategically.** On-call shifts (where a nurse is available but not on-site unless needed) are appropriate for low-census periods when the CAH's CMS obligation can be met with one in-house RN plus one on call. On-call coverage is significantly cheaper than full scheduled coverage. Most CAHs underuse on-call and overschedule in-house coverage on predictably low-census nights.
 
-**Automate callout replacement to reduce the cost of individual absences.** If covering a callout takes 2–3 hours of phone calls, every callout is a productivity crisis. A ranked replacement shortlist that can be acted on in 10–15 minutes makes individual callouts manageable events rather than emergencies. This allows the overall schedule to be less padded because the response cost of gaps is lower.
+**Automate callout replacement to reduce the cost of individual absences.** If covering a callout takes 2–3 hours of phone calls, every callout is a productivity crisis. A replacement shortlist that can be acted on in 10–15 minutes makes individual callouts manageable events rather than emergencies. This allows the overall schedule to be less padded because the response cost of gaps is lower.
 
 **Separate schedule publication from schedule management.** Publishing the schedule is one step; managing the schedule through the 4–6 week period is the ongoing work. Many CAH managers conflate these, they spend time building the schedule but have no systematic process for managing changes once it's published. Explicit processes for callout handling, change logging, and coverage reconciliation reduce the weekly management burden.
 
@@ -74,7 +74,7 @@ Consistent daily coverage at CAH scale is a scheduling precision problem: you do
 
 SimpleScheduleAI is a managed scheduling service that handles the daily coverage problem at its source: we build the schedule and manage the callout coverage logic, and the nurse manager approves the output.
 
-For each scheduling cycle, the service generates three draft schedule options, balanced, fairness-optimized, and cost-optimized, incorporating Texas overtime rules, per-diem availability, and coverage minimums. When a nurse calls out, the ranked replacement shortlist is available immediately from available, qualified staff.
+For each scheduling cycle, the service generates three draft schedule options, balanced, fairness-optimized, and cost-optimized, incorporating Texas overtime rules, per-diem availability, and coverage minimums. When a nurse calls out, the replacement shortlist is available immediately from available, qualified staff.
 
 Fairness tracking is automatic: the system monitors weekend assignments, night shifts, callout coverage, and overtime per nurse across rolling 6-week periods and flags concentration patterns before they become retention risks.
 
@@ -98,7 +98,7 @@ Predictable callout days (Monday, Friday, pre/post holidays) combined with no pr
 
 **Q: How do you build a nurse shift schedule for a 25-bed hospital?**
 
-Define minimum staffing per shift explicitly. Build the schedule 4 weeks out. Integrate per-diem coverage proactively, not just reactively. Pre-identify the first two callout replacements for each shift before publishing. Track fairness metrics per nurse to prevent burden concentration.
+Define minimum staffing per shift explicitly. Build the schedule 4 weeks out. Integrate per-diem coverage proactively, not just reactively. Pre-identify the first two callout replacements for each shift before publishing. Track fairness measures per nurse to prevent burden concentration.
 
 ## Key Takeaways
 

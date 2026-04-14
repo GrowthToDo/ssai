@@ -9,7 +9,7 @@ excerpt: >
   don't catch threshold violations before the schedule publishes. Redesigning the
   hospital shift schedule process to check overtime proactively, rather than
   reporting it retroactively, is the highest-leverage single change for CAH cost reduction.
-image: https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - hospital-shift-schedule

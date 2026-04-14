@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is a Nurse Manager? Role, Responsibilities, and Scheduling Duties'
 excerpt: >
   A nurse manager is a registered nurse (RN) with management responsibilities over a nursing unit, department, or facility. They oversee clinical staff, manage budgets, ensure regulatory compliance, and own the nurse scheduling process for their unit. At critical access hospitals, the role often includes direct patient care alongside administrative duties, making scheduling one of the largest uncompensated time burdens in the job.
-image: https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1516298773066-c48f8e9bd2b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary

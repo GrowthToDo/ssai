@@ -9,7 +9,7 @@ excerpt: >
   hourly rates, avoiding the 2–3× agency premium that erodes thin CAH margins. This
   guide covers how to build, manage, and schedule a per diem nurse pool that actually
   stays available when you need it.
-image: https://images.unsplash.com/photo-1559757175-1b7accd944e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - per-diem-nursing

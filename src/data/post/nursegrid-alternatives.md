@@ -9,7 +9,7 @@ excerpt: >
   capabilities. Reviewers report app crashes, a non-functional manager app, and no FLSA
   overtime tracking. For critical access hospitals with CMS documentation requirements, these
   gaps matter. Here are the alternatives.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursegrid-alternatives
@@ -183,7 +183,7 @@ What SimpleScheduleAI provides that NurseGrid does not:
 - Proactive [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime flagging before schedules are posted
 - Auto-logged [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail for every change
 - Certification-unit matching with auto-prevention of uncertified assignments
-- Pre-ranked callout shortlists applying certification, overtime, and fairness constraints
+- Pre-ranked callout shortlists applying certification, overtime, and fair distribution rules
 - Setup in 3-5 days via Excel roster upload
 
 **Best fit:** CAHs where compliance coverage and scheduling burden reduction are the primary goals and nurse self-service mobile features are secondary.

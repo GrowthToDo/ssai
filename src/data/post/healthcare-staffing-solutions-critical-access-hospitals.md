@@ -9,7 +9,7 @@ excerpt: >
   small rosters, and no IT or HR department. This guide covers what actually works at the
   25-bed scale, and why the staffing solutions designed for large health systems consistently
   fail to transfer to the CAH context.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - healthcare-staffing
@@ -87,7 +87,7 @@ Four staffing approaches show consistent operational results at critical access 
 
 **2. Managed scheduling service.** Rather than giving the nurse manager scheduling software to operate, a managed scheduling service handles schedule generation, callout coverage shortlists, and compliance documentation. The nurse manager reviews and approves drafts. This approach reduces scheduling time from 8-12 hours per week to 1-2 hours -- a $26,000 annual reduction in misallocated leadership time at a $50/hour rate.
 
-**3. Proactive fairness tracking.** The most common CAH staffing destabilizer is voluntary turnover among reliable nurses who absorb disproportionate overtime, callouts, and undesirable shifts. Average RN turnover cost is approximately $52,000 per nurse (NSI Nursing Solutions data). Tracking fairness metrics explicitly -- weekend assignments, night shifts, callout coverage per nurse -- and distributing burden equitably prevents the pattern that drives high-performer turnover.
+**3. Proactive fairness tracking.** The most common CAH staffing destabilizer is voluntary turnover among reliable nurses who absorb disproportionate overtime, callouts, and undesirable shifts. Average RN turnover cost is approximately $52,000 per nurse (NSI Nursing Solutions data). Tracking fairness measures explicitly -- weekend assignments, night shifts, callout coverage per nurse -- and distributing burden equitably prevents the pattern that drives high-performer turnover.
 
 **4. Cross-training for coverage flexibility.** At the CAH scale, a nurse certified for only one unit is a coverage liability. Systematic cross-training -- even one secondary unit certification per nurse -- significantly expands coverage options during callouts and allows more flexible scheduling overall.
 
@@ -137,7 +137,7 @@ At a CAH, the failure modes are consistent:
 
 **Near-term (months 1-3):** Implement a managed scheduling service that handles draft generation, callout coverage, and compliance logging. Actively recruit 3-4 per-diem nurses to reduce agency dependence. Publish schedules 4 weeks out instead of 2.
 
-**Ongoing:** Track turnover causes explicitly -- exit interviews that ask specifically about scheduling fairness, overtime load, and shift preferences. Review fairness metrics monthly. Recalibrate scheduling rules as the roster changes.
+**Ongoing:** Track turnover causes explicitly -- exit interviews that ask specifically about scheduling fairness, overtime load, and shift preferences. Review fairness measures monthly. Recalibrate scheduling rules as the roster changes.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Built for the CAH Context, Not Retrofitted From Enterprise</h2>

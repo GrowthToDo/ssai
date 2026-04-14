@@ -10,7 +10,7 @@ excerpt: >
   credential enforcement, CMS compliance documentation, automated overtime tracking, and callout
   replacement logic suited to acute care urgency. This guide reviews the five best Deputy
   alternatives for healthcare organizations with clinical scheduling requirements.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1623854755781-4ef58e0d5bfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

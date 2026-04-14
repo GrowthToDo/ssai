@@ -43,7 +43,7 @@ A healthcare scheduling platform is software your team runs: configure it, opera
 
 A healthcare scheduling platform provides the tools; your team provides the time and expertise to operate them. Healthcare scheduling platforms range from enterprise workforce management systems (UKG, API Healthcare) built for health systems to mid-market tools (Aladtec, SmartLinx) designed for smaller healthcare organizations.
 
-What they have in common: the customer configures the system, builds schedules using the platform's interface, and manages day-to-day scheduling work within the platform. The platform automates parts of the process -- it tracks overtime, enforces certification constraints, logs changes -- but a person still operates it.
+What they have in common: the customer configures the system, builds schedules using the platform's interface, and manages day-to-day scheduling work within the platform. The platform automates parts of the process -- it tracks overtime, enforces credential requirements, logs changes -- but a person still operates it.
 
 ## What Enterprise Platforms Assume
 
@@ -211,4 +211,4 @@ Critical access hospitals need scheduling solutions that cover proactive FLSA ov
 
 **What is the biggest risk of choosing a healthcare scheduling platform at a CAH without IT support?**
 
-Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors -- overtime rules set up wrong, certification constraints not enforced, audit trail gaps. At a CAH with no dedicated scheduling coordinator or IT staff, that configuration burden falls entirely on the nurse manager. The errors typically surface at payroll or during a CMS survey.
+Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors -- overtime rules set up wrong, credential requirements not enforced, audit trail gaps. At a CAH with no dedicated scheduling coordinator or IT staff, that configuration burden falls entirely on the nurse manager. The errors typically surface at payroll or during a CMS survey.

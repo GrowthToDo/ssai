@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Nursing Scheduling Software Support: What Happens When Something Goes Wrong at 5am'
 excerpt: >
   The support model for nursing scheduling software matters most at the worst moment: a nurse calls out at 5am before a 7am shift and the scheduling system is not responding. Reviews of Deputy, TCP, and OnShift document slow response times, offshored chat-only support, and bugs that disrupt functionality. Here is what to expect from different support models.
-image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1627873649417-c67f4ea4acd0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursing-scheduling-software
@@ -64,7 +64,7 @@ Some platforms offer phone support, usually during business hours and occasional
 
 ### Managed service support (specialist model)
 
-A managed scheduling service changes the support model fundamentally. Instead of contacting a vendor's generic support team, the nurse manager has a relationship with a specialist who knows her facility's setup: the staff roster, the certification constraints, the unit rules, and the scheduling patterns.
+A managed scheduling service changes the support model fundamentally. Instead of contacting a vendor's generic support team, the nurse manager has a relationship with a specialist who knows her facility's setup: the staff roster, the credential requirements, the unit rules, and the scheduling patterns.
 
 When something goes wrong, the specialist can diagnose and resolve it with context that a generic support agent does not have. There is no ticket queue for issues that the specialist can handle directly as part of the service relationship.
 

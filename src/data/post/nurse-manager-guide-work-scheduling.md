@@ -10,7 +10,7 @@ excerpt: >
   documentation. This guide covers every scheduling responsibility a nurse manager
   owns and the practices that consistently reduce that burden without sacrificing
   schedule quality.
-image: https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-manager
@@ -99,7 +99,7 @@ The callout coverage component is proportionally the most variable and most disr
 
 **End of cycle: Review and prepare**
 
-1. Review fairness metrics: weekend counts, night assignments, callout burden per nurse
+1. Review fairness measures: weekend counts, night assignments, callout burden per nurse
 2. Note imbalances for rebalancing in next cycle
 3. Archive staffing documentation for CMS readiness
 4. Begin collecting next cycle availability

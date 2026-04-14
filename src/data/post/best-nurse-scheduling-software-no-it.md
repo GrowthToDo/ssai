@@ -9,7 +9,7 @@ excerpt: >
   it. Critical Access Hospitals rarely have that person. This guide covers the 8 scheduling
   platforms that work for small hospitals where the nurse manager or administrator is also
   the de facto IT department.
-image: https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1544991936-9464fa43b6c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

@@ -9,7 +9,7 @@ excerpt: >
   UKG is built for large health systems. For a 25-bed Critical Access Hospital, those
   requirements represent a system the facility cannot operate. Here is what actually works
   at CAH scale.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1603398938378-e54eab446dde?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - ukg-alternatives
@@ -23,7 +23,7 @@ metadata:
 ## Key Takeaways
 
 - UKG is a genuinely capable workforce management system. It is designed for large health systems with IT departments, dedicated HRIS staff, and 6-12 month implementation timelines. None of those resources exist at a typical Critical Access Hospital (CAH).
-- The problem with UKG at a CAH is not the cost. It is the operational overhead required to use it correctly. Certification constraints drift. Overtime rules miscalculate. CMS documentation requires manual assembly. The nurse manager ends up doing manual verification on top of a system they cannot trust.
+- The problem with UKG at a CAH is not the cost. It is the operational overhead required to use it correctly. Staff credential requirements drift. Overtime rules miscalculate. CMS documentation requires manual assembly. The nurse manager ends up doing manual verification on top of a system they cannot trust.
 - The alternatives built for CAH scale are Aladtec (self-serve, configurable), SmartLinx (mid-market, healthcare-specific), and SimpleScheduleAI (managed service, zero IT required).
 - The right framing is not "is UKG too expensive?" It is: "is the complexity proportional to the value your facility will actually extract?" At a 25-bed hospital with 18-25 nursing staff, it almost never is.
 - For CAHs currently on UKG through a health system contract, the path off may be constrained by contract terms. Evaluate early termination fees and parallel-run options before switching.
@@ -81,7 +81,7 @@ The result is a tool with enterprise complexity and CAH-scale support.
   <rect x="519" y="78" width="171" height="8" fill="#1e40af"/>
   <text x="605" y="70" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Ongoing Overhead</text>
   <text x="605" y="106" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">OT rules, unit requirements,</text>
-  <text x="605" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">cert constraints all require</text>
+  <text x="605" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">credential requirements all require</text>
   <text x="605" y="134" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">ongoing configuration.</text>
   <text x="605" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Large hospitals have a</text>
   <text x="605" y="172" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">WFM analyst. CAHs</text>
@@ -94,7 +94,7 @@ The result is a tool with enterprise complexity and CAH-scale support.
 
 **The budget.** Implementation costs typically run $150,000-$500,000 before licensing. The ROI calculation that justifies this investment works at a 500-bed system where labor represents tens of millions of dollars annually. At a 25-bed CAH with $400,000-$600,000 in nursing labor, the math rarely works.
 
-**The operational overhead.** Even after a successful implementation, UKG requires ongoing configuration management. Overtime rules, unit staffing requirements, and certification constraints must be kept current. At a large hospital, a workforce management analyst handles this. At a CAH, it falls to the nurse manager on top of her clinical and supervisory responsibilities.
+**The operational overhead.** Even after a successful implementation, UKG requires ongoing configuration management. Overtime rules, unit staffing requirements, and credential requirements must be kept current. At a large hospital, a workforce management analyst handles this. At a CAH, it falls to the nurse manager on top of her clinical and supervisory responsibilities.
 
 ## What UKG Complexity Looks Like in Practice at a CAH
 
@@ -102,7 +102,7 @@ The typical CAH-on-UKG scenario follows a pattern. A regional health system nego
 
 Over time:
 
-- Certification constraints that were set up during implementation drift as staff changes occur, because the nurse manager does not know how to update them
+- Staff credential records set up during implementation drift as staff changes occur, because the nurse manager does not know how to update them
 - Overtime rules that were configured for the health system's standard workweek do not match the CAH's payroll cycle, causing systematic overtime miscalculation
 - Reports built for system-level workforce analytics are not useful for a 15-nurse operation
 - The nurse manager spends time navigating UKG's interface to accomplish tasks that should take minutes
@@ -136,7 +136,7 @@ The scheduling requirements for a CAH are not simple. They are just different fr
 - Proactive overtime tracking before schedules publish (FLSA 8-and-80 rule for healthcare employers)
 - Certification-unit matching to prevent uncertified assignments
 - CMS §485.635 compliant documentation for CAH survey readiness
-- Callout coverage logic that applies clinical credential constraints
+- Callout coverage logic that applies clinical credential requirements
 - Fast implementation without IT infrastructure
 
 These requirements can be met by purpose-built tools at a fraction of UKG's cost and complexity.
@@ -270,7 +270,7 @@ The platform can be configured to use a subset of features, but the underlying c
 
 **What is the minimum viable scheduling tool for a 25-bed CAH?**
 
-At minimum, a 25-bed CAH needs: proactive FLSA 8-and-80 overtime tracking, credential-based shift constraint enforcement, CMS §485.635 documentation, and a callout coverage process that applies clinical constraints. These requirements can be met by Aladtec or SmartLinx with proper configuration, or by SimpleScheduleAI with zero configuration. They cannot be met by generic scheduling tools.
+At minimum, a 25-bed CAH needs: proactive FLSA 8-and-80 overtime tracking, credential-based shift enforcement, CMS §485.635 documentation, and a callout coverage process that applies clinical constraints. These requirements can be met by Aladtec or SmartLinx with proper configuration, or by SimpleScheduleAI with zero configuration. They cannot be met by generic scheduling tools.
 
 **Does Aladtec handle FLSA 8-and-80 overtime correctly for healthcare employers?**
 

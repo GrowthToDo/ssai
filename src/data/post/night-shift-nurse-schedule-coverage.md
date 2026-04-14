@@ -85,7 +85,7 @@ CMS CoP §485.635 requires CAHs to have an RN on duty or on call at all times, i
 
 **Q: Is it better to have permanent night nurses or a rotating schedule?**
 
-Both work; most CAHs use a hybrid. Permanent night nurses are more reliable and lower-burnout risk for the individuals who choose it. Rotating schedules distribute burden more equitably but increase scheduling complexity and per-nurse fatigue. Track fairness metrics explicitly either way.
+Both work; most CAHs use a hybrid. Permanent night nurses are more reliable and lower-burnout risk for the individuals who choose it. Rotating schedules distribute burden more equitably but increase scheduling complexity and per-nurse fatigue. Track fairness measures explicitly either way.
 
 **Q: How do you prevent night shift burnout at a 25-bed hospital?**
 
@@ -93,7 +93,7 @@ Track night shift assignments per nurse over rolling 6-week periods. Set maximum
 
 **Q: What happens if a night shift nurse calls out at 3 AM?**
 
-At most CAHs: the charge nurse or manager runs a manual phone tree for 1–3 hours, often ending in mandatory overtime for a day-shift nurse. With a ranked replacement shortlist, the process is: check the list, call the top-ranked night-eligible available nurse. Typically resolved in under 20 minutes.
+At most CAHs: the charge nurse or manager runs a manual phone tree for 1–3 hours, often ending in mandatory overtime for a day-shift nurse. With a replacement shortlist, the process is: check the list, call the top-ranked night-eligible available nurse. Typically resolved in under 20 minutes.
 
 ## Key Takeaways
 
