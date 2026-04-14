@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'How to Build a Fair Nurse Schedule at a Critical Access Hospital'
+title: 'How to Build a Fair Nurse Schedule at a Small Hospital'
 excerpt: >
   Fair nurse scheduling at a critical access hospital means equal distribution of
   weekends, nights, and holidays across all staff, not just the nurses who always say
@@ -147,7 +147,7 @@ informally via text rather than through a documented process, no tool can enforc
 fairness on unavailable information. The first step is always building a reliable
 availability data collection process.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service, not self-serve software. We handle
 the scheduling work; you approve the result. For fairness specifically, we build your

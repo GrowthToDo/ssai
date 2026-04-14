@@ -4,7 +4,7 @@ updateDate: 2026-04-02T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'The $26,000 Scheduling Burden at Critical Access Hospitals'
 excerpt: >
-  CAH nurse managers spend 10 hours weekly on manual scheduling — a hidden $26,000 annual
+  CAH nurse managers spend 10 hours weekly on manual scheduling, a hidden $26,000 annual
   cost in misallocated leadership time. Five friction points drive this burden, and each
   one is measurably reducible.
 image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
@@ -44,7 +44,7 @@ cost, and each one can be measurably reduced.
 - Version drift across spreadsheets, whiteboards, and portal PDFs creates CMS-surveyable documentation gaps under §485.635
 - Reliable nurses absorb disproportionate overtime under manual scheduling, driving turnover that costs $52,350 per RN departure (NSI 2024)
 - PRN availability coordination adds 2+ hours per scheduling cycle - a hidden cost rarely tracked in scheduling budgets
-- Fairness tracking and an automated callout shortlist are the two highest-leverage interventions for CAH scheduling operations
+- Fairness tracking and an automated replacement list are the two highest-leverage interventions for CAH scheduling operations
 
 ## What Is the Real Cost of Manual Scheduling at a Critical Access Hospital?
 
@@ -224,12 +224,12 @@ More importantly, manual PRN availability tracking creates a coverage blind spot
 If a scheduler does not have a clear view of who is available on short notice, the
 default response to a callout is always the phone tree, always the agency call.
 
-## How SimpleScheduleAI Addresses These Friction Points
+## How Does SimpleScheduleAI Address These Friction Points?
 
 SimpleScheduleAI is a managed scheduling service built for Critical Access Hospitals.
 You keep your Excel roster; we handle the scheduling logic. The system generates
-three draft schedule options (balanced, cost-optimized, and fairness-prioritized),
-builds a ranked callout shortlist when a nurse is unavailable, and maintains a full
+three draft schedule options (balanced, overtime-minimized, and fair-rotation),
+builds a replacement call list when a nurse is unavailable, and maintains a full
 audit trail for every schedule change - so you have documentation if a surveyor asks.
 
 It is not a self-serve software tool. A scheduling specialist handles setup and
@@ -300,7 +300,7 @@ worked. An automated system with a full change log addresses this directly.
 Manual scheduling defaults to calling the most dependable nurses first. Over time,
 those nurses accumulate disproportionate overtime and callout coverage, driving
 voluntary turnover. NSI 2024 data puts average RN replacement cost at $52,350.
-Tracking fairness — who is being called and how often - requires data that
+Tracking fairness (who is being called and how often) requires data that
 manual spreadsheets typically do not capture.
 
 **Q: What is the "shadow salary" in healthcare scheduling?**
@@ -312,7 +312,7 @@ scheduling budget discussions but is very real.
 
 **Q: How does SimpleScheduleAI handle last-minute callouts?**
 
-When a nurse is unavailable, the system generates a ranked callout shortlist based on
+When a nurse is unavailable, the system generates a replacement call list based on
 availability, overtime exposure, and fairness distribution. This replaces the 2-3
 hour manual coordination process with a prioritized list you can act on in minutes.
 

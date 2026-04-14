@@ -163,12 +163,12 @@ does any full-time nurse have more than 2× the weekend shifts of the least-load
 full-time nurse? Does any nurse have more than 2 consecutive night blocks in the same
 period? If yes, revise before posting.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service. We build 12-hour shift schedules
 for critical access hospitals, applying coverage minimums, weekend distribution rules,
 fatigue constraints, and FLSA overtime logic simultaneously, generating three draft
-options (balanced, cost-optimized, fairness-prioritized) for your review.
+options (balanced, overtime-minimized, fair-rotation) for your review.
 
 The fatigue guard rules are part of the scheduling logic: we flag any draft where a
 nurse is assigned more than 3 consecutive shifts or where a night-to-day rotation

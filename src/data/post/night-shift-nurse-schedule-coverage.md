@@ -67,11 +67,11 @@ Automated scheduling enforces night coverage systematically:
 
 **Audit trail for compliance.** Every night shift assignment, callout, and replacement should be logged automatically. This produces the documentation required for CMS survey responses about staffing patterns.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service that builds night coverage constraints directly into the scheduling logic for each facility. When generating schedule drafts, the system distributes night assignments according to the fairness parameters configured during setup, preventing concentration on a small group without explicit manager intervention.
 
-When a night shift nurse calls out, the callout shortlist is generated from night-eligible, available staff, not pulled from whoever is easiest to reach.
+When a night shift nurse calls out, the replacement list is generated from night-eligible, available staff, not pulled from whoever is easiest to reach.
 
 One honest limitation: the quality of night coverage scheduling depends on the size of the night-eligible pool. If a CAH has only 4–5 nurses who can work nights, the system will flag coverage risk accurately but can't create nurse availability that doesn't exist. We're transparent about this during onboarding.
 
@@ -101,7 +101,7 @@ At most CAHs: the charge nurse or manager runs a manual phone tree for 1–3 hou
 - Night shift is hard to fill because of health effects, lifestyle disruption, and the small night-eligible pool at most CAHs
 - Rotating vs permanent night shift: most CAHs use a hybrid; explicit fairness tracking prevents burden concentration in either model
 - Losing 2 night-capable nurses in a quarter is an operational emergency, proactive fairness monitoring is the prevention
-- Automated scheduling prevents night coverage burnout by tracking fairness, generating night-eligible-only callout shortlists, and flagging coverage gaps before the schedule publishes
+- Automated scheduling prevents night coverage burnout by tracking fairness, generating night-eligible-only replacement lists, and flagging coverage gaps before the schedule publishes
 
 ---
 

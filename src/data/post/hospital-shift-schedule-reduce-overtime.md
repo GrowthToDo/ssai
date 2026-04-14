@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Hospital Shift Schedule: How to Design One That Reduces Overtime'
+title: 'Hospital Shift Schedules: How to Reduce Overtime?'
 excerpt: >
   Most hospital overtime isn't random, it's scheduled in advance by managers who
   don't catch threshold violations before the schedule publishes. Redesigning the
@@ -37,7 +37,7 @@ This is preventable: a simple per-nurse weekly hours check before publishing the
 
 When a nurse calls out, the manager contacts whoever is most likely to accept the shift, often the same 3–4 reliable nurses. If those nurses are at 36–38 hours in the workweek, accepting a 12-hour callout shift takes them to 48–50 hours, significant overtime. The callout is covered, but at 1.5× cost.
 
-A ranked callout shortlist that explicitly deprioritizes nurses near the 40-hour threshold reduces overtime from callout coverage significantly. The replacement might be a per-diem nurse or a full-time nurse earlier in their week, with the same or lower total labor cost.
+A replacement call list that explicitly deprioritizes nurses near the 40-hour threshold reduces overtime from callout coverage significantly. The replacement might be a per-diem nurse or a full-time nurse earlier in their week, with the same or lower total labor cost.
 
 **Root Cause 3: Fairness patterns that concentrate burden on a small pool.**
 
@@ -51,9 +51,9 @@ Distributing callout coverage and undesirable shift assignments equitably across
 
 Before the schedule publishes, run a total-hours check per nurse per workweek. Flag any nurse scheduled for more than 36 hours in a workweek (leaving buffer for callout coverage) and adjust before publishing. This is the most reliable overtime prevention mechanism, it operates before the overtime is incurred, not after.
 
-**Principle 2: Use cost-optimized draft options.**
+**Principle 2: Use overtime-minimized draft options.**
 
-If you're generating schedules manually, you're producing one schedule. That schedule reflects your coverage priorities, not necessarily your cost priorities. Evaluating a cost-optimized schedule alternative, one that minimizes projected overtime across the cycle while meeting coverage requirements, allows the manager to choose the tradeoff explicitly. Most manual schedules include preventable overtime because the cost-minimized option is never calculated.
+If you're generating schedules manually, you're producing one schedule. That schedule reflects your coverage priorities, not necessarily your cost priorities. Evaluating a overtime-minimized schedule alternative, one that minimizes projected overtime across the cycle while meeting coverage requirements, allows the manager to choose the tradeoff explicitly. Most manual schedules include preventable overtime because the cost-minimized option is never calculated.
 
 **Principle 3: Separate on-call from scheduled coverage.**
 
@@ -91,7 +91,7 @@ Scheduling software with overtime tracking is proactive: the system flags overti
 
 The financial case: reducing overtime by 15% at a 25-bed CAH with $400K annual nursing labor typically represents $9,000–$15,000 in annual savings. This exceeds the cost of most scheduling software at this scale.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service that makes overtime prevention part of every scheduling cycle. Each draft schedule option includes total scheduled hours per nurse per workweek and flags any nurse at risk of overtime before the draft is presented for approval.
 

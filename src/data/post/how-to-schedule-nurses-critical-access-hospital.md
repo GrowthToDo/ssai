@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-08-11T00:00:00Z
 updateDate: 2026-08-11T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'How to Schedule Nurses at a Critical Access Hospital: A Practical Guide'
+title: 'How to Schedule Nurses at a Small Hospital: A Guide'
 excerpt: >
   Nurse scheduling at a Critical Access Hospital is harder than at a large system.
   You have a thin roster, a dual-role nurse manager, CMS compliance obligations,
@@ -44,7 +44,7 @@ metadata:
 - [What to Do This Week](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## The CAH Scheduling Problem Is Different
+## Why Is the CAH Scheduling Problem Different?
 
 A Critical Access Hospital (CAH) operates under a specific set of constraints that distinguish nurse scheduling from both large-system scheduling and general workforce scheduling.
 
@@ -305,7 +305,7 @@ A schedule that was accurate at build time drifts unless it is actively maintain
 
 **Equitable distribution audit.** Every 4-week cycle, review total hours by nurse, weekend shifts by nurse, and charge hours by charge-qualified nurse. Significant inequities that are not addressed accumulate resentment faster than any other scheduling problem.
 
-## When to Stop Self-Scheduling
+## When to Stop Self-Scheduling?
 
 The seven steps above describe a workable manual scheduling process. They also describe roughly 4-6 hours of work per scheduling cycle when executed by a nurse manager who is also covering clinical shifts.
 
@@ -317,7 +317,7 @@ A managed scheduling service like [SimpleScheduleAI](/) handles steps 1-7 on beh
 
 For a CAH where the nurse manager spends 3+ hours per week on scheduling tasks that do not require clinical judgment -- formatting, overtime checking, callout calculations -- that time is recoverable.
 
-## What to Do This Week
+## What to Do This Week?
 
 1. **Document your hard constraints in writing.** If you do not have a written constraint document, create one this week. It takes 30-45 minutes and prevents scheduling disputes indefinitely.
 
@@ -341,6 +341,8 @@ For a CAH where the nurse manager spends 3+ hours per week on scheduling tasks t
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+## What Should You Do This Week?Pick one section of this guide and apply it this week. If you want to see what automated scheduling looks like for a 25-bed CAH, [explore how SimpleScheduleAI works](/how-it-works) or [start a free 60-day pilot](/pilot).?
 
 ## Frequently Asked Questions
 

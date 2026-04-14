@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Nurse Scheduling Software vs. Excel: When to Make the Switch'
 excerpt: >
   Nurse scheduling software automates shift coverage, compliance checks, and callout management, tasks that consume 8–12 hours of a nurse manager's week in Excel. For critical access hospitals, the hidden cost of staying on spreadsheets often exceeds $26,000 per year in manager time alone.
-image: https://images.unsplash.com/photo-1583168396982-b4de8d07d21c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -64,7 +64,7 @@ Agency nurse costs run [2–3× the standard hourly rate](https://www.aonl.org/r
 
 The comparison often framed as "software cost vs. Excel (free)" misses the point. The real comparison is "total cost of scheduling with software" versus "total cost of scheduling with Excel", which includes manager hours, overtime premiums, agency markups, and compliance risk. When that full picture is on the table, staying on Excel stops looking free.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is not a software platform you configure yourself, it's an AI-assisted managed scheduling service where our team handles the scheduling work, and your nurse manager approves the final schedule. That distinction matters for critical access hospitals that don't have an IT department, a workforce management specialist, or time to implement new software.
 

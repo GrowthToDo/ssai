@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: "Free Nurse Schedule Templates: What Works and What Doesn't"
 excerpt: >
   Free nurse schedule templates give small hospitals a starting point for building weekly rotations without specialized software. But most templates lack the compliance logic, callout handling, and overtime tracking that critical access hospitals need, gaps that become expensive when a survey or a staffing crisis hits.
-image: https://images.unsplash.com/photo-1621498774234-1e4e35f4eec1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
@@ -74,7 +74,7 @@ A free template stops being enough when the cost of managing its limitations exc
 
 Any one of these scenarios is likely to cost more than a year of professional scheduling support. When a template forces 8–12 hours of manager time per week on scheduling work that should take two, the math favors switching. Explore [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) to understand what the alternatives actually cost.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI replaces the template entirely, not with software you configure yourself, but with a managed scheduling service where our team builds the schedule and your nurse manager approves it. We handle the shift logic, rotation tracking, overtime monitoring, and callout coverage suggestions.
 

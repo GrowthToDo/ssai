@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-05-07T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'We Switched Off UKG: What Nobody Tells You About Migration at a 25-Bed Hospital'
+title: 'Switching Off UKG: Migration at a Small Hospital'
 excerpt: >
   Switching off UKG at a small hospital is harder than switching on. The data export is
   messy, the staff re-training window is short, and the vendor support you relied on
@@ -38,7 +38,7 @@ metadata:
 - [What to Look for in the Replacement System](#what-to-look-for-in-replacement)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## Why Small Hospitals End Up on UKG in the First Place
+## Why Small Hospitals End Up on UKG in the First Place?
 
 Most small hospitals that end up on UKG did not select it for their own needs. They inherited it. The most common paths: a Critical Access Hospital joins a health system or rural health network that standardizes on UKG across all facilities, including the 25-bed rural members. Or a CAH administrator hired from a larger system brings the platform they used previously, assuming scale-down is straightforward.
 
@@ -46,7 +46,7 @@ In both cases, the mismatch becomes apparent in the first six months. UKG's impl
 
 The system continues working in the sense that schedules still get built, but it works through brute-force manual effort rather than through the automation it was designed to provide. The nurse manager learns to work around the features they cannot configure, which defeats the purpose of having an enterprise platform at all.
 
-## What Triggers the Decision to Leave
+## What Triggers the Decision to Leave?
 
 The trigger is almost never a single event. It is typically a compound of:
 
@@ -83,7 +83,7 @@ The trigger is almost never a single event. It is typically a compound of:
   <text x="607" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">time) exceeds benefit</text>
 </svg>
 
-## What Nobody Tells You About the UKG Exit Process
+## What Nobody Tells You About the UKG Exit Process?
 
 **The notice requirement triggers immediately.** Most UKG contracts require 30-90 days written notice before the contract end date to avoid automatic renewal. If you send notice one day after the renewal window closes, you have committed to another full contract term. Pull your contract and read the termination section before making any other decisions.
 
@@ -95,7 +95,7 @@ The trigger is almost never a single event. It is typically a compound of:
 
 **The parallel operation period is uncomfortable but mandatory.** Running two systems simultaneously for 30-60 days is expensive and confusing. Do it anyway. A cold cutover where the old system is shut off before the new one is fully operational is how migrations fail.
 
-## The Migration Playbook for a 25-Bed Hospital
+## What Is the Migration Playbook for a 25-Bed Hospital?
 
 **60 days before cutover:**
 
@@ -152,7 +152,7 @@ The trigger is almost never a single event. It is typically a compound of:
   <text x="360" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Never cut over cold. Parallel operation is mandatory. Running two systems for 30 days costs less than a failed cutover.</text>
 </svg>
 
-## What to Do With Your Data
+## What to Do With Your Data?
 
 The two categories of UKG data worth extracting are the nurse roster and the historical schedule record.
 
@@ -162,7 +162,7 @@ The two categories of UKG data worth extracting are the nurse roster and the his
 
 Data you do not need to migrate: most payroll integration configurations, UKG-specific report templates, and any module configurations that are specific to UKG's architecture and will not translate to a different system.
 
-## Staff Communication During the Transition
+## How Do You Handle Staff Communication During the Transition?
 
 The communication failure that kills most small hospital migrations is silence. Nurses hear from their peers that the system is changing, imagine the worst, and build resistance before they have any direct information from management.
 
@@ -170,7 +170,7 @@ Communicate the timeline before you submit notice to UKG, not after. The message
 
 The most effective communication is direct, in person, to charge nurses first. Charge nurses are the informal communication network of the nursing floor. If they understand the reasoning and timeline before the floor staff, they become advocates rather than skeptics.
 
-## What to Look for in the Replacement System
+## What to Look for in the Replacement System?
 
 Small hospitals exiting UKG consistently make the same mistake in selecting a replacement: they evaluate the feature list and discount the implementation experience. A system with fewer features that takes 5 days to implement is better for a 25-bed CAH than a system with more features that takes 6 months.
 

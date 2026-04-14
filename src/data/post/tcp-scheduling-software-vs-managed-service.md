@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-06-06T00:00:00Z
 updateDate: 2026-06-06T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'TCP Scheduling Software vs. Managed Scheduling Service: Which Fits a CAH?'
+title: 'TCP Scheduling vs. Managed Service: Which Fits CAHs?'
 excerpt: >
   TCP Scheduling Software (formerly Aladtec) is a self-serve platform your team configures
   and operates. A managed scheduling service runs the scheduling function for you. For a
@@ -40,13 +40,13 @@ metadata:
 
 TCP Scheduling Software, formerly known as Aladtec, is a self-serve workforce management platform used by healthcare organizations, EMS agencies, and fire departments. It is the most widely deployed scheduling platform in small healthcare settings. For critical access hospitals specifically, TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold -- when the nurse manager is already responsible for clinical supervision, staff development, and regulatory compliance on top of building schedules.
 
-## What TCP Scheduling Software Actually Is
+## What TCP Scheduling Software Actually Is?
 
 TCP provides scheduling tools, availability management, overtime tracking, and basic compliance features. "Self-serve" is the key phrase: TCP provides the structure and the tools. Your team provides the labor to operate it.
 
 In practice at a critical access hospital, this means the nurse manager configures the initial system (entering all nurses, certifications, unit rules, scheduling constraints), builds the schedule each cycle, manages availability changes as they come in, handles callout coverage by checking the platform and making replacement calls, and maintains certification records as they change. TCP automates parts of the process, but the nurse manager is the operator.
 
-## What a Managed Scheduling Service Does Differently
+## What a Managed Scheduling Service Does Differently?
 
 A managed scheduling service changes the operating model. Instead of software your nurse manager runs, it is a service a specialist runs on her behalf.
 
@@ -61,7 +61,7 @@ With SimpleScheduleAI:
 
 The nurse manager's role shifts from operator to approver. She retains final authority over every scheduling decision. The upstream work is handled for her.
 
-## Head-to-Head: TCP vs. Managed Service
+## Head-to-Head: TCP vs. Managed Service: Which Is Better?
 
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:640px">
@@ -117,7 +117,7 @@ The nurse manager's role shifts from operator to approver. She retains final aut
   </table>
 </div>
 
-## Where TCP Wins
+## Where TCP Wins?
 
 **Staff-facing mobile app.** Nurses can view schedules, request availability changes, and participate in shift swaps through the TCP app. SimpleScheduleAI does not have a nurse-facing interface. If nurses managing their own availability and viewing schedules on their phones is a priority, TCP is the right choice.
 
@@ -125,17 +125,17 @@ The nurse manager's role shifts from operator to approver. She retains final aut
 
 **No ongoing service dependency.** With TCP, you own the process. With a managed service, you depend on the service relationship. For facilities that prefer operational self-sufficiency, the self-serve model has real appeal.
 
-## Where a Managed Service Wins
+## Where a Managed Service Wins?
 
 **Time to operational.** TCP takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this matters.
 
 **Weekly burden.** TCP reduces scheduling from 8-12 hours per week to 4-6 hours. A managed service reduces it to 1-2 hours. The delta (3-4 hours per week) over a year is 150-200 hours of recovered nurse manager time.
 
-**Callout coverage.** With TCP, the nurse manager opens the platform, checks availability, reviews overtime status manually, and makes replacement calls. With a managed service, a pre-ranked callout shortlist is already maintained. The difference is 30-60 minutes of manual research vs. 10-15 minutes of making calls.
+**Callout coverage.** With TCP, the nurse manager opens the platform, checks availability, reviews overtime status manually, and makes replacement calls. With a managed service, a pre-replacement call list is already maintained. The difference is 30-60 minutes of manual research vs. 10-15 minutes of making calls.
 
 **No configuration risk.** TCP misconfigured is TCP producing scheduling errors that surface at payroll or during a CMS survey. A managed service specialist is responsible for configuration accuracy.
 
-## Time to Value
+## How Does Time to Value Compare?
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Time to operational and weekly burden comparison between TCP and managed service">
   <title>TCP vs. Managed Service: Time Comparison</title>
@@ -210,7 +210,7 @@ Implementation typically runs 2-4 weeks from contract to first operational sched
 
 **What happens when a nurse calls out at 5am with TCP vs. a managed service?**
 
-With TCP: the nurse manager opens the platform, checks availability, reviews overtime status manually, and makes replacement calls. The platform provides information; she does the work. Average time: 30-60 minutes. With a managed service: the specialist has already maintained a ranked callout shortlist with all constraints applied. The nurse manager contacts the first available nurse on the list. Average time: 10-15 minutes.
+With TCP: the nurse manager opens the platform, checks availability, reviews overtime status manually, and makes replacement calls. The platform provides information; she does the work. Average time: 30-60 minutes. With a managed service: the specialist has already maintained a replacement call list with all constraints applied. The nurse manager contacts the first available nurse on the list. Average time: 10-15 minutes.
 
 **What is the main reason to stay with TCP instead of switching to a managed service?**
 

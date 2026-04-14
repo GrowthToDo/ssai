@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'What Is Hospital Shift Scheduling? Shift Types and Rotation Patterns'
+title: 'Hospital Shift Scheduling: Types and Rotation Patterns'
 excerpt: >
   Hospital shift scheduling is the process of assigning nursing staff to fixed time blocks, shifts, across a scheduling period of typically 4–6 weeks. Shifts run 8 or 12 hours and must ensure continuous patient coverage, comply with FLSA overtime rules, and distribute undesirable shifts equitably. For critical access hospitals with small teams, each scheduling decision affects every other nurse on the roster.
 image: https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
@@ -19,7 +19,7 @@ metadata:
 
 Hospital shift scheduling is the process of assigning nursing staff to fixed time blocks, shifts, across a scheduling period, typically covering 4–6 weeks. Shifts are usually structured as 8-hour or 12-hour blocks, with coverage required around the clock, 365 days per year. A valid shift schedule must ensure that every slot is filled by a qualified staff member, that total weekly hours comply with [FLSA overtime rules](https://www.dol.gov/agencies/whd/flsa), and that undesirable shifts, nights, weekends, and holidays, are distributed equitably across staff. At a critical access hospital with a small team, the constraints are tightly coupled: every assignment decision affects someone else's workload.
 
-## Types of Hospital Shifts
+## What Are the Types of Hospital Shifts?
 
 Hospital nursing shifts fall into two structural categories: 8-hour and 12-hour. Each has a distinct scheduling logic and operational tradeoff.
 
@@ -31,7 +31,7 @@ Most CAHs use 12-hour shifts for inpatient nursing, with 8-hour shifts more comm
 
 **Fixed vs. rotating assignments** is a separate dimension. A fixed shift nurse always works the same shift (always days, always nights). A rotating shift nurse cycles between shifts according to a predetermined pattern. Fixed assignments create scheduling predictability but can make night shift coverage dependent on a small subset of nurses who are unwilling to rotate, a fragility risk if any of those nurses leave.
 
-## Rotation Patterns at Critical Access Hospitals
+## What Are the Rotation Patterns at Critical Access Hospitals?
 
 A rotation pattern defines how a nurse's shift assignment changes over the scheduling cycle. CAHs use a range of patterns depending on team size, staff preferences, and coverage requirements.
 
@@ -43,7 +43,7 @@ A rotation pattern defines how a nurse's shift assignment changes over the sched
 
 For very small CAH nursing teams (8–12 nurses), fixed rotation patterns may not be feasible, the team is too small to maintain a pattern when absences occur. These facilities often use a semi-fixed approach: day and night shift pools with per diem fill-in for coverage gaps, rather than a formal rotation pattern.
 
-## Why Shift Scheduling Is Harder Than It Looks
+## Why Shift Scheduling Is Harder Than It Looks?
 
 Most nurse managers describe schedule-building as "putting together a puzzle", and the metaphor is accurate. The constraints are numerous, interdependent, and change continuously.
 

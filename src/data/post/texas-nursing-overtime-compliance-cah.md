@@ -3,7 +3,7 @@ draft: true
 publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Texas Nursing Overtime Compliance: A Guide for CAH Administrators'
+title: 'Texas Nursing Overtime Compliance: Guide for CAH Admins'
 excerpt: >
   Texas critical access hospitals face overlapping nursing staffing obligations under
   federal FLSA, CMS Conditions of Participation, and state labor rules. This guide
@@ -173,7 +173,7 @@ solution implemented, and any agency nurse credentials used. For agency nurses i
 particular, the facility must document that the agency nurse held current credentials -
 relying on the agency's assurance is not sufficient for CMS purposes.
 
-## How SimpleScheduleAI Helps
+## How SimpleScheduleAI Helps?
 
 SimpleScheduleAI is a managed scheduling service with built-in compliance documentation.
 Every schedule change is logged automatically, original assignment, substitution,
