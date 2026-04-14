@@ -9,7 +9,7 @@ excerpt: >
   depending on the platform and contract structure. Enterprise platforms rarely publish
   prices and typically require annual contracts starting at $15,000. This guide breaks down
   what different pricing models actually mean for a 25-bed Critical Access Hospital.
-image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

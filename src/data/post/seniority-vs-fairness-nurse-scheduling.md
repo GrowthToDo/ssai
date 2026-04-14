@@ -9,7 +9,7 @@ excerpt: >
   and weekends indefinitely, while senior nurses accumulate preferred shifts year after year.
   At a 25-bed CAH, this pattern drives turnover among newer staff and erodes team cohesion.
   This guide explains how to honor seniority without letting it override basic fairness.
-image: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

@@ -9,7 +9,7 @@ excerpt: >
   nurses, it disrupts the sleep cycle they spent their days off recovering. At a 25-bed CAH,
   island shifts are a common artifact of manual scheduling and one of the most fixable sources
   of staff burnout.
-image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1513224502586-d1e602410265?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

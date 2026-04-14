@@ -20,8 +20,11 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 
 ## Images
 
+- [ ] Featured image is **verified to load** — open the Unsplash URL in a browser and confirm it returns an actual photo, not a 404
+- [ ] Featured image is **relevant to the post topic** — no generic stock photos that could belong to any post (no beaches, hotel rooms, concerts, dev laptops, circuit boards, or abstract tech imagery for nurse scheduling content)
+- [ ] Featured image ID is **unique** — not duplicated in any other live post or draft (run the duplicate check script before publishing)
+- [ ] Image URL uses **no quotes** in YAML frontmatter: `image: https://...` not `image: 'https://...'`
 - [ ] All images have descriptive alt text (not empty, not keyword-stuffed)
-- [ ] All images have explicit width and height attributes set
 - [ ] All images are WebP or AVIF format
 - [ ] Hero/featured image is compressed (< 200KB ideally)
 

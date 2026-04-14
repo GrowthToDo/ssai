@@ -9,7 +9,7 @@ excerpt: >
   New Year's Day, while patient volume follows an unpredictable surge-and-dip pattern.
   Managing this window requires planning that starts in October, not the week before
   Thanksgiving. This guide explains the specific preparation steps for a 25-bed CAH.
-image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1512389142860-9c449e58a543?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

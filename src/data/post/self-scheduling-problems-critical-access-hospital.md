@@ -8,7 +8,7 @@ excerpt: >
   nights or weekends. At a 25-bed Critical Access Hospital, that imbalance compounds every
   cycle. This guide explains why self-scheduling breaks down at CAH scale and what structural
   fixes actually hold.
-image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

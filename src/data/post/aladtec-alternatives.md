@@ -10,7 +10,7 @@ excerpt: >
   overtime risk, and a configuration burden that assumes IT support most small hospitals do not
   have. This guide reviews the six best Aladtec alternatives for hospitals and explains when
   switching makes sense.
-image: https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
