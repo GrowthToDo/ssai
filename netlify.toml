@@ -23,6 +23,20 @@
   status = 301
   force = true
 
+# Deleted landing pages — redirect to homepage so Google drops the 404s
+[[redirects]]
+  from = "/landing/*"
+  to = "/"
+  status = 301
+  force = true
+
+# Draft post URL crawled from an old sitemap — redirect to closest live post
+[[redirects]]
+  from = "/blog/12-hour-hospital-shifts-scheduling"
+  to = "/blog/best-nurse-scheduling-software-2026"
+  status = 301
+  force = true
+
 # Catch-all: return true 404 status for unmatched URLs (prevents soft 404s)
 [[redirects]]
   from = "/*"
