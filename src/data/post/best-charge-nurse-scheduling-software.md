@@ -9,7 +9,7 @@ excerpt: >
   coverage gaps have compliance consequences, and equitable distribution across a bench of 4-6
   people determines whether your charge nurses burn out. This guide reviews the 8 best scheduling
   platforms for hospitals that need to get charge coverage right every shift.
-image: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1666214280557-f1b5022eb634?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - charge-nurse-scheduling

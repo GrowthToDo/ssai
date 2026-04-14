@@ -9,7 +9,7 @@ excerpt: >
   question: do you have IT support and time for implementation, or do you need something
   operational in days? This comparison covers five real options, with honest strengths,
   weaknesses, and the specific hospital contexts each fits best.
-image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1580281657527-47f249e8f4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - best-healthcare-scheduling-software

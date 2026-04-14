@@ -9,7 +9,7 @@ excerpt: >
   that should take 1-2 hours. That gap is not a staffing shortage problem; it is a process
   problem. This guide explains what the right number looks like, what drives the excess, and
   how to reclaim those hours for patient care and staff leadership.
-image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling
