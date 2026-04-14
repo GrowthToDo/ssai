@@ -1,6 +1,7 @@
 ---
-publishDate: 2026-04-14T00:00:00Z
-updateDate: 2026-04-14T00:00:00Z
+draft: true
+publishDate: 2026-04-23T00:00:00Z
+updateDate: 2026-04-23T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Island Shifts: Why a Single Shift Between Days Off Destroys Night Nurses'
 excerpt: >

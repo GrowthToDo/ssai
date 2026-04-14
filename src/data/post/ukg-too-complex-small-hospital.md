@@ -9,7 +9,7 @@ excerpt: >
   UKG is built for large health systems. For a 25-bed Critical Access Hospital, those
   requirements represent a system the facility cannot operate. Here is what actually works
   at CAH scale.
-image: https://images.unsplash.com/photo-1603398938378-e54eab446dde?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - ukg-alternatives
