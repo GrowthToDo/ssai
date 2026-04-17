@@ -10,6 +10,7 @@
 ## How to Use This Document
 
 Each section is a pain point theme. For each:
+
 - Read the real user quotes first — these are the exact words paying customers use
 - Review "Strategic Insight" to understand what this means for SimpleScheduleAI
 - Use "Content Angles" to rewrite page copy or pitch new blog posts
@@ -323,6 +324,7 @@ The CAH nursing forum threads say: "We use spreadsheets. None of this software f
 Nurse managers at CAHs report spending **8-12 hours per week** on scheduling. The industry benchmark is 1-2 hours.
 
 For CAHs in Texas, generic software doesn't handle:
+
 - Texas overtime rules (6th and 7th consecutive day rules)
 - CMS PBJ reporting requirements
 - 12-hour shift pattern complexity with a team of 15-20 nurses
@@ -357,11 +359,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 **Current gap (hypothesis):** Likely speaks to people evaluating scheduling software. Should also speak to people who've given up.
 
 **Pain points to lead with:**
+
 1. Theme 8 (Excel trap) — "Built for the hospital that gave up on scheduling software"
 2. Theme 3 (not built for small) — segment specificity as the hook
 3. Theme 2 (learning curve) — "setup in days, not months"
 
 **Specific copy angles:**
+
 - Hero: Address the 8-12 hrs/week problem in the headline
 - Subheading: Speak to CAHs specifically, not generic "healthcare"
 - Features section: Replace generic feature bullets with pain-point-specific ones (mobile reliability, no IT needed, ongoing support)
@@ -372,11 +376,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/how-it-works`
 
 **Pain points to address:**
+
 1. Theme 5 (automation) — what the AI actually does step by step
 2. Theme 2 (learning curve) — "we handle setup, you approve"
 3. Theme 4 (support) — "what happens when a call-out happens at 5am Saturday"
 
 **Specific copy angles:**
+
 - Make each step answer an implicit complaint: Step 1 is onboarding (addresses setup complexity), Step 2 is AI draft generation (addresses manual work), Step 3 is manager approval (addresses loss of control), Step 4 is ongoing support (addresses disappearing vendor)
 - Add a "What we handle vs. what you handle" breakdown
 
@@ -385,11 +391,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/nurse-scheduling-software`
 
 **Pain points to address:**
+
 1. All themes — this is the comparison page
 2. Theme 3 (not built for small) — filter framing at the top
 3. Theme 1 (app crashes) — reliability angle
 
 **Specific copy angles:**
+
 - Opening: "Most scheduling software wasn't designed for hospitals under 50 beds. Here's what that means for you." — then explain the size mismatch
 - Comparison table should include rows for: HIPAA compliance, minimum staff requirement, setup time, support model (software vs. managed service), Texas overtime handling
 - Pull verbatim complaint language as contrast: "They describe [Competitor] as 'Kronos is garbage' on nursing forums. Here's why."
@@ -399,11 +407,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/critical-access-hospital-scheduling`
 
 **Pain points to address:**
+
 1. Theme 8 (Excel trap) — primary message
 2. Theme 3 (not built for small) — market gap framing
 3. Theme 6 (PBJ compliance) — specific CAH requirement
 
 **Specific copy angles:**
+
 - Address the reader who has already tried software and failed: "If you're reading this, you've probably already tried scheduling software that wasn't built for a 20-bed hospital."
 - Enumerate the specific things generic software doesn't handle for CAHs: Texas overtime, PBJ, no float pool, dual-role managers
 - Include a "what CAH scheduling actually requires" section grounded in the complaints vocabulary
@@ -413,11 +423,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/roi`
 
 **Pain points to address:**
+
 1. Theme 3 (8-12 hrs/week baseline)
 2. Theme 6 (hidden compliance hours)
 3. Theme 2 (setup time cost)
 
 **Specific copy angles:**
+
 - Start the ROI calculation from **Excel baseline** (8-12 hrs/week), not competitor baseline
 - Add line items for: weekly scheduling hours, call-out resolution time, overtime error costs, compliance reporting hours
 - Frame ROI as "hours recovered" not just money — nurse managers care more about time than cost
@@ -427,11 +439,13 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/pilot`
 
 **Pain points to address:**
+
 1. Theme 4 (support disappears) — pilot IS proof of ongoing support
 2. Theme 2 (learning curve) — pilot = we do the work, you don't need to learn anything
 3. Theme 8 (Excel trap) — low-barrier entry for people who've given up
 
 **Specific copy angles:**
+
 - Frame pilot as "try the service, not the software" — a managed service trial, not a license trial
 - Address the objection: "We tried software before and it didn't stick" — answer: this time, we do the work
 - Make the commitment minimal: "One month. We set up everything. You just approve the first schedule."
@@ -441,10 +455,12 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/about`
 
 **Pain points to address:**
+
 1. Theme 4 (impersonal support) — founder relationship vs. outsourced helpdesk
 2. Theme 3 (not built for us) — why SimpleScheduleAI was built for CAHs specifically
 
 **Specific copy angles:**
+
 - Founder framing: why CAHs specifically, not just "healthcare"
 - Contrast: "Most scheduling software was built for 500-nurse hospital systems and scaled down. We started with the 20-bed hospital and built up."
 
@@ -453,9 +469,11 @@ This is the founding insight behind SimpleScheduleAI. The CAH market isn't under
 ### `/contact`
 
 **Pain points to address:**
+
 1. Theme 4 (support disappears) — contact page tone should signal responsiveness
 
 **Specific copy angles:**
+
 - Response time commitment: "We respond within [X hours]. Not a ticket queue."
 - Language: warm, direct, specific — not a generic "sales inquiry" form
 
@@ -565,23 +583,23 @@ These 5 posts are currently published. Two contain factual inaccuracies that sho
 
 #### Correction 1 — Aladtec description (line ~238)
 
-Current text says: *"Reliable, well-proven platform with a strong customer support reputation"*
+Current text says: _"Reliable, well-proven platform with a strong customer support reputation"_
 
 This is no longer accurate. Multiple Capterra reviewers explicitly document **support quality declining after the TCP acquisition**. The Aladtec that had the good support reputation no longer exists in the same form.
 
-**Replace with:** *"Reliable, well-proven platform — though multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software. Users who had positive experiences under Aladtec support describe a noticeably different experience post-acquisition."*
+**Replace with:** _"Reliable, well-proven platform — though multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software. Users who had positive experiences under Aladtec support describe a noticeably different experience post-acquisition."_
 
-Add supporting quote: *"Customer support quality declined after the TCP acquisition."* — multiple Aladtec reviewers, Capterra
+Add supporting quote: _"Customer support quality declined after the TCP acquisition."_ — multiple Aladtec reviewers, Capterra
 
 #### Correction 2 — NurseGrid Manager description (~line 308)
 
-Current text says: *"Good for posting open shifts and getting coverage quickly"* and does not mention the manager app.
+Current text says: _"Good for posting open shifts and getting coverage quickly"_ and does not mention the manager app.
 
 The NurseGrid **manager app was removed**. Managers can no longer make changes from mobile — they must log in on desktop. This is a real operational limitation for a nurse manager who moves between the floor and her desk, and it's missing from the post.
 
-**Add to Key Limitations:** *"Manager app was removed in a prior update. Schedule changes require desktop login. Nurses can view their schedule on mobile but managers cannot make edits from a phone."*
+**Add to Key Limitations:** _"Manager app was removed in a prior update. Schedule changes require desktop login. Nurses can view their schedule on mobile but managers cannot make edits from a phone."_
 
-Supporting quote: *"Manager app no longer exists. Requires desktop login for changes."* — NurseGrid user, AllNurses.com
+Supporting quote: _"Manager app no longer exists. Requires desktop login for changes."_ — NurseGrid user, AllNurses.com
 
 #### Correction 3 — Deputy description (~line 363)
 
@@ -589,9 +607,9 @@ Current text notes "no credential tracking or clinical compliance documentation"
 
 Deputy has been **explicitly flagged as not HIPAA compliant** by healthcare reviewers. For a buyers' guide aimed at licensed clinical facilities, this omission could lead a reader to evaluate Deputy as a low-cost option without knowing the compliance barrier.
 
-**Add to Key Limitations:** *"Not HIPAA compliant. Multiple reviewers explicitly flag this as a disqualifying limitation for licensed healthcare environments."*
+**Add to Key Limitations:** _"Not HIPAA compliant. Multiple reviewers explicitly flag this as a disqualifying limitation for licensed healthcare environments."_
 
-Supporting quote: *"NOT HIPAA compliant — major concern for healthcare."* — Deputy, GetApp and Trustpilot
+Supporting quote: _"NOT HIPAA compliant — major concern for healthcare."_ — Deputy, GetApp and Trustpilot
 
 ---
 
@@ -603,11 +621,11 @@ Supporting quote: *"NOT HIPAA compliant — major concern for healthcare."* — 
 
 **Insert near the "How SimpleScheduleAI Addresses These Friction Points" section:**
 
-> *"A pressing matter goes unanswered for hours or days."* — NurseGrid user, AllNurses.com
+> _"A pressing matter goes unanswered for hours or days."_ — NurseGrid user, AllNurses.com
 >
-> *"Barely works. It kicks you out constantly."* — OnShift user, Capterra
+> _"Barely works. It kicks you out constantly."_ — OnShift user, Capterra
 >
-> *"The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them."* — Manager, QGenda, Capterra
+> _"The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them."_ — Manager, QGenda, Capterra
 
 **Framing:** Use these to make the point that scheduling software often adds a new category of problem (tech failure, support tickets, configuration maintenance) on top of the existing scheduling burden. The $26K shadow salary doesn't go away when you buy software — it sometimes gets larger.
 
@@ -623,9 +641,9 @@ Supporting quote: *"NOT HIPAA compliant — major concern for healthcare."* — 
 
 **Add as a new FAQ at the end:**
 
-*Q: If nurses have heard that AI scheduling doesn't always work, are their concerns valid?*
+_Q: If nurses have heard that AI scheduling doesn't always work, are their concerns valid?_
 
-*A: Yes, partially. AI-assisted scheduling in other tools has a documented track record of rule conflicts, automation errors, and reliability issues. One common complaint about QGenda's automated scheduling: "The rules setup seems to have hiccups or issues each time we try to fix them." That's a real problem — automation that produces scheduling errors is worse than no automation, because the errors look correct until a nurse or manager catches them. The relevant question is not whether AI scheduling can fail — it can — but what happens when it does. A system with an auditable draft review step, where the manager catches errors before the schedule is posted, is different from one that auto-publishes.*
+_A: Yes, partially. AI-assisted scheduling in other tools has a documented track record of rule conflicts, automation errors, and reliability issues. One common complaint about QGenda's automated scheduling: "The rules setup seems to have hiccups or issues each time we try to fix them." That's a real problem — automation that produces scheduling errors is worse than no automation, because the errors look correct until a nurse or manager catches them. The relevant question is not whether AI scheduling can fail — it can — but what happens when it does. A system with an auditable draft review step, where the manager catches errors before the schedule is posted, is different from one that auto-publishes._
 
 ---
 
@@ -656,12 +674,15 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `nursing-scheduling-software-support.md`
+
 **Highest priority.** Current post paraphrases complaints about Deputy, TCP, and OnShift support. Add these verbatim quotes directly:
 
 **Insert under the "TCP (Aladtec)" section:**
+
 > "Customer support quality declined after the TCP acquisition." — multiple Aladtec reviewers, Capterra
 
 **Insert under the "QGenda" section (currently missing from this post):**
+
 > "They outsourced customer service. Instead of having an individual assigned to your account, you have generic people who respond to issues." — President, QGenda review, Capterra (3-star)
 
 > "I used to have great customer service support and felt like we mattered to the business. We've been with them for over 10 years." — Medical Staff Coordinator, QGenda review, Capterra (5-star — note: even a 5-star reviewer said this)
@@ -671,6 +692,7 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 > "Impersonal customer support. Our previous scheduling program had a support staff who knew our organization." — Scheduler, QGenda review, Capterra (3-star)
 
 **Insert under the "NurseGrid" section (currently missing):**
+
 > "A pressing matter goes unanswered for hours or days." — NurseGrid user, AllNurses.com
 
 **Why this enrichment matters:** The QGenda "10 years and we still felt like we didn't matter" quote is particularly powerful because it came from a 5-star reviewer — meaning even satisfied customers felt deprioritized. That nuance is lost in paraphrase.
@@ -678,9 +700,11 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `nurse-scheduling-software-hard-to-configure.md`
+
 **High priority.** The post describes the configuration burden accurately but relies on paraphrase. Add:
 
 **Insert under the "TCP Scheduling Software (Aladtec)" section:**
+
 > "Not intuitive." — multiple Aladtec reviewers, Capterra and G2
 
 > "Very steep learning curve. Lacks intuitiveness." — Aladtec reviewer, G2
@@ -690,11 +714,13 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 > "Cannot schedule overtime after time off." — Aladtec reviewer, G2
 
 **Insert under the "QGenda" section:**
+
 > "The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them." — Manager, QGenda review, Capterra (3-star)
 
 > "Incredibly convoluted commands for simple actions. Engineers layer on features without any consideration of user experience." — Chief Resident, QGenda review, Capterra (2-star)
 
 **Insert under "OnShift" (currently missing from this post):**
+
 > "Extremely difficult user interface with no face-to-face training." — OnShift reviewer, Capterra
 
 > "Takes 15-20 clicks to reschedule one session." — CentralReach/OnShift reviewer
@@ -704,14 +730,17 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `shiftwizard-alternatives.md`
+
 **Medium priority.** Post describes the four departure reasons accurately. Add quotes to each:
 
 **Under "Mobile app limitations":**
+
 > "The app doesn't work. I've had to reinstall it multiple times." — ShiftWizard user, Capterra (paraphrased from research)
 
 > "Can't see department schedules on mobile. Date range visibility is restricted." — ShiftWizard user, Capterra (context from research)
 
 **Under "Weak onboarding support":**
+
 > "Filtering system is time-consuming. Customer service shut down our account access without warning during a contract dispute." — ShiftWizard user, Capterra
 
 **Add a new "What ShiftWizard users say on review sites" callout box** using the actual complaint vocabulary: "takes forever to load," "glitchy," "hard to find shifts" — rather than the neutral paraphrase currently in the post.
@@ -719,9 +748,11 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `aladtec-alternatives.md`
+
 **Medium priority.** The post correctly identifies the TCP acquisition support decline but doesn't quote it. Add:
 
 **Under "Why Hospitals Switch Away from Aladtec":**
+
 > "Customer support quality declined after the TCP acquisition." — multiple Aladtec reviewers, Capterra
 
 > "Not intuitive. Steep learning curve. Lots of clicks." — Aladtec reviewers, G2 and Capterra (composite)
@@ -731,9 +762,11 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `onshift-alternatives.md`
+
 **Medium priority.** Post describes the LTC vs. acute care mismatch well but lacks user quotes. Add:
 
 **Under "Why Hospitals Look for OnShift Alternatives":**
+
 > "Barely works. It kicks you out constantly." — OnShift user, Capterra
 
 > "Takes several minutes to load." — OnShift user, Capterra
@@ -747,15 +780,18 @@ These are existing posts (drafts, not yet published) that can be strengthened by
 ---
 
 ### `ukg-too-complex-small-hospital.md`
+
 **Lower priority — already strong.** One addition worth making:
 
 **Add a cultural context note (first paragraph or "Why UKG Fails" section):**
-The Reddit r/nursing and AllNurses.com communities have a widely shared shorthand for UKG: *"Kronos is garbage."* This phrase appears repeatedly across nursing forums and represents the street-level reputation of the product among frontline nurses — separate from the administrator/CFO perspective that purchases it. For CAHs evaluating UKG, this cultural signal matters: the nurses who will use the tool already have an opinion about it before implementation begins.
+The Reddit r/nursing and AllNurses.com communities have a widely shared shorthand for UKG: _"Kronos is garbage."_ This phrase appears repeatedly across nursing forums and represents the street-level reputation of the product among frontline nurses — separate from the administrator/CFO perspective that purchases it. For CAHs evaluating UKG, this cultural signal matters: the nurses who will use the tool already have an opinion about it before implementation begins.
 
 ---
 
 ### `qgenda-alternatives.md` (not yet read — worth checking)
+
 Based on the QGenda complaints we found, this post is a candidate for enrichment with:
+
 - "Incredibly convoluted commands for simple actions"
 - Outsourced support complaint pattern
 - Login/re-authentication frustration ("have to log back in constantly")
@@ -786,11 +822,11 @@ Use these exact phrases in copy where natural. They're how real users describe t
 
 ## Appendix: Competitor Quick Reference
 
-| Competitor | Primary Complaint | CAH Relevance | Key Quote |
-|---|---|---|---|
-| ShiftWizard | App reliability, slow loading | Mid (hospital-focused but large) | "Takes forever to load" |
-| QGenda | UX complexity, outsourced support | Low (enterprise, physician groups) | "Incredibly convoluted commands for simple actions" |
-| Aladtec | Learning curve, TCP acquisition degraded support | High (SMB-adjacent) | "Steep learning curve, lots of clicks" |
-| NurseGrid | Manager app removed, crashes | High (nurse-facing, small facilities) | "Crashes in the middle of entering" |
-| OnShift | App barely works, no messaging | High (LTC and small hospital) | "Barely works. Kicks you out constantly." |
-| UKG/Kronos | Enterprise complexity, nurse hostility | Low-Mid (nurses hate it, but admin buys it) | "Kronos is garbage" (Reddit r/nursing) |
+| Competitor  | Primary Complaint                                | CAH Relevance                               | Key Quote                                           |
+| ----------- | ------------------------------------------------ | ------------------------------------------- | --------------------------------------------------- |
+| ShiftWizard | App reliability, slow loading                    | Mid (hospital-focused but large)            | "Takes forever to load"                             |
+| QGenda      | UX complexity, outsourced support                | Low (enterprise, physician groups)          | "Incredibly convoluted commands for simple actions" |
+| Aladtec     | Learning curve, TCP acquisition degraded support | High (SMB-adjacent)                         | "Steep learning curve, lots of clicks"              |
+| NurseGrid   | Manager app removed, crashes                     | High (nurse-facing, small facilities)       | "Crashes in the middle of entering"                 |
+| OnShift     | App barely works, no messaging                   | High (LTC and small hospital)               | "Barely works. Kicks you out constantly."           |
+| UKG/Kronos  | Enterprise complexity, nurse hostility           | Low-Mid (nurses hate it, but admin buys it) | "Kronos is garbage" (Reddit r/nursing)              |
