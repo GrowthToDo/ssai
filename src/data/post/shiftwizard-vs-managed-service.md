@@ -131,7 +131,7 @@ The nurse manager retains final authority over every scheduling decision. The up
 
 **Time to operational.** ShiftWizard takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this difference is significant.
 
-**Weekly burden.** ShiftWizard reduces scheduling from 8-12 hours per week to roughly 4-6 hours. A managed service reduces it to 1-2 hours. The delta -- 3-4 hours per week -- over a year is 150-200 hours of recovered nurse manager time.
+**Weekly burden.** ShiftWizard reduces scheduling from 8-12 hours per week to roughly 4-6 hours. A managed service reduces it to 1-2 hours. The delta, 3-4 hours per week, over a year is 150-200 hours of recovered nurse manager time.
 
 **Callout coverage.** ShiftWizard provides visibility into availability. The nurse manager still works through the platform to identify certified, within-overtime, available nurses. A managed service provides a pre-ranked shortlist. The difference is 30-60 minutes of manual research vs. 10-15 minutes of making calls.
 
@@ -181,7 +181,7 @@ These are issues with ShiftWizard specifically, separate from the self-serve vs.
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Ready to See Whether a Managed Service Fits Your CAH?</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days with zero IT involvement. Your nurse manager reviews and approves -- the scheduling work is done for her. Schedule a free assessment to see how it works for your facility.
+    SimpleScheduleAI goes live in 3-5 days with zero IT involvement. Your nurse manager reviews and approves, the scheduling work is done for her. Schedule a free assessment to see how it works for your facility.
   </p>
   <a
     href="/pilot"
@@ -205,7 +205,7 @@ The nurse manager opens ShiftWizard, checks current hours and availability for p
 
 **Is SimpleScheduleAI cheaper than ShiftWizard?**
 
-Both are quote-based -- neither publishes list pricing. The relevant comparison is total cost of ownership: platform cost plus the nurse manager's time operating it. A managed service bundles both; a platform separates them. Recovering 3-4 hours per week of nurse manager time over a year represents meaningful operational value beyond the direct cost comparison.
+Both are quote-based, neither publishes list pricing. The relevant comparison is total cost of ownership: platform cost plus the nurse manager's time operating it. A managed service bundles both; a platform separates them. Recovering 3-4 hours per week of nurse manager time over a year represents meaningful operational value beyond the direct cost comparison.
 
 **Can I use ShiftWizard for staff communication and SimpleScheduleAI for scheduling?**
 

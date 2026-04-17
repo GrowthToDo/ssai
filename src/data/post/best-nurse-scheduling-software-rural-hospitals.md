@@ -266,7 +266,7 @@ When I Work is a general shift scheduling platform built for retail, hospitality
 **Key limitations:**
 
 - No credential tracking or clinical compliance documentation.
-- Not designed for licensed clinical environments -- a regulatory risk for any CAH.
+- Not designed for licensed clinical environments, a regulatory risk for any CAH.
 
 **Verdict:** Works for non-clinical rural facilities. Not appropriate for a licensed rural hospital requiring CMS §485.635-compliant staffing records.
 

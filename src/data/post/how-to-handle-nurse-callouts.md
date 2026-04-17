@@ -44,7 +44,7 @@ metadata:
 
 A nurse calls out at 10 PM for a 7 AM shift. The nurse manager, who may themselves be scheduled to work that shift, has roughly 8 hours to find a qualified replacement. At a large hospital, this triggers a float pool request and someone from the pool fills the gap. At a 25-bed CAH with no float pool, it triggers a phone tree of 4-6 people, each of whom may or may not be available, qualified, and below their overtime threshold.
 
-The way that phone tree runs -- who gets called first, in what order, based on what criteria -- determines whether the callout results in covered care or uncovered care, appropriate overtime or avoidable overtime, and a documented decision or an undocumented one.
+The way that phone tree runs, who gets called first, in what order, based on what criteria, determines whether the callout results in covered care or uncovered care, appropriate overtime or avoidable overtime, and a documented decision or an undocumented one.
 
 ## Why CAH Callout Coverage Is a Process Problem?
 
@@ -150,7 +150,7 @@ For CAHs using scheduling software, the software should maintain this data autom
   <!-- Step 4 -->
   <rect x="220" y="225" width="280" height="40" fill="#16a34a" rx="6"/>
   <text x="360" y="249" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Sort remaining nurses by hours this period</text>
-  <text x="360" y="263" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle">(ascending -- fewest hours first)</text>
+  <text x="360" y="263" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle">(ascending, fewest hours first)</text>
   <line x1="360" y1="265" x2="360" y2="280" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#ar)"/>
   <rect x="220" y="280" width="280" height="22" fill="#eff6ff" rx="4" stroke="#3b82f6" stroke-width="1"/>
   <text x="360" y="295" font-family="system-ui,sans-serif" font-size="11" fill="#1e40af" text-anchor="middle" font-weight="600">Call from top of list. Document each attempt.</text>
@@ -222,7 +222,7 @@ Handling callouts well is reactive management. Reducing callout frequency is pro
 
 <img src="/images/blog/how-to-handle-nurse-callouts/SimpleScheduleAI.png" alt="SimpleScheduleAI automated callout ranking for CAH nurse managers" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-[SimpleScheduleAI](/) automates the ranked callout list, maintains running hour totals, and surfaces the credential-filtered replacement list in real time. When a callout event is entered, the nurse manager sees the ranked list immediately -- no calculation, no spreadsheet update, no manual OT check. The documentation is captured automatically.
+[SimpleScheduleAI](/) automates the ranked callout list, maintains running hour totals, and surfaces the credential-filtered replacement list in real time. When a callout event is entered, the nurse manager sees the ranked list immediately, no calculation, no spreadsheet update, no manual OT check. The documentation is captured automatically.
 
 ## What to Do This Week?
 
@@ -261,7 +261,7 @@ Texas does not prohibit mandatory overtime for nurses, unlike some states (Calif
 
 **Should the charge nurse or the nurse manager handle callout coverage?**
 
-At most CAHs, the nurse manager handles callout coverage because they have access to the scheduling and hour tracking information needed to make an informed decision. If the nurse manager is off-site or unavailable, the charge nurse on duty typically handles the initial response and escalates to the nurse manager if needed. What should not happen is the charge nurse calling from memory without consulting the ranked callout list -- that is where OT errors occur.
+At most CAHs, the nurse manager handles callout coverage because they have access to the scheduling and hour tracking information needed to make an informed decision. If the nurse manager is off-site or unavailable, the charge nurse on duty typically handles the initial response and escalates to the nurse manager if needed. What should not happen is the charge nurse calling from memory without consulting the ranked callout list, that is where OT errors occur.
 
 **How do we handle a callout when the charge nurse herself is the one calling out?**
 
@@ -269,4 +269,4 @@ A charge nurse callout requires filtering the replacement list to charge-qualifi
 
 **Does SimpleScheduleAI handle callout events that happen outside business hours?**
 
-SimpleScheduleAI is accessible 24/7 through the mobile interface. When a callout occurs, the nurse manager enters the event in the app and the ranked replacement list is available immediately. For urgent situations outside standard support hours, the service includes an emergency contact protocol. The callout ranking logic runs continuously -- the list is always current based on the latest hour tracking data.
+SimpleScheduleAI is accessible 24/7 through the mobile interface. When a callout occurs, the nurse manager enters the event in the app and the ranked replacement list is available immediately. For urgent situations outside standard support hours, the service includes an emergency contact protocol. The callout ranking logic runs continuously, the list is always current based on the latest hour tracking data.

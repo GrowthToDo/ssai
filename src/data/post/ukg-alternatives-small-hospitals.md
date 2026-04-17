@@ -24,7 +24,7 @@ metadata:
 
 ## Key Takeaways
 
-- UKG is used by over 3,500 hospitals in the US. Many Critical Access Hospitals (CAHs) are on UKG because a regional health system extended an enterprise contract to affiliated facilities -- not because UKG was selected for CAH-scale needs.
+- UKG is used by over 3,500 hospitals in the US. Many Critical Access Hospitals (CAHs) are on UKG because a regional health system extended an enterprise contract to affiliated facilities, not because UKG was selected for CAH-scale needs.
 - Most CAHs on UKG use less than 20% of the platform's features while carrying 100% of the operational overhead: IT configuration, ongoing rule maintenance, and a support model designed for enterprise IT staff.
 - The practical alternatives for a small hospital are Aladtec (self-serve, minimal IT), SmartLinx (mid-market, healthcare-specific), and SimpleScheduleAI (managed service, no IT required).
 - The decision point is operational fit. How much IT and scheduling administration capacity does your facility actually have? Match the complexity of the tool to what you can sustain, not what sounds most capable.
@@ -55,7 +55,7 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-label="Five requirements UKG assumes that most small hospitals do not have">
   <title>What UKG Assumes Your Small Hospital Has</title>
   <rect width="720" height="240" fill="#f8fafc" rx="10"/>
-  <text x="360" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">What UKG Assumes -- and What Most CAHs Actually Have</text>
+  <text x="360" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">What UKG Assumes vs. What Most CAHs Actually Have</text>
   <!-- Row headers -->
   <rect x="30" y="48" width="200" height="32" fill="#374151" rx="4"/>
   <text x="130" y="67" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">UKG Assumption</text>
@@ -94,7 +94,7 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 
 Beyond the purchase price, the operational cost of running UKG at CAH scale is significant:
 
-**Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll -- sometimes after overpaying nurses by thousands of dollars. This is not hypothetical. It is a consistent pattern in user reviews from smaller UKG facilities.
+**Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll, sometimes after overpaying nurses by thousands of dollars. This is not hypothetical. It is a consistent pattern in user reviews from smaller UKG facilities.
 
 **Compliance gaps.** UKG can produce CMS §485.635 documentation, but only if configured correctly. Misconfiguration means the audit trail has gaps, which creates survey exposure. At a large hospital with a workforce management team, someone is responsible for audit readiness. At a CAH, this falls to whoever has time.
 
@@ -210,6 +210,6 @@ Many do via spreadsheets. But without proactive overtime tracking, credential-un
 
 No. SimpleScheduleAI operates independently. During transition, you export your roster from UKG as an Excel file and upload it to SimpleScheduleAI. The two systems do not connect, which is also why there is no IT integration burden during the switch.
 
-**What about ShiftWizard -- is it a good UKG alternative for a small hospital?**
+**What about ShiftWizard, is it a good UKG alternative for a small hospital?**
 
 ShiftWizard is a hospital-specific scheduling platform used by approximately 500 hospitals. It is simpler than UKG and designed for nursing workflows. It has known limitations including mobile app reliability issues and weaker onboarding support. It is a reasonable option for a hospital that specifically wants a self-serve nursing scheduling tool, though it is not CAH-native the way Aladtec is. ShiftWizard does not replace the need to configure FLSA 8-and-80 overtime rules or CMS documentation manually.

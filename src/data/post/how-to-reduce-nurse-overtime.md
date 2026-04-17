@@ -26,7 +26,7 @@ metadata:
 
 - Nurse overtime at a Critical Access Hospital (CAH) is almost always structural, not behavioral. It is not that nurses are working overtime because they want the pay. It is that the scheduling process creates overtime conditions that are difficult to avoid.
 - The three root causes of CAH nurse overtime are: callout defaults (the same nurses always get called first), scheduled hour blind spots (the schedule is built without tracking hours in the current 14-day pay period), and roster thinness (there are not enough nurses to cover callouts without someone going over threshold).
-- Fixing callout defaults is the fastest lever. Changing who gets called first during a callout event -- based on overtime risk, not availability or familiarity -- immediately reduces unplanned overtime without changing the schedule.
+- Fixing callout defaults is the fastest lever. Changing who gets called first during a callout event, based on overtime risk, not availability or familiarity, immediately reduces unplanned overtime without changing the schedule.
 - The FLSA 8-and-80 rule for healthcare employers is not automatic. CAHs must adopt it in writing. Hospitals that are still calculating overtime on a standard 40-hour workweek threshold are both overpaying on overtime and using the wrong legal standard.
 - Overtime is not eliminated by having enough nurses. It is managed by having enough nurses and a scheduling process that tracks hours accurately, distributes callout burden equitably, and raises a flag before a nurse crosses the threshold.
 
@@ -86,7 +86,7 @@ The structural fix is not hiring more nurses, though that helps. It is building 
 
 ## Root Cause 1: Callout Defaults
 
-The most common driver of preventable overtime at a CAH is callout default behavior. When a nurse calls out, the nurse manager calls whoever comes to mind first -- usually the nurse who always answers, the one who lives closest, or the one who was last scheduled.
+The most common driver of preventable overtime at a CAH is callout default behavior. When a nurse calls out, the nurse manager calls whoever comes to mind first, usually the nurse who always answers, the one who lives closest, or the one who was last scheduled.
 
 That approach distributes callout burden based on familiarity and availability, not overtime risk. The result is predictable: the same nurses accumulate callout hours on top of their scheduled hours, cross the 80-hour threshold in a 14-day period, and generate overtime liability that could have been avoided if someone had called a different nurse first.
 
@@ -98,7 +98,7 @@ Before any callout call is made, the nurse manager should be looking at a list t
 2. Whether the nurse has the credentials the open shift requires
 3. Whether the nurse is available (not already scheduled that day)
 
-The list should be sorted by overtime risk ascending -- the nurse with the fewest current-period hours who meets credential requirements gets called first.
+The list should be sorted by overtime risk ascending, the nurse with the fewest current-period hours who meets credential requirements gets called first.
 
 This is not complicated to build manually. A spreadsheet with running hour totals updated after each shift can serve this purpose. The difficulty is maintaining it consistently under the time pressure of a midnight callout.
 
@@ -106,7 +106,7 @@ Scheduling software with callout management features can automate this ranking. 
 
 ## Root Cause 2: Scheduled Hour Blind Spots
 
-The second cause of overtime is schedule construction without hour tracking. A nurse manager building a 4-week rotation in a spreadsheet typically works from availability -- who is not already scheduled -- not from hours. If a nurse was scheduled for 72 hours in the first 10 days of a 14-day period and an extra callout shift is added on day 11, that nurse is now over the FLSA 8-and-80 threshold.
+The second cause of overtime is schedule construction without hour tracking. A nurse manager building a 4-week rotation in a spreadsheet typically works from availability, who is not already scheduled, not from hours. If a nurse was scheduled for 72 hours in the first 10 days of a 14-day period and an extra callout shift is added on day 11, that nurse is now over the FLSA 8-and-80 threshold.
 
 This type of overtime is not a callout surprise. It is a schedule construction error. The nurse was assigned too many hours in the same 14-day window before the callout even occurred.
 
@@ -124,7 +124,7 @@ A 25-bed CAH with 18 nurses running 21 shifts per week has approximately 60-70% 
 
 **The fix is PRN pool depth and cross-training.**
 
-Increasing the PRN bench -- even by 2-3 nurses -- meaningfully expands the callout pool. PRN nurses are typically paid only for hours worked and can be called for specific shifts without affecting full-time employees' hour totals.
+Increasing the PRN bench, even by 2-3 nurses, meaningfully expands the callout pool. PRN nurses are typically paid only for hours worked and can be called for specific shifts without affecting full-time employees' hour totals.
 
 Cross-training staff nurses for additional units (or for charge designation) also expands the eligible pool. A nurse who can cover both the medical-surgical unit and the emergency department provides twice the scheduling flexibility during callout events.
 
@@ -196,7 +196,7 @@ Some overtime at a CAH is not eliminable. Census surges, multiple simultaneous c
 
 The goal is not zero overtime. It is predictable, defensible overtime: overtime that occurs because the situation genuinely required it, that was documented, that was assigned to the nurse with the lowest overtime exposure among those available, and that was calculated correctly.
 
-Preventable overtime -- overtime that occurred because the wrong nurse was called first, or because a schedule was built without hour tracking, or because the overtime threshold was set incorrectly -- is a different category. That is the target.
+Preventable overtime, overtime that occurred because the wrong nurse was called first, or because a schedule was built without hour tracking, or because the overtime threshold was set incorrectly, is a different category. That is the target.
 
 <img src="/images/blog/how-to-reduce-nurse-overtime/SimpleScheduleAI.png" alt="SimpleScheduleAI automated overtime tracking for CAH nurse scheduling" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
@@ -247,4 +247,4 @@ Scheduled overtime (overtime that appears in the published schedule, not from ca
 
 **How does SimpleScheduleAI prevent overtime during callout events?**
 
-When a callout event is entered into SimpleScheduleAI, the system generates a ranked replacement list that sorts candidates by: credential match (only nurses who can cover the specific shift requirements appear), hours worked in the current 14-day period (nurses further from the 80-hour threshold appear higher), and historical response rate. The nurse manager calls from the top of the list. The system does not allow a nurse at risk of overtime to appear at the top of the callout list -- they are ranked lower until a nurse with lower hour exposure has been contacted first.
+When a callout event is entered into SimpleScheduleAI, the system generates a ranked replacement list that sorts candidates by: credential match (only nurses who can cover the specific shift requirements appear), hours worked in the current 14-day period (nurses further from the 80-hour threshold appear higher), and historical response rate. The nurse manager calls from the top of the list. The system does not allow a nurse at risk of overtime to appear at the top of the callout list, they are ranked lower until a nurse with lower hour exposure has been contacted first.

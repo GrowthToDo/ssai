@@ -22,7 +22,7 @@ metadata:
 ## Key Takeaways
 
 - TCP Scheduling Software (formerly Aladtec) is the dominant self-serve scheduling platform for small healthcare organizations, but common complaints include excessive clicks for routine tasks, steep learning curve, and post-acquisition support decline.
-- The core question when evaluating alternatives is not which platform has better features -- it is whether your nurse manager wants to operate a scheduling platform at all.
+- The core question when evaluating alternatives is not which platform has better features, it is whether your nurse manager wants to operate a scheduling platform at all.
 - The main self-serve alternatives for critical access hospitals are ShiftWizard (healthcare-specific, more modern interface) and NurseGrid (lightweight, nurse-facing).
 - If the issue is scheduling labor, not the specific platform, a managed service reduces weekly scheduling time from 4-6 hours (TCP) to 1-2 hours.
 - Managed services onboard in days vs. weeks for self-serve platforms, which matters when scheduling burden is acute.
@@ -96,19 +96,19 @@ The platform has a long history in critical access hospitals and EMS agencies un
   <text x="638" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">manually by manager</text>
 </svg>
 
-The "draft visibility" issue is particularly disruptive at small hospitals. A nurse manager building a schedule needs the ability to draft, adjust, and finalize before staff see it. When staff can see incomplete drafts, they start requesting changes to a schedule that has not been approved -- creating a feedback loop that adds administrative overhead to every scheduling cycle.
+The "draft visibility" issue is particularly disruptive at small hospitals. A nurse manager building a schedule needs the ability to draft, adjust, and finalize before staff see it. When staff can see incomplete drafts, they start requesting changes to a schedule that has not been approved, creating a feedback loop that adds administrative overhead to every scheduling cycle.
 
 ## What Problem Are You Actually Solving?
 
 Before evaluating alternatives, clarify what problem you are actually trying to solve:
 
-**If the problem is the interface** -- too many clicks, hard to navigate -- you want a different self-serve platform with a better user experience. ShiftWizard and NurseGrid are worth evaluating.
+**If the problem is the interface**, too many clicks, hard to navigate, you want a different self-serve platform with a better user experience. ShiftWizard and NurseGrid are worth evaluating.
 
-**If the problem is the workload** -- the nurse manager is spending 8-12 hours per week on scheduling regardless of which platform she uses -- the issue is not the tool. A managed service addresses this differently than a platform swap.
+**If the problem is the workload**, the nurse manager is spending 8-12 hours per week on scheduling regardless of which platform she uses, the issue is not the tool. A managed service addresses this differently than a platform swap.
 
-**If the problem is compliance** -- you need healthcare-specific features, proactive FLSA overtime tracking, CMS audit trail documentation, certification-unit matching -- confirm any alternative covers these explicitly, not generically.
+**If the problem is compliance**, you need healthcare-specific features, proactive FLSA overtime tracking, CMS audit trail documentation, certification-unit matching, confirm any alternative covers these explicitly, not generically.
 
-**If the problem is implementation speed** -- you need to be operational in days, not weeks -- managed services onboard significantly faster than self-serve platforms.
+**If the problem is implementation speed**, you need to be operational in days, not weeks, managed services onboard significantly faster than self-serve platforms.
 
 ## How Does TCP Scheduling Software Alternatives: Compare?
 
@@ -183,7 +183,7 @@ SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-sc
 
 Setup takes 3-5 business days via Excel roster upload. No IT integration, no configuration work, no learning period. Texas compliance is built in as default: [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime rules, [Texas Labor Code](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm) provisions, and [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) documentation.
 
-One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the scheduling system directly. If staff self-service scheduling is a priority, a hybrid approach -- generic communication tool for nurse-facing features plus managed service for scheduling management -- may be worth considering.
+One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the scheduling system directly. If staff self-service scheduling is a priority, a hybrid approach, generic communication tool for nurse-facing features plus managed service for scheduling management, may be worth considering.
 
 **Best fit:** CAHs where the nurse manager is already stretched and the issue is scheduling labor, not just interface preference.
 
@@ -193,7 +193,7 @@ NurseGrid is a nurse-facing scheduling tool with a mobile app. It is lighter-wei
 
 ### QGenda
 
-QGenda is an enterprise scheduling platform designed for physician scheduling at large health systems. It is more expensive and complex than TCP, not less. It is listed here for completeness -- QGenda is not a simpler TCP alternative for a CAH.
+QGenda is an enterprise scheduling platform designed for physician scheduling at large health systems. It is more expensive and complex than TCP, not less. It is listed here for completeness, QGenda is not a simpler TCP alternative for a CAH.
 
 ## Platform vs. Managed Service: The Operating Model Difference: Which Is Better?
 
@@ -206,7 +206,7 @@ The time difference is significant: a well-run TCP implementation reduces schedu
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Done Running a Scheduling Platform on Top of Clinical Responsibilities?</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days from your Excel roster. Your nurse manager reviews and approves -- the scheduling work is done for her. Request a free assessment to see how the managed service model fits your CAH.
+    SimpleScheduleAI goes live in 3-5 days from your Excel roster. Your nurse manager reviews and approves, the scheduling work is done for her. Request a free assessment to see how the managed service model fits your CAH.
   </p>
   <a
     href="/pilot"
@@ -234,8 +234,8 @@ Switching to another self-serve platform (ShiftWizard, NurseGrid) takes 2-4 week
 
 **Do TCP alternatives integrate with EHR systems?**
 
-Enterprise platforms like UKG and API Healthcare offer EHR integration. Most mid-market alternatives, including ShiftWizard and SimpleScheduleAI, operate independently of the EHR. For critical access hospitals, standalone scheduling without EHR integration is typically the more practical option -- it avoids IT complexity while still covering scheduling and compliance requirements.
+Enterprise platforms like UKG and API Healthcare offer EHR integration. Most mid-market alternatives, including ShiftWizard and SimpleScheduleAI, operate independently of the EHR. For critical access hospitals, standalone scheduling without EHR integration is typically the more practical option, it avoids IT complexity while still covering scheduling and compliance requirements.
 
 **What is the biggest scheduling compliance risk with TCP at a critical access hospital?**
 
-Configuration errors. TCP's overtime rules, credential requirements, and minimum staffing minimums all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that configuration burden falls entirely on the nurse manager -- and a misconfigured system produces errors that surface at payroll or during a CMS survey.
+Configuration errors. TCP's overtime rules, credential requirements, and minimum staffing minimums all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that configuration burden falls entirely on the nurse manager, and a misconfigured system produces errors that surface at payroll or during a CMS survey.

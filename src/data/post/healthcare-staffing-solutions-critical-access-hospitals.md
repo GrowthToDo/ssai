@@ -24,7 +24,7 @@ metadata:
 - CAH staffing challenges are structurally different from large health systems: geographic isolation, small roster, no HR/IT department, and CMS compliance without compliance infrastructure.
 - Four solutions that actually work at CAH scale: internal per-diem pool, managed scheduling service, fairness tracking, and cross-training for coverage flexibility.
 - Enterprise staffing platforms fail at CAHs because of IT requirements, configuration complexity, training burden, and ongoing maintenance needs.
-- The most impactful immediate action is usually building a ranked per-diem callout list and implementing fairness tracking -- both addressable without software investment.
+- The most impactful immediate action is usually building a ranked per-diem callout list and implementing fairness tracking, both addressable without software investment.
 - A managed scheduling service reduces nurse manager scheduling time from 8-12 hours per week to 1-2 hours, translating to approximately $26,000 in annual administrative savings at a $50/hour loaded rate.
 
 ## Table of Contents
@@ -39,7 +39,7 @@ Healthcare staffing solutions that work at a critical access hospital are struct
 
 ## What Makes CAH Staffing Challenges Unique?
 
-Critical access hospitals -- federally designated rural facilities with 25 or fewer acute care beds -- face a specific set of staffing constraints that enterprise healthcare staffing solutions are not designed for.
+Critical access hospitals, federally designated rural facilities with 25 or fewer acute care beds, face a specific set of staffing constraints that enterprise healthcare staffing solutions are not designed for.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Four structural staffing constraints unique to critical access hospitals">
   <title>Four CAH Staffing Constraints Not Found at Large Hospitals</title>
@@ -83,13 +83,13 @@ Critical access hospitals -- federally designated rural facilities with 25 or fe
 
 Four staffing approaches show consistent operational results at critical access hospitals:
 
-**1. Internal per-diem pool management.** The most cost-effective solution to coverage gaps is a maintained internal per-diem pool -- nurses employed by the facility who work on an as-needed basis without guaranteed hours. Per-diem nurses typically earn a 15-25% premium over base rates; agency nurses cost 2-3x the standard rate. A per-diem pool of 4-6 nurses can absorb most callouts without agency involvement. The operational requirement: someone actively maintains the pool, tracks availability, keeps certifications current, and ensures per-diem nurses stay familiar with the unit.
+**1. Internal per-diem pool management.** The most cost-effective solution to coverage gaps is a maintained internal per-diem pool, nurses employed by the facility who work on an as-needed basis without guaranteed hours. Per-diem nurses typically earn a 15-25% premium over base rates; agency nurses cost 2-3x the standard rate. A per-diem pool of 4-6 nurses can absorb most callouts without agency involvement. The operational requirement: someone actively maintains the pool, tracks availability, keeps certifications current, and ensures per-diem nurses stay familiar with the unit.
 
-**2. Managed scheduling service.** Rather than giving the nurse manager scheduling software to operate, a managed scheduling service handles schedule generation, callout coverage shortlists, and compliance documentation. The nurse manager reviews and approves drafts. This approach reduces scheduling time from 8-12 hours per week to 1-2 hours -- a $26,000 annual reduction in misallocated leadership time at a $50/hour rate.
+**2. Managed scheduling service.** Rather than giving the nurse manager scheduling software to operate, a managed scheduling service handles schedule generation, callout coverage shortlists, and compliance documentation. The nurse manager reviews and approves drafts. This approach reduces scheduling time from 8-12 hours per week to 1-2 hours, a $26,000 annual reduction in misallocated leadership time at a $50/hour rate.
 
-**3. Proactive fairness tracking.** The most common CAH staffing destabilizer is voluntary turnover among reliable nurses who absorb disproportionate overtime, callouts, and undesirable shifts. Average RN turnover cost is approximately $52,000 per nurse (NSI Nursing Solutions data). Tracking fairness measures explicitly -- weekend assignments, night shifts, callout coverage per nurse -- and distributing burden equitably prevents the pattern that drives high-performer turnover.
+**3. Proactive fairness tracking.** The most common CAH staffing destabilizer is voluntary turnover among reliable nurses who absorb disproportionate overtime, callouts, and undesirable shifts. Average RN turnover cost is approximately $52,000 per nurse (NSI Nursing Solutions data). Tracking fairness measures explicitly, weekend assignments, night shifts, callout coverage per nurse, and distributing burden equitably prevents the pattern that drives high-performer turnover.
 
-**4. Cross-training for coverage flexibility.** At the CAH scale, a nurse certified for only one unit is a coverage liability. Systematic cross-training -- even one secondary unit certification per nurse -- significantly expands coverage options during callouts and allows more flexible scheduling overall.
+**4. Cross-training for coverage flexibility.** At the CAH scale, a nurse certified for only one unit is a coverage liability. Systematic cross-training, even one secondary unit certification per nurse, significantly expands coverage options during callouts and allows more flexible scheduling overall.
 
 ## Why Enterprise Staffing Solutions Fail at 25-Bed Hospitals?
 
@@ -137,12 +137,12 @@ At a CAH, the failure modes are consistent:
 
 **Near-term (months 1-3):** Implement a managed scheduling service that handles draft generation, callout coverage, and compliance logging. Actively recruit 3-4 per-diem nurses to reduce agency dependence. Publish schedules 4 weeks out instead of 2.
 
-**Ongoing:** Track turnover causes explicitly -- exit interviews that ask specifically about scheduling fairness, overtime load, and shift preferences. Review fairness measures monthly. Recalibrate scheduling rules as the roster changes.
+**Ongoing:** Track turnover causes explicitly, exit interviews that ask specifically about scheduling fairness, overtime load, and shift preferences. Review fairness measures monthly. Recalibrate scheduling rules as the roster changes.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Built for the CAH Context, Not Retrofitted From Enterprise</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI is a managed scheduling service purpose-built for critical access hospitals -- no IT involvement, Texas compliance by default, operational in 3-5 days. Request a free assessment to see how it fits your facility.
+    SimpleScheduleAI is a managed scheduling service purpose-built for critical access hospitals, no IT involvement, Texas compliance by default, operational in 3-5 days. Request a free assessment to see how it fits your facility.
   </p>
   <a
     href="/pilot"
@@ -170,8 +170,8 @@ Enterprise platforms typically cost $5-$15 per employee per month plus implement
 
 **How do CAHs handle staffing compliance without an HR department?**
 
-Through a managed scheduling service that generates automatic compliance documentation -- change logs, callout records, overtime tracking -- as a byproduct of the scheduling process. Manual documentation falls apart without dedicated staff; automated documentation does not require anyone to maintain it.
+Through a managed scheduling service that generates automatic compliance documentation, change logs, callout records, overtime tracking, as a byproduct of the scheduling process. Manual documentation falls apart without dedicated staff; automated documentation does not require anyone to maintain it.
 
 **What is the biggest mistake CAHs make when implementing healthcare staffing solutions?**
 
-Choosing a solution designed for a larger organization. Enterprise platforms assume IT departments, dedicated schedulers, and training time that most CAHs do not have. The implementation stalls, the platform never gets configured correctly, and the nurse manager returns to spreadsheets. The right solution matches the operational capacity of the facility -- not just the feature list.
+Choosing a solution designed for a larger organization. Enterprise platforms assume IT departments, dedicated schedulers, and training time that most CAHs do not have. The implementation stalls, the platform never gets configured correctly, and the nurse manager returns to spreadsheets. The right solution matches the operational capacity of the facility, not just the feature list.

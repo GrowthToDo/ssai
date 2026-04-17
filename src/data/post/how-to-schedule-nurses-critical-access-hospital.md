@@ -8,8 +8,8 @@ excerpt: >
   Nurse scheduling at a Critical Access Hospital is harder than at a large system.
   You have a thin roster, a dual-role nurse manager, CMS compliance obligations,
   and a callout pool that might be four people. This guide covers how to build a
-  workable nurse schedule at a 25-bed CAH -- from roster setup through callout
-  handling -- using methods that hold up in practice.
+  workable nurse schedule at a 25-bed CAH, from roster setup through callout
+  handling, using methods that hold up in practice.
 image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -24,11 +24,11 @@ metadata:
 
 ## Key Takeaways
 
-- A CAH nurse scheduling problem is not just a general scheduling problem at smaller scale. The specific constraints -- mandatory charge coverage, FLSA 8-and-80 overtime, CMS documentation, a roster of 18-25 nurses -- require a different approach than what works at a 400-bed hospital or a retail store.
+- A CAH nurse scheduling problem is not just a general scheduling problem at smaller scale. The specific constraints, mandatory charge coverage, FLSA 8-and-80 overtime, CMS documentation, a roster of 18-25 nurses, require a different approach than what works at a 400-bed hospital or a retail store.
 - The biggest scheduling failures at small hospitals come from three sources: inequitable shift distribution that burns out 2-3 nurses, callout coverage processes that are too slow and too manual, and CMS documentation that is assembled reactively rather than produced automatically.
 - The most important setup decision is constraint documentation: before building any schedule, write down every non-negotiable rule that constrains who can work which shift. Undocumented constraints become disputes.
 - A 4-week rotating schedule reduces rebuild time and sets clearer expectations for staff. Ad hoc scheduling (building the next week's schedule each week from scratch) is not sustainable at a small hospital.
-- For nurse managers who spend more than 3 hours per week on scheduling, the structural question is not which scheduling software is best -- it is whether self-serve scheduling is the right model at all.
+- For nurse managers who spend more than 3 hours per week on scheduling, the structural question is not which scheduling software is best, it is whether self-serve scheduling is the right model at all.
 
 ## Table of Contents
 
@@ -214,7 +214,7 @@ With your constraints documented and roster recorded, the first draft schedule f
 
 **Build order (do not skip steps):**
 
-1. **Place mandatory coverage first.** Assign one charge-qualified nurse to every shift. Do not treat this as a fill step at the end -- if you run out of qualified nurses, you need to know early.
+1. **Place mandatory coverage first.** Assign one charge-qualified nurse to every shift. Do not treat this as a fill step at the end, if you run out of qualified nurses, you need to know early.
 2. **Apply full-time employee base schedules.** FTE nurses have contracted hours expectations. Fill their primary patterns before adjusting PRN and part-time.
 3. **Fill remaining shifts with part-time and PRN staff.** Match availability constraints from your roster documentation.
 4. **Check equitable weekend distribution.** Count weekend shifts per nurse over the 4-week period. Rebalance where distribution is significantly uneven.
@@ -245,7 +245,7 @@ This documentation must be retrievable if CMS requests staffing records during a
 
 Callout coverage is the most time-sensitive scheduling task at a CAH. A nurse calling out for a 7 AM shift at 11 PM requires a response in under an hour to ensure coverage.
 
-Your callout process should be documented and consistent. Ad hoc callout handling -- the nurse manager checking whoever comes to mind first -- leads to overtime errors and inequitable burden on the same 2-3 nurses who always answer.
+Your callout process should be documented and consistent. Ad hoc callout handling, the nurse manager checking whoever comes to mind first, leads to overtime errors and inequitable burden on the same 2-3 nurses who always answer.
 
 **A workable callout coverage process:**
 
@@ -315,7 +315,7 @@ A managed scheduling service like [SimpleScheduleAI](/) handles steps 1-7 on beh
 
 <img src="/images/blog/how-to-schedule-nurses-critical-access-hospital/SimpleScheduleAI.png" alt="SimpleScheduleAI managed scheduling service for CAH nurses" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-For a CAH where the nurse manager spends 3+ hours per week on scheduling tasks that do not require clinical judgment -- formatting, overtime checking, callout calculations -- that time is recoverable.
+For a CAH where the nurse manager spends 3+ hours per week on scheduling tasks that do not require clinical judgment, formatting, overtime checking, callout calculations, that time is recoverable.
 
 ## What to Do This Week?
 
@@ -364,4 +364,4 @@ CMS §485.635 Conditions of Participation require CAHs to document that nursing 
 
 **Is it possible to schedule nurses at a CAH without scheduling software?**
 
-Yes, and many small hospitals still do it with spreadsheets. A well-maintained Excel roster with constraint documentation and a consistent build process can produce a workable schedule. The limitation is not quality -- it is time. A spreadsheet-based process for a 20-nurse roster takes approximately 4-6 hours per scheduling cycle. Scheduling software reduces that to 2-4 hours. A managed service reduces it to 1-2 hours (review and approval only).
+Yes, and many small hospitals still do it with spreadsheets. A well-maintained Excel roster with constraint documentation and a consistent build process can produce a workable schedule. The limitation is not quality, it is time. A spreadsheet-based process for a 20-nurse roster takes approximately 4-6 hours per scheduling cycle. Scheduling software reduces that to 2-4 hours. A managed service reduces it to 1-2 hours (review and approval only).

@@ -25,7 +25,7 @@ metadata:
 - Enterprise platforms (UKG) are powerful but require IT infrastructure and dedicated scheduling staff that most CAHs do not have.
 - Aladtec/TCP is the best self-serve healthcare option for CAHs: healthcare-specific, faster than enterprise, reasonable compliance features.
 - A managed service (SimpleScheduleAI) reduces scheduling time to 1-2 hours per week but requires comfort delegating draft generation to a specialist.
-- Match the model to your situation before comparing features -- the wrong operating model produces the wrong outcome regardless of how good the feature list looks.
+- Match the model to your situation before comparing features, the wrong operating model produces the wrong outcome regardless of how good the feature list looks.
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@ metadata:
 - [Summary Comparison](#summary-comparison)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-There is no single best healthcare scheduling software for all hospitals. The right choice depends on your facility's IT capacity, budget, scheduling complexity, and whether you want to build schedules yourself or delegate the function. This comparison covers five real options across three categories -- enterprise, self-serve, and managed service -- with honest strengths, weaknesses, and specific contexts for each.
+There is no single best healthcare scheduling software for all hospitals. The right choice depends on your facility's IT capacity, budget, scheduling complexity, and whether you want to build schedules yourself or delegate the function. This comparison covers five real options across three categories, enterprise, self-serve, and managed service, with honest strengths, weaknesses, and specific contexts for each.
 
 ## How to Evaluate Healthcare Scheduling Software for a Small Hospital?
 
@@ -103,7 +103,7 @@ Before comparing options, define what "best" means for your facility. Four quest
 
 **Strengths:** Purpose-built for healthcare and public safety. Covers certification tracking, overtime visibility (manual), and basic compliance documentation. Suitable for smaller facilities. Self-serve SaaS model accessible from any browser. Reasonable implementation timeline (2-4 weeks) compared to enterprise platforms.
 
-**Weaknesses:** Self-serve model -- the nurse manager still operates the system and builds schedules. Configuration requires time investment. No managed service component. Post-acquisition support quality complaints on G2 and Capterra.
+**Weaknesses:** Self-serve model, the nurse manager still operates the system and builds schedules. Configuration requires time investment. No managed service component. Post-acquisition support quality complaints on G2 and Capterra.
 
 **Best for:** CAHs where a nurse manager wants direct control over scheduling, is willing to invest 2-4 weeks in configuration, and has basic technical comfort with SaaS tools.
 
@@ -137,9 +137,9 @@ Before comparing options, define what "best" means for your facility. Four quest
 
 **What it is:** Managed scheduling service purpose-built for Texas critical access hospitals. A scheduling specialist handles schedule building, replacement lists, overtime tracking, and compliance documentation. The nurse manager reviews and approves.
 
-**Strengths:** Managed service model -- nurse manager reviews, does not build. No IT integration required; onboards via Excel roster upload in 3-5 business days. Texas compliance built in (FLSA, Texas Labor Code, CMS §485.635). Proactive overtime tracking in every draft. Ranked replacement lists available within minutes of callout notification.
+**Strengths:** Managed service model, nurse manager reviews, does not build. No IT integration required; onboards via Excel roster upload in 3-5 business days. Texas compliance built in (FLSA, Texas Labor Code, CMS §485.635). Proactive overtime tracking in every draft. Ranked replacement lists available within minutes of callout notification.
 
-**Weaknesses:** No nurse-facing mobile app -- nurses do not interact with the system directly. Managed service model requires comfort delegating draft generation. Focused on Texas CAHs; may not fit facilities outside that context.
+**Weaknesses:** No nurse-facing mobile app, nurses do not interact with the system directly. Managed service model requires comfort delegating draft generation. Focused on Texas CAHs; may not fit facilities outside that context.
 
 **Best for:** Texas critical access hospitals where the nurse manager needs structural scheduling burden reduction (not just better tools), has no IT support, and wants to be operational quickly.
 
@@ -239,4 +239,4 @@ Proactive FLSA overtime tracking (flags during schedule building, not after payr
 
 **How do I evaluate whether a managed service or self-serve platform is better for my hospital?**
 
-Ask your nurse manager one question: would you rather have better tools to build schedules yourself, or have the schedules built for you and review the output? If the answer is "I want to build them myself with better tools," evaluate Aladtec and ShiftWizard. If the answer is "I want someone to build them," evaluate managed services. Neither is universally better -- they match different preferences and different levels of available time.
+Ask your nurse manager one question: would you rather have better tools to build schedules yourself, or have the schedules built for you and review the output? If the answer is "I want to build them myself with better tools," evaluate Aladtec and ShiftWizard. If the answer is "I want someone to build them," evaluate managed services. Neither is universally better, they match different preferences and different levels of available time.

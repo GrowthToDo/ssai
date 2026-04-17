@@ -22,7 +22,7 @@ metadata:
 ## Key Takeaways
 
 - A healthcare scheduling platform gives you tools to run scheduling better. A managed service runs scheduling for you. The operating model determines how much burden actually decreases.
-- Enterprise platforms assume IT departments, dedicated scheduling staff, and long implementation timelines -- assumptions that do not hold at most CAHs.
+- Enterprise platforms assume IT departments, dedicated scheduling staff, and long implementation timelines, assumptions that do not hold at most CAHs.
 - Mid-market platforms (Aladtec) are the right self-serve option for CAHs that want direct control. Managed services (SimpleScheduleAI) are the right option for CAHs that need structural burden reduction.
 - A well-configured scheduling platform reduces nurse manager time from 8-12 hours to 4-6 hours per week. A managed service reduces it to 1-2 hours.
 - Implementation speed matters when scheduling burden is acute: managed services onboard in days, platforms in weeks.
@@ -43,7 +43,7 @@ A healthcare scheduling platform is software your team runs: configure it, opera
 
 A healthcare scheduling platform provides the tools; your team provides the time and expertise to operate them. Healthcare scheduling platforms range from enterprise workforce management systems (UKG, API Healthcare) built for health systems to mid-market tools (Aladtec, SmartLinx) designed for smaller healthcare organizations.
 
-What they have in common: the customer configures the system, builds schedules using the platform's interface, and manages day-to-day scheduling work within the platform. The platform automates parts of the process -- it tracks overtime, enforces credential requirements, logs changes -- but a person still operates it.
+What they have in common: the customer configures the system, builds schedules using the platform's interface, and manages day-to-day scheduling work within the platform. The platform automates parts of the process, it tracks overtime, enforces credential requirements, logs changes, but a person still operates it.
 
 ## What Enterprise Platforms Assume?
 
@@ -91,7 +91,7 @@ Mid-market healthcare platforms (Aladtec, SmartLinx) are designed for smaller he
 
 Implementation: 2-4 weeks, minimal IT involvement, some configuration complexity.
 
-What you get: healthcare-specific features, certification tracking, overtime compliance, CMS documentation, callout coverage tools -- in a self-serve interface the nurse manager operates.
+What you get: healthcare-specific features, certification tracking, overtime compliance, CMS documentation, callout coverage tools, in a self-serve interface the nurse manager operates.
 
 What you still do yourself: build every schedule, manage the callout replacement process, configure and maintain the system, learn and operate the interface.
 
@@ -164,7 +164,7 @@ The operating time difference is significant: a well-configured scheduling platf
 
 - You want direct, hands-on control over every scheduling decision
 - You are willing to invest time in learning and maintaining a scheduling system
-- Staff self-service is important -- nurses managing their own availability through an app
+- Staff self-service is important, nurses managing their own availability through an app
 - Your facility has IT support for implementation
 - 4-6 hours of weekly scheduling work is acceptable
 
@@ -195,7 +195,7 @@ For more context on [nurse scheduling software](/nurse-scheduling-software) opti
 
 **What is a healthcare scheduling platform?**
 
-A healthcare scheduling platform is software that nurse managers and scheduling staff use to build and manage shift schedules. The platform provides tools for schedule building, overtime tracking, certification management, and compliance documentation -- but the nursing team operates the platform and builds the schedules themselves. This contrasts with a managed scheduling service, where a specialist builds the schedules and the nurse manager approves the output.
+A healthcare scheduling platform is software that nurse managers and scheduling staff use to build and manage shift schedules. The platform provides tools for schedule building, overtime tracking, certification management, and compliance documentation, but the nursing team operates the platform and builds the schedules themselves. This contrasts with a managed scheduling service, where a specialist builds the schedules and the nurse manager approves the output.
 
 **Do small hospitals need a healthcare scheduling platform or a managed service?**
 
@@ -207,8 +207,8 @@ Mid-market healthcare platforms (Aladtec, SmartLinx) typically take 2-4 weeks fr
 
 **What hospital scheduling systems are best for critical access hospitals?**
 
-Critical access hospitals need scheduling solutions that cover proactive FLSA overtime tracking, certification-unit matching, CMS audit trail documentation, and clinical callout coverage logic -- without requiring IT implementation support. Mid-market platforms (Aladtec) and managed services (SimpleScheduleAI) both cover these requirements. The choice depends on whether the nurse manager wants to operate the system (platform) or have the work done for her (service).
+Critical access hospitals need scheduling solutions that cover proactive FLSA overtime tracking, certification-unit matching, CMS audit trail documentation, and clinical callout coverage logic, without requiring IT implementation support. Mid-market platforms (Aladtec) and managed services (SimpleScheduleAI) both cover these requirements. The choice depends on whether the nurse manager wants to operate the system (platform) or have the work done for her (service).
 
 **What is the biggest risk of choosing a healthcare scheduling platform at a CAH without IT support?**
 
-Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors -- overtime rules set up wrong, credential requirements not enforced, audit trail gaps. At a CAH with no dedicated scheduling coordinator or IT staff, that configuration burden falls entirely on the nurse manager. The errors typically surface at payroll or during a CMS survey.
+Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors, overtime rules set up wrong, credential requirements not enforced, audit trail gaps. At a CAH with no dedicated scheduling coordinator or IT staff, that configuration burden falls entirely on the nurse manager. The errors typically surface at payroll or during a CMS survey.

@@ -21,9 +21,9 @@ metadata:
 
 ## Key Takeaways
 
-- NurseGrid's strength is the nurse-facing mobile experience. Its gaps -- no FLSA overtime tracking, no CMS audit trail, no certification-unit matching, and a non-functional manager app -- make it insufficient as a primary scheduling system for a CAH.
+- NurseGrid's strength is the nurse-facing mobile experience. Its gaps, no FLSA overtime tracking, no CMS audit trail, no certification-unit matching, and a non-functional manager app, make it insufficient as a primary scheduling system for a CAH.
 - The main alternatives are TCP/Aladtec (more management features, self-serve), ShiftWizard (nurse-specific, more modern, self-serve), and SimpleScheduleAI (managed service, full compliance coverage, no nurse app).
-- A hybrid approach -- NurseGrid for nurse communication, managed service for scheduling management and compliance -- is a viable option for CAHs that value nurse self-service features and need full compliance coverage.
+- A hybrid approach, NurseGrid for nurse communication, managed service for scheduling management and compliance, is a viable option for CAHs that value nurse self-service features and need full compliance coverage.
 - The right alternative depends on whether compliance coverage or nurse-facing features is the higher priority at your facility.
 
 ## Table of Contents
@@ -43,7 +43,7 @@ NurseGrid is a scheduling tool built primarily for nurses. Its strongest feature
 
 NurseGrid covers the nurse communication layer well: schedule viewing, availability management, and shift trade requests on mobile. It is easy to adopt and nurses generally like the interface.
 
-What it does not cover: manager-side scheduling operations, proactive overtime tracking, CMS documentation, certification enforcement, or callout coverage logic. These are not optional features for a CAH -- they are core scheduling requirements.
+What it does not cover: manager-side scheduling operations, proactive overtime tracking, CMS documentation, certification enforcement, or callout coverage logic. These are not optional features for a CAH, they are core scheduling requirements.
 
 ## Why CAHs Look for NurseGrid Alternatives?
 
@@ -176,7 +176,7 @@ For a CAH switching from NurseGrid specifically because of the manager app probl
 
 SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service covering the compliance and management requirements NurseGrid does not address. A scheduling specialist handles configuration and schedule generation; the nurse manager reviews and approves.
 
-The honest trade-off: SimpleScheduleAI does not have a nurse-facing mobile app. If nurse self-service features are a significant reason your facility uses NurseGrid, that function does not transfer. A hybrid approach -- keeping a communication tool for nurse-facing features while switching to a managed service for scheduling management and compliance -- is worth considering.
+The honest trade-off: SimpleScheduleAI does not have a nurse-facing mobile app. If nurse self-service features are a significant reason your facility uses NurseGrid, that function does not transfer. A hybrid approach, keeping a communication tool for nurse-facing features while switching to a managed service for scheduling management and compliance, is worth considering.
 
 What SimpleScheduleAI provides that NurseGrid does not:
 

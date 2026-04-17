@@ -222,7 +222,7 @@ SimpleScheduleAI is the only option on this list that eliminates IT dependency e
 - Not self-serve. If the nurse manager wants to directly edit scheduling rules in a backend interface, that is not the model. The nurse manager reviews and approves. The vendor manages configuration.
 - Pricing requires a consultation. Not listed publicly.
 
-**Verdict:** The right choice for any CAH where IT dependency would prevent a self-serve platform from being configured and maintained correctly. The no-IT value is not a nice-to-have -- it is structural.
+**Verdict:** The right choice for any CAH where IT dependency would prevent a self-serve platform from being configured and maintained correctly. The no-IT value is not a nice-to-have, it is structural.
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 

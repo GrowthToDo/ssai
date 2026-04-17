@@ -23,7 +23,7 @@ metadata:
 
 - Healthcare scheduling apps are self-serve tools: your team configures and operates them. Managed services do the scheduling work for your team.
 - CAHs fail with scheduling apps because they lack the IT departments, dedicated scheduling staff, and compliance expertise to configure and maintain them properly.
-- A managed service reduces scheduling time from 8-12 hours per week to 1-2 hours -- not by making the app faster, but by removing the scheduling build from the nurse manager's responsibilities.
+- A managed service reduces scheduling time from 8-12 hours per week to 1-2 hours, not by making the app faster, but by removing the scheduling build from the nurse manager's responsibilities.
 - Apps are better for hospitals with dedicated scheduling staff, IT support, and staff self-service needs.
 - Managed services are better for CAHs with no IT, no dedicated scheduler, and Texas compliance requirements.
 
@@ -39,11 +39,11 @@ Healthcare scheduling apps give you a tool. Managed scheduling services do the w
 
 ## What a Healthcare Scheduling App Is?
 
-A healthcare scheduling app is a software application -- typically web-based with a mobile companion -- that provides tools for building and managing clinical staff schedules. The app model is self-serve: your team configures the system, enters roster data, builds schedules, and manages callouts using the software's interface.
+A healthcare scheduling app is a software application, typically web-based with a mobile companion, that provides tools for building and managing clinical staff schedules. The app model is self-serve: your team configures the system, enters roster data, builds schedules, and manages callouts using the software's interface.
 
 Healthcare scheduling apps range from simple shift boards (digital versions of the whiteboard) to sophisticated platforms with compliance rules, certification tracking, and API integrations to EHR and payroll systems. Products like NurseGrid, Aladtec, and ShiftWizard fall into this category.
 
-The defining characteristic of an app model: the operational work stays with your team. The app makes that work faster and more organized, but your nurse manager is still building schedules, monitoring overtime, and handling callouts -- just in a digital environment instead of a spreadsheet.
+The defining characteristic of an app model: the operational work stays with your team. The app makes that work faster and more organized, but your nurse manager is still building schedules, monitoring overtime, and handling callouts, just in a digital environment instead of a spreadsheet.
 
 ## Why Healthcare Scheduling Apps Fail Critical Access Hospitals?
 
@@ -87,13 +87,13 @@ In practice with SimpleScheduleAI:
 - A scheduling specialist handles initial setup from your Excel roster (3-5 business days, no IT integration)
 - The specialist builds draft schedule options each cycle, checking overtime thresholds and credential requirements before presenting drafts
 - The nurse manager reviews draft schedules and approves or requests adjustments
-- When a nurse calls out, a replacement shortlist is available within minutes -- filtered by certification, overtime status, and availability
+- When a nurse calls out, a replacement shortlist is available within minutes, filtered by certification, overtime status, and availability
 - The [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail is maintained automatically, ready for surveyors
 - Texas compliance ([FLSA](https://www.dol.gov/agencies/whd/flsa), [Texas Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm)) is built in as default, not configured
 
-The nurse manager makes final decisions on every schedule and every replacement. The service eliminates 8-10 hours of administrative work per cycle -- it does not replace clinical judgment.
+The nurse manager makes final decisions on every schedule and every replacement. The service eliminates 8-10 hours of administrative work per cycle, it does not replace clinical judgment.
 
-One honest limitation: SimpleScheduleAI does not include a staff self-service portal where nurses can submit availability requests or swap shifts independently. If that feature is important, a hybrid approach -- a self-service app for staff availability combined with a managed service for schedule generation -- may be worth evaluating.
+One honest limitation: SimpleScheduleAI does not include a staff self-service portal where nurses can submit availability requests or swap shifts independently. If that feature is important, a hybrid approach, a self-service app for staff availability combined with a managed service for schedule generation, may be worth evaluating.
 
 ## Which Approach Fits Your Hospital?
 
@@ -151,7 +151,7 @@ One honest limitation: SimpleScheduleAI does not include a staff self-service po
 - You have a dedicated scheduler (not the nurse manager) who will operate it
 - You have IT support for initial configuration and ongoing maintenance
 - Your hospital has 50+ beds with scheduling complexity beyond what a service model handles
-- Staff self-service features -- nurses submitting availability, requesting swaps, checking schedules on mobile -- are a priority
+- Staff self-service features, nurses submitting availability, requesting swaps, checking schedules on mobile, are a priority
 
 **A managed scheduling service is the better fit when:**
 
@@ -164,7 +164,7 @@ One honest limitation: SimpleScheduleAI does not include a staff self-service po
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">See the Managed Service Model in Practice</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days with no IT involvement. Your nurse manager reviews and approves -- the scheduling work is done. Request a free assessment to see how it compares to what you have now.
+    SimpleScheduleAI goes live in 3-5 days with no IT involvement. Your nurse manager reviews and approves, the scheduling work is done. Request a free assessment to see how it compares to what you have now.
   </p>
   <a
     href="/pilot"
@@ -180,7 +180,7 @@ For more context on [nurse scheduling software](/nurse-scheduling-software) opti
 
 **What is the difference between a healthcare scheduling app and a managed service?**
 
-A healthcare scheduling app provides tools your team uses to build and manage schedules. A managed service does the scheduling work for you -- generating drafts, managing callout coverage, maintaining compliance documentation -- with your team reviewing and approving the output. The key difference is where the operational burden sits.
+A healthcare scheduling app provides tools your team uses to build and manage schedules. A managed service does the scheduling work for you, generating drafts, managing callout coverage, maintaining compliance documentation, with your team reviewing and approving the output. The key difference is where the operational burden sits.
 
 **Why do healthcare scheduling apps fail at critical access hospitals?**
 
@@ -196,4 +196,4 @@ Pricing varies. The more relevant comparison is total cost: a scheduling app sub
 
 **Do managed scheduling services replace the nurse manager's role?**
 
-No. The nurse manager retains full authority over every schedule and every replacement decision. A managed service eliminates administrative work -- data entry, draft generation, callout coordination -- not clinical judgment.
+No. The nurse manager retains full authority over every schedule and every replacement decision. A managed service eliminates administrative work, data entry, draft generation, callout coordination, not clinical judgment.

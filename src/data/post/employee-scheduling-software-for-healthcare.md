@@ -24,7 +24,7 @@ metadata:
 
 - Generic employee scheduling software (Homebase, When I Work, Deputy) handles shift assignment well for businesses where employees are interchangeable. Healthcare requires five capabilities these tools do not have.
 - The five healthcare-specific requirements: nursing certification-unit matching, proactive FLSA overtime compliance, CMS-compliant change audit trail, clinical callout coverage logic, and per-diem pool management.
-- For a CAH nurse manager using generic scheduling software, the compliance and coverage work remains entirely manual -- she is doing three jobs instead of one.
+- For a CAH nurse manager using generic scheduling software, the compliance and coverage work remains entirely manual, she is doing three jobs instead of one.
 - A managed scheduling service goes further than purpose-built healthcare software: it removes the operational burden from the nurse manager, not just provides better tools.
 - Generic tools are appropriate for clinics and simple practices. Hospitals with inpatient CMS requirements need healthcare-specific tools.
 
@@ -36,11 +36,11 @@ metadata:
 - [Generic vs. Healthcare-Specific: Direct Comparison](#generic-vs-healthcare-specific-direct-comparison)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Generic employee scheduling software is designed for a specific problem: a business with variable shift coverage needs and employees who are largely interchangeable -- a retail store, a restaurant, a service business. The scheduling challenge is filling shifts with available people. These tools are well-built for that problem. Healthcare scheduling is structurally different in five ways that generic tools do not address.
+Generic employee scheduling software is designed for a specific problem: a business with variable shift coverage needs and employees who are largely interchangeable, a retail store, a restaurant, a service business. The scheduling challenge is filling shifts with available people. These tools are well-built for that problem. Healthcare scheduling is structurally different in five ways that generic tools do not address.
 
 ## Why Healthcare Employee Scheduling Is Structurally Different?
 
-In a restaurant, any server can cover any section. In a hospital, a nurse certified for med-surg may not be certified for ICU or labor and delivery. Generic tools model employees as interchangeable. Healthcare tools model clinical certification and compliance constraints. That design difference is not a feature gap -- it is a fundamental architecture difference that cannot be addressed by configuration alone.
+In a restaurant, any server can cover any section. In a hospital, a nurse certified for med-surg may not be certified for ICU or labor and delivery. Generic tools model employees as interchangeable. Healthcare tools model clinical certification and compliance constraints. That design difference is not a feature gap, it is a fundamental architecture difference that cannot be addressed by configuration alone.
 
 ## What Are the Five Requirements Generic Tools Miss?
 
@@ -92,9 +92,9 @@ In a restaurant, any server can cover any section. In a hospital, a nurse certif
 
 **1. Nursing certification-unit matching.** A nurse certified for med-surg may not be certified for ICU or labor and delivery. Assigning an uncertified nurse to a unit creates a clinical staffing error. Generic tools assign whoever is available. Healthcare-specific tools prevent uncertified assignments automatically.
 
-**2. Proactive FLSA overtime compliance.** Under [FLSA](https://www.dol.gov/agencies/whd/flsa), any hours over 40 in a workweek require 1.5x pay. A nurse scheduled for three 12-hour shifts plus a 4-hour on-call appearance is at 40 hours before any callout occurs. Generic tools process whatever schedule you build. Healthcare-specific tools flag any nurse approaching the 40-hour threshold during schedule building -- converting overtime from a payroll surprise into a preventable scheduling decision.
+**2. Proactive FLSA overtime compliance.** Under [FLSA](https://www.dol.gov/agencies/whd/flsa), any hours over 40 in a workweek require 1.5x pay. A nurse scheduled for three 12-hour shifts plus a 4-hour on-call appearance is at 40 hours before any callout occurs. Generic tools process whatever schedule you build. Healthcare-specific tools flag any nurse approaching the 40-hour threshold during schedule building, converting overtime from a payroll surprise into a preventable scheduling decision.
 
-**3. CMS-compliant audit trail documentation.** [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requires critical access hospitals to maintain accurate, reviewable staffing records. Every schedule change must be documented -- who changed what, when. Generic tools do not produce change documentation in the format required for CMS survey response. Healthcare-specific tools auto-log every schedule change with timestamp and user information.
+**3. CMS-compliant audit trail documentation.** [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requires critical access hospitals to maintain accurate, reviewable staffing records. Every schedule change must be documented, who changed what, when. Generic tools do not produce change documentation in the format required for CMS survey response. Healthcare-specific tools auto-log every schedule change with timestamp and user information.
 
 **4. Clinical callout coverage logic.** When a nurse calls out, the replacement must be available, certified for the unit, within overtime limits, and fair from a distribution standpoint. Generic tools offer "find available staff" functions that do not apply these four clinical constraints. Healthcare-specific tools maintain replacement call lists that automatically apply all criteria, producing a prioritized list the manager can act on in 10-15 minutes instead of 30-60 minutes of manual research.
 
@@ -161,7 +161,7 @@ The pattern: generic tools work when healthcare scheduling is simple. The more C
   </table>
 </div>
 
-A CAH nurse manager using generic employee scheduling software is not just using a simpler tool -- she is doing three jobs: nurse manager, scheduling coordinator, and compliance documentation specialist. The scheduling software handles shift assignment; the compliance and clinical coverage work remains entirely manual.
+A CAH nurse manager using generic employee scheduling software is not just using a simpler tool, she is doing three jobs: nurse manager, scheduling coordinator, and compliance documentation specialist. The scheduling software handles shift assignment; the compliance and clinical coverage work remains entirely manual.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Stop Doing Compliance Documentation That Should Be Automatic</h2>
@@ -180,7 +180,7 @@ A CAH nurse manager using generic employee scheduling software is not just using
 
 **Can hospitals use generic employee scheduling software like Homebase or When I Work?**
 
-For simple scheduling needs -- clinics, small practices without inpatient CMS requirements -- generic tools work. For hospitals with CMS documentation requirements, certification-specific staffing, and clinical callout coverage needs, generic tools are insufficient as the primary scheduling system. They handle shift assignment but do not cover the compliance and clinical coverage work hospitals require.
+For simple scheduling needs, clinics, small practices without inpatient CMS requirements, generic tools work. For hospitals with CMS documentation requirements, certification-specific staffing, and clinical callout coverage needs, generic tools are insufficient as the primary scheduling system. They handle shift assignment but do not cover the compliance and clinical coverage work hospitals require.
 
 **What makes employee scheduling software "healthcare-specific"?**
 
@@ -192,8 +192,8 @@ Yes. SimpleScheduleAI onboards via Excel roster upload in 3-5 business days with
 
 **Why do generic scheduling tools miss healthcare compliance features?**
 
-Generic scheduling tools are designed for the common case -- retail, restaurants, small businesses -- where employees are largely interchangeable and compliance requirements are basic. Building healthcare-specific features (certification management, CMS audit trail, clinical callout logic) would add complexity that their core market does not need. Healthcare-specific scheduling software is purpose-built for clinical staffing constraints from the ground up.
+Generic scheduling tools are designed for the common case, retail, restaurants, small businesses, where employees are largely interchangeable and compliance requirements are basic. Building healthcare-specific features (certification management, CMS audit trail, clinical callout logic) would add complexity that their core market does not need. Healthcare-specific scheduling software is purpose-built for clinical staffing constraints from the ground up.
 
 **What is the hybrid approach for CAHs that want both nurse-facing features and healthcare compliance?**
 
-Use a generic tool for staff-facing communication -- nurses view schedules, request time off, and propose swaps through the generic app's mobile interface -- while using a healthcare-specific managed service for schedule building, overtime tracking, compliance documentation, and callout coverage logic. The two functions are clearly separated: the generic tool handles the nurse-facing communication layer, the managed service handles the compliance and operational layer.
+Use a generic tool for staff-facing communication, nurses view schedules, request time off, and propose swaps through the generic app's mobile interface, while using a healthcare-specific managed service for schedule building, overtime tracking, compliance documentation, and callout coverage logic. The two functions are clearly separated: the generic tool handles the nurse-facing communication layer, the managed service handles the compliance and operational layer.

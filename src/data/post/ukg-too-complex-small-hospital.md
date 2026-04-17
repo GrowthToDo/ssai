@@ -43,7 +43,7 @@ UKG (formerly Kronos) is the most deployed workforce management system in large 
 
 The result is a tool with enterprise complexity and CAH-scale support.
 
-One data point worth knowing before any internal conversation about UKG: on Reddit's r/nursing and AllNurses.com -- where frontline nurses discuss the tools they actually use -- the phrase "Kronos is garbage" appears so consistently it has become a shorthand. The administrator buying the platform and the nurses using it often have very different assessments of it. For a small hospital where nurse buy-in directly affects retention, that gap matters before implementation begins.
+One data point worth knowing before any internal conversation about UKG: on Reddit's r/nursing and AllNurses.com, where frontline nurses discuss the tools they actually use, the phrase "Kronos is garbage" appears so consistently it has become a shorthand. The administrator buying the platform and the nurses using it often have very different assessments of it. For a small hospital where nurse buy-in directly affects retention, that gap matters before implementation begins.
 
 ## Why Does UKG Fail at Small Hospital Scale?
 
