@@ -226,7 +226,7 @@ default response to a callout is always the phone tree, always the agency call.
 
 ## Does Buying Scheduling Software Fix These Problems?
 
-Not always. Hospitals that have purchased scheduling software often find that the friction points described above do not disappear -- they shift. Configuration burden, software reliability issues, and unresponsive support create a new category of administrative work that sits on top of the original scheduling burden.
+Not always. Hospitals that have purchased scheduling software often find that the friction points described above do not disappear. They shift. Configuration burden, software reliability issues, and unresponsive support create a new category of administrative work that sits on top of the original scheduling burden.
 
 Reviewers of major nurse scheduling platforms document the pattern clearly:
 
