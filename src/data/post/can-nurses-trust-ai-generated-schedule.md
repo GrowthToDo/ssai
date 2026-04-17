@@ -176,6 +176,10 @@ The nurse manager who approved and posted the schedule is responsible. An AI-gen
 
 The manager enters relevant constraints as part of setup and updates them as circumstances change. A nurse who cannot work nights for a medical reason, a nurse who has a standing agreement about a specific day, a nurse who is on a modified duty plan: all of these can be captured as scheduling rules or preference entries that the system respects. What the system cannot do is infer circumstances that were never entered. Keeping the input data current is the manager's responsibility.
 
+**Q: Nurses have heard that AI scheduling in other tools doesn't always work. Are those concerns valid?**
+
+Yes, partially. AI-assisted scheduling in other platforms has a documented pattern of rule conflicts and automation errors. A common complaint about QGenda's scheduling automation: "The rules setup seems to have hiccups or issues each time we try to fix them." That is a real problem -- automation that produces scheduling errors is worse than no automation, because errors look correct until someone catches them manually. The concern nurses have is warranted as a general skepticism about AI scheduling implementations. The relevant question is not whether AI scheduling can fail, but what happens when it does. A system that generates a draft and requires manager review before posting is structurally different from one that publishes automatically. The review step is where the manager's judgment catches what the algorithm missed.
+
 **Q: Is it fair to post an AI-generated schedule without telling nursing staff?**
 
 Transparency about how a schedule was built is good practice regardless of the method. Telling staff that the schedule was generated using a system that applies consistent rules and was reviewed by the manager before posting is more likely to build acceptance than silence. The nurses who ask how the schedule was built deserve an honest answer.
