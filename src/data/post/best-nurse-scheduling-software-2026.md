@@ -239,7 +239,7 @@ Aladtec is one of the most widely used scheduling platforms in the small hospita
 
 **Key advantages:**
 
-- Reliable, well-proven platform with a long track record in small hospitals and EMS agencies -- though multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software, with users describing a noticeably less responsive experience post-acquisition
+- Reliable, well-proven platform with a long track record in small hospitals and EMS agencies. Multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software, with users describing a noticeably less responsive experience post-acquisition
 - Credential expiration tracking included out of the box
 - Lower implementation burden than most mid-market alternatives
 
@@ -319,7 +319,7 @@ NurseGrid is fundamentally a nurse-facing app. Individual nurses use it to view 
 
 - Not a scheduling engine. You still need to build the schedule somewhere else.
 - No clinical compliance documentation for hospital regulatory requirements.
-- The manager app was removed in a prior update. Managers can no longer make schedule changes from a phone -- desktop login is required. Nurses can view their schedule on mobile, but managers cannot edit from the floor.
+- The manager app was removed in a prior update. Managers can no longer make schedule changes from a phone. Desktop login is required. Nurses can view their schedule on mobile, but managers cannot edit from the floor.
 
 **Verdict:** A useful add-on for shift communication and open-shift posting. Not a replacement for a scheduling platform and should not be the only scheduling tool in use.
 
