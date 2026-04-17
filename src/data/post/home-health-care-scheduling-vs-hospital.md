@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Home Health vs. Hospital Scheduling: Key Differences'
 excerpt: >
   Home health care scheduling coordinates visiting clinicians across patient homes and
-  geographic territories -- a fundamentally different challenge from hospital shift
+  geographic territories, a fundamentally different challenge from hospital shift
   scheduling. Understanding these differences helps healthcare organizations choose the
   right scheduling tool for their specific setting.
 image: https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
@@ -21,10 +21,10 @@ metadata:
 
 ## Key Takeaways
 
-- Home health care scheduling is visit-based, geography-driven, and patient-continuity-focused -- fundamentally different from hospital shift scheduling.
+- Home health care scheduling is visit-based, geography-driven, and patient-continuity-focused, fundamentally different from hospital shift scheduling.
 - Hospital scheduling software does not include the geographic routing, EVV compliance, or billing integration that home health agencies need.
 - Purpose-built home health scheduling tools include Alayacare, Wellsky, and Homecare Homebase.
-- SimpleScheduleAI is an inpatient hospital shift scheduling managed service -- not a home health tool.
+- SimpleScheduleAI is an inpatient hospital shift scheduling managed service, not a home health tool.
 - Organizations with both home health and inpatient services typically need separate scheduling tools appropriate to each care setting.
 
 ## Table of Contents
@@ -35,13 +35,13 @@ metadata:
 - [Which Type Does SimpleScheduleAI Serve?](#which-type-does-simplescheduleai-serve)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Home health care scheduling and hospital shift scheduling look superficially similar -- both involve matching clinical staff to care needs -- but they operate on different logics. Home health scheduling is geography-driven, patient-visit-based, and episodic. Hospital scheduling is facility-based, shift-rotation-driven, and continuous. The software built for one rarely works well for the other.
+Home health care scheduling and hospital shift scheduling look superficially similar, both involve matching clinical staff to care needs, but they operate on different logics. Home health scheduling is geography-driven, patient-visit-based, and episodic. Hospital scheduling is facility-based, shift-rotation-driven, and continuous. The software built for one rarely works well for the other.
 
 ## What Home Health Care Scheduling Is?
 
 Home health care scheduling is the process of matching visiting clinicians (registered nurses, physical therapists, occupational therapists, home health aides, social workers) to individual patient visits at patients' private residences, coordinated across a geographic service area.
 
-Unlike hospital scheduling -- which works from a fixed set of shifts at a fixed location -- home health scheduling is patient-visit-centric. Each patient may have a care plan requiring multiple visits per week from multiple clinician types. The scheduler assigns the right clinician to the right patient visit, factoring in: geographic proximity and travel time, clinician specialty and certification match, continuity of care (same clinician for consecutive visits when possible), patient preference, and clinician capacity.
+Unlike hospital scheduling, which works from a fixed set of shifts at a fixed location, home health scheduling is patient-visit-centric. Each patient may have a care plan requiring multiple visits per week from multiple clinician types. The scheduler assigns the right clinician to the right patient visit, factoring in: geographic proximity and travel time, clinician specialty and certification match, continuity of care (same clinician for consecutive visits when possible), patient preference, and clinician capacity.
 
 The regulatory framework is also different. Home health agencies are governed by the [CMS Conditions of Participation for Home Health Agencies](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/home-health) rather than the Critical Access Hospital CoP. Documentation requirements, visit frequency mandates, and care plan certification rules are distinct from inpatient hospital compliance.
 
@@ -85,9 +85,9 @@ The regulatory framework is also different. Home health agencies are governed by
 
 **Unit of work.** Hospital scheduling assigns nurses to shifts: an 8-hour or 12-hour block at a defined location. Home health scheduling assigns clinicians to visits: a 30-minute to 2-hour interaction at a specific patient's home, potentially dozens of miles from the next visit. Scheduling logic built for shifts produces nonsense when applied to visit coordination.
 
-**Geography.** Hospital scheduling has no geography problem -- everyone shows up at the same building. Home health scheduling is fundamentally a routing problem, minimizing clinician travel time across a service area that may span hundreds of square miles.
+**Geography.** Hospital scheduling has no geography problem, everyone shows up at the same building. Home health scheduling is fundamentally a routing problem, minimizing clinician travel time across a service area that may span hundreds of square miles.
 
-**Patient continuity.** Hospital nurses rotate across patients based on shift assignment. Home health care protocols often require visit-over-visit continuity -- the same nurse seeing the same patient across an episode of care to build therapeutic relationships and track progress.
+**Patient continuity.** Hospital nurses rotate across patients based on shift assignment. Home health care protocols often require visit-over-visit continuity, the same nurse seeing the same patient across an episode of care to build therapeutic relationships and track progress.
 
 **Callout consequences.** In a hospital, a callout creates a gap in a shift. In home health, a callout may leave multiple individual patients without visits for the day, each requiring individual rescheduling or reassignment.
 
@@ -103,7 +103,7 @@ For organizations running both home health and inpatient services, the two sched
 
 ## Which Type Does SimpleScheduleAI Serve?
 
-SimpleScheduleAI serves inpatient hospital scheduling -- specifically, nursing shift scheduling at critical access hospitals. It is not a home health scheduling tool.
+SimpleScheduleAI serves inpatient hospital scheduling, specifically, nursing shift scheduling at critical access hospitals. It is not a home health scheduling tool.
 
 If you operate a home health agency and are looking for scheduling support, the tools listed above (Alayacare, Wellsky, Homecare Homebase) are built specifically for your environment and are worth evaluating seriously.
 
@@ -112,7 +112,7 @@ If you are a critical access hospital with 25 or fewer inpatient beds and your c
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Inpatient Hospital Shift Scheduling at Your CAH</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI is built for critical access hospital nursing shifts -- not home health. It goes live in 3-5 days with zero IT involvement. Request a free assessment to see how it works for your inpatient nursing operation.
+    SimpleScheduleAI is built for critical access hospital nursing shifts, not home health. It goes live in 3-5 days with zero IT involvement. Request a free assessment to see how it works for your inpatient nursing operation.
   </p>
   <a
     href="/pilot"
@@ -146,4 +146,4 @@ Using one scheduling tool for both. The geographic routing and per-visit billing
 
 **How does patient continuity work differently in home health vs. hospital scheduling?**
 
-In hospital scheduling, nurses are assigned to shifts, not to specific patients -- charge nurses manage patient assignments within a shift. In home health, the scheduling system must track and enforce visit-over-visit continuity: the same nurse or therapist seeing the same patient across an episode of care. Home health scheduling software builds this patient-clinician pairing logic in; hospital shift scheduling software does not track this dimension.
+In hospital scheduling, nurses are assigned to shifts, not to specific patients, charge nurses manage patient assignments within a shift. In home health, the scheduling system must track and enforce visit-over-visit continuity: the same nurse or therapist seeing the same patient across an episode of care. Home health scheduling software builds this patient-clinician pairing logic in; hospital shift scheduling software does not track this dimension.

@@ -230,11 +230,17 @@ Not always. Hospitals that have purchased scheduling software often find that th
 
 Reviewers of major nurse scheduling platforms document the pattern clearly:
 
-> "The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them." -- Manager, QGenda, Capterra
+> "The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them."
+>
+> _Manager, QGenda, Capterra_
 
-> "Barely works. It kicks you out constantly." -- OnShift user, Capterra
+> "Barely works. It kicks you out constantly."
+>
+> _OnShift user, Capterra_
 
-> "A pressing matter goes unanswered for hours or days." -- NurseGrid user, AllNurses.com
+> "A pressing matter goes unanswered for hours or days."
+>
+> _NurseGrid user, AllNurses.com_
 
 The $26,000 shadow salary does not disappear when you add software to the process. At facilities where the software requires ongoing configuration maintenance, or where the mobile app fails and managers have to work from a desktop while covering clinical shifts, the administrative burden can be comparable to what it was before the software was purchased. The problem is not a lack of technology. It is a mismatch between the tools available and the operational reality of a 25-bed rural hospital.
 

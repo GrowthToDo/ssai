@@ -26,10 +26,10 @@ metadata:
 ## Key Takeaways
 
 - CMS Conditions of Participation for Critical Access Hospitals (§485.635) require that nursing services be "sufficient to meet the needs of patients." Surveyors evaluate this against your staffing records, not your policy statements.
-- The most common CMS staffing documentation finding at CAHs is not insufficient staffing -- it is insufficient records. The hospital had appropriate nurses on duty but cannot produce the documentation to prove it.
+- The most common CMS staffing documentation finding at CAHs is not insufficient staffing, it is insufficient records. The hospital had appropriate nurses on duty but cannot produce the documentation to prove it.
 - Three documents form the core of a defensible CMS staffing record: the published schedule, the time and attendance record (who actually worked), and a credential log (what qualifications each nurse held at the time of each shift).
 - The biggest compliance risk in nurse scheduling is a published schedule that shows coverage but does not match reality. If a nurse called out and was replaced, the replacement and their credentials must be documented. A schedule showing the original nurse's name and a payroll record showing someone else's is a discrepancy that surveyors notice.
-- Automatic CMS documentation -- where the scheduling system generates survey-ready staffing records from the published schedule -- eliminates most of the manual compliance burden. SimpleScheduleAI generates this documentation by default. Most general-purpose scheduling software does not.
+- Automatic CMS documentation, where the scheduling system generates survey-ready staffing records from the published schedule, eliminates most of the manual compliance burden. SimpleScheduleAI generates this documentation by default. Most general-purpose scheduling software does not.
 
 ## Table of Contents
 
@@ -258,4 +258,4 @@ CMS requires that nursing services be supervised by a registered nurse. A nurse 
 
 **How does SimpleScheduleAI handle CMS documentation when a nurse's credentials change mid-cycle?**
 
-When a nurse's credentials change (renewal, expiration, or new certification), the SimpleScheduleAI team updates the credential record in the system. Future schedule documentation reflects the updated credential status. For historical documentation, the credential record at the time of each shift is preserved -- the documentation shows what credentials each nurse held at the time of each shift, which is what CMS requires for retrospective review.
+When a nurse's credentials change (renewal, expiration, or new certification), the SimpleScheduleAI team updates the credential record in the system. Future schedule documentation reflects the updated credential status. For historical documentation, the credential record at the time of each shift is preserved, the documentation shows what credentials each nurse held at the time of each shift, which is what CMS requires for retrospective review.

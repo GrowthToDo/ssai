@@ -24,7 +24,7 @@ metadata:
 - ShiftWizard is a legitimate hospital scheduling platform with 500+ deployments, but its mobile app, shift swap reliability, and onboarding support have consistent review-documented weaknesses that matter for a CAH nurse manager.
 - The four problems driving ShiftWizard departures at small hospitals: mobile app does not show full department schedules, shift swapping is unreliable, staff can only see their own position, and onboarding support is described as insufficient.
 - The main self-serve alternative is TCP (Aladtec), which has broader CAH adoption but similar self-serve trade-offs.
-- If the issue is the self-serve model itself -- not the specific platform -- a managed scheduling service removes the configuration and operation burden rather than relocating it.
+- If the issue is the self-serve model itself, not the specific platform, a managed scheduling service removes the configuration and operation burden rather than relocating it.
 - Evaluate based on how much scheduling work your nurse manager can sustain weekly, not on feature comparison lists.
 
 ## Table of Contents
@@ -39,7 +39,7 @@ metadata:
 - [The Operating Model Question](#the-operating-model-question)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-ShiftWizard is a hospital scheduling platform built by nurses and used by 500+ facilities. For a critical access hospital, its healthcare-specific design is an advantage over generic tools -- it understands shift patterns, nursing roles, and basic credential constraints in ways that When I Work or Homebase do not. The question is whether the self-serve model, where your nurse manager configures and operates the platform, fits your facility's actual capacity.
+ShiftWizard is a hospital scheduling platform built by nurses and used by 500+ facilities. For a critical access hospital, its healthcare-specific design is an advantage over generic tools, it understands shift patterns, nursing roles, and basic credential constraints in ways that When I Work or Homebase do not. The question is whether the self-serve model, where your nurse manager configures and operates the platform, fits your facility's actual capacity.
 
 ## Why People Look for ShiftWizard Alternatives?
 
@@ -101,7 +101,7 @@ Any alternative for a CAH must handle these four requirements:
 
 **[CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail.** Every schedule change needs a timestamp-logged record. CMS surveyors can ask for documentation of who was scheduled on any given shift and whether they held appropriate credentials.
 
-**Callout coverage logic.** When a nurse calls out, the replacement workflow should filter by certification, overtime status, and availability -- producing a ranked shortlist rather than leaving the manager to check each constraint manually.
+**Callout coverage logic.** When a nurse calls out, the replacement workflow should filter by certification, overtime status, and availability, producing a ranked shortlist rather than leaving the manager to check each constraint manually.
 
 ## How Does ShiftWizard Alternatives: Compare?
 
@@ -174,17 +174,17 @@ If you are switching from ShiftWizard because of mobile limitations, TCP's mobil
 
 ### SimpleScheduleAI
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service. The distinction from ShiftWizard is fundamental: SimpleScheduleAI is not a platform your team configures and operates -- it is a service where a specialist handles schedule generation and the nurse manager reviews and approves.
+SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service. The distinction from ShiftWizard is fundamental: SimpleScheduleAI is not a platform your team configures and operates, it is a service where a specialist handles schedule generation and the nurse manager reviews and approves.
 
 What this means practically:
 
 - Setup takes 3 to 5 days via Excel roster upload, no IT involvement
 - The scheduling specialist builds draft schedules each cycle; the nurse manager approves
 - Callout coverage shortlists are pre-ranked by certification, overtime status, and availability
-- CMS audit trail is automatic -- every change is timestamp-logged
+- CMS audit trail is automatic, every change is timestamp-logged
 - Texas compliance is the default, not a configuration option
 
-One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the system directly to view schedules or request swaps. If nurse self-service features are a priority, a hybrid approach -- generic communication tool for nurse-facing features combined with managed service for scheduling management -- is worth considering.
+One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the system directly to view schedules or request swaps. If nurse self-service features are a priority, a hybrid approach, generic communication tool for nurse-facing features combined with managed service for scheduling management, is worth considering.
 
 **Best fit:** CAHs where the nurse manager is already stretched and cannot absorb a new platform implementation, or where the self-serve model has consistently required more administrative time than available.
 
@@ -228,12 +228,12 @@ A managed service changes this model. The question worth asking before evaluatin
 
 If the answer is "I want direct control over every scheduling decision and I'm willing to invest time in learning and maintaining a platform," ShiftWizard, TCP, or QGenda are worth comparing based on feature specifics.
 
-If the answer is "the burden is too high and I want the scheduling work done for me while I retain approval authority," a managed service is the alternative -- not another platform.
+If the answer is "the burden is too high and I want the scheduling work done for me while I retain approval authority," a managed service is the alternative, not another platform.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Done Configuring Scheduling Platforms That Still Need You to Run Them?</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days with no IT involvement. Your nurse manager reviews and approves -- the scheduling work is done. Schedule a free assessment to see how the managed service model fits your CAH.
+    SimpleScheduleAI goes live in 3-5 days with no IT involvement. Your nurse manager reviews and approves, the scheduling work is done. Schedule a free assessment to see how the managed service model fits your CAH.
   </p>
   <a
     href="/pilot"
@@ -265,4 +265,4 @@ Check your ShiftWizard contract terms. Most scheduling software contracts run an
 
 **Does SimpleScheduleAI have a nurse-facing mobile app?**
 
-No. SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not view schedules or request swaps directly through the system. If nurse self-service mobile features are a priority, a hybrid approach -- using a communication tool for staff-facing features alongside a managed service for scheduling management -- is worth considering. If the priority is reducing nurse manager administrative burden, the absence of a staff app is not a meaningful limitation.
+No. SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not view schedules or request swaps directly through the system. If nurse self-service mobile features are a priority, a hybrid approach, using a communication tool for staff-facing features alongside a managed service for scheduling management, is worth considering. If the priority is reducing nurse manager administrative burden, the absence of a staff app is not a meaningful limitation.

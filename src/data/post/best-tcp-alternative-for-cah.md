@@ -22,8 +22,8 @@ metadata:
 ## Key Takeaways
 
 - The best TCP alternative depends on one question: do you want a better tool to build schedules yourself, or do you want the scheduling work done for you?
-- For better self-serve software, ShiftWizard is the strongest CAH-appropriate option -- more modern interface, hospital-specific design, comparable setup time.
-- For structural burden reduction, SimpleScheduleAI is the managed service alternative -- specialist builds, nurse manager approves, setup in 3-5 days.
+- For better self-serve software, ShiftWizard is the strongest CAH-appropriate option, more modern interface, hospital-specific design, comparable setup time.
+- For structural burden reduction, SimpleScheduleAI is the managed service alternative, specialist builds, nurse manager approves, setup in 3-5 days.
 - TCP has a nurse-facing mobile app that SimpleScheduleAI does not. This is the main reason to stay with a self-serve platform over a managed service.
 - Before choosing an alternative, clarify what problem you are solving: interface frustration, scheduling labor, compliance gaps, or implementation speed.
 
@@ -37,7 +37,7 @@ metadata:
 - [Four Questions to Ask Any TCP Alternative](#four-questions-to-ask-any-tcp-alternative)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-TCP Scheduling Software, the platform previously known as Aladtec, is widely used in healthcare and EMS settings. For critical access hospitals, TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold -- at a typical 25-bed CAH, the nurse manager is responsible for clinical supervision, staff development, regulatory compliance, and scheduling. There is rarely a dedicated scheduling coordinator.
+TCP Scheduling Software, the platform previously known as Aladtec, is widely used in healthcare and EMS settings. For critical access hospitals, TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold, at a typical 25-bed CAH, the nurse manager is responsible for clinical supervision, staff development, regulatory compliance, and scheduling. There is rarely a dedicated scheduling coordinator.
 
 ## Why CAHs Look for TCP Alternatives?
 
@@ -183,7 +183,7 @@ Switching to a managed service is the fastest path: 3-5 days from roster upload 
 
 **Does SimpleScheduleAI replace TCP's staff-facing features?**
 
-No. SimpleScheduleAI does not have a nurse-facing mobile app. Nurses at facilities using SimpleScheduleAI receive schedules through the facility's existing communication method (email, group text, posted schedule). If nurse-facing self-service features are important, a hybrid approach -- generic communication tool for nurse-facing features plus managed service for scheduling management -- is worth considering.
+No. SimpleScheduleAI does not have a nurse-facing mobile app. Nurses at facilities using SimpleScheduleAI receive schedules through the facility's existing communication method (email, group text, posted schedule). If nurse-facing self-service features are important, a hybrid approach, generic communication tool for nurse-facing features plus managed service for scheduling management, is worth considering.
 
 **What compliance documentation does a TCP alternative need to produce for a CAH?**
 
@@ -191,4 +191,4 @@ At minimum: an automatically maintained log of every schedule change with timest
 
 **What is the main scenario where keeping TCP makes sense over switching?**
 
-If your nurse manager is comfortable with TCP, has settled into a 4-6 hour weekly scheduling routine, and staff self-service on mobile is important to your facility culture, staying with TCP makes sense. Switching has transition costs -- time, learning curve, parallel running. If the current situation is tolerable and the mobile app matters, the benefits of switching may not justify those costs.
+If your nurse manager is comfortable with TCP, has settled into a 4-6 hour weekly scheduling routine, and staff self-service on mobile is important to your facility culture, staying with TCP makes sense. Switching has transition costs, time, learning curve, parallel running. If the current situation is tolerable and the mobile app matters, the benefits of switching may not justify those costs.

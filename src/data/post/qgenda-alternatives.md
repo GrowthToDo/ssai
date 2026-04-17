@@ -40,7 +40,7 @@ metadata:
 - [Transitioning Away from QGenda](#transitioning-away-from-qgenda)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-QGenda is primarily a physician and provider scheduling tool used by large health systems and physician groups. Where it falls short for small hospitals: it is designed for organizations with dedicated scheduling administrators, IT support for implementation, and budgets appropriate for enterprise software contracts. A 25-bed critical access hospital on QGenda -- often because a regional health system extended a contract -- typically uses a fraction of its features while paying for the full platform.
+QGenda is primarily a physician and provider scheduling tool used by large health systems and physician groups. Where it falls short for small hospitals: it is designed for organizations with dedicated scheduling administrators, IT support for implementation, and budgets appropriate for enterprise software contracts. A 25-bed critical access hospital on QGenda, often because a regional health system extended a contract, typically uses a fraction of its features while paying for the full platform.
 
 ## What QGenda Is Built For?
 
@@ -98,7 +98,7 @@ Based on G2 and Capterra reviews from QGenda users at smaller facilities:
   <text x="638" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">level priority</text>
 </svg>
 
-The day-by-day swap issue deserves emphasis. In a critical access hospital where schedule changes are frequent -- nurses covering extra shifts, availability changes, callout-driven replacements -- a system that requires updating each affected day individually multiplies administrative time for every routine change.
+The day-by-day swap issue deserves emphasis. In a critical access hospital where schedule changes are frequent, nurses covering extra shifts, availability changes, callout-driven replacements, a system that requires updating each affected day individually multiplies administrative time for every routine change.
 
 ## What CAHs Actually Need in a QGenda Alternative?
 
@@ -108,7 +108,7 @@ For a critical access hospital, scheduling requirements differ from what QGenda 
 
 **Proactive [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime tracking.** The 40-hour threshold per workweek (or 80-hour threshold under the 8-and-80 rule) needs to be flagged before the schedule publishes, not after payroll.
 
-**[CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) compliant audit trail.** Every schedule change, automatically logged with timestamps -- not a feature to configure correctly, but a default.
+**[CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) compliant audit trail.** Every schedule change, automatically logged with timestamps, not a feature to configure correctly, but a default.
 
 **Callout coverage logic.** When a nurse calls out, a ranked replacement list that applies certification, overtime, and fair distribution rules.
 
@@ -187,9 +187,9 @@ Known weaknesses: mobile app does not show full department schedules, unreliable
 
 SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service built specifically for critical access hospitals. Unlike QGenda's complexity, SimpleScheduleAI requires no configuration work from the nurse manager: a specialist handles setup from an Excel roster upload (3-5 days), builds draft schedules each cycle, and maintains the system as the roster changes.
 
-Texas compliance is built in as default: [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime rules, [Texas Labor Code](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm) provisions, and [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) documentation are not features to configure -- they are defaults.
+Texas compliance is built in as default: [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime rules, [Texas Labor Code](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm) provisions, and [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) documentation are not features to configure, they are defaults.
 
-One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. If nurse self-service features are a priority, a hybrid approach -- generic communication tool for nurse-facing features, managed service for scheduling management -- is worth evaluating.
+One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. If nurse self-service features are a priority, a hybrid approach, generic communication tool for nurse-facing features, managed service for scheduling management, is worth evaluating.
 
 **Best fit:** CAHs where the nurse manager is already stretched and cannot absorb another implementation project, or where the core issue is scheduling labor rather than just platform cost.
 
@@ -241,4 +241,4 @@ No. SimpleScheduleAI is focused on nursing staff scheduling for critical access 
 
 **What does it actually cost to run QGenda at a 25-bed hospital vs. a simpler alternative?**
 
-QGenda does not publish pricing publicly, but enterprise contracts are typically structured for multi-facility health systems. The total cost of running QGenda at CAH scale includes the contract fee plus IT maintenance cost plus nurse manager time to operate a complex system. A CAH-appropriate alternative -- either a simpler self-serve platform or a managed service -- typically reduces all three cost components simultaneously.
+QGenda does not publish pricing publicly, but enterprise contracts are typically structured for multi-facility health systems. The total cost of running QGenda at CAH scale includes the contract fee plus IT maintenance cost plus nurse manager time to operate a complex system. A CAH-appropriate alternative, either a simpler self-serve platform or a managed service, typically reduces all three cost components simultaneously.

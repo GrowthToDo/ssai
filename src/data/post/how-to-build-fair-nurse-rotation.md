@@ -8,7 +8,7 @@ excerpt: >
   An unfair nurse schedule is not just a morale problem. It is a retention problem
   and a scheduling problem: nurses who feel the rotation is inequitable call out
   more, leave sooner, and resist picking up extra shifts. This guide covers how to
-  build a rotation at a 25-bed CAH that nurses perceive as fair -- and how to
+  build a rotation at a 25-bed CAH that nurses perceive as fair, and how to
   document that it actually is.
 image: https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
@@ -43,7 +43,7 @@ metadata:
 
 When a nurse says the schedule is unfair, the nurse manager's first instinct is often to explain the constraints. The roster is thin. Someone has to work that holiday. The credential requirements are not negotiable. All of that is true. None of it resolves the complaint.
 
-The resolution is a rotation that is visibly fair -- where the nurse can see, from the schedule data, that their holiday burden and weekend burden are comparable to their peers. Fairness that cannot be demonstrated is indistinguishable from unfairness to the nurse experiencing it.
+The resolution is a rotation that is visibly fair, where the nurse can see, from the schedule data, that their holiday burden and weekend burden are comparable to their peers. Fairness that cannot be demonstrated is indistinguishable from unfairness to the nurse experiencing it.
 
 ## What Nurses Mean When They Say the Schedule Is Unfair?
 
@@ -53,7 +53,7 @@ Nurses rarely say the schedule is unfair because of a single assignment. They sa
 
 **Holiday stacking.** A nurse who worked Thanksgiving, Christmas, and New Year's in the same year while a colleague worked none will not forget it. Holiday distribution errors compound quickly when not tracked across the full year.
 
-**Charge hour concentration.** Among charge-qualified nurses, those who work most of their shifts as charge (with the associated responsibility and, in most hospitals, a shift differential) while others rarely serve as charge will eventually push back. The most experienced charge nurses often absorb disproportionate charge hours because they are the most reliable -- and that reliability becomes a penalty.
+**Charge hour concentration.** Among charge-qualified nurses, those who work most of their shifts as charge (with the associated responsibility and, in most hospitals, a shift differential) while others rarely serve as charge will eventually push back. The most experienced charge nurses often absorb disproportionate charge hours because they are the most reliable, and that reliability becomes a penalty.
 
 **Night shift concentration.** Nurses who prefer day shifts but consistently receive night assignments, while others receive days, perceive systematic unfairness regardless of whether the distribution reflects availability patterns.
 
@@ -102,7 +102,7 @@ Nurses rarely say the schedule is unfair because of a single assignment. They sa
 
 A CAH cannot build a mathematically perfectly fair rotation without acknowledging the constraints that make that goal unreachable:
 
-**Credential constraints.** Charge-qualified nurses cannot be assigned to non-charge shifts to achieve charge hour equalization if coverage requires charge. The charge distribution can only be equalized within the pool of qualified nurses -- not across the entire roster.
+**Credential constraints.** Charge-qualified nurses cannot be assigned to non-charge shifts to achieve charge hour equalization if coverage requires charge. The charge distribution can only be equalized within the pool of qualified nurses, not across the entire roster.
 
 **Availability constraints.** A nurse with a hard unavailability on Saturdays cannot be included in Saturday coverage distribution. Their weekend count will be lower than peers, but that is a constraint accommodation, not inequity.
 
@@ -242,7 +242,7 @@ Do not dismiss fairness complaints as complaints. A nurse who feels chronically 
 
 Every scheduling cycle (every 4 weeks) is the minimum. A quarterly deep review that spans three cycles is also useful for catching holiday distribution drift. The most important time to review is before building the next cycle's rotation, when adjustments can still be made without retracting a published schedule.
 
-**What if two charge nurses have the same number of charge hours -- how do you decide who takes the next charge shift?**
+**What if two charge nurses have the same number of charge hours, how do you decide who takes the next charge shift?**
 
 When distribution is tied, the next assignment typically goes to the nurse whose shift pattern puts them on the rotation. If they are both equally available, some nurse managers use seniority as the tiebreaker. The important thing is that a consistent tiebreaker rule exists and is applied uniformly. An ad hoc tiebreaker that changes case-by-case is perceived as favoritism even when it is not.
 
@@ -252,7 +252,7 @@ Most PRN agreements specify that PRN nurses are required to work a minimum numbe
 
 **How do we handle fairness when a nurse's credential prevents them from covering certain shifts?**
 
-Credential constraints are legitimate reasons for distribution differences, but they should be documented and communicated. If a nurse cannot cover charge shifts because they have not completed the charge competency program, that is not inequitable scheduling -- it is a credential gap. The fairness obligation is to ensure that credential gaps are documented and that the program for earning charge competency is available to nurses who want it.
+Credential constraints are legitimate reasons for distribution differences, but they should be documented and communicated. If a nurse cannot cover charge shifts because they have not completed the charge competency program, that is not inequitable scheduling, it is a credential gap. The fairness obligation is to ensure that credential gaps are documented and that the program for earning charge competency is available to nurses who want it.
 
 **Does SimpleScheduleAI allow nurses to see their own distribution data?**
 

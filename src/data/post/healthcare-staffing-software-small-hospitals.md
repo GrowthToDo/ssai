@@ -23,7 +23,7 @@ metadata:
 
 - Small hospitals need three priority features: proactive overtime tracking, certification-matched callout replacement, and CMS-compliant audit trail. Everything else is secondary.
 - Enterprise platforms add complexity small hospitals do not need. Generic tools miss healthcare compliance. Managed services offer CAH-appropriate capability with fast implementation.
-- Software can optimize nurse allocation but cannot create nurses -- genuine understaffing is a hiring problem, not a scheduling problem.
+- Software can optimize nurse allocation but cannot create nurses, genuine understaffing is a hiring problem, not a scheduling problem.
 - A managed service removes the operational burden from the nurse manager, not just provides better tools.
 - Implementation quality (data accuracy, calibration) determines output quality. The first 2-4 weeks are the critical period.
 
@@ -73,11 +73,11 @@ Enterprise staffing software typically requires: IT department involvement for i
 
 ## What Are the Three Priority Features?
 
-**Priority 1: Proactive overtime tracking.** Under [FLSA](https://www.dol.gov/agencies/whd/flsa), overtime begins at 40 hours in a workweek. A nurse manager building a schedule manually optimizes for coverage; she typically does not sum each nurse's total weekly hours before publishing. Healthcare staffing software that flags any nurse approaching the 40-hour threshold during schedule building -- not after payroll processes -- converts overtime from a reporting problem into a prevention problem. This is the highest-leverage single feature for cost reduction.
+**Priority 1: Proactive overtime tracking.** Under [FLSA](https://www.dol.gov/agencies/whd/flsa), overtime begins at 40 hours in a workweek. A nurse manager building a schedule manually optimizes for coverage; she typically does not sum each nurse's total weekly hours before publishing. Healthcare staffing software that flags any nurse approaching the 40-hour threshold during schedule building, not after payroll processes, converts overtime from a reporting problem into a prevention problem. This is the highest-leverage single feature for cost reduction.
 
 **Priority 2: Certification-matched callout replacement.** When a nurse calls out, the replacement must be available, certified for the unit, within overtime limits, and fair from a distribution standpoint. A generic "find available staff" function does not apply these constraints. Manually applying all four criteria takes 30-60 minutes per callout event. Healthcare staffing software with clinical callout coverage logic produces a ranked replacement list the manager can act on in 10-15 minutes.
 
-**Priority 3: CMS-compliant audit trail.** [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requires critical access hospitals to maintain accurate staffing records. Every schedule change must be documented -- who changed what, when. Healthcare staffing software that automatically logs every schedule change produces the audit trail required for CMS survey response without additional manual effort.
+**Priority 3: CMS-compliant audit trail.** [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requires critical access hospitals to maintain accurate staffing records. Every schedule change must be documented, who changed what, when. Healthcare staffing software that automatically logs every schedule change produces the audit trail required for CMS survey response without additional manual effort.
 
 **Lower-priority features at CAH scale:** Float pool management (CAHs do not have float pools), enterprise HR/payroll integration (adds complexity, rarely needed), advanced analytics dashboards (useful for health systems, overkill for 25 beds), mobile app for nurse self-scheduling (nice-to-have, not a compliance requirement), predictive census modeling (relevant for larger hospitals).
 
@@ -127,11 +127,11 @@ Enterprise staffing software typically requires: IT department involvement for i
   </table>
 </div>
 
-The gap for small hospitals is in the middle: mid-market healthcare tools have the right features but require weeks of setup and ongoing configuration. Generic tools are fast to implement but do not cover healthcare compliance. A managed service model fills this gap -- healthcare-specific capability with implementation time comparable to generic tools.
+The gap for small hospitals is in the middle: mid-market healthcare tools have the right features but require weeks of setup and ongoing configuration. Generic tools are fast to implement but do not cover healthcare compliance. A managed service model fills this gap, healthcare-specific capability with implementation time comparable to generic tools.
 
 ## What Are the Honest Limitations of Healthcare Staffing Software?
 
-**Software cannot solve genuine understaffing.** If a CAH does not have enough nurses to cover required shifts, no software generates coverage. Healthcare staffing software optimizes the allocation of available nurses -- it does not create nurses. If your roster is structurally too small, the software will accurately flag the gap, but the solution requires recruiting, not technology.
+**Software cannot solve genuine understaffing.** If a CAH does not have enough nurses to cover required shifts, no software generates coverage. Healthcare staffing software optimizes the allocation of available nurses, it does not create nurses. If your roster is structurally too small, the software will accurately flag the gap, but the solution requires recruiting, not technology.
 
 **Implementation quality determines outcome quality.** Healthcare staffing software is only as accurate as the roster data it works from. Outdated certifications, inaccurate per-diem availability, and stale contact information produce schedule outputs that require manual correction. The first 2-4 weeks of implementation are when this data quality work happens.
 
@@ -140,7 +140,7 @@ The gap for small hospitals is in the middle: mid-market healthcare tools have t
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Three Priority Features, Built-In by Default</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI includes proactive overtime tracking, certification-matched callout coverage, and CMS audit trail documentation as defaults -- not features to configure. It goes live in 3-5 days with no IT involvement.
+    SimpleScheduleAI includes proactive overtime tracking, certification-matched callout coverage, and CMS audit trail documentation as defaults, not features to configure. It goes live in 3-5 days with no IT involvement.
   </p>
   <a
     href="/pilot"
@@ -156,11 +156,11 @@ The gap for small hospitals is in the middle: mid-market healthcare tools have t
 
 **What is the most important feature in healthcare staffing software for small hospitals?**
 
-Proactive overtime tracking -- the ability to flag nurses approaching the 40-hour weekly threshold during schedule building, before the schedule publishes. This converts overtime from a payroll reporting problem into a preventable scheduling decision. At a 25-bed CAH with a small roster, every preventable overtime dollar matters.
+Proactive overtime tracking, the ability to flag nurses approaching the 40-hour weekly threshold during schedule building, before the schedule publishes. This converts overtime from a payroll reporting problem into a preventable scheduling decision. At a 25-bed CAH with a small roster, every preventable overtime dollar matters.
 
 **Can small hospitals use enterprise healthcare staffing software?**
 
-Technically yes, but enterprise platforms are designed for the coordination problems of large health systems -- float pools, multi-unit scheduling, enterprise HR integration. They add complexity that small hospitals do not need and implementation requirements (IT involvement, lengthy onboarding) that most CAHs cannot meet. CAH-specific or managed service options typically deliver better outcomes.
+Technically yes, but enterprise platforms are designed for the coordination problems of large health systems, float pools, multi-unit scheduling, enterprise HR integration. They add complexity that small hospitals do not need and implementation requirements (IT involvement, lengthy onboarding) that most CAHs cannot meet. CAH-specific or managed service options typically deliver better outcomes.
 
 **How much does healthcare staffing software cost for a small hospital?**
 
@@ -172,4 +172,4 @@ A managed service onboards in 3-5 business days via Excel roster upload, with no
 
 **What should a CAH ask vendors before purchasing healthcare staffing software?**
 
-Five questions: (1) How long until my first operational schedule, and who does the setup? (2) Walk me through a nurse calling out at 5am -- what does the software do vs. what does the nurse manager do manually? (3) What CMS documentation does it produce automatically -- can you show me a sample? (4) How is overtime tracked during schedule building, not after payroll? (5) What has changed about your product since your last major acquisition?
+Five questions: (1) How long until my first operational schedule, and who does the setup? (2) Walk me through a nurse calling out at 5am, what does the software do vs. what does the nurse manager do manually? (3) What CMS documentation does it produce automatically, can you show me a sample? (4) How is overtime tracked during schedule building, not after payroll? (5) What has changed about your product since your last major acquisition?

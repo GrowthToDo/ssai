@@ -22,7 +22,7 @@ metadata:
 ## Key Takeaways
 
 - Medical scheduling software is purpose-built for clinical environments and handles compliance, credentials, and callout coverage that generic tools cannot.
-- Four main categories exist: self-serve platforms, enterprise WFM suites, shift marketplaces, and managed services -- each solving a different problem at different facility scales.
+- Four main categories exist: self-serve platforms, enterprise WFM suites, shift marketplaces, and managed services, each solving a different problem at different facility scales.
 - Small hospitals should prioritize implementation burden, compliance coverage, and callout handling above feature count.
 - Red flags include IT-dependent onboarding, no credential tracking, enterprise-only pricing, and no callout workflow.
 - A managed service removes the configuration and maintenance burden that most CAH nurse managers do not have capacity to carry.
@@ -35,15 +35,15 @@ metadata:
 - [Red Flags: Tools Not Built for Small Hospitals](#red-flags-tools-not-built-for-small-hospitals)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Medical scheduling software replaces manual spreadsheets with automated shift coverage, compliance tracking, and callout management. For small hospitals, the buying decision hinges less on feature lists and more on implementation burden -- most self-serve platforms require IT setup and ongoing configuration that critical access hospitals simply do not have the staff to support. CAH nurse managers spend an estimated 8-12 hours per week on scheduling tasks, representing roughly $26,000 per year in administrative burden at a $50/hour loaded rate.
+Medical scheduling software replaces manual spreadsheets with automated shift coverage, compliance tracking, and callout management. For small hospitals, the buying decision hinges less on feature lists and more on implementation burden, most self-serve platforms require IT setup and ongoing configuration that critical access hospitals simply do not have the staff to support. CAH nurse managers spend an estimated 8-12 hours per week on scheduling tasks, representing roughly $26,000 per year in administrative burden at a $50/hour loaded rate.
 
 ## What Medical Scheduling Software Is and Who Needs It?
 
-Medical scheduling software is purpose-built workforce management tooling for clinical environments -- handling shift creation, credential tracking, overtime compliance, and callout coverage in ways that generic scheduling tools cannot. Any hospital that employs nursing staff across rotating shifts needs it.
+Medical scheduling software is purpose-built workforce management tooling for clinical environments, handling shift creation, credential tracking, overtime compliance, and callout coverage in ways that generic scheduling tools cannot. Any hospital that employs nursing staff across rotating shifts needs it.
 
 Generic employee scheduling tools like Homebase or When I Work are designed for retail and food service environments. They understand "shifts" but not "nursing certifications," "CMS staffing ratios," or "on-call pools." Medical scheduling software encodes the specific rules of hospital operations: minimum competency requirements per shift, credential expiration tracking, and compliance with [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals).
 
-At a critical access hospital, a scheduling gap is not an inconvenience -- it is a patient safety event and a potential CMS survey finding. Small hospitals lack the HR departments, workforce management specialists, and IT infrastructure that allow larger systems to absorb scheduling complexity. The software needs to reduce the manager's burden, not add to it.
+At a critical access hospital, a scheduling gap is not an inconvenience, it is a patient safety event and a potential CMS survey finding. Small hospitals lack the HR departments, workforce management specialists, and IT infrastructure that allow larger systems to absorb scheduling complexity. The software needs to reduce the manager's burden, not add to it.
 
 ## What Are the Types of Medical Scheduling Software?
 
@@ -93,7 +93,7 @@ At a critical access hospital, a scheduling gap is not an inconvenience -- it is
 
 **Enterprise workforce management suites** (UKG, API Healthcare) go beyond scheduling into time-and-attendance, HR analytics, payroll integration, and predictive staffing models. Built for 200-bed health systems. Implementation often runs $150,000-$500,000 before licensing fees. Categorically over-engineered for a 25-bed CAH.
 
-**Healthcare-specific shift marketplaces** (ShiftMed, Clipboard Health) focus on filling open shifts with per-diem or agency nurses. They solve coverage gaps from external labor -- not how to optimize scheduling your core staff. They can complement a scheduling platform but should not replace one.
+**Healthcare-specific shift marketplaces** (ShiftMed, Clipboard Health) focus on filling open shifts with per-diem or agency nurses. They solve coverage gaps from external labor, not how to optimize scheduling your core staff. They can complement a scheduling platform but should not replace one.
 
 **Managed scheduling services** (SimpleScheduleAI) are not software platforms the hospital operates. They are services where a specialist handles the scheduling work and the nurse manager approves the output. The service removes the operational burden entirely rather than relocating it.
 
@@ -146,7 +146,7 @@ Several patterns reliably indicate that a medical scheduling software vendor is 
 
 **Implementation requires an IT project.** If onboarding documentation mentions "EHR integration configuration," "SSO setup," or "server-side data migration," the platform was designed for health systems with IT departments. A CAH nurse manager should be able to start producing schedules within two weeks without involving any technical staff.
 
-**Feature count is the primary sales pitch.** Vendors selling to large hospitals compete on features -- predictive analytics, workforce intelligence dashboards, multi-facility consolidated views. If a demo leads with these features rather than showing how quickly a nurse manager can post a weekly schedule, the product prioritizes enterprise complexity over small hospital usability.
+**Feature count is the primary sales pitch.** Vendors selling to large hospitals compete on features, predictive analytics, workforce intelligence dashboards, multi-facility consolidated views. If a demo leads with these features rather than showing how quickly a nurse manager can post a weekly schedule, the product prioritizes enterprise complexity over small hospital usability.
 
 **No clinical credential tracking.** Any scheduling tool positioning itself as healthcare-specific should track nursing certifications, BLS/ACLS expiration, and role-based qualification requirements. If a vendor cannot demonstrate this in a demo, they are selling a generic scheduling tool with healthcare branding.
 
@@ -171,7 +171,7 @@ Several patterns reliably indicate that a medical scheduling software vendor is 
 
 **How much does medical scheduling software cost for a small hospital?**
 
-Self-serve platforms typically run $200-$600 per month for a facility under 50 beds. Enterprise WFM suites often start at $50,000 per year or more. Managed scheduling services vary based on staff size and service scope -- expect pricing closer to self-serve software but with implementation work included. Get current quotes from each vendor for your specific staff size.
+Self-serve platforms typically run $200-$600 per month for a facility under 50 beds. Enterprise WFM suites often start at $50,000 per year or more. Managed scheduling services vary based on staff size and service scope, expect pricing closer to self-serve software but with implementation work included. Get current quotes from each vendor for your specific staff size.
 
 **Can medical scheduling software integrate with our payroll system?**
 
@@ -183,8 +183,8 @@ Self-serve platforms typically take 3-6 weeks to fully configure if the nurse ma
 
 **What is the difference between medical scheduling software and a managed scheduling service?**
 
-Medical scheduling software is a tool your team configures and operates. A managed scheduling service handles the scheduling work for your team -- a specialist builds the schedule and the nurse manager approves. Software reduces scheduling time from 8-12 hours to 4-6 hours per week. A managed service reduces it to 1-2 hours per week.
+Medical scheduling software is a tool your team configures and operates. A managed scheduling service handles the scheduling work for your team, a specialist builds the schedule and the nurse manager approves. Software reduces scheduling time from 8-12 hours to 4-6 hours per week. A managed service reduces it to 1-2 hours per week.
 
 **Does a CAH need an EHR integration for scheduling software to work?**
 
-No. Most mid-market scheduling platforms and managed services operate independently of the EHR. Scheduling data (who works when) and clinical data (patient records) are separate systems. For critical access hospitals, standalone scheduling without EHR integration is typically the more practical choice -- it avoids IT complexity while still covering scheduling and compliance requirements.
+No. Most mid-market scheduling platforms and managed services operate independently of the EHR. Scheduling data (who works when) and clinical data (patient records) are separate systems. For critical access hospitals, standalone scheduling without EHR integration is typically the more practical choice, it avoids IT complexity while still covering scheduling and compliance requirements.

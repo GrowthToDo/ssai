@@ -22,7 +22,7 @@ metadata:
 ## Key Takeaways
 
 - TCP Scheduling Software is a self-serve platform: your nurse manager configures it, builds schedules in it, and manages exceptions through it. A managed service runs the scheduling function for her.
-- TCP reduces scheduling from 8-12 hours per week to 4-6 hours. A managed service reduces it to 1-2 hours. The delta is 3-4 hours per week -- roughly 150-200 hours of recovered nurse manager time per year.
+- TCP reduces scheduling from 8-12 hours per week to 4-6 hours. A managed service reduces it to 1-2 hours. The delta is 3-4 hours per week, roughly 150-200 hours of recovered nurse manager time per year.
 - TCP has a staff-facing mobile app. SimpleScheduleAI does not. This is the primary reason to choose TCP over a managed service.
 - A managed service onboards in 3-5 days. TCP takes 2-4 weeks to configure before the first operational schedule.
 - The right choice depends on whether your nurse manager wants to operate a scheduling platform or have the scheduling work done for her.
@@ -38,7 +38,7 @@ metadata:
 - [Which Fits Your CAH?](#which-fits-your-cah)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-TCP Scheduling Software, formerly known as Aladtec, is a self-serve workforce management platform used by healthcare organizations, EMS agencies, and fire departments. It is the most widely deployed scheduling platform in small healthcare settings. For critical access hospitals specifically, TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold -- when the nurse manager is already responsible for clinical supervision, staff development, and regulatory compliance on top of building schedules.
+TCP Scheduling Software, formerly known as Aladtec, is a self-serve workforce management platform used by healthcare organizations, EMS agencies, and fire departments. It is the most widely deployed scheduling platform in small healthcare settings. For critical access hospitals specifically, TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold, when the nurse manager is already responsible for clinical supervision, staff development, and regulatory compliance on top of building schedules.
 
 ## What TCP Scheduling Software Actually Is?
 
@@ -182,7 +182,7 @@ For a nurse manager who is burned out on scheduling, experiencing weekly callout
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Ready to See the Managed Service Model in Practice?</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days from your Excel roster. Your nurse manager reviews and approves -- the scheduling work is done. Schedule a free assessment to see how it compares to what you have now.
+    SimpleScheduleAI goes live in 3-5 days from your Excel roster. Your nurse manager reviews and approves, the scheduling work is done. Schedule a free assessment to see how it compares to what you have now.
   </p>
   <a
     href="/pilot"
