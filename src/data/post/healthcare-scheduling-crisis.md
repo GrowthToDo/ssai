@@ -224,6 +224,20 @@ More importantly, manual PRN availability tracking creates a coverage blind spot
 If a scheduler does not have a clear view of who is available on short notice, the
 default response to a callout is always the phone tree, always the agency call.
 
+## Does Buying Scheduling Software Fix These Problems?
+
+Not always. Hospitals that have purchased scheduling software often find that the friction points described above do not disappear -- they shift. Configuration burden, software reliability issues, and unresponsive support create a new category of administrative work that sits on top of the original scheduling burden.
+
+Reviewers of major nurse scheduling platforms document the pattern clearly:
+
+> "The automated scheduling and rules setup seems to have hiccups or issues each time we try to fix them." -- Manager, QGenda, Capterra
+
+> "Barely works. It kicks you out constantly." -- OnShift user, Capterra
+
+> "A pressing matter goes unanswered for hours or days." -- NurseGrid user, AllNurses.com
+
+The $26,000 shadow salary does not disappear when you add software to the process. At facilities where the software requires ongoing configuration maintenance, or where the mobile app fails and managers have to work from a desktop while covering clinical shifts, the administrative burden can be comparable to what it was before the software was purchased. The problem is not a lack of technology. It is a mismatch between the tools available and the operational reality of a 25-bed rural hospital.
+
 ## How Does SimpleScheduleAI Address These Friction Points?
 
 SimpleScheduleAI is a managed scheduling service built for Critical Access Hospitals.

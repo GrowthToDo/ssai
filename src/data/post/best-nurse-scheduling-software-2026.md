@@ -239,7 +239,7 @@ Aladtec is one of the most widely used scheduling platforms in the small hospita
 
 **Key advantages:**
 
-- Reliable, well-proven platform with a strong customer support reputation
+- Reliable, well-proven platform with a long track record in small hospitals and EMS agencies -- though multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software, with users describing a noticeably less responsive experience post-acquisition
 - Credential expiration tracking included out of the box
 - Lower implementation burden than most mid-market alternatives
 
@@ -247,6 +247,7 @@ Aladtec is one of the most widely used scheduling platforms in the small hospita
 
 - Not purpose-built for hospital nursing. Complex nurse-specific rules such as charge nurse requirements and skill mix management require manual workarounds.
 - Reporting is limited compared to mid-market alternatives.
+- Customer support quality has been inconsistent post-TCP acquisition. Reviewers who had positive experiences with original Aladtec support describe a different experience under current ownership.
 
 **Verdict:** The strongest self-serve option for hospitals under 50 beds. If you have a tech-comfortable administrator and want to keep scheduling in-house, start here.
 
@@ -318,6 +319,7 @@ NurseGrid is fundamentally a nurse-facing app. Individual nurses use it to view 
 
 - Not a scheduling engine. You still need to build the schedule somewhere else.
 - No clinical compliance documentation for hospital regulatory requirements.
+- The manager app was removed in a prior update. Managers can no longer make schedule changes from a phone -- desktop login is required. Nurses can view their schedule on mobile, but managers cannot edit from the floor.
 
 **Verdict:** A useful add-on for shift communication and open-shift posting. Not a replacement for a scheduling platform and should not be the only scheduling tool in use.
 
@@ -362,10 +364,11 @@ Deputy is a general workforce scheduling tool used across retail, hospitality, a
 
 **Key limitations:**
 
+- Not HIPAA compliant. Multiple healthcare reviewers explicitly flag this as a disqualifying issue for licensed clinical environments. Deputy was built for retail and hospitality and has not been designed to meet healthcare privacy requirements.
 - No credential tracking or clinical compliance documentation.
 - Would not satisfy a CMS surveyor looking for hospital staffing records.
 
-**Verdict:** Acceptable for retail or hospitality businesses. Not appropriate for a licensed clinical environment where credential tracking and CMS compliance documentation are regulatory requirements.
+**Verdict:** Acceptable for retail or hospitality businesses. Not appropriate for a licensed clinical environment where HIPAA compliance, credential tracking, and CMS compliance documentation are regulatory requirements.
 
 **Cost:** Approximately $4-$6/employee/month.
 

@@ -109,6 +109,8 @@ This eliminates first-mover advantage without eliminating nurse input. A nurse w
 
 The practical challenge at a CAH is collection. Simultaneous submission requires a defined window, a consistent submission method, and a manager who can process all inputs at once rather than as they trickle in. With 15-20 nurses submitting via text, email, and paper forms at different times across a week, "simultaneous" becomes aspirational. A structured availability form with a hard deadline and a consistent format is the minimum viable version of this approach, even without any scheduling software.
 
+A related problem surfaces when hospitals try to use nurse-facing scheduling apps to collect preferences digitally. NurseGrid, the most widely adopted app for nurse shift tracking, removed its manager functionality in a prior update. Nurses can view their schedule and submit availability through the app, but managers can no longer make changes from a phone. Any response to a preference submission requires desktop access. For a nurse manager moving between the floor and her office, that constraint undermines the simultaneous submission model before it starts.
+
 ## How Do You Track Fairness Across Multiple Scheduling Cycles?
 
 Tracking fairness across cycles means maintaining a running record of each nurse's weekend, holiday, and night shift count going back at least 12 months, and using that record to set floors and ceilings for the current cycle before preferences are applied.
