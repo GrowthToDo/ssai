@@ -8,7 +8,7 @@ excerpt: >
   scheduling service runs the scheduling function for you. For a critical access hospital with
   no dedicated scheduling staff, the choice between them comes down to how much scheduling work
   your nurse manager can actually sustain.
-image: https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - shiftwizard
@@ -67,52 +67,52 @@ The nurse manager retains final authority over every scheduling decision. The up
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:640px">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Dimension</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">ShiftWizard</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Managed Service (SimpleScheduleAI)</th>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">Dimension</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">ShiftWizard</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">Managed Service (SimpleScheduleAI)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Setup</td>
-        <td class="border border-slate-300 px-4 py-2">2-4 weeks, nurse manager configures</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">3-5 days, specialist configures</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Setup</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">2-4 weeks, nurse manager configures</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days, specialist configures</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Weekly scheduling work</td>
-        <td class="border border-slate-300 px-4 py-2">4-6 hours (builds schedules)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">1-2 hours (reviews and approves)</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Overtime tracking</td>
-        <td class="border border-slate-300 px-4 py-2">Visible in platform (manual check)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Proactive, flagged before draft presented</td>
-      </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">CMS audit trail</td>
-        <td class="border border-slate-300 px-4 py-2">Available (requires correct config)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Automatic, every change logged</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Weekly scheduling work</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">4-6 hours (builds schedules)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-2 hours (reviews and approves)</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Callout coverage</td>
-        <td class="border border-slate-300 px-4 py-2">Manager checks platform, calls manually</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Pre-ranked shortlist with constraints applied</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Overtime tracking</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Visible in platform (manual check)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Proactive, flagged before draft presented</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Staff mobile app</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Yes, nurses view schedules on phones</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">No staff app</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">CMS audit trail</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Available (requires correct config)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Automatic, every change logged</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">IT requirements</td>
-        <td class="border border-slate-300 px-4 py-2">Minimal</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">None</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Callout coverage</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Manager checks platform, calls manually</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Pre-ranked shortlist with constraints applied</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Support when things go wrong</td>
-        <td class="border border-slate-300 px-4 py-2">Ticket system</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Specialist familiar with your facility setup</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Staff mobile app</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Yes, nurses view schedules on phones</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">No staff app</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">IT requirements</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Minimal</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">None</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Support when things go wrong</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Ticket system</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Specialist familiar with your facility setup</td>
       </tr>
     </tbody>
   </table>
