@@ -1,7 +1,6 @@
 ---
-draft: true
-publishDate: 2026-06-02T00:00:00Z
-updateDate: 2026-06-02T00:00:00Z
+publishDate: 2026-04-17T00:00:00Z
+updateDate: 2026-04-17T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'ShiftWizard vs. Managed Scheduling Service for CAHs'
 excerpt: >
@@ -31,7 +30,7 @@ metadata:
 
 - [What ShiftWizard Is](#what-shiftwizard-is)
 - [What a Managed Scheduling Service Is](#what-a-managed-scheduling-service-is)
-- [Direct Comparison](#direct-comparison)
+- [Direct Comparison](#how-do-shiftwizard-and-a-managed-service-compare-directly)
 - [Where ShiftWizard Wins](#where-shiftwizard-wins)
 - [Where a Managed Service Wins](#where-a-managed-service-wins)
 - [Known ShiftWizard Weaknesses](#known-shiftwizard-weaknesses)
@@ -61,9 +60,9 @@ With SimpleScheduleAI:
 - Every change is automatically logged for [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail
 - The specialist maintains the roster as staff changes occur
 
-The nurse manager retains final authority over every scheduling decision. The upstream work is handled for her.
+The nurse manager retains final authority over every scheduling decision. The upstream work is handled for her. For a full walkthrough of each step, see [how SimpleScheduleAI works](/how-it-works).
 
-## How Does Direct Compare?
+## How Do ShiftWizard and a Managed Service Compare Directly?
 
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:640px">
@@ -131,7 +130,7 @@ The nurse manager retains final authority over every scheduling decision. The up
 
 **Time to operational.** ShiftWizard takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this difference is significant.
 
-**Weekly burden.** ShiftWizard reduces scheduling from 8-12 hours per week to roughly 4-6 hours. A managed service reduces it to 1-2 hours. The delta, 3-4 hours per week, over a year is 150-200 hours of recovered nurse manager time.
+**Weekly burden.** ShiftWizard reduces scheduling from 8-12 hours per week to roughly 4-6 hours. A managed service reduces it to 1-2 hours. The delta, 3-4 hours per week, over a year is 150-200 hours of recovered nurse manager time. For a breakdown of where those hours go and what that burden costs a CAH, see [the $26,000 scheduling burden](/blog/healthcare-scheduling-crisis).
 
 **Callout coverage.** ShiftWizard provides visibility into availability. The nurse manager still works through the platform to identify certified, within-overtime, available nurses. A managed service provides a pre-ranked shortlist. The difference is 30-60 minutes of manual research vs. 10-15 minutes of making calls.
 
@@ -160,7 +159,7 @@ The nurse manager retains final authority over every scheduling decision. The up
   <text x="500" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Paycom integration reliability problems cited</text>
 </svg>
 
-These are issues with ShiftWizard specifically, separate from the self-serve vs. managed service question. If you evaluate ShiftWizard, ask the vendor directly how they have addressed each of these.
+These are issues with ShiftWizard specifically, separate from the self-serve vs. managed service question. If you evaluate ShiftWizard, ask the vendor directly how they have addressed each of these. For a broader comparison of how ShiftWizard stacks up against other options, see the [best nurse scheduling software guide for 2026](/blog/best-nurse-scheduling-software-2026).
 
 ## Which Fits Your CAH?
 
