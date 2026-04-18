@@ -380,11 +380,59 @@ git commit -m "content: add 25 blog posts + 8 glossary pages + original data pos
 
 ---
 
+## Task 7: Competitor Complaint Dossier Posts (written Apr 2026)
+
+15 posts derived from the competitor complaint dossier (`docs/content/competitor-complaint-dossier.md`). All files exist in `src/data/post/` with `draft: true`. Publish by flipping `draft: false` on the scheduled date.
+
+**Status: All written and committed as of 2026-04-18.**
+
+### MOFU posts (Consideration stage, 1,500–2,500 words)
+
+| Publish date | File | Title |
+|---|---|---|
+| 2026-05-19 | `hipaa-compliant-nurse-scheduling-software.md` | Is Your Nurse Scheduling Software HIPAA Compliant? |
+| 2026-05-21 | `cms-pbj-reporting-scheduling-software.md` | CMS Payroll-Based Journal Reporting: What Your Scheduling Software Should Handle Automatically |
+| 2026-06-04 | `what-automated-nurse-scheduling-actually-means.md` | What "Automated Scheduling" Actually Means (and What It Doesn't) |
+| 2026-06-11 | `vendor-support-decline-nurse-scheduling-software.md` | Why Scheduling Software Vendors Stop Caring After You Sign the Contract |
+| 2026-06-18 | `hidden-compliance-cost-nurse-scheduling.md` | The Hidden Compliance Cost in Your Nurse Scheduling Workflow |
+
+### TOFU posts (Awareness stage, 1,000–1,500 words)
+
+| Publish date | File | Title |
+|---|---|---|
+| 2026-07-07 | `nurse-scheduling-software-small-hospital.md` | Why Nurse Scheduling Software Built for Mass General Doesn't Work for a 20-Bed Hospital |
+| 2026-07-14 | `scheduling-software-vendor-acquisition-support.md` | What Happens to Your Hospital When Your Scheduling Software Vendor Gets Acquired |
+| 2026-07-21 | `nurse-scheduling-software-reliability-crashes.md` | What Happens When Your Scheduling Software Crashes Before a Holiday Weekend |
+| 2026-07-28 | `nurse-scheduling-app-login-problems.md` | Why Your Nurse Scheduling App Keeps Logging You Out |
+| 2026-08-04 | `switching-from-excel-to-nurse-scheduling-software.md` | The Real Cost of Switching From Excel to Scheduling Software |
+| 2026-08-11 | `nurse-manager-scheduling-time-breakdown.md` | Where the 10 Hours of Nurse Manager Scheduling Time Actually Goes |
+| 2026-08-18 | `kronos-nurse-scheduling-problems-small-hospitals.md` | What Nurses Actually Say About Kronos (And Why CAH Administrators Should Know It) |
+| 2026-08-25 | `self-scheduling-manager-workload-trap.md` | The Self-Scheduling Workload Trap: Why Giving Nurses Control Creates More Work |
+| 2026-09-01 | `nurse-scheduling-software-minimum-employees.md` | The Nurse Scheduling Software With a 100-Employee Minimum |
+| 2026-09-08 | `rural-texas-hospital-nurse-scheduling-2026.md` | What Rural Texas Hospitals Are Actually Using for Nurse Scheduling in 2026 |
+
+### Reprioritization notes (updated 2026-04-18 based on GSC data)
+
+GSC impressions as of mid-April 2026 show:
+- `/blog/best-nurse-scheduling-software-2026`: 160 impressions — comparison/buyers-guide format is the highest-performing content type
+- `/nurse-scheduling-software`: 75 impressions — this hub needs more spoke posts urgently
+- `/healthcare-staff-scheduling`: 66 impressions
+- `/blog/ukg-too-complex-small-hospital`: 32 impressions — competitor-specific content is working
+
+**If needing to accelerate any TOFU posts**, move in this priority order:
+1. `nurse-scheduling-software-small-hospital` — supports the highest-impression pillar page
+2. `kronos-nurse-scheduling-problems-small-hospitals` — UKG competitor content is working
+3. `nurse-manager-scheduling-time-breakdown` — supports the $26K administrative burden post (39 impressions)
+
+**For the original Tasks 1–5 posts**, prioritize Task 1 (Hub 1 spokes for `/nurse-scheduling-software`) first, since that pillar is getting 75 impressions and needs topical depth to convert impressions to clicks.
+
+---
+
 ## Publishing Sequence
 
 Posts are written in this task but published on the drip cadence from the strategy doc. To hold a post unpublished: set `publishDate` to a future date (Astro will not render future-dated posts if the blog route filters by date). If your blog route doesn't filter, add `draft: true` to frontmatter.
 
-**Publish order:**
+**Publish order (original Tasks 1–5):**
 
 1. Month 1: Posts 8, 12, 22 (Awareness — Hub 2 + Hub 3)
 2. Month 2: Posts 5, 18, 13, G1, G2, G3 + original data post
