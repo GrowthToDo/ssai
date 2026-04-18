@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-07-07T00:00:00Z
-updateDate: 2026-07-07T00:00:00Z
+publishDate: 2026-06-06T00:00:00Z
+updateDate: 2026-06-06T00:00:00Z
 author: 'Pradeep Pandey'
 title: "Why Nurse Scheduling Software Built for Mass General Doesn't Work for a 20-Bed Hospital"
 excerpt: >

@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-07-14T00:00:00Z
-updateDate: 2026-07-14T00:00:00Z
+publishDate: 2026-06-04T00:00:00Z
+updateDate: 2026-06-04T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Aladtec vs. Managed Scheduling: Which Fits Your CAH?'
 excerpt: >

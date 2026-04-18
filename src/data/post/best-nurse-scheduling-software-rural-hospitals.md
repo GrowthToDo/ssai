@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-05-26T00:00:00Z
-updateDate: 2026-04-08T00:00:00Z
+publishDate: 2026-06-11T00:00:00Z
+updateDate: 2026-06-11T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software for Rural Hospitals in 2026'
 excerpt: >

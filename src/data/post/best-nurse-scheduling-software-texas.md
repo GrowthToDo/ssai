@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-04-28T00:00:00Z
-updateDate: 2026-04-28T00:00:00Z
+publishDate: 2026-05-14T00:00:00Z
+updateDate: 2026-05-14T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software for Texas Hospitals in 2026'
 excerpt: >
