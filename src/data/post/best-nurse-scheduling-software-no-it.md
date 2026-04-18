@@ -1,7 +1,7 @@
 ---
 draft: true
-publishDate: 2026-07-28T00:00:00Z
-updateDate: 2026-07-28T00:00:00Z
+publishDate: 2026-05-28T00:00:00Z
+updateDate: 2026-05-28T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software Without IT Support'
 excerpt: >
