@@ -85,6 +85,16 @@ Here is how the alternatives compare:
   <text x="298" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
 </svg>
 
+Capterra and community feedback reinforces these patterns. OnShift users describe the platform in blunt terms:
+
+> "Barely works. It kicks you out constantly." -- OnShift user, Capterra
+
+> "Takes several minutes to load." -- OnShift user, Capterra
+
+> "Managers cannot see staff schedules." -- OnShift user, Capterra
+
+> "No messaging capability through the app." -- OnShift user, Capterra
+
 **Open-shift posting too slow for acute care callouts:** OnShift's shift pickup model works by posting open shifts and waiting for caregivers to accept them. In long-term care, where census is stable and coverage gaps are often known days in advance, this model works. In acute care, an emergency callout requires a confirmed replacement within minutes. Posting and waiting is not a viable model.
 
 **No credential filtering in shift pickup:** When OnShift broadcasts an open shift, all available nurses can accept it. There is no system-enforced credential check before the acceptance is confirmed. In acute care environments where ED and ICU shifts require ACLS, TNCC, or CCRN certification, the manager must manually verify credentials after a shift is accepted, eliminating most of the time savings the broadcast model provides.
