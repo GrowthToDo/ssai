@@ -94,6 +94,18 @@ Here is how the alternatives compare before we go deeper:
   <text x="248" y="338" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Less common</text>
 </svg>
 
+Reviewer feedback on Capterra and G2 is consistent with these patterns:
+
+> "Customer support quality declined after the TCP acquisition." -- multiple Aladtec reviewers, Capterra
+
+> "Not intuitive." -- multiple Aladtec reviewers, Capterra and G2
+
+> "Very steep learning curve. Lacks intuitiveness." -- Aladtec reviewer, G2
+
+> "Lots of clicks. You can only schedule one day at a time." -- Aladtec reviewer, G2
+
+The positive reviews for Aladtec are predominantly from fire, EMS, and law enforcement users. Hospital nurse manager reviews are significantly more negative, reflecting the mismatch between the product's original design context and acute care scheduling requirements.
+
 **Configuration maintenance burden:** Aladtec works well when it is correctly configured for a specific organization's rules. The problem is that hospital nursing rosters change constantly: nurses are hired and separated, credentials expire and are renewed, float policies change, and minimum staffing rules are adjusted. Each change requires a corresponding update in Aladtec's configuration. At a small hospital without dedicated IT, this backlog accumulates until the system's rules no longer reflect the hospital's actual policies.
 
 **No native CMS documentation:** [CMS Conditions of Participation for CAHs](https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc/CAHs) (§485.635) require maintained staffing documentation. Aladtec's reporting tools can be used to generate this documentation, but it requires manual export and formatting work before each survey. There is no automated, survey-ready staffing report that matches CMS requirements.

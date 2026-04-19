@@ -45,13 +45,13 @@ ShiftWizard is a hospital scheduling platform built by nurses and used by 500+ f
 
 Based on G2 and Capterra reviews, four patterns drive ShiftWizard departures at small hospitals:
 
-**Mobile app limitations.** The desktop platform and the mobile app are not feature-equivalent. Managers cannot view department schedules on mobile, and date range visibility is restricted in the app. For a nurse manager who moves between the floor and her desk, a mobile app that cannot show what she needs is a real operational gap.
+**Mobile app limitations.** The desktop platform and the mobile app are not feature-equivalent. Managers cannot view department schedules on mobile, and date range visibility is restricted in the app. For a nurse manager who moves between the floor and her desk, a mobile app that cannot show what she needs is a real operational gap. As one Capterra reviewer described: "The app doesn't work. I've had to reinstall it multiple times." Another noted: "Can't see department schedules on mobile."
 
 **Unreliable shift swapping.** Multiple reviewers describe shift swap functionality as difficult to navigate and inconsistent in behavior. Nurses report confusion about whether swaps have been submitted or approved. In a clinical environment where shift coverage is a patient safety issue, unreliable swap workflows create risk.
 
 **Department visibility gaps.** Staff can only see their own position's schedule, not adjacent departments. In a critical access hospital where nurses often cover multiple units, this fragmented view makes cross-department coordination harder.
 
-**Weak onboarding support.** Reviewers describe the implementation process as tedious and the onboarding support as insufficient. For a nurse manager with no IT background who is configuring a scheduling system between clinical duties, inadequate implementation support means weeks of self-directed setup work.
+**Weak onboarding support.** Reviewers describe the implementation process as tedious and the onboarding support as insufficient. One Capterra reviewer reported: "Customer service shut down our account access without warning during a contract dispute." For a nurse manager with no IT background who is configuring a scheduling system between clinical duties, inadequate implementation support means weeks of self-directed setup work.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Four reasons CAH nurse managers look for ShiftWizard alternatives">
   <title>Why CAHs Look for ShiftWizard Alternatives</title>
