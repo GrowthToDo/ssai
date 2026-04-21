@@ -27,6 +27,8 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] All images have descriptive alt text (not empty, not keyword-stuffed)
 - [ ] All images are WebP or AVIF format
 - [ ] Hero/featured image is compressed (< 200KB ideally)
+- [ ] Any raw HTML `<table>` inside the post has `dark:` Tailwind variants on every bg, text, and border class (table is readable in dark mode — test the post in dark mode before publishing)
+- [ ] Table of Contents anchor text matches the H2/H3 heading text exactly (including trailing `?` on question headings)
 
 ## Schema & Technical
 
