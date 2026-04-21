@@ -65,7 +65,10 @@ function parseFrontmatter(content) {
   };
 
   // nested: metadata.canonical
-  const canonicalMatch = fm.match(/canonical:\s*['"]?([^'"\\r\\n]+?)['"]?\s*$/m);
+  const canonicalMatch = fm.match(/canonical:\s*['"]?([^'"\r\n]+?)['"]?\s*$/m);
+  // nested: metadata.imageReviewed (bool) + metadata.imageAlt (string describing the image)
+  const imageReviewedMatch = fm.match(/imageReviewed:\s*(true|false)\s*$/m);
+  const imageAltMatch = fm.match(/imageAlt:\s*['"]?([^'"\r\n]+?)['"]?\s*$/m);
 
   return {
     draft: get('draft') === 'true',
@@ -73,6 +76,8 @@ function parseFrontmatter(content) {
     title: get('title'),
     image: get('image'),
     canonical: canonicalMatch ? canonicalMatch[1].trim() : null,
+    imageReviewed: imageReviewedMatch ? imageReviewedMatch[1] === 'true' : false,
+    imageAlt: imageAltMatch ? imageAltMatch[1].trim() : null,
   };
 }
 
@@ -142,6 +147,47 @@ async function checkImageUrl(fm) {
   }
 }
 
+function checkImageRelevance(fm) {
+  const failures = [];
+  if (!fm.imageAlt) {
+    failures.push(
+      '  metadata.imageAlt missing — add a 1-line description of what the image actually shows (e.g. "imageAlt: nurse reviewing a schedule on a tablet at a nursing station")'
+    );
+  }
+  if (!fm.imageReviewed) {
+    failures.push(
+      '  metadata.imageReviewed is not true — a human must open the image URL, confirm it matches imageAlt and is relevant to the post topic, then set metadata.imageReviewed: true'
+    );
+  }
+  return failures;
+}
+
+function extractUnsplashPhotoId(url) {
+  if (!url) return null;
+  const m = url.match(/photo-([a-zA-Z0-9-]+)/);
+  return m ? m[1] : null;
+}
+
+function checkImageNotDuplicated(currentFile, currentFm) {
+  const currentId = extractUnsplashPhotoId(currentFm.image);
+  if (!currentId) return [];
+  const files = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md') && f !== currentFile);
+  const duplicates = [];
+  for (const filename of files) {
+    const c = readFileSync(join(POSTS_DIR, filename), 'utf8');
+    const fm = parseFrontmatter(c);
+    if (!fm || !fm.image) continue;
+    const id = extractUnsplashPhotoId(fm.image);
+    if (id === currentId) duplicates.push(filename);
+  }
+  if (duplicates.length > 0) {
+    return [
+      `  Image photo ID "${currentId}" is already used in ${duplicates.length} other post(s): ${duplicates.slice(0, 3).join(', ')}${duplicates.length > 3 ? ', ...' : ''}. Pick a different image.`,
+    ];
+  }
+  return [];
+}
+
 function checkPrettier(filePath) {
   try {
     execSync(`npx prettier --check "${filePath}"`, { cwd: ROOT, encoding: 'utf8', stdio: 'pipe' });
@@ -171,10 +217,7 @@ function publishPost(filePath, slug, title, today) {
   content = content.replace(/^draft: true$/m, 'draft: false');
 
   // Update updateDate to today
-  content = content.replace(
-    /^updateDate: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/m,
-    `updateDate: ${today}T00:00:00Z`
-  );
+  content = content.replace(/^updateDate: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/m, `updateDate: ${today}T00:00:00Z`);
 
   writeFileSync(filePath, content, 'utf8');
 
@@ -184,7 +227,9 @@ function publishPost(filePath, slug, title, today) {
   // Git add + commit + push
   run(`git add "${filePath}"`);
   const commitMsg = `Publish: ${title} — ${today}`;
-  run(`git commit -m "${commitMsg}\n\nAuto-published by scripts/auto-publish.js\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"`);
+  run(
+    `git commit -m "${commitMsg}\n\nAuto-published by scripts/auto-publish.js\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"`
+  );
   run('git push');
 }
 
@@ -228,6 +273,8 @@ async function main() {
     failures.push(...checkCanonical(fm, slug));
     const imageFailures = await checkImageUrl(fm);
     failures.push(...imageFailures);
+    failures.push(...checkImageRelevance(fm));
+    failures.push(...checkImageNotDuplicated(filename, fm));
     failures.push(...checkPrettier(filePath));
     warnings.push(...checkAiTone(content));
 
@@ -267,9 +314,7 @@ async function main() {
               .join('\n')
           );
         } catch (err) {
-          appendLog(
-            `### ERROR publishing ${slug}\n${err.message}\nFile was modified — check git status.`
-          );
+          appendLog(`### ERROR publishing ${slug}\n${err.message}\nFile was modified — check git status.`);
         }
       }
     }
