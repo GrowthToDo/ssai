@@ -10,7 +10,7 @@ excerpt: >
   and a callout pool that might be four people. This guide covers how to build a
   workable nurse schedule at a 25-bed CAH, from roster setup through callout
   handling, using methods that hold up in practice.
-image: https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1623438787437-7bcc5637efeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

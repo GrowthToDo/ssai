@@ -9,7 +9,7 @@ excerpt: >
   Capterra consistently flag mobile limitations, unreliable shift swapping, and weak onboarding
   support. For critical access hospitals evaluating alternatives, here is what the options
   actually look like.
-image: https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1758653500481-a1b46b5b63d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - shiftwizard-alternatives

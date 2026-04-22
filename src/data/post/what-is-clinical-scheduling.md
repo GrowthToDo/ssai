@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is Clinical Scheduling vs. Nurse Scheduling?'
 excerpt: >
   Clinical scheduling is the process of coordinating when clinical staff, nurses, physicians, allied health professionals, and technicians, are available to deliver patient care. For critical access hospitals, clinical scheduling spans multiple care settings and requires compliance tracking, credential verification, and real-time callout management.
-image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1669413453894-db3901ffdbc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - clinical-scheduling
@@ -36,7 +36,7 @@ The distinction matters operationally because the scheduling rules are different
 
 Each of these scheduling domains has its own compliance framework, credential requirements, and coverage logic. A clinical scheduling system needs to manage all of them; a nurse scheduling tool manages only one.
 
-The overlap gets complicated at critical access hospitals because the same manager is often accountable for all of it. When a nurse manager at a 25-bed hospital in rural Texas says they spend 8–12 hours per week on scheduling, that time often includes ad hoc coordination with the on-call physician rotation and scrambles to cover a lab tech callout, not just building the nursing grid.
+The overlap gets complicated at critical access hospitals because the same manager is often accountable for all of it. When a nurse manager at a 25-bed hospital in rural Texas says they spend 8-12 hours per week on scheduling, that time often includes ad hoc coordination with the on-call physician rotation and scrambles to cover a lab tech callout, not just building the nursing grid.
 
 Tools marketed as "nurse scheduling software" typically handle only the nursing layer. True clinical scheduling software, or a managed service that covers clinical operations broadly, must handle multi-category staff coordination.
 
@@ -68,7 +68,7 @@ For CAHs specifically, the most practical answer to "what software do we need fo
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a [healthcare staff scheduling](/healthcare-staff-scheduling) managed service focused specifically on inpatient nursing scheduling at critical access hospitals. We handle the weekly nursing schedule build, callout coverage support, overtime tracking, and compliance flagging, your nurse manager reviews and approves the final schedule rather than spending 8–12 hours building it from scratch each week.
+SimpleScheduleAI is a [healthcare staff scheduling](/healthcare-staff-scheduling) managed service focused specifically on inpatient nursing scheduling at critical access hospitals. We handle the weekly nursing schedule build, callout coverage support, overtime tracking, and compliance flagging, your nurse manager reviews and approves the final schedule rather than spending 8-12 hours building it from scratch each week.
 
 We are honest about scope: we do not currently manage physician on-call scheduling or ancillary department coordination. Our focus on nursing scheduling at CAHs is intentional, it is where the administrative burden is highest and where managed service support delivers the fastest return. For the broader clinical scheduling challenge, we help stabilize the nursing layer first.
 
@@ -93,7 +93,7 @@ Mature platforms offer integrations with major EHRs, but integration complexity 
 - Critical access hospitals manage five distinct scheduling streams with minimal administrative infrastructure
 - CMS compliance requirements apply to all scheduling decisions, credential tracking and minimum staffing rules are non-negotiable
 - The most common CAH approach starts with stabilizing nursing scheduling, then layers in other clinical staff coordination
-- A managed service removes the implementation burden of self-serve software, which is significant for a nurse manager already carrying an 8–12 hour weekly scheduling load
+- A managed service removes the implementation burden of self-serve software, which is significant for a nurse manager already carrying an 8-12 hour weekly scheduling load
 
 ---
 

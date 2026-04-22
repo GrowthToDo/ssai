@@ -5,8 +5,8 @@ updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'What Is Per Diem Nursing? How It Works at Small Hospitals'
 excerpt: >
-  Per diem nursing means working on an as-needed, day-by-day basis without a guaranteed schedule or benefits. Per diem nurses are called to cover shifts when full-time staff are unavailable. They earn a premium above standard base rates, typically 20–30%, in exchange for accepting shift-by-shift uncertainty. For critical access hospitals, a well-managed per diem pool is the primary alternative to expensive agency nurses.
-image: https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+  Per diem nursing means working on an as-needed, day-by-day basis without a guaranteed schedule or benefits. Per diem nurses are called to cover shifts when full-time staff are unavailable. They earn a premium above standard base rates, typically 20-30%, in exchange for accepting shift-by-shift uncertainty. For critical access hospitals, a well-managed per diem pool is the primary alternative to expensive agency nurses.
+image: https://images.unsplash.com/photo-1669413453505-2582fb5083b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary
@@ -17,7 +17,7 @@ metadata:
   canonical: 'https://simplescheduleai.com/blog/what-is-per-diem-nursing'
 ---
 
-Per diem nursing means working on an as-needed, day-by-day basis without a guaranteed schedule. Per diem nurses are called to cover shifts when full-time staff are unavailable, due to callouts, vacations, or census spikes. They typically earn a premium above standard base rates, commonly 20–30% higher, in exchange for accepting shift-by-shift uncertainty. They receive no benefits such as health insurance or paid time off, and the hospital has no obligation to offer them a minimum number of hours. In critical access hospitals, per diem nurses are the most cost-effective flexible staffing mechanism available.
+Per diem nursing means working on an as-needed, day-by-day basis without a guaranteed schedule. Per diem nurses are called to cover shifts when full-time staff are unavailable, due to callouts, vacations, or census spikes. They typically earn a premium above standard base rates, commonly 20-30% higher, in exchange for accepting shift-by-shift uncertainty. They receive no benefits such as health insurance or paid time off, and the hospital has no obligation to offer them a minimum number of hours. In critical access hospitals, per diem nurses are the most cost-effective flexible staffing mechanism available.
 
 ## How Per Diem Nursing Works in a Critical Access Hospital?
 
@@ -40,9 +40,9 @@ Building a per diem pool requires proactive recruitment. CAHs that wait until th
 
 Both per diem and agency nurses provide flexible, non-permanent coverage, but their cost structure, familiarity with the unit, and operational fit for CAHs differ significantly.
 
-**Per diem nurses** are employed directly by the hospital (or contracted individually). They know the facility, its EMR system, its protocols, and often its patients. Onboarding cost is minimal or zero for former staff. The premium above base rates is typically 20–30%, which the hospital pays directly.
+**Per diem nurses** are employed directly by the hospital (or contracted individually). They know the facility, its EMR system, its protocols, and often its patients. Onboarding cost is minimal or zero for former staff. The premium above base rates is typically 20-30%, which the hospital pays directly.
 
-**Agency nurses** (also called travel nurses when placed for longer assignments) come through a staffing agency. The agency charges a bill rate that includes their margin on top of the nurse's pay. For short-notice day coverage at a small rural hospital, the effective cost is typically 2–3× the standard base rate for that role, when agency margin, benefits load, and orientation time are factored in.
+**Agency nurses** (also called travel nurses when placed for longer assignments) come through a staffing agency. The agency charges a bill rate that includes their margin on top of the nurse's pay. For short-notice day coverage at a small rural hospital, the effective cost is typically 2-3× the standard base rate for that role, when agency margin, benefits load, and orientation time are factored in.
 
 Beyond cost, agency nurses require facility orientation, even experienced agency nurses need to be walked through EMR login, emergency codes, supply locations, and care protocols before their first shift. At a 20-bed CAH where the only nurse on duty may be the person orienting them, this is not a trivial burden.
 
@@ -59,13 +59,13 @@ A replacement call list, built from current per diem availability data, turns th
 ## Frequently Asked Questions
 
 **Q: How does per diem nursing pay work?**
-Per diem nurses receive an hourly rate that is typically 20–30% above the standard base rate for that role, in lieu of benefits and schedule guarantees. They are not guaranteed any minimum hours. If called and they accept the shift, they are paid for hours worked only. Some CAHs also pay a small on-call fee if they require per diem nurses to remain available for specific windows, though this is less common.
+Per diem nurses receive an hourly rate that is typically 20-30% above the standard base rate for that role, in lieu of benefits and schedule guarantees. They are not guaranteed any minimum hours. If called and they accept the shift, they are paid for hours worked only. Some CAHs also pay a small on-call fee if they require per diem nurses to remain available for specific windows, though this is less common.
 
 **Q: How do critical access hospitals build a per diem pool?**
 Most successful CAH per diem pools start with former full-time staff and nurses from nearby facilities looking for supplemental income. Proactive recruitment at the community level, nursing programs, professional networks, word of mouth, is more reliable than waiting for applicants. The pool must be actively maintained: availability preferences updated, acceptance rates tracked, and minimum pool size monitored against anticipated demand.
 
 **Q: What is the difference between per diem and agency nursing?**
-Per diem nurses are directly employed (or individually contracted) by the hospital and typically know the facility. Agency nurses come through a staffing company at 2–3× the standard base cost, require facility orientation, and have no prior familiarity with the unit. Per diem is the preferred model for CAHs because it is far less expensive and operationally smoother, but it requires building and maintaining the pool before you need it.
+Per diem nurses are directly employed (or individually contracted) by the hospital and typically know the facility. Agency nurses come through a staffing company at 2-3× the standard base cost, require facility orientation, and have no prior familiarity with the unit. Per diem is the preferred model for CAHs because it is far less expensive and operationally smoother, but it requires building and maintaining the pool before you need it.
 
 ---
 

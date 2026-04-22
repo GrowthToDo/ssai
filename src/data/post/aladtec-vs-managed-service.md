@@ -10,7 +10,7 @@ excerpt: >
   is also covering clinical shifts, those two things are not interchangeable. This guide compares
   Aladtec and SimpleScheduleAI across implementation speed, weekly time burden, callout handling,
   CMS documentation, and total cost of ownership.
-image: https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1670191247079-f9713ae06dcf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - aladtec

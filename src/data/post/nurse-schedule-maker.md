@@ -26,7 +26,7 @@ A nurse schedule maker is any tool, from a paper template to an AI-assisted plat
 
 A good nurse schedule maker doesn't just fill slots, it distributes shifts with some logic behind the distribution. Who worked last weekend? Who has been on night shifts for three consecutive weeks? Who is approaching their overtime threshold? These questions are the difference between a schedule that merely works on paper and one that holds up when real people show up, or don't.
 
-At a 25-bed critical access hospital, a nurse schedule maker has to work within tight constraints. You may have 10–15 floor nurses total. There's very little room to rotate fairly across shifts, weekends, and holidays without a systematic approach. When scheduling is done informally, the same accommodating nurses absorb the difficult slots week after week, and those nurses are often the most experienced ones you can least afford to lose.
+At a 25-bed critical access hospital, a nurse schedule maker has to work within tight constraints. You may have 10-15 floor nurses total. There's very little room to rotate fairly across shifts, weekends, and holidays without a systematic approach. When scheduling is done informally, the same accommodating nurses absorb the difficult slots week after week, and those nurses are often the most experienced ones you can least afford to lose.
 
 The format of the maker matters less than the logic behind it. A sophisticated spreadsheet with well-thought-out rotation rules can outperform a poorly configured scheduling app. But as complexity grows, staff turnover, certification tracking, callout coverage, a template hits its limits faster than purpose-built tools.
 
@@ -82,7 +82,7 @@ One honest caveat: we can optimize distribution within your available staff pool
 Yes, most modern schedule makers include a swap request workflow where nurses submit requests and the system validates them for coverage, certification requirements, and overtime compliance before the manager approves. This eliminates the informal text-chain swap process.
 
 **Q: How much time does it take to set up rotation rules in a nurse schedule maker?**
-For a managed service, we handle the initial setup based on your current staffing structure and stated preferences, typically a one-time onboarding call of 60–90 minutes. You don't need to configure the software yourself.
+For a managed service, we handle the initial setup based on your current staffing structure and stated preferences, typically a one-time onboarding call of 60-90 minutes. You don't need to configure the software yourself.
 
 **Q: Does fair scheduling mean every nurse works the same shifts?**
 Not exactly. Fair scheduling means the distribution of desirable and undesirable shifts is equitable over time, accounting for role constraints and seniority agreements. Some variation is normal; chronic concentration on the same people is the problem to solve.

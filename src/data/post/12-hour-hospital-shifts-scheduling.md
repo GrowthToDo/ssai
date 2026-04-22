@@ -66,10 +66,10 @@ across the team), the arithmetic seems comfortable. It isn't: not every nurse is
 available every week, and weekends require equal coverage to weekdays.
 
 The weekend problem is where small-team 12-hour scheduling breaks down. With 6
-weekend days in a 14-day period, and typically 2–3 nurses needed per shift, you need
-12–18 weekend shifts covered. On a 15-nurse team where everyone is targeted at roughly
-equal weekend burden, each nurse should work 1–2 weekend shifts per 14-day period. If
-a few nurses consistently avoid weekends, the rest carry 3–4, which becomes a fairness
+weekend days in a 14-day period, and typically 2-3 nurses needed per shift, you need
+12-18 weekend shifts covered. On a 15-nurse team where everyone is targeted at roughly
+equal weekend burden, each nurse should work 1-2 weekend shifts per 14-day period. If
+a few nurses consistently avoid weekends, the rest carry 3-4, which becomes a fairness
 and burnout issue quickly.
 
 **Rotation design for 12-hour shifts.** The most common 12-hour schedule patterns for
@@ -136,7 +136,7 @@ adequacy, weekend/night distribution, and fatigue guards simultaneously, in that
 
 **Step 1: Establish your minimum coverage baseline.** For a 25-bed CAH, the minimum
 coverage requirement per shift depends on your census patterns. Most 25-bed facilities
-operate with 2–3 RNs per 12-hour shift as a floor. Document this minimum as a
+operate with 2-3 RNs per 12-hour shift as a floor. Document this minimum as a
 scheduling policy: no schedule is approved that posts fewer than X nurses for any shift.
 CMS survey readiness depends on being able to demonstrate that your staffing decisions
 meet a defined adequacy standard.
@@ -144,8 +144,8 @@ meet a defined adequacy standard.
 **Step 2: Assign permanent night and day positions where possible.** If you have nurses
 who prefer permanent nights, place them there. Permanent positions are easier to
 schedule, produce less circadian disruption, and reduce the scheduling complexity for
-the remaining rotating staff. Aim to fill 50–60% of your night shifts with permanent
-night staff, leaving 40–50% covered by rotation.
+the remaining rotating staff. Aim to fill 50-60% of your night shifts with permanent
+night staff, leaving 40-50% covered by rotation.
 
 **Step 3: Build the weekend distribution matrix.** Before assigning any weekday shifts,
 map out who works which weekends across the full 14-day period. Each full-time nurse
@@ -186,8 +186,8 @@ initial setup and calibration requires more time. We surface this in onboarding.
 **Q: How many nurses does a 25-bed CAH need on a 12-hour shift rotation?**
 
 To maintain a minimum of 2 nurses per shift, 24 hours a day, 7 days a week on 12-hour
-shifts, you need a minimum of 8–10 FTE nurses (allowing for days off, leave, and
-callouts). In practice, most 25-bed CAHs run 14–18 nursing staff to maintain this
+shifts, you need a minimum of 8-10 FTE nurses (allowing for days off, leave, and
+callouts). In practice, most 25-bed CAHs run 14-18 nursing staff to maintain this
 coverage with adequate flexibility for callouts and leave.
 
 **Q: Is the 8-and-80 FLSA rule better for 12-hour shift hospitals?**

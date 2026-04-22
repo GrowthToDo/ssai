@@ -87,13 +87,13 @@ Here is how the alternatives compare:
 
 Capterra and community feedback reinforces these patterns. OnShift users describe the platform in blunt terms:
 
-> "Barely works. It kicks you out constantly." -- OnShift user, Capterra
+> "Barely works. It kicks you out constantly." from OnShift user, Capterra
 
-> "Takes several minutes to load." -- OnShift user, Capterra
+> "Takes several minutes to load." from OnShift user, Capterra
 
-> "Managers cannot see staff schedules." -- OnShift user, Capterra
+> "Managers cannot see staff schedules." from OnShift user, Capterra
 
-> "No messaging capability through the app." -- OnShift user, Capterra
+> "No messaging capability through the app." from OnShift user, Capterra
 
 **Open-shift posting too slow for acute care callouts:** OnShift's shift pickup model works by posting open shifts and waiting for caregivers to accept them. In long-term care, where census is stable and coverage gaps are often known days in advance, this model works. In acute care, an emergency callout requires a confirmed replacement within minutes. Posting and waiting is not a viable model.
 

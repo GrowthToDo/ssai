@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is Nursing Overtime? FLSA Rules and CAH Compliance'
 excerpt: >
   Nursing overtime is any time a nurse works beyond 40 hours in a workweek, triggering the FLSA requirement to pay 1.5× the regular rate. For critical access hospitals, overtime is one of the largest controllable labor costs and one of the most common scheduling compliance gaps. Proactive overtime tracking, not reactive payroll correction, is the standard for well-managed CAH nursing departments.
-image: https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1700832082200-af7deeb63d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary

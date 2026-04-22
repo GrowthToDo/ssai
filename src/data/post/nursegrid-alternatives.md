@@ -9,7 +9,7 @@ excerpt: >
   capabilities. Reviewers report app crashes, a non-functional manager app, and no FLSA
   overtime tracking. For critical access hospitals with CMS documentation requirements, these
   gaps matter. Here are the alternatives.
-image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1758204054548-2d2bb32831c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursegrid-alternatives

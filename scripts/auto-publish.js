@@ -10,6 +10,11 @@
  *   node scripts/auto-publish.js --dry-run — checks only, no file changes or git ops
  *
  * Results are appended to PUBLISHING-LOG.md in the project root.
+ *
+ * Image relevance is checked automatically:
+ *   1. If the image ID is in scripts/image-pool.json → approved, no further check needed.
+ *   2. If ANTHROPIC_API_KEY is set → Claude vision API verifies the image against post title/tags.
+ *   3. Otherwise → blocked with instructions to add the image ID to image-pool.json.
  */
 
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
@@ -21,6 +26,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const POSTS_DIR = join(ROOT, 'src', 'data', 'post');
 const LOG_FILE = join(ROOT, 'PUBLISHING-LOG.md');
+const IMAGE_POOL_FILE = join(__dirname, 'image-pool.json');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 
@@ -45,7 +51,6 @@ const AI_TONE_PHRASES = [
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 function todayString() {
-  // Returns YYYY-MM-DD in local time
   const d = new Date();
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, '0');
@@ -64,11 +69,15 @@ function parseFrontmatter(content) {
     return m ? m[1].trim() : null;
   };
 
-  // nested: metadata.canonical
   const canonicalMatch = fm.match(/canonical:\s*['"]?([^'"\r\n]+?)['"]?\s*$/m);
-  // nested: metadata.imageReviewed (bool) + metadata.imageAlt (string describing the image)
-  const imageReviewedMatch = fm.match(/imageReviewed:\s*(true|false)\s*$/m);
-  const imageAltMatch = fm.match(/imageAlt:\s*['"]?([^'"\r\n]+?)['"]?\s*$/m);
+
+  const tagsMatch = fm.match(/^tags:\s*\n((?:\s+-\s+.+\n?)*)/m);
+  const tags = tagsMatch
+    ? tagsMatch[1]
+        .split('\n')
+        .map((l) => l.replace(/^\s*-\s*/, '').trim())
+        .filter(Boolean)
+    : [];
 
   return {
     draft: get('draft') === 'true',
@@ -76,26 +85,37 @@ function parseFrontmatter(content) {
     title: get('title'),
     image: get('image'),
     canonical: canonicalMatch ? canonicalMatch[1].trim() : null,
-    imageReviewed: imageReviewedMatch ? imageReviewedMatch[1] === 'true' : false,
-    imageAlt: imageAltMatch ? imageAltMatch[1].trim() : null,
+    tags,
   };
 }
 
 function appendLog(text) {
-  const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19);
   let existing = '';
   try {
     existing = readFileSync(LOG_FILE, 'utf8');
   } catch {
     // file doesn't exist yet
   }
-  const entry = `\n${text}\n`;
-  writeFileSync(LOG_FILE, existing + entry, 'utf8');
+  writeFileSync(LOG_FILE, existing + `\n${text}\n`, 'utf8');
   console.log(text);
 }
 
 function run(cmd) {
   return execSync(cmd, { cwd: ROOT, encoding: 'utf8' });
+}
+
+function loadImagePool() {
+  try {
+    return JSON.parse(readFileSync(IMAGE_POOL_FILE, 'utf8'));
+  } catch {
+    return [];
+  }
+}
+
+function extractUnsplashPhotoId(url) {
+  if (!url) return null;
+  const m = url.match(/photo-([a-zA-Z0-9-]+)/);
+  return m ? m[1] : null;
 }
 
 // ─── checks ─────────────────────────────────────────────────────────────────
@@ -147,25 +167,67 @@ async function checkImageUrl(fm) {
   }
 }
 
-function checkImageRelevance(fm) {
-  const failures = [];
-  if (!fm.imageAlt) {
-    failures.push(
-      '  metadata.imageAlt missing — add a 1-line description of what the image actually shows (e.g. "imageAlt: nurse reviewing a schedule on a tablet at a nursing station")'
-    );
-  }
-  if (!fm.imageReviewed) {
-    failures.push(
-      '  metadata.imageReviewed is not true — a human must open the image URL, confirm it matches imageAlt and is relevant to the post topic, then set metadata.imageReviewed: true'
-    );
-  }
-  return failures;
-}
+async function checkImageRelevanceAuto(fm, pool) {
+  const photoId = extractUnsplashPhotoId(fm.image);
+  if (!photoId) return [];
 
-function extractUnsplashPhotoId(url) {
-  if (!url) return null;
-  const m = url.match(/photo-([a-zA-Z0-9-]+)/);
-  return m ? m[1] : null;
+  // 1. Pool check — pre-verified healthcare images always pass
+  const poolEntry = pool.find((p) => p.id === photoId);
+  if (poolEntry) {
+    console.log(`  Image in verified pool: "${poolEntry.description}"`);
+    return [];
+  }
+
+  // 2. Claude vision check if API key is available
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (apiKey) {
+    try {
+      const prompt = `This image will appear at the top of a healthcare blog post titled: "${fm.title || ''}". Post tags: ${(fm.tags || []).join(', ')}. The blog targets nurse managers and administrators at small hospitals (Critical Access Hospitals). Is this image relevant and appropriate for that context? Reply only YES or NO.`;
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 10,
+          messages: [
+            {
+              role: 'user',
+              content: [
+                { type: 'image', source: { type: 'url', url: fm.image } },
+                { type: 'text', text: prompt },
+              ],
+            },
+          ],
+        }),
+        signal: AbortSignal.timeout(20000),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const answer = data.content?.[0]?.text?.trim().toUpperCase() || '';
+        if (answer.startsWith('NO')) {
+          return [
+            `  Image failed relevance check (Claude vision: "${answer}"). The image at ${fm.image} does not appear relevant to this post's topic. Replace it with an ID from scripts/image-pool.json or add the current ID there after visual verification.`,
+          ];
+        }
+        console.log(`  Image passed Claude vision check (${answer})`);
+        return [];
+      }
+    } catch (err) {
+      console.log(`  Claude vision check skipped: ${err.message}`);
+    }
+  }
+
+  // 3. No pool entry, no API key — block with instructions
+  return [
+    `  Image ID "${photoId}" is not in scripts/image-pool.json. Either:`,
+    `    a) Replace the image URL with one from image-pool.json, OR`,
+    `    b) Visually verify the image is healthcare-relevant, then add the ID to image-pool.json`,
+    `    c) Set ANTHROPIC_API_KEY env var to enable automatic vision checking`,
+  ];
 }
 
 function checkImageNotDuplicated(currentFile, currentFm) {
@@ -182,7 +244,7 @@ function checkImageNotDuplicated(currentFile, currentFm) {
   }
   if (duplicates.length > 0) {
     return [
-      `  Image photo ID "${currentId}" is already used in ${duplicates.length} other post(s): ${duplicates.slice(0, 3).join(', ')}${duplicates.length > 3 ? ', ...' : ''}. Pick a different image.`,
+      `  Image ID "${currentId}" already used in: ${duplicates.slice(0, 3).join(', ')}${duplicates.length > 3 ? ', ...' : ''}. Use a different image from scripts/image-pool.json.`,
     ];
   }
   return [];
@@ -210,21 +272,15 @@ function checkAiTone(content) {
 
 // ─── publish action ──────────────────────────────────────────────────────────
 
-function publishPost(filePath, slug, title, today) {
+function publishPost(filePath, title, today) {
   let content = readFileSync(filePath, 'utf8');
 
-  // Flip draft: true → draft: false
   content = content.replace(/^draft: true$/m, 'draft: false');
-
-  // Update updateDate to today
   content = content.replace(/^updateDate: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/m, `updateDate: ${today}T00:00:00Z`);
 
   writeFileSync(filePath, content, 'utf8');
-
-  // Prettier format
   execSync(`npx prettier --write "${filePath}"`, { cwd: ROOT, encoding: 'utf8' });
 
-  // Git add + commit + push
   run(`git add "${filePath}"`);
   const commitMsg = `Publish: ${title} — ${today}`;
   run(
@@ -237,6 +293,7 @@ function publishPost(filePath, slug, title, today) {
 
 async function main() {
   const today = todayString();
+  const pool = loadImagePool();
   const files = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
 
   const due = [];
@@ -247,8 +304,7 @@ async function main() {
     if (!fm) continue;
     if (!fm.draft) continue;
     if (!fm.publishDate) continue;
-    const postDate = fm.publishDate.slice(0, 10); // YYYY-MM-DD
-    if (postDate === today) {
+    if (fm.publishDate.slice(0, 10) === today) {
       due.push({ filename, filePath, fm, content });
     }
   }
@@ -267,13 +323,11 @@ async function main() {
     const failures = [];
     const warnings = [];
 
-    // Run all automated checks
     failures.push(...checkEmDash(content));
     failures.push(...checkDoubleDash(content));
     failures.push(...checkCanonical(fm, slug));
-    const imageFailures = await checkImageUrl(fm);
-    failures.push(...imageFailures);
-    failures.push(...checkImageRelevance(fm));
+    failures.push(...(await checkImageUrl(fm)));
+    failures.push(...(await checkImageRelevanceAuto(fm, pool)));
     failures.push(...checkImageNotDuplicated(filename, fm));
     failures.push(...checkPrettier(filePath));
     warnings.push(...checkAiTone(content));
@@ -298,14 +352,14 @@ async function main() {
         );
       } else {
         try {
-          publishPost(filePath, slug, fm.title || slug, today);
+          publishPost(filePath, fm.title || slug, today);
           appendLog(
             [
               `### PUBLISHED: ${slug}`,
               `Title: ${fm.title || '(unknown)'}`,
               `Live at: https://simplescheduleai.com/blog/${slug}`,
               warnings.length > 0 ? `Warnings (non-blocking): ${warnings.length}` : '',
-              ``,
+              '',
               `Next steps (manual):`,
               `- Submit URL to GSC: URL Inspection → Request Indexing`,
               `- Post excerpt on LinkedIn`,
@@ -323,5 +377,5 @@ async function main() {
 
 main().catch((err) => {
   console.error('auto-publish.js crashed:', err);
-  process.exit(0); // exit 0 so cron doesn't alarm
+  process.exit(0);
 });

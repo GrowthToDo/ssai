@@ -61,7 +61,7 @@ The gaps in free nurse scheduling software are significant for a Texas CAH:
 
 **No certification-aware scheduling.** Free tools don't know that Nurse A is ICU-certified and Nurse B is not. They'll happily assign uncertified nurses to units requiring certification.
 
-**No callout coverage logic.** When a nurse calls out, free tools don't generate a ranked replacement list from available, qualified staff. The 2–3 hour manual phone tree problem is completely unsolved.
+**No callout coverage logic.** When a nurse calls out, free tools don't generate a ranked replacement list from available, qualified staff. The 2-3 hour manual phone tree problem is completely unsolved.
 
 **No CMS audit trail.** [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) require accurate, reviewable staffing records. Free tools either don't log changes at all or don't produce the format required for CMS survey documentation.
 
@@ -73,9 +73,9 @@ These aren't features that a free tool will add, they're absent because the tool
 
 Free tools have a hidden cost: the compliance and operational work they don't do still has to be done somewhere.
 
-Based on interviews with 30+ Texas CAH nurse managers, the average time spent on scheduling-related tasks is 8–12 hours per week. Free scheduling tools reduce the schedule-building portion of that time, but that portion is maybe 2–3 hours. The remaining 5–9 hours spent on callout coverage, overtime monitoring, compliance documentation, and schedule change management are untouched.
+Based on interviews with 30+ Texas CAH nurse managers, the average time spent on scheduling-related tasks is 8-12 hours per week. Free scheduling tools reduce the schedule-building portion of that time, but that portion is maybe 2-3 hours. The remaining 5-9 hours spent on callout coverage, overtime monitoring, compliance documentation, and schedule change management are untouched.
 
-At a $50/hr loaded rate for nurse managers, the annual cost of those 5–9 unautomated hours is $13,000–$23,400 per year, even if the scheduling software itself is free. The "$0 software cost" framing ignores where the real time goes.
+At a $50/hr loaded rate for nurse managers, the annual cost of those 5-9 unautomated hours is $13,000-$23,400 per year, even if the scheduling software itself is free. The "$0 software cost" framing ignores where the real time goes.
 
 Free tools work as part of the solution when paired with clear manual processes for compliance and callout coverage. They don't work as a complete solution for a CAH trying to reduce nurse manager administrative burden.
 
@@ -103,11 +103,11 @@ Free tools don't enforce Texas overtime rules, don't match nurses to shifts by c
 
 **Q: How much does nurse scheduling software cost for a small hospital?**
 
-Paid nurse scheduling apps typically cost $2–$8 per nurse per month. SimpleScheduleAI offers a 60-day free pilot for Texas critical access hospitals before any paid commitment. Free tools are available at no cost but with significant healthcare-specific limitations.
+Paid nurse scheduling apps typically cost $2-$8 per nurse per month. SimpleScheduleAI offers a 60-day free pilot for Texas critical access hospitals before any paid commitment. Free tools are available at no cost but with significant healthcare-specific limitations.
 
 **Q: What is the hidden cost of free nurse scheduling tools?**
 
-Free tools don't eliminate the compliance and callout coverage work, they just don't help with it. That work still lands on the nurse manager. For a CAH spending 8–12 hours/week on scheduling, free tools might save 2–3 hours but leave 5–9 hours of manual compliance and callout work untouched.
+Free tools don't eliminate the compliance and callout coverage work, they just don't help with it. That work still lands on the nurse manager. For a CAH spending 8-12 hours/week on scheduling, free tools might save 2-3 hours but leave 5-9 hours of manual compliance and callout work untouched.
 
 ## Key Takeaways
 

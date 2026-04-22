@@ -96,13 +96,13 @@ Here is how the alternatives compare before we go deeper:
 
 Reviewer feedback on Capterra and G2 is consistent with these patterns:
 
-> "Customer support quality declined after the TCP acquisition." -- multiple Aladtec reviewers, Capterra
+> "Customer support quality declined after the TCP acquisition." from multiple Aladtec reviewers, Capterra
 
-> "Not intuitive." -- multiple Aladtec reviewers, Capterra and G2
+> "Not intuitive." from multiple Aladtec reviewers, Capterra and G2
 
-> "Very steep learning curve. Lacks intuitiveness." -- Aladtec reviewer, G2
+> "Very steep learning curve. Lacks intuitiveness." from Aladtec reviewer, G2
 
-> "Lots of clicks. You can only schedule one day at a time." -- Aladtec reviewer, G2
+> "Lots of clicks. You can only schedule one day at a time." from Aladtec reviewer, G2
 
 The positive reviews for Aladtec are predominantly from fire, EMS, and law enforcement users. Hospital nurse manager reviews are significantly more negative, reflecting the mismatch between the product's original design context and acute care scheduling requirements.
 
@@ -166,7 +166,7 @@ The positive reviews for Aladtec are predominantly from fire, EMS, and law enfor
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, low complexity</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$80/month</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free-$80/month</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>

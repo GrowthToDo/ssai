@@ -9,7 +9,7 @@ excerpt: >
   than large health systems. These seven best practices, drawn from interviews with
   30+ Texas CAH nurse managers, are the operational standards that separate facilities
   with stable schedules from those in constant callout crisis.
-image: https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1758575514487-0390fcacc339?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursing-staff-scheduling
@@ -21,7 +21,7 @@ metadata:
 
 ## TL;DR
 
-Seven nursing staff scheduling best practices for 25-bed critical access hospitals: publish schedules 4 weeks out, track fairness measures per nurse, maintain a ranked per-diem callout list, enforce maximum consecutive shifts, document every change with a timestamp, review overtime thresholds before publishing, and conduct a post-schedule retrospective after every cycle. CAH nurse managers who implement these practices consistently reduce callout-driven overtime by 20–30%.
+Seven nursing staff scheduling best practices for 25-bed critical access hospitals: publish schedules 4 weeks out, track fairness measures per nurse, maintain a ranked per-diem callout list, enforce maximum consecutive shifts, document every change with a timestamp, review overtime thresholds before publishing, and conduct a post-schedule retrospective after every cycle. CAH nurse managers who implement these practices consistently reduce callout-driven overtime by 20-30%.
 
 ## What Are the Core Nursing Staff Scheduling Best Practices for Small Hospitals?
 
@@ -34,7 +34,7 @@ Nurses who know their schedule four weeks out plan their personal lives around i
 Manual scheduling defaults to calling whoever will say yes. Over time, this concentrates undesirable assignments, nights, weekends, holidays, charge duties, on a small group of reliable nurses who eventually stop saying yes. Track who has worked the last four nights, who has covered three consecutive weekends, who has absorbed the most overtime. Make this data visible and use it to make assignments. The [NSI 2024 report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf) puts average RN turnover cost at $52,350, fairness tracking is the primary preventive.
 
 **Best Practice 3: Maintain a ranked per-diem callout list, not a flat contact list.**
-When a nurse calls out, a flat list of names means calling down the list until someone answers. A ranked list prioritizes nurses by: availability (confirmed via standing preference), overtime status (prioritize those under 40 hours), certification match (unit-specific), and fairness (who has worked the fewest recent callout shifts). A ranked list typically resolves callout coverage in 1–2 calls instead of 5–8.
+When a nurse calls out, a flat list of names means calling down the list until someone answers. A ranked list prioritizes nurses by: availability (confirmed via standing preference), overtime status (prioritize those under 40 hours), certification match (unit-specific), and fairness (who has worked the fewest recent callout shifts). A ranked list typically resolves callout coverage in 1-2 calls instead of 5-8.
 
 **Best Practice 4: Enforce maximum consecutive shift rules.**
 [AONL research on nurse fatigue](https://www.aonl.org/resources/nurse-manager-competencies) links consecutive shifts directly to errors and voluntary turnover. Most state nursing boards recommend against more than three consecutive 12-hour shifts. Build this constraint explicitly into the scheduling process, don't rely on nurses self-reporting fatigue.
@@ -52,9 +52,9 @@ What gaps appeared? Which nurses covered the most callouts? What fairness issues
 
 Based on interviews with 30+ Texas CAH nurse managers, these are the scheduling mistakes that most consistently drive overtime costs and turnover:
 
-**Publishing too close to the start date.** Schedules published 5–7 days out give nurses insufficient time to flag conflicts, swap shifts in advance, or arrange personal obligations, generating more last-minute callouts.
+**Publishing too close to the start date.** Schedules published 5-7 days out give nurses insufficient time to flag conflicts, swap shifts in advance, or arrange personal obligations, generating more last-minute callouts.
 
-**No per-diem pool.** CAHs that depend entirely on agency nurses for coverage gaps pay 2–3× the standard rate for every gap. A maintained per-diem pool, even 3–4 nurses, converts most callout coverage from agency cost to standard or slightly-premium labor cost.
+**No per-diem pool.** CAHs that depend entirely on agency nurses for coverage gaps pay 2-3× the standard rate for every gap. A maintained per-diem pool, even 3-4 nurses, converts most callout coverage from agency cost to standard or slightly-premium labor cost.
 
 **Invisible fairness.** When nurses can't see their own fairness measures (nights worked, weekends assigned, callouts covered), perceived inequity generates morale issues even when the data shows fair distribution. Visibility reduces conflict regardless of the actual numbers.
 
@@ -118,7 +118,7 @@ Most nursing boards and clinical guidelines recommend no more than three consecu
 
 - Publish schedules 4 weeks out (not 2) to reduce last-minute callouts significantly
 - Track fairness measures explicitly per nurse: weekends, nights, holidays, callout coverage, make data visible
-- A ranked per-diem callout list (not a flat contact list) resolves coverage in 1–2 calls instead of 5–8
+- A ranked per-diem callout list (not a flat contact list) resolves coverage in 1-2 calls instead of 5-8
 - Review overtime thresholds before publishing every schedule, most CAH overtime is preventable if caught before the schedule goes out
 - CMS §485.635 requires automatic documentation of every schedule change; manual logs are insufficient in practice
 

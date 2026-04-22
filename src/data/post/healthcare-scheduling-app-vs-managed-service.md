@@ -9,7 +9,7 @@ excerpt: >
   A managed scheduling service does the scheduling work for you. For critical access hospitals
   with no IT department and a nurse manager who is already stretched thin, the difference
   determines whether scheduling actually improves or just changes form.
-image: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1682706841478-88eb8995357b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - healthcare-scheduling-app

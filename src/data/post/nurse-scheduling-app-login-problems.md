@@ -116,7 +116,7 @@ This does not mean session management is irrelevant for a managed service. Revie
 For nurse managers who have experienced significant workflow disruption from session timeout issues with their current platform, the shift to a review-only interaction model changes the frequency and cost of that disruption substantially.
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
-  <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Review and approve — no 45-minute build sessions at risk of being lost.</p>
+  <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Review and approve, no 45-minute build sessions at risk of being lost.</p>
   <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">SimpleScheduleAI delivers completed drafts to your inbox. Free pilot for critical access hospitals in Texas. No IT setup required.</p>
   <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot →</a>
 </div>

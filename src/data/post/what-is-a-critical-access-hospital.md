@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'What Is a Critical Access Hospital? A Complete Guide'
 excerpt: >
   A critical access hospital (CAH) is a CMS-designated rural hospital with 25 or fewer acute care beds, located at least 35 miles from the nearest hospital, providing 24-hour emergency care year-round. CAHs receive cost-based Medicare reimbursement, a significant financial benefit unavailable to standard hospitals. Approximately 1,350 CAHs exist across the US, including 84 in Texas.
-image: https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1758204054878-813a52406b7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Glossary
 tags:
   - glossary
@@ -57,7 +57,7 @@ The §485.635 requirement that a registered nurse be on duty or on call at all t
 
 Cost-based reimbursement means the hospital's financial health is tied directly to its cost structure. Unnecessary overtime is money the hospital pays that shows up directly in its Medicare cost reports. A nurse manager who reduces overtime by 15% is not just saving budget, they are improving the hospital's reimbursement sustainability.
 
-The small team size at most CAHs means there is little margin for error. With 10–20 nurses on staff, a single unplanned absence can require a full schedule rebuild. Per diem pools, callout protocols, and documented on-call availability are operational necessities, not optional enhancements.
+The small team size at most CAHs means there is little margin for error. With 10-20 nurses on staff, a single unplanned absence can require a full schedule rebuild. Per diem pools, callout protocols, and documented on-call availability are operational necessities, not optional enhancements.
 
 ## Frequently Asked Questions
 

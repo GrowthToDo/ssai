@@ -23,7 +23,7 @@ metadata:
 
 <!-- Placeholder: Summarize the single most important finding from the data once available. Example structure: "CAH nurses in our dataset worked an average of [X] overtime hours per month, [Y]% of which occurred in weeks where a per diem nurse covered a callout without real-time weekly-hours visibility." Replace with actual finding before publication. -->
 
-[TO BE FILLED, replace with 3–4 sentence summary of key finding once pilot data is available]
+[TO BE FILLED, replace with 3-4 sentence summary of key finding once pilot data is available]
 
 ---
 

@@ -69,11 +69,11 @@ At a critical access hospital, the nurse manager is often the scheduler, the com
 
 A managed scheduling service inverts this. Rather than giving you a tool to build schedules, a managed service builds the schedules for you. Your team provides availability and rules; the service returns draft schedules, replacement lists, and compliance documentation. Your nurse manager reviews and approves.
 
-According to research with 30+ Texas CAH nurse managers, this model reduces scheduling time from 8–12 hours per week to 1–2 hours, not because the app is more efficient, but because the administrative work moves off the nurse manager's plate entirely.
+According to research with 30+ Texas CAH nurse managers, this model reduces scheduling time from 8-12 hours per week to 1-2 hours, not because the app is more efficient, but because the administrative work moves off the nurse manager's plate entirely.
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a managed scheduling service, not a self-serve app. There's no configuration phase where your team has to learn a new system. A scheduling specialist handles setup via Excel roster upload (typically 3–5 business days) and configures Texas overtime rules, shift patterns, and compliance requirements for your facility.
+SimpleScheduleAI is a managed scheduling service, not a self-serve app. There's no configuration phase where your team has to learn a new system. A scheduling specialist handles setup via Excel roster upload (typically 3-5 business days) and configures Texas overtime rules, shift patterns, and compliance requirements for your facility.
 
 After that, your nurse manager receives three AI-drafted schedule options each cycle, balanced, fair-rotation, and overtime-minimized, and approves one. When a nurse calls out, the system surfaces a replacement shortlist in seconds.
 
@@ -97,7 +97,7 @@ A managed service handles configuration, ongoing support, and schedule generatio
 
 **Q: How long does it take to implement a nurse scheduling app?**
 
-Self-serve apps: 2–6 weeks including configuration, training, and testing. SimpleScheduleAI managed service: 3–5 business days via Excel roster upload, with a scheduling specialist handling configuration. No IT integration required.
+Self-serve apps: 2-6 weeks including configuration, training, and testing. SimpleScheduleAI managed service: 3-5 business days via Excel roster upload, with a scheduling specialist handling configuration. No IT integration required.
 
 **Q: Are nurse scheduling apps HIPAA compliant?**
 
@@ -109,7 +109,7 @@ Nurse scheduling apps deal with staff data, not patient data, so HIPAA's Privacy
 - Five pass/fail criteria for a CAH nursing scheduling app: Texas compliance, certification-aware scheduling, callout coverage logic, audit trail, no-IT setup
 - Red flags: self-serve pricing with no onboarding support, mobile-first design without management parity, no compliance layer
 - A managed scheduling service offloads operational burden from the nurse manager, often more impactful than an efficient app at this scale
-- CAH nurse managers currently spend 8–12 hours/week on scheduling; a managed service reduces this to 1–2 hours regardless of which tool is used
+- CAH nurse managers currently spend 8-12 hours/week on scheduling; a managed service reduces this to 1-2 hours regardless of which tool is used
 
 ---
 

@@ -9,7 +9,7 @@ excerpt: >
   management for hospitals. This buyer's guide helps small hospital administrators evaluate
   options honestly, covering what features matter, what red flags to watch for, and why the
   software vs. managed service distinction is critical for CAHs.
-image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1600091474842-83bb9c05a723?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - medical-scheduling-software
