@@ -36,7 +36,7 @@ Free templates are static, they reflect a moment in time and require complete ma
 
 The most significant limitation is the lack of constraint enforcement. A spreadsheet template will let you schedule anyone into any slot with no warnings. If you accidentally assign a nurse to a shift that pushes them past 40 hours under [FLSA overtime rules](https://www.dol.gov/agencies/whd/flsa), the template won't tell you. You'll find out on the payroll report. For Texas hospitals, [Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm) governs overtime obligations, a template offers no guardrails there either.
 
-Callout coverage is the second major failure point. When a nurse calls out at 5:30 AM, the template doesn't know who is qualified, who is available, and who is already at risk of overtime. The manager has to open the spreadsheet, cross-reference a separate availability list, check hours mentally, and start calling people. That process takes 30–60 minutes on a good day. It can take longer if multiple people decline before someone accepts.
+Callout coverage is the second major failure point. When a nurse calls out at 5:30 AM, the template doesn't know who is qualified, who is available, and who is already at risk of overtime. The manager has to open the spreadsheet, cross-reference a separate availability list, check hours mentally, and start calling people. That process takes 30-60 minutes on a good day. It can take longer if multiple people decline before someone accepts.
 
 The third limitation is auditability. If a CMS surveyor asks why a particular shift was staffed the way it was, a spreadsheet template provides no record of the decision-making process. There's no timestamp, no approval trail, no record of alternatives considered. Modern scheduling tools maintain those logs automatically; a template provides nothing.
 
@@ -68,11 +68,11 @@ A free template stops being enough when the cost of managing its limitations exc
 
 **Scenario 1: A compliance event.** A CMS survey or state inspection reveals a credential gap in the schedule, someone was assigned to a shift requiring a certification they didn't hold. The template had no way to prevent it. The corrective action plan is expensive in time and credibility.
 
-**Scenario 2: A callout cascade.** Three nurses call out in the same week, illness, a family emergency, and a no-show. The manager spends 4 hours rebuilding the schedule, calls six people to find coverage, and ends up bringing in agency staff at 2–3× the standard rate rather than discover a qualified internal staff member who had availability. The template couldn't surface that option.
+**Scenario 2: A callout cascade.** Three nurses call out in the same week, illness, a family emergency, and a no-show. The manager spends 4 hours rebuilding the schedule, calls six people to find coverage, and ends up bringing in agency staff at 2-3× the standard rate rather than discover a qualified internal staff member who had availability. The template couldn't surface that option.
 
 **Scenario 3: A resignation driven by inequity.** An experienced nurse leaves after three years of taking disproportionate weekend and holiday shifts. Replacing them costs an average of [$52,350](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf) in recruitment, training, and productivity loss. The template never tracked the pattern that caused the departure.
 
-Any one of these scenarios is likely to cost more than a year of professional scheduling support. When a template forces 8–12 hours of manager time per week on scheduling work that should take two, the math favors switching. Explore [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) to understand what the alternatives actually cost.
+Any one of these scenarios is likely to cost more than a year of professional scheduling support. When a template forces 8-12 hours of manager time per week on scheduling work that should take two, the math favors switching. Explore [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) to understand what the alternatives actually cost.
 
 ## How SimpleScheduleAI Helps?
 
@@ -93,7 +93,7 @@ Yes, a small team with a stable schedule and low callout frequency is the best-c
 For shared access, Google Sheets has an advantage, multiple people can view and edit simultaneously, and changes are visible in real time without emailing file versions. For complex formulas and shift logic, Excel has a small capability edge. For most CAH use cases, either works; the limiting factor is the template's design, not the platform.
 
 **Q: How often should I update my nurse schedule template?**
-Review the template structure every 6–12 months, or after significant staff changes. The columns, rotation periods, and certification fields should reflect your current staffing model, a template built for a different team size or shift configuration quietly causes errors.
+Review the template structure every 6-12 months, or after significant staff changes. The columns, rotation periods, and certification fields should reflect your current staffing model, a template built for a different team size or shift configuration quietly causes errors.
 
 ## Key Takeaways
 

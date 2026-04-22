@@ -6,10 +6,10 @@ author: 'Pradeep Pandey'
 title: 'Per Diem Nursing Shifts: Fill Gaps Without Agency Costs'
 excerpt: >
   Per diem nursing shifts let critical access hospitals fill coverage gaps at standard
-  hourly rates, avoiding the 2–3× agency premium that erodes thin CAH margins. This
+  hourly rates, avoiding the 2-3× agency premium that erodes thin CAH margins. This
   guide covers how to build, manage, and schedule a per diem nurse pool that actually
   stays available when you need it.
-image: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1676286168358-9b4ce60384d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - per-diem-nursing
@@ -21,10 +21,10 @@ metadata:
 
 ## TL;DR
 
-Agency nurses cost 2–3× the standard hourly rate, according to
+Agency nurses cost 2-3× the standard hourly rate, according to
 [AONL workforce data](https://www.aonl.org/resources/nursing-workforce-now). For a
 critical access hospital filling 20 agency shifts per month, that premium adds up to
-$80,000–$120,000 annually above what a per diem pool covering the same shifts would
+$80,000-$120,000 annually above what a per diem pool covering the same shifts would
 cost. Building and managing a reliable per diem nurse pool is the highest-ROI staffing
 investment most CAHs aren't making systematically.
 
@@ -43,13 +43,13 @@ build a relationship with nurses who know your unit, your EMR, and your patient
 population, eliminating the orientation tax that comes with every new agency placement.
 
 For [critical access hospital scheduling](/critical-access-hospital-scheduling), per
-diem pools serve a specific function: they provide the last 10–15% of coverage
+diem pools serve a specific function: they provide the last 10-15% of coverage
 flexibility that the core permanent staff cannot absorb. Most CAHs already have per
 diem nurses on their roster, the problem is that those pools are poorly managed, with
 outdated availability data, no systematic callout process, and nurses who drift away
 to other facilities because they aren't offered shifts consistently.
 
-A well-managed per diem pool of 4–6 nurses can eliminate 60–70% of agency dependency
+A well-managed per diem pool of 4-6 nurses can eliminate 60-70% of agency dependency
 for a typical 25-bed CAH.
 
 ## How do CAHs build and manage a per diem nurse pool?
@@ -65,13 +65,13 @@ nursing program clinical coordinators can also refer new graduates looking for
 supplemental experience before committing to a full-time role.
 
 Post per diem openings on your facility's career page with honest language about
-commitment expectations: typically 2–4 shifts per month minimum to maintain
+commitment expectations: typically 2-4 shifts per month minimum to maintain
 credentialing. Be specific about which shifts are most frequently available (nights,
 weekends) so candidates self-select realistically.
 
 **Credentialing and onboarding:** Per diem nurses need the same credentialing as
 permanent staff: license verification, BLS/ACLS as required by unit, facility
-orientation, and EMR access. The onboarding investment is real, typically 4–8 hours -
+orientation, and EMR access. The onboarding investment is real, typically 4-8 hours -
 but it's a one-time cost that pays back every time that nurse covers a shift at
 standard rate instead of agency rate.
 
@@ -85,7 +85,7 @@ schedule.
 **Consistent offer process:** Per diem nurses stay engaged when they receive consistent
 offers. If a nurse submits availability for 6 days and is never offered a shift, they
 stop submitting availability. Establish a policy: per diem nurses on your active roster
-who submit availability should receive at least 1–2 shift offers per month, or a
+who submit availability should receive at least 1-2 shift offers per month, or a
 documented reason why no shifts were available.
 
 <div class="my-8 rounded-lg border border-blue-200 bg-blue-50 dark:bg-blue-900/20 p-6">
@@ -97,27 +97,27 @@ documented reason why no shifts were available.
 ## What is the cost difference between per diem nurses and agency nurses?
 
 The direct cost difference between a per diem nurse and an agency nurse for the same
-shift is typically 40–60%, but the real gap is larger when you account for the
+shift is typically 40-60%, but the real gap is larger when you account for the
 indirect costs of agency use.
 
 **Direct rate comparison:** An RN earning $40/hour as a permanent staff nurse might
-earn $45–$50/hour as a per diem nurse at the same facility (a modest premium for
-flexibility). An agency RN filling the same shift would cost the facility $80–$100/hour
+earn $45-$50/hour as a per diem nurse at the same facility (a modest premium for
+flexibility). An agency RN filling the same shift would cost the facility $80-$100/hour
 or more, representing the agency's markup on top of the nurse's take-home rate.
 [AONL data](https://www.aonl.org/resources/nursing-workforce-now) consistently places
-agency costs at 2–3× standard rates.
+agency costs at 2-3× standard rates.
 
-For a 12-hour night shift: a per diem nurse costs approximately $540–$600 (at $45–$50/hr).
-The same shift via agency costs $960–$1,200 (at $80–$100/hr). That's a $400–$600
+For a 12-hour night shift: a per diem nurse costs approximately $540-$600 (at $45-$50/hr).
+The same shift via agency costs $960-$1,200 (at $80-$100/hr). That's a $400-$600
 difference per shift.
 
 **Multiplied across 20 agency shifts per month:** the annual overspend relative to a
-functioning per diem pool is $96,000–$144,000. For a CAH operating on 2–3% margins,
+functioning per diem pool is $96,000-$144,000. For a CAH operating on 2-3% margins,
 this is a material line item.
 
 **Indirect costs of agency use that per diem eliminates:**
 
-- Orientation time: each new agency nurse requires 1–2 hours of orientation per shift
+- Orientation time: each new agency nurse requires 1-2 hours of orientation per shift
   for a nurse unfamiliar with your unit
 - Quality variance: agency nurses unfamiliar with your protocols, patient population,
   and EMR introduce subtle quality risks that are difficult to quantify but real
@@ -181,7 +181,7 @@ adequate for your coverage needs, and if not, how to expand it.
 
 **Q: How many per diem nurses does a 25-bed CAH typically need?**
 
-A functioning per diem pool for a 25-bed CAH typically requires 4–6 active per diem
+A functioning per diem pool for a 25-bed CAH typically requires 4-6 active per diem
 nurses to provide meaningful coverage flexibility. Fewer than 3 and you'll still depend
 heavily on agency. The exact number depends on your callout frequency and the average
 per diem nurse's monthly availability.
@@ -190,21 +190,21 @@ per diem nurse's monthly availability.
 
 Yes. Per diem nurses require the same credentialing as permanent staff: license
 verification, BLS/ACLS as applicable to the unit, facility orientation, and EMR access.
-This one-time investment (typically 4–8 hours) pays back on the first shift covered at
+This one-time investment (typically 4-8 hours) pays back on the first shift covered at
 per diem rates instead of agency rates.
 
 **Q: How do you keep per diem nurses engaged so they stay available?**
 
 Consistent shift offers are the primary retention mechanism. Per diem nurses who submit
 availability but rarely receive offers stop engaging. Establish a policy of offering
-at least 1–2 shifts per month to any per diem nurse who submits availability, and
+at least 1-2 shifts per month to any per diem nurse who submits availability, and
 communicate proactively when no shifts are available.
 
 ## Key Takeaways
 
-- Agency nurses cost 2–3× standard rates; per diem nurses at the same facility
-  typically cost 10–25% above standard, a $400–$600 difference per 12-hour shift
-- A per diem pool of 4–6 active nurses can eliminate 60–70% of agency dependency at
+- Agency nurses cost 2-3× standard rates; per diem nurses at the same facility
+  typically cost 10-25% above standard, a $400-$600 difference per 12-hour shift
+- A per diem pool of 4-6 active nurses can eliminate 60-70% of agency dependency at
   a typical 25-bed CAH
 - Per diem pool failure is almost always a management process failure, not a sourcing
   problem, availability tracking and consistent offer practices are the critical gaps

@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Scheduling Software Overtime Errors: How to Fix Them'
 excerpt: >
   Scheduling software overtime errors cost hospitals thousands of dollars per year. G2 reviewers of Deputy report "overtime calculation errors overpaying employees by thousands." The root cause is not the software - it is reactive overtime tracking that flags hours after payroll rather than preventing excess scheduling before it publishes.
-image: https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - scheduling-software-overtime

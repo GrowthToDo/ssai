@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-08-04T00:00:00Z
 updateDate: 2026-08-04T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'The Real Cost of Switching From Excel to Scheduling Software — and Why Some Hospitals Switch Back'
+title: 'The Real Cost of Switching From Excel to Scheduling Software ,  and Why Some Hospitals Switch Back'
 excerpt: >
   Switching from Excel to nurse scheduling software is not free. There is
   configuration time, a learning curve, and an organizational transition that

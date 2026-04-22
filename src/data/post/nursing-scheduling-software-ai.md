@@ -10,7 +10,7 @@ excerpt: >
   that previously required hours of manual work per cycle. For critical access
   hospitals, AI-assisted scheduling offers the biggest efficiency gains at exactly
   the scale where scheduling complexity meets resource constraints.
-image: https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1668785737406-0129cb9554b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nursing-scheduling-software

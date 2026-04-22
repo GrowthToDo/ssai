@@ -7,7 +7,7 @@ title: 'Nurse Schedule Generator: How to Automate Your Weekly Roster'
 excerpt: >
   A nurse schedule generator automates the most time-consuming part of nurse
   management: building the weekly roster. For critical access hospitals spending
-  8–12 hours per week on manual scheduling, a generator, or better, a managed
+  8-12 hours per week on manual scheduling, a generator, or better, a managed
   scheduling service, can reclaim that time without sacrificing compliance.
 image: https://images.unsplash.com/photo-1638202993928-7267aad84c31?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
@@ -21,7 +21,7 @@ metadata:
 
 ## TL;DR
 
-A nurse schedule generator automates roster creation by processing staff availability, shift rules, and compliance requirements to produce a publishable schedule. Free generators handle basic patterns; hospital-grade tools add overtime compliance, callout coverage, and audit trails. Critical access hospitals spending 8–12 hours/week on manual scheduling can reduce this to 1–2 hours with the right tool, but the tool needs to understand healthcare rules, not just shift patterns.
+A nurse schedule generator automates roster creation by processing staff availability, shift rules, and compliance requirements to produce a publishable schedule. Free generators handle basic patterns; hospital-grade tools add overtime compliance, callout coverage, and audit trails. Critical access hospitals spending 8-12 hours/week on manual scheduling can reduce this to 1-2 hours with the right tool, but the tool needs to understand healthcare rules, not just shift patterns.
 
 ## What Is a Nurse Schedule Generator?
 
@@ -29,7 +29,7 @@ A nurse schedule generator is a tool, software, spreadsheet, or service, that ta
 
 The category spans a wide range. At the simple end: an Excel template with formulas that assigns shifts based on availability data you enter manually. At the sophisticated end: an AI-assisted service that generates multiple draft schedule options (balanced, fair-rotation, overtime-minimized), enforces Texas overtime rules automatically, and produces a callout coverage shortlist when a nurse is unavailable.
 
-For critical access hospitals currently spending 8–12 hours per week on manual scheduling at a $50/hr loaded rate, $26,000 per year in misallocated nurse manager time, the right generator can reclaim most of that time.
+For critical access hospitals currently spending 8-12 hours per week on manual scheduling at a $50/hr loaded rate, $26,000 per year in misallocated nurse manager time, the right generator can reclaim most of that time.
 
 ## How Do Free Nurse Schedule Generators Work, and What Do They Miss?
 
@@ -41,7 +41,7 @@ What free generators almost universally miss for hospital use:
 
 **Certification-aware assignment.** A generator that doesn't know that Nurse A is ICU-certified and Nurse B is not will happily assign Nurse B to the ICU. At a critical access hospital, this isn't just an inefficiency, it's a compliance issue.
 
-**Callout coverage logic.** Free generators build the schedule; they don't help you cover it when someone calls out. The 2–3 hour manual phone tree problem remains completely unsolved.
+**Callout coverage logic.** Free generators build the schedule; they don't help you cover it when someone calls out. The 2-3 hour manual phone tree problem remains completely unsolved.
 
 **Audit trail.** CMS Conditions of Participation for CAHs (§485.635) require accurate, reviewable staffing records. A free generator produces a printable schedule; it doesn't log who changed what and when.
 
@@ -55,11 +55,11 @@ A reliable nurse schedule generator for a critical access hospital needs to unde
 
 **Texas compliance.** Under [FLSA](https://www.dol.gov/agencies/whd/flsa) and [Texas Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm), overtime rules apply to all healthcare employers. A generator that doesn't track hours against the 40-hour weekly threshold and alert before the schedule publishes is creating compliance risk, not reducing it.
 
-**Clinical certification matching.** In a 25-bed CAH, the roster is small enough that certification gaps are frequent, there may be only 2–3 nurses certified for a particular unit on any given shift. The generator must know which nurses can cover which units and enforce this constraint automatically.
+**Clinical certification matching.** In a 25-bed CAH, the roster is small enough that certification gaps are frequent, there may be only 2-3 nurses certified for a particular unit on any given shift. The generator must know which nurses can cover which units and enforce this constraint automatically.
 
 **Fairness distribution.** Manual scheduling defaults to convenience: the nurse manager calls whoever is most likely to say yes. Over time, reliable nurses accumulate disproportionate overtime and undesirable shifts, driving the turnover that costs an average of $52,350 per RN departure ([NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf)). A generator that tracks fairness measures, weekend assignments, night shifts, holiday coverage, prevents this pattern from forming.
 
-**Multiple draft options.** No single scheduling algorithm produces the right answer for every situation. A useful generator produces 2–3 draft options (e.g., cost-minimized, fair-rotation, coverage-maximized) and lets the nurse manager choose. This preserves clinical judgment while eliminating the mechanical work.
+**Multiple draft options.** No single scheduling algorithm produces the right answer for every situation. A useful generator produces 2-3 draft options (e.g., cost-minimized, fair-rotation, coverage-maximized) and lets the nurse manager choose. This preserves clinical judgment while eliminating the mechanical work.
 
 ## When Should a CAH Move Beyond a Generator to a Managed Service?
 
@@ -67,7 +67,7 @@ A generator, even a good one, still requires someone to operate it: enter the ro
 
 At a critical access hospital, the nurse manager is typically also scheduling, handling callouts, tracking overtime, covering charge duties, and often providing direct patient care. A generator that automates schedule creation still leaves callout coverage, overtime monitoring, and compliance documentation as manual tasks.
 
-A managed scheduling service handles all of it. Rather than giving the nurse manager a better tool, a service does the scheduling work, draft generation, callout coverage lists, overtime monitoring, audit trail maintenance, and delivers a ready-to-approve output. The nurse manager reviews the draft schedule, approves changes, and acts on callout coverage recommendations. The 8–12 hours per week drops to 1–2 hours.
+A managed scheduling service handles all of it. Rather than giving the nurse manager a better tool, a service does the scheduling work, draft generation, callout coverage lists, overtime monitoring, audit trail maintenance, and delivers a ready-to-approve output. The nurse manager reviews the draft schedule, approves changes, and acts on callout coverage recommendations. The 8-12 hours per week drops to 1-2 hours.
 
 The distinction matters for CAHs specifically because the staffing constraint isn't just time, it's the absence of a dedicated person to operate scheduling software.
 
@@ -95,7 +95,7 @@ Free generators handle basic shift distribution but typically miss hospital-grad
 
 **Q: How much time can a nurse schedule generator save?**
 
-Manual nurse scheduling at a critical access hospital takes 8–12 hours per week. A generator that handles schedule creation reduces this to 2–4 hours. A managed scheduling service that also handles callout coverage and compliance documentation can reduce it to 1–2 hours.
+Manual nurse scheduling at a critical access hospital takes 8-12 hours per week. A generator that handles schedule creation reduces this to 2-4 hours. A managed scheduling service that also handles callout coverage and compliance documentation can reduce it to 1-2 hours.
 
 **Q: Does a nurse schedule generator handle callout coverage?**
 
@@ -111,7 +111,7 @@ Texas CAH nurse scheduling must comply with FLSA overtime rules (1.5× for hours
 - Free tools miss hospital-grade requirements: overtime compliance, certification matching, callout coverage, CMS audit trail
 - A reliable hospital-grade generator needs Texas compliance, certification-aware assignment, fairness tracking, and multiple draft options
 - A managed scheduling service goes beyond generation, it delivers ready-to-approve drafts, replacement lists, and compliance documentation
-- CAH nurse managers currently spend 8–12 hours/week on scheduling; a managed service reduces this to 1–2 hours by removing operational burden, not just automating schedule building
+- CAH nurse managers currently spend 8-12 hours/week on scheduling; a managed service reduces this to 1-2 hours by removing operational burden, not just automating schedule building
 
 ---
 

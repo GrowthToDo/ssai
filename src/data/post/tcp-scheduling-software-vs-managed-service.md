@@ -9,7 +9,7 @@ excerpt: >
   and operates. A managed scheduling service runs the scheduling function for you. For a
   critical access hospital with no dedicated scheduling staff, the operating model difference
   matters more than the feature list.
-image: https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1604480131833-5d7aea770e1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software

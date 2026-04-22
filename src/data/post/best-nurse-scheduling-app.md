@@ -10,7 +10,7 @@ excerpt: >
   credential enforcement, CMS documentation, and FLSA healthcare overtime logic. This
   guide reviews the 8 best nurse scheduling apps for small and Critical Access Hospitals,
   with honest assessments of what each one actually handles.
-image: https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1687966208029-2ffe095ad14a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-app

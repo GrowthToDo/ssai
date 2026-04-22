@@ -21,7 +21,7 @@ Nurse rostering is the process of managing and assigning nursing staff to shifts
 
 ## How Nurse Rostering Works in a Critical Access Hospital?
 
-At a critical access hospital with 10–20 nursing staff, rostering is a continuous process, not a one-time activity. The roster is effectively the master record of everyone available to work, full-time staff, part-time staff, and per diem nurses, along with the constraints and credentials that govern how each person can be assigned.
+At a critical access hospital with 10-20 nursing staff, rostering is a continuous process, not a one-time activity. The roster is effectively the master record of everyone available to work, full-time staff, part-time staff, and per diem nurses, along with the constraints and credentials that govern how each person can be assigned.
 
 A functioning roster at a CAH typically tracks:
 
@@ -41,7 +41,7 @@ The distinction matters in practice even if the terms overlap in conversation.
 
 **Rostering** is about managing the staff list and assignment history over time. It answers questions like: Who is on our team? What can each person do? How much have they worked relative to their peers? Are their credentials current? Is our per diem pool large enough to cover anticipated gaps?
 
-**Scheduling** is about building the specific shift timetable for a defined period, typically the next 4–6 weeks. It answers questions like: Who works the day shift on Tuesday the 14th? Who is on call Friday night? Who covers the charge nurse role on the weekend?
+**Scheduling** is about building the specific shift timetable for a defined period, typically the next 4-6 weeks. It answers questions like: Who works the day shift on Tuesday the 14th? Who is on call Friday night? Who covers the charge nurse role on the weekend?
 
 Scheduling depends on the roster. You cannot build a valid schedule without knowing who is available, what they are qualified to do, and what constraints apply to their assignments. In practice, nurse managers at CAHs often blur the two activities, updating the roster and building the schedule happen in the same spreadsheet session, sometimes simultaneously.
 

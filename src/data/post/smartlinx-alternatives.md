@@ -10,7 +10,7 @@ excerpt: >
   IT support most small hospitals do not have, and per-user pricing compounds quickly at rosters
   under 50. This guide reviews the five best SmartLinx alternatives for hospitals ready to right-size
   their scheduling solution.
-image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1607368386669-d940ce438fba?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

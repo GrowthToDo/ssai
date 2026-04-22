@@ -9,7 +9,7 @@ excerpt: >
   most consequential gap if coverage fails. CAHs must have an RN on duty or on call
   at all times under CMS §485.635. Here's how to build a night shift nurse schedule
   that sustains coverage without burning out your most reliable nurses.
-image: https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1593362417299-e0c94018e1b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - night-shift
@@ -27,7 +27,7 @@ Critical access hospitals must maintain RN coverage around the clock, an unfille
 
 Critical access hospitals must have a registered nurse on duty or on call at all times. This requirement comes from [CMS Conditions of Participation §485.635(c)(4)](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals), which specifies that CAHs must provide 24-hour emergency care services with an RN available immediately. An uncovered night shift isn't just a staffing gap, it's a CMS survey finding.
 
-For a 25-bed CAH with 15–25 nurses on staff, maintaining night coverage requires deliberate schedule design. There are only a limited number of nurses who can or will work nights, and without tracking who has worked recent night shifts, managers default to the same 3–4 nurses, until those nurses stop accepting.
+For a 25-bed CAH with 15-25 nurses on staff, maintaining night coverage requires deliberate schedule design. There are only a limited number of nurses who can or will work nights, and without tracking who has worked recent night shifts, managers default to the same 3-4 nurses, until those nurses stop accepting.
 
 The compliance requirement creates urgency: night shift gaps can't be papered over. But the sustainability requirement matters just as much. An RN who is on call every third night eventually becomes an RN who resigns.
 
@@ -39,7 +39,7 @@ Night shift presents a triple constraint: health effects, lifestyle disruption, 
 
 **Lifestyle disruption.** Nurses with family responsibilities, caregiving obligations, or second jobs are difficult to schedule for nights. At a rural CAH where the entire nursing staff may live within a 15-mile radius, a community of nurses with similar life circumstances means night availability is structurally limited.
 
-**Small roster amplification.** A large hospital has enough nurses that night shift burden distributes across a broad pool. At a 25-bed CAH with 18 nurses, removing the nurses who genuinely can't work nights (health, family, per-diem limits) may leave 5–7 who can. If 2–3 of those carry most of the burden, voluntary turnover among that group is a near-term certainty.
+**Small roster amplification.** A large hospital has enough nurses that night shift burden distributes across a broad pool. At a 25-bed CAH with 18 nurses, removing the nurses who genuinely can't work nights (health, family, per-diem limits) may leave 5-7 who can. If 2-3 of those carry most of the burden, voluntary turnover among that group is a near-term certainty.
 
 The [NSI 2024 National Health Care Retention Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf) puts average RN replacement cost at $52,350. For a CAH, losing two night-capable nurses in the same quarter is an operational emergency.
 
@@ -73,7 +73,7 @@ SimpleScheduleAI is a managed scheduling service that builds night coverage cons
 
 When a night shift nurse calls out, the replacement list is generated from night-eligible, available staff, not pulled from whoever is easiest to reach.
 
-One honest limitation: the quality of night coverage scheduling depends on the size of the night-eligible pool. If a CAH has only 4–5 nurses who can work nights, the system will flag coverage risk accurately but can't create nurse availability that doesn't exist. We're transparent about this during onboarding.
+One honest limitation: the quality of night coverage scheduling depends on the size of the night-eligible pool. If a CAH has only 4-5 nurses who can work nights, the system will flag coverage risk accurately but can't create nurse availability that doesn't exist. We're transparent about this during onboarding.
 
 [See how the scheduling process works →](/how-it-works)
 
@@ -93,7 +93,7 @@ Track night shift assignments per nurse over rolling 6-week periods. Set maximum
 
 **Q: What happens if a night shift nurse calls out at 3 AM?**
 
-At most CAHs: the charge nurse or manager runs a manual phone tree for 1–3 hours, often ending in mandatory overtime for a day-shift nurse. With a replacement shortlist, the process is: check the list, call the top-ranked night-eligible available nurse. Typically resolved in under 20 minutes.
+At most CAHs: the charge nurse or manager runs a manual phone tree for 1-3 hours, often ending in mandatory overtime for a day-shift nurse. With a replacement shortlist, the process is: check the list, call the top-ranked night-eligible available nurse. Typically resolved in under 20 minutes.
 
 ## Key Takeaways
 

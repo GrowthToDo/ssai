@@ -9,7 +9,7 @@ excerpt: >
   messy, the staff re-training window is short, and the vendor support you relied on
   disappears the moment you give notice. This guide covers what actually happens during
   a UKG migration at a 25-bed Critical Access Hospital, and what to do differently.
-image: https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1676288507025-e0f001be9926?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling

@@ -20,8 +20,6 @@ tags:
   - buyers-guide
 metadata:
   canonical: 'https://simplescheduleai.com/blog/ukg-alternatives-small-hospitals'
-  imageAlt: 'Nurse in scrubs using a tablet at a hospital nursing station'
-  imageReviewed: true
 ---
 
 ## Key Takeaways

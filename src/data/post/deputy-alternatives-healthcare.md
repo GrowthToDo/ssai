@@ -140,14 +140,14 @@ Here is how the alternatives compare before we go deeper:
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Deskless workforce, mobile teams</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$99/month</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free-$99/month</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, single location</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Free–$80/month</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free-$80/month</td>
       </tr>
     </tbody>
   </table>

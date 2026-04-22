@@ -23,7 +23,7 @@ metadata:
 
 The nurse scheduling problem that consumes the most management time at critical access
 hospitals isn't building the schedule, it's responding to callouts. Manual phone trees
-take 2–3 hours on average and frequently end at agency rates of 2–3× standard pay
+take 2-3 hours on average and frequently end at agency rates of 2-3× standard pay
 ([AONL](https://www.aonl.org/resources/nursing-workforce-now)). A ranked callout
 shortlist, built on current availability, overtime exposure, and fairness data, can
 reduce that response time to under 30 minutes while cutting agency dependency.
@@ -39,7 +39,7 @@ or charge nurse starts calling people they know. They call the nurses who usuall
 yes first. Those nurses are often already at or near overtime. The first several calls
 go unanswered. By the 45-minute mark, the manager is calling the staffing agency
 because no solution has materialized. The agency confirms availability and the shift
-is covered at 2–3× the standard hourly rate.
+is covered at 2-3× the standard hourly rate.
 
 This process fails for three compounding reasons. First, the contact list is usually
 static, a typed roster that doesn't reflect who is actually available, who has
@@ -59,7 +59,7 @@ nurses within target hours).
 
 At a 25-bed [critical access hospital scheduling](/critical-access-hospital-scheduling)
 operation, where a single nurse manager may be handling callouts across multiple units,
-this process repeats several times per month, each instance consuming 1–3 hours of
+this process repeats several times per month, each instance consuming 1-3 hours of
 management time and frequently producing a costly outcome.
 
 ## What is a replacement call list, and how do you build one?
@@ -83,7 +83,7 @@ not an improvised decision made under pressure.
 4. Among remaining eligible nurses, sort by: (a) who has the fewest hours in the
    current pay period, then (b) who has covered the fewest weekend/night callouts in
    the past 30 days.
-5. Keep the list to 6–8 names. Below that, you're into low-probability contacts.
+5. Keep the list to 6-8 names. Below that, you're into low-probability contacts.
 
 This can be built in a spreadsheet with a few filter columns. The limitation is that
 it requires the spreadsheet to be updated after every callout, a step that is
@@ -143,7 +143,7 @@ one from scratch.
 shift details into the scheduling system. The system queries its current data: who is
 scheduled and therefore unavailable, who has approved leave, who is approaching
 overtime, who has covered the most recent callouts. It applies the ranking criteria
-and produces a prioritized list of 6–8 nurses with their contact information.
+and produces a prioritized list of 6-8 nurses with their contact information.
 
 The manager starts calling from the list. Each contact attempt is logged, called,
 reached, declined, accepted, so there's a documented record of the coverage process.
@@ -160,7 +160,7 @@ will see degraded shortlist accuracy.
 
 **What this means for response time:** CAH nurse managers who have implemented
 systematic replacement lists, whether software-generated or manually maintained -
-report typical callout response times of 20–45 minutes versus 90–180 minutes for
+report typical callout response times of 20-45 minutes versus 90-180 minutes for
 unstructured phone trees. For a shift starting in 2 hours, the difference between
 45 minutes and 3 hours determines whether you can avoid the agency call entirely.
 
@@ -209,14 +209,14 @@ calls.
 ## Key Takeaways
 
 - Manual phone trees fail because they rely on static contact lists, no priority logic,
-  and unstructured escalation, producing 2–3 hour resolution times and frequent agency
-  use at 2–3× standard rates
+  and unstructured escalation, producing 2-3 hour resolution times and frequent agency
+  use at 2-3× standard rates
 - A replacement call list pre-sorts eligible nurses by availability, hours worked,
   and callout history so the manager starts from an intelligent list, not a blank one
 - The five ranking criteria are: availability, current-period hours, callout history,
   credential match, and shift type preference, weight them in that order
-- Software-generated shortlists reduce callout response time from 90–180 minutes to
-  20–45 minutes in facilities that have implemented them systematically
+- Software-generated shortlists reduce callout response time from 90-180 minutes to
+  20-45 minutes in facilities that have implemented them systematically
 - Every callout coverage event should be logged for CMS compliance documentation
   purposes, regardless of whether a shortlist or manual process was used
 

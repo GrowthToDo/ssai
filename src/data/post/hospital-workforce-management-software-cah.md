@@ -6,7 +6,7 @@ author: 'Pradeep Pandey'
 title: 'Hospital Workforce Software: What CAHs Should Know'
 excerpt: >
   Hospital workforce management software combines scheduling, time tracking, and labor analytics into a single platform, but full WFM platforms are built for health systems, not 25-bed critical access hospitals. This guide explains what CAHs actually need and how to avoid paying for enterprise complexity you will never use.
-image: https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1691935152684-ea61702ec5c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - workforce-management-software

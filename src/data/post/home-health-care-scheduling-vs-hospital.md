@@ -9,7 +9,7 @@ excerpt: >
   geographic territories, a fundamentally different challenge from hospital shift
   scheduling. Understanding these differences helps healthcare organizations choose the
   right scheduling tool for their specific setting.
-image: https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1749065312519-1902cb8431ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - home-health-scheduling

@@ -51,7 +51,7 @@ For a 20-bed critical access hospital, the integration exists in principle but t
 
 For most critical access hospitals: no. Enterprise WFM platforms are built for organizations with dedicated HR, payroll, and workforce analytics staff to operate them. Implementing UKG or Workday at a 25-bed CAH would require more implementation and training investment than the hospital can absorb, and the ongoing system administration would fall on whoever is least busy, typically the nurse manager who already has too much to do.
 
-The practical question for a CAH administrator is not "which WFM platform should we buy?" but rather "which piece of the WFM problem is causing the most pain right now?" At most CAHs, the answer is scheduling: it consumes 8–12 hours of the nurse manager's time per week, produces recurring overtime surprises, and creates compliance documentation gaps that surface during surveys.
+The practical question for a CAH administrator is not "which WFM platform should we buy?" but rather "which piece of the WFM problem is causing the most pain right now?" At most CAHs, the answer is scheduling: it consumes 8-12 hours of the nurse manager's time per week, produces recurring overtime surprises, and creates compliance documentation gaps that surface during surveys.
 
 Addressing the scheduling component specifically, whether through a dedicated scheduling tool or a managed service, delivers most of the benefit of WFM without the overhead of a full platform implementation. Credential tracking, payroll integration, and advanced analytics can follow once the scheduling foundation is stable.
 

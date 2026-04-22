@@ -9,7 +9,7 @@ excerpt: >
   Business Associate Agreement. For a CAH storing patient assignment data or census-linked
   staffing records in scheduling software, that is a compliance exposure surveyors and
   breach investigators look for specifically.
-image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: https://images.unsplash.com/photo-1517271023557-20d13b255594?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Compliance
 tags:
   - nurse-scheduling

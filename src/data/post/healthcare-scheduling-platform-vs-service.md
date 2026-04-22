@@ -9,7 +9,7 @@ excerpt: >
   scheduling service handles that work for you. For small hospitals without IT departments
   or dedicated scheduling staff, the operating model difference determines how much burden
   actually decreases.
-image: https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1603807008857-ad66b70431aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - healthcare-scheduling-platform

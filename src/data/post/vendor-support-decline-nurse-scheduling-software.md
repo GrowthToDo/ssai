@@ -9,7 +9,7 @@ excerpt: >
   feature set. It is what happens six months after go-live. For critical access
   hospitals with no IT staff, the vendor relationship after contract signature
   matters more than the demo.
-image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
+image: 'https://images.unsplash.com/photo-1646082275130-347d10885c5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
 category: Healthcare Operations
 tags:
   - nurse-scheduling

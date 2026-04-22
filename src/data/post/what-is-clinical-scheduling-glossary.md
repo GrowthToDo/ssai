@@ -24,7 +24,7 @@ Clinical scheduling is the process of assigning clinical, patient-facing, staff 
 
 At a 25-bed critical access hospital, clinical scheduling encompasses every patient-facing role that must be covered for the facility to operate safely and legally.
 
-The core scheduling challenge at a CAH is continuous coverage with a thin team. A typical CAH nursing staff of 12–18 nurses must cover three shifts per day, 365 days per year, roughly 1,095 shift-days annually. With no float pool from a larger health system to draw on, every gap in the schedule must be resolved locally, whether through per diem staff, shift swaps, or on-call activation.
+The core scheduling challenge at a CAH is continuous coverage with a thin team. A typical CAH nursing staff of 12-18 nurses must cover three shifts per day, 365 days per year, roughly 1,095 shift-days annually. With no float pool from a larger health system to draw on, every gap in the schedule must be resolved locally, whether through per diem staff, shift swaps, or on-call activation.
 
 Clinical scheduling at a CAH typically covers:
 
@@ -55,7 +55,7 @@ Most clinical scheduling at small and mid-size hospitals is still done in Micros
 
 The tradeoffs are also real: spreadsheets do not track overtime accumulation in real time, do not alert managers to coverage gaps before they become critical, and do not maintain an auditable compliance record without significant manual effort.
 
-Dedicated nurse scheduling software products (Shift Admin, NurseGrid, and similar) address these gaps with varying degrees of complexity and implementation overhead. For CAHs, the most common barrier to adoption is not cost, it is time. A nurse manager who spends 8–10 hours per week managing a scheduling spreadsheet does not have bandwidth to implement and learn a new system, even if that system would ultimately save time.
+Dedicated nurse scheduling software products (Shift Admin, NurseGrid, and similar) address these gaps with varying degrees of complexity and implementation overhead. For CAHs, the most common barrier to adoption is not cost, it is time. A nurse manager who spends 8-10 hours per week managing a scheduling spreadsheet does not have bandwidth to implement and learn a new system, even if that system would ultimately save time.
 
 A managed service approach, where an external team handles schedule-building, callout coverage, and compliance tracking on behalf of the nurse manager, addresses the time barrier directly, without requiring the hospital to add administrative staff or train existing staff on new software.
 

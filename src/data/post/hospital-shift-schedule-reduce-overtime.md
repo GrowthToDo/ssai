@@ -21,7 +21,7 @@ metadata:
 
 ## TL;DR
 
-Most hospital shift schedule overtime is preventable, it's typically visible in the schedule before it happens but isn't caught because managers review coverage, not hours-to-date. The three root causes: untracked cumulative hours at schedule build time, callout replacement that ignores overtime proximity, and fairness patterns that concentrate coverage burden on a small nurse pool. Addressing all three with proactive scheduling practices can reduce overtime costs by 15–30%.
+Most hospital shift schedule overtime is preventable, it's typically visible in the schedule before it happens but isn't caught because managers review coverage, not hours-to-date. The three root causes: untracked cumulative hours at schedule build time, callout replacement that ignores overtime proximity, and fairness patterns that concentrate coverage burden on a small nurse pool. Addressing all three with proactive scheduling practices can reduce overtime costs by 15-30%.
 
 ## What Are the Three Root Causes of Overtime in Hospital Shift Schedules?
 
@@ -35,13 +35,13 @@ This is preventable: a simple per-nurse weekly hours check before publishing the
 
 **Root Cause 2: Callout replacement that ignores overtime proximity.**
 
-When a nurse calls out, the manager contacts whoever is most likely to accept the shift, often the same 3–4 reliable nurses. If those nurses are at 36–38 hours in the workweek, accepting a 12-hour callout shift takes them to 48–50 hours, significant overtime. The callout is covered, but at 1.5× cost.
+When a nurse calls out, the manager contacts whoever is most likely to accept the shift, often the same 3-4 reliable nurses. If those nurses are at 36-38 hours in the workweek, accepting a 12-hour callout shift takes them to 48-50 hours, significant overtime. The callout is covered, but at 1.5× cost.
 
 A replacement call list that explicitly deprioritizes nurses near the 40-hour threshold reduces overtime from callout coverage significantly. The replacement might be a per-diem nurse or a full-time nurse earlier in their week, with the same or lower total labor cost.
 
 **Root Cause 3: Fairness patterns that concentrate burden on a small pool.**
 
-When the same 3–4 nurses absorb most callouts and most undesirable shifts, two things happen: those nurses accumulate overtime disproportionately, and they burn out faster. According to the [NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf), average RN turnover costs $52,350 per departure. The nurses who accumulate the most overtime are often the most reliable and the hardest to replace.
+When the same 3-4 nurses absorb most callouts and most undesirable shifts, two things happen: those nurses accumulate overtime disproportionately, and they burn out faster. According to the [NSI 2024 Report](https://www.nsinursingsolutions.com/Documents/Library/NSI_National_Health_Care_Retention_Report.pdf), average RN turnover costs $52,350 per departure. The nurses who accumulate the most overtime are often the most reliable and the hardest to replace.
 
 Distributing callout coverage and undesirable shift assignments equitably across the full nursing staff prevents overtime concentration and reduces turnover risk simultaneously.
 
@@ -65,17 +65,17 @@ When replacing a callout, the first question should be: which available, qualifi
 
 ## How Do You Audit a Current Hospital Shift Schedule for Overtime Risk?
 
-A schedule audit for overtime risk takes 30–45 minutes and identifies most preventable overtime before it happens:
+A schedule audit for overtime risk takes 30-45 minutes and identifies most preventable overtime before it happens:
 
-**Step 1: Calculate scheduled hours per nurse per workweek.** Pull each nurse's shifts from the current schedule. Sum total scheduled hours per workweek (Mon–Sun or Sun–Sat, consistent with your FLSA workweek definition). Flag anyone at 38+ hours as "overtime risk."
+**Step 1: Calculate scheduled hours per nurse per workweek.** Pull each nurse's shifts from the current schedule. Sum total scheduled hours per workweek (Mon-Sun or Sun-Sat, consistent with your FLSA workweek definition). Flag anyone at 38+ hours as "overtime risk."
 
 **Step 2: Identify callout vulnerability.** For each "overtime risk" nurse, what would happen if they were called to cover a callout? A nurse at 38 scheduled hours who covers a 12-hour callout is automatically at 14 hours of overtime. Map this risk explicitly.
 
-**Step 3: Review callout coverage patterns from the last 2–3 cycles.** Which nurses covered the most callouts? What were their total hours in those weeks? This identifies whether your callout replacement process is generating overtime systematically.
+**Step 3: Review callout coverage patterns from the last 2-3 cycles.** Which nurses covered the most callouts? What were their total hours in those weeks? This identifies whether your callout replacement process is generating overtime systematically.
 
-**Step 4: Check fairness distribution.** Who worked the most weekends, nights, and holidays in the last 6 weeks? If 3–4 nurses appear disproportionately, that's the concentration pattern that precedes overtime accumulation and burnout.
+**Step 4: Check fairness distribution.** Who worked the most weekends, nights, and holidays in the last 6 weeks? If 3-4 nurses appear disproportionately, that's the concentration pattern that precedes overtime accumulation and burnout.
 
-**Step 5: Calculate overtime cost.** Total overtime hours from payroll (last 2–3 cycles) × the overtime rate differential (0.5 × base hourly rate for every overtime hour) = the preventable cost pool. For most CAHs, this is $15,000–$40,000 annually.
+**Step 5: Calculate overtime cost.** Total overtime hours from payroll (last 2-3 cycles) × the overtime rate differential (0.5 × base hourly rate for every overtime hour) = the preventable cost pool. For most CAHs, this is $15,000-$40,000 annually.
 
 ## How Does Scheduling Software Compare to Manual Overtime Management?
 
@@ -89,7 +89,7 @@ Scheduling software with overtime tracking is proactive: the system flags overti
 | Basic scheduling software | After schedule publishes                         | Partially, mid-cycle adjustments possible    |
 | AI-assisted scheduling    | During schedule building and callout replacement | Yes, most overtime prevented before incurred |
 
-The financial case: reducing overtime by 15% at a 25-bed CAH with $400K annual nursing labor typically represents $9,000–$15,000 in annual savings. This exceeds the cost of most scheduling software at this scale.
+The financial case: reducing overtime by 15% at a 25-bed CAH with $400K annual nursing labor typically represents $9,000-$15,000 in annual savings. This exceeds the cost of most scheduling software at this scale.
 
 ## How SimpleScheduleAI Helps?
 
@@ -109,7 +109,7 @@ The three root causes: scheduled overtime that isn't caught during schedule buil
 
 **Q: How much can better scheduling reduce hospital overtime?**
 
-Critical access hospitals with proactive scheduling practices typically reduce overtime by 15–30% within 2–3 scheduling cycles. The reduction is largest when the primary cause is scheduled overtime (caught before publishing) rather than emergency coverage overtime from genuine short-staffing.
+Critical access hospitals with proactive scheduling practices typically reduce overtime by 15-30% within 2-3 scheduling cycles. The reduction is largest when the primary cause is scheduled overtime (caught before publishing) rather than emergency coverage overtime from genuine short-staffing.
 
 **Q: Does scheduling software prevent overtime?**
 
@@ -123,7 +123,7 @@ If the only available, certified nurses are all near the 40-hour threshold, over
 
 - Most hospital shift schedule overtime is preventable, it's typically schedulable in advance but not caught before publishing
 - Three root causes: untracked cumulative hours at schedule build time, callout replacement that ignores overtime proximity, fairness concentration on a small nurse pool
-- Proactive scheduling practices (weekly hours check pre-publish, overtime-aware callout ranking) reduce overtime by 15–30% without reducing coverage
+- Proactive scheduling practices (weekly hours check pre-publish, overtime-aware callout ranking) reduce overtime by 15-30% without reducing coverage
 - Scheduling software that monitors proactively outperforms manual payroll-based monitoring, prevention vs. reporting
 - Genuine short-staffing overtime (not enough nurses for required coverage) is a hiring problem, not a scheduling problem, distinguish between the two
 

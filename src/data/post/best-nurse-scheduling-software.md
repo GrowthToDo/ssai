@@ -9,7 +9,7 @@ excerpt: >
   the most feature-rich platform, it is the one your team will actually use and that fits
   your compliance requirements. This guide compares five real options on cost, CAH fit, and
   implementation burden.
-image: https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1606738132449-e3590ddb6793?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software

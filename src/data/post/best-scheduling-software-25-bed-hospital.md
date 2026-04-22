@@ -9,7 +9,7 @@ excerpt: >
   Most scheduling software is designed for larger systems and creates more overhead than it eliminates.
   This guide compares five platforms specifically on fit for 25-bed hospitals where every scheduling
   hour costs clinical capacity.
-image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
