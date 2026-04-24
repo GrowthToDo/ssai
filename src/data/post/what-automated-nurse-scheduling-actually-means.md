@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-09T00:00:00Z
+publishDate: 2026-06-23T00:00:00Z
 updateDate: 2026-05-09T00:00:00Z
 author: 'Pradeep Pandey'
 title: "What 'Automated Nurse Scheduling' Actually Means (And What It Doesn't)"

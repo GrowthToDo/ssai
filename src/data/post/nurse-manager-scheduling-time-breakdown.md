@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-08-11T00:00:00Z
+publishDate: 2026-08-26T00:00:00Z
 updateDate: 2026-08-11T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Where the 10 Hours of Nurse Manager Scheduling Time Actually Goes'

@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-30T00:00:00Z
+publishDate: 2026-05-14T00:00:00Z
 updateDate: 2026-05-30T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Managed Scheduling vs. Software: Which Fits Your Hospital?'

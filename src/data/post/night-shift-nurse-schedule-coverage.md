@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2099-01-01T00:00:00Z
+publishDate: 2026-08-20T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Night Shift Nurse Schedule: How to Ensure Adequate Coverage'

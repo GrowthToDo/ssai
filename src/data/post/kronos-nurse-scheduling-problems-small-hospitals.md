@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-06-13T00:00:00Z
+publishDate: 2026-07-17T00:00:00Z
 updateDate: 2026-06-13T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'What Nurses Actually Say About Kronos (And Why CAH Administrators Should Know It Before Buying)'

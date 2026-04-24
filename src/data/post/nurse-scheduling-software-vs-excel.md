@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-16T00:00:00Z
+publishDate: 2026-06-17T00:00:00Z
 updateDate: 2026-05-16T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Nurse Scheduling Software vs. Excel: When to Make the Switch'

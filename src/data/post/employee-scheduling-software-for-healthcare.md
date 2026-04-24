@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-06-04T00:00:00Z
+publishDate: 2026-07-11T00:00:00Z
 updateDate: 2026-06-04T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Healthcare vs. Generic Scheduling: Why It Matters'

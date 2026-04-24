@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-04-28T00:00:00Z
+publishDate: 2026-04-26T00:00:00Z
 updateDate: 2026-04-28T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best ShiftWizard Alternatives for Small Hospitals'

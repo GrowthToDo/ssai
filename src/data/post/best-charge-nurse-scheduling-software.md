@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-07-21T00:00:00Z
+publishDate: 2026-06-07T00:00:00Z
 updateDate: 2026-07-21T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Charge Nurse Scheduling Software: A 2026 Guide'

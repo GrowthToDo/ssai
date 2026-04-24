@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-02T00:00:00Z
+publishDate: 2026-06-21T00:00:00Z
 updateDate: 2026-05-02T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'CMS Payroll-Based Journal Reporting: What Your Scheduling Software Should Handle Automatically'

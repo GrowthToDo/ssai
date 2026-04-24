@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-04-23T00:00:00Z
+publishDate: 2026-08-08T00:00:00Z
 updateDate: 2026-04-23T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Island Shifts: Why One Shift Between Days Off Hurts'

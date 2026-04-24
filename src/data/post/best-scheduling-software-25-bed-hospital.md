@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-07T00:00:00Z
+publishDate: 2026-05-28T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Scheduling Software for 25-Bed Hospitals in 2026'

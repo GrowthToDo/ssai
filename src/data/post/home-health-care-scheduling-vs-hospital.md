@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-06-13T00:00:00Z
+publishDate: 2026-08-12T00:00:00Z
 updateDate: 2026-06-13T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Home Health vs. Hospital Scheduling: Key Differences'

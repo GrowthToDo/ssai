@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-07-16T00:00:00Z
+publishDate: 2026-08-16T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Hospital Staff Scheduling: What CAHs Need vs. Enterprise'

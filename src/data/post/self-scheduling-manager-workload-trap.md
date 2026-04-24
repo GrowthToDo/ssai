@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-08-25T00:00:00Z
+publishDate: 2026-09-01T00:00:00Z
 updateDate: 2026-08-25T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'The Self-Scheduling Workload Trap: Why Giving Nurses Control Creates More Work for the Manager'

@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-07-18T00:00:00Z
+publishDate: 2026-07-07T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Hospital Staffing Software: 7 Features That CAHs Need'
