@@ -1,7 +1,7 @@
 ---
-draft: true
-publishDate: 2026-04-23T00:00:00Z
-updateDate: 2026-04-23T00:00:00Z
+draft: false
+publishDate: 2026-04-24T00:00:00Z
+updateDate: 2026-04-24T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Aladtec Alternatives for Hospital Scheduling'
 excerpt: >
