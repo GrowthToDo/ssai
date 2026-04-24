@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-04-25T00:00:00Z
+publishDate: 2026-06-19T00:00:00Z
 updateDate: 2026-04-25T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Is Your Nurse Scheduling Software HIPAA Compliant? (Most Generic Tools Are Not)'

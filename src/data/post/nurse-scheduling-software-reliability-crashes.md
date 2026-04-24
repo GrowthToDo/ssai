@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-07-21T00:00:00Z
+publishDate: 2026-07-31T00:00:00Z
 updateDate: 2026-07-21T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'What Happens When Your Scheduling Software Crashes Before a Holiday Weekend'

@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-26T00:00:00Z
+publishDate: 2026-05-20T00:00:00Z
 updateDate: 2026-05-26T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'AI vs. Traditional Nurse Scheduling: Key Differences'

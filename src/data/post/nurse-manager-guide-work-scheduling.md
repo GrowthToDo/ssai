@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2099-01-01T00:00:00Z
+publishDate: 2026-08-24T00:00:00Z
 updateDate: 2026-04-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: "A Nurse Manager's Complete Guide to Work Scheduling"

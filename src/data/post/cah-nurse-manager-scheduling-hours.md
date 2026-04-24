@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-05T00:00:00Z
+publishDate: 2026-07-29T00:00:00Z
 updateDate: 2026-05-05T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'How Many Hours Should a Nurse Manager Spend Scheduling?'

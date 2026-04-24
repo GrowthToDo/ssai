@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-26T00:00:00Z
+publishDate: 2026-07-09T00:00:00Z
 updateDate: 2026-05-26T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Medical Scheduling Software: A Small Hospital Guide'

@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-08-18T00:00:00Z
+publishDate: 2026-08-28T00:00:00Z
 updateDate: 2026-08-18T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'How to Reduce Nurse Overtime at a Critical Access Hospital'

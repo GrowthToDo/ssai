@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-07-14T00:00:00Z
+publishDate: 2026-08-04T00:00:00Z
 updateDate: 2026-07-14T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'What Happens to Your Hospital When Your Scheduling Software Vendor Gets Acquired'

@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-09-01T00:00:00Z
+publishDate: 2026-09-03T00:00:00Z
 updateDate: 2026-09-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Building a Fair Nurse Rotation at a Small Hospital'

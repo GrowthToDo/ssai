@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-26T00:00:00Z
+publishDate: 2026-06-01T00:00:00Z
 updateDate: 2026-05-26T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best ER Nurse Scheduling Software: 2026 Comparison'

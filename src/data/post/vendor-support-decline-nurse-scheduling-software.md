@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-23T00:00:00Z
+publishDate: 2026-06-25T00:00:00Z
 updateDate: 2026-05-23T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Why Scheduling Software Vendors Stop Caring After You Sign the Contract'

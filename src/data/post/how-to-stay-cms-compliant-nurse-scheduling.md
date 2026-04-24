@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-09-08T00:00:00Z
+publishDate: 2026-09-05T00:00:00Z
 updateDate: 2026-09-08T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Staying CMS Compliant with Nurse Scheduling at CAHs'

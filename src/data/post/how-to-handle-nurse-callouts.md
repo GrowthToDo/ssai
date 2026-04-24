@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-08-25T00:00:00Z
+publishDate: 2026-08-30T00:00:00Z
 updateDate: 2026-08-25T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'How to Handle Nurse Callouts at a Critical Access Hospital'

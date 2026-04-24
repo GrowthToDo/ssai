@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-09-01T00:00:00Z
+publishDate: 2026-09-09T00:00:00Z
 updateDate: 2026-09-01T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'The Nurse Scheduling Software With a 100-Employee Minimum (and What to Do if You Have 18 Nurses)'
