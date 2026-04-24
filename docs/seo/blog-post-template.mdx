@@ -58,11 +58,15 @@ TONE RULES — strictly enforced:
 - No unverified claims framed as facts. If you can't link to a source,
   rephrase as an observation.
 
-SVG DIAGRAM RULES:
+DIAGRAM RULES:
 
-- No blank lines inside SVG blocks (MDX parser breaks HTML blocks at blank lines).
-- Every SVG needs role="img" and aria-label attributes.
-- Minimum 3 diagrams for BOFU/how-to, minimum 1 for MOFU/glossary.
+- NEVER use inline SVG in .md blog posts. SVGs have inherent text-overflow and dark mode
+  issues in Markdown files — hardcoded fill colors break dark mode, text nodes overflow bars
+  and get extracted as raw concatenated text by some renderers.
+- Use Tailwind HTML instead: <div> bar charts with percentage widths, <table> for comparisons.
+  Both work in dark mode with dark: variants and never overflow.
+- Every diagram needs a descriptive surrounding heading or caption so it is accessible.
+- Minimum 2 visual elements (tables or div charts) for BOFU/how-to, minimum 1 for MOFU.
   \*/}
 
 {/_ ============================================================
