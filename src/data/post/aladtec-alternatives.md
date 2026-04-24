@@ -36,7 +36,7 @@ metadata:
 
 - [Why Hospitals Switch Away from Aladtec](#why-hospitals-switch-away-from-aladtec)
 - [Quick Comparison: Aladtec vs. The Alternatives](#quick-comparison-aladtec-vs-the-alternatives)
-- [The 6 Best Aladtec Alternatives for Hospital Scheduling](#the-6-best-aladtec-alternatives-for-hospital-scheduling)
+- [What Are the 6 Best Aladtec Alternatives for Hospital Scheduling?](#what-are-the-6-best-aladtec-alternatives-for-hospital-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. TCP Scheduling](#2-tcp-scheduling)
   - [3. SmartLinx](#3-smartlinx)
@@ -46,7 +46,7 @@ metadata:
 - [When to Stay with Aladtec](#when-to-stay-with-aladtec)
 - [How SimpleScheduleAI Compares to Aladtec](#how-simplescheduleai-compares-to-aladtec)
 - [What to Do This Week](#what-to-do-this-week)
-- [Frequently Asked Questions](#frequently-asked-questions)
+- [Frequently Asked Questions About Aladtec Alternatives](#frequently-asked-questions-about-aladtec-alternatives)
 
 Aladtec is one of the most widely used scheduling platforms for emergency services organizations and small healthcare teams. Its 24/7 coverage model, mobile app, and availability tracking are genuinely well-designed. The limitations appear when a hospital tries to use Aladtec as a full-featured nurse scheduling system with healthcare compliance requirements.
 
@@ -58,41 +58,54 @@ Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Switch Away from Aladtec?
 
-<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Top reasons hospital nurse managers cite for switching away from Aladtec">
-  <rect width="800" height="360" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Top Reasons Hospitals Switch Away from Aladtec</text>
-  <text x="400" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Based on hospital scheduling review patterns and user feedback</text>
-
-  <!-- Config burden -->
-  <rect x="60" y="76" width="470" height="34" rx="4" fill="#2563eb"/>
-  <text x="68" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Configuration maintenance burden as staff changes</text>
-  <text x="538" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Most common</text>
-
-  <!-- No CMS docs -->
-  <rect x="60" y="124" width="410" height="34" rx="4" fill="#3b82f6"/>
-  <text x="68" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">No native CMS §485.635 documentation for CAH surveys</text>
-  <text x="478" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- Manual OT check -->
-  <rect x="60" y="172" width="360" height="34" rx="4" fill="#60a5fa"/>
-  <text x="68" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Manual overtime check required during every callout event</text>
-  <text x="428" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- Setup time -->
-  <rect x="60" y="220" width="300" height="34" rx="4" fill="#93c5fd"/>
-  <text x="68" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Initial setup took longer than expected without IT</text>
-  <text x="368" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-
-  <!-- Credential tracking -->
-  <rect x="60" y="268" width="240" height="34" rx="4" fill="#bfdbfe"/>
-  <text x="68" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Credential tracking accuracy degrades over time</text>
-  <text x="308" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-
-  <!-- Support response -->
-  <rect x="60" y="316" width="180" height="34" rx="4" fill="#dbeafe"/>
-  <text x="68" y="338" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Support response time for complex issues</text>
-  <text x="248" y="338" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Less common</text>
-</svg>
+<div class="not-prose my-6 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-6">
+  <p class="font-bold text-slate-900 dark:text-slate-100 text-center mb-1">Top Reasons Hospitals Switch Away from Aladtec</p>
+  <p class="text-slate-500 dark:text-slate-400 text-xs text-center mb-5">Based on hospital scheduling review patterns and user feedback</p>
+  <div class="space-y-4">
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">Configuration maintenance burden as staff changes</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Most common</span>
+      </div>
+      <div class="h-3 bg-blue-600 rounded-full w-full"></div>
+    </div>
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">No native CMS §485.635 documentation for CAH surveys</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Common</span>
+      </div>
+      <div class="h-3 bg-blue-600 rounded-full" style="width: 87%"></div>
+    </div>
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">Manual overtime check required during every callout event</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Common</span>
+      </div>
+      <div class="h-3 bg-blue-600 rounded-full" style="width: 77%"></div>
+    </div>
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">Initial setup took longer than expected without IT</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Moderate</span>
+      </div>
+      <div class="h-3 bg-blue-400 rounded-full" style="width: 64%"></div>
+    </div>
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">Credential tracking accuracy degrades over time</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Moderate</span>
+      </div>
+      <div class="h-3 bg-blue-400 rounded-full" style="width: 51%"></div>
+    </div>
+    <div>
+      <div class="flex justify-between items-baseline mb-1">
+        <span class="text-sm text-slate-800 dark:text-slate-200">Support response time for complex issues</span>
+        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400 ml-4 shrink-0">Less common</span>
+      </div>
+      <div class="h-3 bg-blue-300 rounded-full" style="width: 38%"></div>
+    </div>
+  </div>
+</div>
 
 Reviewer feedback on Capterra and G2 is consistent with these patterns:
 
@@ -179,7 +192,7 @@ The positive reviews for Aladtec are predominantly from fire, EMS, and law enfor
   </table>
 </div>
 
-## What Is the 6 Best Aladtec Alternatives for Hospital Scheduling?
+## What Are the 6 Best Aladtec Alternatives for Hospital Scheduling?
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -208,7 +221,7 @@ Callout replacement generates a ranked shortlist in under two minutes, cross-ref
 - Managed service model means less direct manager control than Aladtec; schedule changes go through the service rather than being adjustable in real time by the manager
 - Not designed for hospitals with complex multi-department or physician scheduling needs beyond nursing
 
-**Verdict:** The strongest alternative for a CAH nurse manager who leaves Aladtec primarily because the configuration and compliance burden has exceeded what one person can manage while also taking clinical shifts. SimpleScheduleAI eliminates those specific pain points by design.
+**Verdict:** The strongest alternative for a CAH nurse manager who leaves Aladtec primarily because the configuration and compliance burden has exceeded what one person can manage while also taking clinical shifts. SimpleScheduleAI eliminates those specific pain points by design. [See how it works](/how-it-works) or explore the [pilot program](/pilot) for CAHs that want to test before committing.
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
@@ -354,73 +367,59 @@ If all four of these conditions apply, the switch cost and learning curve of an 
 
 ## How SimpleScheduleAI Compares to Aladtec?
 
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Feature comparison between Aladtec and SimpleScheduleAI for hospital nurse scheduling">
-  <rect width="800" height="400" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Aladtec vs. SimpleScheduleAI: Hospital Nurse Scheduling</text>
-
-  <!-- Headers -->
-
-<text x="200" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Feature</text>
-<text x="500" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Aladtec</text>
-<text x="700" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">SimpleScheduleAI</text>
-
-  <line x1="40" y1="76" x2="760" y2="76" stroke="#e2e8f0" stroke-width="1"/>
-
-  <!-- Row 1 -->
-
-<text x="60" y="102" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Schedule construction</text>
-<text x="500" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Manager builds, tool assists</text>
-<text x="700" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">3 drafts delivered in 48 hrs</text>
-<line x1="40" y1="114" x2="760" y2="114" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 2 -->
-
-<text x="60" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">CMS §485.635 documentation</text>
-<text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Manual export required</text>
-<text x="700" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Automatic, always current</text>
-<line x1="40" y1="152" x2="760" y2="152" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 3 -->
-
-<text x="60" y="178" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Callout overtime ranking</text>
-<text x="500" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Manual check required</text>
-<text x="700" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Automated, built into shortlist</text>
-<line x1="40" y1="190" x2="760" y2="190" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 4 -->
-
-<text x="60" y="216" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Configuration maintenance</text>
-<text x="500" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Manager/IT responsibility</text>
-<text x="700" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service responsibility</text>
-<line x1="40" y1="228" x2="760" y2="228" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 5 -->
-
-<text x="60" y="254" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Texas overtime compliance</text>
-<text x="500" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Configurable (requires setup)</text>
-<text x="700" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Built in as default</text>
-<line x1="40" y1="266" x2="760" y2="266" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 6 -->
-
-<text x="60" y="292" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Implementation time</text>
-<text x="500" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">4-6 weeks to fully configured</text>
-<text x="700" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Excel upload, days to first draft</text>
-<line x1="40" y1="304" x2="760" y2="304" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 7 -->
-
-<text x="60" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Pricing model</text>
-<text x="500" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">$200-450/month, per roster</text>
-<text x="700" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Not listed, contact for quote</text>
-<line x1="40" y1="342" x2="760" y2="342" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Row 8 -->
-
-<text x="60" y="368" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Manager control</text>
-<text x="500" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Full, direct control</text>
-<text x="700" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">High-level, via draft selection</text>
-</svg>
+<div class="not-prose overflow-x-auto">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Feature</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Aladtec</th>
+        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400 whitespace-nowrap">SimpleScheduleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Schedule construction</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manager builds, tool assists</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">3 drafts delivered in 48 hrs</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual export required</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Automatic, always current</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Callout overtime ranking</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual check required</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Automated, built into shortlist</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Configuration maintenance</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manager/IT responsibility</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Service responsibility</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Texas overtime compliance</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Configurable (requires setup)</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Built in as default</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Implementation time</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-6 weeks to fully configured</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Excel upload, days to first draft</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Pricing model</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">$200-450/month, per roster</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Not listed, contact for quote</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Manager control</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Full, direct control</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">High-level, via draft selection</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 The core tradeoff between Aladtec and SimpleScheduleAI is control versus overhead. Aladtec gives the manager full control over every scheduling decision but requires her to maintain the system that makes those decisions manageable. SimpleScheduleAI delivers the scheduling outputs without the maintenance burden, but the manager selects from drafts rather than building the schedule herself.
 
@@ -434,7 +433,7 @@ For a nurse manager at a 25-bed CAH who takes clinical shifts, the overhead mode
 
 3. **Calculate your current CMS survey prep time.** How long does it take to assemble staffing documentation from Aladtec before a survey? If the answer is more than two hours, that time cost is a quantifiable reason to consider an alternative with automated documentation.
 
-4. **Request a demo of SimpleScheduleAI and explain your current Aladtec setup.** Describe what you have configured in Aladtec, what is not working, and what your CMS survey cycle looks like. Ask how SimpleScheduleAI would handle the same scenarios. Contact via [simplescheduleai.com](/contact).
+4. **Request a demo of SimpleScheduleAI and explain your current Aladtec setup.** Describe what you have configured in Aladtec, what is not working, and what your CMS survey cycle looks like. Ask how SimpleScheduleAI would handle the same scenarios. [See how it works](/how-it-works), start a [pilot program](/pilot), or [contact us](/contact) directly.
 
 5. **If you want to stay on self-serve software, request a SmartLinx evaluation.** SmartLinx requires more implementation investment than Aladtec, but ongoing maintenance is lower once configured because compliance logic is more automated. Alternatively, TCP Scheduling is worth evaluating if you want to stay within the TCP vendor ecosystem and have IT capacity for a longer implementation.
 
@@ -446,7 +445,7 @@ For a nurse manager at a 25-bed CAH who takes clinical shifts, the overhead mode
   <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions About Aladtec Alternatives
 
 **Is SimpleScheduleAI better than Aladtec for a Critical Access Hospital?**
 
