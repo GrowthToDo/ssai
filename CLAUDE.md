@@ -37,6 +37,7 @@ Pages inject page-specific JSON-LD via `<SchemaOrg slot="head" schema={[...]} />
 ## Rules
 
 - **Blog posts:** Always load the `.claude/skills/seo-aeo-simplescheduleai.md` skill before writing or editing blog posts.
+- **No SVG in blog posts:** Never use inline `<svg>` in `.md` post files. Hardcoded SVG fill colors break dark mode and SVG text nodes overflow bars or render as raw concatenated text. Use Tailwind `<div>` bar charts (percentage widths) and `<table>` with `dark:` variants instead.
 - **New blog posts** go in `src/data/post/`. Follow `docs/seo/blog-post-template.mdx` for structure.
 - **Schema:** Use `SchemaOrg.astro` — never inline JSON-LD manually in page files.
 - **Styling:** Tailwind only. No custom CSS unless Tailwind cannot achieve it.
