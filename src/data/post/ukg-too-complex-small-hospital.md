@@ -47,48 +47,44 @@ One data point worth knowing before any internal conversation about UKG: on Redd
 
 ## Why Does UKG Fail at Small Hospital Scale?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="Four reasons UKG creates problems at a 25-bed Critical Access Hospital">
-  <title>Why UKG Fails at CAH Scale: Four Structural Reasons</title>
-  <rect width="720" height="290" fill="#f8fafc" rx="10"/>
-  <text x="360" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Four Reasons UKG Creates Problems at a 25-Bed CAH</text>
-  <rect x="30" y="48" width="153" height="220" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <rect x="30" y="48" width="153" height="38" fill="#dc2626" rx="8"/>
-  <rect x="30" y="78" width="153" height="8" fill="#dc2626"/>
-  <text x="107" y="70" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">IT Requirement</text>
-  <text x="107" y="106" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Server config, SSO setup,</text>
-  <text x="107" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">EHR and payroll integration.</text>
-  <text x="107" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">CAHs typically have a</text>
-  <text x="107" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">part-time IT contractor.</text>
-  <text x="107" y="172" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Not equipped for this.</text>
-  <rect x="193" y="48" width="153" height="220" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <rect x="193" y="48" width="153" height="38" fill="#d97706" rx="8"/>
-  <rect x="193" y="78" width="153" height="8" fill="#d97706"/>
-  <text x="270" y="70" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Implementation Time</text>
-  <text x="270" y="106" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">6-12 months from contract</text>
-  <text x="270" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">to first live schedule.</text>
-  <text x="270" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">A CAH in acute scheduling</text>
-  <text x="270" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">distress cannot wait</text>
-  <text x="270" y="172" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">6 months.</text>
-  <rect x="356" y="48" width="153" height="220" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <rect x="356" y="48" width="153" height="38" fill="#7c3aed" rx="8"/>
-  <rect x="356" y="78" width="153" height="8" fill="#7c3aed"/>
-  <text x="433" y="70" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Implementation Cost</text>
-  <text x="433" y="106" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">$150,000-$500,000</text>
-  <text x="433" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">before licensing fees.</text>
-  <text x="433" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">ROI works at a 500-bed</text>
-  <text x="433" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">system. Rarely at a</text>
-  <text x="433" y="172" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">25-bed CAH.</text>
-  <rect x="519" y="48" width="171" height="220" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <rect x="519" y="48" width="171" height="38" fill="#1e40af" rx="8"/>
-  <rect x="519" y="78" width="171" height="8" fill="#1e40af"/>
-  <text x="605" y="70" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Ongoing Overhead</text>
-  <text x="605" y="106" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">OT rules, unit requirements,</text>
-  <text x="605" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">credential requirements all require</text>
-  <text x="605" y="134" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">ongoing configuration.</text>
-  <text x="605" y="158" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Large hospitals have a</text>
-  <text x="605" y="172" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">WFM analyst. CAHs</text>
-  <text x="605" y="186" font-family="system-ui,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">have the nurse manager.</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-600 dark:bg-red-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">IT Requirement</p>
+    </div>
+    <div class="px-3 py-3 space-y-2">
+      <p class="text-xs text-slate-700 dark:text-slate-300">Server config, SSO setup, EHR and payroll integration.</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">CAHs typically have a part-time IT contractor. Not equipped for this.</p>
+    </div>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-amber-600 dark:bg-amber-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">Implementation Time</p>
+    </div>
+    <div class="px-3 py-3 space-y-2">
+      <p class="text-xs text-slate-700 dark:text-slate-300">6–12 months from contract to first live schedule.</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">A CAH in acute scheduling distress cannot wait 6 months.</p>
+    </div>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-violet-600 dark:bg-violet-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">Implementation Cost</p>
+    </div>
+    <div class="px-3 py-3 space-y-2">
+      <p class="text-xs text-slate-700 dark:text-slate-300">$150,000–$500,000 before licensing fees.</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">ROI works at a 500-bed system. Rarely at a 25-bed CAH.</p>
+    </div>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-blue-700 dark:bg-blue-800 px-3 py-2">
+      <p class="font-bold text-white text-xs">Ongoing Overhead</p>
+    </div>
+    <div class="px-3 py-3 space-y-2">
+      <p class="text-xs text-slate-700 dark:text-slate-300">OT rules, unit and credential requirements all need ongoing configuration.</p>
+      <p class="text-xs text-slate-500 dark:text-slate-400">Large hospitals have a WFM analyst. CAHs have the nurse manager.</p>
+    </div>
+  </div>
+</div>
 
 **The IT requirement.** UKG implementations require server-side configuration, SSO setup, integration with EHR and payroll systems, and ongoing technical maintenance. Expert reviews consistently describe the need for "advanced IT/HRIS expertise" to implement and run correctly. A CAH with a part-time IT contractor and no dedicated HRIS staff is not set up to do this.
 
@@ -143,81 +139,56 @@ The scheduling requirements for a CAH are not simple. They are just different fr
 
 These requirements can be met by purpose-built tools at a fraction of UKG's cost and complexity.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" role="img" aria-label="CAH scheduling alternatives comparison: Aladtec, SmartLinx, SimpleScheduleAI vs UKG">
-  <title>CAH-Scale Alternatives to UKG: Side-by-Side Comparison</title>
-  <rect width="720" height="290" fill="#f8fafc" rx="10"/>
-  <text x="360" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">CAH-Scale Alternatives to UKG</text>
-  <!-- Headers -->
-  <rect x="30" y="45" width="100" height="30" fill="#374151" rx="4"/>
-  <text x="80" y="63" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Dimension</text>
-  <rect x="136" y="45" width="133" height="30" fill="#7c3aed" rx="4"/>
-  <text x="203" y="63" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Aladtec</text>
-  <rect x="275" y="45" width="133" height="30" fill="#ea580c" rx="4"/>
-  <text x="342" y="63" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">SmartLinx</text>
-  <rect x="414" y="45" width="133" height="30" fill="#1e40af" rx="4"/>
-  <text x="481" y="63" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">SimpleScheduleAI</text>
-  <rect x="553" y="45" width="137" height="30" fill="#374151" rx="4"/>
-  <text x="622" y="63" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">UKG</text>
-  <!-- Row 1 -->
-  <rect x="30" y="80" width="100" height="32" fill="#f1f5f9" rx="3"/>
-  <text x="80" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle" font-weight="600">Launch time</text>
-  <rect x="136" y="80" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="203" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">2-4 weeks</text>
-  <rect x="275" y="80" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="342" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">3-4 months</text>
-  <rect x="414" y="80" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="481" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">48 hours</text>
-  <rect x="553" y="80" width="137" height="32" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="622" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">6-12 months</text>
-  <!-- Row 2 -->
-  <rect x="30" y="117" width="100" height="32" fill="#f1f5f9" rx="3"/>
-  <text x="80" y="137" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle" font-weight="600">IT required</text>
-  <rect x="136" y="117" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="203" y="137" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Minimal</text>
-  <rect x="275" y="117" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="342" y="137" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Moderate</text>
-  <rect x="414" y="117" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="481" y="137" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">None</text>
-  <rect x="553" y="117" width="137" height="32" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="622" y="137" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Dedicated IT team</text>
-  <!-- Row 3 -->
-  <rect x="30" y="154" width="100" height="32" fill="#f1f5f9" rx="3"/>
-  <text x="80" y="174" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle" font-weight="600">CMS docs</text>
-  <rect x="136" y="154" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="203" y="174" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Manual config</text>
-  <rect x="275" y="154" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="342" y="174" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Configurable</text>
-  <rect x="414" y="154" width="133" height="32" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="481" y="174" font-family="system-ui,sans-serif" font-size="10" fill="#14532d" text-anchor="middle">Auto-generated</text>
-  <rect x="553" y="154" width="137" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="622" y="174" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Configurable</text>
-  <!-- Row 4 -->
-  <rect x="30" y="191" width="100" height="32" fill="#f1f5f9" rx="3"/>
-  <text x="80" y="211" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle" font-weight="600">Best for</text>
-  <rect x="136" y="191" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="203" y="207" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Multi-dept,</text>
-  <text x="203" y="219" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">self-serve CAH</text>
-  <rect x="275" y="191" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="342" y="207" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Mid-size hospital</text>
-  <text x="342" y="219" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">with IT support</text>
-  <rect x="414" y="191" width="133" height="32" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="481" y="207" font-family="system-ui,sans-serif" font-size="9" fill="#14532d" text-anchor="middle">CAH, no IT,</text>
-  <text x="481" y="219" font-family="system-ui,sans-serif" font-size="9" fill="#14532d" text-anchor="middle">NM on clinical shifts</text>
-  <rect x="553" y="191" width="137" height="32" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="622" y="207" font-family="system-ui,sans-serif" font-size="9" fill="#991b1b" text-anchor="middle">Large health systems</text>
-  <text x="622" y="219" font-family="system-ui,sans-serif" font-size="9" fill="#991b1b" text-anchor="middle">(500+ staff)</text>
-  <!-- Row 5 pricing -->
-  <rect x="30" y="228" width="100" height="32" fill="#f1f5f9" rx="3"/>
-  <text x="80" y="248" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle" font-weight="600">Pricing</text>
-  <rect x="136" y="228" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="203" y="248" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Contact for pricing</text>
-  <rect x="275" y="228" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="342" y="248" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Contact for pricing</text>
-  <rect x="414" y="228" width="133" height="32" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="481" y="248" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Contact for pricing</text>
-  <rect x="553" y="228" width="137" height="32" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="622" y="248" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Enterprise pricing</text>
-</svg>
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr>
+        <th class="py-3 px-3 text-left font-semibold bg-slate-700 dark:bg-slate-600 text-white border border-slate-600 dark:border-slate-500">Dimension</th>
+        <th class="py-3 px-3 text-left font-semibold bg-violet-600 dark:bg-violet-700 text-white border border-slate-300 dark:border-slate-600">Aladtec</th>
+        <th class="py-3 px-3 text-left font-semibold bg-orange-600 dark:bg-orange-700 text-white border border-slate-300 dark:border-slate-600">SmartLinx</th>
+        <th class="py-3 px-3 text-left font-semibold bg-blue-700 dark:bg-blue-800 text-white border border-slate-300 dark:border-slate-600">SimpleScheduleAI</th>
+        <th class="py-3 px-3 text-left font-semibold bg-slate-700 dark:bg-slate-600 text-white border border-slate-300 dark:border-slate-600">UKG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Launch time</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">2–4 weeks</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">3–4 months</td>
+        <td class="py-2 px-3 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">48 hours</td>
+        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">6–12 months</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">IT required</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Minimal</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Moderate</td>
+        <td class="py-2 px-3 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">None</td>
+        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">Dedicated IT team</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">CMS docs</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Manual config</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Configurable</td>
+        <td class="py-2 px-3 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">Auto-generated</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Configurable</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Best for</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Multi-dept, self-serve CAH</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Mid-size hospital with IT support</td>
+        <td class="py-2 px-3 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">CAH, no IT, NM on clinical shifts</td>
+        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">Large health systems (500+ staff)</td>
+      </tr>
+      <tr>
+        <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Pricing</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Contact for pricing</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Contact for pricing</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Contact for pricing</td>
+        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">Enterprise pricing</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ### Aladtec (TCP Scheduling)
 

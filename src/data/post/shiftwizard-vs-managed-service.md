@@ -138,26 +138,28 @@ The nurse manager retains final authority over every scheduling decision. The up
 
 ## What Are the Known ShiftWizard Weaknesses?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Five documented ShiftWizard weaknesses from G2 and Capterra reviews">
-  <title>Documented ShiftWizard Weaknesses (G2 and Capterra)</title>
-  <rect width="720" height="180" fill="#fff7ed" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Documented ShiftWizard Weaknesses (G2 and Capterra Reviews)</text>
-  <rect x="30" y="44" width="320" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="50" y="65" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Mobile App Gaps</text>
-  <text x="50" y="82" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Can't show full dept schedules or extended date ranges</text>
-  <rect x="370" y="44" width="320" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="390" y="65" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Shift Swap Reliability</text>
-  <text x="390" y="82" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Unreliable and confusing; unclear if swap was confirmed</text>
-  <rect x="30" y="106" width="210" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="50" y="127" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Dept Visibility</text>
-  <text x="50" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Staff see only their own position</text>
-  <rect x="255" y="106" width="210" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="275" y="127" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Onboarding Support</text>
-  <text x="275" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Implementation tedious; support insufficient</text>
-  <rect x="480" y="106" width="210" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="500" y="127" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#991b1b">Payroll Integration</text>
-  <text x="500" y="144" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Paycom integration reliability problems cited</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
+    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Mobile App Gaps</p>
+    <p class="text-xs text-slate-600 dark:text-slate-400">Can't show full dept schedules or extended date ranges</p>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
+    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Shift Swap Reliability</p>
+    <p class="text-xs text-slate-600 dark:text-slate-400">Unreliable and confusing; unclear if swap was confirmed</p>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
+    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Dept Visibility</p>
+    <p class="text-xs text-slate-600 dark:text-slate-400">Staff see only their own position</p>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
+    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Onboarding Support</p>
+    <p class="text-xs text-slate-600 dark:text-slate-400">Implementation tedious; support insufficient</p>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
+    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Payroll Integration</p>
+    <p class="text-xs text-slate-600 dark:text-slate-400">Paycom integration reliability problems cited</p>
+  </div>
+</div>
 
 These are issues with ShiftWizard specifically, separate from the self-serve vs. managed service question. If you evaluate ShiftWizard, ask the vendor directly how they have addressed each of these. For a broader comparison of how ShiftWizard stacks up against other options, see the [best nurse scheduling software guide for 2026](/blog/best-nurse-scheduling-software-2026).
 

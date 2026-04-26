@@ -72,31 +72,34 @@ None of this requires clinical expertise. All of it is being done by your most e
 
 For a deeper look at the specific compliance and coverage requirements driving these problems, see our guide to [critical access hospital scheduling](/critical-access-hospital-scheduling) and what purpose-built [nurse scheduling software for CAHs](/nurse-scheduling-software) actually needs to handle.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" role="img" aria-label="The $26,000 shadow salary breakdown for a Critical Access Hospital nurse manager">
-  <title>The $26,000 Shadow Salary Breakdown</title>
-  <!-- Background -->
-  <rect width="700" height="260" fill="#f8fafc" rx="12"/>
-  <!-- Title -->
-  <text x="350" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">The $26,000 Shadow Salary - Where the Hours Go</text>
-  <!-- Bar labels -->
-  <text x="24" y="72" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Data entry &amp; versions</text>
-  <text x="24" y="112" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Callout coordination</text>
-  <text x="24" y="152" font-family="system-ui, sans-serif" font-size="12" fill="#475569">PRN reconciliation</text>
-  <text x="24" y="192" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Edits &amp; conflict resolution</text>
-  <!-- Bars -->
-  <rect x="230" y="56" width="196" height="22" fill="#3b82f6" rx="4"/>
-  <rect x="230" y="96" width="147" height="22" fill="#6366f1" rx="4"/>
-  <rect x="230" y="136" width="98" height="22" fill="#8b5cf6" rx="4"/>
-  <rect x="230" y="176" width="98" height="22" fill="#a78bfa" rx="4"/>
-  <!-- Bar values -->
-  <text x="432" y="72" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#1e40af">3-4 hrs/week</text>
-  <text x="383" y="112" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#3730a3">2-3 hrs/week</text>
-  <text x="334" y="152" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#5b21b6">1-2 hrs/week</text>
-  <text x="334" y="192" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#6d28d9">1-2 hrs/week</text>
-  <!-- Total line -->
-  <line x1="230" y1="220" x2="580" y2="220" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="350" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0f172a">Total: ~10 hrs/week x $50/hr x 52 weeks = $26,000/year</text>
-</svg>
+<div class="not-prose my-8 space-y-3">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">The $26,000 Shadow Salary: Where the Hours Go</p>
+  <div class="flex items-center gap-3">
+    <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Data entry &amp; versions</span>
+    <div class="bg-blue-600 dark:bg-blue-500 rounded h-6 flex items-center px-3" style="width:100%">
+      <span class="text-xs font-semibold text-white whitespace-nowrap">3–4 hrs/week</span>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Callout coordination</span>
+    <div class="bg-indigo-500 dark:bg-indigo-500 rounded h-6 flex items-center px-3" style="width:75%">
+      <span class="text-xs font-semibold text-white whitespace-nowrap">2–3 hrs/week</span>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">PRN reconciliation</span>
+    <div class="bg-violet-500 dark:bg-violet-500 rounded h-6 flex items-center px-3" style="width:50%">
+      <span class="text-xs font-semibold text-white whitespace-nowrap">1–2 hrs/week</span>
+    </div>
+  </div>
+  <div class="flex items-center gap-3">
+    <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Edits &amp; conflict resolution</span>
+    <div class="bg-purple-400 dark:bg-purple-400 rounded h-6 flex items-center px-3" style="width:50%">
+      <span class="text-xs font-semibold text-white whitespace-nowrap">1–2 hrs/week</span>
+    </div>
+  </div>
+  <p class="text-sm font-bold text-slate-800 dark:text-slate-200 pt-2 border-t border-slate-200 dark:border-slate-700">Total: ~10 hrs/week × $50/hr × 52 weeks = $26,000/year</p>
+</div>
 
 > "I spend more time fighting with spreadsheets than I do with my actual nursing
 > team. It's exhausting."
@@ -149,42 +152,27 @@ shows a different nurse covered that shift, you have a documentation gap with no
 trail to explain it. The risk is not theoretical - it is a function of how many manual
 edits accumulate over a 6-week schedule cycle.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" role="img" aria-label="Version drift diagram showing how three scheduling sources diverge and create CMS compliance risk">
-  <title>Version Drift: Three Sources, Three Different Schedules</title>
-  <rect width="700" height="220" fill="#f8fafc" rx="12"/>
-  <text x="350" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Version Drift: One Schedule, Three Conflicting Sources</text>
-  <!-- Source boxes -->
-  <rect x="40" y="50" width="160" height="70" fill="#dbeafe" rx="8"/>
-  <text x="120" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e40af">Unit Whiteboard</text>
-  <text x="120" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">Nurse A on Day shift</text>
-  <text x="120" y="113" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">Mon Apr 7</text>
-
-  <rect x="270" y="50" width="160" height="70" fill="#fef9c3" rx="8"/>
-  <text x="350" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#854d0e">Excel Master File</text>
-  <text x="350" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#854d0e">Nurse B on Day shift</text>
-  <text x="350" y="113" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#854d0e">Mon Apr 7</text>
-
-  <rect x="500" y="50" width="160" height="70" fill="#fce7f3" rx="8"/>
-  <text x="580" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#9d174d">Staff Portal PDF</text>
-  <text x="580" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9d174d">Nurse A on Day shift</text>
-  <text x="580" y="113" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9d174d">(old version)</text>
-
-  <!-- Arrows down -->
-  <line x1="120" y1="120" x2="320" y2="165" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <line x1="350" y1="120" x2="350" y2="160" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <line x1="580" y1="120" x2="385" y2="165" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
-
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
-    </marker>
-  </defs>
-
-  <!-- CMS box -->
-  <rect x="240" y="163" width="220" height="42" fill="#fee2e2" rx="8"/>
-  <text x="350" y="181" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#991b1b">CMS Surveyor: Discrepancy Found</text>
-  <text x="350" y="197" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#991b1b">§485.635 documentation deficiency</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Version Drift: One Schedule, Three Conflicting Sources (Mon Apr 7)</p>
+  <div class="grid grid-cols-3 gap-3 mb-3">
+    <div class="rounded-lg bg-blue-100 dark:bg-blue-950 border border-blue-300 dark:border-blue-700 p-4 text-center">
+      <p class="font-semibold text-blue-800 dark:text-blue-300 text-sm">Unit Whiteboard</p>
+      <p class="text-xs text-blue-700 dark:text-blue-400 mt-1">Nurse A on Day shift</p>
+    </div>
+    <div class="rounded-lg bg-yellow-100 dark:bg-yellow-950 border border-yellow-300 dark:border-yellow-700 p-4 text-center">
+      <p class="font-semibold text-yellow-800 dark:text-yellow-300 text-sm">Excel Master File</p>
+      <p class="text-xs text-yellow-700 dark:text-yellow-400 mt-1">Nurse B on Day shift</p>
+    </div>
+    <div class="rounded-lg bg-pink-100 dark:bg-pink-950 border border-pink-300 dark:border-pink-700 p-4 text-center">
+      <p class="font-semibold text-pink-800 dark:text-pink-300 text-sm">Staff Portal PDF</p>
+      <p class="text-xs text-pink-700 dark:text-pink-400 mt-1">Nurse A (old version)</p>
+    </div>
+  </div>
+  <div class="rounded-lg bg-red-100 dark:bg-red-950 border border-red-300 dark:border-red-700 p-4 text-center">
+    <p class="font-bold text-red-800 dark:text-red-300 text-sm">CMS Surveyor: Discrepancy Found</p>
+    <p class="text-xs text-red-700 dark:text-red-400 mt-1">§485.635 documentation deficiency</p>
+  </div>
+</div>
 
 ## Why Do Your Most Reliable Nurses Burn Out First?
 
@@ -261,42 +249,33 @@ surface this during onboarding.
 
 [See how the scheduling process works →](/how-it-works)
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" role="img" aria-label="Summary of five scheduling friction points and their impact on Critical Access Hospitals">
-  <title>5 CAH Scheduling Friction Points and Their Impact</title>
-  <rect width="700" height="200" fill="#f8fafc" rx="12"/>
-  <text x="350" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">5 Friction Points Driving the Scheduling Crisis</text>
-  <!-- Cards -->
-  <!-- 1 -->
-  <rect x="16" y="42" width="122" height="140" fill="#eff6ff" rx="8"/>
-  <text x="77" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Shadow Salary</text>
-  <text x="77" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#1d4ed8">$26K</text>
-  <text x="77" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#3b82f6">per year in</text>
-  <text x="77" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#3b82f6">leadership time</text>
-  <!-- 2 -->
-  <rect x="152" y="42" width="122" height="140" fill="#f0fdf4" rx="8"/>
-  <text x="213" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#15803d">Agency Callouts</text>
-  <text x="213" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#15803d">2-3x</text>
-  <text x="213" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#16a34a">standard hourly</text>
-  <text x="213" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#16a34a">rate premium</text>
-  <!-- 3 -->
-  <rect x="288" y="42" width="122" height="140" fill="#fff7ed" rx="8"/>
-  <text x="349" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#c2410c">Version Drift</text>
-  <text x="349" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#c2410c">§485</text>
-  <text x="349" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#ea580c">CMS compliance</text>
-  <text x="349" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#ea580c">deficiency risk</text>
-  <!-- 4 -->
-  <rect x="424" y="42" width="122" height="140" fill="#fdf4ff" rx="8"/>
-  <text x="485" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7e22ce">Nurse Burnout</text>
-  <text x="485" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#7e22ce">$52K</text>
-  <text x="485" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9333ea">avg cost per RN</text>
-  <text x="485" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9333ea">departure (NSI 2024)</text>
-  <!-- 5 -->
-  <rect x="560" y="42" width="122" height="140" fill="#fff1f2" rx="8"/>
-  <text x="621" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#be123c">PRN Overhead</text>
-  <text x="621" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#be123c">16-18</text>
-  <text x="621" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#e11d48">extra hrs/year</text>
-  <text x="621" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#e11d48">in availability mgmt</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+  <div class="rounded-lg bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 p-4 text-center">
+    <p class="font-bold text-blue-800 dark:text-blue-300 text-xs mb-1">Shadow Salary</p>
+    <p class="text-3xl font-extrabold text-blue-700 dark:text-blue-400">$26K</p>
+    <p class="text-xs text-blue-600 dark:text-blue-500 mt-1">per year in leadership time</p>
+  </div>
+  <div class="rounded-lg bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 p-4 text-center">
+    <p class="font-bold text-green-800 dark:text-green-300 text-xs mb-1">Agency Callouts</p>
+    <p class="text-3xl font-extrabold text-green-700 dark:text-green-400">2–3x</p>
+    <p class="text-xs text-green-600 dark:text-green-500 mt-1">standard hourly rate premium</p>
+  </div>
+  <div class="rounded-lg bg-orange-50 dark:bg-orange-950 border border-orange-200 dark:border-orange-800 p-4 text-center">
+    <p class="font-bold text-orange-800 dark:text-orange-300 text-xs mb-1">Version Drift</p>
+    <p class="text-3xl font-extrabold text-orange-700 dark:text-orange-400">§485</p>
+    <p class="text-xs text-orange-600 dark:text-orange-500 mt-1">CMS compliance deficiency risk</p>
+  </div>
+  <div class="rounded-lg bg-purple-50 dark:bg-purple-950 border border-purple-200 dark:border-purple-800 p-4 text-center">
+    <p class="font-bold text-purple-800 dark:text-purple-300 text-xs mb-1">Nurse Burnout</p>
+    <p class="text-3xl font-extrabold text-purple-700 dark:text-purple-400">$52K</p>
+    <p class="text-xs text-purple-600 dark:text-purple-500 mt-1">avg cost per RN departure (NSI 2024)</p>
+  </div>
+  <div class="rounded-lg bg-rose-50 dark:bg-rose-950 border border-rose-200 dark:border-rose-800 p-4 text-center">
+    <p class="font-bold text-rose-800 dark:text-rose-300 text-xs mb-1">PRN Overhead</p>
+    <p class="text-3xl font-extrabold text-rose-700 dark:text-rose-400">16–18</p>
+    <p class="text-xs text-rose-600 dark:text-rose-500 mt-1">extra hrs/year in availability mgmt</p>
+  </div>
+</div>
 
 ## Frequently Asked Questions
 

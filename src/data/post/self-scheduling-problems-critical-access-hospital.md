@@ -49,39 +49,32 @@ A 25-bed hospital running 24/7 nursing coverage needs a predictable distribution
 
 [AONL nurse manager workforce data](https://www.aonl.org/resources/nursing-workforce-now) identifies scheduling inequity as a primary driver of charge nurse and staff nurse burnout at small facilities. The mechanism is consistent: reliable nurses say yes more than others, and over time, yes becomes the expectation. Once that expectation is set, the nurses carrying the burden either get used to it or they leave.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="How self-scheduling breaks down at a Critical Access Hospital when guardrails are missing">
-  <title>Why Self-Scheduling Breaks Down at a CAH</title>
-  <rect width="720" height="220" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Self-Scheduling Without Guardrails: The Predictable Breakdown</text>
-  <rect x="20" y="44" width="156" height="150" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="20" y="44" width="156" height="36" fill="#2563eb" rx="8"/>
-  <rect x="20" y="68" width="156" height="12" fill="#2563eb"/>
-  <text x="98" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Window Opens</text>
-  <text x="98" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Fast movers claim</text>
-  <text x="98" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">all day shifts</text>
-  <text x="98" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">within the first hour</text>
-  <rect x="192" y="44" width="156" height="150" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="192" y="44" width="156" height="36" fill="#7c3aed" rx="8"/>
-  <rect x="192" y="68" width="156" height="12" fill="#7c3aed"/>
-  <text x="270" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Coverage Gaps Appear</text>
-  <text x="270" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Nights, weekends,</text>
-  <text x="270" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">and holidays sit</text>
-  <text x="270" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">empty for days</text>
-  <rect x="364" y="44" width="156" height="150" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="364" y="44" width="156" height="36" fill="#dc2626" rx="8"/>
-  <rect x="364" y="68" width="156" height="12" fill="#dc2626"/>
-  <text x="442" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Manager Patches</text>
-  <text x="442" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Calls the same</text>
-  <text x="442" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">reliable nurses</text>
-  <text x="442" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">who said yes last time</text>
-  <rect x="536" y="44" width="164" height="150" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <rect x="536" y="44" width="164" height="36" fill="#b91c1c" rx="8"/>
-  <rect x="536" y="68" width="164" height="12" fill="#b91c1c"/>
-  <text x="618" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Burnout Builds</text>
-  <text x="618" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Burden concentrates</text>
-  <text x="618" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">on 2-3 nurses until</text>
-  <text x="618" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">they stop saying yes</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-blue-600 dark:bg-blue-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">1. Window Opens</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Fast movers claim all day shifts within the first hour</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-violet-600 dark:bg-violet-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">2. Coverage Gaps Appear</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Nights, weekends, and holidays sit empty for days</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-600 dark:bg-red-700 px-3 py-2">
+      <p class="font-bold text-white text-xs">3. Manager Patches</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Calls the same reliable nurses who said yes last time</p>
+  </div>
+  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-800 dark:bg-red-900 px-3 py-2">
+      <p class="font-bold text-white text-xs">4. Burnout Builds</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Burden concentrates on 2–3 nurses until they stop saying yes</p>
+  </div>
+</div>
 
 ## What Does Selfish Scheduling Actually Look Like?
 
@@ -121,27 +114,39 @@ Cross-cycle tracking is the most operationally significant missing piece in self
 
 The data to build this system already exists in every hospital's timesheets. The barrier is aggregation: pulling that data, organizing it by nurse, and applying it to the next scheduling cycle takes several hours that most scheduling managers do not have between cycles.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Cross-cycle fairness tracking showing how weekend and holiday load accumulates unevenly without a tracking system">
-  <title>Cross-Cycle Fairness Tracking: What Gets Measured vs. What Gets Ignored</title>
-  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Holiday and Weekend Load Without Cross-Cycle Tracking</text>
-  <text x="180" y="52" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#374151" text-anchor="middle">Nurse A (says yes)</text>
-  <text x="540" y="52" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#374151" text-anchor="middle">Nurse B (advocates loudly)</text>
-  <rect x="30" y="60" width="300" height="28" fill="#dc2626" rx="4"/>
-  <text x="180" y="78" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="white" text-anchor="middle">Cycle 1: 3 weekends, Thanksgiving</text>
-  <rect x="390" y="60" width="300" height="28" fill="#bbf7d0" rx="4"/>
-  <text x="540" y="78" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#166534" text-anchor="middle">Cycle 1: 1 weekend, no holidays</text>
-  <rect x="30" y="96" width="300" height="28" fill="#dc2626" rx="4"/>
-  <text x="180" y="114" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="white" text-anchor="middle">Cycle 2: 3 weekends, Christmas</text>
-  <rect x="390" y="96" width="300" height="28" fill="#bbf7d0" rx="4"/>
-  <text x="540" y="114" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#166534" text-anchor="middle">Cycle 2: 1 weekend, no holidays</text>
-  <rect x="30" y="132" width="300" height="28" fill="#dc2626" rx="4"/>
-  <text x="180" y="150" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="white" text-anchor="middle">Cycle 3: 4 weekends, New Year's</text>
-  <rect x="390" y="132" width="300" height="28" fill="#bbf7d0" rx="4"/>
-  <text x="540" y="150" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#166534" text-anchor="middle">Cycle 3: 1 weekend, no holidays</text>
-  <text x="180" y="182" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle" font-weight="600">Resignation letter by month 9</text>
-  <text x="540" y="182" font-family="system-ui,sans-serif" font-size="10" fill="#166534" text-anchor="middle" font-weight="600">No awareness of the imbalance</text>
-</svg>
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr>
+        <th class="py-3 px-4 text-left font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Cycle</th>
+        <th class="py-3 px-4 text-left font-semibold bg-red-100 dark:bg-red-950 text-red-800 dark:text-red-300 border border-slate-200 dark:border-slate-700">Nurse A (says yes)</th>
+        <th class="py-3 px-4 text-left font-semibold bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">Nurse B (advocates loudly)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium">Cycle 1</td>
+        <td class="py-3 px-4 bg-red-600 dark:bg-red-700 text-white font-semibold border border-slate-200 dark:border-slate-700">3 weekends, Thanksgiving</td>
+        <td class="py-3 px-4 bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">1 weekend, no holidays</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium">Cycle 2</td>
+        <td class="py-3 px-4 bg-red-600 dark:bg-red-700 text-white font-semibold border border-slate-200 dark:border-slate-700">3 weekends, Christmas</td>
+        <td class="py-3 px-4 bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">1 weekend, no holidays</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium">Cycle 3</td>
+        <td class="py-3 px-4 bg-red-600 dark:bg-red-700 text-white font-semibold border border-slate-200 dark:border-slate-700">4 weekends, New Year's</td>
+        <td class="py-3 px-4 bg-green-100 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">1 weekend, no holidays</td>
+      </tr>
+      <tr>
+        <td class="py-3 px-4 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium">Outcome</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 font-semibold border border-slate-200 dark:border-slate-700">Resignation letter by month 9</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 font-semibold border border-slate-200 dark:border-slate-700">No awareness of the imbalance</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## How Does SimpleScheduleAI Address Self-Scheduling Inequity?
 
