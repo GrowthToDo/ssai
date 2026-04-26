@@ -54,36 +54,29 @@ Here is how the alternatives compare:
 
 ## Why Hospitals Look for OnShift Alternatives?
 
-<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Top reasons hospital nurse managers look for OnShift alternatives">
-  <rect width="800" height="340" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Top Reasons Hospitals Look for OnShift Alternatives</text>
-  <text x="400" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Based on hospital scheduling review patterns and user feedback</text>
-
-  <!-- Callout speed -->
-  <rect x="60" y="76" width="480" height="34" rx="4" fill="#2563eb"/>
-  <text x="68" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Open-shift posting too slow for acute care callout events</text>
-  <text x="548" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Most common</text>
-
-  <!-- No credential filtering -->
-  <rect x="60" y="124" width="420" height="34" rx="4" fill="#3b82f6"/>
-  <text x="68" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">No credential filtering in shift pickup (any nurse can accept)</text>
-  <text x="488" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- No CMS docs -->
-  <rect x="60" y="172" width="360" height="34" rx="4" fill="#60a5fa"/>
-  <text x="68" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">No CMS §485.635 compliance documentation for CAH surveys</text>
-  <text x="428" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- Post-Workday support -->
-  <rect x="60" y="220" width="300" height="34" rx="4" fill="#93c5fd"/>
-  <text x="68" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Reduced support quality for smaller accounts post-acquisition</text>
-  <text x="368" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-
-  <!-- LTC mismatch -->
-  <rect x="60" y="268" width="230" height="34" rx="4" fill="#bfdbfe"/>
-  <text x="68" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">LTC-designed features that do not apply to acute care</text>
-  <text x="298" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-</svg>
+<div class="not-prose my-8 space-y-3">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Top Reasons Hospitals Look for OnShift Alternatives</p>
+  <div class="flex items-center gap-3">
+    <div class="w-full bg-blue-700 dark:bg-blue-600 rounded px-3 py-2 text-sm font-semibold text-white" style="width:100%">Open-shift posting too slow for acute care callout events</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Most common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-500 dark:bg-blue-500 rounded px-3 py-2 text-sm font-semibold text-white" style="width:87%">No credential filtering in shift pickup (any nurse can accept)</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-400 dark:bg-blue-400 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:75%">No CMS §485.635 compliance documentation for CAH surveys</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-300 dark:bg-blue-300 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:62%">Reduced support quality for smaller accounts post-acquisition</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-200 dark:bg-blue-200 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:48%">LTC-designed features that do not apply to acute care</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+</div>
 
 Capterra and community feedback reinforces these patterns. OnShift users describe the platform in blunt terms:
 
@@ -301,52 +294,54 @@ OnShift remains the right choice in three scenarios:
 
 ## How SimpleScheduleAI Compares to OnShift?
 
-<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Feature comparison between OnShift and SimpleScheduleAI for hospital nurse scheduling">
-  <rect width="800" height="360" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">OnShift vs. SimpleScheduleAI: Hospital Nurse Scheduling</text>
-
-  <!-- Headers -->
-
-<text x="200" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Feature</text>
-<text x="500" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">OnShift</text>
-<text x="700" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">SimpleScheduleAI</text>
-
-  <line x1="40" y1="76" x2="760" y2="76" stroke="#e2e8f0" stroke-width="1"/>
-
-<text x="60" y="102" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Callout model</text>
-<text x="500" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Open-shift broadcast</text>
-<text x="700" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Ranked shortlist, 2 min</text>
-<line x1="40" y1="114" x2="760" y2="114" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Credential enforcement in callout</text>
-<text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No, any nurse can accept</text>
-<text x="700" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, filtered by unit credentials</text>
-<line x1="40" y1="152" x2="760" y2="152" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="178" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">CMS §485.635 documentation</text>
-<text x="500" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No</text>
-<text x="700" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, automatic</text>
-<line x1="40" y1="190" x2="760" y2="190" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="216" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Overtime ranking in callout</text>
-<text x="500" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No</text>
-<text x="700" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, built in</text>
-<line x1="40" y1="228" x2="760" y2="228" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="254" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">LTC caregiver engagement</text>
-<text x="500" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Yes, core feature</text>
-<text x="700" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Not applicable</text>
-<line x1="40" y1="266" x2="760" y2="266" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="292" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Target environment</text>
-<text x="500" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">LTC, SNF, Workday users</text>
-<text x="700" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">CAH, acute care nursing</text>
-<line x1="40" y1="304" x2="760" y2="304" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Implementation model</text>
-<text x="500" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Self-serve, 4-8 weeks</text>
-<text x="700" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Managed service, days</text>
-</svg>
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Feature</th>
+        <th class="py-3 px-4 text-left font-semibold text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-800">OnShift</th>
+        <th class="py-3 px-4 text-left font-semibold text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">SimpleScheduleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">Callout model</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">Open-shift broadcast</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Ranked shortlist, 2 min</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">Credential enforcement in callout</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">No, any nurse can accept</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Yes, filtered by unit credentials</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">CMS §485.635 documentation</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">No</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Yes, automatic</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">Overtime ranking in callout</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">No</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Yes, built in</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">LTC caregiver engagement</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">Yes, core feature</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Not applicable</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">Target environment</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">LTC, SNF, Workday users</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">CAH, acute care nursing</td>
+      </tr>
+      <tr>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300 bg-white dark:bg-slate-900">Implementation model</td>
+        <td class="py-3 px-4 text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900">Self-serve, 4–8 weeks</td>
+        <td class="py-3 px-4 text-blue-700 dark:text-blue-400 bg-blue-50 dark:bg-blue-950">Managed service, days</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 The core mismatch between OnShift and SimpleScheduleAI is target environment. OnShift was designed for long-term care settings where caregiver engagement and predictable shift pickup are the primary operational model. SimpleScheduleAI was designed for Critical Access Hospitals where acute care callout dynamics, CMS compliance, and credential enforcement are the primary operational requirements.
 

@@ -52,51 +52,38 @@ The mismatch at CAH scale is fundamental. QGenda assumes organizations with dedi
 
 Based on G2 and Capterra reviews from QGenda users at smaller facilities:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Five reasons small hospitals look for QGenda alternatives">
-  <title>Why Small Hospitals Look for QGenda Alternatives</title>
-  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Why Small Hospitals Leave QGenda</text>
-  <rect x="20" y="44" width="133" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="20" y="44" width="133" height="36" fill="#dc2626" rx="8"/>
-  <rect x="20" y="68" width="133" height="16" fill="#dc2626"/>
-  <text x="86" y="67" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Pricing</text>
-  <text x="86" y="104" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Not designed for</text>
-  <text x="86" y="118" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">facilities under</text>
-  <text x="86" y="132" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">100 beds; poor</text>
-  <text x="86" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">value equation</text>
-  <rect x="163" y="44" width="133" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="163" y="44" width="133" height="36" fill="#ea580c" rx="8"/>
-  <rect x="163" y="68" width="133" height="16" fill="#ea580c"/>
-  <text x="229" y="67" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Setup Complexity</text>
-  <text x="229" y="104" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">4-8 weeks setup;</text>
-  <text x="229" y="118" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">steep admin learning</text>
-  <text x="229" y="132" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">curve without</text>
-  <text x="229" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">dedicated staff</text>
-  <rect x="306" y="44" width="133" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="306" y="44" width="133" height="36" fill="#d97706" rx="8"/>
-  <rect x="306" y="68" width="133" height="16" fill="#d97706"/>
-  <text x="372" y="67" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Day-by-Day Swaps</text>
-  <text x="372" y="104" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Multi-day changes</text>
-  <text x="372" y="118" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">require updating</text>
-  <text x="372" y="132" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">each day</text>
-  <text x="372" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">individually</text>
-  <rect x="449" y="44" width="133" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="449" y="44" width="133" height="36" fill="#7c3aed" rx="8"/>
-  <rect x="449" y="68" width="133" height="16" fill="#7c3aed"/>
-  <text x="515" y="67" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Mobile Interface</text>
-  <text x="515" y="104" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Limited and not</text>
-  <text x="515" y="118" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">intuitive for</text>
-  <text x="515" y="132" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">on-the-floor</text>
-  <text x="515" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">clinical use</text>
-  <rect x="572" y="44" width="133" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="572" y="44" width="133" height="36" fill="#0891b2" rx="8"/>
-  <rect x="572" y="68" width="133" height="16" fill="#0891b2"/>
-  <text x="638" y="67" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="white" text-anchor="middle">Support Response</text>
-  <text x="638" y="104" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">Inconsistent for</text>
-  <text x="638" y="118" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">smaller accounts;</text>
-  <text x="638" y="132" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">not enterprise-</text>
-  <text x="638" y="146" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">level priority</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-600 dark:bg-red-700 px-3 py-2">
+      <p class="font-bold text-white text-xs text-center">Pricing</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400 text-center">Not designed for facilities under 100 beds; poor value equation</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-orange-600 dark:bg-orange-700 px-3 py-2">
+      <p class="font-bold text-white text-xs text-center">Setup Complexity</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400 text-center">4–8 weeks setup; steep admin learning curve without dedicated staff</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-amber-600 dark:bg-amber-700 px-3 py-2">
+      <p class="font-bold text-white text-xs text-center">Day-by-Day Swaps</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400 text-center">Multi-day changes require updating each day individually</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-violet-600 dark:bg-violet-700 px-3 py-2">
+      <p class="font-bold text-white text-xs text-center">Mobile Interface</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400 text-center">Limited and not intuitive for on-the-floor clinical use</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-cyan-600 dark:bg-cyan-700 px-3 py-2">
+      <p class="font-bold text-white text-xs text-center">Support Response</p>
+    </div>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400 text-center">Inconsistent for smaller accounts; not enterprise-level priority</p>
+  </div>
+</div>
 
 The day-by-day swap issue deserves emphasis. In a critical access hospital where schedule changes are frequent, nurses covering extra shifts, availability changes, callout-driven replacements, a system that requires updating each affected day individually multiplies administrative time for every routine change.
 

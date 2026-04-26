@@ -51,27 +51,30 @@ The specific TCP complaints that drive CAH nurse managers to look for alternativ
 
 **Too many clicks.** Reviewers consistently describe routine scheduling actions as requiring excessive steps, with schedules built one day at a time and no bulk assignment option.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="What TCP covers well and what it misses for critical access hospitals">
-  <title>TCP Scheduling Software: CAH Coverage Gaps</title>
-  <rect width="720" height="180" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">TCP at a CAH: What It Covers vs. What It Misses</text>
-  <rect x="30" y="44" width="320" height="120" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
-  <rect x="30" y="44" width="320" height="36" fill="#16a34a" rx="8"/>
-  <rect x="30" y="68" width="320" height="16" fill="#16a34a"/>
-  <text x="190" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">TCP Covers</text>
-  <text x="50" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Shift assignment and availability tracking</text>
-  <text x="50" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Basic credential fields and unit assignments</text>
-  <text x="50" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Overtime visibility (manual; manager must review)</text>
-  <text x="50" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Staff-facing mobile app for schedule viewing</text>
-  <rect x="370" y="44" width="320" height="120" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="370" y="44" width="320" height="36" fill="#dc2626" rx="8"/>
-  <rect x="370" y="68" width="320" height="16" fill="#dc2626"/>
-  <text x="530" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">TCP Misses</text>
-  <text x="390" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Proactive OT flagging before schedule publishes</text>
-  <text x="390" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Automatic CMS §485.635 audit trail (requires config)</text>
-  <text x="390" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Ranked replacement lists with constraint logic</text>
-  <text x="390" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">Zero-config compliance defaults for CAHs</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+  <div class="rounded-lg border-2 border-green-300 dark:border-green-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-green-600 dark:bg-green-700 px-4 py-3">
+      <p class="font-bold text-white text-sm">TCP Covers</p>
+    </div>
+    <ul class="px-4 py-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
+      <li>Shift assignment and availability tracking</li>
+      <li>Basic credential fields and unit assignments</li>
+      <li>Overtime visibility (manual; manager must review)</li>
+      <li>Staff-facing mobile app for schedule viewing</li>
+    </ul>
+  </div>
+  <div class="rounded-lg border-2 border-red-300 dark:border-red-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-600 dark:bg-red-700 px-4 py-3">
+      <p class="font-bold text-white text-sm">TCP Misses</p>
+    </div>
+    <ul class="px-4 py-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
+      <li>Proactive OT flagging before schedule publishes</li>
+      <li>Automatic CMS §485.635 audit trail (requires config)</li>
+      <li>Ranked replacement lists with constraint logic</li>
+      <li>Zero-config compliance defaults for CAHs</li>
+    </ul>
+  </div>
+</div>
 
 For a CAH operating under [CMS Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals), these gaps create manual compliance work on top of the operational burden.
 
