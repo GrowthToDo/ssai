@@ -12,6 +12,33 @@ const metadata = {
 
 const ctaLink = 'https://cal.com/gautham-8bdvdx/30min';
 
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'SimpleScheduleAI Nurse Scheduling Pilot',
+  description:
+    'Managed nurse scheduling service for Critical Access Hospitals in Texas. 60-day free pilot includes AI-generated schedules, callout coverage, and Texas compliance tracking.',
+  provider: { '@id': 'https://simplescheduleai.com/#organization' },
+  serviceType: 'Nurse Scheduling',
+  areaServed: { '@type': 'State', name: 'Texas' },
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+    description: 'Free 60-day pilot for Critical Access Hospitals in Texas',
+    availability: 'https://schema.org/LimitedAvailability',
+  },
+};
+
+const pilotBreadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    { '@type': 'ListItem', position: 2, name: 'The Pilot', item: 'https://simplescheduleai.com/pilot' },
+  ],
+};
+
 const pilotFaqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -61,7 +88,7 @@ const pilotFaqSchema = {
 ---
 
 <Layout metadata={metadata}>
-  <SchemaOrg slot="head" schema={pilotFaqSchema} />
+  <SchemaOrg slot="head" schema={[serviceSchema, pilotBreadcrumbSchema, pilotFaqSchema]} />
   <!-- Dark Hero -->
   <DarkHero
     badge="3 spots open. Free for 60 days."

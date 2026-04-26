@@ -1,16 +1,41 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
 import DarkHero from '~/components/widgets/DarkHero.astro';
 import ROISection from '~/components/widgets/ROISection.astro';
 
 const metadata = {
-  title: 'Scheduling Cost Calculator - SimpleScheduleAI',
+  title: 'Scheduling Cost Calculator',
   description:
     "Calculate what nurse scheduling is really costing your Critical Access Hospital in Texas. Adjust sliders to match your hospital's size and see your hidden scheduling costs.",
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Scheduling Cost Calculator',
+  description: metadata.description,
+  url: 'https://simplescheduleai.com/roi',
+  isPartOf: { '@id': 'https://simplescheduleai.com/#organization' },
+};
+
+const roiBreadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Scheduling Cost Calculator',
+      item: 'https://simplescheduleai.com/roi',
+    },
+  ],
 };
 ---
 
 <Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={[webPageSchema, roiBreadcrumbSchema]} />
   <!-- Dark Hero -->
   <DarkHero
     badge="Scheduling Cost Calculator"

@@ -1,9 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import SchemaOrg from '~/components/common/SchemaOrg.astro';
 import DarkHero from '~/components/widgets/DarkHero.astro';
 
 const metadata = {
-  title: 'About SimpleScheduleAI',
+  title: 'About',
   description:
     'Assisted nurse scheduling for Critical Access Hospitals in Texas. We reduce scheduling load while your team keeps tools, control, and final approval.',
 };
@@ -46,9 +47,19 @@ const whatWeDoNotDo = [
 ];
 
 const ctaLink = 'https://cal.com/gautham-8bdvdx/30min';
+
+const aboutBreadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://simplescheduleai.com/about' },
+  ],
+};
 ---
 
 <Layout metadata={metadata}>
+  <SchemaOrg slot="head" schema={[aboutBreadcrumbSchema]} />
   <!-- Dark Hero -->
   <DarkHero
     badge="About Us"
