@@ -52,43 +52,39 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 
 ## What UKG Assumes You Have?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-label="Five requirements UKG assumes that most small hospitals do not have">
-  <title>What UKG Assumes Your Small Hospital Has</title>
-  <rect width="720" height="240" fill="#f8fafc" rx="10"/>
-  <text x="360" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">What UKG Assumes vs. What Most CAHs Actually Have</text>
-  <!-- Row headers -->
-  <rect x="30" y="48" width="200" height="32" fill="#374151" rx="4"/>
-  <text x="130" y="67" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">UKG Assumption</text>
-  <rect x="236" y="48" width="220" height="32" fill="#dc2626" rx="4"/>
-  <text x="346" y="67" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Reality at a 25-Bed CAH</text>
-  <rect x="462" y="48" width="228" height="32" fill="#16a34a" rx="4"/>
-  <text x="576" y="67" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">CAH-Appropriate Alternative</text>
-  <!-- Row data -->
-  <rect x="30" y="84" width="200" height="28" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="130" y="101" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Dedicated IT department</text>
-  <rect x="236" y="84" width="220" height="28" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="346" y="101" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Part-time IT contractor (if any)</text>
-  <rect x="462" y="84" width="228" height="28" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="576" y="101" font-family="system-ui,sans-serif" font-size="10" fill="#14532d" text-anchor="middle">Managed service (zero IT needed)</text>
-  <rect x="30" y="116" width="200" height="28" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="130" y="133" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Dedicated HRIS/WFM analyst</text>
-  <rect x="236" y="116" width="220" height="28" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="346" y="133" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Nurse manager (also on clinical shifts)</text>
-  <rect x="462" y="116" width="228" height="28" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="576" y="133" font-family="system-ui,sans-serif" font-size="10" fill="#14532d" text-anchor="middle">Managed service handles config for you</text>
-  <rect x="30" y="148" width="200" height="28" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="130" y="165" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">6-12 month implementation budget</text>
-  <rect x="236" y="148" width="220" height="28" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="346" y="165" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">$150K-$500K not in budget</text>
-  <rect x="462" y="148" width="228" height="28" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="576" y="165" font-family="system-ui,sans-serif" font-size="10" fill="#14532d" text-anchor="middle">Live in 48 hours, no project required</text>
-  <rect x="30" y="180" width="200" height="28" fill="white" rx="3" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="130" y="197" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Enterprise HRIS/payroll integration</text>
-  <rect x="236" y="180" width="220" height="28" fill="#fee2e2" rx="3" stroke="#fca5a5" stroke-width="1"/>
-  <text x="346" y="197" font-family="system-ui,sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Excel payroll, regional HR vendor</text>
-  <rect x="462" y="180" width="228" height="28" fill="#dcfce7" rx="3" stroke="#86efac" stroke-width="1"/>
-  <text x="576" y="197" font-family="system-ui,sans-serif" font-size="10" fill="#14532d" text-anchor="middle">No integration required</text>
-</svg>
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr>
+        <th class="py-3 px-4 text-left font-semibold bg-slate-700 dark:bg-slate-600 text-white border border-slate-600 dark:border-slate-500">UKG Assumption</th>
+        <th class="py-3 px-4 text-left font-semibold bg-red-600 dark:bg-red-700 text-white border border-red-500 dark:border-red-600">Reality at a 25-Bed CAH</th>
+        <th class="py-3 px-4 text-left font-semibold bg-green-600 dark:bg-green-700 text-white border border-green-500 dark:border-green-600">CAH-Appropriate Alternative</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Dedicated IT department</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">Part-time IT contractor (if any)</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">Managed service (zero IT needed)</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Dedicated HRIS/WFM analyst</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">Nurse manager (also on clinical shifts)</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">Managed service handles config for you</td>
+      </tr>
+      <tr class="border-b border-slate-200 dark:border-slate-700">
+        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">6–12 month implementation budget</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">$150K–$500K not in budget</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">Live in 48 hours, no project required</td>
+      </tr>
+      <tr>
+        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Enterprise HRIS/payroll integration</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">Excel payroll, regional HR vendor</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">No integration required</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## What Is the Real Cost of Running UKG at a Small Hospital?
 
@@ -148,17 +144,60 @@ Beyond the purchase price, the operational cost of running UKG at CAH scale is s
 
 ### Aladtec (TCP Scheduling)
 
-Aladtec (the platform; TCP is the parent company) is the most widely used scheduling platform among critical access hospitals and EMS organizations. It is self-serve, requires minimal IT involvement, and can be operational in 2-4 weeks.
+Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is the most widely deployed scheduling platform among critical access hospitals and EMS organizations. Unlike UKG, it requires minimal IT involvement and can be operational in 2-4 weeks. For a CAH leaving UKG because of implementation complexity, Aladtec represents a meaningful reduction in setup overhead.
 
-The trade-off: Aladtec is a self-serve platform. The nurse manager configures and operates it. Credential tracking, FLSA overtime rule configuration, and CMS documentation all require manual setup and maintenance. For a dual-role CAH nurse manager already covering clinical shifts, this configuration burden is real.
+The trade-off is clear: Aladtec replaces UKG's complexity with a different kind of self-serve overhead. The nurse manager still configures credential tracking, FLSA overtime thresholds, and shift rules manually. CMS documentation requires the manager to structure and export records; the system does not generate them automatically. G2 reviewers consistently flag "too many clicks for routine tasks" and a steep initial configuration curve. Since the TCP acquisition, reviewer feedback on support response times and quality has declined, which matters when a configuration issue blocks a schedule build before posting day.
 
-**Best fit:** CAHs where a designated administrator or scheduling coordinator can manage the system, with enough time for 4-6 hours of weekly scheduling administration.
+If you are leaving UKG because it demands too much from one person, Aladtec is simpler to implement but does not remove the ongoing administrative burden.
+
+**Best for:** CAHs with a designated administrator or scheduling coordinator who has 4-6 hours per week available for scheduling administration and can manage a self-serve platform configuration.
+
+**Key advantages:**
+
+- Widest CAH-specific adoption; pre-built templates for common small-hospital scenarios
+- Minimal IT involvement for setup and operation
+- Lower cost than UKG and SmartLinx
+- 2-4 week implementation timeline
+
+**Key limitations:**
+
+- Nurse manager configures and operates all scheduling rules manually
+- No automatic CMS §485.635 audit trail generation; documentation requires manual export
+- G2 reviewers cite excess clicks per routine task and steep initial learning curve
+- Post-acquisition support quality has declined per documented reviewer feedback
+- Mobile app has limited functionality compared to desktop interface
+
+**Verdict:** The right fit for a CAH that wants to reduce UKG complexity without outsourcing scheduling decisions. Not the right fit if the core problem is that one person cannot sustain the weekly scheduling workload alongside clinical duties.
+
+**Cost:** Pricing not listed publicly. Contact for quote. Typically positions below SmartLinx and well below UKG in per-facility cost.
 
 ### SmartLinx
 
-SmartLinx is a workforce management platform designed for mid-size healthcare organizations. It has stronger credential enforcement and compliance logic than Aladtec but requires IT involvement for initial configuration. Implementation runs 3-4 months.
+SmartLinx is a workforce management platform built for mid-size healthcare organizations, primarily skilled nursing facilities and hospitals in the 50-200 bed range. It has stronger built-in credential enforcement and compliance logic than Aladtec, with pre-configured rules for common healthcare regulatory requirements.
 
-**Best fit:** Hospitals in the 50-200 bed range with an IT team available to configure and maintain scheduling rules.
+For a critical access hospital leaving UKG, SmartLinx trades one form of enterprise overhead for another. Implementation runs 3-4 months with IT involvement required for initial configuration. SmartLinx assumes the facility has a dedicated scheduling administrator and an available IT resource during setup, which most 25-bed CAHs do not. G2 reviewers from smaller organizations describe the platform as feature-rich but "complex for the team size" and note that the compliance tools require significant upfront configuration to work correctly.
+
+SmartLinx is most cited by skilled nursing and long-term care facilities, not acute care CAHs. The compliance frameworks it handles well (state staffing ratios for SNFs, PBJ reporting) overlap partially with CAH needs but are not the same regulatory environment.
+
+**Best for:** Hospitals and skilled nursing facilities in the 50-200 bed range with an IT team, a dedicated scheduling administrator, and 3-4 months for a structured implementation project.
+
+**Key advantages:**
+
+- Stronger built-in credential enforcement than Aladtec
+- Pre-configured compliance logic for common healthcare regulatory requirements
+- Handles multi-unit and multi-department scheduling across larger facilities
+
+**Key limitations:**
+
+- 3-4 month implementation with IT involvement required
+- Designed for 50-200 bed facilities; configuration and pricing reflect that scale
+- Requires a dedicated scheduling administrator to operate effectively post-implementation
+- G2 reviewers from small organizations cite complexity exceeding their team capacity
+- Primary compliance coverage targets SNF/LTC regulatory requirements, not CAH-specific CMS §485.635
+
+**Verdict:** SmartLinx is a capable platform for the facility size it was built for. A 25-bed CAH without a dedicated IT resource and scheduling coordinator will not get the value the platform is priced for. If UKG felt over-engineered, SmartLinx is a smaller step down, not a different operating model.
+
+**Cost:** Pricing not publicly listed. Contact for quote. Mid-market pricing above Aladtec; typically requires annual contract commitment.
 
 ### SimpleScheduleAI
 
