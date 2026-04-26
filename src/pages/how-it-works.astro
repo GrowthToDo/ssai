@@ -38,6 +38,15 @@ const softwareAppSchema = {
   ],
 };
 
+const howItWorksBreadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://simplescheduleai.com' },
+    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://simplescheduleai.com/how-it-works' },
+  ],
+};
+
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
@@ -75,7 +84,7 @@ const howToSchema = {
 ---
 
 <Layout metadata={metadata}>
-  <SchemaOrg slot="head" schema={[softwareAppSchema, howToSchema]} />
+  <SchemaOrg slot="head" schema={[softwareAppSchema, howToSchema, howItWorksBreadcrumbSchema]} />
   <!-- Dark Hero -->
   <DarkHero
     badge="Clear workflow. Predictable handoffs."

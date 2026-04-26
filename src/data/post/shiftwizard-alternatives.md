@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 publishDate: 2026-04-26T00:00:00Z
-updateDate: 2026-04-28T00:00:00Z
+updateDate: 2026-04-26T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best ShiftWizard Alternatives for Small Hospitals'
 excerpt: >
@@ -53,43 +53,24 @@ Based on G2 and Capterra reviews, four patterns drive ShiftWizard departures at 
 
 **Weak onboarding support.** Reviewers describe the implementation process as tedious and the onboarding support as insufficient. One Capterra reviewer reported: "Customer service shut down our account access without warning during a contract dispute." For a nurse manager with no IT background who is configuring a scheduling system between clinical duties, inadequate implementation support means weeks of self-directed setup work.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Four reasons CAH nurse managers look for ShiftWizard alternatives">
-  <title>Why CAHs Look for ShiftWizard Alternatives</title>
-  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Four Reasons CAHs Leave ShiftWizard</text>
-  <rect x="20" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="20" y="44" width="162" height="36" fill="#dc2626" rx="8"/>
-  <rect x="20" y="68" width="162" height="16" fill="#dc2626"/>
-  <text x="101" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Mobile App</text>
-  <text x="101" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Can't show full</text>
-  <text x="101" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">department schedule</text>
-  <text x="101" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">on mobile; date range</text>
-  <text x="101" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">visibility restricted</text>
-  <rect x="192" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="192" y="44" width="162" height="36" fill="#ea580c" rx="8"/>
-  <rect x="192" y="68" width="162" height="16" fill="#ea580c"/>
-  <text x="273" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Shift Swapping</text>
-  <text x="273" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Unreliable and</text>
-  <text x="273" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">confusing; nurses</text>
-  <text x="273" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">unsure if swap was</text>
-  <text x="273" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">submitted or approved</text>
-  <rect x="364" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="364" y="44" width="162" height="36" fill="#d97706" rx="8"/>
-  <rect x="364" y="68" width="162" height="16" fill="#d97706"/>
-  <text x="445" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Dept Visibility</text>
-  <text x="445" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Staff see only their</text>
-  <text x="445" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">own position, not</text>
-  <text x="445" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">adjacent departments</text>
-  <text x="445" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">or units</text>
-  <rect x="536" y="44" width="162" height="140" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="536" y="44" width="162" height="36" fill="#7c3aed" rx="8"/>
-  <rect x="536" y="68" width="162" height="16" fill="#7c3aed"/>
-  <text x="617" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Onboarding Support</text>
-  <text x="617" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Implementation tedious;</text>
-  <text x="617" y="118" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">support insufficient</text>
-  <text x="617" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">for a nurse manager</text>
-  <text x="617" y="146" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">doing this solo</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-bold text-white">Mobile App</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Can't show full department schedule on mobile; date range visibility restricted</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-orange-600 px-3 py-2 text-center text-sm font-bold text-white">Shift Swapping</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Unreliable and confusing; nurses unsure if swap was submitted or approved</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-amber-600 px-3 py-2 text-center text-sm font-bold text-white">Dept Visibility</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Staff see only their own position, not adjacent departments or units</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-bold text-white">Onboarding Support</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Implementation tedious; support insufficient for a nurse manager doing this solo</p>
+  </div>
+</div>
 
 ## What a ShiftWizard Alternative Needs to Cover?
 
@@ -108,55 +89,55 @@ Any alternative for a CAH must handle these four requirements:
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:680px">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Platform</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Type</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Mobile App</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Callout Logic</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">CMS Audit Trail</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Setup Time</th>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Platform</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Type</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Mobile App</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Callout Logic</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">CMS Audit Trail</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Setup Time</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="bg-yellow-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">ShiftWizard</td>
-        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
-        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Limited (desktop parity gaps)</td>
-        <td class="border border-slate-300 px-4 py-2">Basic</td>
-        <td class="border border-slate-300 px-4 py-2">Limited</td>
-        <td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
+      <tr class="bg-yellow-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">ShiftWizard</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Self-serve platform</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">Limited (desktop parity gaps)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Basic</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Limited</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">TCP (Aladtec)</td>
-        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
-        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Basic</td>
-        <td class="border border-slate-300 px-4 py-2">Manual</td>
-        <td class="border border-slate-300 px-4 py-2">Limited</td>
-        <td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
+      <tr class="dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">TCP (Aladtec)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Self-serve platform</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">Basic</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manual</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Limited</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">NurseGrid</td>
-        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Strong (nurse-facing)</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">None</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">None</td>
-        <td class="border border-slate-300 px-4 py-2">1-2 weeks</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">NurseGrid</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Self-serve platform</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Strong (nurse-facing)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">None</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">None</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">1-2 weeks</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">QGenda</td>
-        <td class="border border-slate-300 px-4 py-2">Self-serve platform</td>
-        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Limited</td>
-        <td class="border border-slate-300 px-4 py-2">Manual</td>
-        <td class="border border-slate-300 px-4 py-2">Partial</td>
-        <td class="border border-slate-300 px-4 py-2">4-8 weeks</td>
+      <tr class="dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Self-serve platform</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">Limited</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manual</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Partial</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">4-8 weeks</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-semibold text-blue-700">SimpleScheduleAI</td>
-        <td class="border border-slate-300 px-4 py-2">Managed service</td>
-        <td class="border border-slate-300 px-4 py-2">None (manager-facing)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">Ranked shortlist</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">Auto-logged</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700 font-medium">3-5 days</td>
+      <tr class="bg-blue-50 dark:bg-blue-950/30">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Managed service</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">None (manager-facing)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400 font-medium">Ranked shortlist</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400 font-medium">Auto-logged</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400 font-medium">3-5 days</td>
       </tr>
     </tbody>
   </table>
@@ -200,29 +181,28 @@ QGenda is a scheduling platform with stronger credential management than ShiftWi
 
 ShiftWizard and most of its alternatives are self-serve platforms. The nurse manager configures the system, builds schedules in the interface, and manages exceptions. The platform automates parts of the process, but a person still operates it.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Self-serve platform versus managed service operating model comparison">
-  <title>Self-Serve Platform vs. Managed Service: Operating Model</title>
-  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Self-Serve Platform vs. Managed Service</text>
-  <rect x="30" y="44" width="315" height="140" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="30" y="44" width="315" height="36" fill="#dc2626" rx="8"/>
-  <rect x="30" y="68" width="315" height="16" fill="#dc2626"/>
-  <text x="187" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Self-Serve Platform (ShiftWizard, Aladtec)</text>
-  <text x="50" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager configures all scheduling rules</text>
-  <text x="50" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager builds every schedule draft</text>
-  <text x="50" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager checks callout constraints manually</text>
-  <text x="50" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Setup: 2-4 weeks; weekly burden: 4-6 hrs</text>
-  <text x="50" y="164" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Platform provides tools; manager does the work</text>
-  <rect x="375" y="44" width="315" height="140" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
-  <rect x="375" y="44" width="315" height="36" fill="#16a34a" rx="8"/>
-  <rect x="375" y="68" width="315" height="16" fill="#16a34a"/>
-  <text x="532" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">Managed Service (SimpleScheduleAI)</text>
-  <text x="395" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Specialist configures and maintains all rules</text>
-  <text x="395" y="116" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Specialist builds every schedule draft</text>
-  <text x="395" y="132" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Ranked shortlist delivered for callout coverage</text>
-  <text x="395" y="148" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Setup: 3-5 days; weekly burden: 1-2 hrs</text>
-  <text x="395" y="164" font-family="system-ui,sans-serif" font-size="10" fill="#374151">- Nurse manager reviews and approves; work is done</text>
-</svg>
+<div class="not-prose my-8 grid gap-4 sm:grid-cols-2">
+  <div class="overflow-hidden rounded-xl border-2 border-red-300 dark:border-red-800 bg-white dark:bg-slate-800">
+    <div class="bg-red-600 px-4 py-3 text-center text-sm font-bold text-white">Self-Serve Platform (ShiftWizard, Aladtec)</div>
+    <ul class="space-y-2 p-4 text-sm text-slate-600 dark:text-slate-300">
+      <li>Nurse manager configures all scheduling rules</li>
+      <li>Nurse manager builds every schedule draft</li>
+      <li>Nurse manager checks callout constraints manually</li>
+      <li>Setup: 2-4 weeks; weekly burden: 4-6 hrs</li>
+      <li>Platform provides tools; manager does the work</li>
+    </ul>
+  </div>
+  <div class="overflow-hidden rounded-xl border-2 border-green-300 dark:border-green-800 bg-white dark:bg-slate-800">
+    <div class="bg-green-600 px-4 py-3 text-center text-sm font-bold text-white">Managed Service (SimpleScheduleAI)</div>
+    <ul class="space-y-2 p-4 text-sm text-slate-600 dark:text-slate-300">
+      <li>Specialist configures and maintains all rules</li>
+      <li>Specialist builds every schedule draft</li>
+      <li>Ranked shortlist delivered for callout coverage</li>
+      <li>Setup: 3-5 days; weekly burden: 1-2 hrs</li>
+      <li>Nurse manager reviews and approves; work is done</li>
+    </ul>
+  </div>
+</div>
 
 A managed service changes this model. The question worth asking before evaluating alternatives is not "which platform has better features?" but "how much of the scheduling burden do I want to carry?"
 
@@ -266,3 +246,11 @@ Check your ShiftWizard contract terms. Most scheduling software contracts run an
 **Does SimpleScheduleAI have a nurse-facing mobile app?**
 
 No. SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not view schedules or request swaps directly through the system. If nurse self-service mobile features are a priority, a hybrid approach, using a communication tool for staff-facing features alongside a managed service for scheduling management, is worth considering. If the priority is reducing nurse manager administrative burden, the absence of a staff app is not a meaningful limitation.
+
+[See how the managed service model works in practice →](/how-it-works)
+
+---
+
+**Written by Pradeep Pandey**
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
