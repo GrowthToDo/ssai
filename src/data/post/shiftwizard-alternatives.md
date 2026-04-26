@@ -171,11 +171,45 @@ One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app.
 
 ### NurseGrid
 
-NurseGrid is a lightweight scheduling tool with strong nurse-facing mobile features. It covers shift viewing, availability management, and basic schedule communication. What it does not cover: proactive overtime tracking, CMS-compliant audit trail, or clinical callout coverage logic. For a CAH with [Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) requirements, NurseGrid is insufficient as a primary scheduling system.
+NurseGrid is a nurse-facing mobile app built for personal schedule visibility, shift trading, and availability communication. It was designed for individual nurses managing their own schedules, not for nurse managers building and enforcing hospital-wide rosters.
+
+The compliance gaps are specific. NurseGrid has no [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail capability. A CMS surveyor requesting staffing documentation from a specific date will find no exportable record. NurseGrid also has no FLSA overtime tracking and no credential-based callout filtering. If a nurse calls out, the manager cannot use NurseGrid to identify who is available, qualified, and under the 40-hour overtime threshold.
+
+G2 reviewers consistently describe NurseGrid as a "shift viewing and trading tool," not a scheduling management platform. It serves a real function for staff-facing schedule access, but it does not replace the scheduling system itself.
+
+**Best for:** Nurses who want mobile access to their personal schedule and shift trading. Works as a staff-facing add-on alongside a primary scheduling system, not as the primary system.
+
+**Key limitations:**
+
+- No audit trail for CMS §485.635 compliance documentation
+- No FLSA overtime tracking or proactive overtime flags
+- No credential or certification filtering for callout replacement
+- No manager-side schedule building or rule enforcement
+
+**Verdict:** NurseGrid does not cover the compliance and operational requirements a CAH scheduling system must meet. A hospital using it as its primary scheduling tool would fail a CMS staffing documentation request. Useful as a communication layer for staff; not a scheduling platform.
+
+**Cost:** Freemium model. Basic features are free; organizational pricing is available for larger deployments.
 
 ### QGenda
 
-QGenda is a scheduling platform with stronger credential management than ShiftWizard but a longer implementation timeline (4-8 weeks) and moderate IT involvement. It is better suited to larger hospitals or medical group scheduling than to a 25-bed CAH with no scheduling coordinator. Cost is also higher than either ShiftWizard or Aladtec.
+QGenda is a credentialing and scheduling platform built primarily for physician group and large health system workflows. It handles complex credential matrices, medical staff privileging, and multi-site scheduling across large organizations. Those capabilities are real, but they are not the problem a 25-bed CAH is trying to solve.
+
+For a critical access hospital, the implementation timeline is the first barrier. QGenda typically requires 4 to 8 weeks to deploy with IT involvement and a dedicated scheduling administrator. Most CAHs do not have a scheduling coordinator, and many do not have an IT department. A deployment timeline that assumes both is a mismatch before the first configuration call.
+
+G2 reviewers from smaller organizations consistently describe QGenda as "complex to set up" and note it is "better suited for larger organizations." The platform is not poorly built; it is built for a different customer. Reviewers from large health systems rate it more favorably than reviewers from small facilities, which is the clearest signal about fit.
+
+**Best for:** Multi-site health systems and physician groups managing complex credential and privileging workflows across 100 or more providers.
+
+**Key limitations:**
+
+- 4 to 8 week implementation timeline with IT involvement required
+- Designed around physician scheduling workflows, not nursing shift management
+- Requires a dedicated scheduling administrator to operate effectively
+- Cost is at the higher end of the market and is not publicly listed
+
+**Verdict:** QGenda is a capable platform for the customer it was built for. That customer is not a 25-bed CAH with one nurse manager and no IT staff. If your evaluation criteria includes time to first schedule and administrative burden per week, QGenda will not compete with either TCP or a managed service at the CAH scale.
+
+**Cost:** Pricing not published. Contact for quote. Reviews consistently place QGenda at the higher end of the healthcare scheduling software pricing range.
 
 ## What Is the Operating Model Question?
 
