@@ -58,3 +58,16 @@ No posts scheduled today.
 ## 2026-04-24
 
 No posts scheduled today.
+
+## 2026-04-26
+
+1 post(s) due for publishing.
+
+### PUBLISHED: shiftwizard-alternatives
+
+Title: Best ShiftWizard Alternatives for Small Hospitals
+Live at: https://simplescheduleai.com/blog/shiftwizard-alternatives
+Next steps (manual):
+
+- Submit URL to GSC: URL Inspection → Request Indexing
+- Post excerpt on LinkedIn
