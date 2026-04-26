@@ -145,29 +145,58 @@ Any alternative for a CAH must handle these four requirements:
 
 ### TCP Scheduling Software (Aladtec)
 
-TCP is the most widely deployed scheduling platform in small healthcare and EMS organizations. It has similar self-serve mechanics to ShiftWizard with broader adoption in critical access hospital settings specifically.
+TCP (formerly Aladtec) is the most widely deployed scheduling platform in small healthcare and EMS organizations. It has a longer track record in CAH settings than ShiftWizard and a deeper library of pre-built rule templates for common small-hospital scenarios. For a nurse manager who has already decided on a self-serve platform and wants one with CAH-specific adoption history, TCP is the default comparison.
 
-The trade-offs relative to ShiftWizard are similar: TCP also requires significant configuration work upfront, has a steep learning curve, and places the full scheduling operation on the nurse manager. TCP users frequently report too many clicks for routine tasks and declining support quality since the TCP acquisition.
+The operational trade-offs are similar to ShiftWizard. TCP is self-serve: the nurse manager configures shift rules, credential requirements, and overtime logic, then operates the system weekly. G2 reviewers consistently cite "too many clicks for routine tasks" and a steep initial learning curve. Since the TCP acquisition by Workforce Software, multiple reviewers have documented declining support response times and support quality, which matters when a configuration problem is blocking a schedule build the night before posting.
 
-If you are switching from ShiftWizard because of mobile limitations, TCP's mobile app has comparable limitations. If the issue is the self-serve model itself, a platform swap will not solve the underlying problem.
+Mobile app limitations are comparable to ShiftWizard. If mobile access is why you're leaving ShiftWizard, TCP will not solve it. If the underlying issue is the self-serve model, a platform swap of any kind relocates the burden rather than removing it.
 
-**Best fit:** CAHs with a scheduling coordinator or administrator who has time to configure and maintain a self-serve system and can absorb 4-6 hours of weekly scheduling work.
+**Best for:** CAHs with a designated scheduling coordinator or administrator who has the time to configure and maintain a self-serve system and can sustain 4-6 hours of weekly scheduling work.
+
+**Key advantages:**
+
+- Broadest CAH-specific adoption among self-serve platforms
+- Pre-built rule templates for common small-hospital scenarios
+- Lower cost than enterprise alternatives
+
+**Key limitations:**
+
+- Full configuration and weekly operation falls to the nurse manager
+- G2 reviewers cite excess clicks for routine scheduling tasks
+- Mobile app has the same department-view limitations as ShiftWizard
+- Post-acquisition support quality has declined per documented reviewer feedback
+
+**Verdict:** TCP is the strongest self-serve option for CAHs that have decided the self-serve model works for their staffing capacity. It is not a meaningful improvement over ShiftWizard if the core problem is administrative burden on the nurse manager.
+
+**Cost:** Pricing not publicly listed. Contact for quote. Typically positions as a mid-market option below SmartLinx and QGenda pricing.
 
 ### SimpleScheduleAI
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service. The distinction from ShiftWizard is fundamental: SimpleScheduleAI is not a platform your team configures and operates, it is a service where a specialist handles schedule generation and the nurse manager reviews and approves.
+SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) built specifically for critical access hospitals in Texas. The operational model is different from every other option in this list: SimpleScheduleAI is not a platform your team configures and operates. A scheduling specialist handles schedule generation each cycle, and the nurse manager reviews and approves the draft. The work changes from building the schedule to reviewing it.
 
-What this means practically:
+Setup takes 3 to 5 days via Excel roster upload with no IT involvement. The nurse manager uploads the existing roster, the team configures shift rules and Texas compliance requirements, and the first draft schedule is delivered for review. No software training for nurses, no credential re-entry, no ongoing platform administration.
 
-- Setup takes 3 to 5 days via Excel roster upload, no IT involvement
-- The scheduling specialist builds draft schedules each cycle; the nurse manager approves
-- Callout coverage shortlists are pre-ranked by certification, overtime status, and availability
-- CMS audit trail is automatic, every change is timestamp-logged
-- Texas compliance is the default, not a configuration option
+For callout coverage, the system generates a ranked shortlist filtered by certification, overtime status, and availability. The nurse manager receives the top candidates with reasons rather than checking constraints manually at 2AM. [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail logging is automatic.
 
-One honest limitation: SimpleScheduleAI does not have a staff-facing mobile app. Nurses do not interact with the system directly to view schedules or request swaps. If nurse self-service features are a priority, a hybrid approach, generic communication tool for nurse-facing features combined with managed service for scheduling management, is worth considering.
+**Best for:** CAHs where the nurse manager is already stretched across clinical and administrative duties and cannot absorb a new platform implementation or sustained weekly scheduling administration.
 
-**Best fit:** CAHs where the nurse manager is already stretched and cannot absorb a new platform implementation, or where the self-serve model has consistently required more administrative time than available.
+**Key advantages:**
+
+- Setup in 3-5 days without IT involvement
+- CMS §485.635 audit trail generated automatically with every schedule cycle
+- Callout replacement shortlist ranked by certification, overtime status, and availability
+- Texas FLSA compliance built into schedule generation, not a manual configuration step
+- No nurse-facing software rollout required
+
+**Key limitations:**
+
+- No staff-facing mobile app. Nurses do not view schedules or submit swap requests through the system directly.
+- Currently focused on Texas CAHs. Facilities outside Texas should verify compliance coverage before starting.
+- Requires Excel roster upload for initial setup. Facilities with non-standard roster formats may need minor formatting work upfront.
+
+**Verdict:** The right choice for a CAH nurse manager who has concluded that the self-serve scheduling model, regardless of platform, takes more weekly time than her role can absorb. Not the right choice if staff self-service features (shift trading, mobile schedule viewing) are a requirement.
+
+**Cost:** Pricing not listed publicly. Free 60-day pilot available for CAHs in Texas. Contact for ongoing service pricing.
 
 ### NurseGrid
 
