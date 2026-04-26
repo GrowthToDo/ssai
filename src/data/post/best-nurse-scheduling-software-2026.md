@@ -167,40 +167,40 @@ Minimum requirements for any hospital:
 
 Any software that does not provide all four of these is a compliance liability for any hospital, regardless of size.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" role="img" aria-label="Nurse scheduling software market tiers by hospital size">
-  <title>Nurse Scheduling Software: Three Market Tiers</title>
-  <rect width="700" height="240" fill="#f8fafc" rx="12"/>
-  <text x="350" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Three Tiers of Nurse Scheduling Software</text>
-  <!-- Tier 1 -->
-  <rect x="20" y="45" width="200" height="170" fill="#eff6ff" rx="10"/>
-  <text x="120" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Small / Rural</text>
-  <text x="120" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#3b82f6">Under 50 beds</text>
-  <text x="120" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">SimpleScheduleAI</text>
-  <text x="120" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">Aladtec</text>
-  <text x="120" y="144" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">NurseGrid Manager</text>
-  <text x="120" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1e40af">Deputy (basic)</text>
-  <text x="120" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Priority: low burden,</text>
-  <text x="120" y="209" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">compliance, fast setup</text>
-  <!-- Tier 2 -->
-  <rect x="250" y="45" width="200" height="170" fill="#f0fdf4" rx="10"/>
-  <text x="350" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#15803d">Community Hospital</text>
-  <text x="350" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#16a34a">50-200 beds</text>
-  <text x="350" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534">QGenda</text>
-  <text x="350" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534">SmartLinx</text>
-  <text x="350" y="144" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#166534">OnShift</text>
-  <text x="350" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Priority: rule-based logic,</text>
-  <text x="350" y="209" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">credential tracking, reports</text>
-  <!-- Tier 3 -->
-  <rect x="480" y="45" width="200" height="170" fill="#fff7ed" rx="10"/>
-  <text x="580" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#c2410c">Enterprise / Health System</text>
-  <text x="580" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#ea580c">200+ beds</text>
-  <text x="580" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9a3412">UKG (Kronos)</text>
-  <text x="580" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9a3412">API Healthcare</text>
-  <text x="580" y="144" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9a3412">Infor WFM</text>
-  <text x="580" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#9a3412">Workday (via HCM)</text>
-  <text x="580" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Priority: EHR/HRIS integration,</text>
-  <text x="580" y="209" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">enterprise analytics, multi-site</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+  <div class="rounded-lg bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 p-5">
+    <p class="font-bold text-blue-800 dark:text-blue-300 text-sm">Small / Rural</p>
+    <p class="text-xs text-blue-600 dark:text-blue-400 mb-3">Under 50 beds</p>
+    <ul class="space-y-1 text-xs text-blue-700 dark:text-blue-300 mb-3">
+      <li>SimpleScheduleAI</li>
+      <li>Aladtec</li>
+      <li>NurseGrid Manager</li>
+      <li>Deputy (basic)</li>
+    </ul>
+    <p class="text-xs text-slate-500 dark:text-slate-400">Priority: low burden, compliance, fast setup</p>
+  </div>
+  <div class="rounded-lg bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 p-5">
+    <p class="font-bold text-green-800 dark:text-green-300 text-sm">Community Hospital</p>
+    <p class="text-xs text-green-600 dark:text-green-400 mb-3">50–200 beds</p>
+    <ul class="space-y-1 text-xs text-green-700 dark:text-green-300 mb-3">
+      <li>QGenda</li>
+      <li>SmartLinx</li>
+      <li>OnShift</li>
+    </ul>
+    <p class="text-xs text-slate-500 dark:text-slate-400">Priority: rule-based logic, credential tracking, reports</p>
+  </div>
+  <div class="rounded-lg bg-orange-50 dark:bg-orange-950 border border-orange-200 dark:border-orange-800 p-5">
+    <p class="font-bold text-orange-800 dark:text-orange-300 text-sm">Enterprise / Health System</p>
+    <p class="text-xs text-orange-600 dark:text-orange-400 mb-3">200+ beds</p>
+    <ul class="space-y-1 text-xs text-orange-700 dark:text-orange-300 mb-3">
+      <li>UKG (Kronos)</li>
+      <li>API Healthcare</li>
+      <li>Infor WFM</li>
+      <li>Workday (via HCM)</li>
+    </ul>
+    <p class="text-xs text-slate-500 dark:text-slate-400">Priority: EHR/HRIS integration, enterprise analytics, multi-site</p>
+  </div>
+</div>
 
 ## What Are the 8 Best Nurse Scheduling Software Options in 2026?
 
@@ -395,45 +395,54 @@ UKG is the dominant workforce management platform in large hospital systems. It 
 
 **Cost:** Pricing not listed on website. Enterprise pricing. Not appropriate for under 50-bed facilities.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 310" role="img" aria-label="Comparison of nurse scheduling software on hospital fit vs implementation burden">
-  <title>Nurse Scheduling Software: Hospital Fit vs Implementation Burden</title>
-  <rect width="700" height="310" fill="#f8fafc" rx="12"/>
-  <text x="350" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Hospital Fit vs Implementation Burden</text>
-  <!-- Axes -->
-  <line x1="80" y1="260" x2="650" y2="260" stroke="#cbd5e1" stroke-width="1.5"/>
-  <line x1="80" y1="50" x2="80" y2="260" stroke="#cbd5e1" stroke-width="1.5"/>
-  <!-- Axis labels -->
-  <text x="365" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Implementation Burden (Low to High)</text>
-  <text x="20" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" transform="rotate(-90, 20, 160)">Hospital Fit (Low to High)</text>
-  <!-- Grid lines -->
-  <line x1="80" y1="155" x2="650" y2="155" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
-  <line x1="365" y1="50" x2="365" y2="260" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
-  <!-- Plots: x=burden (80=low, 650=high), y=fit (260=low, 50=high) -->
-  <!-- SimpleScheduleAI: high fit, very low burden -->
-  <circle cx="130" cy="70" r="18" fill="#3b82f6" opacity="0.85"/>
-  <text x="130" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SSAI</text>
-  <!-- Aladtec: good fit, low-medium burden -->
-  <circle cx="230" cy="110" r="16" fill="#10b981" opacity="0.85"/>
-  <text x="230" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Alad</text>
-  <!-- NurseGrid: medium fit, low burden -->
-  <circle cx="160" cy="175" r="14" fill="#f59e0b" opacity="0.85"/>
-  <text x="160" y="179" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">NG</text>
-  <!-- SmartLinx: good fit, medium burden -->
-  <circle cx="370" cy="105" r="16" fill="#8b5cf6" opacity="0.85"/>
-  <text x="370" y="109" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">SL</text>
-  <!-- QGenda: medium fit, medium-high burden -->
-  <circle cx="470" cy="150" r="15" fill="#ec4899" opacity="0.85"/>
-  <text x="470" y="154" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">QG</text>
-  <!-- Deputy: low fit, very low burden -->
-  <circle cx="150" cy="230" r="13" fill="#94a3b8" opacity="0.85"/>
-  <text x="150" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">Dep</text>
-  <!-- UKG: low fit for small hospitals, very high burden -->
-  <circle cx="600" cy="220" r="17" fill="#ef4444" opacity="0.85"/>
-  <text x="600" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="white">UKG</text>
-  <!-- Legend -->
-  <text x="85" y="50" font-family="system-ui, sans-serif" font-size="10" fill="#475569">High Fit</text>
-  <text x="85" y="258" font-family="system-ui, sans-serif" font-size="10" fill="#475569">Low Fit</text>
-</svg>
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Platform</th>
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">CAH Fit</th>
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Implementation Burden</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">SimpleScheduleAI</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">High (designed for CAHs)</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (48 hours)</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">Aladtec</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Good (small hospital native)</td>
+        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Low–medium (2–4 weeks)</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">NurseGrid</td>
+        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Medium (staff app, not a scheduler)</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (app-only)</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">SmartLinx</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Good (community hospital)</td>
+        <td class="py-3 px-4 bg-orange-50 dark:bg-orange-950 text-orange-700 dark:text-orange-300">Medium (3–4 months)</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">QGenda</td>
+        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Medium (physician-first design)</td>
+        <td class="py-3 px-4 bg-orange-50 dark:bg-orange-950 text-orange-700 dark:text-orange-300">Medium–high (4–8 weeks)</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800">
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">Deputy</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Low (not healthcare-built)</td>
+        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (hours)</td>
+      </tr>
+      <tr>
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">UKG</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Low for CAHs (enterprise-only ROI)</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Very high (6–18 months)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Which Software Is Right for Your Hospital Size?
 
@@ -485,56 +494,54 @@ The pilot is free for 60 days. No IT setup. No commitment.
 
 If you run a Critical Access Hospital specifically, we have a dedicated guide that goes deeper on CAH compliance, Texas staffing rules, and callout coverage: [Critical Access Hospital Scheduling Guide](/critical-access-hospital-scheduling).
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Decision tree for choosing nurse scheduling software by hospital size">
-  <title>Which Nurse Scheduling Software Is Right for Your Hospital?</title>
-  <rect width="800" height="420" fill="#f8fafc" rx="12"/>
-  <text x="400" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0f172a">Which Software Is Right for Your Hospital?</text>
-  <rect x="300" y="40" width="200" height="38" fill="#1d4ed8" rx="8"/>
-  <text x="400" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="white">How many beds?</text>
-  <line x1="400" y1="78" x2="400" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="130" y1="98" x2="670" y2="98" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="130" y1="98" x2="130" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="130,120 125,112 135,112" fill="#94a3b8"/>
-  <line x1="400" y1="98" x2="400" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="400,120 395,112 405,112" fill="#94a3b8"/>
-  <line x1="670" y1="98" x2="670" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="670,120 665,112 675,112" fill="#94a3b8"/>
-  <text x="230" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Under 25 beds</text>
-  <text x="420" y="112" text-anchor="start" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">25-75 beds</text>
-  <text x="540" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">75+ beds</text>
-  <rect x="55" y="120" width="150" height="46" fill="#e0f2fe" rx="8"/>
-  <text x="130" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">Manage scheduling</text>
-  <text x="130" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#0369a1">yourself?</text>
-  <line x1="130" y1="166" x2="130" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="60" y1="186" x2="200" y2="186" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="60" y1="186" x2="60" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="60,208 55,200 65,200" fill="#94a3b8"/>
-  <line x1="200" y1="186" x2="200" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="200,208 195,200 205,200" fill="#94a3b8"/>
-  <text x="95" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Yes</text>
-  <text x="165" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">No</text>
-  <rect x="10" y="208" width="100" height="46" fill="#10b981" rx="8"/>
-  <text x="60" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="white">Aladtec</text>
-  <text x="60" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">Self-serve</text>
-  <rect x="145" y="208" width="110" height="46" fill="#3b82f6" rx="8"/>
-  <text x="200" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="white">SimpleScheduleAI</text>
-  <text x="200" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dbeafe">Managed service</text>
-  <rect x="310" y="120" width="180" height="52" fill="#f0fdf4" rx="8"/>
-  <text x="400" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#166534">SmartLinx or Aladtec</text>
-  <text x="400" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#15803d">+ QGenda if physician sched.</text>
-  <rect x="590" y="120" width="160" height="52" fill="#fff7ed" rx="8"/>
-  <text x="670" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#9a3412">QGenda or SmartLinx</text>
-  <text x="670" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#c2410c">+ OnShift if post-acute</text>
-  <line x1="670" y1="172" x2="670" y2="208" stroke="#94a3b8" stroke-width="1.5"/>
-  <polygon points="670,208 665,200 675,200" fill="#94a3b8"/>
-  <text x="690" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">200+</text>
-  <rect x="590" y="208" width="160" height="46" fill="#fee2e2" rx="8"/>
-  <text x="670" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991b1b">UKG / API Healthcare</text>
-  <text x="670" y="244" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#b91c1c">Enterprise-grade</text>
-  <rect x="20" y="310" width="760" height="52" fill="#fef3c7" rx="8"/>
-  <text x="400" y="332" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#92400e">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</text>
-  <text x="400" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#a16207">Implementation takes 6-18 months - more than most small hospitals can manage internally.</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+  <div class="rounded-lg border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950 p-5">
+    <p class="font-bold text-blue-800 dark:text-blue-300 text-sm mb-3">Under 25 beds</p>
+    <div class="space-y-2">
+      <div class="rounded bg-green-100 dark:bg-green-900 border border-green-300 dark:border-green-700 px-3 py-2">
+        <p class="font-semibold text-green-800 dark:text-green-300 text-xs">Want self-serve: Aladtec</p>
+      </div>
+      <div class="rounded bg-blue-100 dark:bg-blue-900 border border-blue-300 dark:border-blue-700 px-3 py-2">
+        <p class="font-semibold text-blue-800 dark:text-blue-300 text-xs">Want managed: SimpleScheduleAI</p>
+      </div>
+      <div class="rounded bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 px-3 py-2">
+        <p class="text-red-700 dark:text-red-400 text-xs">Avoid: UKG, QGenda, Deputy</p>
+      </div>
+    </div>
+  </div>
+  <div class="rounded-lg border border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-950 p-5">
+    <p class="font-bold text-green-800 dark:text-green-300 text-sm mb-3">25–75 beds</p>
+    <div class="space-y-2">
+      <div class="rounded bg-green-100 dark:bg-green-900 border border-green-300 dark:border-green-700 px-3 py-2">
+        <p class="font-semibold text-green-800 dark:text-green-300 text-xs">SmartLinx or Aladtec</p>
+      </div>
+      <div class="rounded bg-green-100 dark:bg-green-900 border border-green-300 dark:border-green-700 px-3 py-2">
+        <p class="text-green-700 dark:text-green-400 text-xs">+ QGenda if physician scheduling needed</p>
+      </div>
+      <div class="rounded bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 px-3 py-2">
+        <p class="text-red-700 dark:text-red-400 text-xs">Avoid: UKG, NurseGrid (too lightweight)</p>
+      </div>
+    </div>
+  </div>
+  <div class="rounded-lg border border-orange-200 dark:border-orange-800 bg-orange-50 dark:bg-orange-950 p-5">
+    <p class="font-bold text-orange-800 dark:text-orange-300 text-sm mb-3">75–200+ beds</p>
+    <div class="space-y-2">
+      <div class="rounded bg-orange-100 dark:bg-orange-900 border border-orange-300 dark:border-orange-700 px-3 py-2">
+        <p class="font-semibold text-orange-800 dark:text-orange-300 text-xs">QGenda or SmartLinx</p>
+      </div>
+      <div class="rounded bg-orange-100 dark:bg-orange-900 border border-orange-300 dark:border-orange-700 px-3 py-2">
+        <p class="text-orange-700 dark:text-orange-400 text-xs">+ OnShift if post-acute volume</p>
+      </div>
+      <div class="rounded bg-red-100 dark:bg-red-900 border border-red-300 dark:border-red-700 px-3 py-2">
+        <p class="font-semibold text-red-800 dark:text-red-300 text-xs">200+ only: UKG / API Healthcare</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="not-prose rounded-lg bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 px-5 py-4 my-4">
+  <p class="font-semibold text-amber-800 dark:text-amber-300 text-sm">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</p>
+  <p class="text-amber-700 dark:text-amber-400 text-xs mt-1">Implementation takes 6–18 months — more than most small hospitals can manage internally.</p>
+</div>
 
 ## What to Do This Week
 

@@ -58,25 +58,28 @@ An AI scheduling system optimizes for measurable requirements applied consistent
 
 The output is a schedule that meets all coverage requirements and scores as well as possible on the softer measures. It does not produce a perfect schedule. It produces a schedule that is better on measurable fairness measures than what most manual processes produce, because it applies the same rules to every nurse without the informal shortcuts that accumulate in manually built schedules.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="What an AI scheduling system optimizes for versus what it cannot assess">
-  <title>AI Scheduling: What It Optimizes For vs. What It Cannot Assess</title>
-  <rect width="720" height="220" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">What AI Scheduling Handles vs. What the Manager Handles</text>
-  <rect x="20" y="44" width="330" height="158" fill="#f0fdf4" rx="8" stroke="#86efac" stroke-width="1.5"/>
-  <text x="185" y="66" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#166534" text-anchor="middle">AI Optimizes (Measurable)</text>
-  <text x="40" y="92" font-family="system-ui,sans-serif" font-size="11" fill="#166534">Coverage requirements per shift</text>
-  <text x="40" y="112" font-family="system-ui,sans-serif" font-size="11" fill="#166534">Credential and competency matching</text>
-  <text x="40" y="132" font-family="system-ui,sans-serif" font-size="11" fill="#166534">Overtime and rest rule compliance</text>
-  <text x="40" y="152" font-family="system-ui,sans-serif" font-size="11" fill="#166534">Weekend and holiday distribution</text>
-  <text x="40" y="172" font-family="system-ui,sans-serif" font-size="11" fill="#166534">Stated shift preferences</text>
-  <rect x="370" y="44" width="330" height="158" fill="#fef2f2" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="535" y="66" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#991b1b" text-anchor="middle">Manager Judges (Contextual)</text>
-  <text x="390" y="92" font-family="system-ui,sans-serif" font-size="11" fill="#991b1b">Personal circumstances not in the system</text>
-  <text x="390" y="112" font-family="system-ui,sans-serif" font-size="11" fill="#991b1b">Informal team agreements and dynamics</text>
-  <text x="390" y="132" font-family="system-ui,sans-serif" font-size="11" fill="#991b1b">Whether a draft assignment will cause conflict</text>
-  <text x="390" y="152" font-family="system-ui,sans-serif" font-size="11" fill="#991b1b">Clinical judgment about team composition</text>
-  <text x="390" y="172" font-family="system-ui,sans-serif" font-size="11" fill="#991b1b">Final approval of every schedule posted</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+  <div class="rounded-lg border-2 border-green-300 dark:border-green-700 bg-green-50 dark:bg-green-950 p-5">
+    <p class="font-bold text-green-800 dark:text-green-300 text-sm mb-3">AI Optimizes (Measurable)</p>
+    <ul class="space-y-2 text-sm text-green-800 dark:text-green-300">
+      <li>Coverage requirements per shift</li>
+      <li>Credential and competency matching</li>
+      <li>Overtime and rest rule compliance</li>
+      <li>Weekend and holiday distribution</li>
+      <li>Stated shift preferences</li>
+    </ul>
+  </div>
+  <div class="rounded-lg border-2 border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-950 p-5">
+    <p class="font-bold text-red-800 dark:text-red-300 text-sm mb-3">Manager Judges (Contextual)</p>
+    <ul class="space-y-2 text-sm text-red-800 dark:text-red-300">
+      <li>Personal circumstances not in the system</li>
+      <li>Informal team agreements and dynamics</li>
+      <li>Whether a draft assignment will cause conflict</li>
+      <li>Clinical judgment about team composition</li>
+      <li>Final approval of every schedule posted</li>
+    </ul>
+  </div>
+</div>
 
 ## What Can an AI Scheduling System Not Do?
 
@@ -98,35 +101,41 @@ Auditing an AI-generated schedule before posting requires checking three things:
 
 **Shift preference fulfillment** is the percentage of stated shift preferences that were honored in the draft. No schedule can honor every preference, because some preferences conflict with coverage requirements. But a fulfillment rate below 60 to 70 percent is worth examining: it usually indicates a coverage gap that is being resolved by overriding preferences rather than by scheduling additional staff.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Three-step audit checklist for an AI-generated nurse schedule before posting">
-  <title>AI Schedule Audit Checklist: Three Things to Check Before Posting</title>
-  <rect width="720" height="200" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#0f172a" text-anchor="middle">Three-Step Audit Before Posting Any AI-Generated Schedule</text>
-  <rect x="20" y="44" width="214" height="136" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="20" y="44" width="214" height="36" fill="#2563eb" rx="8"/>
-  <rect x="20" y="68" width="214" height="12" fill="#2563eb"/>
-  <text x="127" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Step 1: Coverage Check</text>
-  <text x="127" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">No unqualified assignments</text>
-  <text x="127" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">No overtime violations</text>
-  <text x="127" y="136" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Minimum rest honored</text>
-  <text x="127" y="164" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#2563eb" text-anchor="middle">Must pass before review</text>
-  <rect x="253" y="44" width="214" height="136" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="253" y="44" width="214" height="36" fill="#7c3aed" rx="8"/>
-  <rect x="253" y="68" width="214" height="12" fill="#7c3aed"/>
-  <text x="360" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Step 2: Fairness Check</text>
-  <text x="360" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Weekend load per nurse vs. FTE</text>
-  <text x="360" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Holiday burden vs. prior cycles</text>
-  <text x="360" y="136" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Night shift distribution</text>
-  <text x="360" y="164" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#7c3aed" text-anchor="middle">Adjust before posting if uneven</text>
-  <rect x="486" y="44" width="214" height="136" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="486" y="44" width="214" height="36" fill="#0f766e" rx="8"/>
-  <rect x="486" y="68" width="214" height="12" fill="#0f766e"/>
-  <text x="593" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Step 3: Preference Check</text>
-  <text x="593" y="104" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Match rate above 60-70%</text>
-  <text x="593" y="120" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Check low-match nurses first</text>
-  <text x="593" y="136" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Investigate persistent low matches</text>
-  <text x="593" y="164" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#0f766e" text-anchor="middle">Flag coverage gaps if rate is low</text>
-</svg>
+<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-blue-600 dark:bg-blue-700 px-4 py-3">
+      <p class="font-bold text-white text-sm">Step 1: Coverage Check</p>
+    </div>
+    <ul class="px-4 py-3 space-y-2 text-xs text-slate-700 dark:text-slate-300">
+      <li>No unqualified assignments</li>
+      <li>No overtime violations</li>
+      <li>Minimum rest honored</li>
+    </ul>
+    <p class="px-4 pb-3 text-xs font-semibold text-blue-600 dark:text-blue-400">Must pass before review</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-violet-600 dark:bg-violet-700 px-4 py-3">
+      <p class="font-bold text-white text-sm">Step 2: Fairness Check</p>
+    </div>
+    <ul class="px-4 py-3 space-y-2 text-xs text-slate-700 dark:text-slate-300">
+      <li>Weekend load per nurse vs. FTE</li>
+      <li>Holiday burden vs. prior cycles</li>
+      <li>Night shift distribution</li>
+    </ul>
+    <p class="px-4 pb-3 text-xs font-semibold text-violet-600 dark:text-violet-400">Adjust before posting if uneven</p>
+  </div>
+  <div class="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-teal-700 dark:bg-teal-800 px-4 py-3">
+      <p class="font-bold text-white text-sm">Step 3: Preference Check</p>
+    </div>
+    <ul class="px-4 py-3 space-y-2 text-xs text-slate-700 dark:text-slate-300">
+      <li>Match rate above 60–70%</li>
+      <li>Check low-match nurses first</li>
+      <li>Investigate persistent low matches</li>
+    </ul>
+    <p class="px-4 pb-3 text-xs font-semibold text-teal-700 dark:text-teal-400">Flag coverage gaps if rate is low</p>
+  </div>
+</div>
 
 ## How Do You Address Staff Skepticism About AI Scheduling?
 
