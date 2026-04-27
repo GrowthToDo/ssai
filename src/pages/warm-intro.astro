@@ -12,8 +12,8 @@ const metadata = {
 const calLink = 'https://cal.com/gautham-8bdvdx/30min';
 
 // Placeholder YouTube video IDs - swap these when real videos are uploaded
-const videoGenericIntro = 'jNQXAC9IVRw';   // Video 1: Generic Warm Intro
-const videoProductDemo  = 'dQw4w9WgXcQ';   // Video 2: Detailed Product Demo
+const videoGenericIntro = 'E3EE-2lpBL0';   // Video 1: Generic Warm Intro
+const videoProductDemo  = 'AeqOsd2dFX8';   // Video 2: Detailed Product Demo
 ---
 
 <Layout metadata={metadata}>
@@ -29,8 +29,7 @@ const videoProductDemo  = 'dQw4w9WgXcQ';   // Video 2: Detailed Product Demo
         Can you make an introduction?
       </h1>
       <p class="mt-5 text-lg text-muted max-w-2xl mx-auto">
-        I'm building SimpleScheduleAI, AI-powered nurse scheduling for Critical Access Hospitals. Watch
-        these two short videos. If you know a nursing manager, hospital admin, or someone who might invest
+        We're building SimpleScheduleAI, AI-powered nurse scheduling for Critical Access Hospitals. If you know a nursing manager, hospital admin, or someone who might invest
         in this space, I'd love a warm intro.
       </p>
     </div>
@@ -42,6 +41,13 @@ const videoProductDemo  = 'dQw4w9WgXcQ';   // Video 2: Detailed Product Demo
       <div class="grid gap-8 lg:grid-cols-2">
         <!-- Video 1 -->
         <div class="rounded-3xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 overflow-hidden shadow-sm">
+          <div class="p-6 pb-4">
+            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">Video 1 · 90 seconds</p>
+            <h2 class="text-xl font-bold text-gray-900 dark:text-white">The Quick Overview</h2>
+            <p class="mt-2 text-muted text-sm">
+              What we're building, who it's for, and the three ways you can help, in 90 seconds.
+            </p>
+          </div>
           <div class="aspect-video w-full">
             <iframe
               class="w-full h-full"
@@ -52,34 +58,27 @@ const videoProductDemo  = 'dQw4w9WgXcQ';   // Video 2: Detailed Product Demo
               allowfullscreen
             ></iframe>
           </div>
-          <div class="p-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">Video 1 · 1 min</p>
-            <h2 class="text-xl font-bold text-gray-900 dark:text-white">The Quick Overview</h2>
-            <p class="mt-2 text-muted text-sm">
-              What we're building, who it's for, and the three ways you can help, in under a minute.
-            </p>
-          </div>
         </div>
 
         <!-- Video 2 -->
         <div class="rounded-3xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 overflow-hidden shadow-sm">
+          <div class="p-6 pb-4">
+            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">Video 2 · 8 min</p>
+            <h2 class="text-xl font-bold text-gray-900 dark:text-white">Product Walkthrough</h2>
+            <p class="mt-2 text-muted text-sm">
+              A walkthrough of the scheduling engine: callouts, shift swaps, audit trail, and the
+              generate-in-under-a-minute experience.
+            </p>
+          </div>
           <div class="aspect-video w-full">
             <iframe
               class="w-full h-full"
               src={`https://www.youtube.com/embed/${videoProductDemo}`}
-              title="SimpleScheduleAI Full Product Demo"
+              title="SimpleScheduleAI Product Walkthrough"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
-          <div class="p-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-primary mb-1">Video 2 · 4 min</p>
-            <h2 class="text-xl font-bold text-gray-900 dark:text-white">Full Product Demo</h2>
-            <p class="mt-2 text-muted text-sm">
-              A live walkthrough of the scheduling engine: callouts, shift swaps, audit trail, and the
-              generate-in-under-a-minute experience.
-            </p>
           </div>
         </div>
       </div>
@@ -162,6 +161,15 @@ const videoProductDemo  = 'dQw4w9WgXcQ';   // Video 2: Detailed Product Demo
         >
           <Icon name="tabler:phone" class="w-5 h-5 shrink-0" />
           +91 94004 74785
+        </a>
+        <a
+          href="https://wa.me/9400474785"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-3 text-lg text-green-400 hover:text-white transition-colors"
+        >
+          <Icon name="tabler:brand-whatsapp" class="w-5 h-5 shrink-0" />
+          WhatsApp me
         </a>
       </div>
 
