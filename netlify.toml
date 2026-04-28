@@ -37,10 +37,10 @@
   status = 301
   force = true
 
-# /ask is an alias for the warm intro page
+# /warm-intro redirects to the canonical /ask page
 [[redirects]]
-  from = "/ask"
-  to = "/warm-intro"
+  from = "/warm-intro"
+  to = "/ask"
   status = 301
   force = true
 
