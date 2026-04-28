@@ -270,6 +270,39 @@ function checkAiTone(content) {
   return warnings;
 }
 
+function checkDarkModeOnTables(content) {
+  const failures = [];
+  const tableBlocks = content.match(/<table[\s\S]*?<\/table>/gi) || [];
+  for (const block of tableBlocks) {
+    const hasBgClass = /class="[^"]*bg-/.test(block) || /class="[^"]*border-/.test(block);
+    if (!hasBgClass) continue;
+    if (!block.includes('dark:')) {
+      failures.push(
+        '  HTML <table> found with bg/border classes but no dark: variants. Add dark:bg-*, dark:border-*, and dark:text-* classes to prevent unreadable table in dark mode.'
+      );
+    }
+  }
+  return failures;
+}
+
+const HUB_PAGES = [
+  '/critical-access-hospital-scheduling',
+  '/nurse-scheduling-software',
+  '/how-it-works',
+  '/roi',
+  '/pilot',
+];
+
+function checkInternalLinks(content, fm) {
+  const warnings = [];
+  const body = content.replace(/^---[\s\S]*?---/, '');
+  const linkedHubs = HUB_PAGES.filter((hub) => body.includes(hub));
+  if (linkedHubs.length === 0) {
+    warnings.push(`  No internal links to hub pages found. Add at least one link to: ${HUB_PAGES.join(', ')}`);
+  }
+  return warnings;
+}
+
 // ─── publish action ──────────────────────────────────────────────────────────
 
 function publishPost(filePath, title, today) {
@@ -330,7 +363,9 @@ async function main() {
     failures.push(...(await checkImageRelevanceAuto(fm, pool)));
     failures.push(...checkImageNotDuplicated(filename, fm));
     failures.push(...checkPrettier(filePath));
+    failures.push(...checkDarkModeOnTables(content));
     warnings.push(...checkAiTone(content));
+    warnings.push(...checkInternalLinks(content, fm));
 
     if (warnings.length > 0) {
       console.log(`  WARNINGS (non-blocking):\n${warnings.join('\n')}`);
