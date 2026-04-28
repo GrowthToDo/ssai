@@ -37,6 +37,13 @@
   status = 301
   force = true
 
+# /warm-intro redirects to the canonical /ask page
+[[redirects]]
+  from = "/warm-intro"
+  to = "/ask"
+  status = 301
+  force = true
+
 # Catch-all: return true 404 status for unmatched URLs (prevents soft 404s)
 [[redirects]]
   from = "/*"
