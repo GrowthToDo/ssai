@@ -9,7 +9,7 @@ excerpt: >
   hospitals, but it is a self-serve platform built for organizations with dedicated scheduling
   staff. For CAHs where the nurse manager builds schedules in addition to clinical duties,
   the best alternative is one that reduces operating burden, not just changes the interface.
-image: https://images.unsplash.com/photo-1601933470096-0e34634ffcde?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software
