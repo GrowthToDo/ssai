@@ -29,6 +29,8 @@ const LOG_FILE = join(ROOT, 'PUBLISHING-LOG.md');
 const IMAGE_POOL_FILE = join(__dirname, 'image-pool.json');
 
 const DRY_RUN = process.argv.includes('--dry-run');
+const CHECK_FILE_INDEX = process.argv.indexOf('--check-file');
+const CHECK_FILE = CHECK_FILE_INDEX >= 0 ? process.argv[CHECK_FILE_INDEX + 1] : null;
 
 // AI tone phrases — WARN only, do not block
 const AI_TONE_PHRASES = [
@@ -303,6 +305,76 @@ function checkInternalLinks(content, fm) {
   return warnings;
 }
 
+function checkBrokenInternalBlogLinks(content, currentSlug) {
+  const failures = [];
+  const body = content.replace(/^---[\s\S]*?---/, '');
+  const blogLinkRegex = /\]\(\/blog\/([a-z0-9-]+?)(?:#[^)]*)?\)/g;
+  const seen = new Set();
+  let match;
+  while ((match = blogLinkRegex.exec(body)) !== null) {
+    const slug = match[1];
+    if (slug === currentSlug || seen.has(slug)) continue;
+    seen.add(slug);
+    const targetPath = join(POSTS_DIR, `${slug}.md`);
+    try {
+      const targetContent = readFileSync(targetPath, 'utf8');
+      const targetFm = parseFrontmatter(targetContent);
+      if (!targetFm) {
+        failures.push(`  Broken /blog/${slug} link: target file has no frontmatter`);
+        continue;
+      }
+      if (targetFm.draft) {
+        failures.push(
+          `  Broken /blog/${slug} link: target post is still draft (publishDate ${targetFm.publishDate || 'unknown'}). Remove the link or wait until the target is live.`
+        );
+      }
+    } catch {
+      failures.push(`  Broken /blog/${slug} link: no file at src/data/post/${slug}.md`);
+    }
+  }
+  return failures;
+}
+
+function checkDuplicateBrandHeadings(content) {
+  const failures = [];
+  const h3s = (content.match(/^###\s+(.+)$/gm) || []).map((line) => line.replace(/^###\s+/, '').trim());
+  const counts = {};
+  for (const h3 of h3s) {
+    const key = h3
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]/g, '')
+      .trim();
+    if (!key) continue;
+    if (key.startsWith('scenario ')) continue;
+    counts[key] = (counts[key] || 0) + 1;
+  }
+  for (const [key, count] of Object.entries(counts)) {
+    if (count > 1) {
+      failures.push(
+        `  Duplicate H3 heading "${key}" appears ${count} times. Each brand or topic should have one full profile, not two.`
+      );
+    }
+  }
+  return failures;
+}
+
+const VALID_SLATE_SCALE = new Set(['50', '100', '200', '300', '400', '500', '600', '700', '800', '900', '950']);
+const TAILWIND_INVALID_PATTERN = /(?:^|[\s"'])(?:dark:)?(?:bg|text|border)-slate-(\d+)/g;
+
+function checkInvalidTailwindSlate(content) {
+  const failures = [];
+  let match;
+  while ((match = TAILWIND_INVALID_PATTERN.exec(content)) !== null) {
+    const shade = match[1];
+    if (!VALID_SLATE_SCALE.has(shade)) {
+      failures.push(
+        `  Invalid Tailwind class "slate-${shade}" found. Slate scale only includes ${[...VALID_SLATE_SCALE].join(', ')}. Use the nearest valid shade (e.g. slate-700 instead of slate-750).`
+      );
+    }
+  }
+  return [...new Set(failures)];
+}
+
 // ─── publish action ──────────────────────────────────────────────────────────
 
 function publishPost(filePath, title, today) {
@@ -324,9 +396,49 @@ function publishPost(filePath, title, today) {
 
 // ─── main ────────────────────────────────────────────────────────────────────
 
+async function runChecks(filePath, fm, content, slug, pool) {
+  const failures = [];
+  const warnings = [];
+  failures.push(...checkEmDash(content));
+  failures.push(...checkDoubleDash(content));
+  failures.push(...checkCanonical(fm, slug));
+  failures.push(...(await checkImageUrl(fm)));
+  failures.push(...(await checkImageRelevanceAuto(fm, pool)));
+  failures.push(...checkImageNotDuplicated(basename(filePath), fm));
+  failures.push(...checkPrettier(filePath));
+  failures.push(...checkDarkModeOnTables(content));
+  failures.push(...checkBrokenInternalBlogLinks(content, slug));
+  failures.push(...checkDuplicateBrandHeadings(content));
+  failures.push(...checkInvalidTailwindSlate(content));
+  warnings.push(...checkAiTone(content));
+  warnings.push(...checkInternalLinks(content, fm));
+  return { failures, warnings };
+}
+
 async function main() {
   const today = todayString();
   const pool = loadImagePool();
+
+  if (CHECK_FILE) {
+    const filePath = CHECK_FILE.startsWith('/') || /^[A-Za-z]:/.test(CHECK_FILE) ? CHECK_FILE : join(ROOT, CHECK_FILE);
+    const content = readFileSync(filePath, 'utf8');
+    const fm = parseFrontmatter(content);
+    if (!fm) {
+      console.error(`No frontmatter found in ${filePath}`);
+      process.exit(1);
+    }
+    const slug = basename(filePath, '.md');
+    console.log(`Checking: ${slug}`);
+    const { failures, warnings } = await runChecks(filePath, fm, content, slug, pool);
+    if (warnings.length > 0) console.log(`WARNINGS:\n${warnings.join('\n')}`);
+    if (failures.length > 0) {
+      console.log(`FAILURES:\n${failures.join('\n')}`);
+      process.exit(1);
+    }
+    console.log('All checks passed.');
+    return;
+  }
+
   const files = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
 
   const due = [];
@@ -352,20 +464,7 @@ async function main() {
   for (const { filename, filePath, fm, content } of due) {
     const slug = basename(filename, '.md');
     console.log(`\nChecking: ${slug}`);
-
-    const failures = [];
-    const warnings = [];
-
-    failures.push(...checkEmDash(content));
-    failures.push(...checkDoubleDash(content));
-    failures.push(...checkCanonical(fm, slug));
-    failures.push(...(await checkImageUrl(fm)));
-    failures.push(...(await checkImageRelevanceAuto(fm, pool)));
-    failures.push(...checkImageNotDuplicated(filename, fm));
-    failures.push(...checkPrettier(filePath));
-    failures.push(...checkDarkModeOnTables(content));
-    warnings.push(...checkAiTone(content));
-    warnings.push(...checkInternalLinks(content, fm));
+    const { failures, warnings } = await runChecks(filePath, fm, content, slug, pool);
 
     if (warnings.length > 0) {
       console.log(`  WARNINGS (non-blocking):\n${warnings.join('\n')}`);

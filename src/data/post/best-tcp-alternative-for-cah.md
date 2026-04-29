@@ -9,7 +9,7 @@ excerpt: >
   hospitals, but it is a self-serve platform built for organizations with dedicated scheduling
   staff. For CAHs where the nurse manager builds schedules in addition to clinical duties,
   the best alternative is one that reduces operating burden, not just changes the interface.
-image: https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1601933470096-0e34634ffcde?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - tcp-scheduling-software
@@ -84,13 +84,11 @@ For a CAH operating under [CMS Conditions of Participation](https://www.cms.gov/
 
 TCP Scheduling Software is the current brand name for what most CAH nurse managers know as Aladtec. TCP Software, Inc. acquired Aladtec in 2021. The product continues to operate under the Aladtec interface for most existing customers, but TCP Scheduling Software is the current brand for new sales and support. If you are searching for "Aladtec alternatives," you are looking at the same product and the same set of alternatives.
 
-TCP is a self-serve scheduling platform. That means a person at your facility, typically the nurse manager or a scheduling coordinator, configures it, maintains it, and uses it to build every schedule. The platform provides the structure; your staff provides the labor.
-
-For more context on how [nurse scheduling software](/nurse-scheduling-software) fits into CAH operations, see our hub page on the options available.
+TCP is a self-serve [nurse scheduling platform](/nurse-scheduling-software). That means a person at your facility, typically the nurse manager or a scheduling coordinator, configures it, maintains it, and uses it to build every schedule. The platform provides the structure; your staff provides the labor.
 
 ## What Does TCP Cover and What Does It Miss?
 
-TCP covers the basic requirements for CAH scheduling: shift assignment, availability tracking, overtime visibility (manual), and basic credential fields. It is healthcare-aware in a way that generic [employee scheduling tools](/blog/staff-scheduling-software-healthcare-vs-generic) are not.
+TCP covers the basic requirements for CAH scheduling: shift assignment, availability tracking, overtime visibility (manual), and basic credential fields. It is healthcare-aware in a way that generic employee scheduling tools are not.
 
 What TCP does not cover well:
 
@@ -102,57 +100,19 @@ These gaps matter most at understaffed CAHs where the nurse manager has no sched
 
 ## What Is the Best TCP Alternative for Each Scenario?
 
+The right TCP alternative depends on which problem you are solving. Self-serve frustration and scheduling labor look similar from a distance but have different solutions.
+
 ### Scenario 1: Better Self-Serve Software
 
-If you want to keep building schedules yourself but with a better platform, **ShiftWizard** is the strongest CAH-appropriate alternative to TCP.
+If you want to keep building schedules yourself but with a better platform, **ShiftWizard** is the strongest CAH-appropriate alternative to TCP. It is designed by nurses for hospital scheduling, has a more modern interface than TCP, and matches its healthcare-specific feature coverage. Setup time and cost are comparable, so the lift to switch is the same; the upside is a cleaner workflow.
 
-ShiftWizard is designed by nurses for hospital scheduling and used by 500+ facilities. It has a more modern interface than TCP and similar healthcare-specific feature coverage. Setup runs 2-4 weeks, comparable to TCP.
-
-**Best for:** CAHs where the primary TCP issue is the interface or workflow experience, and where a self-serve model with direct control is preferred.
-
-**Key advantages:**
-
-- Hospital-specific design, not adapted from EMS or general workforce tools
-- More intuitive shift assignment workflow than TCP
-- Float pool and per diem management built in
-
-**Key limitations:**
-
-- Mobile app gaps: managers cannot view full department schedules on mobile
-- Shift swap functionality has reliability issues per reviewer reports
-- Onboarding support is weak relative to price
-
-**Verdict:** If you want direct platform control and your main TCP frustration is the interface or click count, ShiftWizard is the right switch. If your main frustration is the number of hours scheduling takes each week, changing platforms will not solve that problem.
-
-**Cost:** Pricing not listed publicly. Contact for a quote.
-
-For a full breakdown of ShiftWizard vs. other options, see our [ShiftWizard alternatives](/blog/shiftwizard-alternatives) post.
+This switch makes sense when the complaint is interface or click count. It does not reduce the hours your nurse manager spends scheduling each week. See the full ShiftWizard profile in the comparison section below.
 
 ### Scenario 2: Scheduling Work Done for You
 
-If the goal is structural burden reduction rather than a better tool, **SimpleScheduleAI** is the managed service alternative to TCP.
+If the goal is structural burden reduction rather than a better tool, **SimpleScheduleAI** is the managed service alternative to TCP. It does not replace TCP with a different platform; it replaces the self-serve model entirely. A scheduling specialist handles configuration, roster maintenance, and weekly schedule generation; the nurse manager reviews drafts and approves.
 
-SimpleScheduleAI does not replace TCP with a different platform. It replaces the self-serve model entirely. A scheduling specialist handles configuration, roster maintenance, and weekly schedule generation. The nurse manager reviews draft schedules and approves. Setup takes 3-5 business days via Excel roster upload: no IT involvement, no learning period.
-
-**Best for:** CAHs where the nurse manager is already stretched and the issue is scheduling labor, not just interface preference.
-
-**Key advantages:**
-
-- Setup in 3-5 days vs. 2-4 weeks for self-serve platforms
-- Weekly scheduling time drops from 4-6 hours (building) to 1-2 hours (reviewing)
-- Callout coverage shortlists delivered pre-ranked with certification, overtime, and fairness constraints applied
-- Proactive overtime flagging before the draft is presented to the nurse manager
-- FLSA, Texas Labor Code, and CMS §485.635 audit trail included by default, no configuration required
-
-**Key limitations:**
-
-- No nurse-facing mobile app. Staff receive schedules through the facility's existing communication method (email, group text, posted schedule).
-- Less direct platform control for nurse managers who prefer to build schedules themselves
-- Not appropriate if staff self-service (shift swap, availability submission via app) is a hard facility requirement
-
-**Verdict:** Right choice if scheduling labor is the primary burden. Wrong choice if nurses using a mobile app to view schedules or submit availability is a priority.
-
-**Cost:** Starting pricing available at [simplescheduleai.com/pilot](/pilot). No long-term contract required for the pilot.
+The trade-off is the staff-facing experience: TCP has a nurse-facing mobile app, SimpleScheduleAI does not. The full SimpleScheduleAI profile, including pricing and limitations, is in the comparison section below.
 
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:480px">
@@ -169,7 +129,7 @@ SimpleScheduleAI does not replace TCP with a different platform. It replaces the
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks (nurse manager configures)</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days (specialist configures)</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-750">
+      <tr class="bg-slate-50 dark:bg-slate-700">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Weekly scheduling</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">4-6 hrs (nurse manager builds)</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-2 hrs (nurse manager reviews)</td>
@@ -179,7 +139,7 @@ SimpleScheduleAI does not replace TCP with a different platform. It replaces the
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manager checks platform manually</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Pre-ranked shortlist delivered</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-750">
+      <tr class="bg-slate-50 dark:bg-slate-700">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Overtime tracking</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manual check</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Proactive, before draft presented</td>
@@ -269,8 +229,6 @@ NurseGrid is a mobile-first option designed for per diem and shift-trading workf
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
-For a deeper comparison, see [NurseGrid alternatives](/blog/nursegrid-alternatives).
-
 ### SimpleScheduleAI
 
 SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A scheduling specialist handles configuration, roster maintenance, and weekly schedule generation. The nurse manager reviews drafts and approves. This is the only option in this list that does not require the nurse manager to operate scheduling software on an ongoing basis.
@@ -293,8 +251,6 @@ SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A s
 **Verdict:** Right choice if scheduling labor is the primary burden. Wrong choice if nurses using an app to view schedules or submit availability is a priority.
 
 **Cost:** Starting pricing available at [simplescheduleai.com/pilot](/pilot). Pilot available for qualifying CAHs.
-
-For a broader comparison across all [TCP scheduling software alternatives](/blog/tcp-scheduling-software-alternatives), including tools outside this list, see our full alternative roundup.
 
 ## What Are the Four Questions to Ask Any TCP Alternative?
 
