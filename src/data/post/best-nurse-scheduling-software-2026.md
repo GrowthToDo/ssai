@@ -486,7 +486,7 @@ Several shifts in the market are worth knowing about before you buy:
 
 SimpleScheduleAI is not competing with UKG or QGenda. It is built for small Critical Access Hospitals in Texas where the managed service model and state compliance requirements are most developed.
 
-The product is a managed scheduling service, not self-serve software. You send us your roster via Excel. We build the weekly schedule using fairness, overtime, and compliance rules. You approve. When a nurse calls out, you get a ranked shortlist of qualified, available, non-overtime staff within minutes instead of two hours of phone calls.
+The product is a managed scheduling service, not self-serve software. You send us your roster via Excel. We build the weekly schedule using fairness, overtime, and compliance rules. You approve. When a nurse calls out, you get a ranked shortlist of qualified, available, non-overtime staff within minutes instead of two hours of phone calls. If you're currently building schedules in a spreadsheet, our [nurse scheduling software vs. Excel breakdown](/blog/nurse-scheduling-software-vs-excel) walks through where Excel stops working at the CAH scale.
 
 It is not the right fit for every hospital. If your facility has 75+ beds, a dedicated scheduling administrator, or needs deep EHR integration, one of the mid-market platforms will serve you better. If you are a small CAH in Texas where the nurse manager is also on the floor half the week, it is worth a conversation.
 
