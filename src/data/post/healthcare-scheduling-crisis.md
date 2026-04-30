@@ -144,7 +144,7 @@ that grows with every undocumented change.
 
 **How it happens in practice:** A nurse calls out. You update the unit whiteboard.
 You forget the Excel master. You post a PDF to the portal from an old file. Now you
-have three conflicting sources of truth and no clear record.
+have three conflicting sources of truth and no clear record. For a side-by-side breakdown of where Excel breaks down for CAH scheduling specifically, see [nurse scheduling software vs. Excel](/blog/nurse-scheduling-software-vs-excel).
 
 In a CMS survey, a surveyor may request staffing records for any 24-hour period
 within the prior 12 months. If your whiteboard showed one assignment and your timesheet

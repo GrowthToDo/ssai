@@ -24,11 +24,55 @@ Excel is free and familiar, but nurse managers at critical access hospitals typi
 
 Nurse scheduling software automatically enforces staffing rules, tracks certifications, flags overtime risks, and generates coverage reports, all in real time. Excel requires a manager to do all of that manually, cell by cell, every single week.
 
+<div class="not-prose overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse" style="min-width:640px">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Scheduling Task</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Excel</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Scheduling Software</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Sunday-evening callout response</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">30–45 min phone tree</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Ranked shortlist in seconds</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Overtime visibility</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Discovered on payroll report</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Flagged before schedule posts</td>
+      </tr>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 audit trail</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Reconstructed manually</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Auto-logged per change</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Credential expiry tracking</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Separate file, manual check</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Linked to assignments</td>
+      </tr>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Cross-cycle fairness</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Memory + spot checks</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Running counts across cycles</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Manager weekly burden</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">8–12 hours</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1–4 hours (depends on model)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 The practical difference matters most when something breaks. With Excel, a Sunday evening callout means opening a spreadsheet, scrolling through availability notes, texting staff manually, and hoping someone picks up. With scheduling software, the system already knows who is qualified, who is available, and who hasn't hit overtime yet. It surfaces the right options in seconds rather than minutes.
 
 For a 25-bed critical access hospital, the gap goes deeper. Excel offers no built-in logic for CMS Conditions of Participation staffing minimums under [§485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals), no automatic tracking of whether a nurse's certification is current, and no audit trail if a surveyor asks why a shift was staffed the way it was. Scheduling software designed for hospital environments builds those guardrails in. The manager still approves the schedule, but the system catches the problems before they become violations.
 
-The other gap is pattern visibility. Excel shows you who is working next week. Scheduling software shows you that the same three nurses have taken every weekend call for the past six weeks, the kind of burnout signal that only becomes obvious after someone quits.
+The other gap is pattern visibility. Excel shows you who is working next week. Scheduling software shows you that the same three nurses have taken every weekend call for the past six weeks, the kind of burnout signal that only becomes obvious after someone quits. For a deeper breakdown of the hidden cost of manual scheduling at a CAH, see [the $26,000 scheduling burden post](/blog/healthcare-scheduling-crisis).
 
 ## How much time does Excel scheduling actually cost a nurse manager?
 
@@ -44,15 +88,28 @@ At a small CAH, the nurse manager is often also a charge nurse or department hea
 
 Most CAH nurse managers don't switch away from Excel because they've heard a sales pitch, they switch because something breaks badly enough to make the status quo feel impossible. Here are the five patterns that consistently show up before that breaking point:
 
-**1. Weekend shifts are filled by the same people every time.** When you're building the schedule manually, you default to who said yes last time. That convenience compounds into a fairness problem that eventually drives your most reliable staff out the door.
-
-**2. A callout causes a 45-minute scramble.** If covering an unexpected absence requires opening the spreadsheet, cross-referencing a separate availability list, and making a series of phone calls, the process isn't just slow, it's fragile. One bad Sunday can consume an entire morning.
-
-**3. Overtime is discovered after the fact.** Excel doesn't warn you when someone crosses 40 hours under [FLSA rules](https://www.dol.gov/agencies/whd/flsa) or Texas' [Labor Code §62.002](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm). If you're catching overtime on the payroll report rather than before the shift is posted, your scheduling tool isn't giving you what you need.
-
-**4. Credential tracking lives in a separate spreadsheet.** When you need to check whether a nurse's BLS or ACLS certification is current, and that information is in a different file, you have a compliance gap. During a CMS survey, you need that data immediately.
-
-**5. New managers can't use the schedule without a two-week handoff.** If your scheduling system only works because one person knows where all the hidden rules are, it's a single point of failure. Excel schedules built over years tend to be undocumented and non-transferable.
+<div class="not-prose my-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-bold text-white">1. Weekend Inequity</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Same staff fill every weekend because you default to who said yes last time. Compounds into a fairness problem that drives reliable staff out.</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-orange-600 px-3 py-2 text-center text-sm font-bold text-white">2. 45-Minute Callout</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Covering one absence takes opening the spreadsheet, cross-referencing availability, and making calls. One bad Sunday consumes the morning.</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-amber-600 px-3 py-2 text-center text-sm font-bold text-white">3. Overtime Surprise</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">Excel doesn't warn you when someone crosses 40 hours under <a class="underline" href="https://www.dol.gov/agencies/whd/flsa">FLSA</a> or Texas <a class="underline" href="https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm">Labor Code §62.002</a>. You catch it on the payroll report.</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-bold text-white">4. Credential Silo</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">BLS/ACLS expiry lives in a separate file. During a CMS survey, you need that data immediately, not after a 20-minute search.</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">5. Single Point of Failure</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">New managers need a two-week handoff because the schedule only works when one person remembers all the hidden rules. Schedules built over years tend to be non-transferable.</p>
+  </div>
+</div>
 
 ## Is nurse scheduling software worth the cost for a 25-bed hospital?
 
