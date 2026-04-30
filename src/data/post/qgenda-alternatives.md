@@ -1,6 +1,6 @@
 ---
 draft: true
-publishDate: 2026-05-02T00:00:00Z
+publishDate: 2099-01-01T00:00:00Z
 updateDate: 2026-05-12T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best QGenda Alternatives for Small Hospitals in 2026'
