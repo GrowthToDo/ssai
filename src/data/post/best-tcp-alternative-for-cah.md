@@ -181,8 +181,6 @@ ShiftWizard is the closest like-for-like replacement for TCP in the hospital seg
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
-For more detail, see our [ShiftWizard alternatives](/blog/shiftwizard-alternatives) breakdown.
-
 ### Aladtec (now TCP)
 
 Aladtec was acquired by TCP Software in 2021. The product operates under the same interface for existing customers, with TCP branding for new contracts. If nurses at your facility are comfortable with Aladtec and your complaint is specifically support quality or pricing rather than the platform itself, it is worth contacting TCP about contract terms before switching entirely.

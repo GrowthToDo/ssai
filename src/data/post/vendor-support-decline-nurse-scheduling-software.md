@@ -127,7 +127,7 @@ One honest limitation: SimpleScheduleAI does not have a 24/7 support line staffe
 
 For facilities where the primary concern is a scheduling partner who knows the facility and responds when something is broken, the managed service model addresses that directly.
 
-For more context on how a managed service compares to a self-serve platform on practical dimensions, see [ShiftWizard vs. managed scheduling service for CAHs](/blog/shiftwizard-vs-managed-service). For the broader overview of what [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) needs to cover, including compliance and callout coverage, see the feature guide.
+For the broader overview of what [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) needs to cover, including compliance and callout coverage, see the feature guide.
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Want a scheduling service where the same person picks up the phone?</p>

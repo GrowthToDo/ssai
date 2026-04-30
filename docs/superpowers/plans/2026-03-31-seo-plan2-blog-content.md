@@ -442,3 +442,76 @@ Posts are written in this task but published on the drip cadence from the strate
 4. Month 3 (continued): Posts 4, 9, 15, 19, 21, 25 (Consideration)
 5. Month 3 (end): Posts 10, 11, 14, 24 (Decision)
 6. Remaining: Posts 2, 3, 7, 17 (mixed — fill as needed)
+
+---
+
+## Replacement Content After 2026-04-30 HealthStream Cease & Desist
+
+After receiving a cease & desist letter from HealthStream legal counsel on 2026-04-30 over `/blog/shiftwizard-alternatives` (and following an internal audit that flagged similar exposure on `/blog/shiftwizard-vs-managed-service`), both posts were unpublished. The SEO traffic those targeted (CAH nurse managers researching ShiftWizard alternatives + the self-serve vs managed-service comparison) needs to be recovered through new posts written on safer angles — generic frameworks, no competitor-specific factual claims about product capabilities.
+
+**Rules for the replacement content (and all future competitor-adjacent posts):**
+
+1. No specific factual claims about a competitor product's features, capabilities, mobile app behavior, or support quality
+2. No volume language ("consistently", "widely", "many reviewers", "most users") near a competitor name
+3. No feature-absence claims ("does not have X", "no Y", "lacks Z") without a directly attributed quote AND verification against the current product page within the last 30 days
+4. Comparison/evaluation framing only — give the reader a framework to evaluate any platform, not our verdict on a specific one
+5. If a competitor must be named, name them only in neutral context (e.g. "platforms in this category include X, Y, Z") with no qualitative claim attached
+
+### New Post R1: How to Evaluate Any Nurse Scheduling Platform for a CAH
+
+**File:** `src/data/post/how-to-evaluate-nurse-scheduling-platform-cah.md`
+**Hub link:** `/nurse-scheduling-software` and `/critical-access-hospital-scheduling`
+**Buyer stage:** Consideration
+**Keyword:** how to evaluate nurse scheduling software / nurse scheduling platform evaluation
+**Replaces (partially):** `/blog/shiftwizard-alternatives` SEO traffic
+**Publish date suggestion:** 2026-05-15 (after Step 5 audit + reply email window closes)
+
+**Outline:**
+
+1. The wrong way to evaluate (feature checklist comparison)
+2. The right way (operational fit framework)
+3. Five evaluation dimensions specific to CAHs:
+   - Setup time and IT involvement required
+   - Weekly nurse manager burden after go-live
+   - Mobile feature parity (frame as a question to ask vendors, not a claim about anyone)
+   - Compliance documentation: CMS §485.635, FLSA 8-and-80, Texas overtime
+   - Callout coverage workflow (manual vs ranked list)
+4. Demo-day question list (10–12 questions to ask any vendor)
+5. Three-week pilot evaluation framework
+6. When self-serve fits vs. when a managed service fits (no specific competitors named)
+7. FAQ + author bio + CTA
+
+**Sourcing standard:** Every claim either (a) cites CMS/HRSA/TX DSHS/ANA/AONL, (b) is presented as a question for the reader to ask, or (c) describes our own service.
+
+### New Post R2: What CAH Nurse Managers Should Ask Vendors During Demos
+
+**File:** `src/data/post/cah-nurse-manager-vendor-demo-questions.md`
+**Hub link:** `/nurse-scheduling-software`
+**Buyer stage:** Decision
+**Keyword:** nurse scheduling software demo questions / nurse scheduling vendor demo
+**Replaces (partially):** `/blog/shiftwizard-vs-managed-service` SEO traffic
+**Publish date suggestion:** 2026-05-22
+
+**Outline:**
+
+1. Why most demos miss what matters at a CAH (demo environments hide failure modes)
+2. The 15-question demo script:
+   - Setup and onboarding (5 questions)
+   - Day-to-day operation (5 questions)
+   - Edge cases and failure modes (5 questions)
+3. Red flag answers to listen for (without naming any vendor)
+4. The post-demo reference call (what to ask actual customers)
+5. Contract review checklist
+6. FAQ + author bio + CTA
+
+**Sourcing standard:** Question-based content. We're not making claims about any product; we're giving the reader questions to ask. No competitor name needs to appear in this post at all.
+
+### Approval gate before writing
+
+These two replacement posts should not be written until:
+
+1. The HealthStream reply email has been sent and at least 14 days have passed without escalation
+2. Step 5 audit on remaining drafts is complete (so the sourcing standard is locked in)
+3. A US IP/marketing attorney has reviewed the proposed post outlines (one-time review, ~$200–500)
+
+If those conditions are met, queue both posts into the auto-publish schedule on the dates above.

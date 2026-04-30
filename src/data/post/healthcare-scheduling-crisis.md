@@ -230,7 +230,7 @@ Reviewers of major nurse scheduling platforms document the pattern clearly:
 >
 > _NurseGrid user, AllNurses.com_
 
-The $26,000 shadow salary does not disappear when you add software to the process. At facilities where the software requires ongoing configuration maintenance, or where the mobile app fails and managers have to work from a desktop while covering clinical shifts, the administrative burden can be comparable to what it was before the software was purchased. The problem is not a lack of technology. It is a mismatch between the tools available and the operational reality of a 25-bed rural hospital. For a direct comparison of how a self-serve platform like ShiftWizard differs from a managed service model, see [ShiftWizard vs. managed scheduling service](/blog/shiftwizard-vs-managed-service).
+The $26,000 shadow salary does not disappear when you add software to the process. At facilities where the software requires ongoing configuration maintenance, or where the mobile app fails and managers have to work from a desktop while covering clinical shifts, the administrative burden can be comparable to what it was before the software was purchased. The problem is not a lack of technology. It is a mismatch between the tools available and the operational reality of a 25-bed rural hospital.
 
 ## How Does SimpleScheduleAI Address These Friction Points?
 
