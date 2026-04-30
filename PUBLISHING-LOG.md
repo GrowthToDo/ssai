@@ -71,3 +71,25 @@ Next steps (manual):
 
 - Submit URL to GSC: URL Inspection → Request Indexing
 - Post excerpt on LinkedIn
+
+## 2026-04-28
+1 post(s) due for publishing.
+
+### ERROR publishing best-tcp-alternative-for-cah
+Command failed: git push
+To https://github.com/GrowthToDo/SimpleScheduleAI.com
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/GrowthToDo/SimpleScheduleAI.com'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+File was modified — check git status.
+
+## 2026-04-28
+No posts scheduled today.
+
+## 2026-04-28
+No posts scheduled today.

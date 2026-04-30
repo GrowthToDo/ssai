@@ -149,7 +149,7 @@ This is not a software tool with automation features. It is a different operatin
 
 One honest limitation: the managed service model requires comfort delegating draft generation. For nurse managers who prefer direct control over every scheduling decision, or who have specific scheduling rules the specialist cannot easily replicate, a self-serve platform at Level 3 may be a better fit.
 
-For a direct comparison of the self-serve platform model against the managed service model, see [ShiftWizard vs. managed scheduling service](/blog/shiftwizard-vs-managed-service). For the broader context on [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) and what CAH-scale requirements look like, the feature guide covers each requirement.
+For the broader context on [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) and what CAH-scale requirements look like, the feature guide covers each requirement.
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Want to see what Level 5 automation looks like for your facility?</p>
