@@ -43,7 +43,7 @@ UKG (formerly Kronos) is the most deployed workforce management system in large 
 
 The result is a tool with enterprise complexity and CAH-scale support.
 
-One data point worth knowing before any internal conversation about UKG: on Reddit's r/nursing and AllNurses.com, where frontline nurses discuss the tools they actually use, the phrase "Kronos is garbage" appears so consistently it has become a shorthand. The administrator buying the platform and the nurses using it often have very different assessments of it. For a small hospital where nurse buy-in directly affects retention, that gap matters before implementation begins.
+One data point worth knowing before any internal conversation about UKG: on Reddit's r/nursing and AllNurses.com, where frontline nurses discuss the tools they actually use, "Kronos is garbage" is a phrase that has appeared in user posts as an informal shorthand. The administrator buying the platform and the nurses using it often have different assessments of it — verify the nurse-side perception independently at your facility before deciding. For a small hospital where nurse buy-in directly affects retention, that gap matters before implementation begins.
 
 ## Why Does UKG Fail at Small Hospital Scale?
 
@@ -86,7 +86,7 @@ One data point worth knowing before any internal conversation about UKG: on Redd
   </div>
 </div>
 
-**The IT requirement.** UKG implementations require server-side configuration, SSO setup, integration with EHR and payroll systems, and ongoing technical maintenance. Expert reviews consistently describe the need for "advanced IT/HRIS expertise" to implement and run correctly. A CAH with a part-time IT contractor and no dedicated HRIS staff is not set up to do this.
+**The IT requirement.** UKG implementations typically involve server-side configuration, SSO setup, integration with EHR and payroll systems, and ongoing technical maintenance. The vendor's own implementation documentation references the need for HRIS and IT capacity during deployment. A CAH with a part-time IT contractor and no dedicated HRIS staff is not set up to do this.
 
 **The implementation timeline.** UKG implementations at hospital scale run 6-12 months from contract to first operational schedule. During that period, the facility is either running scheduling manually or paying for a system it cannot yet use.
 

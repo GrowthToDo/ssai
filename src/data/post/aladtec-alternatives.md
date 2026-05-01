@@ -334,23 +334,23 @@ The free tier and low cost make Homebase attractive as a pure cost-reduction mov
 
 <img src="/images/blog/aladtec-alternatives/Deputy.png" alt="Deputy general workforce scheduling platform for healthcare teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-Deputy is a significant step down from Aladtec in terms of healthcare-specific capability, but a significant step up in simplicity and cost. Hospitals that are using Aladtec primarily for schedule publishing and shift communication, and who have minimal compliance requirements or can handle compliance separately, may find Deputy adequate at a lower cost.
+Deputy holds **4.6/5 across 765 Capterra reviews** and **4.6/5 across 1,400+ G2 reviews** (verified 2026-04-30) — a strong overall rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) covering hospitals, clinics, and nursing facilities. Compared to Aladtec, Deputy is simpler to configure and lower in cost; the documented healthcare feature set is narrower than Aladtec's clinical-specific capability.
 
-**Best for:** Small hospitals or outpatient clinics leaving Aladtec because the configuration burden is high relative to actual scheduling complexity, and who need schedule visibility and communication without healthcare compliance features.
+**Best for:** Small hospitals or outpatient clinics leaving Aladtec because the configuration burden is high relative to actual scheduling complexity, and who need schedule visibility and communication.
 
 **Key advantages:**
 
+- Strong overall ratings (4.6/5 on both G2 and Capterra)
 - Much simpler to configure and maintain than Aladtec; a manager without IT support can run it independently
 - Per-user pricing is the most transparent and predictable at small roster sizes
 - Strong mobile app with shift acknowledgment, availability marking, and swap requests
 
-**Key limitations:**
+**Considerations for hospitals with active compliance obligations:**
 
-- Eliminates rather than solves the healthcare compliance gap; CMS documentation, FLSA tracking, and credential management are all manual outside of Deputy
-- No callout ranking by overtime status; replacements are found through open-shift broadcasting
-- Migrating from Aladtec to Deputy means moving backward on compliance features
+- Deputy's healthcare page (deputy.com/industry/healthcare, verified 2026-04-30) does not specifically describe HIPAA, BAA, or CMS §485.635 audit-trail support in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Deputy sales which compliance capabilities are covered in their tier and contract.
+- Credential tracking and clinical compliance documentation are not described as core features on Deputy's healthcare page. Hospitals leaving Aladtec specifically because they need stronger compliance automation should verify Deputy's current capabilities directly with the vendor before deciding.
 
-**Verdict:** Deputy makes sense as an Aladtec replacement only for organizations that discovered they were using Aladtec's healthcare features minimally and paying for configuration complexity they did not need. For hospitals with active CMS obligations, Deputy is a step backward.
+**Verdict:** Strong general workforce scheduling tool. Aladtec users leaving primarily because of configuration burden may find Deputy a simpler alternative; users leaving because they need stronger clinical compliance automation should verify Deputy's current healthcare-tier capabilities directly with the vendor.
 
 **Cost:** $4.50 per user per month.
 
