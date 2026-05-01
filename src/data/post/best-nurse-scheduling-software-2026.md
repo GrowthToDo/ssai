@@ -259,9 +259,9 @@ Aladtec by TCP holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra rev
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Smartlinx.png" alt="SmartLinx workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-SmartLinx is a healthcare workforce management platform used across community hospitals, skilled nursing facilities, and senior living organizations. It combines scheduling, time and attendance, and staffing analytics on a single platform. The product is built specifically for healthcare environments, with compliance documentation and credential tracking included.
+SmartLinx holds **4.5/5 across 6 Capterra reviews** (verified 2026-04-30) — a small Capterra sample. The vendor describes the platform as "purpose-built for the long-term care, post-acute care, senior care, and behavioral health industries" ([smartlinx.com](https://www.smartlinx.com), verified 2026-04-30). It combines scheduling, time and attendance, and staffing analytics on a single platform.
 
-SmartLinx is well-suited to hospitals that want scheduling and time-and-attendance integrated without moving to an enterprise platform like UKG.
+SmartLinx is well-suited to LTC, post-acute, and SNF facilities that want scheduling and time-and-attendance integrated. CAHs evaluating it should ask the vendor for hospital-context reference customers, since the documented industry focus skews toward post-acute care.
 
 **Best for:** Community hospitals (50-200 beds) and post-acute or LTC facilities that need scheduling and time-and-attendance on one platform.
 
@@ -284,7 +284,7 @@ SmartLinx is well-suited to hospitals that want scheduling and time-and-attendan
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/QGenda.png" alt="QGenda physician and nurse scheduling platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-QGenda started as physician scheduling software and has expanded into nursing. It is a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. The analytics and reporting are among the best in the mid-market.
+QGenda holds **4.6/5 across 164 G2 reviews** and **4.2/5 across 68 Capterra reviews** (verified 2026-04-30). It started as physician scheduling software and has expanded into nursing — a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. The analytics and reporting capabilities are documented as a strength of the platform.
 
 **Best for:** Multi-specialty physician scheduling and hospitals that need physician and nursing scheduling on one platform.
 
@@ -331,7 +331,7 @@ NurseGrid Manager holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). 
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Onshift.png" alt="OnShift workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-OnShift was acquired by Workday in 2022 and is now positioned as a workforce management platform for post-acute care. If your facility is a skilled nursing facility or long-term care unit, OnShift has strong features for that context. For acute inpatient nursing units at a standalone small hospital, it is a less natural fit.
+OnShift holds **4.5/5 across G2 reviews** and **4.2/5 across 13 Capterra reviews** (verified 2026-04-30). Acquired by Workday in 2022, it is now positioned as a workforce management platform for post-acute care. If your facility is a skilled nursing facility or long-term care unit, OnShift's documented feature set is built for that context. For acute inpatient nursing units at a standalone small hospital, it is a less natural fit.
 
 **Best for:** Post-acute and long-term care facilities, senior living organizations, and skilled nursing facilities.
 
@@ -354,23 +354,23 @@ OnShift was acquired by Workday in 2022 and is now positioned as a workforce man
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Deputy.png" alt="Deputy workforce scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-Deputy is a general workforce scheduling tool used across retail, hospitality, and food service. It has healthcare customers but is not built for clinical environments. Overtime tracking and shift scheduling work, but healthcare-specific features such as credential verification, patient ratio logic, and clinical compliance documentation are absent.
+Deputy is a general workforce scheduling platform used across retail, hospitality, food service, and healthcare. It holds **4.6/5 across 765 Capterra reviews** and **4.6/5 across 1,400+ G2 reviews** (verified 2026-04-30) — a strong rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) (verified 2026-04-30) that covers hospitals, clinics, private practice, and nursing facilities.
 
-**Best for:** Non-healthcare businesses and hospitals with very simple scheduling needs and the tightest possible budgets.
+**Best for:** Small to mid-sized healthcare practices and clinics with relatively simple shift scheduling needs and the tightest possible budgets.
 
 **Key advantages:**
 
-- Very fast to set up - hours, not weeks
+- Very fast to set up — hours, not weeks
 - Lowest cost option in this comparison
 - Good mobile app with a clean staff-facing interface
+- Strong overall ratings (4.6/5 on both G2 and Capterra)
 
-**Key limitations:**
+**Considerations for licensed clinical environments:**
 
-- Not HIPAA compliant. Multiple healthcare reviewers explicitly flag this as a disqualifying issue for licensed clinical environments. Deputy was built for retail and hospitality and has not been designed to meet healthcare privacy requirements.
-- No credential tracking or clinical compliance documentation.
-- Would not satisfy a CMS surveyor looking for hospital staffing records.
+- Deputy's healthcare page (deputy.com/industry/healthcare, verified 2026-04-30) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS §485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
+- Credential tracking and clinical compliance documentation are not described as core features on the healthcare page. CAHs evaluating Deputy as a primary scheduling system for a licensed clinical environment should ask the vendor directly about these capabilities and request reference customers at similar scale.
 
-**Verdict:** Acceptable for retail or hospitality businesses. Not appropriate for a licensed clinical environment where HIPAA compliance, credential tracking, and CMS compliance documentation are regulatory requirements.
+**Verdict:** Strongly rated as a general workforce scheduling tool. CAHs evaluating Deputy as a primary scheduling system in a licensed clinical environment should specifically verify HIPAA, BAA, credential-tracking, and CMS audit-trail capabilities directly with the vendor before deciding.
 
 **Cost:** Approximately $4-$6/employee/month.
 
