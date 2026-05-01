@@ -273,6 +273,10 @@ surface this during onboarding.
   </div>
 </div>
 
+## A Note on Sources
+
+Public quotes referenced in this guide were gathered from Capterra and AllNurses.com on 2026-04-30. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
+
 ## Frequently Asked Questions
 
 **Q: How many hours per week do nurse managers typically spend on scheduling?**

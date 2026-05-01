@@ -334,7 +334,7 @@ The free tier and low cost make Homebase attractive as a pure cost-reduction mov
 
 <img src="/images/blog/aladtec-alternatives/Deputy.png" alt="Deputy general workforce scheduling platform for healthcare teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-Deputy holds **4.6/5 across 765 Capterra reviews** and **4.6/5 across 1,400+ G2 reviews** (verified 2026-04-30) — a strong overall rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) covering hospitals, clinics, and nursing facilities. Compared to Aladtec, Deputy is simpler to configure and lower in cost; the documented healthcare feature set is narrower than Aladtec's clinical-specific capability.
+Deputy holds 4.6/5 on G2 (1,400+ reviews) and 4.6/5 on Capterra (765 reviews), a strong overall rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) covering hospitals, clinics, and nursing facilities. Compared to Aladtec, Deputy is simpler to configure and lower in cost. The documented healthcare feature set is narrower than Aladtec's clinical-specific capability.
 
 **Best for:** Small hospitals or outpatient clinics leaving Aladtec because the configuration burden is high relative to actual scheduling complexity, and who need schedule visibility and communication.
 
@@ -347,7 +347,7 @@ Deputy holds **4.6/5 across 765 Capterra reviews** and **4.6/5 across 1,400+ G2 
 
 **Considerations for hospitals with active compliance obligations:**
 
-- Deputy's healthcare page (deputy.com/industry/healthcare, verified 2026-04-30) does not specifically describe HIPAA, BAA, or CMS §485.635 audit-trail support in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Deputy sales which compliance capabilities are covered in their tier and contract.
+- Deputy's healthcare page (deputy.com/industry/healthcare) does not specifically describe HIPAA, BAA, or CMS §485.635 audit-trail support in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Deputy sales which compliance capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on Deputy's healthcare page. Hospitals leaving Aladtec specifically because they need stronger compliance automation should verify Deputy's current capabilities directly with the vendor before deciding.
 
 **Verdict:** Strong general workforce scheduling tool. Aladtec users leaving primarily because of configuration burden may find Deputy a simpler alternative; users leaving because they need stronger clinical compliance automation should verify Deputy's current healthcare-tier capabilities directly with the vendor.
@@ -444,6 +444,10 @@ For a nurse manager at a 25-bed CAH who takes clinical shifts, the overhead mode
   </div>
   <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
 </div>
+
+## A Note on Sources
+
+Public review counts, ratings, and quotes referenced in this guide were gathered from G2, Capterra, AllNurses.com, and the iOS App Store on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
 
 ## Frequently Asked Questions About Aladtec Alternatives
 
