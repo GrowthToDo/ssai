@@ -207,19 +207,15 @@ See our full [Aladtec alternatives](/blog/aladtec-alternatives) post for a compl
 
 ### NurseGrid
 
-NurseGrid is a mobile-first option designed for per diem and shift-trading workflows. It is lighter than TCP and does not match it on compliance documentation. Better fit for facilities with frequent per diem staff than for facilities that need a complete scheduling and compliance record.
+NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shift-trading workflows. The NurseGrid Manager tier holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30) — a small sample. The product is generally compared as a different category of tool from TCP: a nurse-facing layer rather than a full scheduling and compliance platform. CAHs evaluating NurseGrid as a primary scheduling system should confirm directly with NurseGrid sales which compliance and management capabilities are supported in their hospital tier.
 
-**Best for:** Facilities with high per diem volume where mobile-first shift trading is more important than full compliance documentation.
+**Best for:** Facilities where mobile shift trading and nurse-facing schedule visibility are a priority, often paired with a separate primary scheduling system.
 
 **Key advantages:**
 
-- Strong mobile experience for per diem staff
-- Easier to set up than TCP or ShiftWizard
-- Lower cost entry point
-
-**Key limitations:**
-
-- Not built for full hospital nurse scheduling workflows
+- Strong nurse-facing mobile experience for individual schedule viewing
+- Easier to roll out to staff than self-serve enterprise platforms
+- Freemium tier for individual nurses
 - Compliance documentation does not meet CAH §485.635 requirements out of the box
 - Limited credential and certification tracking
 

@@ -102,7 +102,17 @@ This eliminates first-mover advantage without eliminating nurse input. A nurse w
 
 The practical challenge at a CAH is collection. Simultaneous submission requires a defined window, a consistent submission method, and a manager who can process all inputs at once rather than as they trickle in. With 15-20 nurses submitting via text, email, and paper forms at different times across a week, "simultaneous" becomes aspirational. A structured availability form with a hard deadline and a consistent format is the minimum viable version of this approach, even without any scheduling software.
 
-A related problem surfaces when hospitals try to use nurse-facing scheduling apps to collect preferences digitally. NurseGrid, the most widely adopted app for nurse shift tracking, removed its manager functionality in a prior update. Nurses can view their schedule and submit availability through the app, but managers can no longer make changes from a phone. Any response to a preference submission requires desktop access. For a nurse manager moving between the floor and her office, that constraint undermines the simultaneous submission model before it starts.
+A related challenge surfaces when hospitals try to use nurse-facing scheduling apps to collect preferences digitally. Multiple Capterra reviewers of NurseGrid Manager describe the loss of manager-side mobile functionality:
+
+> "It no longer has the manager app so I have to login to desktop."
+>
+> _Chief Nursing Officer, Hospital & Health Care, posted June 13, 2024 on Capterra_
+
+> "they took away the Manager App for your phone."
+>
+> _Staffing Coordinator, Medical Practice, posted June 11, 2024 on Capterra_
+
+For a nurse manager moving between the floor and her office, this kind of mobile-vs-desktop split adds friction to the simultaneous-submission model. CAHs evaluating any nurse-facing app for preference collection should verify current manager-side mobile capabilities directly with the vendor before relying on it.
 
 ## How Do You Track Fairness Across Multiple Scheduling Cycles?
 
