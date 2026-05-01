@@ -233,11 +233,9 @@ The model is built for small hospitals in Texas, with Texas overtime compliance,
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Aladtec.png" alt="Aladtec scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-Aladtec is one of the most widely used scheduling platforms in the small hospital and EMS segment. It offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The company has a strong reputation for customer support, and the interface is functional without requiring significant IT involvement to set up.
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old. Aladtec offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The interface is functional without requiring significant IT involvement to set up.
 
 **Best for:** Small hospitals and EMS agencies that want proven self-serve scheduling software with low implementation burden.
-
-Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old.
 
 **Key advantages:**
 
@@ -369,7 +367,7 @@ Deputy is a general workforce scheduling platform used across retail, hospitalit
 - Good mobile app with a clean staff-facing interface
 - Strong overall ratings (4.6/5 on both G2 and Capterra)
 
-**Considerations for licensed clinical environments:**
+**Key limitations:**
 
 - Deputy's healthcare page (deputy.com/industry/healthcare) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS §485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on the healthcare page. CAHs evaluating Deputy as a primary scheduling system for a licensed clinical environment should ask the vendor directly about these capabilities and request reference customers at similar scale.

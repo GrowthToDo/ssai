@@ -229,7 +229,7 @@ Callout replacement generates a ranked shortlist in under two minutes, cross-ref
 
 <img src="/images/blog/aladtec-alternatives/TCP.png" alt="TCP Scheduling Software workforce management platform for healthcare" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-TCP Software owns Aladtec. TCP Scheduling is their enterprise-tier product, more powerful, more configurable, and significantly more complex than Aladtec. For a hospital that wants to stay within the TCP vendor ecosystem but needs capabilities that Aladtec does not provide, TCP Scheduling is the direct upgrade path.
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). TCP Software owns Aladtec, and TCP Scheduling is their enterprise-tier product, more powerful, more configurable, and significantly more complex than Aladtec. For a hospital that wants to stay within the TCP vendor ecosystem but needs capabilities that Aladtec does not provide, TCP Scheduling is the direct upgrade path.
 
 The tradeoff is considerable. TCP Scheduling requires a longer implementation, IT involvement, and ongoing configuration expertise. It is designed for mid-size and larger healthcare organizations, not for 25-bed CAHs. If the reason for leaving Aladtec is configuration burden, moving to TCP Scheduling does not solve the problem, it moves you to a more configurable tool that requires even more configuration management.
 
@@ -256,7 +256,7 @@ The tradeoff is considerable. TCP Scheduling requires a longer implementation, I
 
 <img src="/images/blog/aladtec-alternatives/Smartlinx.png" alt="SmartLinx workforce management platform with compliance and scheduling features" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-SmartLinx addresses more of Aladtec's hospital-specific gaps than any self-serve alternative in this list. It has stronger healthcare compliance logic, more automated credential tracking, and integrated time and attendance. The tradeoff is a significantly longer and more complex implementation.
+SmartLinx holds 4.5/5 on Capterra (6 reviews; small sample). The vendor describes the platform as "purpose-built for the long-term care, post-acute care, senior care, and behavioral health industries" ([smartlinx.com](https://www.smartlinx.com)). It addresses more of Aladtec's hospital-specific gaps than When I Work or Homebase, with stronger healthcare compliance logic, more automated credential tracking, and integrated time and attendance. The tradeoff is a significantly longer and more complex implementation.
 
 Hospitals that leave Aladtec because of configuration burden and then adopt SmartLinx often find the initial implementation takes longer than Aladtec did. The difference is that SmartLinx's long-term maintenance burden is lower once configured, because the rules are more automated.
 
@@ -345,7 +345,7 @@ Deputy holds 4.6/5 on G2 (1,400+ reviews) and 4.6/5 on Capterra (765 reviews), a
 - Per-user pricing is the most transparent and predictable at small roster sizes
 - Strong mobile app with shift acknowledgment, availability marking, and swap requests
 
-**Considerations for hospitals with active compliance obligations:**
+**Key limitations:**
 
 - Deputy's healthcare page (deputy.com/industry/healthcare) does not specifically describe HIPAA, BAA, or CMS §485.635 audit-trail support in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Deputy sales which compliance capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on Deputy's healthcare page. Hospitals leaving Aladtec specifically because they need stronger compliance automation should verify Deputy's current capabilities directly with the vendor before deciding.
