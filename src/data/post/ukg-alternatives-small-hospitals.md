@@ -231,6 +231,10 @@ For a CAH coming off UKG, a managed service is typically the fastest path to ope
 
 For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
 
+## A Note on Sources
+
+Public review counts, ratings, and product information referenced in this guide were gathered from G2, Capterra, AllNurses.com, and Reddit (r/nursing) on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
+
 ## Frequently Asked Questions
 
 **Is UKG overkill for a 25-bed Critical Access Hospital?**
@@ -251,4 +255,4 @@ No. SimpleScheduleAI operates independently. During transition, you export your 
 
 **What about ShiftWizard, is it a good UKG alternative for a small hospital?**
 
-ShiftWizard is a hospital-specific scheduling platform used by more than 500 hospital facilities, owned by HealthStream. It holds 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (verified 2026-04-30) and was named a G2 Spring 2026 Leader. It is simpler than UKG and designed for nursing workflows, and it is a reasonable option for a hospital that specifically wants a self-serve nursing scheduling tool. As with any self-serve platform, evaluate it on setup time at CAH scale, weekly burden after go-live, mobile feature parity, and 8-and-80 overtime rule support before deciding.
+ShiftWizard is a hospital-specific scheduling platform used by more than 500 hospital facilities, owned by HealthStream. It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is simpler than UKG and designed for nursing workflows, and it is a reasonable option for a hospital that specifically wants a self-serve nursing scheduling tool. As with any self-serve platform, evaluate it on setup time at CAH scale, weekly burden after go-live, mobile feature parity, and 8-and-80 overtime rule support before deciding.

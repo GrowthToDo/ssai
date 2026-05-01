@@ -207,7 +207,7 @@ See our full [Aladtec alternatives](/blog/aladtec-alternatives) post for a compl
 
 ### NurseGrid
 
-NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shift-trading workflows. The NurseGrid Manager tier holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30) — a small sample. The product is generally compared as a different category of tool from TCP: a nurse-facing layer rather than a full scheduling and compliance platform. CAHs evaluating NurseGrid as a primary scheduling system should confirm directly with NurseGrid sales which compliance and management capabilities are supported in their hospital tier.
+NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shift-trading workflows. The NurseGrid Manager tier holds 4.2/5 on Capterra (13 reviews; small sample). The product is generally compared as a different category of tool from TCP: a nurse-facing layer rather than a full scheduling and compliance platform. CAHs evaluating NurseGrid as a primary scheduling system should confirm directly with NurseGrid sales which compliance and management capabilities are supported in their hospital tier.
 
 **Best for:** Facilities where mobile shift trading and nurse-facing schedule visibility are a priority, often paired with a separate primary scheduling system.
 
@@ -270,6 +270,10 @@ Before committing to any TCP alternative, ask these four questions:
     Request a Free Scheduling Assessment
   </a>
 </div>
+
+## A Note on Sources
+
+Public review counts, ratings, and quotes referenced in this guide were gathered from G2, Capterra, AllNurses.com, and the iOS App Store on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
 
 ## Frequently Asked Questions
 

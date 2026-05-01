@@ -237,7 +237,7 @@ Aladtec is one of the most widely used scheduling platforms in the small hospita
 
 **Best for:** Small hospitals and EMS agencies that want proven self-serve scheduling software with low implementation burden.
 
-Aladtec by TCP holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra reviews (verified 2026-04-30). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old.
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old.
 
 **Key advantages:**
 
@@ -247,8 +247,9 @@ Aladtec by TCP holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra rev
 
 **Key limitations:**
 
-- Not purpose-built for hospital nursing. The Capterra customer base skews toward fire/EMS/law-enforcement; complex nurse-specific rules such as charge nurse requirements and skill mix management may require manual workarounds.
-- Some reviewers report click-heavy workflows for routine schedule edits — Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- Not purpose-built for hospital nursing. The Capterra customer base skews toward fire, EMS, and law-enforcement users; complex nurse-specific rules such as charge nurse requirements and skill mix management may require manual workarounds.
+- Some reviewers report click-heavy workflows for routine schedule edits. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- A separate reviewer flagged setup as harder than expected. Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
 - Hospital-nursing reference customers at CAH scale should be requested directly from the vendor, given the small Capterra hospital sample.
 
 **Verdict:** The strongest self-serve option for hospitals under 50 beds. If you have a tech-comfortable administrator and want to keep scheduling in-house, start here.
@@ -259,7 +260,7 @@ Aladtec by TCP holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra rev
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Smartlinx.png" alt="SmartLinx workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-SmartLinx holds **4.5/5 across 6 Capterra reviews** (verified 2026-04-30) — a small Capterra sample. The vendor describes the platform as "purpose-built for the long-term care, post-acute care, senior care, and behavioral health industries" ([smartlinx.com](https://www.smartlinx.com), verified 2026-04-30). It combines scheduling, time and attendance, and staffing analytics on a single platform.
+SmartLinx holds 4.5/5 on Capterra (6 reviews; small sample). The vendor describes the platform as "purpose-built for the long-term care, post-acute care, senior care, and behavioral health industries" ([smartlinx.com](https://www.smartlinx.com)). It combines scheduling, time and attendance, and staffing analytics on a single platform.
 
 SmartLinx is well-suited to LTC, post-acute, and SNF facilities that want scheduling and time-and-attendance integrated. CAHs evaluating it should ask the vendor for hospital-context reference customers, since the documented industry focus skews toward post-acute care.
 
@@ -267,14 +268,15 @@ SmartLinx is well-suited to LTC, post-acute, and SNF facilities that want schedu
 
 **Key advantages:**
 
-- Healthcare-specific platform with clinical compliance features built in
+- Healthcare-specific platform built for post-acute, LTC, and senior care environments
 - Integrates scheduling with time-and-attendance tracking on a single system
-- Strong analytics for overtime monitoring and labor cost management
+- Implementation includes project management and user training. Carol G., Director of IT Services (Hospital & Health Care), wrote on Capterra (March 22, 2021): "Implementation was a breeze with resources helping and project management and user training are all included."
 
 **Key limitations:**
 
-- More complex to configure than lighter tools like Aladtec. Requires dedicated admin capacity for initial setup.
-- Not designed for very small hospitals under 25 beds. The overhead is disproportionate at that scale.
+- Implementation experience varies. Daniel C., CFO (Hospital & Health Care), wrote on Capterra (March 16, 2021): "Implementation was much more complex that expected and end result still was full of errors on first payroll."
+- PBJ-for-CMS reporting has been an issue for some users. Rebecca K., HR (Hospital & Health Care), wrote on Capterra (September 27, 2019): "Not the best at calculating PBJ for CMS - had some issues that cost money and star ratings."
+- Vendor's own positioning skews toward post-acute care rather than acute small hospitals. CAHs should request hospital-context reference customers before deciding.
 
 **Verdict:** A solid choice for community hospitals and LTC or SNF environments that need scheduling and time-and-attendance unified. Too much implementation overhead for a small hospital without dedicated scheduling staff.
 
@@ -284,20 +286,21 @@ SmartLinx is well-suited to LTC, post-acute, and SNF facilities that want schedu
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/QGenda.png" alt="QGenda physician and nurse scheduling platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-QGenda holds **4.6/5 across 164 G2 reviews** and **4.2/5 across 68 Capterra reviews** (verified 2026-04-30). It started as physician scheduling software and has expanded into nursing — a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. The analytics and reporting capabilities are documented as a strength of the platform.
+QGenda holds 4.6/5 on G2 (164 reviews) and 4.2/5 on Capterra (68 reviews). It started as physician scheduling software and has expanded into nursing, and is a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. Ari W., Administrator (Hospital & Health Care), wrote on Capterra (May 7, 2024): "Qgenda is easy to use and does a great job at automating."
 
 **Best for:** Multi-specialty physician scheduling and hospitals that need physician and nursing scheduling on one platform.
 
 **Key advantages:**
 
-- Best physician scheduling engine in the mid-market
-- Strong reporting and analytics across both physician and nursing staff
-- Good mobile experience for staff
+- Strong physician scheduling capability in the mid-market
+- Reporting and analytics across both physician and nursing staff
+- Mobile experience available for staff
 
 **Key limitations:**
 
-- Expensive for hospitals that only need nursing scheduling. The physician scheduling module drives the price.
-- Implementation requires significant configuration time and vendor support involvement.
+- Initial setup is described by some users as time-consuming. Brandi D., Scheduling Coordinator (Hospital & Health Care), wrote on Capterra (December 13, 2023): "Doing the initial set up of new providers is a little complicated." Roger S., Practice Administrator, wrote on Capterra (May 3, 2024): "The initial setup was time-consuming...collating...digitize documents."
+- Some users report friction with the automated scheduling rules. Courtney D., Manager of Employee and Physician Relations, wrote on Capterra (May 10, 2024): "automated scheduling and rules set up seem to have hiccups...I just stopped using the automation."
+- Customer support is described as outsourced by some reviewers. David S., President (Hospital & Health Care), wrote on Capterra (May 7, 2024): "They outsourced customer service...you have generic people who respond."
 
 **Verdict:** Best suited to hospitals that need physician and nursing scheduling on one platform. For facilities that only need nursing scheduling, the physician-scheduling overhead adds cost without proportional value.
 
@@ -307,7 +310,7 @@ QGenda holds **4.6/5 across 164 G2 reviews** and **4.2/5 across 68 Capterra revi
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Nursegrid.png" alt="NurseGrid Manager scheduling app interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-NurseGrid Manager holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). NurseGrid is built primarily as a nurse-facing app for individual nurses to view schedules, pick up open shifts, and communicate availability. The Manager tier adds unit-level oversight. CAHs evaluating NurseGrid as a primary scheduling platform should confirm hospital-tier capabilities directly with the vendor.
+NurseGrid Manager holds 4.2/5 on Capterra (13 reviews; small sample). NurseGrid is built primarily as a nurse-facing app for individual nurses to view schedules, pick up open shifts, and communicate availability. The Manager tier adds unit-level oversight. CAHs evaluating NurseGrid as a primary scheduling platform should confirm hospital-tier capabilities directly with the vendor.
 
 **Best for:** Hospitals that want a staff-facing shift communication layer alongside a primary scheduling system.
 
@@ -321,7 +324,7 @@ NurseGrid Manager holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). 
 
 - Multiple Capterra reviewers describe loss of manager-side mobile functionality. A Chief Nursing Officer (Hospital & Health Care) wrote on June 13, 2024: "It no longer has the manager app so I have to login to desktop." A Staffing Coordinator (Medical Practice) wrote on June 11, 2024: "they took away the Manager App for your phone." Verify current manager-app capability directly with the vendor before deciding.
 - Capability coverage for CMS §485.635 audit trail, FLSA overtime tracking, and credential-based callout filtering may differ across NurseGrid tiers. Confirm directly with NurseGrid sales which tier covers the capabilities your CAH needs as a primary scheduling system.
-- Multiple reviewers from smaller facilities cite organizational pricing as a barrier — an Administrator (Hospital & Health Care) wrote on June 17, 2024: "cost is too expensive for small centers."
+- Reviewers from smaller facilities have cited organizational pricing as a barrier. An Administrator (Hospital & Health Care) wrote on Capterra (June 17, 2024): "cost is too expensive for small centers."
 
 **Verdict:** A useful add-on for shift communication and open-shift posting. Not a replacement for a scheduling platform and should not be the only scheduling tool in use.
 
@@ -331,20 +334,21 @@ NurseGrid Manager holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). 
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Onshift.png" alt="OnShift workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-OnShift holds **4.5/5 across G2 reviews** and **4.2/5 across 13 Capterra reviews** (verified 2026-04-30). Acquired by Workday in 2022, it is now positioned as a workforce management platform for post-acute care. If your facility is a skilled nursing facility or long-term care unit, OnShift's documented feature set is built for that context. For acute inpatient nursing units at a standalone small hospital, it is a less natural fit.
+OnShift holds 3.9/5 on Capterra (14 reviews). Acquired by Workday in 2022, it is now positioned as a workforce management platform for post-acute care. If your facility is a skilled nursing facility or long-term care unit, OnShift's documented feature set is built for that context. For acute inpatient nursing units at a standalone small hospital, it is a less natural fit.
 
 **Best for:** Post-acute and long-term care facilities, senior living organizations, and skilled nursing facilities.
 
 **Key advantages:**
 
-- Strong fit for post-acute care, SNF, and LTC environments
-- Good mobile experience for shift workers
-- Solid open shift management tools
+- Documented feature set built for post-acute care, SNF, and LTC environments
+- Implementation team described positively by some reviewers. Deanna E., VP HR, wrote on Capterra (May 16, 2017): "The implementation team was outstanding...knowledgeable, available, take on extra work."
+- Mark G., RNAC (Hospital & Health Care), wrote on Capterra (November 23, 2023): "Onshift is a plus in all categories from storage to scheduling messaging and managing employees attendance."
 
 **Key limitations:**
 
-- Now part of the Workday enterprise ecosystem, which carries enterprise pricing and implementation expectations.
-- Not a natural fit for standalone small hospitals without a broader Workday deployment.
+- Some users find the interface non-intuitive. Dylan M., Owner (Health, Wellness and Fitness), wrote on Capterra (January 30, 2026): "Clunky, not intuitive, easy to make a mistake that is difficult to fix."
+- Remote-access reliability is mentioned by some hospital users. Mark G., RNAC (Hospital & Health Care), wrote on Capterra (November 23, 2023): "at time it can be hard to connect when attempting to use remotely."
+- Now part of the Workday ecosystem, which carries enterprise pricing and implementation expectations. Not a natural fit for standalone small hospitals without a broader Workday deployment.
 
 **Verdict:** The right choice for facilities with significant post-acute or LTC volume. For a standalone acute small hospital, the Workday ecosystem dependency and pricing structure are hard to justify.
 
@@ -354,20 +358,20 @@ OnShift holds **4.5/5 across G2 reviews** and **4.2/5 across 13 Capterra reviews
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Deputy.png" alt="Deputy workforce scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-Deputy is a general workforce scheduling platform used across retail, hospitality, food service, and healthcare. It holds **4.6/5 across 765 Capterra reviews** and **4.6/5 across 1,400+ G2 reviews** (verified 2026-04-30) — a strong rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) (verified 2026-04-30) that covers hospitals, clinics, private practice, and nursing facilities.
+Deputy is a general workforce scheduling platform used across retail, hospitality, food service, and healthcare. It holds 4.6/5 on G2 (1,400+ reviews) and 4.6/5 on Capterra (765 reviews), a strong rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) that covers hospitals, clinics, private practice, and nursing facilities.
 
 **Best for:** Small to mid-sized healthcare practices and clinics with relatively simple shift scheduling needs and the tightest possible budgets.
 
 **Key advantages:**
 
-- Very fast to set up — hours, not weeks
+- Very fast to set up: hours, not weeks
 - Lowest cost option in this comparison
 - Good mobile app with a clean staff-facing interface
 - Strong overall ratings (4.6/5 on both G2 and Capterra)
 
 **Considerations for licensed clinical environments:**
 
-- Deputy's healthcare page (deputy.com/industry/healthcare, verified 2026-04-30) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS §485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
+- Deputy's healthcare page (deputy.com/industry/healthcare) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS §485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on the healthcare page. CAHs evaluating Deputy as a primary scheduling system for a licensed clinical environment should ask the vendor directly about these capabilities and request reference customers at similar scale.
 
 **Verdict:** Strongly rated as a general workforce scheduling tool. CAHs evaluating Deputy as a primary scheduling system in a licensed clinical environment should specifically verify HIPAA, BAA, credential-tracking, and CMS audit-trail capabilities directly with the vendor before deciding.
@@ -378,20 +382,21 @@ Deputy is a general workforce scheduling platform used across retail, hospitalit
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/UKG.png" alt="UKG workforce management platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-UKG is the dominant workforce management platform in large hospital systems. It handles scheduling, time and attendance, payroll integration, and advanced workforce analytics. It is genuinely excellent for the organizations it was designed for.
+UKG Pro holds 4.3/5 on Capterra (716 reviews) and 4.2/5 on G2. UKG is the dominant workforce management platform in large hospital systems and handles scheduling, time and attendance, payroll integration, and workforce analytics across many industries. It is built for the scale of organizations it was designed for.
 
 **Best for:** Large health systems with 200+ beds, dedicated HRIS and payroll teams, and existing UKG infrastructure.
 
 **Key advantages:**
 
-- Best EHR and HRIS integration depth in the market
-- Enterprise analytics and multi-facility management at scale
-- Strong platform for large health systems already in the UKG ecosystem
+- EHR and HRIS integration depth at the enterprise tier
+- Analytics and multi-facility management at scale
+- Established platform for organizations already in the UKG ecosystem
 
 **Key limitations:**
 
-- Completely wrong for small hospitals. Implementation typically takes 6-18 months and annual licensing runs five to six figures.
-- [Multiple CAH administrators we interviewed](https://simplescheduleai.com/blog/ukg-too-complex-small-hospital) purchased UKG and never successfully deployed it at their facility.
+- Some users describe the interface as non-intuitive. Kevin F., CHRO (Consumer Goods), wrote on Capterra (November 29, 2024): "Not intuitive at all for both administrators and users."
+- Implementation timelines at hospital scale typically run 6-18 months from contract to first operational schedule, with significant IT and HRIS staffing requirements that small hospitals rarely have. See our [UKG-too-complex-for-small-hospitals analysis](/blog/ukg-too-complex-small-hospital) for the full breakdown.
+- The Capterra customer base spans many industries (retail, hospitality, airlines, consumer goods); for a CAH-specific evaluation, ask the vendor for hospital reference customers under 50 beds who completed deployment in the past 18 months.
 
 **Verdict:** The right platform for a 300-bed regional system with dedicated HR, IT, and project management capacity. A documented failure mode for small and rural hospitals that buy it expecting a simpler experience.
 
@@ -542,7 +547,7 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
 </div>
 <div class="not-prose rounded-lg bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 px-5 py-4 my-4">
   <p class="font-semibold text-amber-800 dark:text-amber-300 text-sm">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</p>
-  <p class="text-amber-700 dark:text-amber-400 text-xs mt-1">Implementation takes 6–18 months — more than most small hospitals can manage internally.</p>
+  <p class="text-amber-700 dark:text-amber-400 text-xs mt-1">Implementation takes 6 to 18 months, more than most small hospitals can manage internally.</p>
 </div>
 
 ## What to Do This Week
@@ -558,6 +563,10 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
   <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Free 60-day pilot. No IT setup. No commitment. We build the schedule, you approve it.</p>
   <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot →</a>
 </div>
+
+## A Note on Sources
+
+Public review counts, ratings, and quotes referenced in this guide were gathered from G2, Capterra, AllNurses.com, Reddit (r/nursing), the iOS App Store, Google Play, GetApp, and SoftwareAdvice on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
 
 ## Frequently Asked Questions
 
