@@ -159,7 +159,7 @@ Most CAH nurse managers evaluating TCP alternatives are looking at three categor
 
 ### ShiftWizard
 
-ShiftWizard is the closest like-for-like replacement for TCP in the hospital segment. It was purpose-built for hospital scheduling, not adapted from another industry. It covers float pool management, hospital-specific credential fields, and department-level scheduling. The interface is substantially more modern than TCP. Used by 500+ hospital facilities.
+ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is the closest like-for-like replacement for TCP in the hospital segment, purpose-built for hospital scheduling rather than adapted from another industry. It covers float pool management, hospital-specific credential fields, and department-level scheduling. Used by 500+ hospital facilities.
 
 **Best for:** Hospital nurse managers who want direct platform control and a cleaner interface than TCP.
 
@@ -183,7 +183,7 @@ ShiftWizard is the closest like-for-like replacement for TCP in the hospital seg
 
 ### Aladtec (now TCP)
 
-Aladtec was acquired by TCP Software in 2021. The product operates under the same interface for existing customers, with TCP branding for new contracts. If nurses at your facility are comfortable with Aladtec and your complaint is specifically support quality or pricing rather than the platform itself, it is worth contacting TCP about contract terms before switching entirely.
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). It was acquired by TCP Software in 2021. The product operates under the same interface for existing customers, with TCP branding for new contracts. If nurses at your facility are comfortable with Aladtec and your complaint is specifically support quality or pricing rather than the platform itself, it is worth contacting TCP about contract terms before switching entirely.
 
 **Best for:** Facilities already live on Aladtec where the core complaint is support responsiveness or pricing, not platform capability.
 
