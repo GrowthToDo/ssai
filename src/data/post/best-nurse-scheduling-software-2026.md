@@ -237,17 +237,19 @@ Aladtec is one of the most widely used scheduling platforms in the small hospita
 
 **Best for:** Small hospitals and EMS agencies that want proven self-serve scheduling software with low implementation burden.
 
+Aladtec by TCP holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra reviews (verified 2026-04-30). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old.
+
 **Key advantages:**
 
-- Reliable, well-proven platform with a long track record in small hospitals and EMS agencies. Multiple reviewers note that customer support quality declined after Aladtec was acquired by TCP Software, with users describing a noticeably less responsive experience post-acquisition
+- Long track record in small hospitals and EMS agencies; widely deployed in 24/7 shift-work environments
 - Credential expiration tracking included out of the box
 - Lower implementation burden than most mid-market alternatives
 
 **Key limitations:**
 
-- Not purpose-built for hospital nursing. Complex nurse-specific rules such as charge nurse requirements and skill mix management require manual workarounds.
-- Reporting is limited compared to mid-market alternatives.
-- Customer support quality has been inconsistent post-TCP acquisition. Reviewers who had positive experiences with original Aladtec support describe a different experience under current ownership.
+- Not purpose-built for hospital nursing. The Capterra customer base skews toward fire/EMS/law-enforcement; complex nurse-specific rules such as charge nurse requirements and skill mix management may require manual workarounds.
+- Some reviewers report click-heavy workflows for routine schedule edits — Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- Hospital-nursing reference customers at CAH scale should be requested directly from the vendor, given the small Capterra hospital sample.
 
 **Verdict:** The strongest self-serve option for hospitals under 50 beds. If you have a tech-comfortable administrator and want to keep scheduling in-house, start here.
 
@@ -305,9 +307,9 @@ QGenda started as physician scheduling software and has expanded into nursing. I
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Nursegrid.png" alt="NurseGrid Manager scheduling app interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-NurseGrid is fundamentally a nurse-facing app. Individual nurses use it to view schedules, pick up open shifts, and communicate availability. The manager version adds unit-level oversight. It is not a full scheduling platform - it is a communication and coordination layer built on top of whatever scheduling process you already have.
+NurseGrid Manager holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). NurseGrid is built primarily as a nurse-facing app for individual nurses to view schedules, pick up open shifts, and communicate availability. The Manager tier adds unit-level oversight. CAHs evaluating NurseGrid as a primary scheduling platform should confirm hospital-tier capabilities directly with the vendor.
 
-**Best for:** Hospitals that want a staff-facing shift communication layer on top of an existing scheduling system.
+**Best for:** Hospitals that want a staff-facing shift communication layer alongside a primary scheduling system.
 
 **Key advantages:**
 
@@ -317,9 +319,9 @@ NurseGrid is fundamentally a nurse-facing app. Individual nurses use it to view 
 
 **Key limitations:**
 
-- Not a scheduling engine. You still need to build the schedule somewhere else.
-- No clinical compliance documentation for hospital regulatory requirements.
-- The manager app was removed in a prior update. Managers can no longer make schedule changes from a phone. Desktop login is required. Nurses can view their schedule on mobile, but managers cannot edit from the floor.
+- Multiple Capterra reviewers describe loss of manager-side mobile functionality. A Chief Nursing Officer (Hospital & Health Care) wrote on June 13, 2024: "It no longer has the manager app so I have to login to desktop." A Staffing Coordinator (Medical Practice) wrote on June 11, 2024: "they took away the Manager App for your phone." Verify current manager-app capability directly with the vendor before deciding.
+- Capability coverage for CMS §485.635 audit trail, FLSA overtime tracking, and credential-based callout filtering may differ across NurseGrid tiers. Confirm directly with NurseGrid sales which tier covers the capabilities your CAH needs as a primary scheduling system.
+- Multiple reviewers from smaller facilities cite organizational pricing as a barrier — an Administrator (Hospital & Health Care) wrote on June 17, 2024: "cost is too expensive for small centers."
 
 **Verdict:** A useful add-on for shift communication and open-shift posting. Not a replacement for a scheduling platform and should not be the only scheduling tool in use.
 
