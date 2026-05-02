@@ -58,81 +58,83 @@ Here is how all 8 platforms compare at a glance before we go deeper:
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Best For</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Compliance</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Callout Tools</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Setup Time</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Documented Customer Focus</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">G2 Rating</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Capterra Rating</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Setup Time (vendor-stated or typical)</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Public Pricing</th>
       </tr>
     </thead>
     <tbody>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Small hospitals under 50 beds</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Built-in</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Ranked shortlist</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Critical Access Hospitals, Texas</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">New service; in active pilot phase</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">New service; in active pilot phase</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-5 days</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Small hospitals and EMS agencies</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Basic</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">2-4 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec by TCP</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Public safety, EMS, fire, small healthcare</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.3/5 (97 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.6/5 (17 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">2-4 weeks (typical)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">~$200-450 reported</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Community hospitals, LTC/SNF</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Moderate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Long-term care, post-acute, senior care, behavioral health</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not pulled for this guide</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.5/5 (6 reviews; small sample)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-4 months (typical)</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Physician + nursing scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Moderate</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-12 weeks</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$500+</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Physician scheduling, larger health systems</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.6/5 (164 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.2/5 (68 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-12 weeks (typical)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Staff shift coordination layer</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Basic</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Open shifts only</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Low</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Nurse-facing app; staff shift coordination</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not pulled for this guide</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.2/5 (13 reviews; small sample)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days (vendor-stated)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Post-acute care, LTC, SNF</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Post-acute focus</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Good</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Post-acute care, SNF, LTC, senior living</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not pulled for this guide</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3.9/5 (14 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-8 weeks (typical)</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Non-healthcare, simple needs</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">None</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Open shifts</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">$4-6/user</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Retail, hospitality, food service, healthcare</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.6/5 (1,400+ reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.6/5 (765 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Hours to days (vendor-stated)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">$4-6 per user</td>
       </tr>
       <tr>
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">UKG</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Large health systems 200+ beds</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Enterprise</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Enterprise</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-18 months</td>
+        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">UKG Pro</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Large enterprises across many industries; large health systems</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.2/5</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4.3/5 (716 reviews)</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">6-18 months (typical at hospital scale)</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
     </tbody>
   </table>
 </div>
+
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-2 italic">Ratings and review counts gathered from G2 and Capterra on 2026-04-30 and may have changed since. "Documented Customer Focus" reflects each vendor's own positioning on its product page. Setup times marked "typical" reflect industry-reported ranges; "vendor-stated" reflects what the vendor's own page documents. Pricing reflects publicly available figures only.</p>
 
 ## How to Evaluate Nurse Scheduling Software in 2026?
 
@@ -208,7 +210,7 @@ Any software that does not provide all four of these is a compliance liability f
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-SimpleScheduleAI operates as a managed scheduling service, not self-serve software. A scheduling specialist builds the weekly schedule using your staff roster, compliance rules, and fairness preferences. The nurse manager reviews and approves. When a nurse calls out, the team surfaces a ranked shortlist of qualified, available, non-overtime staff within minutes.
+SimpleScheduleAI is a new service in active pilot phase, without public G2 or Capterra reviews yet. It operates as a managed scheduling service rather than self-serve software: a scheduling specialist builds the weekly schedule using your staff roster, compliance rules, and fairness preferences. The nurse manager reviews and approves. When a nurse calls out, the team surfaces a ranked shortlist of qualified, available, non-overtime staff within minutes.
 
 The model is built for small hospitals in Texas, with Texas overtime compliance, CMS §485.635 audit trail requirements, and charge nurse coverage rules built into the scheduling logic.
 
@@ -405,45 +407,45 @@ UKG Pro holds 4.3/5 on Capterra (716 reviews) and 4.2/5 on G2. UKG is the domina
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Platform</th>
-        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">CAH Fit</th>
-        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Implementation Burden</th>
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Documented Customer Focus</th>
+        <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Typical Setup Time</th>
       </tr>
     </thead>
     <tbody>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">SimpleScheduleAI</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">High (designed for CAHs)</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (48 hours)</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Critical Access Hospitals, Texas</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">3-5 days</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">Aladtec</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Good (small hospital native)</td>
-        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Low–medium (2–4 weeks)</td>
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">Aladtec by TCP</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Public safety, EMS, fire, small healthcare</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">2-4 weeks</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">NurseGrid</td>
-        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Medium (staff app, not a scheduler)</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (app-only)</td>
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">NurseGrid Manager</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Nurse-facing app; staff coordination</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Days</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">SmartLinx</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Good (community hospital)</td>
-        <td class="py-3 px-4 bg-orange-50 dark:bg-orange-950 text-orange-700 dark:text-orange-300">Medium (3–4 months)</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Long-term care, post-acute, senior care, behavioral health</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">3-4 months</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">QGenda</td>
-        <td class="py-3 px-4 bg-yellow-50 dark:bg-yellow-950 text-yellow-700 dark:text-yellow-300">Medium (physician-first design)</td>
-        <td class="py-3 px-4 bg-orange-50 dark:bg-orange-950 text-orange-700 dark:text-orange-300">Medium–high (4–8 weeks)</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Physician scheduling, larger health systems</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">6-12 weeks</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800">
         <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">Deputy</td>
-        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Low (not healthcare-built)</td>
-        <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-700 dark:text-green-300">Very low (hours)</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Retail, hospitality, food service, healthcare</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Hours to days</td>
       </tr>
       <tr>
-        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">UKG</td>
-        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Low for CAHs (enterprise-only ROI)</td>
-        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300">Very high (6–18 months)</td>
+        <td class="py-3 px-4 font-medium text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900">UKG Pro</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">Large enterprises across many industries; large health systems</td>
+        <td class="py-3 px-4 text-slate-700 dark:text-slate-300">6-18 months at hospital scale</td>
       </tr>
     </tbody>
   </table>
@@ -455,17 +457,17 @@ UKG Pro holds 4.3/5 on Capterra (716 reviews) and 4.2/5 on G2. UKG is the domina
 
 Your first question is whether you want to manage scheduling yourself or eliminate it as a management task. If your nurse manager is also clinically active and spends 8+ hours per week on scheduling, the administrative model of self-serve software may not solve the right problem.
 
-- **Best self-serve option:** Aladtec. Lower implementation burden than SmartLinx, good credential tracking, proven in small hospitals.
+- **Best self-serve option:** Aladtec. Lower implementation burden than SmartLinx, includes credential tracking, used widely in small hospitals and EMS.
 - **Best managed option:** SimpleScheduleAI. Built specifically for this segment, handles scheduling and compliance for you.
-- **Avoid:** UKG, QGenda (oversized for your scale), Deputy (no clinical compliance features).
+- **Less likely to fit at this scale:** UKG (typical implementation 6 to 18 months at hospital scale), QGenda (positioned for larger health systems and physician groups), Deputy (positioned across many industries; if HIPAA/CMS audit-trail support is required, confirm tier coverage with the vendor).
 
 **25-75 beds (Small Community Hospital):**
 
 You have enough complexity to justify a real scheduling platform, but not enough scale to absorb enterprise implementation costs.
 
-- **Best options:** SmartLinx or Aladtec. Both have solid features for this size range without enterprise pricing.
+- **Best options:** SmartLinx or Aladtec. Both serve this size range without enterprise pricing.
 - **Also consider:** QGenda if you need physician scheduling alongside nursing.
-- **Avoid:** UKG (implementation burden is disproportionate), NurseGrid (not a full scheduling engine).
+- **Less likely to fit at this scale:** UKG (typical implementation 6 to 18 months), NurseGrid (positioned as a nurse-facing app rather than a primary scheduling system; verify hospital-tier coverage with the vendor).
 
 **75-200 beds (Community Hospital):**
 
@@ -473,7 +475,7 @@ A full scheduling platform with credential management, EHR read access, and soli
 
 - **Best options:** QGenda, SmartLinx.
 - **Also consider:** OnShift if you have significant post-acute or LTC volume.
-- **Avoid:** SimpleScheduleAI (designed for smaller facilities), NurseGrid (too lightweight).
+- **Less likely to fit at this scale:** SimpleScheduleAI (designed for smaller facilities under 50 beds), NurseGrid (positioned as a nurse-facing app rather than a primary scheduling platform).
 
 ## What Changed in Nurse Scheduling Software in 2026?
 
@@ -509,8 +511,8 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
       <div class="rounded bg-blue-100 dark:bg-blue-900 border border-blue-300 dark:border-blue-700 px-3 py-2">
         <p class="font-semibold text-blue-800 dark:text-blue-300 text-xs">Want managed: SimpleScheduleAI</p>
       </div>
-      <div class="rounded bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 px-3 py-2">
-        <p class="text-red-700 dark:text-red-400 text-xs">Avoid: UKG, QGenda, Deputy</p>
+      <div class="rounded bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-3 py-2">
+        <p class="text-slate-700 dark:text-slate-300 text-xs">Less likely to fit: UKG, QGenda, Deputy</p>
       </div>
     </div>
   </div>
@@ -523,8 +525,8 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
       <div class="rounded bg-green-100 dark:bg-green-900 border border-green-300 dark:border-green-700 px-3 py-2">
         <p class="text-green-700 dark:text-green-400 text-xs">+ QGenda if physician scheduling needed</p>
       </div>
-      <div class="rounded bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 px-3 py-2">
-        <p class="text-red-700 dark:text-red-400 text-xs">Avoid: UKG, NurseGrid (too lightweight)</p>
+      <div class="rounded bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-3 py-2">
+        <p class="text-slate-700 dark:text-slate-300 text-xs">Less likely to fit: UKG, NurseGrid</p>
       </div>
     </div>
   </div>
@@ -544,8 +546,8 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
   </div>
 </div>
 <div class="not-prose rounded-lg bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 px-5 py-4 my-4">
-  <p class="font-semibold text-amber-800 dark:text-amber-300 text-sm">Avoid enterprise WFM platforms (UKG, API Healthcare) if you have fewer than 75 beds.</p>
-  <p class="text-amber-700 dark:text-amber-400 text-xs mt-1">Implementation takes 6 to 18 months, more than most small hospitals can manage internally.</p>
+  <p class="font-semibold text-amber-800 dark:text-amber-300 text-sm">Enterprise WFM platforms (UKG, API Healthcare) are typically a poor scale fit under 75 beds.</p>
+  <p class="text-amber-700 dark:text-amber-400 text-xs mt-1">Implementation takes 6 to 18 months at hospital scale, more than most small hospitals can manage internally.</p>
 </div>
 
 ## What to Do This Week
