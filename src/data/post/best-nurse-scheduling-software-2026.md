@@ -226,7 +226,7 @@ The model is built for small hospitals in Texas, with Texas overtime compliance,
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Aladtec.png" alt="Aladtec scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old. Aladtec offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The interface is functional without requiring significant IT involvement to set up.
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old. Aladtec offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The interface is functional without requiring significant IT involvement to set up. For the operating-model comparison between a self-serve platform like Aladtec and a managed service, see our [self-serve vs managed scheduling service post](/blog/shiftwizard-vs-managed-service).
 
 **Best for:** Small hospitals and EMS agencies that want proven self-serve scheduling software with low implementation burden.
 
@@ -277,7 +277,7 @@ SmartLinx is well-suited to LTC, post-acute, and SNF facilities that want schedu
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/QGenda.png" alt="QGenda physician and nurse scheduling platform interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-QGenda holds 4.6/5 on G2 (164 reviews) and 4.2/5 on Capterra (68 reviews). It started as physician scheduling software and has expanded into nursing, and is a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. Ari W., Administrator (Hospital & Health Care), wrote on Capterra (May 7, 2024): "Qgenda is easy to use and does a great job at automating."
+QGenda holds 4.6/5 on G2 (164 reviews) and 4.2/5 on Capterra (68 reviews). It started as physician scheduling software and has expanded into nursing, and is a strong platform for hospitals that need to manage complex physician call schedules alongside nursing rosters. Ari W., Administrator (Hospital & Health Care), wrote on Capterra (May 7, 2024): "Qgenda is easy to use and does a great job at automating." For a deeper look at QGenda specifically, see our [QGenda alternatives breakdown](/blog/qgenda-alternatives).
 
 **Best for:** Multi-specialty physician scheduling and hospitals that need physician and nursing scheduling on one platform.
 
