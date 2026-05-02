@@ -127,65 +127,65 @@ The positive reviews for Aladtec are predominantly from fire, EMS, and law enfor
 
 ## Quick Comparison: Aladtec vs. The Alternatives: Which Is Better?
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Best For</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CMS Docs</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Auto OT Ranking</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:18%">Platform</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:32%">Best For</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:18%">CMS Docs</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:18%">Auto OT Ranking</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100" style="width:14%">Cost/Month</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec (current)</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Emergency services orgs</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No, manual export</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No, manual check</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Aladtec (current)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Emergency services orgs</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manual export</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manual check</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">CAHs, managed service</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, automatic</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, built in</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">CAHs, managed service</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Automatic</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Built in</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Hospitals staying in TCP ecosystem</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Hospitals staying in TCP ecosystem</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">50-100 bed hospitals</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">50-100 bed hospitals</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">When I Work</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Simple schedule visibility</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">When I Work</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Simple schedule visibility</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not documented</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not documented</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$2.50-4/user</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, low complexity</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">Free-$80/month</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Very small teams, low complexity</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not documented</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not documented</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Free-$80/mo</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Basic schedule visibility</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Basic schedule visibility</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$4.50/user</td>
       </tr>
     </tbody>
@@ -367,54 +367,54 @@ If all four of these conditions apply, the switch cost and learning curve of an 
 
 ## How SimpleScheduleAI Compares to Aladtec?
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Feature</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Aladtec</th>
-        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400 whitespace-nowrap">SimpleScheduleAI</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:30%">Feature</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:35%">Aladtec</th>
+        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400" style="width:35%">SimpleScheduleAI</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Schedule construction</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manager builds, tool assists</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Schedule construction</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manager builds, tool assists</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">3 drafts delivered in 48 hrs</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual export required</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manual export required</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Automatic, always current</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Callout overtime ranking</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual check required</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Callout overtime ranking</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manual check required</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Automated, built into shortlist</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Configuration maintenance</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manager/IT responsibility</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Configuration maintenance</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manager/IT responsibility</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Service responsibility</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Texas overtime compliance</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Configurable (requires setup)</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Texas overtime compliance</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable (requires setup)</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Built in as default</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Implementation time</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-6 weeks to fully configured</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Implementation time</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4-6 weeks to fully configured</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Excel upload, days to first draft</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Pricing model</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">$200-450/month, per roster</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Pricing model</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">$200-450/month, per roster</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Not listed, contact for quote</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Manager control</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Full, direct control</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Manager control</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Full, direct control</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">High-level, via draft selection</td>
       </tr>
     </tbody>
