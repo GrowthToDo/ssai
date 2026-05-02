@@ -53,7 +53,7 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 ## What UKG Assumes You Have?
 
 <div class="not-prose my-8">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr>
         <th class="py-3 px-4 text-left font-semibold bg-slate-700 dark:bg-slate-600 text-white border border-slate-600 dark:border-slate-500">UKG Assumption</th>
@@ -99,7 +99,7 @@ Beyond the purchase price, the operational cost of running UKG at CAH scale is s
 ## What Are the UKG Alternatives for Small Hospitals?
 
 <div class="not-prose my-8">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
     <thead>
       <tr class="bg-slate-100 dark:bg-slate-800">
         <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">Platform</th>

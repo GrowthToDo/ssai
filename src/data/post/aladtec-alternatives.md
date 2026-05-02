@@ -128,7 +128,7 @@ The positive reviews for Aladtec are predominantly from fire, EMS, and law enfor
 ## Quick Comparison: Aladtec vs. The Alternatives: Which Is Better?
 
 <div class="not-prose">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:18%">Platform</th>
@@ -368,7 +368,7 @@ If all four of these conditions apply, the switch cost and learning curve of an 
 ## How SimpleScheduleAI Compares to Aladtec?
 
 <div class="not-prose">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:30%">Feature</th>

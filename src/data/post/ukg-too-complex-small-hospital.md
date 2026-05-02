@@ -140,7 +140,7 @@ The scheduling requirements for a CAH are not simple. They are just different fr
 These requirements can be met by purpose-built tools at a fraction of UKG's cost and complexity.
 
 <div class="not-prose my-8">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr>
         <th class="py-3 px-3 text-left font-semibold bg-slate-700 dark:bg-slate-600 text-white border border-slate-600 dark:border-slate-500">Dimension</th>

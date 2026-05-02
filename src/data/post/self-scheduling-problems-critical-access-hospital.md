@@ -125,7 +125,7 @@ Cross-cycle tracking is the most operationally significant missing piece in self
 The data to build this system already exists in every hospital's timesheets. The barrier is aggregation: pulling that data, organizing it by nurse, and applying it to the next scheduling cycle takes several hours that most scheduling managers do not have between cycles.
 
 <div class="not-prose my-8">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr>
         <th class="py-3 px-4 text-left font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Cycle</th>
