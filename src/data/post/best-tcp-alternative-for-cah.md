@@ -114,8 +114,8 @@ If the goal is structural burden reduction rather than a better tool, **SimpleSc
 
 The trade-off is the staff-facing experience: TCP has a nurse-facing mobile app, SimpleScheduleAI does not. The full SimpleScheduleAI profile, including pricing and limitations, is in the comparison section below.
 
-<div class="not-prose overflow-x-auto my-8">
-  <table class="w-full text-sm border-collapse" style="min-width:480px">
+<div class="not-prose my-8">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
     <thead>
       <tr class="bg-slate-100 dark:bg-slate-700">
         <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Dimension</th>
