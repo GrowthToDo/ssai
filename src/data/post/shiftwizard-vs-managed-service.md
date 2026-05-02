@@ -1,14 +1,15 @@
 ---
-draft: true
-publishDate: 2026-04-17T00:00:00Z
-updateDate: 2026-04-17T00:00:00Z
+draft: false
+publishDate: 2026-05-02T00:00:00Z
+updateDate: 2026-05-02T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'ShiftWizard vs. Managed Scheduling Service for CAHs'
 excerpt: >
-  ShiftWizard is a self-serve hospital scheduling platform used by 500+ facilities. A managed
-  scheduling service runs the scheduling function for you. For a critical access hospital with
-  no dedicated scheduling staff, the choice between them comes down to how much scheduling work
-  your nurse manager can actually sustain.
+  ShiftWizard and other hospital scheduling platforms are self-serve software: your team
+  configures the system and your nurse manager operates it weekly. A managed service runs
+  the scheduling function for you. For a Critical Access Hospital with no dedicated
+  scheduling staff, the choice between these two operating models depends on weekly
+  capacity, not feature lists. This guide explains the decision framework.
 image: https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -21,198 +22,213 @@ metadata:
 
 ## Key Takeaways
 
-- ShiftWizard is a self-serve platform your nurse manager configures and operates. A managed service runs scheduling for your nurse manager, with a specialist building drafts and the manager approving.
-- ShiftWizard's primary advantage is the staff-facing mobile app. SimpleScheduleAI does not have one.
-- A managed service's primary advantage is time to operational (3-5 days vs. 2-4 weeks) and weekly burden reduction (1-2 hours vs. 4-6 hours).
-- Known ShiftWizard weaknesses from G2 and Capterra reviews: mobile app cannot show full department schedules, shift swap is unreliable, staff see only their own position's schedule, and onboarding support is weak.
-- The right choice depends on whether nurse self-service features or nurse manager burden reduction is the higher priority at your facility.
+- ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream. It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews), with over 88% of Capterra reviews rating 4 stars or higher.
+- Self-serve platforms and managed services are not feature-equivalent products at different price points. They are different operating models. The right framing for a CAH evaluation is "what operating model fits my facility?" not "which product is better?"
+- Self-serve platforms ask the nurse manager to configure and operate the scheduling system every week. Setup typically runs 2-4 weeks; weekly burden after go-live is typically 4-6 hours.
+- Managed services handle configuration and weekly schedule generation through a specialist outside the hospital. The nurse manager reviews and approves. Setup typically runs 3-5 days via Excel upload; weekly burden after go-live is typically 1-2 hours.
+- The right choice depends on whether your nurse manager has 4-6 weekly hours of capacity to dedicate to scheduling administration. If she does, a self-serve platform fits. If she does not, the operating model is the actual constraint, not the platform.
 
 ## Table of Contents
 
 - [What ShiftWizard Is](#what-shiftwizard-is)
 - [What a Managed Scheduling Service Is](#what-a-managed-scheduling-service-is)
-- [Direct Comparison](#how-do-shiftwizard-and-a-managed-service-compare-directly)
-- [Where ShiftWizard Wins](#where-shiftwizard-wins)
-- [Where a Managed Service Wins](#where-a-managed-service-wins)
-- [Known ShiftWizard Weaknesses](#known-shiftwizard-weaknesses)
-- [Which Fits Your CAH?](#which-fits-your-cah)
+- [Five Questions to Ask in Any Hospital Scheduling Demo](#five-questions-to-ask-in-any-hospital-scheduling-demo)
+- [Direct Comparison of the Two Operating Models](#direct-comparison-of-the-two-operating-models)
+- [Where Self-Serve Platforms Fit](#where-self-serve-platforms-fit)
+- [Where a Managed Service Fits](#where-a-managed-service-fits)
+- [Which Model Fits Your CAH?](#which-model-fits-your-cah)
+- [How SimpleScheduleAI Fits If You Need the Managed Service Model](#how-simpleschedule-ai-fits-if-you-need-the-managed-service-model)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-ShiftWizard is a hospital scheduling platform built by nurses and used by 500+ facilities. A managed scheduling service is a different operating model entirely. One is software your team runs. The other is a function a specialist runs on your behalf. For a critical access hospital with no dedicated scheduling staff, the distinction matters more than any feature comparison.
+For a Critical Access Hospital nurse manager evaluating hospital scheduling options, the most consequential decision is not which scheduling product to buy. It is which operating model the hospital is signing up for. A self-serve platform like ShiftWizard puts the operational layer on your nurse manager's calendar. A managed service moves that layer to a specialist outside the hospital. The feature-by-feature comparison matters less than this structural question.
 
-## What ShiftWizard Is?
+## What Is ShiftWizard?
 
-ShiftWizard is a hospital scheduling platform that handles shift assignment, self-scheduling, shift swaps, overtime tracking, and basic credential management. It is positioned as a clinically aware alternative to generic scheduling tools.
+ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM). It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews), with over 88% of Capterra reviews rating 4 stars or higher. G2's overall summary describes ShiftWizard as a tool users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
 
-The platform is self-serve: your team configures it, your nurse manager builds schedules in it, and the platform provides the tools and structure. ShiftWizard automates parts of the scheduling process, but the nurse manager is the operator.
+ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
 
-For hospitals with a technically comfortable scheduler and adequate time to configure and run the platform, ShiftWizard works. The issue at critical access hospitals is that the assumptions rarely hold: there is typically no dedicated scheduler, no IT support, and the nurse manager has limited capacity to absorb a new system on top of clinical responsibilities.
+The defining characteristic of the platform from an operating-model standpoint: it is self-serve. The vendor provides software, training, and onboarding support; your team configures the system, builds schedules, and operates the platform week to week. The schedule does not generate itself; the nurse manager (or a scheduling coordinator at facilities that have one) is the operator.
 
-## What a Managed Scheduling Service Is?
+## What Is a Managed Scheduling Service?
 
-A managed scheduling service changes the operating model. Rather than software your team runs, it is a function a specialist runs on your behalf.
+A managed scheduling service is a different category of product. Instead of providing a platform your team operates, the service provides outcomes: a delivered schedule, on a cadence, configured to your facility's rules.
 
-With SimpleScheduleAI:
+The structural difference: with a platform, your team uses tools to do the scheduling work. With a managed service, an external specialist team does the scheduling work and your nurse manager reviews their output. The platform-vs-service distinction is not about pricing tier or feature depth; it is about which side of the hospital boundary the operational work happens on.
 
-- A specialist handles initial setup from your Excel roster upload (3 to 5 days)
-- Draft schedules are built each cycle, with overtime constraints and certification requirements checked before the draft reaches the nurse manager
-- The nurse manager reviews draft schedules and approves or requests adjustments
-- Callout coverage shortlists come pre-ranked by certification, overtime status, and availability
-- Every change is automatically logged for [CMS §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) audit trail
-- The specialist maintains the roster as staff changes occur
+The nurse manager retains final authority over every scheduling decision in either model. The difference is whether she is building or reviewing.
 
-The nurse manager retains final authority over every scheduling decision. The upstream work is handled for her. For a full walkthrough of each step, see [how SimpleScheduleAI works](/how-it-works).
+## What Are the Five Questions to Ask in Any Hospital Scheduling Demo?
 
-## How Do ShiftWizard and a Managed Service Compare Directly?
+These questions surface operational fit faster than feature checklists do. Use them in any demo, whether the vendor is selling a self-serve platform or a managed service.
+
+<div class="not-prose my-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">1. Setup Time</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"What is your typical setup timeline for a 25-bed hospital with no IT department? Show me a sample onboarding schedule."</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">2. Weekly Burden</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"How many hours per week does the nurse manager spend on this platform after go-live? Reference customer at our scale, please."</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">3. Compliance</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"Show me the audit-trail export for CMS §485.635. Show me the FLSA 8-and-80 overtime rule configuration."</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">4. Mobile Workflow</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"Walk me through what a nurse manager can and cannot do from the mobile app, with both manager and staff perspectives shown."</p>
+  </div>
+  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
+    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">5. Callout Coverage</div>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"A nurse calls out at 5am Sunday. Show me the exact workflow the nurse manager uses to find a qualified, non-overtime replacement."</p>
+  </div>
+</div>
+
+The answers to these five questions, not the feature pages, determine operational fit at CAH scale.
+
+## What Does the Direct Comparison of the Two Operating Models Look Like?
 
 <div class="not-prose overflow-x-auto my-8">
-  <table class="w-full text-sm border-collapse" style="min-width:640px">
+  <table class="w-full text-sm border-collapse" style="min-width:680px">
     <thead>
       <tr class="bg-slate-100 dark:bg-slate-700">
-        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">Dimension</th>
-        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">ShiftWizard</th>
-        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold dark:text-slate-100">Managed Service (SimpleScheduleAI)</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Dimension</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Self-Serve Platform (e.g. ShiftWizard)</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Managed Service</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Setup</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">2-4 weeks, nurse manager configures</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days, specialist configures</td>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Who configures the system</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Hospital team, with vendor onboarding support</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Service specialist, from Excel roster upload</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Weekly scheduling work</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">4-6 hours (builds schedules)</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-2 hours (reviews and approves)</td>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Who builds each schedule</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager, in the platform</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Service specialist, delivered for review</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Overtime tracking</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Visible in platform (manual check)</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Proactive, flagged before draft presented</td>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Who handles a callout</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager, using platform tools</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Service delivers ranked shortlist; nurse manager calls</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">CMS audit trail</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Available (requires correct config)</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Automatic, every change logged</td>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Typical setup time</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">3-5 days</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Callout coverage</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Manager checks platform, calls manually</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Pre-ranked shortlist with constraints applied</td>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Weekly nurse manager burden</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">~4-6 hours</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">~1-2 hours</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Staff mobile app</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Yes, nurses view schedules on phones</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">No staff app</td>
+      <tr class="bg-slate-50 dark:bg-slate-900">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Staff-facing mobile app</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Yes (varies by platform)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Varies by service; SimpleScheduleAI does not have one</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">IT requirements</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Minimal</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">None</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium dark:text-slate-100">Support when things go wrong</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 dark:text-slate-300">Ticket system</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Specialist familiar with your facility setup</td>
+      <tr class="bg-white dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Direct platform control</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Full</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Approval authority retained; configuration delegated</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## Where ShiftWizard Wins?
+These are typical numbers across the two operating models. Specific products vary. The decision is which row matters most for your facility.
 
-**Staff-facing mobile app.** This is ShiftWizard's clearest advantage. Nurses can view their schedules, request availability changes, and participate in shift swaps through the ShiftWizard mobile app. SimpleScheduleAI does not have a nurse-facing interface. If nurses managing their own schedules on mobile is a priority for your facility, ShiftWizard addresses that directly.
+## Where Self-Serve Platforms Fit
 
-**Direct platform control.** Some nurse managers prefer hands-on involvement in every scheduling decision. With ShiftWizard, the nurse manager sees every constraint, makes every assignment, and has full visibility into the scheduling logic. A managed service shifts some of that visibility to the specialist, which works well for managers focused on outcomes and uncomfortably for managers who prefer direct operational control.
+Self-serve platforms are the right model when:
 
-**No ongoing service dependency.** With ShiftWizard, you own the platform and the process. With a managed service, you depend on the service relationship. For facilities that prefer operational self-sufficiency, the self-serve model has real appeal.
+- **Your facility has a designated scheduling coordinator.** Someone whose job description includes scheduling administration as a primary responsibility, not the nurse manager fitting it in between clinical shifts.
+- **Direct platform control matters operationally.** If your facility's scheduling logic involves enough variability that a specialist building from a stable rule set would not capture it, hands-on configuration matters.
+- **Staff-facing mobile features are a hard requirement.** Most self-serve platforms include a staff-facing mobile app for nurses to view schedules and request swaps. Most managed services do not.
+- **You prefer operational self-sufficiency over service dependency.** With a platform, you own the operational process. With a managed service, you depend on the service relationship for ongoing delivery.
 
-## Where a Managed Service Wins?
+When these conditions hold, a self-serve platform like ShiftWizard, TCP/Aladtec, or QGenda is worth comparing on operational fit using the five demo questions above.
 
-**Time to operational.** ShiftWizard takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this difference is significant.
+## Where a Managed Service Fits
 
-**Weekly burden.** ShiftWizard reduces scheduling from 8-12 hours per week to roughly 4-6 hours. A managed service reduces it to 1-2 hours. The delta, 3-4 hours per week, over a year is 150-200 hours of recovered nurse manager time. For a breakdown of where those hours go and what that burden costs a CAH, see [the $26,000 scheduling burden](/blog/healthcare-scheduling-crisis).
+A managed service is the right model when:
 
-**Callout coverage.** ShiftWizard provides visibility into availability. The nurse manager still works through the platform to identify certified, within-overtime, available nurses. A managed service provides a pre-ranked shortlist. The difference is 30-60 minutes of manual research vs. 10-15 minutes of making calls.
+- **Your nurse manager is also a charge nurse, department head, or other clinical role.** Time on the floor cannot be substituted with platform time; the scheduling work needs to come off her calendar entirely, not be made faster.
+- **Your facility has no dedicated IT capacity.** Implementation that assumes IT support, for integrations, configuration, or troubleshooting, fails at facilities where the IT person is one part-time role.
+- **Time-to-operational matters more than mobile self-service.** When a current scheduling situation is unsustainable, a 3-5 day setup timeline matters more than a staff app that the previous platform also had.
+- **Compliance documentation is a survey-relevant concern.** Managed services typically deliver auto-logged audit trails for CMS §485.635 as part of the service, rather than requiring the nurse manager to maintain documentation through configuration.
 
-**No configuration risk.** ShiftWizard misconfigured is ShiftWizard producing scheduling errors. Overtime rules set up wrong surface at payroll, sometimes after overpaying nurses for weeks. A managed service specialist is responsible for configuration accuracy.
+## Which Model Fits Your CAH?
 
-## What Are the Known ShiftWizard Weaknesses?
+The decision tree:
 
-<div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
-    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Mobile App Gaps</p>
-    <p class="text-xs text-slate-600 dark:text-slate-400">Can't show full dept schedules or extended date ranges</p>
-  </div>
-  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
-    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Shift Swap Reliability</p>
-    <p class="text-xs text-slate-600 dark:text-slate-400">Unreliable and confusing; unclear if swap was confirmed</p>
-  </div>
-  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
-    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Dept Visibility</p>
-    <p class="text-xs text-slate-600 dark:text-slate-400">Staff see only their own position</p>
-  </div>
-  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
-    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Onboarding Support</p>
-    <p class="text-xs text-slate-600 dark:text-slate-400">Implementation tedious; support insufficient</p>
-  </div>
-  <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 p-4">
-    <p class="font-semibold text-red-700 dark:text-red-400 text-sm mb-1">Payroll Integration</p>
-    <p class="text-xs text-slate-600 dark:text-slate-400">Paycom integration reliability problems cited</p>
-  </div>
-</div>
+1. Does your nurse manager have 4-6 weekly hours of dedicated time for scheduling administration after go-live? If yes, evaluate self-serve platforms. If no, the operating model is the actual constraint.
+2. Is staff-facing mobile self-service (shift trades, schedule viewing on phones) a hard requirement for your facility's culture? If yes, a self-serve platform is the cleaner fit.
+3. Is implementation timeline urgent (current situation unsustainable in next 4 weeks)? If yes, a managed service is the faster path.
+4. Does your facility have any IT capacity for implementation? If no, a managed service avoids the dependency.
 
-These are issues with ShiftWizard specifically, separate from the self-serve vs. managed service question. If you evaluate ShiftWizard, ask the vendor directly how they have addressed each of these. For a broader comparison of how ShiftWizard stacks up against other options, see the [best nurse scheduling software guide for 2026](/blog/best-nurse-scheduling-software-2026).
+The honest answer for many CAHs is "items 1, 3, and 4 favor a managed service; item 2 favors a platform." When this is the breakdown, a hybrid architecture (managed service for scheduling plus a separate communication tool for staff-facing features) can work.
 
-## Which Fits Your CAH?
+## How SimpleScheduleAI Fits If You Need the Managed Service Model
 
-**ShiftWizard fits when:**
+SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) for Critical Access Hospitals in Texas. We are not a self-serve scheduling platform; we are not positioned as a head-to-head replacement for ShiftWizard.
 
-- Nurse self-service mobile features are a priority
-- Your nurse manager is technically comfortable and has 4-6 hours per week for scheduling work
-- Direct control over every scheduling decision matters
-- You want operational self-sufficiency without ongoing service dependency
+SimpleScheduleAI is a new service in active pilot phase, without public G2 or Capterra reviews yet. What we offer instead:
 
-**Managed service fits when:**
+- **A free 60-day pilot for qualifying CAHs in Texas.** No setup fee or commitment during the pilot. You evaluate on actual delivered schedules, not on demos.
+- **Direct customer references on request.** We can connect you with current pilot facilities for an unfiltered reference call.
+- **Founder-led service.** Pradeep Pandey, founder, has direct operations experience at Apollo Hospitals (Deputy GM, Operations) and an MBA from IIM Trichy. Service decisions go through him, not through a tier-3 support queue.
+- **CAH-specific design.** Excel roster onboarding, no IT integration required, 3-5 day go-live, Texas FLSA 8-and-80 compliance built in, CMS §485.635 audit trail logged automatically.
 
-- Getting operational in days, not weeks, is important
-- Reducing nurse manager scheduling burden to 1-2 hours per week is the goal
-- Callout coverage scrambles are a specific recurring pain point
-- Your nurse manager is already stretched and cannot absorb a new platform implementation
+SimpleScheduleAI is the right choice for a CAH where the nurse manager has concluded that the self-serve scheduling model takes more weekly time than her role can absorb, and where direct customer-reference validation matters more than aggregate vendor reviews.
+
+It is not the right choice if staff-facing self-service mobile features are a hard requirement; we currently focus on the manager-facing scheduling workflow and do not have a staff-facing app. For more on the operating model, see [how SimpleScheduleAI works](/how-it-works) and our [nurse scheduling software hub](/nurse-scheduling-software). Related buyer-stage posts: [the 8 best nurse scheduling software options for 2026](/blog/best-nurse-scheduling-software-2026), [the $26,000 hidden cost of manual scheduling at CAHs](/blog/healthcare-scheduling-crisis), and [why UKG is too complex for small hospitals](/blog/ukg-too-complex-small-hospital).
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
-  <h2 class="mb-2 text-2xl font-bold text-white">Ready to See Whether a Managed Service Fits Your CAH?</h2>
+  <h2 class="mb-2 text-2xl font-bold text-white">Want a Reference Call With a Pilot CAH?</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days with zero IT involvement. Your nurse manager reviews and approves, the scheduling work is done for her. Schedule a free assessment to see how it works for your facility.
+    Before you decide, we can connect you with a current SimpleScheduleAI pilot facility for an unfiltered conversation about the managed service model. Free 60-day pilot if you decide to proceed.
   </p>
   <a
     href="/pilot"
     class="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-blue-50"
   >
-    Request a Free Scheduling Assessment
+    Request a Pilot Reference Call
   </a>
 </div>
 
-For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
+## A Note on Sources
+
+Public review counts, ratings, and quotes referenced in this guide were gathered from G2, Capterra, AllNurses.com, Reddit (r/nursing), the iOS App Store, Google Play, GetApp, and SoftwareAdvice on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
 
 ## Frequently Asked Questions
 
-**Does ShiftWizard work for a 25-bed critical access hospital?**
+**Does ShiftWizard work for a 25-bed Critical Access Hospital?**
 
-ShiftWizard's healthcare-specific design makes it more appropriate for CAHs than generic tools. The practical challenge is the self-serve model: setup takes 2-4 weeks and ongoing operation requires consistent nurse manager time. CAHs with no dedicated scheduling coordinator find this burden adds to an already stretched management role.
+ShiftWizard's healthcare-specific design makes it more appropriate for hospitals than generic workforce-management tools. The fit at CAH scale is an operational question rather than a product question: ask the vendor for reference customers at 25-bed scale who completed onboarding in the past 12 months, and use the five demo questions above to evaluate whether the operating model fits your facility's capacity.
 
-**What happens with ShiftWizard when a nurse calls out at 5am?**
+**What happens when a nurse calls out at 5am with each model?**
 
-The nurse manager opens ShiftWizard, checks current hours and availability for potential replacements, verifies certifications, and makes calls. ShiftWizard provides the information; she does the work. With a managed service, a pre-replacement call list is already maintained with all constraints applied, reducing the manager's work to making the calls.
+With a self-serve platform, the nurse manager opens the platform, checks current hours and availability, verifies certifications, and makes calls. With a managed service like SimpleScheduleAI, a pre-replacement call list ranked by certification, overtime status, and availability is already maintained; the nurse manager's work reduces to making the calls. Ask both vendors to demo this exact workflow.
 
 **Is SimpleScheduleAI cheaper than ShiftWizard?**
 
-Both are quote-based, neither publishes list pricing. The relevant comparison is total cost of ownership: platform cost plus the nurse manager's time operating it. A managed service bundles both; a platform separates them. Recovering 3-4 hours per week of nurse manager time over a year represents meaningful operational value beyond the direct cost comparison.
+Both vendors are quote-based; neither publishes list pricing. The relevant comparison is total cost of ownership: software cost plus the nurse manager's operating time. A managed service bundles both into a service fee; a platform separates them. Recovering 3-4 hours per week of nurse manager time over a year is a meaningful operational consideration alongside the direct cost comparison.
 
-**Can I use ShiftWizard for staff communication and SimpleScheduleAI for scheduling?**
+**Can I use both ShiftWizard for staff communication and SimpleScheduleAI for scheduling?**
 
-This hybrid can work in theory, but it creates two sources of truth for schedule data. More practically, if a facility uses a managed service for scheduling, the specialist builds the schedule and posts it through whatever system the facility uses for staff communication. Adding ShiftWizard as a parallel staff communication tool creates overlap and potential confusion.
+This hybrid is technically possible but creates two systems of record for schedule data, which adds coordination overhead. A simpler architecture for facilities that want both staff-facing mobile features and managed scheduling is to use a separate communication tool (group messaging, internal portal) alongside the managed service, rather than running two scheduling systems in parallel.
 
 **What is the biggest risk with the self-serve model at a small hospital?**
 
-Configuration risk. A self-serve platform misconfigured is a self-serve platform producing errors that surface at payroll or during a CMS survey. Overtime rules, credential requirements, and minimum staffing requirements all require correct initial setup and maintenance as staff and policies change. At a CAH with no dedicated scheduling coordinator, that maintenance burden falls entirely on the nurse manager.
+Setup configuration that drifts out of date. Self-serve platforms work as well as the rules configured in them; if a regulatory rule changes or a unit-specific scheduling pattern shifts, the configuration needs maintenance. At facilities with no dedicated scheduling administrator, that maintenance work tends to slip, and the platform produces increasingly inaccurate output until someone catches it.
+
+[See how the managed service model works in practice →](/how-it-works)
+
+---
+
+**Written by Pradeep Pandey**
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

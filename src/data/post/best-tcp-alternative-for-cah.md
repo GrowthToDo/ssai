@@ -49,9 +49,9 @@ The specific TCP complaints that drive CAH nurse managers to look for alternativ
 
 **Ongoing operation.** Even after setup, TCP requires the nurse manager to build each schedule in the platform, manage availability requests, and handle callout coverage through the interface. It reduces scheduling time compared to spreadsheets, but it does not eliminate the scheduling function.
 
-**Support quality.** Multiple reviewers specifically mention that customer support quality declined after the TCP acquisition of Aladtec.
+**Support follow-up.** TCP acquired Aladtec in 2021. CAH evaluators should ask the vendor for current named support contacts and documented response-time SLAs, particularly given the time elapsed since acquisition.
 
-**Too many clicks.** Reviewers consistently describe routine scheduling actions as requiring excessive steps, with schedules built one day at a time and no bulk assignment option.
+**Click-heavy workflow.** Some reviewers describe routine scheduling actions as click-heavy. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
 
 <div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
   <div class="rounded-lg border-2 border-green-300 dark:border-green-700 bg-white dark:bg-slate-800 overflow-hidden">
@@ -165,19 +165,17 @@ ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named 
 
 **Key advantages:**
 
-- Designed by nurses specifically for hospital scheduling environments
-- More intuitive shift assignment workflow than TCP
-- Float pool and per diem management built in
-- No steep learning curve compared to enterprise platforms
+- Documented as designed by nurses specifically for hospital scheduling environments. Jennifer C., Director of Emergency Services, wrote on Capterra (July 15, 2024): "ShiftWizard was designed by nurses which is why it is fantastic to use."
+- Float pool and per diem management documented on the product page
+- Strong overall ratings (4.3/5 G2, 4.4/5 Capterra) with over 88% of Capterra reviews rating 4 stars or higher
 
 **Key limitations:**
 
-- Managers cannot view full department schedules on mobile (known gap per reviewer reports)
-- Shift swap reliability issues reported in G2 and Capterra reviews
-- Onboarding support is weak relative to the initial pricing
-- Setup still takes 2-4 weeks; does not reduce scheduling labor
+- App performance complaints from a subset of reviewers. Erika A., Registered Nurse, wrote on Capterra (July 9, 2024): "Can be slow and glitchy, making inputting schedule difficult and stressful."
+- Some reviewers describe mobile login friction. Melissa R., LVN, wrote on Capterra (July 26, 2024): "I wish the messaging was better, and that I have to input my info every time I log in."
+- Self-serve operating model: setup typically 2-4 weeks, and the nurse manager remains the operator. Switching from TCP to ShiftWizard does not change the operating model or reduce weekly scheduling labor.
 
-**Verdict:** Right choice if your primary TCP complaint is the interface or workflow. Wrong choice if your complaint is the number of hours scheduling takes each week.
+**Verdict:** Right choice if your primary TCP complaint is the interface or workflow. Less likely to fit if your complaint is the number of hours scheduling takes each week, since the self-serve model is the same.
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
@@ -190,14 +188,14 @@ Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews)
 **Key advantages:**
 
 - Existing staff already trained on the interface
-- Established compliance documentation capabilities when configured correctly
-- Broad healthcare and EMS install base
+- Documented credential tracking and 24/7 shift-coverage workflow
+- Broad public-safety and small-healthcare install base. Jody S., Security Management, wrote on Capterra (August 14, 2025): "Their customer support team is better than any other support team I have ever had to deal with."
 
 **Key limitations:**
 
-- Support quality declined post-acquisition per consistent reviewer reports
-- Configuration burden remains entirely on the nurse manager
-- Same "too many clicks" workflow issues that drove the original evaluation
+- Some reviewers describe click-heavy workflows for routine edits. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- A separate reviewer flagged setup as harder than expected. Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
+- The most recent hospital-context Capterra reviews are several years old; CAHs should request a current hospital-nursing reference customer and ask the vendor for documented support response-time SLAs.
 
 **Verdict:** If you are on Aladtec and primarily frustrated by support quality or contract terms, renegotiate before switching. If the complaint is operational burden, switching platforms does not solve that.
 
@@ -216,7 +214,6 @@ NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shif
 - Strong nurse-facing mobile experience for individual schedule viewing
 - Easier to roll out to staff than self-serve enterprise platforms
 - Freemium tier for individual nurses
-- Compliance documentation does not meet CAH §485.635 requirements out of the box
 - Limited credential and certification tracking
 
 **Verdict:** Right for facilities with primarily per diem shift management needs. Not right for a CAH that needs a complete scheduling and compliance record.
