@@ -59,7 +59,7 @@ Here is how all 8 platforms compare at a glance before we go deeper:
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:14%">Platform</th>
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:30%">Customer Focus</th>
-        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:24%">Ratings (G2 / Capterra)</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:24%">Public Ratings</th>
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:18%">Setup Time</th>
         <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100" style="width:14%">Pricing</th>
       </tr>
@@ -75,49 +75,49 @@ Here is how all 8 platforms compare at a glance before we go deeper:
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Aladtec by TCP</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Public safety, EMS, fire, small healthcare</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4.3/5 (97) / 4.6/5 (17)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.3/5 (97 reviews)<br>Capterra: 4.6/5 (17 reviews)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">2-4 weeks</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">~$200-450</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">LTC, post-acute, senior care, behavioral health</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not pulled / 4.5/5 (6, small sample)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Capterra: 4.5/5 (6 reviews; small sample)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">3-4 months</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Physician scheduling, larger health systems</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4.6/5 (164) / 4.2/5 (68)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.6/5 (164 reviews)<br>Capterra: 4.2/5 (68 reviews)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">6-12 weeks</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Nurse-facing app; staff coordination</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not pulled / 4.2/5 (13, small sample)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Capterra: 4.2/5 (13 reviews; small sample)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Days</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">OnShift</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Post-acute care, SNF, LTC, senior living</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not pulled / 3.9/5 (14)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Capterra: 3.9/5 (14 reviews)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4-8 weeks</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Retail, hospitality, food service, healthcare</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4.6/5 (1,400+) / 4.6/5 (765)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.6/5 (1,400+ reviews)<br>Capterra: 4.6/5 (765 reviews)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Hours to days</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$4-6 per user</td>
       </tr>
       <tr class="align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">UKG Pro</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Large enterprises and large health systems</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">4.2/5 / 4.3/5 (716)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.2/5<br>Capterra: 4.3/5 (716 reviews)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">6-18 months at hospital scale</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
@@ -125,7 +125,7 @@ Here is how all 8 platforms compare at a glance before we go deeper:
   </table>
 </div>
 
-<p class="text-xs text-slate-500 dark:text-slate-400 mt-2 italic">Ratings (G2 / Capterra) shown with review counts in parentheses. Customer Focus reflects each vendor's own positioning on its product page. Setup Time reflects vendor-stated or industry-typical ranges. Pricing reflects publicly available figures only. Data gathered on 2026-04-30 and may have changed since.</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-2 italic">Public Ratings show G2 and Capterra scores where available, with review counts in parentheses. Cells showing only one source mean public ratings on the other source were not collected for this guide. Customer Focus reflects each vendor's own positioning on its product page. Setup Time reflects vendor-stated or industry-typical ranges. Pricing reflects publicly available figures only. Data gathered on 2026-04-30 and may have changed since.</p>
 
 ## How to Evaluate Nurse Scheduling Software in 2026?
 
