@@ -54,7 +54,7 @@ Here is how all 8 platforms compare at a glance before we go deeper:
 ## Quick Comparison: All 8 Platforms
 
 <div class="not-prose">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:14%">Platform</th>
@@ -394,7 +394,7 @@ UKG Pro holds 4.3/5 on Capterra (716 reviews) and 4.2/5 on G2. UKG is the domina
 **Cost:** Pricing not listed on website. Enterprise pricing. Not appropriate for under 50-bed facilities.
 
 <div class="not-prose my-8">
-  <table class="w-full text-xs sm:text-sm border-collapse table-fixed">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
         <th class="py-3 px-4 text-left font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800">Platform</th>
