@@ -3,7 +3,7 @@ draft: false
 publishDate: 2026-05-07T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Switching Off UKG: Migration at a Critical Access Hospital'
+title: 'UKG Migration Guide for Critical Access Hospitals'
 excerpt: >
   Switching off UKG at a small hospital is harder than switching on. The data export is
   messy, the staff re-training window is short, and the vendor support you relied on
