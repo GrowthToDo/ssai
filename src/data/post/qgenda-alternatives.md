@@ -3,7 +3,7 @@ draft: false
 publishDate: 2026-05-02T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Best QGenda Alternatives for Small Hospitals in 2026'
+title: 'Best QGenda Alternatives for Critical Access Hospitals in 2026'
 excerpt: >
   QGenda is built for physician scheduling at larger health systems and physician group
   practices. A 25-bed Critical Access Hospital evaluating it faces a platform designed for
