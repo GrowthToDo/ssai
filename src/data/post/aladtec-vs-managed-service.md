@@ -1,9 +1,9 @@
 ---
 draft: true
 publishDate: 2026-05-10T00:00:00Z
-updateDate: 2026-06-04T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Aladtec vs. Managed Scheduling: Which Fits Your CAH?'
+title: 'Aladtec vs. Managed Scheduling: Which Fits Your Critical Access Hospital?'
 excerpt: >
   Aladtec gives a nurse manager scheduling software to use. A managed scheduling service gives
   a nurse manager schedules already built. For a Critical Access Hospital where the nurse manager
@@ -32,83 +32,83 @@ metadata:
 
 ## Table of Contents
 
-- [The Core Difference Between the Two Models](#the-core-difference-between-the-two-models)
-- [What Aladtec Is](#what-aladtec-is)
-- [What a Managed Scheduling Service Is](#what-a-managed-scheduling-service-is)
-- [Head-to-Head Comparison](#head-to-head-comparison)
-  - [Implementation Speed](#implementation-speed)
-  - [Weekly Time Burden on the Nurse Manager](#weekly-time-burden-on-the-nurse-manager)
-  - [Callout and Last-Minute Coverage](#callout-and-last-minute-coverage)
-  - [CMS Compliance Documentation](#cms-compliance-documentation)
-  - [Ongoing Configuration Maintenance](#ongoing-configuration-maintenance)
-  - [Cost Structure](#cost-structure)
-- [When Aladtec Is the Right Choice](#when-aladtec-is-the-right-choice)
-- [When a Managed Service Is the Right Choice](#when-a-managed-service-is-the-right-choice)
-- [Decision Framework](#decision-framework)
-- [What to Do This Week](#what-to-do-this-week)
+- [What Is the Core Difference Between the Two Models?](#what-is-the-core-difference-between-the-two-models)
+- [What Aladtec Is?](#what-aladtec-is)
+- [What a Managed Scheduling Service Is?](#what-a-managed-scheduling-service-is)
+- [How Does Head-to-Head Compare?](#how-does-head-to-head-compare)
+  - [How Does Implementation Speed Compare?](#how-does-implementation-speed-compare)
+  - [What Is the Weekly Time Burden on the Nurse Manager?](#what-is-the-weekly-time-burden-on-the-nurse-manager)
+  - [How Does Callout and Last-Minute Coverage Work?](#how-does-callout-and-last-minute-coverage-work)
+  - [How Does CMS Compliance Documentation Differ?](#how-does-cms-compliance-documentation-differ)
+  - [What Does Ongoing Configuration Maintenance Look Like?](#what-does-ongoing-configuration-maintenance-look-like)
+  - [How Does the Cost Structure Compare?](#how-does-the-cost-structure-compare)
+- [When Aladtec Is the Right Choice?](#when-aladtec-is-the-right-choice)
+- [When a Managed Service Is the Right Choice?](#when-a-managed-service-is-the-right-choice)
+- [What Decision Framework Should You Use?](#what-decision-framework-should-you-use)
+- [What to Do This Week?](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Both Aladtec and SimpleScheduleAI serve hospital nurse scheduling. But they answer fundamentally different questions. Aladtec answers: "How do I build better schedules?" SimpleScheduleAI answers: "How do I stop spending 5 hours a week on scheduling?" If you are a nurse manager at a CAH who is simultaneously covering clinical shifts, those two questions lead to very different buying decisions.
+Both Aladtec and SimpleScheduleAI serve [critical access hospital scheduling](/critical-access-hospital-scheduling). But they answer fundamentally different questions. Aladtec answers: "How do I build better schedules?" SimpleScheduleAI answers: "How do I stop spending 5 hours a week on scheduling?" If you are a nurse manager at a CAH who is simultaneously covering clinical shifts, those two questions lead to very different buying decisions. For context on the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide.
 
-<div class="not-prose overflow-x-auto my-8">
-  <table class="w-full text-sm border-collapse" style="min-width:700px">
+<div class="not-prose my-8">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Dimension</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Aladtec</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">SimpleScheduleAI (Managed Service)</th>
+      <tr class="bg-slate-100 dark:bg-slate-800">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:33%">Dimension</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:33%">Aladtec</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-blue-700 dark:text-blue-400" style="width:34%">SimpleScheduleAI (Managed Service)</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Product category</td>
-        <td class="border border-slate-300 px-4 py-2">Scheduling software</td>
-        <td class="border border-slate-300 px-4 py-2">Managed scheduling service</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Product category</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Scheduling software</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Managed scheduling service</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Who builds the schedule</td>
-        <td class="border border-slate-300 px-4 py-2">Nurse manager</td>
-        <td class="border border-slate-300 px-4 py-2">SimpleScheduleAI team</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Who builds the schedule</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">SimpleScheduleAI team</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Implementation time</td>
-        <td class="border border-slate-300 px-4 py-2">4-6 weeks (configuration + training)</td>
-        <td class="border border-slate-300 px-4 py-2">48 hours from Excel staff roster upload</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Implementation time</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">4-6 weeks (configuration + training)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">48 hours from Excel staff roster upload</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Callout OT ranking</td>
-        <td class="border border-slate-300 px-4 py-2">Manual check required</td>
-        <td class="border border-slate-300 px-4 py-2">Automated ranking by OT risk and credentials</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Callout OT ranking</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Manual check required</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Automated ranking by OT risk and credentials</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">CMS §485.635 documentation</td>
-        <td class="border border-slate-300 px-4 py-2">Not included</td>
-        <td class="border border-slate-300 px-4 py-2">Automated, maintained continuously</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">CMS §485.635 documentation</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Verify with Aladtec</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Automated, maintained continuously</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Texas overtime compliance</td>
-        <td class="border border-slate-300 px-4 py-2">Manual configuration required</td>
-        <td class="border border-slate-300 px-4 py-2">Built-in default (FLSA 8-and-80 rule)</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Texas overtime compliance</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Manual configuration required</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Built-in default (FLSA 8-and-80 rule)</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Config maintenance as staff changes</td>
-        <td class="border border-slate-300 px-4 py-2">Nurse manager or IT team</td>
-        <td class="border border-slate-300 px-4 py-2">Included in service</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Config maintenance as staff changes</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager or IT team</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Included in service</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Weekly NM scheduling time</td>
-        <td class="border border-slate-300 px-4 py-2">4-6 hours/week</td>
-        <td class="border border-slate-300 px-4 py-2">1-2 hours/week (review and approval only)</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Weekly NM scheduling time</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">4-6 hours/week</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">1-2 hours/week (review and approval only)</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Ideal for</td>
-        <td class="border border-slate-300 px-4 py-2">Organizations with scheduling admin bandwidth</td>
-        <td class="border border-slate-300 px-4 py-2">CAH nurse managers with clinical workload</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Ideal for</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Organizations with scheduling admin bandwidth</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">CAH nurse managers with clinical workload</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Pricing</td>
-        <td class="border border-slate-300 px-4 py-2">Contact for pricing</td>
-        <td class="border border-slate-300 px-4 py-2">Contact for pricing</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Pricing</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Contact for pricing</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Contact for pricing</td>
       </tr>
     </tbody>
   </table>
@@ -138,14 +138,14 @@ Aladtec is a web-based scheduling platform built originally for emergency servic
 - Overtime tracking with configurable thresholds
 - Reporting for worked hours and shift coverage
 
-**What Aladtec does not include by default:**
+**What Aladtec does not include by default (verify with Aladtec before evaluating):**
 
-- CMS Conditions of Participation documentation templates (§485.635 for CAH certification)
-- Credential-based callout ranking (ACLS, BLS, charge nurse, specific unit qualifications)
-- FLSA 8-and-80 rule for healthcare employers (Aladtec defaults to the standard 40-hour workweek overtime threshold)
-- Pre-built hospital-specific configuration (minimum nurse-to-patient ratios, charge nurse coverage requirements, Texas overtime law defaults)
+- CMS Conditions of Participation documentation templates (§485.635 for CAH certification): not documented on the product page; confirm current availability with Aladtec
+- Credential-based callout ranking (ACLS, BLS, charge nurse, specific unit qualifications): Aladtec supports credential profiles, but automated callout ranking filtered by credential is not documented; verify with Aladtec
+- FLSA 8-and-80 rule for healthcare employers: Aladtec uses overtime thresholds configurable by the administrator; whether the 8-and-80 healthcare rule is a selectable option should be confirmed with Aladtec directly
+- Pre-built hospital-specific configuration defaults: confirm what configuration is required at setup and what is pre-built
 
-These gaps are not unique to Aladtec. Most general-purpose scheduling platforms that were not built specifically for acute hospital care share them. The question is whether the configuration work required to fill those gaps fits the bandwidth of the CAH implementing the system.
+These considerations are not unique to Aladtec. Most general-purpose scheduling platforms that were not built specifically for acute hospital care share them. The question is whether the configuration work required to fill those gaps fits the bandwidth of the CAH implementing the system.
 
 ## What a Managed Scheduling Service Is?
 
@@ -198,60 +198,31 @@ Total: 1-2 hours per week.
 
 The 3-4 hour weekly difference adds up to approximately 150-200 hours per year. For a nurse manager billing at a clinical rate, that is the equivalent of 12-16 12-hour shifts.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Weekly time burden comparison: Aladtec vs SimpleScheduleAI">
-  <title>Weekly Time Burden: Aladtec vs SimpleScheduleAI</title>
-  <!-- Background -->
-  <rect width="720" height="340" fill="#f8fafc" rx="10"/>
-  <text x="360" y="32" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Weekly Nurse Manager Time Spent on Scheduling</text>
-  <!-- Y axis labels -->
-  <text x="54" y="290" font-family="system-ui,sans-serif" font-size="12" fill="#64748b" text-anchor="end">0 hrs</text>
-  <text x="54" y="240" font-family="system-ui,sans-serif" font-size="12" fill="#64748b" text-anchor="end">2 hrs</text>
-  <text x="54" y="190" font-family="system-ui,sans-serif" font-size="12" fill="#64748b" text-anchor="end">4 hrs</text>
-  <text x="54" y="140" font-family="system-ui,sans-serif" font-size="12" fill="#64748b" text-anchor="end">6 hrs</text>
-  <text x="54" y="90" font-family="system-ui,sans-serif" font-size="12" fill="#64748b" text-anchor="end">8 hrs</text>
-  <!-- Grid lines -->
-  <line x1="60" y1="288" x2="660" y2="288" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="60" y1="238" x2="660" y2="238" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="60" y1="188" x2="660" y2="188" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="60" y1="138" x2="660" y2="138" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="60" y1="88" x2="660" y2="88" stroke="#e2e8f0" stroke-width="1"/>
-  <!-- Axis -->
-  <line x1="60" y1="60" x2="60" y2="290" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="60" y1="290" x2="660" y2="290" stroke="#94a3b8" stroke-width="1.5"/>
-  <!-- Aladtec bars (stacked) -->
-  <!-- Schedule building: 2.5 hrs = 62.5px -->
-  <rect x="140" y="226" width="100" height="62" fill="#60a5fa" rx="3"/>
-  <text x="190" y="253" font-family="system-ui,sans-serif" font-size="10" fill="white" text-anchor="middle">Schedule</text>
-  <text x="190" y="265" font-family="system-ui,sans-serif" font-size="10" fill="white" text-anchor="middle">building</text>
-  <text x="190" y="278" font-family="system-ui,sans-serif" font-size="10" fill="white" text-anchor="middle">2.5 hrs</text>
-  <!-- Time-off: 0.75 hrs = 18.75px -->
-  <rect x="140" y="207" width="100" height="19" fill="#93c5fd" rx="3"/>
-  <text x="190" y="220" font-family="system-ui,sans-serif" font-size="9" fill="#1e3a5f" text-anchor="middle">PTO: 0.75 hr</text>
-  <!-- Callout: 0.625 hrs = 15.6px -->
-  <rect x="140" y="182" width="100" height="25" fill="#bfdbfe" rx="3"/>
-  <text x="190" y="197" font-family="system-ui,sans-serif" font-size="9" fill="#1e3a5f" text-anchor="middle">Callouts: 0.6 hr</text>
-  <!-- Config maintenance: 0.625 = 15.6px -->
-  <rect x="140" y="157" width="100" height="25" fill="#dbeafe" rx="3"/>
-  <text x="190" y="172" font-family="system-ui,sans-serif" font-size="9" fill="#1e3a5f" text-anchor="middle">Config: 0.6 hr</text>
-  <!-- Total label -->
-  <text x="190" y="148" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#1e40af" text-anchor="middle">~4.5 hrs/wk</text>
-  <text x="190" y="308" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">Aladtec</text>
-  <text x="190" y="322" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="middle">(self-serve software)</text>
-  <!-- SimpleScheduleAI bars -->
-  <!-- Review: 0.625 hrs -->
-  <rect x="480" y="273" width="100" height="15" fill="#34d399" rx="3"/>
-  <text x="530" y="284" font-family="system-ui,sans-serif" font-size="9" fill="white" text-anchor="middle">Review: 0.6 hr</text>
-  <!-- Callout review: 0.375 hrs -->
-  <rect x="480" y="264" width="100" height="9" fill="#6ee7b7" rx="3"/>
-  <!-- Exceptions: 0.25 -->
-  <rect x="480" y="258" width="100" height="6" fill="#a7f3d0" rx="3"/>
-  <!-- Total label -->
-  <text x="530" y="250" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#065f46" text-anchor="middle">~1.5 hrs/wk</text>
-  <text x="530" y="308" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">SimpleScheduleAI</text>
-  <text x="530" y="322" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="middle">(managed service)</text>
-  <!-- Savings callout -->
-  <text x="360" y="80" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#7c3aed" text-anchor="middle">3+ hours/week saved = ~150 clinical hours/year returned</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Weekly Nurse Manager Time Spent on Scheduling</p>
+  <div class="grid grid-cols-2 gap-6">
+    <div class="rounded-lg bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 p-4">
+      <p class="text-sm font-bold text-blue-700 dark:text-blue-400 mb-3">Aladtec (self-serve software)</p>
+      <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 mb-3">~4.5 hours/week</p>
+      <div class="space-y-2">
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Schedule building</span><span>2.5 hrs</span></div>
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Time-off processing</span><span>0.75 hr</span></div>
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Callout handling</span><span>0.6 hr</span></div>
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Config maintenance</span><span>0.6 hr</span></div>
+      </div>
+    </div>
+    <div class="rounded-lg bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 p-4">
+      <p class="text-sm font-bold text-green-700 dark:text-green-400 mb-3">SimpleScheduleAI (managed service)</p>
+      <p class="text-xs font-semibold text-slate-700 dark:text-slate-300 mb-3">~1.5 hours/week</p>
+      <div class="space-y-2">
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Schedule review/approval</span><span>0.75 hr</span></div>
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Callout review</span><span>0.4 hr</span></div>
+        <div class="flex justify-between text-xs text-slate-600 dark:text-slate-400"><span>Edge cases</span><span>0.25 hr</span></div>
+      </div>
+    </div>
+  </div>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-3 text-center">3+ hours/week saved = approximately 150 clinical hours/year returned to patient care</p>
+</div>
 
 ### How Does Callout and Last-Minute Coverage Work?
 
@@ -297,59 +268,59 @@ The cost comparison for a CAH should account for more than the monthly subscript
 
 When the full labor cost is included, self-serve scheduling software is often more expensive than the license fee alone suggests, because the hours to configure and use it are paid nurse manager hours, not free.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Three dimensions where Aladtec and managed service differ most">
-  <title>Key Operational Differences: Aladtec vs. Managed Service</title>
-  <rect width="720" height="360" fill="#f8fafc" rx="10"/>
-  <text x="360" y="32" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Three Dimensions That Determine the Right Model</text>
-  <!-- Column 1: Time burden -->
-  <rect x="30" y="55" width="200" height="270" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="30" y="55" width="200" height="44" fill="#3b82f6" rx="8"/>
-  <rect x="30" y="88" width="200" height="11" fill="#3b82f6"/>
-  <text x="130" y="80" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">1. Time Burden</text>
-  <text x="130" y="124" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">Aladtec</text>
-  <text x="130" y="140" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">4-6 hrs/week</text>
-  <text x="130" y="155" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">You build every schedule</text>
-  <line x1="50" y1="170" x2="210" y2="170" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="130" y="190" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">SimpleScheduleAI</text>
-  <text x="130" y="206" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">1-2 hrs/week</text>
-  <text x="130" y="221" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">You review and approve</text>
-  <line x1="50" y1="235" x2="210" y2="235" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="130" y="258" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">Best fit for a dual-role</text>
-  <text x="130" y="272" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">CAH nurse manager:</text>
-  <text x="130" y="288" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#1d4ed8" text-anchor="middle">Managed service</text>
-  <!-- Column 2: Callout handling -->
-  <rect x="260" y="55" width="200" height="270" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="260" y="55" width="200" height="44" fill="#8b5cf6" rx="8"/>
-  <rect x="260" y="88" width="200" height="11" fill="#8b5cf6"/>
-  <text x="360" y="80" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">2. Callout Coverage</text>
-  <text x="360" y="124" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">Aladtec</text>
-  <text x="360" y="140" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Manual OT check</text>
-  <text x="360" y="155" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">You calculate risk per nurse</text>
-  <line x1="280" y1="170" x2="440" y2="170" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="360" y="190" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">SimpleScheduleAI</text>
-  <text x="360" y="206" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Automated ranked list</text>
-  <text x="360" y="221" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">Sorted by OT risk + credentials</text>
-  <line x1="280" y1="235" x2="440" y2="235" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="360" y="258" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">CAH averages 2-3 callouts/wk.</text>
-  <text x="360" y="272" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">20-30 min each = 50 hrs/year</text>
-  <text x="360" y="288" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#7c3aed" text-anchor="middle">Automation pays back fast</text>
-  <!-- Column 3: CMS docs -->
-  <rect x="490" y="55" width="200" height="270" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="490" y="55" width="200" height="44" fill="#10b981" rx="8"/>
-  <rect x="490" y="88" width="200" height="11" fill="#10b981"/>
-  <text x="590" y="80" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">3. CMS Documentation</text>
-  <text x="590" y="124" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">Aladtec</text>
-  <text x="590" y="140" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Not included</text>
-  <text x="590" y="155" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">Maintained separately</text>
-  <line x1="510" y1="170" x2="670" y2="170" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="590" y="190" font-family="system-ui,sans-serif" font-size="11" fill="#374151" text-anchor="middle" font-weight="600">SimpleScheduleAI</text>
-  <text x="590" y="206" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Auto-generated</text>
-  <text x="590" y="221" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">CMS §485.635 ready</text>
-  <line x1="510" y1="235" x2="670" y2="235" stroke="#f1f5f9" stroke-width="1"/>
-  <text x="590" y="258" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">Survey-ready documentation</text>
-  <text x="590" y="272" font-family="system-ui,sans-serif" font-size="10" fill="#475569" text-anchor="middle">reduces survey prep time</text>
-  <text x="590" y="288" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#065f46" text-anchor="middle">Critical for active surveys</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Three Dimensions That Determine the Right Model</p>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <div class="rounded-lg border border-blue-200 dark:border-blue-800 overflow-hidden">
+      <div class="bg-blue-600 dark:bg-blue-700 px-4 py-3">
+        <p class="text-sm font-bold text-white">1. Time Burden</p>
+      </div>
+      <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
+        <div>
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">Aladtec</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">4-6 hrs/week. You build every schedule.</p>
+        </div>
+        <div class="border-t border-slate-100 dark:border-slate-700 pt-3">
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">SimpleScheduleAI</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">1-2 hrs/week. You review and approve.</p>
+        </div>
+        <p class="text-xs font-semibold text-blue-700 dark:text-blue-400 pt-1">Best for dual-role CAH nurse manager: managed service</p>
+      </div>
+    </div>
+    <div class="rounded-lg border border-purple-200 dark:border-purple-800 overflow-hidden">
+      <div class="bg-purple-600 dark:bg-purple-700 px-4 py-3">
+        <p class="text-sm font-bold text-white">2. Callout Coverage</p>
+      </div>
+      <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
+        <div>
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">Aladtec</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">Manual OT check. You calculate risk per nurse.</p>
+        </div>
+        <div class="border-t border-slate-100 dark:border-slate-700 pt-3">
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">SimpleScheduleAI</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">Automated ranked list sorted by OT risk and credentials.</p>
+        </div>
+        <p class="text-xs font-semibold text-purple-700 dark:text-purple-400 pt-1">CAH averages 2-3 callouts/week. 20-30 min each = 50 hrs/year.</p>
+      </div>
+    </div>
+    <div class="rounded-lg border border-green-200 dark:border-green-800 overflow-hidden">
+      <div class="bg-green-600 dark:bg-green-700 px-4 py-3">
+        <p class="text-sm font-bold text-white">3. CMS Documentation</p>
+      </div>
+      <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
+        <div>
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">Aladtec</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">CMS §485.635 documentation maintained separately. Verify current capabilities with Aladtec.</p>
+        </div>
+        <div class="border-t border-slate-100 dark:border-slate-700 pt-3">
+          <p class="text-xs font-semibold text-slate-700 dark:text-slate-300">SimpleScheduleAI</p>
+          <p class="text-xs text-slate-600 dark:text-slate-400">Auto-generated, CMS §485.635 ready.</p>
+        </div>
+        <p class="text-xs font-semibold text-green-700 dark:text-green-400 pt-1">Critical for hospitals with active surveys or corrective action plans.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## When Aladtec Is the Right Choice?
 
@@ -383,57 +354,44 @@ Specifically, a managed service fits when:
 
 ## What Decision Framework Should You Use?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Decision flowchart: Aladtec vs managed service">
-  <title>Aladtec vs. Managed Service: Decision Flowchart</title>
-  <rect width="720" height="420" fill="#f8fafc" rx="10"/>
-  <text x="360" y="30" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Which Model Fits Your CAH?</text>
-  <!-- Start box -->
-  <rect x="260" y="50" width="200" height="44" fill="#1e40af" rx="8"/>
-  <text x="360" y="68" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Is the nurse manager</text>
-  <text x="360" y="84" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">also on clinical shifts?</text>
-  <!-- Arrow down -->
-  <line x1="360" y1="94" x2="360" y2="126" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#94a3b8"/></marker></defs>
-  <!-- Decision diamond -->
-  <polygon points="360,126 480,160 360,194 240,160" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="360" y="155" font-family="system-ui,sans-serif" font-size="11" fill="#1e40af" text-anchor="middle">Yes / dual-role</text>
-  <text x="360" y="171" font-family="system-ui,sans-serif" font-size="11" fill="#1e40af" text-anchor="middle">or No / admin only?</text>
-  <!-- YES branch (left) -->
-  <line x1="240" y1="160" x2="120" y2="160" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <text x="185" y="152" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Yes (dual-role)</text>
-  <rect x="30" y="140" width="90" height="40" fill="#fef3c7" rx="6"/>
-  <text x="75" y="156" font-family="system-ui,sans-serif" font-size="10" fill="#92400e" text-anchor="middle">Protected NM</text>
-  <text x="75" y="170" font-family="system-ui,sans-serif" font-size="10" fill="#92400e" text-anchor="middle">admin time?</text>
-  <!-- Sub-branches from left diamond -->
-  <line x1="75" y1="180" x2="75" y2="230" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <!-- No time -->
-  <line x1="30" y1="200" x2="10" y2="200" stroke="#94a3b8" stroke-width="0.5"/>
-  <text x="42" y="198" font-family="system-ui,sans-serif" font-size="9" fill="#64748b">No</text>
-  <rect x="30" y="230" width="90" height="50" fill="#dcfce7" rx="6" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="75" y="250" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#14532d" text-anchor="middle">Managed</text>
-  <text x="75" y="265" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#14532d" text-anchor="middle">Service</text>
-  <text x="75" y="278" font-family="system-ui,sans-serif" font-size="9" fill="#166534" text-anchor="middle">SimpleScheduleAI</text>
-  <!-- YES time (Aladtec may work) -->
-  <!-- NO branch (right) -->
-  <line x1="480" y1="160" x2="580" y2="160" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <text x="528" y="152" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">No (admin NM)</text>
-  <rect x="580" y="140" width="100" height="40" fill="#fef3c7" rx="6"/>
-  <text x="630" y="156" font-family="system-ui,sans-serif" font-size="10" fill="#92400e" text-anchor="middle">IT support or</text>
-  <text x="630" y="170" font-family="system-ui,sans-serif" font-size="10" fill="#92400e" text-anchor="middle">scheduler on staff?</text>
-  <!-- Right sub-branches -->
-  <line x1="630" y1="180" x2="630" y2="230" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <rect x="580" y="230" width="100" height="50" fill="#dbeafe" rx="6" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="630" y="250" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#1e3a8a" text-anchor="middle">Aladtec</text>
-  <text x="630" y="265" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#1e3a8a" text-anchor="middle">may work</text>
-  <text x="630" y="278" font-family="system-ui,sans-serif" font-size="9" fill="#1d4ed8" text-anchor="middle">if IT/scheduler present</text>
-  <!-- Second question: CMS docs -->
-  <rect x="210" y="310" width="300" height="44" fill="#7c3aed" rx="8"/>
-  <text x="360" y="328" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">Recent CMS survey finding</text>
-  <text x="360" y="344" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">on staffing documentation?</text>
-  <line x1="360" y1="354" x2="360" y2="374" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <text x="360" y="392" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6d28d9" text-anchor="middle">If yes: managed service only</text>
-  <text x="360" y="408" font-family="system-ui,sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle">(auto CMS docs required)</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Decision Framework: Which Model Fits Your Critical Access Hospital?</p>
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:65%">Your Situation</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:35%">Recommended Model</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Nurse manager is dual-role (covers clinical shifts + handles scheduling) with no protected admin time</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 font-semibold text-green-700 dark:text-green-400">Managed Service</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Nurse manager is administrative only AND has a dedicated scheduler or IT support on staff</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Aladtec may work</td>
+      </tr>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Hospital has a recent CMS survey finding on staffing documentation compliance</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 font-semibold text-green-700 dark:text-green-400">Managed Service only (automated CMS docs required)</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Hospital is moving off spreadsheets and needs to go live in under one week</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 font-semibold text-green-700 dark:text-green-400">Managed Service</td>
+      </tr>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Hospital manages multiple departments and wants centralized scheduling control</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Aladtec</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-slate-700 dark:text-slate-300">Hospital has tried scheduling software before and found the ongoing configuration burden unsustainable after implementation</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-3 font-semibold text-green-700 dark:text-green-400">Managed Service</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">The strongest predictor: how many unprotected hours per week does the nurse manager spend on scheduling tasks that do not require clinical judgment?</p>
+</div>
 
 The flowchart above covers the two most common decision factors. In practice, the strongest predictor of which model is right is: how much unprotected time is the nurse manager spending on scheduling tasks that do not require their clinical or managerial judgment? If the answer is more than 3 hours per week, and those 3 hours are being taken from clinical work, a managed service almost always has a better return on investment than software, regardless of price.
 
@@ -449,9 +407,9 @@ The flowchart above covers the two most common decision factors. In practice, th
 
 5. **If you currently use Aladtec,** assess two things: How current is your system configuration? When did you last update credential records for staff changes? And: How much time did you spend on callout coverage last month? If configuration is drifting and callout handling is consuming unplanned hours, that is the case for evaluating a managed service.
 
-<div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
+<div class="not-prose my-10 rounded-xl bg-blue-700 dark:bg-blue-800 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">See What a Managed Service Costs for Your CAH</h2>
-  <p class="mb-6 text-blue-100">
+  <p class="mb-6 text-blue-100 dark:text-blue-200">
     SimpleScheduleAI builds your first schedule within 48 hours of your staff roster upload. No configuration. No training. No IT. Just a schedule that arrives ready to approve.
   </p>
   <a
@@ -483,3 +441,6 @@ This is a valid risk to evaluate for any vendor. The mitigation for managed serv
 **How does Aladtec compare to SimpleScheduleAI for a CAH that schedules both nurses and physicians?**
 
 Aladtec handles multi-department scheduling and can be configured for both nursing and physician schedules in separate views. SimpleScheduleAI is focused specifically on nursing staff scheduling for CAHs and does not currently include physician scheduling. If your primary need is physician scheduling or combined physician/nurse scheduling in one system, QGenda is the more appropriate option. If your primary need is nurse scheduling overhead reduction, SimpleScheduleAI is the more direct solution.
+
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
