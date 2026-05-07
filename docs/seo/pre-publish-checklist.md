@@ -21,6 +21,22 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] Internal link to pillar page (`/how-it-works` or `/critical-access-hospital-scheduling`) with keyword anchor text
 - [ ] CTA at end linking to `/pilot` or `/how-it-works`
 
+## Structure and Format
+
+- [ ] Key Takeaways (5–6 bullets, ~100 words) placed **BEFORE** the Table of Contents — never after
+- [ ] No TL;DR section present — Key Takeaways replaces TL;DR (TL;DR is an AI-tell pattern)
+- [ ] No em-dashes (`—`) anywhere — prose, excerpts, table cells, TOC, blockquotes, CTA cards
+- [ ] No AI-tone phrases: "delve into", "dive into", "it's worth noting", "in conclusion", "robust", "leverage", "game-changing", "seamless", "comprehensive solution", "transformative", "at the end of the day", "unlock", "harness", "navigating", "streamline"
+- [ ] TOC anchor text exactly matches H2/H3 heading text, including trailing `?` on question headings
+- [ ] Every H2 has a 40–70 word direct answer capsule immediately below it — no preamble before capsule
+- [ ] Every H2 expansion section is 120–180 words (shorter = AI citation penalty)
+- [ ] One stat or data point per 150–200 words of body text
+- [ ] Word count matches post type: BOFU 3,000–5,000 | vs-service MOFU 1,500–2,500 | MOFU 1,500–2,500 | TOFU narrative 1,000–1,500 | Glossary 600–1,000
+- [ ] No inline `<svg>` in `.md` files — all visuals are Tailwind `<div>` bar charts or `<table>` with `dark:` variants
+- [ ] Minimum visual elements: 3 for BOFU/how-to | 2 for vs-service MOFU | 1 for MOFU/TOFU | 0 for Glossary
+- [ ] Author bio present at end of every post (not optional): `_Pradeep Pandey is the founder of SimpleScheduleAI..._`
+- [ ] H2 headings never use "CAH" abbreviation — always "Critical Access Hospital" in headings
+
 ## Images
 
 - [ ] Featured image is **verified to load** — open the Unsplash URL in a browser and confirm it returns an actual photo, not a 404
@@ -32,6 +48,16 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] Hero/featured image is compressed (< 200KB ideally)
 - [ ] Any raw HTML `<table>` inside the post has `dark:` Tailwind variants on every bg, text, and border class (table is readable in dark mode — test the post in dark mode before publishing)
 - [ ] Table of Contents anchor text matches the H2/H3 heading text exactly (including trailing `?` on question headings)
+
+## Competitor Content
+
+- [ ] No specific capability/feature claims without a verified current product page, dated within 30 days
+- [ ] No volume language near a competitor name: "consistently", "widely", "many reviewers", "most users", "multiple reviewers"
+- [ ] No feature-absence assertions ("No X", "lacks Y", "not built-in") without both a verbatim attributed reviewer quote AND verification against the live product page within 30 days
+- [ ] Competitor names appear in neutral context only — no embedded qualitative framing
+- [ ] Reviewer quotes are verbatim from G2/Capterra with: reviewer name, role, date, source — no paraphrasing
+- [ ] Key Limitations sections in alternatives posts use blockquote format: `**Bold Title.** Intro sentence.` then `> "Verbatim quote."` then `> Name, Role, Date, Source`
+- [ ] When no verified hospital-context reviewer quote exists, use neutral framing: "Verify with vendor" or "Not documented on product page" — never volume language as a substitute
 
 ## Comparison Tables (when comparing competitor products)
 
