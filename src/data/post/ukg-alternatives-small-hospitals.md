@@ -108,37 +108,37 @@ Beyond the purchase price, the operational cost of running UKG at CAH scale is s
         <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">Type</th>
         <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">Setup Time</th>
         <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">IT Required</th>
-        <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">CAH-Appropriate</th>
+        <th class="border border-slate-300 dark:border-slate-700 px-4 py-3 text-left font-semibold">Facility Scale</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="bg-red-50 dark:bg-red-950/40">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium">UKG (Kronos)</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Enterprise WFM suite</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">6-12 months</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Yes, significant</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-red-700 dark:text-red-400 font-medium">No</td>
+      <tr>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">UKG (Kronos)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Enterprise WFM suite</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">6-12 months</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Yes, significant</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">200+ beds, health systems</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium">Aladtec</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Self-serve platform</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">2-4 weeks</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Minimal</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-green-700 dark:text-green-400 font-medium">Yes (with config bandwidth)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Self-serve platform</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Minimal</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">25-200 beds, admin capacity needed</td>
       </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800/50">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium">SmartLinx</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Mid-market WFM</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">3-4 months</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Moderate</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-yellow-700 dark:text-yellow-400 font-medium">50-200 bed hospitals</td>
+      <tr>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">SmartLinx</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Mid-market WFM</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">3-4 months</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Moderate</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">50-200 beds, with IT support</td>
       </tr>
       <tr>
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">Managed service</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">48 hours</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2">None</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-green-700 dark:text-green-400 font-medium">Yes, CAH-native</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">Managed service</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">48 hours</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">None</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-700 dark:text-slate-300">CAH-native, up to 25 beds</td>
       </tr>
     </tbody>
   </table>
