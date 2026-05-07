@@ -32,7 +32,7 @@ metadata:
 
 - [What QGenda Is Built For?](#what-qgenda-is-built-for)
 - [Why Hospitals Switch Away from QGenda?](#why-hospitals-switch-away-from-qgenda)
-- [What CAHs Actually Need in a QGenda Alternative?](#what-cahs-actually-need-in-a-qgenda-alternative)
+- [What Does a Critical Access Hospital Actually Need in a QGenda Alternative?](#what-does-a-critical-access-hospital-actually-need-in-a-qgenda-alternative)
 - [Quick Comparison: QGenda vs. The Alternatives](#quick-comparison-qgenda-vs-the-alternatives)
 - [What Are the 4 Best QGenda Alternatives for Hospital Scheduling?](#what-are-the-4-best-qgenda-alternatives-for-hospital-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
@@ -86,7 +86,7 @@ QGenda's overall ratings are strong (4.6/5 on G2, 4.2/5 on Capterra). The minori
 
 For a CAH evaluating QGenda, ask the vendor for the smallest hospital they have implemented in the past 12 months, a reference contact at that facility, and the full implementation cost including configuration services.
 
-## What CAHs Actually Need in a QGenda Alternative?
+## What Does a Critical Access Hospital Actually Need in a QGenda Alternative?
 
 For a critical access hospital, scheduling requirements differ from what QGenda is optimized for:
 
