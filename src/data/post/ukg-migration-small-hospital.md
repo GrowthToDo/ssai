@@ -3,7 +3,7 @@ draft: true
 publishDate: 2026-05-07T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Switching Off UKG: Migration at a Small Hospital'
+title: 'Switching Off UKG: Migration at a Critical Access Hospital'
 excerpt: >
   Switching off UKG at a small hospital is harder than switching on. The data export is
   messy, the staff re-training window is short, and the vendor support you relied on
@@ -29,20 +29,20 @@ metadata:
 
 ## Table of Contents
 
-- [Why Small Hospitals End Up on UKG in the First Place](#why-small-hospitals-end-up-on-ukg)
-- [What Triggers the Decision to Leave](#what-triggers-the-decision)
-- [What Nobody Tells You About the UKG Exit Process](#the-ukg-exit-process)
-- [The Migration Playbook for a 25-Bed Hospital](#migration-playbook)
-- [What to Do With Your Data](#what-to-do-with-your-data)
-- [Staff Communication During the Transition](#staff-communication)
-- [What to Look for in the Replacement System](#what-to-look-for-in-replacement)
+- [Why Small Hospitals End Up on UKG in the First Place?](#why-small-hospitals-end-up-on-ukg-in-the-first-place)
+- [What Triggers the Decision to Leave?](#what-triggers-the-decision-to-leave)
+- [What Nobody Tells You About the UKG Exit Process?](#what-nobody-tells-you-about-the-ukg-exit-process)
+- [What Is the Migration Playbook for a 25-Bed Hospital?](#what-is-the-migration-playbook-for-a-25-bed-hospital)
+- [What to Do With Your Data?](#what-to-do-with-your-data)
+- [How Do You Handle Staff Communication During the Transition?](#how-do-you-handle-staff-communication-during-the-transition)
+- [What to Look for in the Replacement System?](#what-to-look-for-in-the-replacement-system)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Why Small Hospitals End Up on UKG in the First Place?
 
 Most small hospitals that end up on UKG did not select it for their own needs. They inherited it. The most common paths: a Critical Access Hospital joins a health system or rural health network that standardizes on UKG across all facilities, including the 25-bed rural members. Or a CAH administrator hired from a larger system brings the platform they used previously, assuming scale-down is straightforward.
 
-In both cases, the mismatch becomes apparent in the first six months. UKG's implementation process assumes a dedicated IT coordinator, an HR team that can configure and maintain the system, and staff comfortable with a training curriculum measured in hours. A 25-bed CAH with a nurse manager who handles scheduling alongside patient care, no internal IT department, and a part-time HR generalist does not match that profile.
+In both cases, the mismatch becomes apparent in the first six months. UKG's implementation process assumes a dedicated IT coordinator, an HR team that can configure and maintain the system, and staff comfortable with a training curriculum measured in hours. A 25-bed CAH with a nurse manager who handles scheduling alongside patient care, no internal IT department, and a part-time HR generalist does not match that profile. For a full overview of [nurse scheduling software](/nurse-scheduling-software) options suited to [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
 
 The system continues working in the sense that schedules still get built, but it works through brute-force manual effort rather than through the automation it was designed to provide. The nurse manager learns to work around the features they cannot configure, which defeats the purpose of having an enterprise platform at all.
 
@@ -58,30 +58,27 @@ The trigger is almost never a single event. It is typically a compound of:
 
 **Cost audit:** Finance reviews the per-module licensing cost, the IT support contract, and the staff time spent maintaining the system and finds that the total cost of ownership is several times the headline license fee.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-label="Four most common triggers for small hospital UKG exit decisions shown as a horizontal flow">
-  <rect width="720" height="220" fill="#f8fafc" rx="8"/>
-  <text x="360" y="28" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">Most Common Triggers for UKG Exit at Small Hospitals</text>
-  <rect x="30" y="55" width="145" height="120" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="102" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#dc2626" text-anchor="middle">Contract renewal</text>
-  <text x="102" y="100" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Cost math no longer</text>
-  <text x="102" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">justifies value at</text>
-  <text x="102" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">25-bed scale</text>
-  <rect x="195" y="55" width="145" height="120" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="267" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#dc2626" text-anchor="middle">Key person leaves</text>
-  <text x="267" y="100" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">System knowledge</text>
-  <text x="267" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">walks out the door</text>
-  <text x="267" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">with them</text>
-  <rect x="360" y="55" width="145" height="120" rx="8" fill="#fef9c3" stroke="#fde68a" stroke-width="1.5"/>
-  <text x="432" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#a16207" text-anchor="middle">Failure event</text>
-  <text x="432" y="100" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">Compliance issue or</text>
-  <text x="432" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">callout crisis creates</text>
-  <text x="432" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">concrete case for change</text>
-  <rect x="525" y="55" width="165" height="120" rx="8" fill="#fef9c3" stroke="#fde68a" stroke-width="1.5"/>
-  <text x="607" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#a16207" text-anchor="middle">Total cost audit</text>
-  <text x="607" y="100" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">True cost (license +</text>
-  <text x="607" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">IT support + manager</text>
-  <text x="607" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">time) exceeds benefit</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Most Common Triggers for UKG Exit at Small Hospitals</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    <div class="rounded-lg bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 p-4">
+      <p class="text-sm font-bold text-red-700 dark:text-red-400 mb-2">Contract renewal</p>
+      <p class="text-xs text-red-800 dark:text-red-300">Cost math no longer justifies value at 25-bed scale</p>
+    </div>
+    <div class="rounded-lg bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 p-4">
+      <p class="text-sm font-bold text-red-700 dark:text-red-400 mb-2">Key person leaves</p>
+      <p class="text-xs text-red-800 dark:text-red-300">System knowledge walks out the door with them</p>
+    </div>
+    <div class="rounded-lg bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-800 p-4">
+      <p class="text-sm font-bold text-yellow-700 dark:text-yellow-400 mb-2">Failure event</p>
+      <p class="text-xs text-yellow-800 dark:text-yellow-300">Compliance issue or callout crisis creates concrete case for change</p>
+    </div>
+    <div class="rounded-lg bg-yellow-50 dark:bg-yellow-950 border border-yellow-200 dark:border-yellow-800 p-4">
+      <p class="text-sm font-bold text-yellow-700 dark:text-yellow-400 mb-2">Total cost audit</p>
+      <p class="text-xs text-yellow-800 dark:text-yellow-300">True cost (license + IT support + manager time) exceeds benefit</p>
+    </div>
+  </div>
+</div>
 
 ## What Nobody Tells You About the UKG Exit Process?
 
@@ -126,31 +123,28 @@ The trigger is almost never a single event. It is typically a compound of:
 - Do not shut off UKG access immediately. Maintain read-only access for 30 days post-cutover so staff can reference historical schedule information.
 - Treat the first two weeks post-cutover as a support sprint: manager or designee available for questions during all shifts.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Migration timeline showing four phases from 60 days before cutover through 30 days after cutover">
-  <rect width="720" height="180" fill="#f8fafc" rx="8"/>
-  <text x="360" y="26" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">UKG Migration Timeline for a 25-Bed CAH</text>
-  <rect x="30" y="50" width="155" height="100" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
-  <text x="108" y="72" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8" text-anchor="middle">Day -60 to -45</text>
-  <text x="108" y="90" font-family="system-ui, sans-serif" font-size="10" fill="#1e40af" text-anchor="middle">Read contract</text>
-  <text x="108" y="104" font-family="system-ui, sans-serif" font-size="10" fill="#1e40af" text-anchor="middle">Select replacement</text>
-  <text x="108" y="118" font-family="system-ui, sans-serif" font-size="10" fill="#1e40af" text-anchor="middle">Assign migration lead</text>
-  <rect x="200" y="50" width="155" height="100" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
-  <text x="278" y="72" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#15803d" text-anchor="middle">Day -45 to -30</text>
-  <text x="278" y="90" font-family="system-ui, sans-serif" font-size="10" fill="#166534" text-anchor="middle">Submit UKG notice</text>
-  <text x="278" y="104" font-family="system-ui, sans-serif" font-size="10" fill="#166534" text-anchor="middle">Request data export</text>
-  <text x="278" y="118" font-family="system-ui, sans-serif" font-size="10" fill="#166534" text-anchor="middle">Begin new config</text>
-  <rect x="370" y="50" width="155" height="100" rx="6" fill="#fefce8" stroke="#fef08a" stroke-width="1.5"/>
-  <text x="448" y="72" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#a16207" text-anchor="middle">Day -30 to 0</text>
-  <text x="448" y="90" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">Parallel operation</text>
-  <text x="448" y="104" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">Staff training</text>
-  <text x="448" y="118" font-family="system-ui, sans-serif" font-size="10" fill="#854d0e" text-anchor="middle">Data reconciliation</text>
-  <rect x="540" y="50" width="155" height="100" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
-  <text x="618" y="72" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#dc2626" text-anchor="middle">Day 0 to +30</text>
-  <text x="618" y="90" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Live on new system</text>
-  <text x="618" y="104" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">UKG read-only access</text>
-  <text x="618" y="118" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b" text-anchor="middle">Support sprint</text>
-  <text x="360" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Never cut over cold. Parallel operation is mandatory. Running two systems for 30 days costs less than a failed cutover.</text>
-</svg>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">UKG Migration Timeline for a 25-Bed Critical Access Hospital</p>
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-2 pr-3 font-semibold text-blue-700 dark:text-blue-400" style="width:25%">Day -60 to -45</th>
+        <th class="text-left py-2 pr-3 font-semibold text-green-700 dark:text-green-400" style="width:25%">Day -45 to -30</th>
+        <th class="text-left py-2 pr-3 font-semibold text-yellow-700 dark:text-yellow-400" style="width:25%">Day -30 to 0</th>
+        <th class="text-left py-2 font-semibold text-red-700 dark:text-red-400" style="width:25%">Day 0 to +30</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="align-top">
+        <td class="py-3 pr-3 text-slate-700 dark:text-slate-300">Read contract. Select replacement. Assign migration lead.</td>
+        <td class="py-3 pr-3 text-slate-700 dark:text-slate-300">Submit UKG notice. Request data export. Begin new config.</td>
+        <td class="py-3 pr-3 text-slate-700 dark:text-slate-300">Parallel operation. Staff training. Data reconciliation.</td>
+        <td class="py-3 text-slate-700 dark:text-slate-300">Live on new system. UKG read-only access. Support sprint.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">Never cut over cold. Parallel operation is mandatory. Running two systems for 30 days costs less than a failed cutover.</p>
+</div>
 
 ## What to Do With Your Data?
 
@@ -182,7 +176,7 @@ The evaluation criteria that matter most for a CAH replacement:
 - **No EHR integration requirement:** Systems that require connecting to your Epic or Cerner instance add 2-4 months and significant cost to the implementation. A CAH that schedules independently of the EHR does not need this.
 - **Trial before commitment:** The right vendor will let you run a pilot on real schedules before signing a multi-year contract. Any vendor who will not offer this is pricing the risk of the unknown onto you.
 
-For a detailed comparison of platforms appropriate for CAHs leaving enterprise tools, see the [best nurse scheduling software guide for critical access hospitals](/blog/best-nurse-scheduling-software-2026). For context on why enterprise platforms like UKG are specifically a poor fit at CAH scale, see the [dedicated UKG alternatives guide](/blog/ukg-too-complex-small-hospital).
+For a detailed comparison of platforms appropriate for CAHs leaving enterprise tools, see our [nurse scheduling software](/nurse-scheduling-software) guide. For context on why enterprise platforms like UKG are specifically a poor fit at CAH scale, see the [dedicated UKG alternatives guide](/blog/ukg-too-complex-small-hospital).
 
 For [Critical Access Hospital administrators](/critical-access-hospital-scheduling) mid-contract and evaluating options: start the replacement research now, before the renewal window. The notice period clock starts at a specific date in your contract. Most administrators who missed that date and were auto-renewed wish they had started six months earlier.
 
@@ -223,10 +217,5 @@ The most common reasons, in order: the system costs more than its value at small
 
 The replacement depends on what you actually need. If you need basic scheduling without healthcare compliance, general tools like Deputy or When I Work are cheaper but require manual compliance tracking. If you need healthcare-specific scheduling with Texas overtime compliance, callout automation, and no IT requirement, SimpleScheduleAI is built specifically for CAH-scale operations. See the [full comparison guide](/blog/best-nurse-scheduling-software-2026) for a detailed breakdown.
 
----
-
-**Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals.
-MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare
-operations, workforce optimization, and hospital process design.
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
