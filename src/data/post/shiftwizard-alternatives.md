@@ -22,7 +22,7 @@ metadata:
 
 ## Key Takeaways
 
-- ShiftWizard is a hospital scheduling platform built by HealthStream. It holds an overall 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviews rating 4 stars or higher.
+- ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (acquired). It holds an overall 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviews rating 4 stars or higher.
 - For a Critical Access Hospital evaluating any hospital scheduling platform, the right comparison is not feature-by-feature; it is operational fit against the constraints of a 25-bed facility with no IT department and a nurse manager who also takes clinical shifts.
 - Self-serve platforms (ShiftWizard, TCP/Aladtec, QGenda) ask the nurse manager to configure and operate the system. A managed service (SimpleScheduleAI) takes that operational layer off her plate.
 - The right choice depends on capacity, not feature lists. If your nurse manager has 4-6 hours per week to dedicate to scheduling administration, a self-serve platform fits. If she does not, the operating model matters more than which platform you pick.
@@ -31,10 +31,10 @@ metadata:
 
 - [Why CAH Nurse Managers Evaluate Hospital Scheduling Alternatives?](#why-cah-nurse-managers-evaluate-hospital-scheduling-alternatives)
 - [Five Questions Every CAH Should Ask in a Scheduling Demo](#five-questions-every-cah-should-ask-in-a-scheduling-demo)
-- [Profile: ShiftWizard](#profile-shiftwizard)
-- [Profile: TCP Scheduling Software (Aladtec)](#profile-tcp-scheduling-software-aladtec)
-- [Profile: NurseGrid](#profile-nursegrid)
-- [Profile: QGenda](#profile-qgenda)
+- [ShiftWizard](#shiftwizard)
+- [TCP Scheduling Software (Aladtec)](#tcp-scheduling-software-aladtec)
+- [NurseGrid](#nursegrid)
+- [QGenda](#qgenda)
 - [What Is the Self-Serve vs Managed Service Question?](#what-is-the-self-serve-vs-managed-service-question)
 - [How SimpleScheduleAI Fits If You Need the Managed Service Model](#how-simplescheduleai-fits-if-you-need-the-managed-service-model)
 - [What to Do This Week](#what-to-do-this-week)
@@ -79,7 +79,7 @@ Use these in any demo. The answers will reveal more about operational fit than a
 
 These five questions surface the operational reality of running the platform at CAH scale. The answers, not the marketing pages, are what determine fit.
 
-## Profile: ShiftWizard
+## ShiftWizard
 
 ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM), used by more than 500 hospital facilities according to the vendor. It holds an overall **4.3/5 on G2** and **4.4/5 across 723 Capterra reviews** (verified 2026-04-30), among the higher-rated platforms in this category, with over 88% of Capterra reviews rating 4 stars or higher. G2 summarizes the product as one users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
 
@@ -125,7 +125,7 @@ For a CAH evaluating ShiftWizard, ask the demo to walk through swap workflows fr
 
 **Cost:** Pricing not listed publicly. Contact the vendor for a quote.
 
-## Profile: TCP Scheduling Software (Aladtec)
+## TCP Scheduling Software (Aladtec)
 
 TCP Scheduling Software (formerly Aladtec, acquired by TCP Software in 2021) holds an overall **4.3/5 across 97 G2 reviews** and **4.6/5 across 17 Capterra reviews** (verified 2026-04-30); small Capterra sample, larger G2 sample.
 
@@ -155,7 +155,7 @@ A note for CAH evaluators: TCP/Aladtec's Capterra customer base skews toward fir
 
 **Cost:** Pricing not listed publicly. Typically positions in the mid-market range.
 
-## Profile: NurseGrid
+## NurseGrid
 
 NurseGrid Manager is the manager-tier product of NurseGrid, owned by HealthStream, Inc. It holds **4.2/5 across 13 Capterra reviews** (verified 2026-04-30). The Capterra sample is small; reviews on the iOS App Store and Google Play are typically a more meaningful signal for a nurse-facing app. CAHs evaluating it should also check current App Store and Google Play ratings before deciding.
 
@@ -195,7 +195,7 @@ For a CAH nurse manager who moves between the floor and her office, this is a si
 
 **Cost:** Freemium for individual nurses; organizational tier pricing on request. Multiple Capterra reviewers from smaller facilities describe organizational pricing as a barrier.
 
-## Profile: QGenda
+## QGenda
 
 QGenda holds an overall **4.6/5 across 164 G2 reviews** and **4.2/5 across 68 Capterra reviews** (verified 2026-04-30). QGenda's customer base skews toward physician group practices and larger health systems; reviews from smaller-scale customers and reviews from larger-scale customers describe meaningfully different experiences, which is typical of platforms serving multiple market segments.
 
