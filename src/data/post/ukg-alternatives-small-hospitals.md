@@ -26,7 +26,7 @@ metadata:
 
 - UKG is used by over 3,500 hospitals in the US. Many Critical Access Hospitals (CAHs) are on UKG because a regional health system extended an enterprise contract to affiliated facilities, not because UKG was selected for CAH-scale needs.
 - Most CAHs on UKG use less than 20% of the platform's features while carrying 100% of the operational overhead: IT configuration, ongoing rule maintenance, and a support model designed for enterprise IT staff.
-- The practical alternatives for a small hospital are Aladtec (self-serve, minimal IT), SmartLinx (mid-market, healthcare-specific), and SimpleScheduleAI (managed service, no IT required).
+- The practical alternatives for a small hospital are Aladtec (self-serve, minimal IT; 4.3/5 on G2 with 97 reviews, 4.6/5 on Capterra with 17 reviews, though Capterra reviewers skew toward EMS and public safety rather than hospital nursing), SmartLinx (mid-market, healthcare-specific), and SimpleScheduleAI (managed service, no IT required).
 - The decision point is operational fit. How much IT and scheduling administration capacity does your facility actually have? Match the complexity of the tool to what you can sustain, not what sounds most capable.
 - Switching requires checking contract terms, exporting roster data, and running parallel for one scheduling cycle. A managed service handles most of the transition logistics on its end.
 
@@ -92,7 +92,7 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 
 Beyond the purchase price, the operational cost of running UKG at CAH scale is significant:
 
-**Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll, sometimes after overpaying nurses by thousands of dollars. This is not hypothetical. It is a consistent pattern in user reviews from smaller UKG facilities.
+**Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll, sometimes after overpaying nurses by thousands of dollars. At a 25-bed hospital where there is no HRIS analyst to own the configuration, this is the highest operational risk of the platform.
 
 **Compliance gaps.** UKG can produce CMS §485.635 documentation, but only if configured correctly. Misconfiguration means the audit trail has gaps, which creates survey exposure. At a large hospital with a workforce management team, someone is responsible for audit readiness. At a CAH, this falls to whoever has time.
 
@@ -174,7 +174,13 @@ The nurse manager reviews and approves schedules and handles callout coverage us
 
 Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is the most widely deployed scheduling platform among critical access hospitals and EMS organizations. Unlike UKG, it requires minimal IT involvement and can be operational in 2-4 weeks. For a CAH leaving UKG because of implementation complexity, Aladtec represents a meaningful reduction in setup overhead.
 
-The trade-off is clear: Aladtec replaces UKG's complexity with a different kind of self-serve overhead. The nurse manager still configures credential tracking, FLSA overtime thresholds, and shift rules manually. CMS documentation requires the manager to structure and export records; the system does not generate them automatically. G2 reviewers consistently flag "too many clicks for routine tasks" and a steep initial configuration curve. Since the TCP acquisition, reviewer feedback on support response times and quality has declined, which matters when a configuration issue blocks a schedule build before posting day.
+The trade-off is clear: Aladtec replaces UKG's complexity with a different kind of self-serve overhead. The nurse manager still configures credential tracking, FLSA overtime thresholds, and shift rules manually. CMS documentation requires the manager to structure and export records; the system does not generate them automatically.
+
+Amanda F., Nurse Manager (Hospital &amp; Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+
+Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
+
+Since TCP acquired Aladtec in 2021, CAH administrators should request current named support contacts and documented response-time SLAs directly from the vendor before committing.
 
 If you are leaving UKG because it demands too much from one person, Aladtec is simpler to implement but does not remove the ongoing administrative burden.
 
@@ -191,8 +197,8 @@ If you are leaving UKG because it demands too much from one person, Aladtec is s
 
 - Nurse manager configures and operates all scheduling rules manually
 - No automatic CMS §485.635 audit trail generation; documentation requires manual export
-- G2 reviewers cite excess clicks per routine task and steep initial learning curve
-- Post-acquisition support quality has declined per documented reviewer feedback
+- Amanda F., Nurse Manager (Hospital &amp; Health Care), on Capterra (Oct 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- Since TCP acquired Aladtec in 2021, request current named support contacts and response-time SLAs before committing
 - Mobile app has limited functionality compared to desktop interface
 
 **Verdict:** The right fit for a CAH that wants to reduce UKG complexity without outsourcing scheduling decisions. Not the right fit if the core problem is that one person cannot sustain the weekly scheduling workload alongside clinical duties.
@@ -203,7 +209,7 @@ If you are leaving UKG because it demands too much from one person, Aladtec is s
 
 SmartLinx is a workforce management platform built for mid-size healthcare organizations, primarily skilled nursing facilities and hospitals in the 50-200 bed range. It has stronger built-in credential enforcement and compliance logic than Aladtec, with pre-configured rules for common healthcare regulatory requirements.
 
-For a critical access hospital leaving UKG, SmartLinx trades one form of enterprise overhead for another. Implementation runs 3-4 months with IT involvement required for initial configuration. SmartLinx assumes the facility has a dedicated scheduling administrator and an available IT resource during setup, which most 25-bed CAHs do not. G2 reviewers from smaller organizations describe the platform as feature-rich but "complex for the team size" and note that the compliance tools require significant upfront configuration to work correctly.
+For a critical access hospital leaving UKG, SmartLinx trades one form of enterprise overhead for another. Implementation runs 3-4 months with IT involvement required for initial configuration. SmartLinx assumes the facility has a dedicated scheduling administrator and an available IT resource during setup, which most 25-bed CAHs do not. Before committing to an implementation timeline, request a reference from a SmartLinx customer at comparable scale (50-bed hospital or smaller) to verify configuration burden and setup reality at that size.
 
 SmartLinx is most cited by skilled nursing and long-term care facilities, not acute care CAHs. The compliance frameworks it handles well (state staffing ratios for SNFs, PBJ reporting) overlap partially with CAH needs but are not the same regulatory environment.
 
@@ -220,7 +226,7 @@ SmartLinx is most cited by skilled nursing and long-term care facilities, not ac
 - 3-4 month implementation with IT involvement required
 - Designed for 50-200 bed facilities; configuration and pricing reflect that scale
 - Requires a dedicated scheduling administrator to operate effectively post-implementation
-- G2 reviewers from small organizations cite complexity exceeding their team capacity
+- Verify setup complexity and configuration burden with a current SmartLinx reference at CAH or small hospital scale before deciding
 - Primary compliance coverage targets SNF/LTC regulatory requirements, not CAH-specific CMS §485.635
 
 **Verdict:** SmartLinx is a capable platform for the facility size it was built for. A 25-bed CAH without a dedicated IT resource and scheduling coordinator will not get the value the platform is priced for. If UKG felt over-engineered, SmartLinx is a smaller step down, not a different operating model.
