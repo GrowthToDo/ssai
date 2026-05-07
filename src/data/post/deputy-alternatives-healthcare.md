@@ -1,7 +1,7 @@
 ---
 draft: true
 publishDate: 2026-05-08T00:00:00Z
-updateDate: 2026-06-02T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Deputy Alternatives for Healthcare Scheduling'
 excerpt: >
@@ -33,20 +33,21 @@ metadata:
 
 ## Table of Contents
 
-- [Why Hospitals Move Away from Deputy](#why-hospitals-move-away-from-deputy)
+- [Why Hospitals Move Away from Deputy?](#why-hospitals-move-away-from-deputy)
 - [Quick Comparison: Deputy vs. The Alternatives](#quick-comparison-deputy-vs-the-alternatives)
-- [The 5 Best Deputy Alternatives for Healthcare Scheduling](#the-5-best-deputy-alternatives-for-healthcare-scheduling)
+- [What Are the 5 Best Deputy Alternatives for Healthcare Scheduling?](#what-are-the-5-best-deputy-alternatives-for-healthcare-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
   - [3. When I Work](#3-when-i-work)
   - [4. Connecteam](#4-connecteam)
   - [5. Homebase](#5-homebase)
-- [When Deputy Is Still Adequate for Healthcare](#when-deputy-is-still-adequate-for-healthcare)
-- [How SimpleScheduleAI Compares to Deputy](#how-simplescheduleai-compares-to-deputy)
-- [What to Do This Week](#what-to-do-this-week)
+- [When Deputy Is Still Adequate for Healthcare?](#when-deputy-is-still-adequate-for-healthcare)
+- [How SimpleScheduleAI Compares to Deputy?](#how-simplescheduleai-compares-to-deputy)
+- [What to Do This Week?](#what-to-do-this-week)
+- [A Note on Sources](#a-note-on-sources)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Deputy is one of the most widely used scheduling platforms across industries. Its combination of fast deployment, clear interface, and per-user pricing makes it an accessible entry point for organizations that need scheduling software immediately. Many healthcare organizations, including small hospitals, deploy Deputy because it is easy, not because it is the right fit.
+Deputy is a general workforce scheduling platform used across retail, hospitality, and some healthcare settings. Its combination of fast deployment, clear interface, and per-user pricing makes it an accessible entry point for organizations that need scheduling software immediately. Many healthcare organizations, including small hospitals, deploy Deputy because it is easy, not because it is the right fit.
 
 The problem with using Deputy for hospital nurse scheduling is not that it is poorly made. It is that it was designed for a completely different set of operational requirements. Retail stores and restaurants using Deputy do not need credential enforcement, FLSA healthcare overtime rules, or CMS compliance documentation. Hospitals do. Every one of those requirements is a manual process outside of Deputy.
 
@@ -56,36 +57,29 @@ Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Move Away from Deputy?
 
-<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Top reasons hospital nurse managers cite for moving away from Deputy to healthcare scheduling software">
-  <rect width="800" height="340" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Top Reasons Hospitals Move Away from Deputy</text>
-  <text x="400" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Based on healthcare scheduling review patterns and user feedback</text>
-
-  <!-- CMS compliance -->
-  <rect x="60" y="76" width="480" height="34" rx="4" fill="#2563eb"/>
-  <text x="68" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">CMS compliance documentation prep still entirely manual</text>
-  <text x="548" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Most common</text>
-
-  <!-- Credential gap -->
-  <rect x="60" y="124" width="420" height="34" rx="4" fill="#3b82f6"/>
-  <text x="68" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">No credential enforcement, wrong nurse assigned to clinical unit</text>
-  <text x="488" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- OT calculation -->
-  <rect x="60" y="172" width="360" height="34" rx="4" fill="#60a5fa"/>
-  <text x="68" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">FLSA healthcare overtime not tracked, unexpected OT expenses</text>
-  <text x="428" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- Callout response -->
-  <rect x="60" y="220" width="295" height="34" rx="4" fill="#93c5fd"/>
-  <text x="68" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Broadcast callout model too slow for acute care coverage gaps</text>
-  <text x="363" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-
-  <!-- No healthcare context -->
-  <rect x="60" y="268" width="230" height="34" rx="4" fill="#bfdbfe"/>
-  <text x="68" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">No healthcare-specific scheduling logic of any kind</text>
-  <text x="298" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-</svg>
+<div class="not-prose my-8 space-y-3">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Top Reasons Hospitals Move Away from Deputy</p>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-700 dark:bg-blue-600 rounded px-3 py-2 text-xs font-semibold text-white" style="width:100%">CMS compliance documentation prep still entirely manual</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Most common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-500 dark:bg-blue-500 rounded px-3 py-2 text-xs font-semibold text-white" style="width:88%">Credential enforcement gaps, incorrect nurse assigned to clinical unit</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-400 dark:bg-blue-400 rounded px-3 py-2 text-xs font-semibold text-slate-800 dark:text-slate-900" style="width:75%">FLSA healthcare overtime not tracked, unexpected OT expenses</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-300 dark:bg-blue-300 rounded px-3 py-2 text-xs font-semibold text-slate-800 dark:text-slate-900" style="width:61%">Broadcast callout model too slow for acute care coverage gaps</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-200 dark:bg-blue-200 rounded px-3 py-2 text-xs font-semibold text-slate-800 dark:text-slate-900" style="width:48%">No healthcare-specific scheduling logic built in</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+</div>
 
 **CMS compliance documentation still entirely manual:** Hospitals using Deputy for scheduling must maintain CMS staffing documentation through a completely separate process, typically spreadsheets or manual logs. Every survey preparation cycle requires assembling that documentation by hand because Deputy has no concept of CMS compliance requirements.
 
@@ -93,67 +87,67 @@ Here is how the alternatives compare before we go deeper:
 
 **FLSA healthcare overtime not tracked:** The [FLSA 8-and-80 rule](https://www.dol.gov/agencies/whd/flsa) for healthcare employers allows a different overtime calculation threshold than the standard 40-hour weekly rule. Deputy applies the standard 40-hour threshold by default and has no configuration for the healthcare-specific 8-and-80 model. Hospitals relying on Deputy for overtime tracking are either overpaying overtime or miscalculating FLSA obligations.
 
-## Quick Comparison: Deputy vs. The Alternatives: Which Is Better?
+## Quick Comparison: Deputy vs. The Alternatives
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Best For</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Credential Enforcement</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CMS Docs</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:22%">Platform</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:28%">Best For</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:20%">Credential Enforcement</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:15%">CMS Docs</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100" style="width:15%">Cost/Month</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy (current)</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">General workforce scheduling</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$4.50/user</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">CAHs, managed service</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, in callout ranking</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, automatic</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Small rosters, self-serve</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No, manual export</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Manual export</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">When I Work</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Simple teams, low complexity</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$2.50-4/user</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Connecteam</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Deskless workforce, mobile teams</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Free-$99/month</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Homebase</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Very small teams, single location</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Free-$80/month</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## What Is the 5 Best Deputy Alternatives for Healthcare Scheduling?
+## What Are the 5 Best Deputy Alternatives for Healthcare Scheduling?
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -201,9 +195,17 @@ The migration from Deputy to Aladtec is straightforward: export your current sta
 
 **Key limitations:**
 
-- More expensive than Deputy; the cost increase is justified by the credential and coverage features Deputy lacks
-- CMS compliance documentation is still manual; Aladtec improves scheduling but not survey documentation
-- Initial configuration for healthcare-specific rules requires 4-6 weeks of setup investment
+**Scheduling interface friction.** Some nurse managers describe a high number of steps required when editing schedules.
+
+> "When editing the schedule there are a lot of clicks involved."
+> Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+**Schedule model fit.** Aladtec's scheduling approach may not align well with hospitals using traditional manual scheduling methods.
+
+> "Not as helpful for those of us that still do a traditional schedule. Automatic scheduling feature needs work."
+> Jeanne C., Administrative Coordinator, Hospital & Health Care, May 7, 2019, Capterra
+
+CMS compliance documentation and initial credential configuration require setup time. Confirm current CMS documentation export capabilities with Aladtec directly.
 
 **Verdict:** The best self-serve upgrade from Deputy for small hospital nurse scheduling. Aladtec provides the healthcare credential and coverage logic that Deputy is missing, without the implementation complexity of SmartLinx or QGenda.
 
@@ -228,9 +230,9 @@ For healthcare organizations using Deputy primarily for schedule publishing and 
 
 **Key limitations:**
 
-- No credential enforcement, FLSA healthcare overtime tracking, or CMS documentation, the same gaps as Deputy
-- A lateral move from Deputy on compliance, not an improvement
-- Not built for hospital nursing environments or acute care scheduling dynamics
+**Healthcare compliance tooling.** When I Work is a general workforce scheduling platform. Credential enforcement, FLSA healthcare overtime tracking, and CMS documentation are not featured on the product page. Verify current capabilities with When I Work directly before evaluating for a clinical environment.
+
+**Hospital-specific scheduling logic.** When I Work does not feature acute care callout ranking or unit-based credential filtering. Confirm whether these capabilities exist before evaluating as a hospital nursing replacement.
 
 **Verdict:** A reasonable Deputy alternative for non-clinical healthcare settings where compliance is not the driver of the switch. For hospital nursing, it solves none of the problems that make Deputy inadequate.
 
@@ -254,9 +256,9 @@ Like Deputy and When I Work, Connecteam has no healthcare-specific compliance fe
 
 **Key limitations:**
 
-- No healthcare compliance features; credential tracking, CMS documentation, and FLSA overtime rules are outside the platform's scope
-- Not designed for hospital nursing scheduling; unit-based assignment and callout ranking logic do not exist
-- For hospitals, Connecteam would need to be paired with a separate clinical scheduling system
+**Healthcare compliance tooling.** Connecteam is designed for deskless and distributed teams across industries. Credential enforcement, CMS documentation, and FLSA healthcare overtime tracking are not featured on the product page. Verify current capabilities with Connecteam directly.
+
+**Hospital nursing scheduling scope.** Connecteam does not feature unit-based assignment logic or acute care callout ranking. Confirm with Connecteam whether these capabilities exist before evaluating for clinical nursing use.
 
 **Verdict:** A strong choice for administrative and operational deskless teams within a healthcare organization. Not a suitable replacement for hospital nurse scheduling regardless of the broader feature set.
 
@@ -280,9 +282,9 @@ For any hospital nursing environment, Homebase is the wrong category of tool. It
 
 **Key limitations:**
 
-- No healthcare compliance features whatsoever
-- Fewer scheduling features than Deputy; a step backward from Deputy's capability
-- Not appropriate for any facility with CMS survey obligations, credential requirements, or overtime tracking needs
+**Healthcare compliance tooling.** Homebase is designed for retail and service teams. Healthcare-specific compliance features are not documented on the product page. Verify current capabilities with Homebase before evaluating for any clinical setting.
+
+**Scheduling feature depth.** Homebase targets very simple single-location teams. Confirm whether the feature set meets your scheduling requirements before evaluating as a Deputy replacement.
 
 **Verdict:** A cost reduction move for the simplest possible scheduling environments. Any hospital nursing context requires a purpose-built tool, not a retail scheduling app.
 
@@ -302,52 +304,55 @@ In all three cases, the hospital must be certain that the clinical nursing sched
 
 ## How SimpleScheduleAI Compares to Deputy?
 
-<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Feature comparison between Deputy and SimpleScheduleAI for hospital nurse scheduling">
-  <rect width="800" height="360" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Deputy vs. SimpleScheduleAI: Hospital Nurse Scheduling</text>
-
-  <!-- Headers -->
-
-<text x="200" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Feature</text>
-<text x="500" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Deputy</text>
-<text x="700" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">SimpleScheduleAI</text>
-
-  <line x1="40" y1="76" x2="760" y2="76" stroke="#e2e8f0" stroke-width="1"/>
-
-<text x="60" y="102" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Healthcare credential enforcement</text>
-<text x="500" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No</text>
-<text x="700" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, in replacement list</text>
-<line x1="40" y1="114" x2="760" y2="114" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">CMS §485.635 documentation</text>
-<text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No</text>
-<text x="700" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, automatic</text>
-<line x1="40" y1="152" x2="760" y2="152" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="178" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">FLSA 8-and-80 healthcare overtime</text>
-<text x="500" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">No, standard 40-hr only</text>
-<text x="700" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, default for CAHs</text>
-<line x1="40" y1="190" x2="760" y2="190" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="216" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Callout replacement model</text>
-<text x="500" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Broadcast open shift</text>
-<text x="700" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Ranked shortlist, 2 min</text>
-<line x1="40" y1="228" x2="760" y2="228" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="254" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Implementation burden</text>
-<text x="500" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Minimal, days to deploy</text>
-<text x="700" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Low, Excel upload, days</text>
-<line x1="40" y1="266" x2="760" y2="266" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="292" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Target environment</text>
-<text x="500" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">General workforce</text>
-<text x="700" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">CAH, acute care nursing</text>
-<line x1="40" y1="304" x2="760" y2="304" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Pricing</text>
-<text x="500" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">$4.50/user/month</text>
-<text x="700" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Not listed, contact for quote</text>
-</svg>
+<div class="not-prose my-6">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">Deputy vs. SimpleScheduleAI: Hospital Nurse Scheduling</p>
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-4 font-semibold text-slate-700 dark:text-slate-300" style="width:40%">Feature</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-700 dark:text-slate-300" style="width:30%">Deputy</th>
+        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400" style="width:30%">SimpleScheduleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Healthcare credential enforcement</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Confirm with vendor</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Yes, in replacement list</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">CMS §485.635 documentation</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Yes, automatic</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">FLSA 8-and-80 healthcare overtime</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not documented; confirm with vendor</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Yes, default for CAHs</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Callout replacement model</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Broadcast open shift</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Ranked shortlist, 2 min</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Implementation burden</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Minimal, days to deploy</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Low, Excel upload, days</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Target environment</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">General workforce</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">CAH, acute care nursing</td>
+      </tr>
+      <tr class="align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Pricing</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">$4.50/user/month</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Not listed, contact for quote</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 The comparison above illustrates the category difference between Deputy and SimpleScheduleAI. Deputy is fast to deploy and low cost because it does not include any of the healthcare-specific features that hospital nursing requires. SimpleScheduleAI's value is precisely in those features, credential enforcement, CMS documentation, healthcare FLSA, and acute care callout management, that Deputy was never designed to provide.
 
@@ -365,13 +370,17 @@ For hospitals where those features represent real operational risk and real manu
 
 5. **If you want to stay on self-serve software, request an Aladtec trial.** Deploy Aladtec in parallel with Deputy for one scheduling cycle. Compare the time investment required in Aladtec to configure credential tracking and coverage rules against the time you are currently spending on manual compliance outside of Deputy.
 
-<div class="not-prose mt-10 rounded-xl bg-blue-50 border border-blue-100 px-8 py-7 flex flex-col gap-4">
+<div class="not-prose mt-10 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-7 flex flex-col gap-4">
   <div>
-    <p class="text-lg font-bold text-blue-900">The hospital scheduling upgrade from Deputy</p>
-    <p class="text-blue-800 mt-1">SimpleScheduleAI provides credential-filtered callout replacement, automatic CMS §485.635 documentation, and FLSA healthcare overtime tracking as defaults. Built for Critical Access Hospitals that need clinical scheduling compliance, not a general workforce scheduling tool applied to a clinical environment.</p>
+    <p class="text-lg font-bold text-blue-900 dark:text-slate-100">The hospital scheduling upgrade from Deputy</p>
+    <p class="text-blue-800 dark:text-slate-300 mt-1">SimpleScheduleAI provides credential-filtered callout replacement, automatic CMS §485.635 documentation, and FLSA healthcare overtime tracking as defaults. Built for Critical Access Hospitals that need clinical scheduling compliance, not a general workforce scheduling tool applied to a clinical environment.</p>
   </div>
-  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
+  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 px-6 py-3 text-white font-semibold transition-colors">Request a Demo</a>
 </div>
+
+## A Note on Sources
+
+Aladtec reviewer quotes are verbatim from Capterra, with reviewer name, role, and date as listed on the review at time of writing (May 2026). Capability descriptions for Deputy, When I Work, Connecteam, and Homebase are based on publicly available product pages. Features change; verify current capabilities with each vendor before finalizing an evaluation.
 
 ## Frequently Asked Questions
 
@@ -385,7 +394,7 @@ Aladtec is the better alternative for hospitals that want to remain on self-serv
 
 **Can Deputy track nurse credentials for scheduling purposes?**
 
-Deputy has an employee profile system where credential information can be entered as notes, but there is no native credential tracking that enforces assignment rules based on credential status. A nurse's ACLS certification can be noted in her profile, but Deputy will not prevent her from accepting a non-credentialed assignment or exclude her from shifts she is not qualified for. Credential tracking in Deputy is manual and informational, not enforced.
+Deputy has an employee profile system where credential information can be entered as notes. Credential enforcement that automatically blocks assignment based on credential status is not documented on the product page. Verify current credential tracking capabilities with Deputy directly before evaluating for clinical use.
 
 **What is the cost difference between Deputy and healthcare scheduling software?**
 
@@ -393,4 +402,7 @@ At a 20-nurse roster, Deputy costs approximately $90 per month ($4.50 per user).
 
 **Does Deputy work for hospital scheduling if I configure it correctly?**
 
-Deputy's feature set does not include credential tracking, FLSA healthcare overtime, CMS documentation, or charge nurse logic. These are not configuration gaps, the features do not exist in the platform. No amount of configuration makes Deputy enforce clinical credentials or generate CMS-compliant staffing documentation. For hospitals with those requirements, Deputy is a category mismatch regardless of how it is configured.
+Credential tracking enforcement, FLSA healthcare overtime configuration, CMS documentation, and charge nurse logic are not documented on Deputy's product page. Verify current capabilities with Deputy directly. For hospitals with clinical scheduling requirements, confirm whether Deputy's current feature set covers those needs before relying on it for compliance-sensitive scheduling.
+
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
