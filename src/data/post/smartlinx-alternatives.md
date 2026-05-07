@@ -1,9 +1,9 @@
 ---
 draft: true
 publishDate: 2026-05-06T00:00:00Z
-updateDate: 2026-06-09T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Best SmartLinx Alternatives for Hospital Scheduling'
+title: 'Best SmartLinx Alternatives for Critical Access Hospital Scheduling'
 excerpt: >
   SmartLinx is a capable workforce management platform, but many small and community hospitals
   find it over-engineered for their needs. Implementation takes 3-4 months, configuration requires
@@ -33,57 +33,51 @@ metadata:
 
 ## Table of Contents
 
-- [Why Hospitals Switch Away from SmartLinx](#why-hospitals-switch-away-from-smartlinx)
+- [Why Hospitals Switch Away from SmartLinx?](#why-hospitals-switch-away-from-smartlinx)
 - [Quick Comparison: SmartLinx vs. The Alternatives](#quick-comparison-smartlinx-vs-the-alternatives)
-- [The 5 Best SmartLinx Alternatives for Hospital Scheduling](#the-5-best-smartlinx-alternatives-for-hospital-scheduling)
+- [What Are the 5 Best SmartLinx Alternatives for Critical Access Hospital Scheduling?](#what-are-the-5-best-smartlinx-alternatives-for-critical-access-hospital-scheduling)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec](#2-aladtec)
   - [3. TCP Scheduling](#3-tcp-scheduling)
   - [4. NurseGrid Manager](#4-nursegrid-manager)
   - [5. Deputy](#5-deputy)
-- [When to Stay with SmartLinx](#when-to-stay-with-smartlinx)
-- [How SimpleScheduleAI Compares to SmartLinx](#how-simplescheduleai-compares-to-smartlinx)
-- [What to Do This Week](#what-to-do-this-week)
+- [When to Stay with SmartLinx?](#when-to-stay-with-smartlinx)
+- [How SimpleScheduleAI Compares to SmartLinx?](#how-simplescheduleai-compares-to-smartlinx)
+- [What to Do This Week?](#what-to-do-this-week)
+- [A Note on Sources](#a-note-on-sources)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 SmartLinx built its reputation in long-term care scheduling, where 24/7 coverage requirements, complex per diem pools, and integrated time and attendance create a workflow that general scheduling tools handle poorly. It is a genuinely capable platform for organizations with the staff and IT resources to implement it correctly.
 
-The mismatch appears at smaller hospitals. A 25-bed Critical Access Hospital (CAH) and a 150-bed long-term care facility both have 24/7 coverage requirements, but the operational and financial scale is different. At 25 beds, the implementation investment, per-user pricing, and ongoing maintenance that SmartLinx requires can consume budget and administrative time that a small hospital cannot spare.
+The mismatch appears at smaller hospitals. A 25-bed Critical Access Hospital (CAH) and a 150-bed long-term care facility both have 24/7 coverage requirements, but the operational and financial scale is different. At 25 beds, the implementation investment, per-user pricing, and ongoing maintenance that SmartLinx requires can consume budget and administrative time that a small hospital cannot spare. This guide evaluates the five best alternatives from the perspective of [nurse scheduling software](/nurse-scheduling-software) needs at the CAH scale, including the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling).
 
 Here is how the alternatives compare:
 
 ## Why Hospitals Switch Away from SmartLinx?
 
-<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Top reasons hospitals cite for switching away from SmartLinx to alternative scheduling software">
-  <rect width="800" height="340" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Top Reasons Small Hospitals Switch Away from SmartLinx</text>
-  <text x="400" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Based on hospital scheduling review patterns and user feedback</text>
-
-  <!-- Implementation cost -->
-  <rect x="60" y="76" width="480" height="34" rx="4" fill="#2563eb"/>
-  <text x="68" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Implementation cost and timeline exceeded expectations</text>
-  <text x="548" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Most common</text>
-
-  <!-- Per user pricing -->
-  <rect x="60" y="124" width="420" height="34" rx="4" fill="#3b82f6"/>
-  <text x="68" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#fff">Per-user pricing grows faster than scheduling ROI at small rosters</text>
-  <text x="488" y="146" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- IT dependency -->
-  <rect x="60" y="172" width="360" height="34" rx="4" fill="#60a5fa"/>
-  <text x="68" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Ongoing IT dependency for configuration and troubleshooting</text>
-  <text x="428" y="194" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Common</text>
-
-  <!-- Feature overload -->
-  <rect x="60" y="220" width="290" height="34" rx="4" fill="#93c5fd"/>
-  <text x="68" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Feature complexity beyond what the hospital actually uses</text>
-  <text x="358" y="242" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-
-  <!-- Support tiers -->
-  <rect x="60" y="268" width="220" height="34" rx="4" fill="#bfdbfe"/>
-  <text x="68" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Support prioritized toward larger LTC customers</text>
-  <text x="288" y="290" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0f172a">Moderate</text>
-</svg>
+<div class="not-prose my-8 space-y-3">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Top Reasons Small Hospitals Switch Away from SmartLinx</p>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-700 dark:bg-blue-600 rounded px-3 py-2 text-sm font-semibold text-white" style="width:100%">Implementation cost and timeline exceeded expectations</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Most common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-500 dark:bg-blue-500 rounded px-3 py-2 text-sm font-semibold text-white" style="width:87%">Per-user pricing grows faster than scheduling ROI at small rosters</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-400 dark:bg-blue-400 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:75%">Ongoing IT dependency for configuration and troubleshooting</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-300 dark:bg-blue-300 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:62%">Feature complexity beyond what the hospital actually uses</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <div class="bg-blue-200 dark:bg-blue-200 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:48%">Support prioritized toward larger LTC customers</div>
+    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
+  </div>
+</div>
 
 **Implementation cost and timeline:** SmartLinx implementations at small hospitals typically take 3-4 months with vendor involvement. At a 25-bed CAH, that is 3-4 months of parallel-running the old system alongside the new one, training staff on a complex platform, and paying for an implementation that serves a roster smaller than the platform was designed for.
 
@@ -91,56 +85,56 @@ Here is how the alternatives compare:
 
 **IT dependency for ongoing configuration:** SmartLinx requires IT involvement not just for implementation but for ongoing configuration changes. When a scheduling rule needs to change, or a new credential type needs to be tracked, or a new unit opens, the configuration change goes through an IT process. At a small hospital with shared IT resources, that bottleneck slows scheduling adaptation.
 
-## Quick Comparison: SmartLinx vs. The Alternatives: Which Is Better?
+## Quick Comparison: SmartLinx vs. The Alternatives
 
-<div class="not-prose overflow-x-auto">
-  <table class="w-full text-sm border-collapse">
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="border-b-2 border-slate-200 dark:border-slate-700">
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Platform</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Best For</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Implementation</th>
-        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">CMS Docs</th>
-        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100 whitespace-nowrap">Cost/Month</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:20%">Platform</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:28%">Best For</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:20%">Implementation</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-900 dark:text-slate-100" style="width:16%">CMS Docs</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100" style="width:16%">Cost/Month</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SmartLinx (current)</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">50-150 bed LTC/hospitals</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-4 months, needs IT</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
-        <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">SimpleScheduleAI</td>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">CAHs, managed service</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days, no IT needed</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, automatic</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Aladtec</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Small rosters, self-serve</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">4-6 weeks, self-serve</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No, manual export</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$200-450</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Mid-size hospitals, TCP ecosystem</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-5 months, needs IT</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">Not listed</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Communication layer add-on</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
       </tr>
-      <tr class="border-b border-slate-100 dark:border-slate-800">
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Basic schedule visibility</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
@@ -151,7 +145,7 @@ Here is how the alternatives compare:
   </table>
 </div>
 
-## What Is the 5 Best SmartLinx Alternatives for Hospital Scheduling?
+## What Are the 5 Best SmartLinx Alternatives for Critical Access Hospital Scheduling?
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -197,9 +191,17 @@ The tradeoff is that Aladtec has meaningful gaps compared to SmartLinx: no integ
 
 **Key limitations:**
 
-- No integrated time and attendance; payroll reconciliation requires a separate system
-- No automated CMS compliance documentation; survey prep is still a manual process
-- Callout overtime checking is manual, not automated in the replacement list
+**Scheduling interface friction.** Some nurse managers describe a high number of steps required to edit schedules.
+
+> "When editing the schedule there are a lot of clicks involved."
+> Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+**Schedule model fit.** Aladtec's scheduling approach may not align with hospitals that use traditional paper-based scheduling methods.
+
+> "Not as helpful for those of us that still do a traditional schedule. Automatic scheduling feature needs work."
+> Jeanne C., Administrative Coordinator, Hospital & Health Care, May 7, 2019, Capterra
+
+Time and attendance integration, automated CMS compliance documentation, and callout overtime automation are not included in the base Aladtec platform. Confirm current feature availability with Aladtec directly.
 
 **Verdict:** Aladtec is the right downgrade path from SmartLinx for hospitals that are paying for feature depth they do not use and want a simpler system with lower ongoing maintenance. The SmartLinx features that Aladtec lacks, CMS documentation, integrated T&A, must be handled manually or through other tools.
 
@@ -223,9 +225,9 @@ Implementation is similar in scope to SmartLinx: IT involvement is required, dep
 
 **Key limitations:**
 
-- Implementation complexity and IT dependency are similar to SmartLinx; it does not solve the resource requirement that makes SmartLinx difficult for small hospitals
-- Not appropriate for hospitals under 50 beds or without dedicated IT
-- Switching from SmartLinx to TCP Scheduling requires a full implementation project
+**Implementation scope.** TCP Scheduling is an enterprise platform. Confirm current implementation timeline, IT requirements, and minimum roster size with TCP Software directly before evaluating as a SmartLinx replacement.
+
+**Migration scope.** Switching from SmartLinx to TCP Scheduling is a full implementation project, not a data migration. Verify project scope and timeline with TCP Software.
 
 **Verdict:** A comparable platform to SmartLinx in both capability and complexity. Worth evaluating when there is an existing TCP vendor relationship or pricing advantage, but not a meaningful simplification from SmartLinx.
 
@@ -247,9 +249,15 @@ NurseGrid Manager is not a full SmartLinx replacement but can supplement or part
 
 **Key limitations:**
 
-- Does not build schedules, track credentials, or provide compliance documentation
-- Moving from SmartLinx to NurseGrid Manager means losing scheduling, compliance, and T&A features
-- Appropriate as a supplement to another scheduling system, not as a primary replacement
+**Manager app removed.** Recent platform updates removed the dedicated manager mobile app; managers now access schedules via desktop browser.
+
+> "It no longer has the manager app so I have to login to desktop."
+> Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
+
+> "they took away the Manager App for your phone."
+> Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
+
+NurseGrid Manager does not include schedule-building, credential tracking, or compliance documentation. Confirm current capabilities with NurseGrid before evaluating as a primary SmartLinx replacement.
 
 **Verdict:** NurseGrid Manager can replace the communication portion of SmartLinx for hospitals that discover that is the primary usage pattern. All other SmartLinx functions require a separate tool if NurseGrid Manager is the replacement.
 
@@ -272,9 +280,9 @@ Deputy is a significant simplification from SmartLinx. If the reason for leaving
 
 **Key limitations:**
 
-- No healthcare compliance features of any kind
-- Moving from SmartLinx to Deputy means losing T&A integration, CMS documentation, credential tracking, and overtime automation
-- Appropriate only for hospitals with genuinely minimal compliance requirements
+**Healthcare compliance tooling.** Deputy is a general workforce scheduling platform and does not market healthcare-specific compliance features. Verify what compliance documentation capabilities exist before evaluating as a SmartLinx replacement.
+
+**Feature parity.** Deputy does not include time and attendance integration or credential tracking. Confirm specific capability gaps with Deputy before finalizing an evaluation.
 
 **Verdict:** Deputy is the right move from SmartLinx only for organizations that audited their actual SmartLinx usage and found that compliance features were going unused and the primary value was schedule publishing. For any hospital with active CMS obligations, the compliance gap is disqualifying.
 
@@ -293,59 +301,60 @@ For hospitals that have fully implemented SmartLinx and have the IT resources to
 
 ## How SimpleScheduleAI Compares to SmartLinx?
 
-<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Side-by-side comparison of SmartLinx and SimpleScheduleAI for small hospital nurse scheduling">
-  <rect width="800" height="380" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">SmartLinx vs. SimpleScheduleAI: Small Hospital Nurse Scheduling</text>
-
-  <!-- Headers -->
-
-<text x="200" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Feature</text>
-<text x="500" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">SmartLinx</text>
-<text x="700" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">SimpleScheduleAI</text>
-
-  <line x1="40" y1="76" x2="760" y2="76" stroke="#e2e8f0" stroke-width="1"/>
-
-  <!-- Rows -->
-
-<text x="60" y="102" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Implementation timeline</text>
-<text x="500" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">3-4 months, needs IT</text>
-<text x="700" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Days, Excel upload</text>
-<line x1="40" y1="114" x2="760" y2="114" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">CMS §485.635 documentation</text>
-<text x="500" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Yes, configured module</text>
-<text x="700" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, automatic default</text>
-<line x1="40" y1="152" x2="760" y2="152" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="178" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Callout overtime ranking</text>
-<text x="500" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Yes, configurable rules</text>
-<text x="700" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Yes, built in</text>
-<line x1="40" y1="190" x2="760" y2="190" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="216" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Time and attendance integration</text>
-<text x="500" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Yes, integrated</text>
-<text x="700" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Not included</text>
-<line x1="40" y1="228" x2="760" y2="228" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="254" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Ongoing IT dependency</text>
-<text x="500" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">High, required for changes</text>
-<text x="700" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">None, service manages</text>
-<line x1="40" y1="266" x2="760" y2="266" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="292" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Labor analytics dashboards</text>
-<text x="500" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Yes, full analytics</text>
-<text x="700" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Reporting via service</text>
-<line x1="40" y1="304" x2="760" y2="304" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Best fit roster size</text>
-<text x="500" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">50-150 beds</text>
-<text x="700" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Up to 25 beds (CAHs)</text>
-<line x1="40" y1="342" x2="760" y2="342" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="368" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Pricing model</text>
-<text x="500" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Per-user, not listed</text>
-<text x="700" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Not listed, contact for quote</text>
-</svg>
+<div class="not-prose my-6">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">SmartLinx vs. SimpleScheduleAI: Small Hospital Nurse Scheduling</p>
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-4 font-semibold text-slate-700 dark:text-slate-300" style="width:40%">Feature</th>
+        <th class="text-left py-3 pr-4 font-semibold text-slate-700 dark:text-slate-300" style="width:30%">SmartLinx</th>
+        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400" style="width:30%">SimpleScheduleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Implementation timeline</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">3-4 months, needs IT</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Days, Excel upload</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">CMS §485.635 documentation</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configured module</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Yes, automatic default</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Callout overtime ranking</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configurable rules</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Yes, built in</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Time and attendance integration</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, integrated</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Not included</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Ongoing IT dependency</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">High, required for changes</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">None, service manages</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Labor analytics dashboards</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, full analytics</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Reporting via service</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Best fit roster size</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">50-150 beds</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Up to 25 beds (CAHs)</td>
+      </tr>
+      <tr class="align-top">
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">Pricing model</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Per-user, not listed</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Not listed, contact for quote</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 The key distinction is time and attendance integration. SmartLinx includes T&A and payroll reconciliation in the same platform, which is a meaningful advantage for hospitals that currently manage scheduling and T&A in separate systems. SimpleScheduleAI does not include T&A; if T&A integration is a core requirement, SmartLinx or a SmartLinx-comparable platform is the right choice.
 
@@ -363,15 +372,17 @@ For hospitals where T&A is managed through payroll software independently of the
 
 5. **If T&A integration is non-negotiable, evaluate whether QGenda or a newer SmartLinx alternative addresses both the scheduling and T&A requirements.** Do not move to a tool that eliminates T&A integration without a clear plan for how payroll reconciliation will work in the new setup.
 
-<div class="not-prose mt-10 rounded-xl bg-blue-50 border border-blue-100 px-8 py-7 flex flex-col gap-4">
+<div class="not-prose mt-10 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-7 flex flex-col gap-4">
   <div>
-    <p class="text-lg font-bold text-blue-900">Right-sizing from SmartLinx? Built for what small hospitals actually need.</p>
-    <p class="text-blue-800 mt-1">SimpleScheduleAI delivers compliance documentation, callout overtime ranking, and CMS-ready staffing records without a 3-month implementation or ongoing IT dependency. Designed for 25-bed CAHs where SmartLinx's feature depth exceeds the operational complexity.</p>
+    <p class="text-lg font-bold text-blue-900 dark:text-slate-100">Right-sizing from SmartLinx? Built for what small hospitals actually need.</p>
+    <p class="text-blue-800 dark:text-slate-300 mt-1">SimpleScheduleAI delivers compliance documentation, callout overtime ranking, and CMS-ready staffing records without a 3-month implementation or ongoing IT dependency. Designed for 25-bed CAHs where SmartLinx's feature depth exceeds the operational complexity.</p>
   </div>
-  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
+  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 px-6 py-3 text-white font-semibold transition-colors">Request a Demo</a>
 </div>
 
-For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
+## A Note on Sources
+
+Reviewer quotes for Aladtec and NurseGrid Manager are verbatim from Capterra, with reviewer name, role, and date as listed on the review at time of writing (May 2026). SmartLinx, TCP Scheduling, and Deputy capability descriptions are based on publicly available product pages. Feature availability changes; verify current details directly with each vendor before finalizing an evaluation.
 
 ## Frequently Asked Questions
 
@@ -394,3 +405,6 @@ SmartLinx does not publish pricing and requires a quote. Industry comparisons su
 **Is SmartLinx HIPAA compliant?**
 
 SmartLinx is designed to be HIPAA compliant for workforce management and scheduling data. This is a standard consideration across all scheduling platforms in healthcare and is not a differentiating factor among the tools reviewed here.
+
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
