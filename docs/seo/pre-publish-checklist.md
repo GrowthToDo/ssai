@@ -44,6 +44,37 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] **No editorial verdict columns**: avoid columns like "CAH Fit" or "Compliance" that resolve to "Good / Medium / Low / None" cells with red/green coloring. Use factual descriptors instead (Customer Focus, Setup Time, Pricing, public ratings).
 - [ ] **Methodology footnote** appears once below the table or in a single "A Note on Sources" section before FAQ, not repeated in each row.
 
+## x-alternatives Posts (BOFU — run these in addition to all checks above)
+
+_These apply whenever the filename matches the pattern `[tool]-alternatives.md`._
+
+**Structure:**
+
+- [ ] Key Takeaways (5-6 bullets) placed BEFORE the Table of Contents
+- [ ] TOC includes numbered sub-items under the "What Are the N Best..." parent entry (one per alternative)
+- [ ] Intro paragraph uses statement-first or problem-first framing — no ratings in the opening paragraph
+- [ ] Two internal hub links present in the intro area: `/nurse-scheduling-software` and `/critical-access-hospital-scheduling`
+- [ ] `## Why Hospitals Switch Away from [Tool]?` section present with H3s grouped by complaint theme
+- [ ] Reviewer quotes in the "Why Switch" section are verbatim with attribution format: `> Name, Role, Date, Source` (no em-dash, no `_italic_` wrapper around attribution line)
+- [ ] `## Quick Comparison: [Tool] vs. The Alternatives` table has "Best For" as the second column
+- [ ] `## What Are the N Best [Tool] Alternatives for Hospital Scheduling?` uses numbered H3s (`### 1. SimpleScheduleAI`, `### 2. ...`)
+- [ ] SimpleScheduleAI is listed **first** among the alternatives
+- [ ] Every alternative profile contains: intro paragraph, Best for, Key advantages (bullets), Key limitations (bullets), Verdict, Cost
+- [ ] `## When to Stay with [Tool]?` section present with 4 bullet conditions
+- [ ] `## How SimpleScheduleAI Compares to [Tool]` Tailwind comparison table present (8 rows minimum)
+- [ ] `## What to Do This Week` section present with 5 numbered steps
+- [ ] CTA card present after "What to Do This Week"
+- [ ] `## A Note on Sources` section present before FAQ with verification dates
+- [ ] FAQ section present (3-5 questions with FAQPage schema)
+- [ ] Author bio present at end: `_Pradeep Pandey is the founder of SimpleScheduleAI..._`
+
+**Comparison table (SimpleScheduleAI vs. [Tool]):**
+
+- [ ] Table uses `class="w-full text-xs sm:text-sm border-collapse table-fixed break-words"`
+- [ ] SimpleScheduleAI header cell uses `font-semibold text-blue-700 dark:text-blue-400`
+- [ ] All cells have `align-top` on the `<tr>`
+- [ ] All bg/text/border classes have `dark:` variants
+
 ## Schema & Technical
 
 - [ ] FAQPage JSON-LD schema added for FAQ sections
