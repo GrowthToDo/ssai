@@ -5,11 +5,11 @@ updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best ShiftWizard Alternatives for Small Hospitals'
 excerpt: >
-  ShiftWizard is one of several hospital scheduling platforms a Critical Access Hospital nurse
-  manager may evaluate. This guide does not rank platforms; it gives you a structured framework
-  for evaluating any hospital scheduling option against the operational realities of a 25-bed
-  facility, plus profiles of the main alternatives based on public review data and current
-  product information.
+  ShiftWizard holds 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews. For a Critical
+  Access Hospital, the choice is less about features than operating model. This guide
+  profiles four alternatives based on public review data and current vendor product
+  information, with a Quick Comparison table and a direct look at how SimpleScheduleAI
+  fits if a managed service is the right model for your facility.
 image: https://images.unsplash.com/photo-1758653500481-a1b46b5b63d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -22,76 +22,39 @@ metadata:
 
 ## Key Takeaways
 
-- ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (acquired). It holds an overall 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviews rating 4 stars or higher.
-- For a Critical Access Hospital evaluating any hospital scheduling platform, the right comparison is not feature-by-feature; it is operational fit against the constraints of a 25-bed facility with no IT department and a nurse manager who also takes clinical shifts.
-- Self-serve platforms (ShiftWizard, TCP/Aladtec, QGenda) ask the nurse manager to configure and operate the system. A managed service (SimpleScheduleAI) takes that operational layer off her plate.
-- The right choice depends on capacity, not feature lists. If your nurse manager has 4-6 hours per week to dedicate to scheduling administration, a self-serve platform fits. If she does not, the operating model matters more than which platform you pick.
+- ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (acquired). It holds 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviews rating 4 stars or higher.
+- For a Critical Access Hospital, the right comparison is not feature-by-feature. It is which operating model fits a 25-bed facility with no dedicated scheduling coordinator and a nurse manager who also takes clinical shifts.
+- The four main alternatives are SimpleScheduleAI (managed service, no IT required), TCP Scheduling / Aladtec (self-serve, public-safety heritage with hospital expansion), NurseGrid (nurse-facing, manager tier available), and QGenda (physician scheduling, positioned for larger health systems).
+- The critical question before any evaluation: does your nurse manager have 4-6 hours per week available for scheduling administration after go-live? If not, the operating model matters more than which platform you choose.
+- SimpleScheduleAI is a managed service in active pilot phase for Critical Access Hospitals in Texas; it changes the operating model rather than replacing one platform with another.
 
 ## Table of Contents
 
-- [Why CAH Nurse Managers Evaluate Hospital Scheduling Alternatives?](#why-cah-nurse-managers-evaluate-hospital-scheduling-alternatives)
-- [Five Questions Every CAH Should Ask in a Scheduling Demo](#five-questions-every-cah-should-ask-in-a-scheduling-demo)
-- [ShiftWizard](#shiftwizard)
-- [TCP Scheduling Software (Aladtec)](#tcp-scheduling-software-aladtec)
-- [NurseGrid](#nursegrid)
-- [QGenda](#qgenda)
-- [What Is the Self-Serve vs Managed Service Question?](#what-is-the-self-serve-vs-managed-service-question)
-- [How SimpleScheduleAI Fits If You Need the Managed Service Model](#how-simplescheduleai-fits-if-you-need-the-managed-service-model)
+- [Why Hospitals Switch Away from ShiftWizard?](#why-hospitals-switch-away-from-shiftwizard)
+- [Quick Comparison: ShiftWizard vs. The Alternatives](#quick-comparison-shiftwizard-vs-the-alternatives)
+- [What Are the 4 Best ShiftWizard Alternatives for Hospital Scheduling?](#what-are-the-4-best-shiftwizard-alternatives-for-hospital-scheduling)
+  - [1. SimpleScheduleAI](#1-simplescheduleai)
+  - [2. TCP Scheduling (Aladtec)](#2-tcp-scheduling-aladtec)
+  - [3. NurseGrid](#3-nursegrid)
+  - [4. QGenda](#4-qgenda)
+- [When to Stay with ShiftWizard?](#when-to-stay-with-shiftwizard)
+- [How SimpleScheduleAI Compares to ShiftWizard](#how-simplescheduleai-compares-to-shiftwizard)
 - [What to Do This Week](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-For Critical Access Hospital nurse managers evaluating hospital scheduling platforms, the choice is rarely about which product has the longest feature list. It is about which operating model fits a facility where the nurse manager is also a charge nurse, the IT department is one person who is also the medical-records clerk, and the scheduling burden landed on one person because there was no one else to absorb it. This guide walks through how to evaluate any hospital scheduling platform from that starting point, and profiles the main options a CAH is likely to encounter.
+ShiftWizard is a hospital-specific scheduling platform designed for nursing workflows rather than adapted from a generic workforce-management tool. For a Critical Access Hospital evaluating alternatives, the decision comes down less to features than to operating model: which approach fits a facility where the nurse manager is also a charge nurse and the scheduling work competes directly with clinical responsibilities. This guide profiles four alternatives based on public review data and current vendor product information.
 
-## Why CAH Nurse Managers Evaluate Hospital Scheduling Alternatives?
+If your priority is [critical access hospital scheduling](/critical-access-hospital-scheduling) compliance and CMS documentation, review what those requirements actually demand before evaluating platforms. Our [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide covers the specific features a 25-bed hospital needs that general scheduling tools do not provide.
 
-The CAH scheduling problem is structural, not a complaint about any specific vendor. A 25-bed facility typically has 15-25 nursing FTEs, no dedicated scheduling administrator, and a nurse manager whose primary role is clinical. The scheduling work happens between patient rounds, charge-nurse responsibilities, and on weekends.
+## Why Hospitals Switch Away from ShiftWizard?
 
-Hospital scheduling platforms in the market today were largely built for facilities at a different scale: 75-bed community hospitals, 200-bed regional centers, multi-site health systems. The feature designs assume a scheduling coordinator exists, an IT team can support implementation, and the nurse manager is supervisory rather than operational. CAH nurse managers running these platforms find that the assumptions don't hold for their facility, and the operational burden remains on the nurse manager regardless of which platform she picks.
-
-The goal of an evaluation is to figure out which platform's operational model fits the specific capacity and constraints of your CAH, not to identify a "best" product. The same platform that works well at a 75-bed hospital may be the wrong choice at 25 beds, and vice versa.
-
-## Five Questions Every CAH Should Ask in a Scheduling Demo
-
-Use these in any demo. The answers will reveal more about operational fit than any feature checklist.
-
-<div class="not-prose my-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">1. Setup Time</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"What is your typical setup timeline for a 25-bed hospital with no IT department? Show me a sample onboarding schedule."</p>
-  </div>
-  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">2. Weekly Burden</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"How many hours per week does the nurse manager spend operating this platform after go-live? Can you give me a reference customer at our scale?"</p>
-  </div>
-  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">3. Compliance</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"Show me the audit-trail export for CMS §485.635. Show me the FLSA 8-and-80 overtime rule configuration."</p>
-  </div>
-  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">4. Mobile Workflow</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"Walk me through what a nurse manager can and cannot do from the mobile app, with both manager and staff perspectives shown."</p>
-  </div>
-  <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
-    <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">5. Callout Coverage</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"A nurse calls out at 5am Sunday. Show me the exact workflow the nurse manager uses to find a qualified, non-overtime replacement."</p>
-  </div>
-</div>
-
-These five questions surface the operational reality of running the platform at CAH scale. The answers, not the marketing pages, are what determine fit.
-
-## ShiftWizard
-
-ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM), used by more than 500 hospital facilities according to the vendor. It holds an overall **4.3/5 on G2** and **4.4/5 across 723 Capterra reviews** (verified 2026-04-30), among the higher-rated platforms in this category, with over 88% of Capterra reviews rating 4 stars or higher. G2 summarizes the product as one users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
-
-ShiftWizard is built specifically for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, staff and manager mobile apps, credential management, and overtime tracking ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard), verified 2026-04-30). The product is positioned as built by nurses for nurses, designed for hospital scheduling rather than adapted from a generic workforce-management product. A representative positive review:
+ShiftWizard's overall rating is high: 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviewers rating 4 stars or higher. ShiftWizard is named a G2 Spring 2026 Leader and the product is positioned as designed by nurses for hospital nursing. A representative positive review:
 
 > "ShiftWizard was designed by nurses which is why it is fantastic to use."
 >
 > Jennifer C., Director of Emergency Services, July 15, 2024, Capterra
 
-### Online User Complaints
-
-ShiftWizard's overall rating is high (4.3/5 on G2, 4.4/5 on Capterra). The minority of negative reviews cluster around a handful of themes that are worth surfacing because, when they show up, they tend to matter most for the operating model at a CAH.
+The minority of negative reviews cluster around a handful of themes that come up consistently for CAH-scale users evaluating an alternative.
 
 **App Performance Complaints.** Some reviewers report slow load times and glitches during schedule input.
 
@@ -119,196 +82,319 @@ For a CAH nurse manager who moves between the floor and her office, mobile workf
 >
 > Michalina W., RN, August 13, 2024, Capterra
 
-For a CAH evaluating ShiftWizard, ask the demo to walk through swap workflows from both perspectives (the requesting nurse and the approving manager), shift-type configuration for non-standard increments, and the cross-department mobile view explicitly.
+For a CAH evaluating ShiftWizard, ask the demo to walk through swap workflows from both perspectives (the requesting nurse and the approving manager), shift-type configuration for non-standard increments, and the cross-department mobile view.
 
-**Best fit:** Hospital nurse managers who want direct platform control, are comfortable with self-serve scheduling tools, and have 4-6 hours per week of dedicated capacity for scheduling administration after go-live.
+## Quick Comparison: ShiftWizard vs. The Alternatives
 
-**Cost:** Pricing not listed publicly. Contact the vendor for a quote.
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:22%">Platform</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:30%">Best For</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:28%">Public Ratings</th>
+        <th class="text-left py-3 font-semibold text-slate-900 dark:text-slate-100" style="width:20%">Setup Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">ShiftWizard (current)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Hospital nursing, self-serve</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.3/5<br>Capterra: 4.4/5 (723 reviews)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">2–4 weeks</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">CAHs, no IT, NM on clinical shifts</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">New service; active pilot phase</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">3–5 days</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling (Aladtec)</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Public safety, EMS, small hospital self-serve</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.3/5 (97 reviews)<br>Capterra: 4.6/5 (17 reviews)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">2–4 weeks</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">NurseGrid</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Nurse-facing app, small rosters</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Capterra: 4.2/5 (13 reviews; small sample)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Days</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">QGenda</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Physician groups, larger health systems</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.6/5 (164 reviews)<br>Capterra: 4.2/5 (68 reviews)</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">Months</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-## TCP Scheduling Software (Aladtec)
+## What Are the 4 Best ShiftWizard Alternatives for Hospital Scheduling?
 
-TCP Scheduling Software (formerly Aladtec, acquired by TCP Software in 2021) holds an overall **4.3/5 across 97 G2 reviews** and **4.6/5 across 17 Capterra reviews** (verified 2026-04-30); small Capterra sample, larger G2 sample.
+The four alternatives below cover the range a CAH is likely to encounter: a managed service built specifically for 25-bed facilities, a self-serve platform with a hospital-nursing track record, a nurse-facing app with a manager tier, and a provider scheduling platform designed for larger organizations. Each is reviewed against the operational constraints of a CAH.
 
-The platform covers shift management, time and attendance, overtime tracking, certification tracking, and reporting across fire, EMS, law enforcement, and hospital settings ([tcpsoftware.com](https://www.tcpsoftware.com), verified 2026-04-30). The product's heritage is in 24/7 shift-work environments; its hospital-nursing deployment is a more recent expansion of the original use case. A representative positive review from a public-safety user:
+### 1. [SimpleScheduleAI](/)
+
+SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) built specifically for Critical Access Hospitals in Texas. Unlike a self-serve platform, SimpleScheduleAI requires no configuration work from the nurse manager: a scheduling specialist handles setup from an Excel roster upload, builds draft schedules each cycle, and maintains the system as the roster changes.
+
+The service is a new offering in active pilot phase, without public G2 or Capterra reviews yet. CMS §485.635 staffing documentation is logged automatically throughout each scheduling cycle. Callout replacement generates a ranked shortlist cross-referenced against current-week hours and FLSA 8-and-80 overtime thresholds. Texas overtime compliance is built in as a default.
+
+**Best for:** Critical Access Hospitals leaving ShiftWizard because the weekly scheduling administration load exceeds what one nurse manager can absorb while also taking clinical shifts.
+
+**Key advantages:**
+
+- Eliminates configuration maintenance: the service maintains scheduling rules as staff and policies change
+- CMS §485.635 documentation is automatic, not a manual export before each survey
+- Callout shortlist is ranked by overtime risk without manual calculation from the manager
+- Excel-based roster upload means no IT involvement during transition
+- Free 60-day pilot for qualifying CAHs in Texas, with no setup fee and no contract commitment during the pilot
+
+**Key limitations:**
+
+- Managed service model means less direct manager control than ShiftWizard; schedule changes go through the service rather than being adjustable in real time
+- No staff-facing mobile app; nurses do not view schedules or submit shift trades directly through the system
+- Not designed for hospitals with complex multi-department or physician scheduling needs beyond nursing
+
+**Verdict:** The strongest alternative for a CAH nurse manager who leaves ShiftWizard primarily because the scheduling administration burden has exceeded what one person can manage while covering clinical shifts. SimpleScheduleAI eliminates that specific constraint by design. [See how it works](/how-it-works) or explore the [pilot program](/pilot).
+
+**Cost:** Pricing not listed publicly. Contact for a quote.
+
+### 2. [TCP Scheduling (Aladtec)](https://www.tcpsoftware.com)
+
+TCP Scheduling Software (formerly Aladtec, acquired by TCP Software in 2021) holds 4.3/5 across 97 G2 reviews and 4.6/5 across 17 Capterra reviews (verified 2026-04-30); small Capterra sample, larger G2 sample. The platform covers shift management, time and attendance, overtime tracking, certification tracking, and reporting across fire, EMS, law enforcement, and hospital settings. The product's heritage is in 24/7 shift-work environments; its hospital-nursing deployment is a more recent expansion of the original use case.
+
+A representative positive review from a public-safety user:
 
 > "Their customer support team is better than any other support team I have ever had to deal with."
 >
 > Jody S., Security Management, August 14, 2025, Capterra
 
-### Online User Complaints
+**Best for:** CAHs with a designated scheduling coordinator or administrator who has time to configure and maintain a self-serve system and can sustain 4-6 hours of weekly scheduling work.
 
-**Click-Heavy Workflow Complaints.** Some reviewers describe high click counts for routine schedule edits.
+**Key advantages:**
 
-> "When editing the schedule there are a lot of clicks involved."
->
-> Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+- Self-serve configuration gives the nurse manager direct control over every scheduling rule
+- Setup runs 2-4 weeks with minimal IT involvement, faster than most mid-market alternatives
+- Broader feature set for certification tracking and time and attendance than general scheduling tools
 
-**Setup Complexity Complaints.** Some administrators report initial configuration as harder than expected.
+**Key limitations:**
 
-> "It was a bit complicated to figure out from the administrator side."
->
-> Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
+- **Click-Heavy Workflow.** Some reviewers describe high click counts for routine schedule edits.
 
-A note for CAH evaluators: TCP/Aladtec's Capterra customer base skews toward fire, EMS, law enforcement, and security users rather than hospital nursing. The most recent hospital-context reviews are several years old, which is itself a signal worth probing; ask the vendor for a current hospital-nursing reference customer at CAH scale, and ask specifically how customer support has been structured since the TCP acquisition (request named current support contacts and response-time SLA).
+  > "When editing the schedule there are a lot of clicks involved."
+  >
+  > Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
 
-**Best fit:** CAHs with a designated scheduling coordinator or administrator who has time to configure and maintain a self-serve system and can sustain 4-6 hours of weekly scheduling work.
+- **Setup Complexity.** Some administrators report initial configuration as harder than expected.
+
+  > "It was a bit complicated to figure out from the administrator side."
+  >
+  > Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
+
+- TCP/Aladtec's Capterra customer base skews toward fire, EMS, law enforcement, and security users rather than hospital nursing. The most recent hospital-context reviews are several years old; ask the vendor for a current hospital-nursing reference customer at CAH scale before deciding.
+
+**Verdict:** A reasonable self-serve alternative for a CAH that wants direct platform control and has the administrative bandwidth to configure and maintain the system. CAHs leaving ShiftWizard because of scheduling burden should weigh whether a different self-serve platform solves the underlying capacity problem.
 
 **Cost:** Pricing not listed publicly. Typically positions in the mid-market range.
 
-## NurseGrid
+### 3. [NurseGrid](https://www.nursegrid.com)
 
-NurseGrid Manager is the manager-tier product of NurseGrid, owned by HealthStream, Inc. It holds **4.2/5 across 13 Capterra reviews** (verified 2026-04-30). The Capterra sample is small; reviews on the iOS App Store and Google Play are typically a more meaningful signal for a nurse-facing app. CAHs evaluating it should also check current App Store and Google Play ratings before deciding.
+NurseGrid Manager is the manager-tier product of NurseGrid, owned by HealthStream, Inc. It holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). The Capterra sample is small; reviews on the iOS App Store and Google Play are typically a more meaningful signal for a nurse-facing app.
 
-NurseGrid is built primarily for individual nurses managing their own schedules. The standard product covers mobile schedule visibility, shift trade requests, and availability management ([nursegrid.com](https://www.nursegrid.com), verified 2026-04-30). A NurseGrid for Managers tier extends this with unit-level oversight. For CAHs evaluating NurseGrid as a _primary_ scheduling system rather than a staff-facing layer, capabilities like CMS §485.635 audit-trail export, proactive FLSA overtime flagging, and credential-based callout filtering are critical, and tier coverage of these features may differ from the standard product. Confirm directly with NurseGrid sales before relying on it as your primary system. A representative positive review:
+NurseGrid is built primarily for individual nurses managing their own schedules. The standard product covers mobile schedule visibility, shift trade requests, and availability management. A NurseGrid for Managers tier extends this with unit-level oversight. For CAHs evaluating NurseGrid as a primary scheduling system rather than a staff-facing layer, capabilities like CMS §485.635 audit-trail export, proactive FLSA overtime flagging, and credential-based callout filtering are critical; tier coverage of these features may differ from the standard product. Confirm directly with NurseGrid sales before relying on it as your primary system.
+
+A representative positive review:
 
 > "Ease of loading schedules and posting open shifts."
 >
 > Inpatient Director, Hospital & Health Care, June 17, 2024, Capterra
 
-### Online User Complaints
+**Best for:** Nurses who want a mobile experience for viewing their personal schedule and trading shifts. Tier-dependent for CAH primary scheduling; verify with the vendor before relying on NurseGrid as the system of record.
 
-**Manager Mobile App Complaints.** Multiple Capterra reviewers describe the loss of manager-side mobile functionality, requiring desktop login for schedule edits.
+**Key advantages:**
 
-> "It no longer has the manager app so I have to login to desktop."
->
-> Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
+- Nurse-facing mobile experience is the core product, which is well-reviewed for simplicity
+- Fast setup; no IT involvement required for the standard tier
+- Freemium model for individual nurses lowers the evaluation barrier
 
-> "they took away the Manager App for your phone."
->
-> Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
+**Key limitations:**
 
-For a CAH nurse manager who moves between the floor and her office, this is a significant operational consideration. Verify current capability against the live app before relying on NurseGrid as a manager-facing tool.
+- **Manager Mobile App.** Multiple Capterra reviewers describe the loss of manager-side mobile functionality, requiring desktop login for schedule edits.
 
-**Android Compatibility Complaints.** Some reviewers describe device-specific issues.
+  > "It no longer has the manager app so I have to login to desktop."
+  >
+  > Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
 
-> "Does not work well with androids. The texting function doesn't work."
->
-> Inpatient Director, Hospital & Health Care, June 17, 2024, Capterra
+  > "they took away the Manager App for your phone."
+  >
+  > Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
 
-**Cost-for-Small-Facility Complaints.** Reviewers from smaller facilities describe pricing as a barrier.
+- **Android Compatibility.** Some reviewers describe device-specific issues.
 
-> "cost is too expensive for small centers."
->
-> Administrator, Hospital & Health Care, June 17, 2024, Capterra
+  > "Does not work well with androids. The texting function doesn't work."
+  >
+  > Inpatient Director, Hospital & Health Care, June 17, 2024, Capterra
 
-**Best fit:** Nurses who want a mobile experience for viewing their personal schedule and trading shifts. Tier-dependent for CAH primary scheduling; verify with the vendor before relying on NurseGrid as the system of record, and ask explicitly which tier covers manager-facing mobile features.
+- **Cost for Small Facilities.** Reviewers from smaller facilities describe organizational pricing as a barrier.
 
-**Cost:** Freemium for individual nurses; organizational tier pricing on request. Multiple Capterra reviewers from smaller facilities describe organizational pricing as a barrier.
+  > "cost is too expensive for small centers."
+  >
+  > Administrator, Hospital & Health Care, June 17, 2024, Capterra
 
-## QGenda
+**Verdict:** Strong nurse-facing mobile experience. For a CAH evaluating NurseGrid as a primary scheduling system, verify manager-side capabilities and clinical compliance features directly with the vendor before relying on it as a system of record. The loss of manager-side mobile functionality documented by reviewers is significant for a nurse manager who moves between the floor and her office.
 
-QGenda holds an overall **4.6/5 across 164 G2 reviews** and **4.2/5 across 68 Capterra reviews** (verified 2026-04-30). QGenda's customer base skews toward physician group practices and larger health systems; reviews from smaller-scale customers and reviews from larger-scale customers describe meaningfully different experiences, which is typical of platforms serving multiple market segments.
+**Cost:** Freemium for individual nurses; organizational tier pricing on request.
 
-The platform covers provider scheduling, on-call management, credentialing, time tracking, and analytics for healthcare organizations ([qgenda.com](https://www.qgenda.com), verified 2026-04-30). A representative positive review:
+### 4. [QGenda](https://www.qgenda.com)
+
+QGenda holds 4.6/5 across 164 G2 reviews and 4.2/5 across 68 Capterra reviews (verified 2026-04-30). The platform covers provider scheduling, on-call management, credentialing, time tracking, and analytics for healthcare organizations. QGenda's customer base skews toward physician group practices and larger health systems; reviews from smaller-scale customers and reviews from larger-scale customers describe meaningfully different experiences, which is typical of platforms serving multiple market segments.
+
+A representative positive review:
 
 > "Qgenda is easy to use and does a great job at automating."
 >
 > Ari W., Administrator, Hospital & Health Care, May 7, 2024, Capterra
 
-### Online User Complaints
+**Best for:** Multi-site health systems and physician groups managing complex credentialing across 100+ providers.
 
-**Automation Setup Complaints.** Some reviewers describe friction when configuring automated scheduling rules.
+**Key advantages:**
 
-> "automated scheduling and rules set up seem to have hiccups...I just stopped using the automation."
->
-> Courtney D., Manager of Employee and Physician Relations, May 10, 2024, Capterra
+- Strong overall G2 rating (4.6/5) across a meaningful review sample
+- Purpose-built for healthcare scheduling, not adapted from a general workforce tool
+- Provider credentialing and on-call management features for complex physician rosters
 
-**Setup-Time Complaints.** Initial configuration is described as time-consuming by multiple reviewers.
+**Key limitations:**
 
-> "Doing the initial set up of new providers is a little complicated."
->
-> Brandi D., Scheduling Coordinator, Hospital & Health Care, December 13, 2023, Capterra
+- **Automation Setup.** Some reviewers describe friction when configuring automated scheduling rules.
 
-> "The initial setup was time-consuming...collating...digitize documents."
->
-> Roger S., Practice Administrator, May 3, 2024, Capterra
+  > "automated scheduling and rules set up seem to have hiccups...I just stopped using the automation."
+  >
+  > Courtney D., Manager of Employee and Physician Relations, May 10, 2024, Capterra
 
-**Customer Support Complaints.** A subset of Capterra reviewers describe support as outsourced.
+- **Setup Time.** Initial configuration is described as time-consuming by multiple reviewers.
 
-> "They outsourced customer service...you have generic people who respond."
->
-> David S., President, Hospital & Health Care, May 7, 2024, Capterra
+  > "Doing the initial set up of new providers is a little complicated."
+  >
+  > Brandi D., Scheduling Coordinator, Hospital & Health Care, December 13, 2023, Capterra
 
-For a CAH, ask the vendor for the smallest hospital they've implemented in the past 12 months, a reference contact at that facility, and the full implementation cost including configuration services.
+  > "The initial setup was time-consuming...collating...digitize documents."
+  >
+  > Roger S., Practice Administrator, May 3, 2024, Capterra
 
-**Best fit:** Multi-site health systems and physician groups managing complex credentialing across 100+ providers.
+- **Customer Support.** A subset of Capterra reviewers describe support as outsourced.
+
+  > "They outsourced customer service...you have generic people who respond."
+  >
+  > David S., President, Hospital & Health Care, May 7, 2024, Capterra
+
+**Verdict:** QGenda is positioned for physician groups and larger health systems rather than 25-bed CAH nursing rosters. For a CAH evaluating QGenda, ask the vendor for the smallest hospital they've implemented in the past 12 months and a reference contact at that facility before committing to an evaluation.
 
 **Cost:** Pricing not published. Quote-based; reviews indicate it sits at the higher end of the market.
 
-## What Is the Self-Serve vs Managed Service Question?
+## When to Stay with ShiftWizard?
 
-ShiftWizard, TCP, NurseGrid, and QGenda are all self-serve platforms. The nurse manager (or a scheduling coordinator at facilities that have one) configures the system, builds schedules in the interface, and operates the platform week to week. The platform automates parts of the workflow, but a person still operates it.
+ShiftWizard is worth keeping if:
 
-A managed service is a different operating model. A specialist outside the hospital handles configuration and weekly schedule generation; the nurse manager reviews and approves. The work shifts from building the schedule to reviewing it.
+- The nurse manager or a designated scheduling coordinator has 4-6 hours per week for scheduling administration and actively uses the platform features
+- Hospital-specific capabilities (credential management, self-scheduling for staff, mobile shift swaps) are working well for your unit
+- The primary pain point is not compliance documentation, overtime calculation during callouts, or configuration maintenance burden
+- Staff-facing self-scheduling and mobile shift trading are a hard requirement for your nursing team
 
-<div class="not-prose my-8 grid gap-4 sm:grid-cols-2">
-  <div class="overflow-hidden rounded-xl border-2 border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800">
-    <div class="bg-slate-700 px-4 py-3 text-center text-sm font-bold text-white">Self-Serve Platform</div>
-    <ul class="space-y-2 p-4 text-sm text-slate-600 dark:text-slate-300">
-      <li>Nurse manager configures all scheduling rules</li>
-      <li>Nurse manager builds every schedule draft</li>
-      <li>Nurse manager checks callout constraints</li>
-      <li>Setup: typically 2-4 weeks</li>
-      <li>Weekly burden: typically 4-6 hours after go-live</li>
-      <li>Direct operational control</li>
-    </ul>
-  </div>
-  <div class="overflow-hidden rounded-xl border-2 border-blue-300 dark:border-blue-800 bg-white dark:bg-slate-800">
-    <div class="bg-blue-700 px-4 py-3 text-center text-sm font-bold text-white">Managed Service</div>
-    <ul class="space-y-2 p-4 text-sm text-slate-600 dark:text-slate-300">
-      <li>Specialist configures and maintains rules</li>
-      <li>Specialist builds every schedule draft</li>
-      <li>Ranked shortlist delivered for callouts</li>
-      <li>Setup: typically 3-5 days via Excel upload</li>
-      <li>Weekly burden: 1-2 hours after go-live</li>
-      <li>Approval authority retained by nurse manager</li>
-    </ul>
-  </div>
+If all of these conditions apply, the switch cost and learning curve of an alternative are unlikely to produce a better outcome than optimizing the current ShiftWizard setup.
+
+## How SimpleScheduleAI Compares to ShiftWizard
+
+<div class="not-prose">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:30%">Feature</th>
+        <th class="text-left py-3 pr-2 font-semibold text-slate-900 dark:text-slate-100" style="width:35%">ShiftWizard</th>
+        <th class="text-left py-3 font-semibold text-blue-700 dark:text-blue-400" style="width:35%">SimpleScheduleAI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Schedule construction</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manager builds, platform assists</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">3 drafts delivered by specialist in 48 hrs</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Platform-assisted, manager-driven export</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Automatic, always current</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Callout overtime ranking</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manual check by manager</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Automated, built into shortlist</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Configuration maintenance</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Manager / IT responsibility</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Service responsibility</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Texas overtime compliance</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Configurable (requires setup)</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Built in as default</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Implementation time</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">2–4 weeks typical</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Excel upload, 3–5 days to first draft</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">IT requirement</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Minimal</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">None</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Staff-facing mobile app</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Yes</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">No</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Manager direct schedule control</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Full, real-time</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">High-level, via draft approval</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Pricing</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Not listed publicly, contact vendor</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Not listed publicly, contact for quote</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-The question worth asking before evaluating any specific platform is not "which platform has better features?" but "how much of the scheduling burden do I want to carry?" If the answer is "I want direct control and I have time to operate a platform," ShiftWizard, TCP, or QGenda are worth comparing on operational fit. If the answer is "the burden is too high and I want the work done while I retain approval," a managed service is the alternative, not another platform.
+The core tradeoff is control versus overhead. ShiftWizard gives the nurse manager full control over every scheduling decision but requires her to maintain the system and build each schedule. SimpleScheduleAI delivers the scheduling outputs without the maintenance burden, but the manager selects from drafts rather than building the schedule herself.
 
-## How SimpleScheduleAI Fits If You Need the Managed Service Model
+For a nurse manager at a 25-bed CAH who also takes clinical shifts, the self-serve overhead model typically accumulates over time because there is no spare capacity for configuration maintenance. For a nurse manager with dedicated scheduling time and a preference for direct platform control, ShiftWizard's self-serve model is the stronger fit.
 
-SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) for Critical Access Hospitals in Texas. It is not a self-serve scheduling platform; we are not positioned as a head-to-head replacement for ShiftWizard or TCP. It is a different operating model.
-
-SimpleScheduleAI is a new service in active pilot phase, without public G2 or Capterra reviews yet. What we offer instead:
-
-- **A free 60-day pilot for qualifying CAHs in Texas.** No setup fee, no contract commitment during the pilot. You evaluate the service on actual schedules, not on demos.
-- **Direct customer references on request.** We can connect you with current pilot facilities for a reference call before you commit.
-- **Founder-led service.** Pradeep Pandey, our founder, has direct operations experience at Apollo Hospitals (Deputy GM, Operations) and an MBA from IIM Trichy. Service decisions go through him, not through a tier-3 support queue.
-- **CAH-specific design.** Built around the operational realities of a 25-bed facility: Excel roster onboarding, no IT integration required, 3-5 day go-live, Texas FLSA 8-and-80 compliance built in, CMS §485.635 audit trail logged automatically.
-
-SimpleScheduleAI is the right choice for a CAH where the nurse manager has concluded that the self-serve scheduling model takes more weekly time than her role can absorb, and where direct customer-reference validation matters more than aggregate vendor reviews.
-
-It is not the right choice if staff-facing self-service mobile features (shift trading, mobile schedule viewing for individual nurses) are a hard requirement; we currently focus on the manager-facing scheduling workflow and do not have a staff-facing app.
-
-<div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
-  <h2 class="mb-2 text-2xl font-bold text-white">Want a Reference Call With a Pilot CAH Before You Decide?</h2>
-  <p class="mb-6 text-blue-100">
-    SimpleScheduleAI is a managed scheduling service for CAHs in Texas. Before you commit, we can connect you with a current pilot facility for an unfiltered reference call. Free 60-day pilot if you decide to proceed.
-  </p>
-  <a
-    href="/pilot"
-    class="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-blue-50"
-  >
-    Request a Pilot Reference Call
-  </a>
+<div class="not-prose mt-10 rounded-xl bg-blue-50 dark:bg-blue-950 border border-blue-100 dark:border-blue-900 px-8 py-7 flex flex-col gap-4">
+  <div>
+    <p class="text-lg font-bold text-blue-900 dark:text-blue-200">Leaving ShiftWizard? Built for what a CAH actually needs.</p>
+    <p class="text-blue-800 dark:text-blue-300 mt-1">SimpleScheduleAI eliminates the configuration burden, automates CMS §485.635 documentation, and ranks callout replacements by overtime risk. Designed for CAH nurse managers who cannot maintain a scheduling system while also taking clinical shifts.</p>
+  </div>
+  <a href="/pilot" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Pilot or Reference Call</a>
 </div>
 
-For more context on how nurse scheduling fits into CAH operations, see our [nurse scheduling software](/nurse-scheduling-software) hub and our [critical access hospital scheduling](/critical-access-hospital-scheduling) guide.
+For more context on nurse scheduling at CAH scale, see our [nurse scheduling software](/nurse-scheduling-software) hub and our [critical access hospital scheduling](/critical-access-hospital-scheduling) guide.
 
 ## What to Do This Week
 
-If you are currently evaluating hospital scheduling options for your CAH, these five steps will move you from research to a real decision without wasting time on vendor presentations that don't fit your scale.
+If you are currently evaluating hospital scheduling options for your CAH, these five steps will move you from research to a real decision.
 
-1. **Log your nurse manager's actual scheduling hours this week.** Ask her to track real time spent: building the schedule, handling callouts, managing swap requests, and doing any manual reconciliation. If the total is more than four hours in a typical week, a self-serve platform adds tool administration to that load, not in place of it.
+1. **Log your nurse manager's actual scheduling hours this week.** Ask her to track real time spent: building the schedule, handling callouts, managing swap requests, and doing any manual reconciliation. If the total is more than four hours in a typical week, switching to another self-serve platform adds tool administration to that load, not in place of it.
 
-2. **Use the five demo questions from this guide in your next vendor call.** Bring them verbatim. The vendor's responses to "how many hours per week after go-live?" and "can you connect me with a reference hospital at 25-bed scale?" will tell you more than any feature walkthrough.
+2. **Run three specific questions in your next vendor demo.** Ask: "What is your typical setup timeline for a 25-bed hospital with no IT department?" Ask: "How many hours per week does the nurse manager spend operating this platform after go-live?" Ask: "Can you show me a reference hospital at 25-bed scale who completed onboarding in the past 12 months?" The answers tell you more about operational fit than any feature overview.
 
 3. **Ask for a current hospital nursing reference customer at your size.** Any platform you are seriously evaluating should be able to name a current 25-bed hospital nursing customer within 48 hours of your request. If they cannot, treat that as a signal about market fit.
 
-4. **Build a full cost comparison, not just licensing.** Add setup fees, configuration services, and estimated internal staff time for onboarding to the annual licensing cost. Compare that aggregate figure across every option you are considering, including a managed service model.
+4. **Build a full cost comparison, not just licensing.** Add setup fees, configuration services, and estimated internal staff time for onboarding to the annual licensing cost. Compare that aggregate figure across every option you are considering, including a managed service.
 
 5. **If the managed service operating model fits your constraints, request a pilot.** SimpleScheduleAI offers a free 60-day pilot for qualifying CAHs in Texas, with no setup fee and no contract commitment during the pilot. You can request a reference call with a current pilot facility before committing. [Request a pilot or reference call →](/pilot)
 
@@ -320,7 +406,7 @@ Public review counts, ratings, and quotes in this guide were gathered from G2, C
 
 **Is ShiftWizard a good fit for a 25-bed Critical Access Hospital?**
 
-ShiftWizard's healthcare-specific design makes it a more appropriate option for hospitals than generic workforce-management tools. The fit at CAH scale depends on whether your facility has the time to operate a self-serve platform. Use the five demo questions above to evaluate; ask specifically for reference customers at 25-bed scale who completed onboarding in the past 12 months.
+ShiftWizard's healthcare-specific design makes it a more appropriate option for hospitals than generic workforce-management tools. The fit at CAH scale depends on whether your facility has the administrative capacity to operate a self-serve platform. Ask specifically for reference customers at 25-bed scale who completed onboarding in the past 12 months, and ask the vendor how many hours per week the nurse manager spends on scheduling after go-live.
 
 **How does ShiftWizard compare to TCP/Aladtec for a small hospital?**
 
@@ -334,9 +420,9 @@ Most scheduling software contracts run annually. A managed service can typically
 
 No. SimpleScheduleAI is a manager-facing managed scheduling service; nurses do not view schedules or submit shift trades through our system directly. If staff-facing mobile features are a hard requirement, the right architecture is to use a self-serve platform with a staff app, or pair a separate staff-communication tool with a managed scheduling service.
 
-**Why don't you publish a head-to-head comparison verdict on ShiftWizard?**
+**What is the difference between a self-serve scheduling platform and a managed service?**
 
-We do not believe head-to-head verdicts on specific competitor products are useful for a CAH buyer. Vendor offerings change, our customer base is small, and reasonable operational fit varies by facility. The five demo questions above will tell you more about whether any specific platform is right for your hospital than a third-party verdict can.
+A self-serve platform gives the nurse manager direct control and requires her to configure, build, and operate the system week to week. A managed service handles configuration, schedule generation, and system maintenance on her behalf; she reviews and approves the outputs. The choice depends on how much administrative bandwidth the nurse manager has beyond her clinical responsibilities, not on which approach has better features.
 
 [See how the managed service model works in practice →](/how-it-works)
 
