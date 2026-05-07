@@ -29,7 +29,7 @@ metadata:
 
 ## Table of Contents
 
-- [Why CAHs Look for TCP Alternatives](#why-cahs-look-for-tcp-alternatives)
+- [Why Do Critical Access Hospitals Look for TCP Alternatives?](#why-do-critical-access-hospitals-look-for-tcp-alternatives)
 - [What Is TCP Scheduling Software?](#what-is-tcp-scheduling-software)
 - [What Does TCP Cover and What Does It Miss?](#what-does-tcp-cover-and-what-does-it-miss)
 - [What Is the Best TCP Alternative for Each Scenario?](#what-is-the-best-tcp-alternative-for-each-scenario)
@@ -41,7 +41,7 @@ metadata:
 
 TCP Scheduling Software, the platform previously known as Aladtec, is widely used in healthcare and EMS settings. For [critical access hospitals](/critical-access-hospital-scheduling), TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold. At a typical 25-bed CAH, the nurse manager is responsible for clinical supervision, staff development, regulatory compliance, and scheduling. There is rarely a dedicated scheduling coordinator.
 
-## Why Do CAHs Look for TCP Alternatives?
+## Why Do Critical Access Hospitals Look for TCP Alternatives?
 
 The TCP complaints that drive CAH nurse managers to look for alternatives center on operational burden and workflow friction:
 
@@ -297,3 +297,7 @@ If your nurse manager is comfortable with TCP, has settled into a 4-6 hour weekl
 **Is ShiftWizard or TCP better for a 25-bed hospital?**
 
 Both are self-serve platforms with similar setup timelines and pricing tiers. ShiftWizard has a more modern interface and was built specifically for hospital scheduling rather than adapted from EMS. TCP has a more established install base in rural and critical access hospitals and a longer track record for compliance documentation. If you are choosing between the two, the deciding factor is usually interface preference: they are comparable on core functionality. If your core problem is scheduling labor rather than the interface, neither one solves it without also considering a managed service.
+
+---
+
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service for Critical Access Hospitals in Texas. He writes about scheduling operations, CAH compliance, and workforce management for small hospitals._
