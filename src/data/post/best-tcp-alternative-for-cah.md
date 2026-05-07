@@ -239,7 +239,7 @@ SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A s
 - Less direct platform control than self-serve tools
 - Not appropriate if staff self-service features are a hard requirement
 
-**Verdict:** Right choice if scheduling labor is the primary burden. Wrong choice if nurses using an app to view schedules or submit availability is a priority.
+**Verdict:** Right choice if scheduling labor is the primary burden. Wrong choice if nurses using an app to view schedules or submit availability is a priority. [See how the managed service works](/how-it-works).
 
 **Cost:** Starting pricing available at [simplescheduleai.com/pilot](/pilot). Pilot available for qualifying CAHs.
 
