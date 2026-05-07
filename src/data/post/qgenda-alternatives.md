@@ -203,7 +203,19 @@ Ask the vendor for current named support contacts, response-time SLA, and a rece
 
 - Configuration and ongoing maintenance fall to the nurse manager; credentials, overtime thresholds, and shift rules all require manual setup and upkeep
 - No automatic CMS §485.635 documentation; survey prep remains a manual process
-- Post-acquisition support quality (since the TCP acquisition in 2021) has been flagged by some reviewers as declining
+- **Click-Heavy Workflow.** Routine schedule edits require multiple steps.
+
+  > "When editing the schedule there are a lot of clicks involved."
+  >
+  > Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+- **Setup Complexity.** Initial configuration takes longer than expected for some administrators.
+
+  > "It was a bit complicated to figure out from the administrator side."
+  >
+  > Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
+
+- Since TCP acquired Aladtec in 2021, request current named support contacts and response-time SLA before committing
 - Documented customer base skews toward public safety; request a CAH-scale hospital reference before deciding
 
 **Verdict:** A meaningful cost and complexity reduction from QGenda for CAHs that still want a self-serve platform and have bandwidth for ongoing configuration. Not a reduction in scheduling labor, only in platform cost and setup time.
@@ -238,8 +250,13 @@ Ask the demo to walk through mobile workflows from both manager and staff perspe
 **Key limitations:**
 
 - Self-serve model; ongoing configuration maintenance remains the nurse manager's responsibility
-- Mobile manager experience has limited department-level schedule visibility per some reviewers
-- Shift swap reliability issues flagged by multiple G2 reviewers
+- **Performance.** Some reviewers note lag during active schedule periods.
+
+  > "Can be slow and glitchy, making inputting schedule difficult and stressful."
+  >
+  > Erika A., Registered Nurse, July 9, 2024, Capterra
+
+- Verify with ShiftWizard whether the manager-facing mobile app covers your required department-level visibility; request a CAH-scale reference who uses the shift swap workflow before deciding
 
 **Verdict:** The best self-serve alternative to QGenda for CAHs that specifically need a nursing-focused platform and prefer direct control. ShiftWizard's hospital-nursing design is a closer operational fit than QGenda's physician-scheduling heritage for a 25-bed CAH.
 
@@ -260,7 +277,16 @@ NurseGrid Manager holds 4.2/5 on Capterra (13 reviews; small sample). NurseGrid 
 **Key limitations:**
 
 - Not a primary scheduling system: NurseGrid does not build schedules, enforce credentials, track overtime, or generate CMS documentation
-- Manager-facing app reliability has been flagged as poor in recent reviews; verify current functionality before relying on it for management operations
+- **Manager App Removed.** Multiple reviewers note the manager-facing mobile app is no longer available, requiring desktop login for schedule edits.
+
+  > "It no longer has the manager app so I have to login to desktop."
+  >
+  > Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
+
+  > "they took away the Manager App for your phone."
+  >
+  > Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
+
 - For CAHs with active CMS obligations, NurseGrid cannot be the sole scheduling tool
 
 **Verdict:** Appropriate as a staff communication layer, not as a QGenda replacement for hospitals with active compliance requirements. If the primary unmet need is nurse-facing schedule visibility, NurseGrid is worth evaluating alongside a separate managed service for the compliance layer.
