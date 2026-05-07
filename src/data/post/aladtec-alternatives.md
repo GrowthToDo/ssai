@@ -216,7 +216,7 @@ Hospitals that leave Aladtec because of configuration burden and then adopt Smar
 
 - Implementation experience varies. Daniel C., CFO (Hospital & Health Care), wrote on Capterra (March 16, 2021): "Implementation was much more complex that expected and end result still was full of errors on first payroll."
 - PBJ-for-CMS reporting has been an issue for some users. Rebecca K., HR (Hospital & Health Care), wrote on Capterra (September 27, 2019): "Not the best at calculating PBJ for CMS - had some issues that cost money and star ratings."
-- Vendor's own positioning skews toward post-acute care; hospital-acute reference customers should be requested directly. The Capterra sample is small (6 reviews); ratings on a single source are less robust than larger samples.
+- Vendor's own positioning skews toward post-acute care; hospital-acute reference customers should be requested directly. The Capterra sample is small (6 reviews); ratings on a single source are less reliable than larger samples.
 
 **Verdict:** A reasonable Aladtec upgrade for hospitals growing toward 75-100 beds with IT capacity for a 3-4 month implementation. CAHs at 25-bed scale should weigh whether the implementation effort fits their administrative bandwidth.
 
