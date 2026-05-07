@@ -31,9 +31,9 @@ metadata:
 ## Table of Contents
 
 - [Why Does UKG Fail at Small Hospital Scale?](#why-does-ukg-fail-at-small-hospital-scale)
-- [What Does UKG Complexity Look Like in Practice at a CAH?](#what-does-ukg-complexity-look-like-in-practice-at-a-cah)
+- [What Does UKG Complexity Look Like in Practice at a Critical Access Hospital?](#what-does-ukg-complexity-look-like-in-practice-at-a-critical-access-hospital)
 - [What Is the Complexity-to-Value Gap?](#what-is-the-complexity-to-value-gap)
-- [What Works at CAH Scale?](#what-works-at-cah-scale)
+- [What Works at Critical Access Hospital Scale?](#what-works-at-critical-access-hospital-scale)
   - [Aladtec (TCP Scheduling)](#aladtec-tcp-scheduling)
   - [SmartLinx](#smartlinx)
   - [SimpleScheduleAI](#simplescheduleai)
@@ -94,7 +94,7 @@ One data point worth knowing before any internal conversation about UKG: the adm
 
 **The operational overhead.** Even after a successful implementation, UKG requires ongoing configuration management. Overtime rules, unit staffing requirements, and credential requirements must be kept current. At a large hospital, a workforce management analyst handles this. At a CAH, it falls to the nurse manager on top of her clinical and supervisory responsibilities.
 
-## What Does UKG Complexity Look Like in Practice at a CAH?
+## What Does UKG Complexity Look Like in Practice at a Critical Access Hospital?
 
 The typical CAH-on-UKG scenario follows a pattern. A regional health system negotiates an enterprise UKG contract. The CAH is affiliated with the system and gets included. Implementation is handled by the system's IT department with limited input from the CAH's nurse manager. The system goes live. The nurse manager is trained on the interface but not on configuration.
 
@@ -103,7 +103,7 @@ Over time:
 - Staff credential records set up during implementation drift as staff changes occur, because the nurse manager does not know how to update them
 - Overtime rules that were configured for the health system's standard workweek do not match the CAH's payroll cycle, causing systematic overtime miscalculation
 - Reports built for system-level workforce analytics are not useful for a 15-nurse operation
-- The nurse manager spends time navigating UKG's interface to accomplish tasks that should take minutes
+- The nurse manager spends time working through UKG's interface to accomplish tasks that should take minutes
 
 The system is nominally operational, but the nurse manager is doing manual verification on top of UKG because she does not trust the output.
 
@@ -127,7 +127,7 @@ UKG features that a 25-bed CAH actually uses:
 
 The complexity required to access the three features you use is the same as the complexity required to access the twenty you do not. The nurse manager at a CAH manages the full UKG operational burden for a fraction of the feature value.
 
-## What Works at CAH Scale?
+## What Works at Critical Access Hospital Scale?
 
 The scheduling requirements for a CAH are not simple. They are just different from enterprise requirements:
 
