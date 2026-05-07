@@ -1,9 +1,9 @@
 ---
 draft: true
 publishDate: 2026-05-12T00:00:00Z
-updateDate: 2026-06-06T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'TCP Scheduling vs. Managed Service: Which Fits CAHs?'
+title: 'TCP Scheduling vs. Managed Service: Which Fits Critical Access Hospitals?'
 excerpt: >
   TCP Scheduling Software (formerly Aladtec) is a self-serve platform your team configures
   and operates. A managed scheduling service runs the scheduling function for you. For a
@@ -31,10 +31,10 @@ metadata:
 
 - [What TCP Scheduling Software Actually Is](#what-tcp-scheduling-software-actually-is)
 - [What a Managed Scheduling Service Does Differently](#what-a-managed-scheduling-service-does-differently)
-- [Head-to-Head: TCP vs. Managed Service](#head-to-head-tcp-vs-managed-service)
-- [Where TCP Wins](#where-tcp-wins)
-- [Where a Managed Service Wins](#where-a-managed-service-wins)
-- [Time to Value](#time-to-value)
+- [Head-to-Head: TCP vs. Managed Service?](#head-to-head-tcp-vs-managed-service)
+- [Where TCP Wins?](#where-tcp-wins)
+- [Where a Managed Service Wins?](#where-a-managed-service-wins)
+- [How Does Time to Value Compare?](#how-does-time-to-value-compare)
 - [Which Fits Your CAH?](#which-fits-your-cah)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
@@ -61,63 +61,67 @@ With SimpleScheduleAI:
 
 The nurse manager's role shifts from operator to approver. She retains final authority over every scheduling decision. The upstream work is handled for her.
 
-## Head-to-Head: TCP vs. Managed Service: Which Is Better?
+## Head-to-Head: TCP vs. Managed Service?
 
-<div class="not-prose overflow-x-auto my-8">
-  <table class="w-full text-sm border-collapse" style="min-width:640px">
+The core difference is the labor model: TCP gives a nurse manager better tools; a managed service removes the scheduling labor from the nurse manager's plate. Eight dimensions drive the practical decision at a 25-bed Critical Access Hospital.
+
+<div class="not-prose my-8">
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Dimension</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">TCP Scheduling Software</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Managed Service (SimpleScheduleAI)</th>
+      <tr class="bg-slate-100 dark:bg-slate-800">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:28%">Dimension</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:36%">TCP Scheduling Software</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-blue-700 dark:text-blue-400" style="width:36%">Managed Service (SimpleScheduleAI)</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Setup</td>
-        <td class="border border-slate-300 px-4 py-2">2-4 weeks, nurse manager configures</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">3-5 days, specialist configures</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Setup</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">2-4 weeks, nurse manager configures</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">3-5 days, specialist configures</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Weekly scheduling work</td>
-        <td class="border border-slate-300 px-4 py-2">4-6 hours (nurse manager builds)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">1-2 hours (nurse manager reviews)</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Weekly scheduling work</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">4-6 hours (nurse manager builds)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">1-2 hours (nurse manager reviews)</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Overtime tracking</td>
-        <td class="border border-slate-300 px-4 py-2">Manual check before publishing</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Proactive, flagged before draft presented</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Overtime tracking</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Manual check before publishing</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Proactive, flagged before draft presented</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">CMS audit trail</td>
-        <td class="border border-slate-300 px-4 py-2">Available if configured correctly</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Automatic, every change logged</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">CMS audit trail</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Available if configured correctly</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Automatic, every change logged</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Callout coverage</td>
-        <td class="border border-slate-300 px-4 py-2">Manager checks platform, calls manually</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Pre-ranked shortlist with constraints applied</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Callout coverage</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Manager checks platform, calls manually</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Pre-ranked shortlist with constraints applied</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Staff-facing app</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Yes, nurses view schedules on mobile</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">No staff app</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Staff-facing app</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Yes, nurses view schedules on mobile</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Not available; schedule delivered via approval workflow</td>
       </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">IT involvement</td>
-        <td class="border border-slate-300 px-4 py-2">Minimal</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">None</td>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">IT involvement</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Minimal</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">None</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Support when issues arise</td>
-        <td class="border border-slate-300 px-4 py-2">Ticket system</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Specialist who knows your setup</td>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Support when issues arise</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Ticket system</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Specialist who knows your setup</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 ## Where TCP Wins?
+
+TCP's primary advantage over a managed service is the staff-facing mobile experience. For hospitals where nurses managing their own availability and viewing schedules on their phones is operationally important, TCP is the stronger fit. Two other factors also favor TCP for specific organizational profiles.
 
 **Staff-facing mobile app.** Nurses can view schedules, request availability changes, and participate in shift swaps through the TCP app. SimpleScheduleAI does not have a nurse-facing interface. If nurses managing their own availability and viewing schedules on their phones is a priority, TCP is the right choice.
 
@@ -126,6 +130,8 @@ The nurse manager's role shifts from operator to approver. She retains final aut
 **No ongoing service dependency.** With TCP, you own the process. With a managed service, you depend on the service relationship. For facilities that prefer operational self-sufficiency, the self-serve model has real appeal.
 
 ## Where a Managed Service Wins?
+
+A managed service reduces the weekly scheduling burden from 4-6 hours to 1-2 hours, goes live in days not weeks, and shifts callout coverage from 30-60 minutes of manual research to a 10-minute shortlist call. For nurse managers carrying a clinical patient load alongside scheduling responsibilities, these are the operationally significant differences.
 
 **Time to operational.** TCP takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this matters.
 
@@ -137,33 +143,41 @@ The nurse manager's role shifts from operator to approver. She retains final aut
 
 ## How Does Time to Value Compare?
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Time to operational and weekly burden comparison between TCP and managed service">
-  <title>TCP vs. Managed Service: Time Comparison</title>
-  <rect width="720" height="180" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Time Comparison: TCP vs. Managed Service</text>
-  <!-- TCP column -->
-  <rect x="40" y="44" width="300" height="120" fill="white" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
-  <rect x="40" y="44" width="300" height="36" fill="#374151" rx="8"/>
-  <rect x="40" y="68" width="300" height="16" fill="#374151"/>
-  <text x="190" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">TCP Scheduling Software</text>
-  <text x="60" y="100" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Setup: 2-4 weeks (nurse manager configures)</text>
-  <text x="60" y="118" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Weekly burden: 4-6 hours (builds schedules)</text>
-  <text x="60" y="136" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Callout coverage: 30-60 min manual work</text>
-  <text x="60" y="154" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Year 1 recovered time vs. spreadsheets: ~200 hrs</text>
-  <!-- SimpleScheduleAI column -->
-  <rect x="380" y="44" width="300" height="120" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
-  <rect x="380" y="44" width="300" height="36" fill="#16a34a" rx="8"/>
-  <rect x="380" y="68" width="300" height="16" fill="#16a34a"/>
-  <text x="530" y="67" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">SimpleScheduleAI (Managed Service)</text>
-  <text x="400" y="100" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Setup: 3-5 days (specialist configures)</text>
-  <text x="400" y="118" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Weekly burden: 1-2 hours (reviews &amp; approves)</text>
-  <text x="400" y="136" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Callout coverage: 10-15 min shortlist call</text>
-  <text x="400" y="154" font-family="system-ui,sans-serif" font-size="11" fill="#374151">Year 1 recovered time vs. spreadsheets: ~400 hrs</text>
-</svg>
+Speed to first working schedule and ongoing weekly burden are the two time costs that matter most for a CAH choosing between these models. Both favor the managed service model, but by different margins depending on the facility's current baseline.
+
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Time Comparison: TCP vs. Managed Service</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div class="rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden">
+      <div class="bg-slate-700 dark:bg-slate-600 px-4 py-3">
+        <p class="text-sm font-bold text-white">TCP Scheduling Software</p>
+      </div>
+      <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Setup time</span><span class="font-medium">2-4 weeks</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Weekly scheduling burden</span><span class="font-medium">4-6 hrs</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage time</span><span class="font-medium">30-60 min</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Yr 1 recovered time (vs. spreadsheets)</span><span class="font-medium">~200 hrs</span></div>
+      </div>
+    </div>
+    <div class="rounded-lg border border-green-200 dark:border-green-800 overflow-hidden">
+      <div class="bg-green-600 dark:bg-green-700 px-4 py-3">
+        <p class="text-sm font-bold text-white">SimpleScheduleAI (Managed Service)</p>
+      </div>
+      <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Setup time</span><span class="font-medium text-green-700 dark:text-green-400">3-5 days</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Weekly scheduling burden</span><span class="font-medium text-green-700 dark:text-green-400">1-2 hrs</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage time</span><span class="font-medium text-green-700 dark:text-green-400">10-15 min</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Yr 1 recovered time (vs. spreadsheets)</span><span class="font-medium text-green-700 dark:text-green-400">~400 hrs</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 For a nurse manager who is burned out on scheduling, experiencing weekly callout scrambles, and considering leaving, four weeks of additional manual scheduling during an implementation period is a meaningful cost.
 
 ## Which Fits Your CAH?
+
+The decision comes down to one question: does your nurse manager have 4-6 hours of protected weekly time to build and operate a scheduling system, or does she need that time back for clinical and supervisory work? The answer to that question determines the right model more reliably than any feature comparison.
 
 **Choose TCP Scheduling Software if:**
 
@@ -179,9 +193,9 @@ For a nurse manager who is burned out on scheduling, experiencing weekly callout
 - Callout coverage scrambles are a specific, recurring pain point
 - You need to be operational in days, not weeks
 
-<div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
+<div class="not-prose my-10 rounded-xl bg-blue-700 dark:bg-blue-800 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Ready to See the Managed Service Model in Practice?</h2>
-  <p class="mb-6 text-blue-100">
+  <p class="mb-6 text-blue-100 dark:text-blue-200">
     SimpleScheduleAI goes live in 3-5 days from your Excel roster. Your nurse manager reviews and approves, the scheduling work is done. Schedule a free assessment to see how it compares to what you have now.
   </p>
   <a
@@ -215,3 +229,6 @@ With TCP: the nurse manager opens the platform, checks availability, reviews ove
 **What is the main reason to stay with TCP instead of switching to a managed service?**
 
 The staff-facing mobile app. TCP allows nurses to view schedules, request availability changes, and participate in shift swaps on their phones. SimpleScheduleAI does not have a nurse-facing interface. If nurse self-service scheduling is a priority at your facility, TCP or another platform with a nurse app is the right choice.
+
+_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
