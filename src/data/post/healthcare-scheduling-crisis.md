@@ -24,7 +24,7 @@ metadata:
 - Version drift across spreadsheets, whiteboards, and portal PDFs creates CMS-surveyable documentation gaps under §485.635
 - Reliable nurses absorb disproportionate overtime under manual scheduling, driving turnover that costs $52,350 per RN departure (NSI 2024)
 - PRN availability coordination adds 2+ hours per scheduling cycle, a hidden cost rarely tracked in scheduling budgets
-- Fairness tracking and an automated replacement list are the two highest-leverage interventions for CAH scheduling operations
+- Fairness tracking and an automated replacement list are the two highest-impact interventions for CAH scheduling operations
 
 ## Table of Contents
 
