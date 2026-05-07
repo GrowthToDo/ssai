@@ -226,7 +226,7 @@ The model is built for small hospitals in Texas, with Texas overtime compliance,
 
 <img src="/images/blog/best-nurse-scheduling-software-2026/Aladtec.png" alt="Aladtec scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 dark:border-slate-700 my-4" />
 
-Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old. Aladtec offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The interface is functional without requiring significant IT involvement to set up. For the operating-model comparison between a self-serve platform like Aladtec and a managed service, see our [self-serve vs managed scheduling service post](/blog/shiftwizard-vs-managed-service).
+Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The Capterra customer base skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old. Aladtec offers credential tracking, shift coverage requests, availability management, and basic overtime monitoring. The interface is functional without requiring significant IT involvement to set up. For the operating-model comparison between a self-serve platform like Aladtec and a managed service, see our [ShiftWizard vs. managed scheduling service comparison](/blog/shiftwizard-vs-managed-service).
 
 **Best for:** Small hospitals and EMS agencies that want proven self-serve scheduling software with low implementation burden.
 
