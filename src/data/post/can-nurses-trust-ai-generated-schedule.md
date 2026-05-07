@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-14T00:00:00Z
-updateDate: 2026-04-14T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Can Nurses Trust an AI-Generated Schedule? An Audit'
 excerpt: >
@@ -151,7 +151,7 @@ What does not work is asking nurses to trust a system they cannot see. Showing t
 
 ## How Does SimpleScheduleAI Handle Transparency and Manager Control?
 
-SimpleScheduleAI generates three schedule versions each cycle, each scored across coverage, fairness, cost, and preference match. The manager sees those scores before selecting a version to review. Every assignment is visible and adjustable before the schedule is posted. Every change after posting is logged in the event record with a timestamp and the identity of who made it.
+SimpleScheduleAI generates three schedule versions each cycle, each scored across coverage, fairness, cost, and preference match. The manager sees those scores before selecting a version to review. Every assignment is visible and adjustable before the schedule is posted. Every change after posting is logged in the event record with a timestamp and the identity of who made it. [See how the full process works](/how-it-works).
 
 The nurse manager approves every schedule. The system does not post anything autonomously. If a generated draft has an assignment that does not reflect unit reality, the manager changes it. The log records the change.
 
@@ -159,12 +159,15 @@ For staff who want to understand why their assignments landed the way they did, 
 
 One limitation worth naming: the system works from the data it has. Informal arrangements that were not entered as preferences or scheduling rules are not visible to the system. Keeping those inputs current is the manager's responsibility. The system applies the rules to the data; the manager ensures the data reflects how the unit actually operates.
 
-For the broader context on [critical access hospital scheduling](/critical-access-hospital-scheduling) requirements and compliance, that guide covers what documentation and coverage rules a CAH scheduling system needs to handle. For a full feature comparison, see the [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide.
+For the broader context on [critical access hospital scheduling](/critical-access-hospital-scheduling) requirements and compliance, that guide covers what documentation and coverage rules a CAH scheduling system needs to handle. For a full feature comparison, see the [nurse scheduling software for critical access hospitals](/nurse-scheduling-software) guide. CAHs evaluating platforms like QGenda that use automated scheduling can also review [common QGenda pain points at small hospitals](/blog/qgenda-alternatives) before deciding.
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Running a Critical Access Hospital in Texas?</p>
   <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Free 60-day pilot. No IT setup. No commitment. We build the schedule, you approve it.</p>
-  <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot →</a>
+  <div class="flex flex-col sm:flex-row gap-3 justify-center">
+    <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot →</a>
+    <a href="/contact" class="inline-block bg-white hover:bg-slate-50 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-800 dark:text-slate-100 font-semibold px-6 py-3 rounded-lg border border-slate-300 dark:border-slate-600 transition-colors duration-200">Ask a Question</a>
+  </div>
 </div>
 
 ## Frequently Asked Questions
