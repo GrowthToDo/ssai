@@ -273,7 +273,7 @@ A representative positive review:
   >
   > Courtney D., Manager of Employee and Physician Relations, May 10, 2024, Capterra
 
-- **Setup Time.** Initial configuration is described as time-consuming by multiple reviewers.
+- **Setup Time.** Initial configuration is described as time-consuming by some reviewers.
 
   > "Doing the initial set up of new providers is a little complicated."
   >
