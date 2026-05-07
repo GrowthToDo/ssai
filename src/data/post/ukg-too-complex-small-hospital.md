@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-04-11T00:00:00Z
-updateDate: 2026-04-09T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'UKG Is Too Complex for Small Hospitals: What to Use Instead'
 excerpt: >
@@ -30,10 +30,10 @@ metadata:
 
 ## Table of Contents
 
-- [Why UKG Fails at Small Hospital Scale](#why-ukg-fails-at-small-hospital-scale)
-- [What UKG Complexity Looks Like in Practice at a CAH](#what-ukg-complexity-looks-like-in-practice-at-a-cah)
-- [The Complexity-to-Value Gap](#the-complexity-to-value-gap)
-- [What Works at CAH Scale](#what-works-at-cah-scale)
+- [Why Does UKG Fail at Small Hospital Scale?](#why-does-ukg-fail-at-small-hospital-scale)
+- [What Does UKG Complexity Look Like in Practice at a CAH?](#what-does-ukg-complexity-look-like-in-practice-at-a-cah)
+- [What Is the Complexity-to-Value Gap?](#what-is-the-complexity-to-value-gap)
+- [What Works at CAH Scale?](#what-works-at-cah-scale)
   - [Aladtec (TCP Scheduling)](#aladtec-tcp-scheduling)
   - [SmartLinx](#smartlinx)
   - [SimpleScheduleAI](#simplescheduleai)
@@ -248,3 +248,9 @@ At minimum, a 25-bed CAH needs: proactive FLSA 8-and-80 overtime tracking, crede
 **Does Aladtec handle FLSA 8-and-80 overtime correctly for healthcare employers?**
 
 Aladtec's default overtime threshold is the standard 40-hour workweek. Healthcare employers using the FLSA 8-and-80 rule need to configure the correct threshold in their Aladtec account. If this configuration is not completed, the system will calculate overtime incorrectly for a healthcare employer. SimpleScheduleAI applies the 8-and-80 rule as a default for healthcare configurations.
+
+---
+
+**Written by Pradeep Pandey**
+Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
