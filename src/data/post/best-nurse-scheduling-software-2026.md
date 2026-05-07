@@ -218,7 +218,7 @@ The model is built for small hospitals in Texas, with Texas overtime compliance,
 - Not a self-serve tool. If your hospital wants to own and manage scheduling internally, this is not the right fit.
 - Designed for small facilities under 50 beds. Not built for larger hospitals or multi-site systems.
 
-**Verdict:** The right choice for a small hospital where the nurse manager cannot realistically own a scheduling system on top of clinical duties. If you want to manage scheduling yourself or have more than 50 beds, look at Aladtec or SmartLinx instead.
+**Verdict:** The right choice for a small hospital where the nurse manager cannot realistically own a scheduling system on top of clinical duties. If you want to manage scheduling yourself or have more than 50 beds, look at Aladtec or SmartLinx instead. [See how SimpleScheduleAI works](/how-it-works).
 
 **Cost:** Pricing not listed on website. Contact for a quote.
 
@@ -490,7 +490,7 @@ It is not the right fit for every hospital. If your facility has 75+ beds, a ded
 
 The pilot is free for 60 days. No IT setup. No commitment.
 
-If you run a Critical Access Hospital specifically, we have a dedicated guide that goes deeper on CAH compliance, Texas staffing rules, and callout coverage: [Critical Access Hospital Scheduling Guide](/critical-access-hospital-scheduling).
+If you run a Critical Access Hospital specifically, we have a dedicated guide that goes deeper on CAH compliance, Texas staffing rules, and callout coverage: [Critical Access Hospital Scheduling Guide](/critical-access-hospital-scheduling). For a complete feature-by-feature evaluation framework across all platforms, see our [nurse scheduling software hub](/nurse-scheduling-software).
 
 <div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
   <div class="rounded-lg border border-blue-200 dark:border-blue-800 bg-blue-50 dark:bg-blue-950 p-5">
