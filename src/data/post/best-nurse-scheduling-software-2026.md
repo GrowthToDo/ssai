@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-02T00:00:00Z
-updateDate: 2026-04-02T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best Nurse Scheduling Software in 2026: A Comparison'
 excerpt: >
