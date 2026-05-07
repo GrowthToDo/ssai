@@ -1,9 +1,9 @@
 ---
 draft: false
 publishDate: 2026-05-02T00:00:00Z
-updateDate: 2026-05-02T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'ShiftWizard vs. Managed Scheduling Service for CAHs'
+title: 'ShiftWizard vs. Managed Scheduling Service for Critical Access Hospitals'
 excerpt: >
   ShiftWizard and other hospital scheduling platforms are self-serve software: your team
   configures the system and your nurse manager operates it weekly. A managed service runs
@@ -30,14 +30,14 @@ metadata:
 
 ## Table of Contents
 
-- [What ShiftWizard Is](#what-shiftwizard-is)
-- [What a Managed Scheduling Service Is](#what-a-managed-scheduling-service-is)
-- [Five Questions to Ask in Any Hospital Scheduling Demo](#five-questions-to-ask-in-any-hospital-scheduling-demo)
-- [Direct Comparison of the Two Operating Models](#direct-comparison-of-the-two-operating-models)
-- [Where Self-Serve Platforms Fit](#where-self-serve-platforms-fit)
-- [Where a Managed Service Fits](#where-a-managed-service-fits)
-- [Which Model Fits Your CAH?](#which-model-fits-your-cah)
-- [How SimpleScheduleAI Fits If You Need the Managed Service Model](#how-simpleschedule-ai-fits-if-you-need-the-managed-service-model)
+- [What Is ShiftWizard?](#what-is-shiftwizard)
+- [What Is a Managed Scheduling Service?](#what-is-a-managed-scheduling-service)
+- [What Are the Five Questions to Ask in Any Hospital Scheduling Demo?](#what-are-the-five-questions-to-ask-in-any-hospital-scheduling-demo)
+- [What Does the Direct Comparison of the Two Operating Models Look Like?](#what-does-the-direct-comparison-of-the-two-operating-models-look-like)
+- [Where Self-Serve Platforms Fit?](#where-self-serve-platforms-fit)
+- [Where Does a Managed Service Fit?](#where-does-a-managed-service-fit)
+- [Which Model Fits Your Critical Access Hospital?](#which-model-fits-your-critical-access-hospital)
+- [How SimpleScheduleAI Fits If You Need the Managed Service Model](#how-simplescheduleai-fits-if-you-need-the-managed-service-model)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 For a Critical Access Hospital nurse manager evaluating hospital scheduling options, the most consequential decision is not which scheduling product to buy. It is which operating model the hospital is signing up for. A self-serve platform like ShiftWizard puts the operational layer on your nurse manager's calendar. A managed service moves that layer to a specialist outside the hospital. The feature-by-feature comparison matters less than this structural question.
@@ -140,7 +140,7 @@ The answers to these five questions, not the feature pages, determine operationa
 
 These are typical numbers across the two operating models. Specific products vary. The decision is which row matters most for your facility.
 
-## Where Self-Serve Platforms Fit
+## Where Self-Serve Platforms Fit?
 
 Self-serve platforms are the right model when:
 
@@ -151,7 +151,7 @@ Self-serve platforms are the right model when:
 
 When these conditions hold, a self-serve platform like ShiftWizard, TCP/Aladtec, or QGenda is worth comparing on operational fit using the five demo questions above.
 
-## Where a Managed Service Fits
+## Where Does a Managed Service Fit?
 
 A managed service is the right model when:
 
@@ -160,7 +160,7 @@ A managed service is the right model when:
 - **Time-to-operational matters more than mobile self-service.** When a current scheduling situation is unsustainable, a 3-5 day setup timeline matters more than a staff app that the previous platform also had.
 - **Compliance documentation is a survey-relevant concern.** Managed services typically deliver auto-logged audit trails for CMS §485.635 as part of the service, rather than requiring the nurse manager to maintain documentation through configuration.
 
-## Which Model Fits Your CAH?
+## Which Model Fits Your Critical Access Hospital?
 
 The decision tree:
 
@@ -184,7 +184,7 @@ SimpleScheduleAI is a new service in active pilot phase, without public G2 or Ca
 
 SimpleScheduleAI is the right choice for a CAH where the nurse manager has concluded that the self-serve scheduling model takes more weekly time than her role can absorb, and where direct customer-reference validation matters more than aggregate vendor reviews.
 
-It is not the right choice if staff-facing self-service mobile features are a hard requirement; we currently focus on the manager-facing scheduling workflow and do not have a staff-facing app. For more on the operating model, see [how SimpleScheduleAI works](/how-it-works), our [nurse scheduling software hub](/nurse-scheduling-software), and the compliance requirements that shape [critical access hospital scheduling](/critical-access-hospital-scheduling). Related buyer-stage posts: [the 8 best nurse scheduling software options for 2026](/blog/best-nurse-scheduling-software-2026), [the $26,000 hidden cost of manual scheduling at CAHs](/blog/healthcare-scheduling-crisis), and [why UKG is too complex for critical access hospitals](/blog/ukg-too-complex-small-hospital).
+It is not the right choice if staff-facing self-service mobile features are a hard requirement; we currently focus on the manager-facing scheduling workflow and do not have a staff-facing app. For more on the operating model, see [how SimpleScheduleAI works](/how-it-works), our [nurse scheduling software hub](/nurse-scheduling-software), and the compliance requirements that shape [critical access hospital scheduling](/critical-access-hospital-scheduling).
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">Want a Reference Call With a Pilot CAH?</h2>
