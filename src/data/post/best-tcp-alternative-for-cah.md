@@ -1,7 +1,7 @@
 ---
 draft: false
 publishDate: 2026-04-28T00:00:00Z
-updateDate: 2026-04-28T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best TCP Scheduling Alternative for Critical Access Hospitals'
 excerpt: >
@@ -43,7 +43,7 @@ TCP Scheduling Software, the platform previously known as Aladtec, is widely use
 
 ## Why Do CAHs Look for TCP Alternatives?
 
-The specific TCP complaints that drive CAH nurse managers to look for alternatives are consistent across G2 and Capterra reviews:
+The TCP complaints that drive CAH nurse managers to look for alternatives center on operational burden and workflow friction:
 
 **Configuration burden.** TCP requires entering all nurses, certifications, unit assignments, and scheduling rules before the first schedule. At a CAH without IT support, this falls to the nurse manager over several weeks.
 
