@@ -197,7 +197,18 @@ If you are leaving UKG because it demands too much from one person, Aladtec is s
 
 - Nurse manager configures and operates all scheduling rules manually
 - No automatic CMS §485.635 audit trail generation; documentation requires manual export
-- Amanda F., Nurse Manager (Hospital &amp; Health Care), on Capterra (Oct 13, 2020): "When editing the schedule there are a lot of clicks involved."
+- **Click-Heavy Workflow.** Routine schedule edits require multiple steps.
+
+  > "When editing the schedule there are a lot of clicks involved."
+  >
+  > Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+- **Setup Complexity.** Initial configuration takes longer than expected for some administrators.
+
+  > "It was a bit complicated to figure out from the administrator side."
+  >
+  > Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
+
 - Since TCP acquired Aladtec in 2021, request current named support contacts and response-time SLAs before committing
 - Mobile app has limited functionality compared to desktop interface
 
