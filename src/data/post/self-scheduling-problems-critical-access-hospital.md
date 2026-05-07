@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-04-12T00:00:00Z
-updateDate: 2026-04-12T00:00:00Z
+updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'Self-Scheduling Problems at a CAH: How to Fix Them'
+title: 'Self-Scheduling Problems at a Critical Access Hospital: How to Fix Them'
 excerpt: >
   Self-scheduling sounds fair until day shifts fill in the first hour and no one has touched
   nights or weekends. At a 25-bed Critical Access Hospital, that imbalance compounds every
@@ -166,7 +166,7 @@ One honest limitation: nurses do not submit preferences directly into a self-ser
 
 For [critical access hospital scheduling](/critical-access-hospital-scheduling) at CAH scale, the managed service model addresses the enforcement problem that makes self-scheduling hard to sustain: the fairness rules are applied by the system before the manager reviews the schedule, not after she has already fielded three complaints from staff.
 
-For a full look at what CAH-appropriate [nurse scheduling software](/nurse-scheduling-software) needs to handle beyond fairness, that guide covers the complete feature checklist.
+For a full look at what CAH-appropriate [nurse scheduling software](/nurse-scheduling-software) needs to handle beyond fairness, that guide covers the complete feature checklist. For more detail on the three-draft scoring model, see [how SimpleScheduleAI works](/how-it-works).
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Running a Critical Access Hospital in Texas?</p>
