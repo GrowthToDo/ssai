@@ -55,31 +55,40 @@ The mismatch appears at smaller hospitals. A 25-bed Critical Access Hospital (CA
 
 Small hospitals leave SmartLinx for predictable reasons. The platform's per-user pricing, IT-dependent configuration, and 3-4 month implementation timeline were designed for mid-market facilities with dedicated IT staff. At 25 beds, those costs do not recover their investment the way they do at 100 beds. The most common exit drivers, ranked by frequency:
 
-<div class="not-prose my-8 space-y-3">
-  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Top Reasons Small Hospitals Switch Away from SmartLinx</p>
-  <div class="flex items-center gap-3">
-    <div class="bg-blue-700 dark:bg-blue-600 rounded px-3 py-2 text-sm font-semibold text-white" style="width:100%">Implementation cost and timeline exceeded expectations</div>
-    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Most common</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <div class="bg-blue-500 dark:bg-blue-500 rounded px-3 py-2 text-sm font-semibold text-white" style="width:87%">Per-user pricing grows faster than scheduling ROI at small rosters</div>
-    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <div class="bg-blue-400 dark:bg-blue-400 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:75%">Ongoing IT dependency for configuration and troubleshooting</div>
-    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Common</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <div class="bg-blue-300 dark:bg-blue-300 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:62%">Feature complexity beyond what the hospital actually uses</div>
-    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <div class="bg-blue-200 dark:bg-blue-200 rounded px-3 py-2 text-sm font-semibold text-slate-800 dark:text-slate-900" style="width:48%">Support prioritized toward larger LTC customers</div>
-    <span class="text-xs font-bold text-slate-600 dark:text-slate-400 whitespace-nowrap">Moderate</span>
-  </div>
+<div class="not-prose my-8">
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Common Reasons Small Hospitals Switch Away from SmartLinx</p>
+  <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
+    <thead>
+      <tr class="border-b-2 border-slate-200 dark:border-slate-700">
+        <th class="text-left py-2 pr-4 font-semibold text-slate-700 dark:text-slate-300" style="width:65%">Reason</th>
+        <th class="text-left py-2 font-semibold text-slate-700 dark:text-slate-300" style="width:35%">Who It Affects</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-2 pr-4 text-slate-700 dark:text-slate-300">Implementation cost and timeline exceeded expectations</td>
+        <td class="py-2 text-slate-600 dark:text-slate-400">Hospitals mid-implementation or post-deployment</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-2 pr-4 text-slate-700 dark:text-slate-300">Per-user pricing grows faster than scheduling ROI at small rosters</td>
+        <td class="py-2 text-slate-600 dark:text-slate-400">Rosters under 50 nurses</td>
+      </tr>
+      <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
+        <td class="py-2 pr-4 text-slate-700 dark:text-slate-300">Ongoing IT dependency for configuration changes</td>
+        <td class="py-2 text-slate-600 dark:text-slate-400">Hospitals without dedicated IT staff</td>
+      </tr>
+      <tr class="align-top">
+        <td class="py-2 pr-4 text-slate-700 dark:text-slate-300">Feature depth exceeds what the hospital actively uses</td>
+        <td class="py-2 text-slate-600 dark:text-slate-400">Hospitals using fewer than three major modules</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-**Implementation cost and timeline:** SmartLinx implementations at small hospitals typically take 3-4 months with vendor involvement. At a 25-bed CAH, that is 3-4 months of parallel-running the old system alongside the new one, training staff on a complex platform, and paying for an implementation that serves a roster smaller than the platform was designed for.
+**Implementation cost and timeline:** SmartLinx implementations at small hospitals typically involve significant vendor involvement and a multi-month parallel-run period. At a 25-bed CAH, that means training staff on a complex platform and paying for an implementation that serves a roster smaller than the platform was designed for.
+
+> "Implementation was much more complex than expected and end result still was full of errors on first payroll."
+> Daniel C., CFO, Hospital & Health Care, March 16, 2021, Capterra
 
 **Per-user pricing at small rosters:** SmartLinx's per-user pricing model means the cost per scheduling outcome does not scale down proportionally with roster size. At 20 nurses, the monthly cost per nurse is higher than at 100 nurses. The compliance automation and analytics features that justify SmartLinx's price at larger facilities are underutilized at 25 beds.
 
@@ -131,16 +140,16 @@ SmartLinx competes in a different tier than most small hospital alternatives. Th
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">NurseGrid Manager</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Communication layer add-on</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Schedule visibility and communication</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">~$150-300</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not listed</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">~$5/user</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-4 font-medium text-slate-900 dark:text-slate-100">Deputy</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Basic schedule visibility</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Days</td>
-        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">No</td>
+        <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Not marketed</td>
         <td class="py-3 text-slate-600 dark:text-slate-400">$4.50/user</td>
       </tr>
     </tbody>
@@ -215,7 +224,7 @@ Time and attendance integration, automated CMS compliance documentation, and cal
 
 TCP Scheduling is TCP Software's enterprise-tier platform, the same parent company that owns Aladtec. It competes directly with SmartLinx in the mid-market healthcare segment and offers comparable compliance automation, credential tracking, and time and attendance integration. For hospitals evaluating a SmartLinx replacement that are already familiar with the TCP Software vendor ecosystem, TCP Scheduling is a natural comparison.
 
-Implementation is similar in scope to SmartLinx: IT involvement is required, deployment typically runs 3-5 months, and ongoing configuration maintenance is part of the operational model. The differentiator is the vendor relationship, for hospitals that have existing TCP contracts through Aladtec, migration may carry pricing and relationship advantages.
+TCP Scheduling is designed as an enterprise implementation requiring IT involvement and extended deployment. Ongoing configuration maintenance is part of the operational model. The differentiator is the vendor relationship: for hospitals that have existing TCP contracts through Aladtec, migration may carry pricing and relationship advantages. Confirm current implementation timeline and IT requirements with TCP Software directly.
 
 **Best for:** Hospitals leaving SmartLinx that already use Aladtec or have a TCP Software relationship, and want to consolidate scheduling under one vendor.
 
@@ -259,7 +268,7 @@ NurseGrid Manager is not a full SmartLinx replacement but can supplement or part
 > "they took away the Manager App for your phone."
 > Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
 
-NurseGrid Manager does not include schedule-building, credential tracking, or compliance documentation. Confirm current capabilities with NurseGrid before evaluating as a primary SmartLinx replacement.
+NurseGrid Manager includes schedule building and credential tracking. CMS compliance documentation and time and attendance integration are not listed on the NurseGrid product page. Confirm current capabilities with NurseGrid directly before evaluating as a primary SmartLinx replacement.
 
 **Verdict:** NurseGrid Manager can replace the communication portion of SmartLinx for hospitals that discover that is the primary usage pattern. All other SmartLinx functions require a separate tool if NurseGrid Manager is the replacement.
 
@@ -284,7 +293,7 @@ Deputy is a significant simplification from SmartLinx. If the reason for leaving
 
 **Healthcare compliance tooling.** Deputy is a general workforce scheduling platform and does not market healthcare-specific compliance features. Verify what compliance documentation capabilities exist before evaluating as a SmartLinx replacement.
 
-**Feature parity.** Deputy does not include time and attendance integration or credential tracking. Confirm specific capability gaps with Deputy before finalizing an evaluation.
+**Healthcare feature scope.** Deputy does not market healthcare-specific compliance documentation or nurse credentialing features. Confirm current capability scope with Deputy directly before evaluating as a SmartLinx replacement.
 
 **Verdict:** Deputy is the right move from SmartLinx only for organizations that audited their actual SmartLinx usage and found that compliance features were going unused and the primary value was schedule publishing. For any hospital with active CMS obligations, the compliance gap is disqualifying.
 
