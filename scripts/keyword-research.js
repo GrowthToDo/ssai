@@ -45,8 +45,18 @@ function dfsPost(endpoint, body) {
       let raw = '';
       res.on('data', (c) => { raw += c; });
       res.on('end', () => {
-        try { resolve(JSON.parse(raw)); }
-        catch (e) { reject(new Error(`Parse error: ${raw.slice(0, 200)}`)); }
+        if (res.statusCode !== 200) {
+          reject(new Error(`HTTP ${res.statusCode}: ${raw.slice(0, 200)}`));
+          return;
+        }
+        try {
+          const parsed = JSON.parse(raw);
+          if (parsed.status_code && parsed.status_code !== 20000) {
+            reject(new Error(`DataForSEO error ${parsed.status_code}: ${parsed.status_message}`));
+          } else {
+            resolve(parsed);
+          }
+        } catch (e) { reject(new Error(`Parse error: ${raw.slice(0, 200)}`)); }
       });
     });
     req.on('error', reject);
