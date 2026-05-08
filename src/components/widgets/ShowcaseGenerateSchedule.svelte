@@ -125,20 +125,20 @@
     <span class="h-2.5 w-2.5 rounded-full bg-gray-400 dark:bg-slate-600"></span>
     <span class="h-2.5 w-2.5 rounded-full bg-gray-400 dark:bg-slate-600"></span>
     <span class="h-2.5 w-2.5 rounded-full bg-gray-400 dark:bg-slate-600"></span>
-    <span class="ml-3 text-xs text-gray-500 dark:text-gray-400 font-mono">ICU · Week of Mar 2</span>
+    <span class="ml-3 text-xs text-gray-600 dark:text-gray-300 font-mono">ICU · Week of Mar 2</span>
   </div>
 
   <!-- Column headers -->
-  <div class="grid border-b border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/50 px-3 py-2 text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider"
+  <div class="grid border-b border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-800/50 px-3 py-2 text-xs font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider"
     style="grid-template-columns: 5.5rem 1fr 1fr">
     <span></span>
     <span class="pr-2">
       Day Shift
-      <span class="block font-normal normal-case tracking-normal text-gray-400 dark:text-gray-500">07:00–19:00</span>
+      <span class="block font-normal normal-case tracking-normal text-gray-600 dark:text-gray-400">07:00–19:00</span>
     </span>
     <span>
       Night Shift
-      <span class="block font-normal normal-case tracking-normal text-gray-400 dark:text-gray-500">19:00–07:00</span>
+      <span class="block font-normal normal-case tracking-normal text-gray-600 dark:text-gray-400">19:00–07:00</span>
     </span>
   </div>
 
@@ -166,19 +166,19 @@
         >
           <!-- Cell header: counter top-right -->
           <div class="flex items-center justify-between mb-1.5">
-            <span class="text-[10px] text-gray-400 dark:text-gray-500">
+            <span class="text-[10px] text-gray-600 dark:text-gray-400">
               {#if complete}
                 <span class="text-green-600 dark:text-green-400">✓</span>
               {/if}
             </span>
-            <span class="text-[10px] font-semibold {complete ? 'text-green-600 dark:text-green-400' : 'text-gray-400 dark:text-gray-500'}">
+            <span class="text-[10px] font-semibold {complete ? 'text-green-600 dark:text-green-400' : 'text-gray-600 dark:text-gray-400'}">
               {filled}/2
             </span>
           </div>
 
           {#if phase === 0}
             <!-- Empty state -->
-            <p class="text-[11px] italic text-gray-400 dark:text-gray-500">No staff assigned</p>
+            <p class="text-[11px] italic text-gray-600 dark:text-gray-400">No staff assigned</p>
           {:else}
             <!-- Chip list -->
             <ul class="space-y-1">
@@ -187,7 +187,7 @@
                   <li class="flex items-center gap-1.5 text-xs">
                     <span class="h-2 w-2 rounded-full shrink-0 {nurse.charge ? 'bg-blue-500' : 'bg-gray-400'}"></span>
                     <span class="text-gray-800 dark:text-gray-200 font-medium">{nurse.name}</span>
-                    <span class="text-[10px] text-gray-400 dark:text-gray-500">RN</span>
+                    <span class="text-[10px] text-gray-600 dark:text-gray-400">RN</span>
                     {#if nurse.charge}
                       <span class="ml-auto text-[9px] bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 rounded px-1 py-0.5 font-semibold uppercase tracking-wide">Charge</span>
                     {/if}
