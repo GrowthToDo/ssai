@@ -51,6 +51,8 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 
 ## Competitor Content
 
+- [ ] **Loaded `.claude/skills/competitor-reviews.md`** and fetched live G2/Capterra quotes via WebSearch before writing any competitor section — no static review snapshot exists; quotes must be fetched fresh
+- [ ] All reviewer quotes are dated within 30 days of today (re-fetch if older)
 - [ ] No specific capability/feature claims without a verified current product page, dated within 30 days
 - [ ] No volume language near a competitor name: "consistently", "widely", "many reviewers", "most users", "multiple reviewers"
 - [ ] No feature-absence assertions ("No X", "lacks Y", "not built-in") without both a verbatim attributed reviewer quote AND verification against the live product page within 30 days

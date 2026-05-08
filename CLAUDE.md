@@ -16,15 +16,16 @@ Pradeep is building this as a founder. Frame all suggestions from a hospital ope
 
 ## Key File Locations
 
-| What                  | Where                                        |
-| --------------------- | -------------------------------------------- |
-| Pages                 | `src/pages/`                                 |
-| Blog posts            | `src/data/post/` (Markdown/MDX)              |
-| Blog route            | `src/pages/[...blog]/index.astro`            |
-| Schema component      | `src/components/common/SchemaOrg.astro`      |
-| SEO/AEO skill         | `.claude/skills/seo-aeo-simplescheduleai.md` |
-| Blog post template    | `docs/seo/blog-post-template.mdx`            |
-| Pre-publish checklist | `docs/seo/pre-publish-checklist.md`          |
+| What                     | Where                                           |
+| ------------------------ | ----------------------------------------------- |
+| Pages                    | `src/pages/`                                    |
+| Blog posts               | `src/data/post/` (Markdown/MDX)                 |
+| Blog route               | `src/pages/[...blog]/index.astro`               |
+| Schema component         | `src/components/common/SchemaOrg.astro`         |
+| SEO/AEO skill            | `.claude/skills/seo-aeo-simplescheduleai.md`    |
+| Competitor review skill  | `.claude/skills/competitor-reviews.md`          |
+| Blog post template       | `docs/seo/blog-post-template.mdx`               |
+| Pre-publish checklist    | `docs/seo/pre-publish-checklist.md`             |
 
 ## Key Pages
 
@@ -37,6 +38,7 @@ Pages inject page-specific JSON-LD via `<SchemaOrg slot="head" schema={[...]} />
 ## Rules
 
 - **Blog posts:** Always load the `.claude/skills/seo-aeo-simplescheduleai.md` skill before writing or editing blog posts.
+- **Competitor content:** Load `.claude/skills/competitor-reviews.md` before writing any section that includes competitor Key Limitations, reviewer quotes, or feature comparisons. Do not rely on any static review snapshot — fetch live quotes via WebSearch using the skill.
 - **No SVG in blog posts:** Never use inline `<svg>` in `.md` post files. Hardcoded SVG fill colors break dark mode and SVG text nodes overflow bars or render as raw concatenated text. Use Tailwind `<div>` bar charts (percentage widths) and `<table>` with `dark:` variants instead.
 - **New blog posts** go in `src/data/post/`. Follow `docs/seo/blog-post-template.mdx` for structure.
 - **Schema:** Use `SchemaOrg.astro` — never inline JSON-LD manually in page files.

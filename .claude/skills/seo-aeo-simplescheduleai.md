@@ -1307,7 +1307,7 @@ pain points, language, and decision criteria.
 ### 13.3 Competitor Page Patterns
 
 Four formats. All require competitor research first (sign up, document features,
-mine G2/Capterra reviews). Minimum competitor research before writing: 2 hours.
+fetch live G2/Capterra quotes via `.claude/skills/competitor-reviews.md`). Minimum competitor research before writing: load the skill and run WebSearch queries until you have 3–5 verbatim quotes per competitor with full attribution.
 
 **Honesty rule:** Acknowledge competitor strengths explicitly. Biased comparisons
 are penalized by AI citation systems and lose trust with evaluating buyers.
