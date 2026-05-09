@@ -25,6 +25,10 @@ export default defineConfig({
   site: 'https://simplescheduleai.com',
   output: 'static',
 
+  build: {
+    inlineStylesheets: 'always',
+  },
+
   integrations: [
     tailwind({
       applyBaseStyles: false,

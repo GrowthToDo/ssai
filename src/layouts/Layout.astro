@@ -12,8 +12,8 @@ import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
-// Comment the line below to disable View Transitions
-import { ClientRouter } from 'astro:transitions';
+// View Transitions disabled — caused 465ms forced reflow on mobile (TBT penalty)
+// import { ClientRouter } from 'astro:transitions';
 
 import type { MetaData as MetaDataType } from '~/types';
 import SchemaOrg from '~/components/common/SchemaOrg.astro';
@@ -63,8 +63,8 @@ const orgSchema = {
     <SiteVerification />
     <Analytics />
 
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript" is:inline>
+    <!-- Microsoft Clarity — runs via Partytown (off main thread) -->
+    <script type="text/partytown">
       (function (c, l, a, r, i, t, y) {
         c[a] =
           c[a] ||
@@ -79,8 +79,7 @@ const orgSchema = {
       })(window, document, 'clarity', 'script', 'w8wkhk69g6');
     </script>
 
-    <!-- Comment the line below to disable View Transitions -->
-    <ClientRouter fallback="swap" />
+    <!-- View Transitions disabled — see import comment above -->
     <SchemaOrg schema={orgSchema} />
     <slot name="head" />
   </head>
