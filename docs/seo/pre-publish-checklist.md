@@ -24,6 +24,8 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 ## Structure and Format
 
 - [ ] Key Takeaways (5–6 bullets, ~100 words) placed **BEFORE** the Table of Contents — never after
+- [ ] **Key Takeaways re-read AFTER all body edits are complete** — KT language must match the body framing exactly. If body says "not documented on product page," KTs cannot say "no X" or "lacks X." Re-check KTs last, not first.
+- [ ] **Excerpt re-read AFTER all body edits** — same rule: no "lacks X" or "no X" in excerpt if body uses "not documented" framing
 - [ ] No TL;DR section present — Key Takeaways replaces TL;DR (TL;DR is an AI-tell pattern)
 - [ ] No em-dashes (`—`) anywhere — prose, excerpts, table cells, TOC, blockquotes, CTA cards
 - [ ] No AI-tone phrases: "delve into", "dive into", "it's worth noting", "in conclusion", "robust", "leverage", "game-changing", "seamless", "comprehensive solution", "transformative", "at the end of the day", "unlock", "harness", "navigating", "streamline"
@@ -33,6 +35,7 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] One stat or data point per 150–200 words of body text
 - [ ] Word count matches post type: BOFU 3,000–5,000 | vs-service MOFU 1,500–2,500 | MOFU 1,500–2,500 | TOFU narrative 1,000–1,500 | Glossary 600–1,000
 - [ ] No inline `<svg>` in `.md` files — all visuals are Tailwind `<div>` bar charts or `<table>` with `dark:` variants
+- [ ] **Every data visualization (bar chart, ranked list with labels like "Most common", frequency table) cites a primary source** — if the frequency/ranking data was not derived from a named survey, research dataset, or cited reviewer analysis, the visual must be removed and replaced with sourced text. "Inferred from product review themes" is not a source.
 - [ ] Minimum visual elements: 3 for BOFU/how-to | 2 for vs-service MOFU | 1 for MOFU/TOFU | 0 for Glossary
 - [ ] Author bio present at end of every post (not optional): `_Pradeep Pandey is the founder of SimpleScheduleAI..._`
 - [ ] H2 headings never use "CAH" abbreviation — always "Critical Access Hospital" in headings
@@ -52,14 +55,15 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 ## Competitor Content
 
 - [ ] **Loaded `.claude/skills/competitor-reviews.md`** and fetched live G2/Capterra quotes via WebSearch before writing any competitor section — no static review snapshot exists; quotes must be fetched fresh
-- [ ] All reviewer quotes are dated within 30 days of today (re-fetch if older)
+- [ ] **G2 and Capterra star ratings and review counts fetched for every competitor** — this is separate from and in addition to verbatim quotes. Fetch ratings even when no usable quotes are found. Add ratings to comparison table and to each alternative profile.
+- [ ] All reviewer quotes are dated within 30 days of today. **If no quotes within 30 days are found, use the most recent available quotes with their actual date** — do not skip quotes entirely. Older quotes are valid supporting evidence; add a note in "A Note on Sources" with the quote date.
 - [ ] No specific capability/feature claims without a verified current product page, dated within 30 days
 - [ ] No volume language near a competitor name: "consistently", "widely", "many reviewers", "most users", "multiple reviewers"
 - [ ] No feature-absence assertions ("No X", "lacks Y", "not built-in") without both a verbatim attributed reviewer quote AND verification against the live product page within 30 days
 - [ ] Competitor names appear in neutral context only — no embedded qualitative framing
 - [ ] Reviewer quotes are verbatim from G2/Capterra with: reviewer name, role, date, source — no paraphrasing
 - [ ] Key Limitations sections in alternatives posts use blockquote format: `**Bold Title.** Intro sentence.` then `> "Verbatim quote."` then `> Name, Role, Date, Source`
-- [ ] When no verified hospital-context reviewer quote exists, use neutral framing: "Verify with vendor" or "Not documented on product page" — never volume language as a substitute
+- [ ] When no hospital-context reviewer quote exists within 30 days, use the most recent available quote with its actual date. When absolutely no usable quote exists on any platform, use neutral framing ("Verify with vendor" / "Not documented on product page") and document this in "A Note on Sources" — never volume language as a substitute
 
 ## Comparison Tables (when comparing competitor products)
 
@@ -90,7 +94,7 @@ _These apply whenever the filename matches the pattern `[tool]-alternatives.md`.
 - [ ] `## Quick Comparison: [Tool] vs. The Alternatives` table has "Best For" as the second column
 - [ ] `## What Are the N Best [Tool] Alternatives for Hospital Scheduling?` uses numbered H3s (`### 1. SimpleScheduleAI`, `### 2. ...`)
 - [ ] SimpleScheduleAI is listed **first** among the alternatives
-- [ ] Every alternative profile contains: intro paragraph, Best for, Key advantages (bullets), Key limitations (bullets), Verdict, Cost
+- [ ] Every alternative profile contains: intro paragraph, Best for, Key advantages (bullets), Key limitations (bullets), Verdict, **Ratings** (G2 and/or Capterra with review count), Cost
 - [ ] `## When to Stay with [Tool]?` section present with 4 bullet conditions
 - [ ] `## How SimpleScheduleAI Compares to [Tool]` Tailwind comparison table present (8 rows minimum)
 - [ ] `## What to Do This Week` section present with 5 numbered steps
