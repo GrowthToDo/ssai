@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: 'G-M46BLMCNJN'
+      id: 'G-J2WK4QR3RC'
       partytown: true
 
 ui:
