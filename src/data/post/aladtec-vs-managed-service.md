@@ -34,8 +34,8 @@ metadata:
 ## Table of Contents
 
 - [What Is the Core Difference Between the Two Models?](#what-is-the-core-difference-between-the-two-models)
-- [What Aladtec Is?](#what-aladtec-is)
-- [What a Managed Scheduling Service Is?](#what-a-managed-scheduling-service-is)
+- [What Is Aladtec?](#what-is-aladtec)
+- [What Is a Managed Scheduling Service?](#what-is-a-managed-scheduling-service)
 - [How Does Head-to-Head Compare?](#how-does-head-to-head-compare)
   - [How Does Implementation Speed Compare?](#how-does-implementation-speed-compare)
   - [What Is the Weekly Time Burden on the Nurse Manager?](#what-is-the-weekly-time-burden-on-the-nurse-manager)
@@ -43,8 +43,8 @@ metadata:
   - [How Does CMS Compliance Documentation Differ?](#how-does-cms-compliance-documentation-differ)
   - [What Does Ongoing Configuration Maintenance Look Like?](#what-does-ongoing-configuration-maintenance-look-like)
   - [How Does the Cost Structure Compare?](#how-does-the-cost-structure-compare)
-- [When Aladtec Is the Right Choice?](#when-aladtec-is-the-right-choice)
-- [When a Managed Service Is the Right Choice?](#when-a-managed-service-is-the-right-choice)
+- [When Is Aladtec the Right Choice?](#when-is-aladtec-the-right-choice)
+- [When Is a Managed Service the Right Choice?](#when-is-a-managed-service-the-right-choice)
 - [What Decision Framework Should You Use?](#what-decision-framework-should-you-use)
 - [What to Do This Week?](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
@@ -130,7 +130,7 @@ When you buy a managed scheduling service, you are buying the output. The vendor
 
 For a 400-bed hospital with a dedicated scheduling department, the distinction may not matter. For a 25-bed CAH where the nurse manager is also scheduled for 24-36 clinical hours per week, the distinction is the difference between a tool that helps and an overhead that disappears.
 
-## What Aladtec Is?
+## What Is Aladtec?
 
 Aladtec is a web-based scheduling platform built originally for emergency services (fire, EMS, and law enforcement) and expanded to healthcare and other sectors. It handles shift scheduling, availability tracking, time-off requests, and basic overtime monitoring.
 
@@ -153,7 +153,7 @@ Aladtec is a web-based scheduling platform built originally for emergency servic
 
 These considerations are not unique to Aladtec. Most general-purpose scheduling platforms that were not built specifically for acute hospital care share them. The question is whether the configuration work required to fill those gaps fits the bandwidth of the CAH implementing the system.
 
-## What a Managed Scheduling Service Is?
+## What Is a Managed Scheduling Service?
 
 A managed scheduling service is not scheduling software with extra support. It is a different delivery model where the vendor's team handles scheduling operations as an ongoing function. The hospital's nurse manager reviews and approves schedules rather than building them, reducing scheduling time from 4-6 hours per week to 1-2 hours.
 
@@ -204,7 +204,7 @@ A nurse manager using SimpleScheduleAI spends:
 
 Total: 1-2 hours per week.
 
-The 3-4 hour weekly difference adds up to approximately 150-200 hours per year. For a nurse manager billing at a clinical rate, that is the equivalent of 12-16 12-hour shifts.
+The 3-4 hour weekly difference adds up to approximately 150-200 hours per year. At a nurse manager's hourly rate, 150-200 hours is the equivalent of 12-16 twelve-hour shifts per year.
 
 <div class="not-prose my-8">
   <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Weekly Nurse Manager Time Spent on Scheduling</p>
@@ -330,7 +330,7 @@ When the full labor cost is included, self-serve scheduling software is often mo
   </div>
 </div>
 
-## When Aladtec Is the Right Choice?
+## When Is Aladtec the Right Choice?
 
 Aladtec is the right choice when the organization has someone whose primary job is scheduling administration. That person does not have to be a full-time scheduler. But they need to have 4-6 hours per week of protected time for scheduling work, the ability to configure and maintain the system as staff changes, and enough comfort with software to troubleshoot configuration issues when they arise.
 
@@ -344,11 +344,11 @@ Specifically, Aladtec fits well when:
 
 Aladtec is also a reasonable choice for organizations that tried a managed service and found that they preferred direct control over the schedule. Some nurse managers want to see every cell of the schedule before it goes to staff. A managed service model, where the vendor builds the draft and the nurse manager reviews, does not fit every management style.
 
-## When a Managed Service Is the Right Choice?
+## When Is a Managed Service the Right Choice?
 
 A managed scheduling service is the right choice when the scheduling burden falls on someone who cannot afford the time it requires. For most Critical Access Hospitals, that person is the nurse manager: a clinician responsible for direct patient care, staff supervision, quality reporting, budget management, and hiring in addition to scheduling.
 
-For most Critical Access Hospitals, that person is the nurse manager. The typical CAH nurse manager at a 25-bed Texas hospital is responsible for: direct patient care (2-3 shifts per week), staff supervision, quality reporting, CMS survey readiness, budget tracking, hiring, and employee relations. Scheduling is one item on a long list, and it is not the highest-value item on that list.
+The typical CAH nurse manager at a 25-bed Texas hospital is responsible for: direct patient care (2-3 shifts per week), staff supervision, quality reporting, CMS survey readiness, budget tracking, hiring, and employee relations. Scheduling is one item on a long list, and it is not the highest-value item on that list.
 
 When a nurse manager is spending 5 hours per week on scheduling and 3 of those hours are on tasks that do not require clinical judgment (building a schedule draft, checking who is close to overtime, formatting a CMS documentation binder), those 3 hours are a recoverable cost.
 
@@ -403,7 +403,7 @@ Two variables drive the decision: how much unprotected time the nurse manager cu
   <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">The strongest predictor: how many unprotected hours per week does the nurse manager spend on scheduling tasks that do not require clinical judgment?</p>
 </div>
 
-The flowchart above covers the two most common decision factors. In practice, the strongest predictor of which model is right is: how much unprotected time is the nurse manager spending on scheduling tasks that do not require their clinical or managerial judgment? If the answer is more than 3 hours per week, and those 3 hours are being taken from clinical work, a managed service almost always has a better return on investment than software, regardless of price.
+The decision table above covers the two most common decision factors. In practice, the strongest predictor of which model is right is: how much unprotected time is the nurse manager spending on scheduling tasks that do not require their clinical or managerial judgment? If the answer is more than 3 hours per week, and those 3 hours are being taken from clinical work, a managed service almost always has a better return on investment than software, regardless of price.
 
 ## What to Do This Week?
 
