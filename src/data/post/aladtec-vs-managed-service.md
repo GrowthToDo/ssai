@@ -10,7 +10,7 @@ excerpt: >
   where the nurse manager is also covering clinical shifts, those two things are not
   interchangeable. This guide compares Aladtec and SimpleScheduleAI across implementation speed,
   weekly time burden, callout handling, CMS documentation, and total cost of ownership.
-image: https://images.unsplash.com/photo-1592218698237-5bd1aef5e3e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - aladtec
