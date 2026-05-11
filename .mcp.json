@@ -1,5 +1,15 @@
 {
   "mcpServers": {
+    "dataforseo": {
+      "command": "npx",
+      "args": ["-y", "dataforseo-mcp-server"],
+      "env": {
+        "DATAFORSEO_USERNAME": "pradeep.pandey99@gmail.com",
+        "DATAFORSEO_PASSWORD": "942da4325de59ba3",
+        "ENABLED_MODULES": "SERP,KEYWORDS_DATA,ONPAGE,DATAFORSEO_LABS,BACKLINKS,DOMAIN_ANALYTICS,BUSINESS_DATA,CONTENT_ANALYSIS,AI_OPTIMIZATION",
+        "FIELD_CONFIG_PATH": "C:\\Users\\Admin\\.claude\\skills\\seo\\dataforseo-field-config.json"
+      }
+    },
     "google-search-console": {
       "command": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/uvx.exe",
       "args": ["--from", "git+https://github.com/AminForou/mcp-gsc", "mcp-gsc"],
