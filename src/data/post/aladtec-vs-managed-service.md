@@ -151,7 +151,7 @@ Aladtec is a web-based scheduling platform built originally for emergency servic
 - FLSA 8-and-80 rule for healthcare employers: Aladtec uses overtime thresholds configurable by the administrator; whether the 8-and-80 healthcare rule is a selectable option is not documented
 - Pre-built hospital-specific configuration defaults: the extent of pre-built vs. required setup configuration is not specified on the product page
 
-Verify current capabilities directly with Aladtec before making a purchasing decision based on any of the items above.
+Verify all of the above directly with Aladtec before making a purchasing decision.
 
 These considerations are not unique to Aladtec. Most general-purpose scheduling platforms that were not built specifically for acute hospital care share them. The question is whether the configuration work required to fill those gaps fits the bandwidth of the CAH implementing the system.
 
