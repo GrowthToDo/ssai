@@ -1,13 +1,13 @@
 ---
 draft: false
 publishDate: 2026-05-12T00:00:00Z
-updateDate: 2026-05-11T00:00:00Z
+updateDate: 2026-05-14T00:00:00Z
 author: 'Pradeep Pandey'
-title: 'TCP vs. Managed Scheduling: Critical Access Hospital'
+title: 'TCP TimeClock+ vs. Managed Scheduling for Small Hospitals'
 excerpt: >
-  Aladtec by TCP is a self-serve platform your team configures and operates. A managed scheduling
-  service runs the scheduling function for you. For a Critical Access Hospital with no dedicated
-  scheduling staff, the operating model difference matters more than the feature list.
+  TCP TimeClock+ is a time and attendance platform that also handles scheduling. A managed
+  scheduling service focuses on scheduling only. For a Critical Access Hospital where the nurse
+  manager is also responsible for clinical work, the distinction matters.
 image: https://images.unsplash.com/photo-1604480131833-5d7aea770e1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -17,75 +17,75 @@ tags:
   - critical-access-hospitals
 metadata:
   canonical: 'https://simplescheduleai.com/blog/tcp-scheduling-software-vs-managed-service'
-  description: 'TCP Scheduling Software (Aladtec by TCP) vs. managed nurse scheduling for Critical Access Hospitals. Compare setup time, weekly burden, callout handling, and CMS compliance.'
+  description: 'TCP TimeClock+ vs. managed nurse scheduling for Critical Access Hospitals. Compare features, weekly burden, callout handling, and what each model requires from your nurse manager.'
 ---
 
 ## Key Takeaways
 
-- Aladtec by TCP is a self-serve scheduling platform: your nurse manager configures it, builds schedules in it, and manages exceptions through it. A managed service runs the scheduling function for her.
-- TCP reduces scheduling from 8-12 hours per week to 4-6 hours. A managed service reduces it to 1-2 hours. The delta is 3-4 hours per week, roughly 150-200 hours of recovered nurse manager time per year.
-- TCP has a staff-facing mobile app. SimpleScheduleAI does not. This is the primary reason to choose TCP over a managed service.
-- A managed service onboards in 3-5 days. TCP takes 2-4 weeks to configure before the first operational schedule.
-- The right choice depends on whether your nurse manager wants to operate a scheduling platform or have the scheduling work done for her.
+- TCP TimeClock+ is a time and attendance platform with scheduling features built in. A managed scheduling service focuses on scheduling only. These are different operating models, not just different tools.
+- TCP TimeClock+ has a staff-facing mobile app for clocking in and out, viewing schedules, and requesting time off. SimpleScheduleAI does not have a nurse-facing app. This is the primary reason to choose TCP over a managed service.
+- TCP TimeClock+ is rated 4.4/5 on Capterra across 271 reviews. Its scheduling features are described by some healthcare users as basic compared to dedicated scheduling tools.
+- TCP Software owns three separate products: TimeClock+ (time and attendance), Humanity Scheduling (advanced scheduling), and Aladtec (healthcare and public safety scheduling). Each is a distinct product. This post covers TimeClock+ only.
+- The right choice depends on whether your nurse manager needs unified time tracking and scheduling in one platform, or needs a scheduling-focused service that handles the weekly scheduling work for her.
 
 ## Table of Contents
 
-- [What Is TCP Scheduling Software?](#what-is-tcp-scheduling-software)
+- [What Is TCP TimeClock+?](#what-is-tcp-timeclock)
 - [What Does a Managed Scheduling Service Do Differently?](#what-does-a-managed-scheduling-service-do-differently)
-- [How Does TCP Compare to a Managed Service Head-to-Head?](#how-does-tcp-compare-to-a-managed-service-head-to-head)
-- [Where Does TCP Win?](#where-does-tcp-win)
+- [How Does TCP TimeClock+ Compare to a Managed Service Head-to-Head?](#how-does-tcp-timeclock-compare-to-a-managed-service-head-to-head)
+- [Where Does TCP TimeClock+ Win?](#where-does-tcp-timeclock-win)
 - [Where Does a Managed Service Win?](#where-does-a-managed-service-win)
 - [How Does Time to Value Compare?](#how-does-time-to-value-compare)
 - [Which Fits Your Critical Access Hospital?](#which-fits-your-critical-access-hospital)
 - [What to Do This Week?](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-Aladtec by TCP is a self-serve workforce management platform used by healthcare organizations, EMS agencies, and fire departments. TCP Software acquired Aladtec in October 2021; the product now operates under the Aladtec by TCP brand. For [critical access hospital scheduling](/critical-access-hospital-scheduling), TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold: when the nurse manager is responsible for clinical supervision, staff development, and regulatory compliance in addition to building schedules. For the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide.
+TCP TimeClock+ is a time and attendance platform made by TCP Software. It combines time clock management, leave tracking, payroll integration, and basic employee scheduling in one system. For [critical access hospital scheduling](/critical-access-hospital-scheduling), TCP TimeClock+ is often chosen by hospitals that want one platform handling both time tracking and scheduling rather than managing two separate tools. The question for a CAH nurse manager is whether a system built primarily around time tracking meets her scheduling needs, or whether a scheduling-focused service handles more of the weekly work for her. For the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide.
 
 <div class="not-prose my-8">
   <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="bg-slate-100 dark:bg-slate-800">
         <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:28%">Dimension</th>
-        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:36%">TCP (Aladtec by TCP)</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-800 dark:text-slate-200" style="width:36%">TCP TimeClock+</th>
         <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-blue-700 dark:text-blue-400" style="width:36%">Managed Service (SimpleScheduleAI)</th>
       </tr>
     </thead>
     <tbody>
       <tr class="align-top">
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Product category</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Scheduling software</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Time and attendance + scheduling</td>
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Managed scheduling service</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Setup</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">2-4 weeks, nurse manager configures</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">3-5 days, specialist configures</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Primary strength</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Time tracking, payroll integration, leave management</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse schedule building, callout coverage, CAH compliance workflows</td>
       </tr>
       <tr class="align-top">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Weekly scheduling work</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">4-6 hours (nurse manager builds)</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">1-2 hours (nurse manager reviews)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Scheduling focus</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Secondary feature; some users describe it as basic</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Core function; specialist builds the schedule each cycle</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Overtime tracking</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Manual check before publishing</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Proactive, flagged before draft presented</td>
-      </tr>
-      <tr class="align-top">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">CMS §485.635 audit trail</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Available if configured correctly</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Automatic, every change logged</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Callout coverage</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager checks platform, calls manually</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Pre-ranked shortlist with constraints applied</td>
-      </tr>
-      <tr class="align-top">
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Staff-facing app</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Yes, nurses view schedules on mobile</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Yes; nurses clock in/out, view schedules, request time off</td>
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Not available; schedule delivered via approval workflow</td>
+      </tr>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Overtime tracking</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Configurable thresholds; nurse manager checks before publishing</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Proactive; flagged before draft is presented</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">CMS §485.635 audit trail</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Event logs available; CAH-specific documentation not confirmed. Verify with TCP.</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Automatic; every change logged for compliance documentation</td>
+      </tr>
+      <tr class="align-top">
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Callout coverage</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager checks platform and calls manually; advanced backfill requires Humanity Scheduling add-on</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Pre-ranked shortlist with credentials and overtime status applied</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-800/50 align-top">
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">IT involvement</td>
@@ -94,108 +94,109 @@ Aladtec by TCP is a self-serve workforce management platform used by healthcare 
       </tr>
       <tr class="align-top">
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Ratings (May 2026)</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Capterra: 4.6/5 (17 reviews; small sample)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">Capterra: 4.4/5 (271 reviews)</td>
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">New service; in active pilot phase</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-## What Is TCP Scheduling Software?
+## What Is TCP TimeClock+?
 
-Aladtec by TCP provides scheduling tools, availability management, overtime tracking, and credential tracking as a self-serve platform. Formerly known as Aladtec and acquired by TCP Software in October 2021, the platform continues under the Aladtec by TCP brand. The core model is self-serve: TCP provides the structure and the tools; your team provides the labor to configure and operate them.
+TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. Its core strengths are time clock management, payroll integration, leave and absence tracking, and overtime monitoring. Scheduling is part of the platform but is not its primary design focus. Some healthcare users on Capterra note the scheduling aspect is more basic than dedicated scheduling tools. The platform carries a 4.4/5 rating from 271 reviews on Capterra as of May 2026.
 
-In practice at a Critical Access Hospital, this means the nurse manager configures the initial system (entering all nurses, certifications, unit rules, scheduling constraints), builds the schedule each cycle, manages availability changes as they come in, handles callout coverage by checking the platform and making replacement calls, and maintains certification records as they change. TCP automates parts of the process, but the nurse manager is the operator.
+TCP Software is the parent company. It owns three separate workforce management products: TimeClock+ for time and attendance, Humanity Scheduling for advanced employee scheduling, and Aladtec for healthcare and public safety scheduling. These are distinct products with different feature sets. A Critical Access Hospital evaluating TCP should clarify which product addresses their scheduling needs before purchasing.
 
-**What TCP does well:**
+**What TCP TimeClock+ does well:**
 
-- Shift scheduling across multiple departments and rotation types
-- Staff-facing mobile app: nurses view schedules, submit time-off requests, and accept open shifts
-- Overtime tracking with configurable thresholds
-- Credential and certification tracking with expiration alerts
-- Event logs and audit trail for schedule changes
+- Time clock management with mobile app, web, and on-site hardware options
+- Payroll integration and automated payroll processing
+- Leave and absence tracking with accrual management and approval workflows
+- Overtime threshold monitoring with configurable rules
+- Staff-facing mobile app: nurses clock in and out, view schedules, and submit time-off requests
+- Event logs and audit trails for time and attendance records
 
-**What TCP does not include by default:**
+**What TCP TimeClock+ does not include by default:**
 
-- CMS Conditions of Participation documentation templates (§485.635 for CAH certification): not documented on the product page
-- Automated callout ranking by overtime risk and credentials: TCP surfaces availability but the nurse manager applies the constraint logic
-- Pre-built hospital-specific configuration: setup requires configuring all unit rules, shift patterns, and compliance thresholds from scratch
+- CMS Conditions of Participation documentation for CAH certification (§485.635): not documented as a product feature; verify with TCP before purchasing
+- Automated callout replacement ranking: nurses can view availability, but the nurse manager applies constraint logic manually; advanced backfill is in TCP Humanity Scheduling, a separate product
+- CAH-specific configuration templates: setup requires configuring shift rules, credential requirements, and compliance thresholds from scratch
 
 Verify current capabilities directly with TCP before making a purchasing decision.
 
 ## What Does a Managed Scheduling Service Do Differently?
 
-A managed scheduling service changes the operating model entirely. Instead of software your nurse manager runs, it is a service a specialist runs on her behalf. The nurse manager receives a draft schedule built around her constraints, reviews it, and approves. Setup, overtime monitoring, callout ranking, and credential tracking happen outside her workload.
+A managed scheduling service removes the scheduling function from the nurse manager's plate entirely. Instead of a platform she configures and operates, it is a service a specialist runs on her behalf. The nurse manager receives a draft schedule built around her constraints, reviews it, and approves. Weekly scheduling work, overtime monitoring, callout ranking, and roster maintenance happen outside her workload.
 
 With SimpleScheduleAI:
 
 - A scheduling specialist completes initial setup from your staff roster within 3-5 days
-- The specialist builds draft schedule options each cycle, checking overtime thresholds and credential requirements before presenting drafts
-- The nurse manager reviews draft schedules and approves or requests adjustments
+- The specialist builds draft schedules each cycle, checking overtime thresholds and credential requirements before presenting drafts
+- The nurse manager reviews the proposed schedule, approves it or requests adjustments, and it goes to staff
 - Callout coverage shortlists come pre-ranked by certification, overtime status, and availability
-- Every change is automatically logged for [CMS §485.635](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-485/subpart-F/section-485.635) compliance documentation
+- Every schedule change is automatically logged for [CMS §485.635](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-485/subpart-F/section-485.635) compliance documentation
 - The specialist maintains the roster as staff join, leave, or change credentials
 
 The nurse manager's role shifts from operator to approver. She retains final authority over every scheduling decision; the upstream work is handled for her. For a full walkthrough of how SimpleScheduleAI delivers scheduling as a service, see [how it works](/how-it-works).
 
-## How Does TCP Compare to a Managed Service Head-to-Head?
+## How Does TCP TimeClock+ Compare to a Managed Service Head-to-Head?
 
-The core difference is the labor model: TCP gives a nurse manager better tools; a managed service removes the scheduling labor from the nurse manager's plate entirely. Six dimensions drive the practical decision at a 25-bed Critical Access Hospital with no dedicated scheduling coordinator.
+TCP TimeClock+ and a managed scheduling service solve different problems. TCP TimeClock+ is a unified platform for time tracking, payroll, and basic scheduling: the nurse manager operates it, and the payroll and time tracking happen inside it. A managed scheduling service is focused entirely on scheduling: a specialist handles the scheduling work, but time tracking and payroll remain separate. The right fit depends on which problem the hospital is trying to solve.
 
 ### How Does Implementation Speed Compare?
 
-TCP takes 2-4 weeks from contract to first operational schedule. That timeline includes initial setup calls, entering staff profiles, configuring scheduling rules, and training. A managed service takes 3-5 days because the specialist handles all configuration from the nurse manager's staff roster. For a CAH currently on spreadsheets, four weeks of parallel-running two systems is a real cost.
+TCP TimeClock+ implementation timelines vary by configuration complexity and are not published. Contact TCP directly for a current estimate. Time-to-first-schedule includes setup calls, entering staff and payroll configurations, credential rules, and training on both the scheduling and time-tracking sides. A managed scheduling service takes 3-5 days because the specialist handles all configuration from the nurse manager's staff roster.
 
 ### What Is the Weekly Time Burden on the Nurse Manager?
 
-The ongoing weekly time difference is the most operationally significant comparison. A nurse manager using TCP to schedule a 20-25 nurse department spends 4-6 hours per week: building drafts, processing time-off, handling callouts, and maintaining system configuration. A nurse manager using SimpleScheduleAI spends 1-2 hours per week on review and approval only. At 3-4 hours recovered per week, that is 150-200 hours per year returned to clinical and supervisory work.
+With TCP TimeClock+, the nurse manager uses the platform for both time tracking approvals and schedule building. The scheduling component alone requires reviewing drafts, processing time-off requests, managing callout coverage, and maintaining configuration. A managed service reduces the scheduling portion to 1-2 hours of review and approval per week. The time tracking and payroll functions, if handled through TCP TimeClock+, remain separate from what a managed scheduling service covers.
 
 ### How Does Callout Coverage Differ in Practice?
 
-With TCP, the nurse manager opens the platform, identifies who is available, manually calculates overtime risk, and starts calling. The platform provides scheduling information; she does the constraint logic. Average time per callout event: 30-60 minutes. With a managed service, the replacement list is pre-ranked by credential match, overtime exposure, and historical availability. The nurse manager calls from the top of the list. Average time: 10-15 minutes.
+With TCP TimeClock+, the nurse manager reviews availability in the platform and makes replacement calls manually. The platform surfaces who is available; she applies the constraint logic for overtime and credentials. For hospitals that need automated callout backfill, TCP's advanced feature for this is in Humanity Scheduling, not TimeClock+. With a managed service, the replacement list is pre-ranked by credential match, overtime exposure, and historical availability before the nurse manager sees it.
 
 ### How Does CMS Documentation Differ?
 
-CMS §485.635 requires Critical Access Hospitals to document qualified staffing on duty at all times. TCP produces schedule exports and maintains an event log, but CMS-formatted documentation reports are not documented as a built-in feature. Most CAH TCP users maintain CMS documentation separately. SimpleScheduleAI generates CMS-formatted documentation automatically from each published schedule.
+CMS §485.635 requires Critical Access Hospitals to document qualified staffing on duty at all times. TCP TimeClock+ maintains event logs and audit trails for time and attendance records. Whether these logs produce CMS-formatted staffing documentation for CAH certification surveys is not documented as a product feature. Verify this specifically with TCP before relying on TimeClock+ for CMS compliance reporting. SimpleScheduleAI generates CMS-formatted documentation automatically from each published schedule.
 
-## Where Does TCP Win?
+## Where Does TCP TimeClock+ Win?
 
-TCP's primary advantage over a managed service is the staff-facing mobile experience. For hospitals where nurses managing their own availability and viewing schedules on their phones is operationally important, TCP is the stronger fit. Two other factors also favor TCP for specific organizational profiles.
+TCP TimeClock+ is the stronger choice when a hospital needs time and attendance, payroll integration, and scheduling in a single platform. Consolidating these functions reduces the number of vendors and the data reconciliation work between systems.
 
-**Staff-facing mobile app.** Nurses can view schedules, request availability changes, and participate in shift swaps through the TCP app. SimpleScheduleAI does not have a nurse-facing interface. If staff self-service scheduling is a priority at your facility, TCP is the right choice.
+**Staff-facing mobile app.** Nurses can clock in and out, view schedules, request time off, and receive messages through the TimeClock+ app. SimpleScheduleAI does not have a nurse-facing interface. If staff self-service scheduling and time clock functionality are both priorities, TCP TimeClock+ is the right fit.
 
-**Direct platform control.** Some nurse managers prefer hands-on involvement in every scheduling decision. With TCP, the nurse manager sees every constraint, makes every assignment, and has full visibility into the scheduling logic. A managed service shifts some of that decision-making to the specialist.
+**Time and attendance integration.** For hospitals that want scheduled hours and worked hours to flow directly to payroll without manual reconciliation, TCP TimeClock+ handles both sides of that equation. A managed scheduling service covers scheduling only; payroll and time tracking remain a separate system.
 
-**No ongoing service dependency.** With TCP, you own the process. For facilities that prefer operational self-sufficiency, the self-serve model has real appeal even at the cost of higher weekly labor.
+**No ongoing service dependency.** With TCP TimeClock+, the hospital owns the process and the data. For facilities that prefer operational self-sufficiency over service dependency, the platform model has real appeal.
 
 ## Where Does a Managed Service Win?
 
-A managed service reduces the weekly scheduling burden from 4-6 hours to 1-2 hours, goes live in days not weeks, and shifts callout coverage from 30-60 minutes of manual research to a 10-minute shortlist call. For nurse managers carrying a clinical patient load alongside scheduling responsibilities, these are the operationally significant differences.
+A managed service focuses entirely on scheduling. For a nurse manager already stretched between clinical shifts and administrative responsibilities, the distinction between a time tracking platform with scheduling and a service that actually handles the scheduling work is significant.
 
-**Time to operational.** TCP takes 2-4 weeks to configure before the first operational schedule. A managed service takes 3-5 days. For a nurse manager in acute scheduling distress, this matters.
+**Scheduling is the primary function.** TCP TimeClock+ is designed around time and attendance; scheduling is a secondary feature. A managed service is built entirely around nurse scheduling for Critical Access Hospitals. The depth of scheduling-specific workflows, callout handling, and compliance documentation reflects that focus.
 
-**Weekly burden.** The 3-4 hour weekly difference adds up to 150-200 hours per year. At a nurse manager's hourly rate, those hours represent a recoverable annual labor cost that often exceeds the managed service fee.
+**Weekly burden.** The nurse manager using a managed service spends 1-2 hours per week on review and approval. A nurse manager operating any scheduling platform, including TCP TimeClock+, spends additional time on schedule building, callout coverage, and system maintenance on top of her time tracking approvals.
 
-**Callout coverage.** The difference is 30-60 minutes of manual research per callout event vs. 10-15 minutes of making calls. For a CAH that averages 2-3 callouts per week, that is approximately 50 hours per year.
+**Setup speed for scheduling.** A managed scheduling service goes live in 3-5 days from your staff roster. TCP TimeClock+ implementation covers both time tracking and scheduling configuration, and typical timelines are not published.
 
-**No configuration risk.** TCP misconfigured produces scheduling errors that surface at payroll or during a CMS survey. A managed service specialist is responsible for configuration accuracy.
+**CMS documentation.** SimpleScheduleAI generates CMS-formatted staffing documentation automatically from each published schedule. TCP TimeClock+'s event logs cover time and attendance records; CAH-specific CMS documentation is not confirmed as a built-in feature.
 
 ## How Does Time to Value Compare?
 
-Speed to first working schedule and ongoing weekly burden are the two time costs that matter most for a Critical Access Hospital choosing between these models. Both favor the managed service model, but by different margins depending on the facility's current baseline.
+The time comparison between TCP TimeClock+ and a managed service depends on which functions the hospital is measuring. For pure scheduling time reduction, a managed service moves faster. For unified time and attendance plus scheduling, TCP TimeClock+ covers more operational ground.
 
 <div class="not-prose my-8">
-  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Time Comparison: TCP vs. Managed Service</p>
+  <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Scheduling-Specific Time Comparison: TCP TimeClock+ vs. Managed Service</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <div class="rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden">
       <div class="bg-slate-700 dark:bg-slate-600 px-4 py-3">
-        <p class="text-sm font-bold text-white">TCP (Aladtec by TCP)</p>
+        <p class="text-sm font-bold text-white">TCP TimeClock+</p>
       </div>
       <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Setup time</span><span class="font-medium">2-4 weeks</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Weekly scheduling burden</span><span class="font-medium">4-6 hrs</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage time</span><span class="font-medium">30-60 min</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Yr 1 recovered time (vs. spreadsheets)</span><span class="font-medium">~200 hrs</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Setup time</span><span class="font-medium">Contact TCP for estimate</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Scheduling focus</span><span class="font-medium">Secondary feature</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage</span><span class="font-medium">Manual; advanced requires Humanity add-on</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>CMS §485.635 docs</span><span class="font-medium">Verify with TCP</span></div>
       </div>
     </div>
     <div class="rounded-lg border border-green-200 dark:border-green-800 overflow-hidden">
@@ -204,48 +205,48 @@ Speed to first working schedule and ongoing weekly burden are the two time costs
       </div>
       <div class="p-4 space-y-3 bg-white dark:bg-slate-900">
         <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Setup time</span><span class="font-medium text-green-700 dark:text-green-400">3-5 days</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Weekly scheduling burden</span><span class="font-medium text-green-700 dark:text-green-400">1-2 hrs</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage time</span><span class="font-medium text-green-700 dark:text-green-400">10-15 min</span></div>
-        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Yr 1 recovered time (vs. spreadsheets)</span><span class="font-medium text-green-700 dark:text-green-400">~400 hrs</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Scheduling focus</span><span class="font-medium text-green-700 dark:text-green-400">Core function</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>Callout coverage</span><span class="font-medium text-green-700 dark:text-green-400">Pre-ranked shortlist, all constraints applied</span></div>
+        <div class="flex justify-between text-xs text-slate-700 dark:text-slate-300"><span>CMS §485.635 docs</span><span class="font-medium text-green-700 dark:text-green-400">Automatic, every schedule</span></div>
       </div>
     </div>
   </div>
-  <p class="text-xs text-slate-500 dark:text-slate-400 mt-3 text-center">Based on SimpleScheduleAI pilot observations with Critical Access Hospital clients.</p>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-3 text-center">Based on SimpleScheduleAI pilot observations with Critical Access Hospital clients. TCP setup time: contact TCP directly.</p>
 </div>
 
-For a nurse manager who is burned out on scheduling and experiencing weekly callout scrambles, four weeks of additional manual scheduling during a TCP implementation is a meaningful cost to weigh against long-term platform benefits.
+The right evaluation is to separate the two functions. If the hospital needs both time and attendance and scheduling, TCP TimeClock+ covers both. If the primary problem is scheduling burden and callout coverage, a managed scheduling service addresses that more directly.
 
 ## Which Fits Your Critical Access Hospital?
 
-The decision comes down to one question: does your nurse manager have 4-6 hours of protected weekly time to build and operate a scheduling system, or does she need that time back for clinical and supervisory work? The answer to that question determines the right model more reliably than any feature comparison. Neither TCP nor a managed service is inherently better. The difference is the operating model each one requires from the nurse manager.
+The decision comes down to what the hospital is trying to solve. TCP TimeClock+ makes sense when a unified time and attendance, payroll, and scheduling platform is the goal. A managed service makes sense when the nurse manager needs the scheduling work handled for her, not just better tools to do it herself.
 
-**Choose TCP Scheduling Software if:**
+**Choose TCP TimeClock+ if:**
 
-- Your nurse manager wants direct hands-on control over every scheduling decision
-- She is technically comfortable and willing to invest time learning and maintaining the platform
-- Staff self-service features — nurses viewing schedules and requesting shift swaps via mobile — are operationally important
-- 4-6 hours of weekly scheduling work is acceptable given the staffing model
+- You need time and attendance, payroll integration, and scheduling in a single platform
+- Your nurse manager wants a staff-facing app for clocking in, shift viewing, and time-off requests
+- You prefer direct platform control and self-sufficiency over service dependency
+- Your scheduling volume and complexity are manageable within the platform's built-in tools
 
 **Choose a managed scheduling service if:**
 
-- Structural burden reduction is the goal, not just better tools
-- Your nurse manager is already stretched between clinical shifts and administrative responsibilities
-- Callout coverage scrambles are a recurring problem that manual OT checking has not solved
+- Reducing the nurse manager's weekly scheduling burden is the primary goal
+- Your hospital needs CMS §485.635 compliance documentation generated automatically each cycle
+- Callout coverage is a recurring problem that manual constraint checking has not solved
 - You need to be operational in days, not weeks
 
 ## What to Do This Week?
 
-The decision between TCP Scheduling Software and a managed service becomes clear once you have two data points: your actual weekly scheduling time and a total cost estimate. The five steps below produce both within one week.
+The comparison between TCP TimeClock+ and a managed scheduling service becomes clear once you have two data points: what problem you are primarily trying to solve, and what each model actually requires from the nurse manager week-over-week. The five steps below help you get there.
 
-1. **Time-track your scheduling hours this week.** Keep a running note of every scheduling task and how long it takes: building the schedule draft, processing time-off requests, handling callout coverage, and updating credentials or system configuration. Most nurse managers underestimate their total scheduling time by 30-40% because callout handling is not mentally logged as "scheduling time."
+1. **Clarify the primary problem.** Is the hospital's main need unified time and attendance plus scheduling in one platform, or is it specifically reducing the weekly scheduling workload on the nurse manager? These are different problems with different solutions. Mixing them up leads to choosing a tool that solves the wrong one.
 
-2. **If you use TCP, assess your configuration currency.** When did you last update credential records for staff changes? Are your scheduling rules still accurate after any recent hiring or policy changes? Configuration drift is the most common reason small-hospital TCP deployments stop delivering expected time savings.
+2. **Time-track your scheduling hours this week.** Keep a running note of every scheduling task: building the schedule draft, processing time-off, handling callout coverage, and maintaining system configuration. Most nurse managers underestimate their total scheduling time by 30-40% because callout handling is not mentally logged as scheduling work.
 
-3. **Request a free scheduling assessment from SimpleScheduleAI.** The assessment covers your current overtime patterns, CMS documentation gaps, and callout coverage process. It is free and takes 45 minutes. Visit [SimpleScheduleAI.com](/) or call to schedule.
+3. **If you are evaluating TCP TimeClock+, ask two specific questions when you speak with their team.** First: does TimeClock+ produce CMS §485.635 staffing documentation reports for CAH certification surveys, or just event logs? Second: does the callout backfill feature come with TimeClock+ or does it require adding Humanity Scheduling? Both answers change the total cost and capability picture significantly.
 
-4. **Calculate your total annual scheduling cost.** Multiply your hourly rate by the weekly hours spent on scheduling tasks. Multiply by 50 weeks. Compare that labor cost against both the TCP subscription and the annual cost of a managed service. For most Critical Access Hospitals, the managed service break-even falls well within year one.
+4. **Request a free scheduling assessment from SimpleScheduleAI.** The assessment covers your current overtime patterns, CMS documentation gaps, and callout coverage process. It is free and takes 45 minutes. Visit [SimpleScheduleAI.com](/) or call to schedule.
 
-5. **If you currently use TCP and are considering switching,** assess two things: Is your configuration current, and is your nurse manager spending more than 4 hours per week on scheduling tasks? If both answers are yes, the managed service model is worth a structured evaluation before your next contract renewal.
+5. **If you currently use TCP TimeClock+ and are considering whether it is meeting your scheduling needs,** review two things: are you spending more than 3-4 hours per week on scheduling tasks on top of your time tracking work, and are callout events consistently taking more than 20 minutes to resolve? If both answers are yes, the scheduling side of the platform is not keeping pace with what a dedicated service would provide.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 dark:bg-blue-800 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">See What a Managed Service Looks Like for Your Critical Access Hospital</h2>
@@ -262,27 +263,27 @@ The decision between TCP Scheduling Software and a managed service becomes clear
 
 ## Frequently Asked Questions
 
-The five questions below cover what Critical Access Hospital administrators most often ask when comparing TCP Scheduling Software and a managed scheduling service: product identity, cost, implementation time, callout coverage, and the primary reason to stay with TCP rather than switching.
+The five questions below cover what Critical Access Hospital administrators most often ask when comparing TCP TimeClock+ and a managed scheduling service: what the product actually is, how it relates to Aladtec, what it costs, how it handles callouts, and when a managed service is the better fit.
 
-**Is TCP Scheduling Software the same as Aladtec?**
+**Is TCP TimeClock+ the same product as Aladtec?**
 
-Yes. TCP Software acquired Aladtec on October 21, 2021. The product now operates as Aladtec by TCP. For most existing customers, the platform interface remains the same; new sales and documentation reference TCP Software as the corporate parent. The scheduling product itself is unchanged from the original Aladtec platform.
+No. TCP Software owns three separate products: TimeClock+ (time and attendance with basic scheduling), Humanity Scheduling (advanced employee scheduling), and Aladtec (healthcare and public safety scheduling, acquired October 2021). These are distinct products with different feature sets and pricing. A hospital evaluating TCP should confirm which product is being proposed before signing a contract.
 
-**What does TCP Scheduling Software cost for a small hospital?**
+**What does TCP TimeClock+ cost for a small hospital?**
 
-TCP pricing is not publicly listed and varies by organization size and contract terms. Contact TCP directly for current pricing. When evaluating cost, calculate total cost of ownership: the subscription fee plus the estimated annual labor cost of the nurse manager's weekly scheduling hours at her hourly rate.
+TCP TimeClock+ pricing is not publicly listed and varies by organization size and contract terms. Contact TCP directly for current pricing. When evaluating cost, calculate total cost: the subscription fee, any hardware costs for on-site time clocks, and whether advanced scheduling or callout backfill features require a Humanity Scheduling add-on.
 
-**How long does it take to implement TCP at a Critical Access Hospital?**
+**Does TCP TimeClock+ handle CMS §485.635 documentation for Critical Access Hospitals?**
 
-Implementation typically runs 2-4 weeks from contract to first operational schedule, assuming the nurse manager can dedicate 5-10 hours to configuration. Facilities with complex staffing rules or larger rosters may take longer.
+TCP TimeClock+ maintains event logs and audit trails for time and attendance records. Whether the platform generates CMS-formatted staffing documentation specifically required for CAH certification surveys is not documented as a product feature. Verify this directly with TCP before relying on TimeClock+ for CMS compliance reporting during a survey.
 
-**What happens when a nurse calls out at 5 AM with TCP vs. a managed service?**
+**What happens when a nurse calls out at 5 AM with TCP TimeClock+ vs. a managed service?**
 
-With TCP: the nurse manager opens the platform, checks availability, reviews overtime status manually, and makes replacement calls. The platform provides information; she does the constraint work. Average time: 30-60 minutes. With a managed service: the replacement call list is pre-ranked with all constraints applied. The nurse manager calls from the top of the list. Average time: 10-15 minutes.
+With TCP TimeClock+: the nurse manager checks the platform for availability, reviews overtime status manually, and makes replacement calls. For automated callout backfill, TCP's feature for this is in Humanity Scheduling, not TimeClock+. Average time without the add-on: 30-60 minutes per callout. With a managed service: the replacement call list is pre-ranked with all constraints applied before the nurse manager sees it. Average time: 10-15 minutes.
 
-**What is the main reason to stay with TCP instead of switching to a managed service?**
+**What is the main reason to stay with TCP TimeClock+ instead of switching to a managed service?**
 
-The staff-facing mobile app. TCP allows nurses to view schedules, request availability changes, and participate in shift swaps on their phones. SimpleScheduleAI does not have a nurse-facing interface. If nurse self-service scheduling is a priority at your facility, TCP or another platform with a nurse app is the right choice.
+Two reasons. First, the staff-facing mobile app: nurses can clock in and out, view schedules, and request time off in one place. SimpleScheduleAI does not have a nurse-facing interface. Second, unified time and attendance: if your hospital uses TimeClock+ for payroll and time tracking, keeping scheduling in the same platform reduces reconciliation work between systems. A managed scheduling service covers scheduling only; it does not replace a time and attendance system.
 
 _Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
