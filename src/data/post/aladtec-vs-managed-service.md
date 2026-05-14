@@ -144,12 +144,14 @@ Aladtec is a web-based scheduling platform built originally for emergency servic
 - Overtime tracking with configurable thresholds
 - Reporting for worked hours and shift coverage
 
-**What Aladtec does not include by default (verify with Aladtec before evaluating):**
+**What Aladtec does not include by default:**
 
-- CMS Conditions of Participation documentation templates (§485.635 for CAH certification): not documented on the product page; confirm current availability with Aladtec
-- Credential-based callout ranking (ACLS, BLS, charge nurse, specific unit qualifications): Aladtec supports credential profiles, but automated callout ranking filtered by credential is not documented; verify with Aladtec
-- FLSA 8-and-80 rule for healthcare employers: Aladtec uses overtime thresholds configurable by the administrator; whether the 8-and-80 healthcare rule is a selectable option should be confirmed with Aladtec directly
-- Pre-built hospital-specific configuration defaults: confirm what configuration is required at setup and what is pre-built
+- CMS Conditions of Participation documentation templates (§485.635 for CAH certification): not documented on the Aladtec product page
+- Credential-based callout ranking (ACLS, BLS, charge nurse, specific unit qualifications): Aladtec supports credential profiles, but automated callout ranking filtered by credential is not documented
+- FLSA 8-and-80 rule for healthcare employers: Aladtec uses overtime thresholds configurable by the administrator; whether the 8-and-80 healthcare rule is a selectable option is not documented
+- Pre-built hospital-specific configuration defaults: the extent of pre-built vs. required setup configuration is not specified on the product page
+
+Verify current capabilities directly with Aladtec before making a purchasing decision based on any of the items above.
 
 These considerations are not unique to Aladtec. Most general-purpose scheduling platforms that were not built specifically for acute hospital care share them. The question is whether the configuration work required to fill those gaps fits the bandwidth of the CAH implementing the system.
 
@@ -161,11 +163,11 @@ A managed scheduling service is not scheduling software with extra support. It i
 
 With SimpleScheduleAI, the process works like this:
 
-1. The nurse manager uploads the staff roster (an Excel file with names, credentials, availability, and any known constraints).
-2. SimpleScheduleAI builds the first schedule within 48 hours, applying CMS documentation requirements, FLSA 8-and-80 overtime logic, and credential-based shift assignments automatically.
-3. The nurse manager reviews the proposed schedule, approves it or requests adjustments, and publishes it.
-4. When callouts happen, SimpleScheduleAI surfaces a ranked replacement list based on who can cover the shift without triggering overtime or creating a credential gap. The nurse manager calls from the top of the list.
-5. As staff join or leave, credentials change, or availability patterns shift, SimpleScheduleAI updates the underlying configuration. The nurse manager does not manage a system. They manage a roster.
+1. The nurse manager shares the staff roster with SimpleScheduleAI: names, credentials, availability, and any scheduling constraints. A standard Excel file is all that is needed to start.
+2. The SimpleScheduleAI team builds the first schedule within 48 hours, applying CMS documentation requirements, FLSA 8-and-80 overtime logic, and credential-based shift assignments.
+3. The nurse manager reviews the proposed schedule, approves it or requests adjustments, and it goes to staff.
+4. When callouts happen, the nurse manager receives a ranked replacement list showing who can cover the shift without triggering overtime or creating a credential gap. They call from the top of the list.
+5. As staff join or leave, credentials change, or availability patterns shift, the nurse manager sends the update and the SimpleScheduleAI team handles the rest. The nurse manager does not administer a system. They manage a roster.
 
 The weekly time commitment for the nurse manager drops from 4-6 hours (typical for software users actively managing scheduling) to 1-2 hours (review and approval only). That difference, across a 25-nurse staff on a rolling 4-week schedule, is 100-200 hours per year returned to clinical work.
 
@@ -179,7 +181,7 @@ Getting Aladtec operational for a hospital requires configuring the system for t
 
 That timeline includes: initial setup calls, data entry of staff profiles, configuration of scheduling rules, parallel running with the existing system (usually Excel), and training for staff who need to submit availability or request time off through the new system.
 
-SimpleScheduleAI starts with an Excel upload. Because the vendor handles configuration on their side, the nurse manager does not need to learn a system before it becomes useful. The first schedule arrives within 48 hours of the roster upload.
+SimpleScheduleAI starts with a roster handoff. Because the SimpleScheduleAI team handles all configuration, the nurse manager does not need to learn a system before it becomes useful. The first schedule arrives within 48 hours.
 
 For a CAH that has been managing on spreadsheets for years, the difference between "go live in 48 hours" and "go live in 6 weeks" is meaningful. Every week of parallel running with the old system is a week the nurse manager is managing two processes at once.
 
