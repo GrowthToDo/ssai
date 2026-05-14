@@ -23,7 +23,7 @@ metadata:
 
 ## Key Takeaways
 
-- For a hospital evaluating a switch, the questions that matter most are operational fit: setup time at your scale, configuration maintenance burden after go-live, and which compliance capabilities are documented by the vendor versus needing manual workflow.
+- For a Critical Access Hospital that needs a self-serve platform designed specifically for hospital nurse scheduling workflows, ShiftWizard is a stronger fit than Aladtec. For a facility staying within the TCP ecosystem, TCP Scheduling is the direct upgrade path with a longer implementation. For a hospital that needs the scheduling handled rather than a better tool to do it themselves, SimpleScheduleAI is the managed service alternative.
 - Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The platform's documented customer base on Capterra skews toward fire, EMS, law enforcement, and security users; the most recent hospital-context reviews on Capterra are several years old.
 - SimpleScheduleAI is a managed service built specifically for Critical Access Hospitals, currently in active pilot phase. It changes the operating model rather than just replacing the platform.
 - TCP Scheduling is the enterprise-tier product from the same parent company; data migration within the TCP ecosystem is simpler than switching vendors entirely, but configuration depth and implementation effort are higher.
@@ -55,6 +55,8 @@ If your priority is [critical access hospital scheduling](/critical-access-hospi
 Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Switch Away from Aladtec?
+
+<img src="/images/blog/aladtec-alternatives/Aladtec.png" alt="Aladtec by TCP healthcare and public safety scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The overall ratings are strong, but the Capterra reviewers skew heavily toward fire, EMS, and law enforcement users. The minority of negative reviews from hospital users cluster around two recurring themes worth probing specifically during a CAH demo.
 
@@ -166,6 +168,7 @@ The service implements the hospital's rules, maintains them as staff changes occ
 **Key limitations:**
 
 - Managed service model means less direct manager control than Aladtec; schedule changes go through the service rather than being adjustable in real time by the manager
+- No staff-facing mobile app; nurses do not view schedules or submit shift trades directly through SimpleScheduleAI. If nurse-facing mobile self-scheduling is a priority, evaluate a self-serve platform or pair SimpleScheduleAI with a separate staff communication tool
 - Not designed for hospitals with complex multi-department or physician scheduling needs beyond nursing
 
 **Verdict:** The strongest alternative for a CAH nurse manager who leaves Aladtec primarily because the configuration and compliance burden has exceeded what one person can manage while also taking clinical shifts. SimpleScheduleAI eliminates those specific pain points by design. [See how it works](/how-it-works) or explore the [pilot program](/pilot) for CAHs that want to test before committing.
@@ -190,8 +193,18 @@ The tradeoff is considerable. TCP Scheduling requires a longer implementation, I
 
 **Key limitations:**
 
-- Aladtec by TCP itself is described by some reviewers as click-heavy for routine edits. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved." TCP Scheduling is the more configurable upgrade and typically requires more administrator capacity, not less.
-- A separate reviewer flagged setup as harder than expected. Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
+- **Click-Heavy Workflow.** Aladtec itself is click-heavy for routine edits; TCP Scheduling is the more configurable upgrade and typically requires more administrator capacity, not less.
+
+  > "When editing the schedule there are a lot of clicks involved."
+  >
+  > Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+- **Setup Complexity.** Initial configuration takes longer than expected for some administrators.
+
+  > "It was a bit complicated to figure out from the administrator side."
+  >
+  > Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
+
 - TCP Scheduling is positioned by the vendor as enterprise-tier; CAHs should request a current reference customer under 50 beds and a documented onboarding timeline before deciding.
 
 **Verdict:** A reasonable upgrade path for hospitals growing toward 75-200 beds with IT capacity for a longer implementation. CAHs at 25-bed scale should weigh whether the configuration depth fits their administrative bandwidth.
@@ -212,12 +225,26 @@ Hospitals that leave Aladtec because of configuration burden and then adopt Smar
 
 - Vendor-documented industry focus on long-term care, post-acute, senior care, and behavioral health
 - Integrated time and attendance reduces double-entry and simplifies payroll reconciliation
-- Implementation includes project management and user training. Carol G., Director of IT Services (Hospital & Health Care), wrote on Capterra (March 22, 2021): "Implementation was a breeze with resources helping and project management and user training are all included."
+- Implementation includes dedicated project management and user training.
+
+  > "Implementation was a breeze with resources helping and project management and user training are all included. Customer Support is very responsive and always delivers resolution quickly."
+  >
+  > Carol G., Director of IT Services, Hospital & Health Care, March 22, 2021, Capterra
 
 **Key limitations:**
 
-- Implementation experience varies. Daniel C., CFO (Hospital & Health Care), wrote on Capterra (March 16, 2021): "Implementation was much more complex that expected and end result still was full of errors on first payroll."
-- PBJ-for-CMS reporting has been an issue for some users. Rebecca K., HR (Hospital & Health Care), wrote on Capterra (September 27, 2019): "Not the best at calculating PBJ for CMS - had some issues that cost money and star ratings."
+- **Implementation Complexity.** Experience varies; some customers describe initial setup as more involved than expected.
+
+  > "Implementation was much more complex that expected and end result still was full of errors on first payroll. Some changes can only be made on the back end."
+  >
+  > Daniel C., CFO, Hospital & Health Care, March 16, 2021, Capterra
+
+- **CMS Reporting.** Some users report issues with PBJ reporting for CMS compliance.
+
+  > "Not the best at calculating PBJ for CMS - had some issues that cost money and star ratings."
+  >
+  > Rebecca K., HR, Hospital & Health Care, September 27, 2019, Capterra
+
 - Vendor's own positioning skews toward post-acute care; hospital-acute reference customers should be requested directly. The Capterra sample is small (6 reviews); ratings on a single source are less reliable than larger samples.
 
 **Verdict:** A reasonable Aladtec upgrade for hospitals growing toward 75-100 beds with IT capacity for a 3-4 month implementation. CAHs at 25-bed scale should weigh whether the implementation effort fits their administrative bandwidth.
@@ -276,6 +303,11 @@ Homebase is positioned primarily for retail, restaurant, and service industry sc
 
 - Homebase's product page does not specifically describe HIPAA, BAA, CMS §485.635 audit-trail support, FLSA 8-and-80 tracking, or credential constraints in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Homebase sales which capabilities are covered in their tier.
 - Documented industry focus is retail, restaurant, and service, not hospital nursing. Unit-based scheduling, charge nurse designation, and clinical constraint logic are not described as part of the standard product. CAHs should verify clinical capability fit directly with the vendor before deciding.
+- Healthcare reviewers note scheduling limitations in the mobile app.
+
+  > "I did not like that I could not do scheduling on the app"
+  >
+  > Amber B., Executive Director, Hospital & Health Care, March 26, 2025, Capterra
 
 **Verdict:** Appropriate as a cost-cutting move for clinics with the simplest possible scheduling needs. Hospitals with active CMS survey obligations should confirm with the vendor whether the compliance capabilities they need are supported before relying on Homebase as a scheduling system.
 
@@ -286,6 +318,12 @@ Homebase is positioned primarily for retail, restaurant, and service industry sc
 <img src="/images/blog/aladtec-alternatives/Deputy.png" alt="Deputy general workforce scheduling platform for healthcare teams" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Deputy holds 4.6/5 on G2 (1,400+ reviews) and 4.6/5 on Capterra (765 reviews), a strong overall rating across a large general workforce sample. Deputy markets a [healthcare segment page](https://www.deputy.com/industry/healthcare) covering hospitals, clinics, and nursing facilities. Compared to Aladtec, Deputy is simpler to configure and lower in cost. The documented healthcare feature set is narrower than Aladtec's clinical-specific capability.
+
+A representative review from a hospital nursing user:
+
+> "Deputy makes scheduling very easy and organised. It's simple to use, and I like how I can see my shifts clearly and get updates quickly."
+>
+> Portia A., Nurse, Hospital & Health Care, April 8, 2026, Capterra
 
 **Best for:** Small hospitals or outpatient clinics leaving Aladtec because the configuration burden is high relative to actual scheduling complexity, and who need schedule visibility and communication.
 
@@ -300,6 +338,11 @@ Deputy holds 4.6/5 on G2 (1,400+ reviews) and 4.6/5 on Capterra (765 reviews), a
 
 - Deputy's healthcare page (deputy.com/industry/healthcare) does not specifically describe HIPAA, BAA, or CMS §485.635 audit-trail support in the documented page content. Hospitals with active CMS or HIPAA obligations should confirm directly with Deputy sales which compliance capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on Deputy's healthcare page. Hospitals leaving Aladtec specifically because they need stronger compliance automation should verify Deputy's current capabilities directly with the vendor before deciding.
+- Some healthcare users report app performance issues during schedule loading.
+
+  > "Sometimes the app can be a bit slow or glitchy, especially when trying to load shifts."
+  >
+  > Portia A., Nurse, Hospital & Health Care, April 8, 2026, Capterra
 
 **Verdict:** Strong general workforce scheduling tool. Aladtec users leaving primarily because of configuration burden may find Deputy a simpler alternative; users leaving because they need stronger clinical compliance automation should verify Deputy's current healthcare-tier capabilities directly with the vendor.
 

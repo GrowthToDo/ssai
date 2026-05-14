@@ -26,7 +26,7 @@ metadata:
 - For a Critical Access Hospital, the right comparison is not feature-by-feature. It is which operating model fits a 25-bed facility with no dedicated scheduling coordinator and a nurse manager who also takes clinical shifts.
 - The four main alternatives are SimpleScheduleAI (managed service, no IT required), TCP Scheduling / Aladtec (self-serve, public-safety heritage with hospital expansion), NurseGrid (nurse-facing, manager tier available), and QGenda (physician scheduling, positioned for larger health systems).
 - The critical question before any evaluation: does your nurse manager have 4-6 hours per week available for scheduling administration after go-live? If not, the operating model matters more than which platform you choose.
-- SimpleScheduleAI is a managed service in active pilot phase for Critical Access Hospitals in Texas; it changes the operating model rather than replacing one platform with another.
+- For a CAH staying on a self-serve platform, TCP/Aladtec is the closest healthcare-specific alternative at comparable cost and setup time. For a facility where the nurse manager cannot sustain weekly scheduling administration alongside clinical shifts, SimpleScheduleAI removes that work entirely rather than swapping one platform for another.
 
 ## Table of Contents
 

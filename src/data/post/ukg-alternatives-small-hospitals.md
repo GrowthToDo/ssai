@@ -27,7 +27,7 @@ metadata:
 - UKG is used by over 3,500 hospitals in the US. Many Critical Access Hospitals (CAHs) are on UKG because a regional health system extended an enterprise contract to affiliated facilities, not because UKG was selected for CAH-scale needs.
 - Most CAHs on UKG use less than 20% of the platform's features while carrying 100% of the operational overhead: IT configuration, ongoing rule maintenance, and a support model designed for enterprise IT staff.
 - The practical alternatives for a small hospital are Aladtec (self-serve, minimal IT; 4.3/5 on G2 with 97 reviews, 4.6/5 on Capterra with 17 reviews, though Capterra reviewers skew toward EMS and public safety rather than hospital nursing), SmartLinx (mid-market, healthcare-specific), and SimpleScheduleAI (managed service, no IT required).
-- The decision point is operational fit. How much IT and scheduling administration capacity does your facility actually have? Match the complexity of the tool to what you can sustain, not what sounds most capable.
+- For a CAH leaving UKG because of complexity, Aladtec goes live in 2-4 weeks with minimal IT involvement and is the most common replacement. For a hospital that needs more built-in compliance logic and has IT capacity for a 3-4 month implementation, SmartLinx is the step-down option. For zero IT and no ongoing scheduling administration on the nurse manager's plate, SimpleScheduleAI handles both the setup and the weekly scheduling work.
 - Switching requires checking contract terms, exporting roster data, and running parallel for one scheduling cycle. A managed service handles most of the transition logistics on its end.
 
 ## Table of Contents
@@ -182,9 +182,13 @@ Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is 
 
 The trade-off is clear: Aladtec replaces UKG's complexity with a different kind of self-serve overhead. The nurse manager still configures credential tracking, FLSA overtime thresholds, and shift rules manually. CMS documentation requires the manager to structure and export records; the system does not generate them automatically.
 
-Amanda F., Nurse Manager (Hospital &amp; Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+> "When editing the schedule there are a lot of clicks involved."
+>
+> Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
 
-Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
+> "It was a bit complicated to figure out from the administrator side."
+>
+> Jeanne C., Administrative Coordinator, May 7, 2019, Capterra
 
 Since TCP acquired Aladtec in 2021, CAH administrators should request current named support contacts and documented response-time SLAs directly from the vendor before committing.
 
@@ -239,8 +243,19 @@ SmartLinx is most cited by skilled nursing and long-term care facilities, not ac
 - Stronger built-in credential enforcement than Aladtec
 - Pre-configured compliance logic for common healthcare regulatory requirements
 - Handles multi-unit and multi-department scheduling across larger facilities
+- Implementation includes project management and user training.
+
+  > "Implementation was a breeze with resources helping and project management and user training are all included. Customer Support is very responsive and always delivers resolution quickly."
+  >
+  > Carol G., Director of IT Services, Hospital & Health Care, March 22, 2021, Capterra
 
 **Key limitations:**
+
+- **Implementation Complexity.** Experience varies; some customers describe initial configuration as more involved than expected.
+
+  > "Implementation was much more complex that expected and end result still was full of errors on first payroll. Some changes can only be made on the back end."
+  >
+  > Daniel C., CFO, Hospital & Health Care, March 16, 2021, Capterra
 
 - 3-4 month implementation with IT involvement required
 - Designed for 50-200 bed facilities; configuration and pricing reflect that scale
