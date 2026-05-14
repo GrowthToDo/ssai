@@ -25,7 +25,7 @@ metadata:
 - QGenda holds 4.6/5 on G2 (164 reviews) and 4.2/5 on Capterra (68 reviews). It is positioned primarily for physician scheduling at larger health systems and physician group practices.
 - The trade-offs CAH demos should probe most carefully on QGenda: setup time, fit at small-hospital scale, and pricing for facilities that only need nursing scheduling.
 - The main CAH-appropriate alternatives include TCP/Aladtec (self-serve, healthcare and EMS focus), ShiftWizard (self-serve, hospital nursing focus), NurseGrid Manager (nurse-facing app), and SimpleScheduleAI (managed service, CAH-specific).
-- The right alternative depends on whether the primary issue is pricing, complexity, or the self-serve model itself.
+- For a CAH that needs a self-serve platform built specifically for hospital nurse scheduling, ShiftWizard is the strongest fit. For lower cost with healthcare scheduling depth and faster setup, TCP/Aladtec is the common starting point. For a 25-bed facility where the issue is scheduling labor rather than platform cost or design, SimpleScheduleAI handles the scheduling work rather than providing better tools to do it yourself.
 - If the goal is reducing nurse manager burden rather than just replacing the platform, a managed service addresses that more directly than a platform swap.
 
 ## Table of Contents
