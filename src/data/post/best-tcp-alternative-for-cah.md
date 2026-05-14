@@ -1,14 +1,13 @@
 ---
 draft: false
 publishDate: 2026-04-28T00:00:00Z
-updateDate: 2026-05-07T00:00:00Z
+updateDate: 2026-05-14T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Best TCP Scheduling Alternative for Critical Access Hospitals'
 excerpt: >
-  TCP Scheduling Software (formerly Aladtec) is the default choice for many critical access
-  hospitals, but it is a self-serve platform built for organizations with dedicated scheduling
-  staff. For CAHs where the nurse manager builds schedules in addition to clinical duties,
-  the best alternative is one that reduces operating burden, not just changes the interface.
+  TCP TimeClock+ is a time and attendance platform with basic scheduling built in. For Critical
+  Access Hospitals where the nurse manager builds schedules on top of clinical duties, the best
+  alternative is one that reduces operating burden, not just changes the interface.
 image: https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
@@ -17,21 +16,22 @@ tags:
   - critical-access-hospital-scheduling
 metadata:
   canonical: 'https://simplescheduleai.com/blog/best-tcp-alternative-for-cah'
+  description: 'Best TCP TimeClock+ alternatives for Critical Access Hospitals. Compare ShiftWizard, Aladtec by TCP, NurseGrid, and SimpleScheduleAI managed service to find the right fit for your CAH.'
 ---
 
 ## Key Takeaways
 
-- The best TCP alternative depends on one question: do you want a better tool to build schedules yourself, or do you want the scheduling work done for you?
-- For better self-serve software, ShiftWizard is the strongest CAH-appropriate option: more modern interface, hospital-specific design, comparable setup time.
-- For structural burden reduction, SimpleScheduleAI is the managed service alternative: a specialist builds, the nurse manager approves, setup in 3-5 days.
-- TCP has a nurse-facing mobile app that SimpleScheduleAI does not. This is the main reason to stay with a self-serve platform over a managed service.
-- Before choosing an alternative, clarify what problem you are solving: interface frustration, scheduling labor, compliance gaps, or implementation speed.
+- The best TCP TimeClock+ alternative depends on one question: do you want better scheduling software to build schedules yourself, or do you want the scheduling work done for you?
+- For better self-serve software, ShiftWizard is the strongest hospital-specific option: purpose-built for nurse scheduling, modern interface, comparable setup time.
+- For structural burden reduction, SimpleScheduleAI is the managed service alternative: a specialist builds, the nurse manager approves, live in 3-5 days.
+- TCP TimeClock+ has a staff-facing mobile app for clocking in, viewing schedules, and requesting time off. SimpleScheduleAI does not. This is the main reason to stay with TCP over a managed service.
+- TCP Software owns three separate products: TimeClock+ (time and attendance), Humanity Scheduling (advanced scheduling), and Aladtec (healthcare and public safety scheduling). This post covers TimeClock+ specifically.
 
 ## Table of Contents
 
 - [Why Do Critical Access Hospitals Look for TCP Alternatives?](#why-do-critical-access-hospitals-look-for-tcp-alternatives)
-- [What Is TCP Scheduling Software?](#what-is-tcp-scheduling-software)
-- [What Does TCP Cover and What Does It Miss?](#what-does-tcp-cover-and-what-does-it-miss)
+- [What Is TCP TimeClock+?](#what-is-tcp-timeclock)
+- [What Does TCP TimeClock+ Cover and What Does It Miss?](#what-does-tcp-timeclock-cover-and-what-does-it-miss)
 - [What Is the Best TCP Alternative for Each Scenario?](#what-is-the-best-tcp-alternative-for-each-scenario)
   - [Scenario 1: Better Self-Serve Software](#scenario-1-better-self-serve-software)
   - [Scenario 2: Scheduling Work Done for You](#scenario-2-scheduling-work-done-for-you)
@@ -39,114 +39,118 @@ metadata:
 - [What Are the Four Questions to Ask Any TCP Alternative?](#what-are-the-four-questions-to-ask-any-tcp-alternative)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-TCP Scheduling Software, the platform previously known as Aladtec, is widely used in healthcare and EMS settings. For [critical access hospitals](/critical-access-hospital-scheduling), TCP works when a nurse manager has time to configure and operate it. The problems arise when that assumption does not hold. At a typical 25-bed CAH, the nurse manager is responsible for clinical supervision, staff development, regulatory compliance, and scheduling. There is rarely a dedicated scheduling coordinator.
+TCP TimeClock+ is a time and attendance platform that includes basic employee scheduling. For [critical access hospital scheduling](/critical-access-hospital-scheduling), it is often chosen by facilities that want a single platform for time tracking, payroll, and scheduling rather than managing separate systems. The problems arise when the scheduling side of the platform cannot keep pace with a nurse manager who also carries clinical responsibilities. For the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide.
 
 ## Why Do Critical Access Hospitals Look for TCP Alternatives?
 
-The TCP complaints that drive CAH nurse managers to look for alternatives center on operational burden and workflow friction:
+Critical Access Hospital nurse managers who evaluate TCP TimeClock+ alternatives typically cite one of three problems: the scheduling features are too basic for hospital-specific workflows, the configuration requires more time and IT involvement than a small hospital has available, or the ongoing weekly scheduling burden has not been reduced enough to matter.
 
-**Configuration burden.** TCP requires entering all nurses, certifications, unit assignments, and scheduling rules before the first schedule. At a CAH without IT support, this falls to the nurse manager over several weeks.
+**Scheduling as a secondary feature.** TCP TimeClock+ is built around time and attendance. Its scheduling capability is included but is not the platform's primary design focus. Some healthcare users describe the scheduling features as basic compared to tools designed specifically for hospital nurse scheduling. For a CAH nurse manager who needs credential-aware scheduling, overtime-optimized drafts, and compliance documentation built into the scheduling workflow, a time-and-attendance platform with scheduling bolted on may not be the right tool.
 
-**Ongoing operation.** Even after setup, TCP requires the nurse manager to build each schedule in the platform, manage availability requests, and handle callout coverage through the interface. It reduces scheduling time compared to spreadsheets, but it does not eliminate the scheduling function.
+**Configuration burden.** TCP TimeClock+ requires entering staff profiles, payroll configurations, scheduling rules, and credential requirements before the first operational schedule. At a CAH without IT support, this falls to the nurse manager, typically over several weeks.
 
-**Support follow-up.** TCP acquired Aladtec in 2021. CAH evaluators should ask the vendor for current named support contacts and documented response-time SLAs, particularly given the time elapsed since acquisition.
+**Ongoing operation.** Even after setup, TCP TimeClock+ requires the nurse manager to build each schedule using the platform. It reduces time spent compared to spreadsheets, but the scheduling function stays on her plate. For a nurse manager also covering clinical shifts, that distinction matters.
 
-**Click-heavy workflow.** Some reviewers describe routine scheduling actions as click-heavy. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
+**Advanced callout backfill.** TCP TimeClock+'s standard callout workflow requires the nurse manager to check availability and make replacement calls manually. The automated callout backfill feature is in TCP Humanity Scheduling, a separate product that costs extra. CAH evaluators should confirm which TCP product covers the workflows they need before signing a contract.
 
 <div class="not-prose my-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
   <div class="rounded-lg border-2 border-green-300 dark:border-green-700 bg-white dark:bg-slate-800 overflow-hidden">
     <div class="bg-green-600 dark:bg-green-700 px-4 py-3">
-      <p class="font-bold text-white text-sm">TCP Covers</p>
+      <p class="font-bold text-white text-sm">TCP TimeClock+ Covers</p>
     </div>
     <ul class="px-4 py-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
-      <li>Shift assignment and availability tracking</li>
-      <li>Basic credential fields and unit assignments</li>
-      <li>Overtime visibility (manual; manager must review)</li>
-      <li>Staff-facing mobile app for schedule viewing</li>
+      <li>Time tracking and payroll integration</li>
+      <li>Basic employee scheduling</li>
+      <li>Overtime monitoring with configurable thresholds</li>
+      <li>Staff-facing mobile app: clock in/out, schedule viewing, time-off requests</li>
+      <li>Leave and absence management</li>
     </ul>
   </div>
   <div class="rounded-lg border-2 border-red-300 dark:border-red-700 bg-white dark:bg-slate-800 overflow-hidden">
     <div class="bg-red-600 dark:bg-red-700 px-4 py-3">
-      <p class="font-bold text-white text-sm">TCP Misses</p>
+      <p class="font-bold text-white text-sm">TCP TimeClock+ Misses</p>
     </div>
     <ul class="px-4 py-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
       <li>Proactive OT flagging before schedule publishes</li>
-      <li>Automatic CMS §485.635 audit trail (requires config)</li>
-      <li>Ranked replacement lists with constraint logic</li>
-      <li>Zero-config compliance defaults for CAHs</li>
+      <li>CMS §485.635 audit trail documentation (not confirmed as built-in feature)</li>
+      <li>Ranked replacement lists with constraint logic (requires Humanity Scheduling add-on)</li>
+      <li>Hospital-specific scheduling templates for CAH compliance</li>
     </ul>
   </div>
 </div>
 
 For a CAH operating under [CMS Conditions of Participation](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals), these gaps create manual compliance work on top of the operational burden.
 
-## What Is TCP Scheduling Software?
+## What Is TCP TimeClock+?
 
-TCP Scheduling Software is the current brand name for what most CAH nurse managers know as Aladtec. TCP Software, Inc. acquired Aladtec in 2021. The product continues to operate under the Aladtec interface for most existing customers, but TCP Scheduling Software is the current brand for new sales and support. If you are searching for "Aladtec alternatives," you are looking at the same product and the same set of alternatives.
+TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. Its primary strengths are time clock management, payroll integration, leave tracking, and overtime monitoring. Scheduling is part of the platform but not its primary design focus. TCP Software also owns two separate scheduling-focused products: Aladtec (designed for healthcare and public safety scheduling) and Humanity Scheduling (enterprise employee scheduling). A Critical Access Hospital evaluating any TCP product should confirm which one is being proposed and what it covers before committing.
 
-TCP is a self-serve [nurse scheduling platform](/nurse-scheduling-software). That means a person at your facility, typically the nurse manager or a scheduling coordinator, configures it, maintains it, and uses it to build every schedule. The platform provides the structure; your staff provides the labor.
+TCP TimeClock+ is a self-serve platform. That means a person at your facility, typically the nurse manager or a scheduling coordinator, configures it, maintains it, and uses it to build every schedule. The platform provides the structure; your staff provides the labor to operate it. It carries a 4.4/5 rating on Capterra from 271 reviews as of May 2026.
 
-## What Does TCP Cover and What Does It Miss?
+If you are specifically looking for Aladtec by TCP alternatives, see our dedicated [Aladtec alternatives](/blog/aladtec-alternatives) post, which covers that product's specific feature set and limitations.
 
-TCP covers the basic requirements for CAH scheduling: shift assignment, availability tracking, overtime visibility (manual), and basic credential fields. It is healthcare-aware in a way that generic employee scheduling tools are not.
+## What Does TCP TimeClock+ Cover and What Does It Miss?
 
-What TCP does not cover well:
+TCP TimeClock+ covers time and attendance with basic scheduling capabilities. For a Critical Access Hospital, it handles what a general workforce management platform handles: shift assignment, time tracking, overtime visibility, and a staff-facing mobile app. Where it falls short is in scheduling depth: the hospital-specific workflows that a dedicated nurse scheduling tool or managed service handles as a primary function.
 
-- Proactive overtime flagging before the schedule publishes (TCP shows current hours; the manager must calculate risk manually)
-- Automatic CMS §485.635 audit trail documentation (available but requires correct configuration to work)
-- Ranked replacement lists that apply certification, overtime, and fair distribution rules automatically
+What TCP TimeClock+ does not cover well for CAH nurse scheduling:
 
-These gaps matter most at understaffed CAHs where the nurse manager has no scheduling coordinator to absorb the manual work.
+- Hospital-specific credential-aware scheduling as a built-in workflow
+- Proactive overtime flagging before the schedule publishes (the platform surfaces hours; the manager must calculate risk manually)
+- CMS §485.635 audit trail documentation built into the scheduling workflow (not confirmed as a product feature; verify directly with TCP)
+- Ranked callout replacement lists that apply certification, overtime, and availability rules automatically (this is in TCP Humanity Scheduling, not TimeClock+)
+
+These gaps matter most at understaffed CAHs where the nurse manager has no scheduling coordinator to absorb the manual work between the platform and the compliance record.
 
 ## What Is the Best TCP Alternative for Each Scenario?
 
-The right TCP alternative depends on which problem you are solving. Self-serve frustration and scheduling labor look similar from a distance but have different solutions.
+The right TCP TimeClock+ alternative depends on which problem you are solving. Frustration with the scheduling interface and frustration with the total scheduling labor burden look similar from a distance but have different solutions. Identifying which one is driving the evaluation determines which alternative will actually help.
 
 ### Scenario 1: Better Self-Serve Software
 
-If you want to keep building schedules yourself but with a better platform, **ShiftWizard** is the strongest CAH-appropriate alternative to TCP. It is designed by nurses for hospital scheduling, has a more modern interface than TCP, and matches its healthcare-specific feature coverage. Setup time and cost are comparable, so the lift to switch is the same; the upside is a cleaner workflow.
+If you want to keep building schedules yourself but with a platform designed for hospital nursing specifically, **ShiftWizard** is the strongest alternative to TCP TimeClock+. It is built for hospital scheduling rather than adapted from general workforce management, has a more modern interface, and covers hospital-specific credential fields and department-level workflows. Setup time is comparable, so the lift to switch is similar; the upside is a scheduling-first design instead of a time-and-attendance platform with scheduling added on.
 
-This switch makes sense when the complaint is interface or click count. It does not reduce the hours your nurse manager spends scheduling each week. See the full ShiftWizard profile in the comparison section below.
+This switch makes sense when the complaint is interface, scheduling workflow depth, or click count. It does not reduce the hours your nurse manager spends building schedules each week. The operating model is the same.
 
 ### Scenario 2: Scheduling Work Done for You
 
-If the goal is structural burden reduction rather than a better tool, **SimpleScheduleAI** is the managed service alternative to TCP. It does not replace TCP with a different platform; it replaces the self-serve model entirely. A scheduling specialist handles configuration, roster maintenance, and weekly schedule generation; the nurse manager reviews drafts and approves.
+If the goal is structural burden reduction rather than a better tool, **SimpleScheduleAI** is the managed service alternative to TCP TimeClock+. It does not replace TCP with a different platform; it replaces the self-serve model entirely. A scheduling specialist handles configuration, roster maintenance, and weekly schedule generation; the nurse manager reviews drafts and approves.
 
-The trade-off is the staff-facing experience: TCP has a nurse-facing mobile app, SimpleScheduleAI does not. The full SimpleScheduleAI profile, including pricing and limitations, is in the comparison section below.
+The trade-off is the staff-facing experience: TCP TimeClock+ has a nurse-facing mobile app for clocking in, schedule viewing, and time-off requests. SimpleScheduleAI does not. The full SimpleScheduleAI profile, including limitations, is in the comparison section below.
 
 <div class="not-prose my-8">
   <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
       <tr class="bg-slate-100 dark:bg-slate-700">
         <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Dimension</th>
-        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">TCP</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">TCP TimeClock+</th>
         <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">SimpleScheduleAI</th>
       </tr>
     </thead>
     <tbody>
       <tr class="bg-white dark:bg-slate-800">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Setup</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">2-4 weeks (nurse manager configures)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager configures; timeline not published — contact TCP</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days (specialist configures)</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-700">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Weekly scheduling</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">4-6 hrs (nurse manager builds)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager builds in platform</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-2 hrs (nurse manager reviews)</td>
       </tr>
       <tr class="bg-white dark:bg-slate-800">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Callout coverage</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manager checks platform manually</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manager checks platform manually; advanced backfill requires Humanity add-on</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Pre-ranked shortlist delivered</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-700">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Overtime tracking</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Manual check</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Configurable thresholds; manager checks manually</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Proactive, before draft presented</td>
       </tr>
       <tr class="bg-white dark:bg-slate-800">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Staff mobile app</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Yes</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Yes: clock in/out, schedules, time-off</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">No</td>
       </tr>
     </tbody>
@@ -155,68 +159,74 @@ The trade-off is the staff-facing experience: TCP has a nurse-facing mobile app,
 
 ## How Do the Main TCP Alternatives Compare?
 
-Most CAH nurse managers evaluating TCP alternatives are looking at three categories: hospital-specific self-serve platforms, general workforce tools with healthcare modules, and managed services. Here is how the main options line up.
+Most Critical Access Hospital nurse managers evaluating TCP TimeClock+ alternatives are looking at three categories: hospital-specific self-serve scheduling platforms, a different TCP product designed specifically for healthcare scheduling, and managed services. Here is how the main options line up against each other and against TimeClock+.
 
 ### ShiftWizard
 
-ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is the closest like-for-like replacement for TCP in the hospital segment, purpose-built for hospital scheduling rather than adapted from another industry. It covers float pool management, hospital-specific credential fields, and department-level scheduling. Used by 500+ hospital facilities.
+ShiftWizard holds 4.4/5 on Capterra from 723 reviews and is purpose-built for hospital nurse scheduling. It is the closest like-for-like replacement for TCP TimeClock+'s scheduling function in the hospital segment, designed for nursing workflows rather than adapted from a general workforce management platform. It covers float pool management, hospital-specific credential fields, and department-level scheduling.
 
-**Best for:** Hospital nurse managers who want direct platform control and a cleaner interface than TCP.
+**Best for:** Hospital nurse managers who want direct platform control and a scheduling-first design rather than a time-and-attendance tool with scheduling added on.
 
 **Key advantages:**
 
-- Documented as designed by nurses specifically for hospital scheduling environments. Jennifer C., Director of Emergency Services, wrote on Capterra (July 15, 2024): "ShiftWizard was designed by nurses which is why it is fantastic to use."
+- Built specifically for hospital scheduling workflows; reviewers note it feels designed for nursing environments
 - Float pool and per diem management documented on the product page
-- Strong overall ratings (4.3/5 G2, 4.4/5 Capterra) with over 88% of Capterra reviews rating 4 stars or higher
+- Strong overall ratings (4.4/5 Capterra, 723 reviews) with high reviewer satisfaction across hospital users
+- Jennifer C., Director of Emergency Services, wrote on Capterra: "Overall, I enjoy using ShiftWizard as it simplifies employee scheduling and tracking."
 
 **Key limitations:**
 
 - App performance complaints from a subset of reviewers. Erika A., Registered Nurse, wrote on Capterra (July 9, 2024): "Can be slow and glitchy, making inputting schedule difficult and stressful."
-- Some reviewers describe mobile login friction. Melissa R., LVN, wrote on Capterra (July 26, 2024): "I wish the messaging was better, and that I have to input my info every time I log in."
-- Self-serve operating model: setup typically 2-4 weeks, and the nurse manager remains the operator. Switching from TCP to ShiftWizard does not change the operating model or reduce weekly scheduling labor.
+- Self-serve operating model: the nurse manager remains the operator and schedule builder. Switching from TCP TimeClock+ to ShiftWizard does not change the operating model or reduce weekly scheduling labor.
+- Switching still requires a full configuration and training cycle comparable to the original TCP setup.
 
-**Verdict:** Right choice if your primary TCP complaint is the interface or workflow. Less likely to fit if your complaint is the number of hours scheduling takes each week, since the self-serve model is the same.
+**Verdict:** Right choice if your primary TCP complaint is that the scheduling interface is not hospital-specific. Less likely to fit if your complaint is the number of hours scheduling takes each week.
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
-### Aladtec (now TCP)
+### Aladtec by TCP
 
-Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). It was acquired by TCP Software in 2021. The product operates under the same interface for existing customers, with TCP branding for new contracts. If nurses at your facility are comfortable with Aladtec and your complaint is specifically support quality or pricing rather than the platform itself, it is worth contacting TCP about contract terms before switching entirely.
+Aladtec by TCP is a separate TCP Software product designed specifically for healthcare and public safety scheduling. It is not a rebrand of TCP TimeClock+: TCP Software acquired Aladtec in October 2021, and both products remain separately maintained. Aladtec holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews; small sample). If your primary frustration with TCP TimeClock+ is that its scheduling features are too basic for healthcare-specific needs, Aladtec by TCP is the purpose-built TCP alternative worth evaluating before switching vendors entirely.
 
-**Best for:** Facilities already live on Aladtec where the core complaint is support responsiveness or pricing, not platform capability.
+**Best for:** Facilities that want to stay within the TCP Software ecosystem but need a scheduling tool designed specifically for healthcare and EMS operations rather than general workforce management.
 
 **Key advantages:**
 
-- Existing staff already trained on the interface
-- Documented credential tracking and 24/7 shift-coverage workflow
-- Broad public-safety and small-healthcare install base. Jody S., Security Management, wrote on Capterra (August 14, 2025): "Their customer support team is better than any other support team I have ever had to deal with."
+- Designed for healthcare and public safety scheduling rather than adapted from general T&A
+- Credential and certification tracking with documented healthcare workflows
+- Customer support noted as strong by some reviewers. One reviewer on Capterra wrote: "Their customer support team is better than any other support team I have ever had to deal with. They are quick to answer the phone, they are extremely knowledgeable about their product and ensure you get the exact help you need."
 
 **Key limitations:**
 
-- Some reviewers describe click-heavy workflows for routine edits. Amanda F., Nurse Manager (Hospital & Health Care), wrote on Capterra (October 13, 2020): "When editing the schedule there are a lot of clicks involved."
-- A separate reviewer flagged setup as harder than expected. Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side."
-- The most recent hospital-context Capterra reviews are several years old; CAHs should request a current hospital-nursing reference customer and ask the vendor for documented support response-time SLAs.
+- Setup reported as complex by some administrators. Jeanne C., Administrative Coordinator, wrote on Capterra (May 7, 2019): "It was a bit complicated to figure out from the administrator side. I was having trouble with it and I don't normally have trouble with setting up software."
+- Small Capterra review sample (17 reviews) for a hospital-nursing assessment; G2 sample is larger but still limited
+- The most recent hospital-context Capterra reviews are several years old; CAHs should request a current hospital-nursing reference customer before purchasing
 
-**Verdict:** If you are on Aladtec and primarily frustrated by support quality or contract terms, renegotiate before switching. If the complaint is operational burden, switching platforms does not solve that.
+**Verdict:** Worth evaluating if you need a scheduling-first tool and prefer staying with TCP Software. If the complaint is operational burden rather than platform fit, switching to a different TCP product does not solve the self-serve operating model problem.
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
-See our full [Aladtec alternatives](/blog/aladtec-alternatives) post for a complete breakdown.
+See our full [Aladtec alternatives](/blog/aladtec-alternatives) post for a complete breakdown of Aladtec by TCP's feature set.
 
 ### NurseGrid
 
-NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shift-trading workflows. The NurseGrid Manager tier holds 4.2/5 on Capterra (13 reviews; small sample). The product is generally compared as a different category of tool from TCP: a nurse-facing layer rather than a full scheduling and compliance platform. CAHs evaluating NurseGrid as a primary scheduling system should confirm directly with NurseGrid sales which compliance and management capabilities are supported in their hospital tier.
+NurseGrid is positioned as a mobile-first nurse-facing app for per diem and shift-trading workflows. The NurseGrid Manager tier holds 4.2/5 on Capterra (13 reviews; small sample). It is generally a different category of tool from TCP TimeClock+: a nurse-facing scheduling layer rather than a full time-and-attendance and scheduling platform. CAHs evaluating NurseGrid as a primary scheduling system should confirm directly with NurseGrid sales which compliance and management capabilities are supported in their hospital tier.
 
-**Best for:** Facilities where mobile shift trading and nurse-facing schedule visibility are a priority, often paired with a separate primary scheduling system.
+**Best for:** Facilities where mobile shift trading and nurse-facing schedule visibility are the primary need, often used alongside a separate primary scheduling or time tracking system.
 
 **Key advantages:**
 
-- Strong nurse-facing mobile experience for individual schedule viewing
+- Strong nurse-facing mobile experience for individual schedule viewing and shift trading
 - Easier to roll out to staff than self-serve enterprise platforms
 - Freemium tier for individual nurses
-- Limited credential and certification tracking
 
-**Verdict:** Right for facilities with primarily per diem shift management needs. Not right for a CAH that needs a complete scheduling and compliance record.
+**Key limitations:**
+
+- Not designed as a primary scheduling and compliance record system for a CAH
+- Small review sample makes ratings less reliable as a signal
+- Limited credential and certification tracking for hospital compliance workflows
+
+**Verdict:** Right for facilities with primarily per diem shift management needs. Not right for a CAH that needs a complete scheduling and compliance record with CMS documentation.
 
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
@@ -228,15 +238,15 @@ SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A s
 
 **Key advantages:**
 
-- Live in 3-5 days from Excel roster upload
-- Weekly scheduling time drops from 4-6 hours (building) to 1-2 hours (reviewing)
+- Live in 3-5 days from your staff roster
+- Weekly scheduling time drops to 1-2 hours of reviewing and approving
 - FLSA, Texas Labor Code, and CMS §485.635 audit trail included by default
-- Callout coverage shortlists delivered pre-ranked with constraint logic applied
+- Callout coverage shortlists delivered pre-ranked with credential and overtime constraints applied
 
 **Key limitations:**
 
-- No nurse-facing mobile app
-- Less direct platform control than self-serve tools
+- No nurse-facing mobile app; staff receive schedules through the facility's existing communication method
+- Less direct platform control than self-serve tools; the nurse manager approves but does not build
 - Not appropriate if staff self-service features are a hard requirement
 
 **Verdict:** Right choice if scheduling labor is the primary burden. Wrong choice if nurses using an app to view schedules or submit availability is a priority. [See how the managed service works](/how-it-works).
@@ -245,20 +255,20 @@ SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A s
 
 ## What Are the Four Questions to Ask Any TCP Alternative?
 
-Before committing to any TCP alternative, ask these four questions:
+Four questions separate the platforms that will actually improve a CAH nurse manager's scheduling situation from the ones that look promising in a demo but replicate the same operational burden with a different interface.
 
 1. **How long until my first operational schedule?** The answer should be in days (managed service) or weeks (self-serve platform). Anything measured in months is an enterprise product not designed for CAH scale.
 
-2. **Who does the configuration work?** If the answer is "your team," understand what that means in hours for your specific facility size and scheduling complexity.
+2. **Who does the configuration work?** If the answer is "your team," understand what that means in hours for your specific facility size and scheduling complexity. Configuration time is a real cost that rarely appears in a sales conversation.
 
-3. **What does the callout coverage workflow look like at 5am?** Walk through the specific scenario: a nurse calls out 2 hours before a shift. What does the manager do step by step? What does the platform provide vs. what does she do manually?
+3. **What does the callout coverage workflow look like at 5am?** Walk through the specific scenario: a nurse calls out 2 hours before a shift. What does the manager do step by step? What does the platform or service provide, and what does she do manually? Ask about constraints: overtime status, certification, fair distribution.
 
-4. **What CMS documentation does it produce automatically?** Ask to see a sample audit trail output. "We have compliance features" is not the same as auto-logged, timestamp-stamped change documentation.
+4. **What CMS documentation does it produce automatically?** Ask to see a sample audit trail output. "We have compliance features" is not the same as automatically logged, timestamped change documentation that a CMS surveyor can review under §485.635.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 px-8 py-8 text-white">
-  <h2 class="mb-2 text-2xl font-bold text-white">See Whether the Managed Service Model Fits Your CAH</h2>
+  <h2 class="mb-2 text-2xl font-bold text-white">See Whether the Managed Service Model Fits Your Critical Access Hospital</h2>
   <p class="mb-6 text-blue-100">
-    SimpleScheduleAI goes live in 3-5 days from your Excel roster. FLSA, Texas Labor Code, and CMS documentation are included by default. Request a free assessment to see how it compares to what you have now.
+    SimpleScheduleAI goes live in 3-5 days from your staff roster. FLSA, Texas Labor Code, and CMS documentation are included by default. Request a free assessment to see how it compares to what you have now.
   </p>
   <a
     href="/pilot"
@@ -270,33 +280,35 @@ Before committing to any TCP alternative, ask these four questions:
 
 ## A Note on Sources
 
-Public review counts, ratings, and quotes referenced in this guide were gathered from G2, Capterra, AllNurses.com, and the iOS App Store on 2026-04-30. Documented product capabilities reference each vendor's own product page, also verified on that date. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
+Public review counts, ratings, and quotes referenced in this guide were gathered from G2 and Capterra on 2026-04-30 and verified again in May 2026. Documented product capabilities reference each vendor's own product page, also verified on those dates. Vendor offerings, ratings, and product capabilities change over time; CAHs evaluating any specific platform should verify current capabilities directly with the vendor before deciding.
 
 ## Frequently Asked Questions
 
-**Is TCP Scheduling Software the same as Aladtec?**
+The five questions below cover what Critical Access Hospital administrators most often ask when comparing TCP TimeClock+ and alternative scheduling solutions.
 
-Yes. TCP acquired Aladtec in 2021. The product continues to operate under the Aladtec interface for most existing customers, but TCP Scheduling Software is the current brand. If you are looking for Aladtec alternatives, you are looking at TCP alternatives.
+**Is TCP TimeClock+ the same product as Aladtec?**
 
-**What is the fastest way to switch from TCP to a new scheduling solution?**
+No. TCP Software owns both products, but they are separate tools with different purposes. TCP TimeClock+ is a time and attendance platform with basic scheduling. Aladtec by TCP is a scheduling platform designed specifically for healthcare and public safety operations. TCP acquired Aladtec in October 2021; both products remain independently maintained. A hospital evaluating either should confirm which product is being proposed and understand the distinction before purchasing.
 
-Switching to a managed service is the fastest path: 3-5 days from roster upload to first draft schedule, with the service team handling configuration. Switching to another self-serve platform (ShiftWizard) runs 2-4 weeks and requires the nurse manager to handle setup. Confirm TCP contract terms and renewal dates before starting any transition.
+**What is the fastest way to switch from TCP TimeClock+ to a new scheduling solution?**
 
-**Does SimpleScheduleAI replace TCP's staff-facing features?**
+Switching to a managed service is the fastest path: 3-5 days from roster upload to first draft schedule, with the service team handling configuration. Switching to another self-serve platform runs longer because the nurse manager or a team member must handle the new platform's setup and training. Confirm TCP contract terms and renewal dates before starting any transition.
 
-No. SimpleScheduleAI does not have a nurse-facing mobile app. Nurses at facilities using SimpleScheduleAI receive schedules through the facility's existing communication method (email, group text, posted schedule). If nurse-facing self-service features are important, a hybrid approach (a generic communication tool for nurse-facing features plus a managed service for scheduling management) is worth considering.
+**Does SimpleScheduleAI replace TCP TimeClock+'s staff-facing features?**
 
-**What compliance documentation does a TCP alternative need to produce for a CAH?**
+No. SimpleScheduleAI does not have a nurse-facing mobile app. Nurses at facilities using SimpleScheduleAI receive schedules through the facility's existing communication method (email, group text, posted schedule). If nurse-facing self-service features are important, a hybrid approach, or a platform with a nurse app, is the right fit.
 
-At minimum: an automatically maintained log of every schedule change with timestamp, changed-by information, and the before/after state. This is what CMS surveyors request when reviewing staffing records under [§485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals). Confirm any alternative produces this automatically, not through manual export.
+**What compliance documentation does a TCP TimeClock+ alternative need to produce for a CAH?**
 
-**What is the main scenario where keeping TCP makes sense over switching?**
+At minimum: an automatically maintained log of every schedule change with timestamp, who made the change, and the before and after state. This is what CMS surveyors request when reviewing staffing records under [§485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals). Confirm any alternative produces this automatically, not through manual export.
 
-If your nurse manager is comfortable with TCP, has settled into a 4-6 hour weekly scheduling routine, and staff self-service on mobile is important to your facility culture, staying with TCP makes sense. Switching has transition costs: time, learning curve, parallel running. If the current situation is tolerable and the mobile app matters, the benefits of switching may not justify those costs.
+**What is the main scenario where staying with TCP TimeClock+ makes sense over switching?**
 
-**Is ShiftWizard or TCP better for a 25-bed hospital?**
+If your nurse manager is comfortable with TCP TimeClock+, has a manageable weekly scheduling routine, and staff self-service on mobile for time clocking and schedule viewing is important to your facility, staying with TCP makes sense. Switching has transition costs: time, learning curve, and parallel running. If the current situation is tolerable and the mobile app matters, the benefits of switching may not justify those costs.
 
-Both are self-serve platforms with similar setup timelines and pricing tiers. ShiftWizard has a more modern interface and was built specifically for hospital scheduling rather than adapted from EMS. TCP has a more established install base in rural and critical access hospitals and a longer track record for compliance documentation. If you are choosing between the two, the deciding factor is usually interface preference: they are comparable on core functionality. If your core problem is scheduling labor rather than the interface, neither one solves it without also considering a managed service.
+**Is ShiftWizard or Aladtec by TCP better for a 25-bed hospital?**
+
+They serve different purposes. ShiftWizard is a general hospital scheduling platform with a strong nurse-facing design. Aladtec by TCP is designed for healthcare and public safety scheduling with a documented CAH install base. Both are self-serve platforms where the nurse manager remains the operator. If your primary need is scheduling-first design with a modern interface, ShiftWizard is the stronger comparison. If you want to stay in the TCP Software ecosystem and need healthcare-specific scheduling depth, Aladtec by TCP is worth evaluating.
 
 ---
 
