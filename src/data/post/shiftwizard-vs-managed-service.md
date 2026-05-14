@@ -44,6 +44,8 @@ For a Critical Access Hospital nurse manager evaluating hospital scheduling opti
 
 ## What Is ShiftWizard?
 
+<img src="/images/blog/shiftwizard-vs-managed-service/Shiftwizard.png" alt="ShiftWizard hospital nurse scheduling platform by HealthStream" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM). It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews), with over 88% of Capterra reviews rating 4 stars or higher. G2's overall summary describes ShiftWizard as a tool users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
 
 ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
@@ -172,6 +174,8 @@ The decision tree:
 The honest answer for many CAHs is "items 1, 3, and 4 favor a managed service; item 2 favors a platform." When this is the breakdown, a hybrid architecture (managed service for scheduling plus a separate communication tool for staff-facing features) can work.
 
 ## How SimpleScheduleAI Fits If You Need the Managed Service Model
+
+<img src="/images/blog/shiftwizard-vs-managed-service/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service for critical access hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) for Critical Access Hospitals in Texas. We are not a self-serve scheduling platform; we are not positioned as a head-to-head replacement for ShiftWizard.
 

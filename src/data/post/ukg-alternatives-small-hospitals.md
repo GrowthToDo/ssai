@@ -54,6 +54,8 @@ The alternative path is direct purchase. A hospital administrator, seeing that U
 
 ## What UKG Assumes You Have?
 
+<img src="/images/blog/ukg-alternatives-small-hospitals/UKG.png" alt="UKG workforce management platform for enterprise healthcare organizations" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 <div class="not-prose my-8">
   <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
     <thead>
@@ -146,6 +148,8 @@ Beyond the purchase price, the operational cost of running UKG at CAH scale is s
 
 ### 1. SimpleScheduleAI
 
+<img src="/images/blog/ukg-alternatives-small-hospitals/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service for critical access hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 SimpleScheduleAI is a managed scheduling service built specifically for Critical Access Hospitals. There is no platform to configure or maintain. The nurse manager uploads a staff roster in Excel format and the first schedule is delivered within 48 hours. FLSA 8-and-80 overtime logic, CMS §485.635 documentation, and charge nurse designation enforcement are built-in defaults, not configuration options.
 
 The nurse manager reviews and approves schedules and handles callout coverage using the automated ranked replacement list. Weekly scheduling time drops to 1-2 hours. No IT involvement. No implementation project. For a CAH coming off UKG, a managed service is typically the fastest path to operational simplicity.
@@ -171,6 +175,8 @@ The nurse manager reviews and approves schedules and handles callout coverage us
 **Cost:** Pricing not listed publicly. Contact for a quote.
 
 ### 2. Aladtec (TCP Scheduling)
+
+<img src="/images/blog/ukg-alternatives-small-hospitals/Aladtec.png" alt="Aladtec by TCP healthcare and public safety scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is the most widely deployed scheduling platform among critical access hospitals and EMS organizations. Unlike UKG, it requires minimal IT involvement and can be operational in 2-4 weeks. For a CAH leaving UKG because of implementation complexity, Aladtec represents a meaningful reduction in setup overhead.
 
@@ -217,6 +223,8 @@ If you are leaving UKG because it demands too much from one person, Aladtec is s
 **Cost:** Pricing not listed publicly. Contact for quote. Typically positions below SmartLinx and well below UKG in per-facility cost.
 
 ### 3. SmartLinx
+
+<img src="/images/blog/ukg-alternatives-small-hospitals/Smartlinx.png" alt="SmartLinx workforce management platform for mid-size healthcare organizations" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 SmartLinx is a workforce management platform built for mid-size healthcare organizations, primarily skilled nursing facilities and hospitals in the 50-200 bed range. It has stronger built-in credential enforcement and compliance logic than Aladtec, with pre-configured rules for common healthcare regulatory requirements.
 

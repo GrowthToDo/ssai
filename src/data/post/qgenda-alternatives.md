@@ -48,6 +48,8 @@ QGenda's customer base skews toward physician group practices and larger health 
 
 ## What QGenda Is Built For?
 
+<img src="/images/blog/qgenda-alternatives/QGenda.png" alt="QGenda provider and nurse scheduling platform for healthcare organizations" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 QGenda's product page covers provider scheduling, on-call management, credentialing, time tracking, and analytics for healthcare organizations. The platform's strongest documented use case is multi-specialty physician scheduling and complex on-call management at larger health systems. Reviews from larger-scale customers and reviews from smaller-scale customers describe meaningfully different experiences, which is typical of platforms serving multiple market segments.
 
 A representative positive review:
@@ -151,6 +153,8 @@ For a critical access hospital, scheduling requirements differ from what QGenda 
 
 ### 1. SimpleScheduleAI
 
+<img src="/images/blog/qgenda-alternatives/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service for critical access hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 SimpleScheduleAI is a new service in active pilot phase, without public G2 or Capterra reviews yet. It is a managed [healthcare staff scheduling](/nurse-scheduling-software) service built specifically for Critical Access Hospitals in Texas. Unlike a self-serve platform, SimpleScheduleAI requires no configuration work from the nurse manager: a specialist handles setup from an Excel roster upload (3-5 days), builds draft schedules each cycle, and maintains the system as the roster changes.
 
 Texas compliance is built in as the default: [FLSA](https://www.dol.gov/agencies/whd/flsa) overtime rules, [Texas Labor Code](https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm) provisions, and [CMS CoP §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals) documentation are part of the standard service rather than configuration the nurse manager has to maintain.
@@ -176,6 +180,8 @@ Texas compliance is built in as the default: [FLSA](https://www.dol.gov/agencies
 **Cost:** Pricing not listed on website. Contact for a quote.
 
 ### 2. TCP Scheduling (Aladtec)
+
+<img src="/images/blog/qgenda-alternatives/Aladtec.png" alt="Aladtec by TCP healthcare and public safety scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews). The platform's documented customer base skews toward fire, EMS, law enforcement, and security users; its hospital-nursing deployment is a more recent expansion of the original use case ([tcpsoftware.com](https://www.tcpsoftware.com)).
 
@@ -224,6 +230,8 @@ Ask the vendor for current named support contacts, response-time SLA, and a rece
 
 ### 3. ShiftWizard
 
+<img src="/images/blog/qgenda-alternatives/Shiftwizard.png" alt="ShiftWizard hospital nurse scheduling platform by HealthStream" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is a hospital scheduling platform owned by HealthStream, Inc. (acquired), designed specifically for hospital nursing scheduling and used by more than 500 hospital facilities ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
 
 A representative positive review:
@@ -263,6 +271,8 @@ Ask the demo to walk through mobile workflows from both manager and staff perspe
 **Cost:** Pricing not publicly listed. Contact HealthStream for a quote.
 
 ### 4. NurseGrid Manager
+
+<img src="/images/blog/qgenda-alternatives/Nursegrid.png" alt="NurseGrid mobile-first nurse scheduling app" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 NurseGrid Manager holds 4.2/5 on Capterra (13 reviews; small sample). NurseGrid is built primarily as a nurse-facing app for individual nurses to view schedules, pick up open shifts, and communicate availability ([nursegrid.com](https://www.nursegrid.com)). The Manager tier extends this with unit-level oversight.
 
