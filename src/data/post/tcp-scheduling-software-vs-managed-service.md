@@ -103,6 +103,8 @@ TCP TimeClock+ is a time and attendance platform made by TCP Software. It combin
 
 ## What Is TCP TimeClock+?
 
+<img src="/images/blog/tcp-scheduling-software-vs-managed-service/TCP.png" alt="TCP TimeClock+ time and attendance platform homepage" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. Its core strengths are time clock management, payroll integration, leave and absence tracking, and overtime monitoring. Scheduling is part of the platform but is not its primary design focus. Some healthcare users on Capterra note the scheduling aspect is more basic than dedicated scheduling tools. The platform carries a 4.4/5 rating from 271 reviews on Capterra as of May 2026.
 
 TCP Software is the parent company. It owns three separate workforce management products: TimeClock+ for time and attendance, Humanity Scheduling for advanced employee scheduling, and Aladtec for healthcare and public safety scheduling. These are distinct products with different feature sets. A Critical Access Hospital evaluating TCP should clarify which product addresses their scheduling needs before purchasing.
@@ -125,6 +127,8 @@ TCP Software is the parent company. It owns three separate workforce management 
 Verify current capabilities directly with TCP before making a purchasing decision.
 
 ## What Does a Managed Scheduling Service Do Differently?
+
+<img src="/images/blog/tcp-scheduling-software-vs-managed-service/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service for critical access hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 A managed scheduling service removes the scheduling function from the nurse manager's plate entirely. Instead of a platform she configures and operates, it is a service a specialist runs on her behalf. The nurse manager receives a draft schedule built around her constraints, reviews it, and approves. Weekly scheduling work, overtime monitoring, callout ranking, and roster maintenance happen outside her workload.
 
