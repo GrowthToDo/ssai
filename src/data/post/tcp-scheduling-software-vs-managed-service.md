@@ -40,7 +40,7 @@ metadata:
 - [What to Do This Week?](#what-to-do-this-week)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-TCP TimeClock+ is a time and attendance platform made by TCP Software. It combines time clock management, leave tracking, payroll integration, and basic employee scheduling in one system. For [critical access hospital scheduling](/critical-access-hospital-scheduling), TCP TimeClock+ is often chosen by hospitals that want one platform handling both time tracking and scheduling rather than managing two separate tools. The question for a CAH nurse manager is whether a system built primarily around time tracking meets her scheduling needs, or whether a scheduling-focused service handles more of the weekly work for her. For the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide.
+TCP TimeClock+ is a time and attendance platform made by TCP Software. It combines time clock management, leave tracking, payroll integration, and basic employee scheduling in one system. For [critical access hospital scheduling](/critical-access-hospital-scheduling), TCP TimeClock+ is often chosen by hospitals that want one platform handling both time tracking and scheduling rather than managing two separate tools. The question for a CAH nurse manager is whether a system built primarily around time tracking meets her scheduling needs, or whether a scheduling-focused service handles more of the weekly work for her. For the full range of [nurse scheduling software](/nurse-scheduling-software) options at the CAH scale, see our dedicated guide. If you are specifically comparing TCP TimeClock+ against other scheduling platforms, see our [best TCP alternatives for Critical Access Hospitals](/blog/best-tcp-alternative-for-cah) guide.
 
 <div class="not-prose my-8">
   <table class="w-full text-xs sm:text-sm border-collapse table-fixed break-words">
@@ -107,7 +107,7 @@ TCP TimeClock+ is a time and attendance platform made by TCP Software. It combin
 
 TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. Its core strengths are time clock management, payroll integration, leave and absence tracking, and overtime monitoring. Scheduling is part of the platform but is not its primary design focus. Some healthcare users on Capterra note the scheduling aspect is more basic than dedicated scheduling tools. The platform carries a 4.4/5 rating from 271 reviews on Capterra as of May 2026.
 
-TCP Software is the parent company. It owns three separate workforce management products: TimeClock+ for time and attendance, Humanity Scheduling for advanced employee scheduling, and Aladtec for healthcare and public safety scheduling. These are distinct products with different feature sets. A Critical Access Hospital evaluating TCP should clarify which product addresses their scheduling needs before purchasing.
+TCP Software is the parent company. It owns three separate workforce management products: TimeClock+ for time and attendance, Humanity Scheduling for advanced employee scheduling, and [Aladtec](/blog/aladtec-alternatives) for healthcare and public safety scheduling. These are distinct products with different feature sets. A Critical Access Hospital evaluating TCP should clarify which product addresses their scheduling needs before purchasing.
 
 **What TCP TimeClock+ does well:**
 
@@ -287,7 +287,7 @@ With TCP TimeClock+: the nurse manager checks the platform for availability, rev
 
 **What is the main reason to stay with TCP TimeClock+ instead of switching to a managed service?**
 
-Two reasons. First, the staff-facing mobile app: nurses can clock in and out, view schedules, and request time off in one place. SimpleScheduleAI does not have a nurse-facing interface. Second, unified time and attendance: if your hospital uses TimeClock+ for payroll and time tracking, keeping scheduling in the same platform reduces reconciliation work between systems. A managed scheduling service covers scheduling only; it does not replace a time and attendance system.
+Two reasons. First, the staff-facing mobile app: nurses can clock in and out, view schedules, and request time off in one place. SimpleScheduleAI does not have a nurse-facing interface. Second, unified time and attendance: if your hospital uses TimeClock+ for payroll and time tracking, keeping scheduling in the same platform reduces reconciliation work between systems. A managed scheduling service covers scheduling only; it does not replace a time and attendance system. If a hospital-specific scheduling platform with a nurse-facing app is the goal, see how [ShiftWizard compares to a managed service](/blog/shiftwizard-vs-managed-service).
 
 _Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
