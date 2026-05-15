@@ -113,7 +113,7 @@ Both Aladtec and SimpleScheduleAI serve [critical access hospital scheduling](/c
       </tr>
       <tr class="align-top">
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 font-medium text-slate-800 dark:text-slate-200">Ratings (May 2026)</td>
-        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">G2: 4.5/5 (94 reviews)<br>Capterra: 4.6/5 (17 reviews; small sample)</td>
+        <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">G2: 4.3/5 (97 reviews)<br>Capterra: 4.6/5 (17 reviews; small sample)</td>
         <td class="border border-slate-300 dark:border-slate-700 px-4 py-2 text-slate-600 dark:text-slate-400">New service; in active pilot phase</td>
       </tr>
     </tbody>
@@ -132,7 +132,7 @@ For a 400-bed hospital with a dedicated scheduling department, the distinction m
 
 ## What Is Aladtec?
 
-Aladtec is a web-based scheduling platform built originally for emergency services (fire, EMS, and law enforcement) and expanded to healthcare and other sectors. It handles shift scheduling, availability tracking, time-off requests, and basic overtime monitoring.
+Aladtec is a web-based scheduling platform originally built for emergency services and expanded to healthcare. It handles shift scheduling, availability tracking, time-off requests, and basic overtime monitoring. Owned by TCP Software, Aladtec is a self-serve tool: the nurse manager or a designated scheduler configures the system, builds each schedule, and maintains the configuration as staff and policy changes occur.
 
 <img src="/images/blog/aladtec-vs-managed-service/Aladtec.png" alt="Aladtec scheduling software interface" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 

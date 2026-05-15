@@ -83,6 +83,8 @@ For a CAH operating under [CMS Conditions of Participation](https://www.cms.gov/
 
 ## What Is TCP TimeClock+?
 
+TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. It handles time tracking, payroll integration, overtime monitoring, and leave management for small and mid-size employers. Scheduling is configurable but not the platform's primary design focus. TCP Software also owns Aladtec and Humanity Scheduling as separate products; hospitals should confirm which product they are being sold before committing.
+
 <img src="/images/blog/best-tcp-alternative-for-cah/TCP.png" alt="TCP TimeClock+ time and attendance platform homepage" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 TCP TimeClock+ is a time and attendance platform made by TCP Software that includes employee scheduling as a secondary feature. Its primary strengths are time clock management, payroll integration, leave tracking, and overtime monitoring. Scheduling is part of the platform but not its primary design focus. TCP Software also owns two separate scheduling-focused products: Aladtec (designed for healthcare and public safety scheduling) and Humanity Scheduling (enterprise employee scheduling). A Critical Access Hospital evaluating any TCP product should confirm which one is being proposed and what it covers before committing.
@@ -264,6 +266,8 @@ SimpleScheduleAI is a managed scheduling service, not a self-serve platform. A s
 **Cost:** Starting pricing available at [simplescheduleai.com/pilot](/pilot). Pilot available for qualifying CAHs.
 
 ## What Are the Four Questions to Ask Any TCP Alternative?
+
+Four questions should anchor every TCP TimeClock+ alternative evaluation at a Critical Access Hospital: how long until the first live schedule, who owns the configuration work, what does the callout coverage workflow look like at 5am under real constraints, and what CMS documentation does the system produce automatically. These questions reveal whether a platform solves the operational problem or just changes the tool the nurse manager uses to do the same work.
 
 Four questions separate the platforms that will actually improve a CAH nurse manager's scheduling situation from the ones that look promising in a demo but replicate the same operational burden with a different interface.
 

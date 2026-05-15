@@ -47,6 +47,8 @@ One data point worth knowing before any internal conversation about UKG: the adm
 
 ## Why Does UKG Fail at Small Hospital Scale?
 
+UKG fails at a 25-bed hospital because every operational assumption the platform makes is wrong at that scale. The implementation requires dedicated IT and HRIS staff a CAH does not have. The 6-12 month timeline does not fit a facility in active scheduling distress. The $150,000-$500,000 implementation cost does not recover at a hospital with $400,000-$600,000 in annual nursing labor. And the ongoing configuration burden lands on the nurse manager, who is also managing clinical shifts.
+
 <div class="not-prose my-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
   <div class="rounded-lg border border-red-200 dark:border-red-800 bg-white dark:bg-slate-800 overflow-hidden">
     <div class="bg-red-600 dark:bg-red-700 px-3 py-2">
@@ -109,6 +111,8 @@ The system is nominally operational, but the nurse manager is doing manual verif
 
 ## What Is the Complexity-to-Value Gap?
 
+The complexity-to-value gap at a Critical Access Hospital is the difference between the features UKG requires you to operate and the features your hospital actually uses. A 25-bed CAH needs shift scheduling, basic overtime tracking, and some credential tracking. UKG provides those three things plus twenty others, and every one of them requires configuration and maintenance at the same operational overhead level. The nurse manager carries the cost of the full feature set to access the three she uses.
+
 The right framing is not "is UKG too expensive?" It is: "is the complexity proportional to the value?"
 
 UKG features that are valuable at large hospital scale:
@@ -128,6 +132,8 @@ UKG features that a 25-bed CAH actually uses:
 The complexity required to access the three features you use is the same as the complexity required to access the twenty you do not. The nurse manager at a CAH manages the full UKG operational burden for a fraction of the feature value.
 
 ## What Works at Critical Access Hospital Scale?
+
+Three scheduling tools are actually suited to Critical Access Hospital scale: Aladtec for self-serve CAHs with a nurse manager who has time to configure and maintain the system, SmartLinx for hospitals in the 50-200 bed range with IT support available, and SimpleScheduleAI for CAHs where the nurse manager needs the scheduling work handled entirely without a platform to operate. All three deliver the compliance and coverage requirements a CAH needs at a fraction of UKG's complexity and cost.
 
 The scheduling requirements for a CAH are not simple. They are just different from enterprise requirements:
 
@@ -251,8 +257,5 @@ At minimum, a 25-bed CAH needs: proactive FLSA 8-and-80 overtime tracking, crede
 
 Aladtec's default overtime threshold is the standard 40-hour workweek. Healthcare employers using the FLSA 8-and-80 rule need to configure the correct threshold in their Aladtec account. If this configuration is not completed, the system will calculate overtime incorrectly for a healthcare employer. SimpleScheduleAI applies the 8-and-80 rule as a default for healthcare configurations.
 
----
-
-**Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

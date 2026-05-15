@@ -78,6 +78,8 @@ A 25-bed hospital running 24/7 nursing coverage needs a predictable distribution
 
 ## What Does Selfish Scheduling Actually Look Like?
 
+Selfish scheduling appears as three repeating patterns at a CAH: first-mover advantage where fast-acting nurses claim all desirable shifts before slower colleagues can respond, holiday stacking where the same nurses end up on Christmas and Thanksgiving every year because there is no cross-cycle record to enforce rotation, and night-and-weekend avoidance where some nurses claim only day shifts on weekdays cycle after cycle without any minimum floor enforced by policy.
+
 In practice, selfish scheduling is not nurses behaving badly. It is the predictable outcome of a system with no guardrails on what any individual nurse can claim relative to the unit's coverage needs. A nurse who logs in at 8 AM when the window opens and claims three consecutive day shifts on weekdays is following the rules as written. The problem is that those rules allow the coverage gap her choices create.
 
 The pattern appears in three forms at CAHs:
@@ -200,8 +202,5 @@ A fairness score measures how equitably undesirable shifts, nights, weekends, an
 
 Yes. A hybrid model works: nurses submit preferences through whatever communication channel the unit already uses, and the scheduling service uses those preferences as inputs when generating the schedule. The difference is that preferences are applied subject to fair distribution rules and coverage requirements, not first-come-first-served. The nurse still has input. The manager still approves. The system enforces the rules that manual self-scheduling cannot consistently enforce.
 
----
-
-**Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals. MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare operations, workforce optimization, and hospital process design.
+_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
