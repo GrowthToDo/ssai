@@ -1,6 +1,6 @@
 ---
-draft: true
-publishDate: 2026-05-14T00:00:00Z
+draft: false
+publishDate: 2026-05-15T00:00:00Z
 updateDate: 2026-05-15T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'Scheduling Software vs. Managed Service: What Critical Access Hospitals Need'
