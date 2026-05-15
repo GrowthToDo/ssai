@@ -58,6 +58,8 @@ Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Move Away from Deputy?
 
+Hospitals move away from Deputy when CMS compliance obligations grow beyond what a general workforce scheduling tool can support. Deputy does not document credential enforcement, FLSA 8-and-80 overtime configuration, or CMS §485.635 audit trail support on its product pages. For hospital nursing units where those features are required, every gap becomes a manual compliance process the nurse manager absorbs outside the scheduling system.
+
 <img src="/images/blog/deputy-alternatives-healthcare/Deputy.png" alt="Deputy general workforce scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Hospitals move away from Deputy when clinical compliance requirements exceed its general workforce scheduling model. The most common gaps are CMS staffing documentation that must be maintained manually outside the tool, credential enforcement that is not described on the product page, and FLSA 8-and-80 overtime configuration that Deputy does not document in its public materials.

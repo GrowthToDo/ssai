@@ -48,6 +48,8 @@ The system continues working in the sense that schedules still get built, but it
 
 ## What Triggers the Decision to Leave?
 
+Small hospitals leave UKG when one of four events makes the cost-to-value mismatch impossible to ignore: a contract renewal where the administrator finally totals the true cost, a key staff departure that leaves no one capable of maintaining the configuration, a specific compliance failure or payroll error traced to scheduling, or a cost audit that surfaces the gap between headline license fees and total operational cost. Most facilities have been managing the mismatch for months or years before one of these events converts it into a decision.
+
 The trigger is almost never a single event. It is typically a compound of:
 
 **Contract renewal:** The annual or multi-year contract comes up for renewal and the administrator finally does the math on whether the cost is justified. For a 25-bed CAH, UKG costs are disproportionate relative to the value the system actually delivers when it is under-configured and under-supported.
@@ -82,6 +84,8 @@ The trigger is almost never a single event. It is typically a compound of:
 
 ## What Nobody Tells You About the UKG Exit Process?
 
+The UKG exit process has four hidden friction points that most administrators do not encounter until they are already in the middle of the migration. The notice window is tighter than expected and triggers automatic renewal if missed by even one day. Data export comes in a proprietary format that requires manual cleaning. Support quality drops sharply once notice is submitted. And nursing staff who disliked UKG will carry that frustration into the replacement, regardless of how much simpler it is.
+
 **The notice requirement triggers immediately.** Most UKG contracts require 30-90 days written notice before the contract end date to avoid automatic renewal. If you send notice one day after the renewal window closes, you have committed to another full contract term. Pull your contract and read the termination section before making any other decisions.
 
 **Data export is not automatic.** UKG will provide your data on request during the contract period, but the export format is their format, not a universal standard. Your scheduling history, nurse roster, and shift rules are stored in a proprietary database structure. Extracting them in a format your next system can actually use requires either manual work or a vendor-to-vendor data migration agreement, which costs money and time.
@@ -93,6 +97,8 @@ The trigger is almost never a single event. It is typically a compound of:
 **The parallel operation period is uncomfortable but mandatory.** Running two systems simultaneously for 30-60 days is expensive and confusing. Do it anyway. A cold cutover where the old system is shut off before the new one is fully operational is how migrations fail.
 
 ## What Is the Migration Playbook for a 25-Bed Hospital?
+
+A successful UKG migration at a 25-bed hospital follows a 60-day parallel operation window: 60 days before cutover to read the contract and select the replacement, 45 days out to submit notice and request data export, 30 days out to begin shadow operation of the new system alongside UKG, and a support sprint through the first two weeks post-cutover. Never cut over cold. The parallel period is uncomfortable but it is the only way to avoid a failed cutover.
 
 **60 days before cutover:**
 
@@ -148,6 +154,8 @@ The trigger is almost never a single event. It is typically a compound of:
 
 ## What to Do With Your Data?
 
+Two categories of UKG data are worth extracting during a migration: the nurse roster and the historical schedule record. The nurse roster, including certifications and seniority dates, is what the replacement system needs to function on day one. The historical schedule record, covering the past 12 months, provides the audit trail for CMS compliance documentation and the baseline for measuring whether the new system actually reduces overtime. Everything else in UKG, report templates, integration configs, module settings, does not transfer and does not need to.
+
 The two categories of UKG data worth extracting are the nurse roster and the historical schedule record.
 
 **Nurse roster:** Full name, contact information, employment type, certifications and expiration dates, seniority date, and any accommodation or restriction notes. This is the data your replacement system needs to function from day one. Request it in CSV or Excel format and verify that every field exported correctly; UKG exports sometimes truncate certification records or omit per-diem staff.
@@ -157,6 +165,8 @@ The two categories of UKG data worth extracting are the nurse roster and the his
 Data you do not need to migrate: most payroll integration configurations, UKG-specific report templates, and any module configurations that are specific to UKG's architecture and will not translate to a different system.
 
 ## How Do You Handle Staff Communication During the Transition?
+
+Staff communication during a system migration fails when it starts too late and covers too little. Nurses who hear about the change from peers before hearing from management will assume the worst and build resistance. The message should go out before you submit notice to UKG, not after, and it should cover the honest reason for the change, the timeline, and what stays the same. Charge nurses should hear it first; they are the informal communication network and, if briefed early, become advocates rather than skeptics.
 
 The communication failure that kills most small hospital migrations is silence. Nurses hear from their peers that the system is changing, imagine the worst, and build resistance before they have any direct information from management.
 
@@ -215,7 +225,7 @@ The most common reasons, in order: the system costs more than its value at small
 
 **Q: What should a 25-bed hospital use instead of UKG?**
 
-The replacement depends on what you actually need. If you need basic scheduling without healthcare compliance, general tools like Deputy or When I Work are cheaper but require manual compliance tracking. If you need healthcare-specific scheduling with Texas overtime compliance, callout automation, and no IT requirement, SimpleScheduleAI is built specifically for CAH-scale operations. See the [full comparison guide](/blog/best-nurse-scheduling-software-2026) for a detailed breakdown.
+The replacement depends on what you actually need. If you need basic scheduling without healthcare compliance, general tools like Deputy or When I Work are cheaper but require manual compliance tracking. If you need healthcare-specific scheduling with Texas overtime compliance, callout automation, and no IT requirement, SimpleScheduleAI is built specifically for CAH-scale operations. [See how SimpleScheduleAI works →](/how-it-works) or review the [full comparison guide](/blog/best-nurse-scheduling-software-2026) for a detailed breakdown.
 
 _Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

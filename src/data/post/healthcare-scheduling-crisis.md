@@ -185,6 +185,8 @@ no one is looking at it in aggregate because aggregating it manually takes hours
 
 ## What Does PRN Coordination Actually Cost?
 
+PRN coordination adds two or more hours per 6-week scheduling cycle at a typical Critical Access Hospital. At eight to nine cycles per year, that is 16-18 hours annually in untracked leadership time managing per-diem availability submissions by text, voicemail, and paper, then cross-referencing them against open shifts. At a $50 loaded rate, the hidden PRN overhead runs $800-$900 per year on top of the primary scheduling burden, and most scheduling budgets never capture it.
+
 Per-diem nurses are essential to CAH flexibility, but their availability management
 adds a category of scheduling friction that rarely gets measured. In a typical 6-week
 scheduling cycle, a CAH scheduler will:
@@ -312,10 +314,5 @@ hour manual coordination process with a prioritized list you can act on in minut
   <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Free 60-Day Pilot →</a>
 </div>
 
----
-
-**Written by Pradeep Pandey**
-Co-founder, SimpleScheduleAI. Deputy General Manager of Operations at Apollo Hospitals.
-MBA from IIM Trichy (Operations & Marketing). Deep background in healthcare
-operations, workforce optimization, and hospital process design.
+_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
