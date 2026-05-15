@@ -37,7 +37,7 @@ metadata:
 
 Healthcare scheduling apps give you a tool. Managed scheduling services do the work. Both can reduce nurse manager scheduling time, but for critical access hospitals with no IT department, a self-serve app often moves scheduling burden from one task to another rather than eliminating it.
 
-## What a Healthcare Scheduling App Is?
+## What a Healthcare Scheduling App Is
 
 A healthcare scheduling app is a software application, typically web-based with a mobile companion, that provides tools for building and managing clinical staff schedules. The app model is self-serve: your team configures the system, enters roster data, builds schedules, and manages callouts using the software's interface.
 
@@ -45,7 +45,7 @@ Healthcare scheduling apps range from simple shift boards (digital versions of t
 
 The defining characteristic of an app model: the operational work stays with your team. The app makes that work faster and more organized, but your nurse manager is still building schedules, monitoring overtime, and handling callouts, just in a digital environment instead of a spreadsheet.
 
-## Why Healthcare Scheduling Apps Fail Critical Access Hospitals?
+## Why Healthcare Scheduling Apps Fail Critical Access Hospitals
 
 CAHs face three structural constraints that make the self-serve app model problematic:
 
@@ -78,7 +78,7 @@ CAHs face three structural constraints that make the self-serve app model proble
 
 The result: CAHs that implement scheduling apps often see initial improvement followed by a gradual drift back to spreadsheets as the configuration erodes, staff turnover resets training, and the nurse manager stops having time to operate the system properly.
 
-## What a Healthcare Scheduling Managed Service Is?
+## What a Healthcare Scheduling Managed Service Is
 
 A healthcare scheduling managed service inverts the model: instead of giving you tools to do the scheduling work, a service does the scheduling work for you.
 
@@ -100,47 +100,47 @@ One honest limitation: SimpleScheduleAI does not include a staff self-service po
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:520px">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Dimension</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Healthcare Scheduling App</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Managed Service</th>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Dimension</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Healthcare Scheduling App</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Managed Service</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Who builds schedules</td>
-        <td class="border border-slate-300 px-4 py-2">Nurse manager</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Specialist (nurse manager approves)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Who builds schedules</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Specialist (nurse manager approves)</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">IT required</td>
-        <td class="border border-slate-300 px-4 py-2">Minimal to moderate</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">None</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Setup time</td>
-        <td class="border border-slate-300 px-4 py-2">2-4 weeks</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">3-5 days</td>
-      </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Weekly scheduling time</td>
-        <td class="border border-slate-300 px-4 py-2">4-6 hours</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">1-2 hours</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">IT required</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">Minimal to moderate</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">None</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Compliance configuration</td>
-        <td class="border border-slate-300 px-4 py-2">Manual (nurse manager configures)</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Built-in defaults</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Setup time</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">2-4 weeks</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Nurse self-service mobile</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Usually yes</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">No</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Weekly scheduling time</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">4-6 hours</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-2 hours</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Best for</td>
-        <td class="border border-slate-300 px-4 py-2">Facilities with dedicated scheduling staff and IT support</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">CAHs with no IT, no dedicated scheduler</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Compliance configuration</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">Manual (nurse manager configures)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Built-in defaults</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Nurse self-service mobile</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Usually yes</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">No</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Best for</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-400">Facilities with dedicated scheduling staff and IT support</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">CAHs with no IT, no dedicated scheduler</td>
       </tr>
     </tbody>
   </table>

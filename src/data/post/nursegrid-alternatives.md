@@ -47,6 +47,8 @@ What it does not cover: manager-side scheduling operations, proactive overtime t
 
 ## Why CAHs Look for NurseGrid Alternatives?
 
+<img src="/images/blog/nursegrid-alternatives/NurseGrid.png" alt="NurseGrid nurse-facing scheduling app with manager and staff mobile features" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-label="Six problems driving NurseGrid departures at critical access hospitals">
   <title>Why CAHs Look for NurseGrid Alternatives</title>
   <rect width="720" height="200" fill="#f8fafc" rx="10"/>
@@ -101,52 +103,72 @@ What it does not cover: manager-side scheduling operations, proactive overtime t
   <text x="658" y="140" font-family="system-ui,sans-serif" font-size="9" fill="#374151" text-anchor="middle">cert checks</text>
 </svg>
 
-## NurseGrid vs. What CAHs Actually Need: Which Is Better?
+Multiple nurse manager and CNO reviews on Capterra confirm these gaps as firsthand experience. The manager app removal in mid-2024 is the most cited issue:
+
+> "It no longer has the manager app so I have to login to desktop."
+>
+> Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
+
+> "they took away the Manager App for your phone."
+>
+> Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
+
+Android compatibility and cost are flagged as additional friction points for smaller facilities:
+
+> "Does not work well with androids. The texting function doesn't work."
+>
+> Inpatient Director, Hospital & Health Care, June 17, 2024, Capterra
+
+> "cost is too expensive for small centers."
+>
+> Administrator, Hospital & Health Care, June 17, 2024, Capterra
+
+## NurseGrid vs. What CAHs Actually Need
 
 <div class="not-prose overflow-x-auto my-8">
   <table class="w-full text-sm border-collapse" style="min-width:520px">
     <thead>
-      <tr class="bg-slate-100">
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">Feature</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">NurseGrid</th>
-        <th class="border border-slate-300 px-4 py-3 text-left font-semibold">CAH Requirement</th>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">Feature</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">NurseGrid</th>
+        <th class="border border-slate-300 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100">CAH Requirement</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Nurse mobile app</td>
-        <td class="border border-slate-300 px-4 py-2 text-green-700">Good (iOS-focused)</td>
-        <td class="border border-slate-300 px-4 py-2">Nice to have</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Nurse mobile app</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Good (iOS-focused)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nice to have</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Manager mobile app</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">Broken (per reviews)</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">FLSA overtime tracking</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">Not included</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
-      </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">CMS audit trail</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">Not included</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Manager mobile app</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Broken (per reviews)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Certification-unit matching</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">Not included</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">FLSA overtime tracking</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Not included</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
       </tr>
-      <tr class="bg-slate-50">
-        <td class="border border-slate-300 px-4 py-2 font-medium">Callout coverage logic</td>
-        <td class="border border-slate-300 px-4 py-2 text-red-700">Not included</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">CMS audit trail</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Not included</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
       </tr>
       <tr>
-        <td class="border border-slate-300 px-4 py-2 font-medium">App stability</td>
-        <td class="border border-slate-300 px-4 py-2 text-yellow-700">Reliability issues</td>
-        <td class="border border-slate-300 px-4 py-2 font-medium">Required</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Certification-unit matching</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Not included</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Callout coverage logic</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">Not included</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">App stability</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">Reliability issues</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Required</td>
       </tr>
     </tbody>
   </table>
@@ -154,7 +176,7 @@ What it does not cover: manager-side scheduling operations, proactive overtime t
 
 The gap is not minor. NurseGrid covers the nurse-facing communication layer. It does not cover the compliance and management requirements that are non-optional for a CAH.
 
-## How Does NurseGrid Alternatives: Compare?
+## NurseGrid Alternatives: Comparison
 
 ### TCP Scheduling Software (Aladtec)
 
@@ -168,7 +190,11 @@ If you are switching from NurseGrid because of reliability and compliance gaps, 
 
 ShiftWizard has a nurse-facing app and is designed specifically for hospital scheduling. It covers more compliance features than NurseGrid and has a more modern interface than TCP. Known weaknesses: the mobile manager experience has limited department visibility, shift swap reliability issues per reviewers, and weak onboarding support.
 
-For a CAH switching from NurseGrid specifically because of the manager app problems, ShiftWizard's own mobile manager experience is worth scrutinizing before committing.
+For a CAH switching from NurseGrid specifically because of the manager app problems, ShiftWizard's own mobile manager experience is worth scrutinizing before committing. Reviewers note login persistence and messaging gaps on mobile:
+
+> "I wish the messaging was better, and that I have to input my info every time I log in."
+>
+> Melissa R., LVN, Hospital & Health Care, July 26, 2024, Capterra
 
 **Best fit:** CAHs where nurse-facing mobile features remain a priority and where compliance coverage matters, but direct platform control is preferred.
 
