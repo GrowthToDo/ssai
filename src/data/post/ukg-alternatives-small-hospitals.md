@@ -35,7 +35,7 @@ metadata:
 - [Why Small Hospitals End Up on UKG?](#why-small-hospitals-end-up-on-ukg)
 - [What UKG Assumes You Have?](#what-ukg-assumes-you-have)
 - [What Is the Real Cost of Running UKG at a Small Hospital?](#what-is-the-real-cost-of-running-ukg-at-a-small-hospital)
-- [What Are the 3 Best UKG Alternatives for Critical Access Hospitals?](#what-are-the-3-best-ukg-alternatives-for-small-hospitals)
+- [What Are the 3 Best UKG Alternatives for Critical Access Hospitals?](#what-are-the-3-best-ukg-alternatives-for-critical-access-hospitals)
   - [1. SimpleScheduleAI](#1-simplescheduleai)
   - [2. Aladtec (TCP Scheduling)](#2-aladtec-tcp-scheduling)
   - [3. SmartLinx](#3-smartlinx)
@@ -184,7 +184,7 @@ The nurse manager reviews and approves schedules and handles callout coverage us
 
 <img src="/images/blog/ukg-alternatives-small-hospitals/Aladtec.png" alt="Aladtec by TCP healthcare and public safety scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is the most widely deployed scheduling platform among critical access hospitals and EMS organizations. Unlike UKG, it requires minimal IT involvement and can be operational in 2-4 weeks. For a CAH leaving UKG because of implementation complexity, Aladtec represents a meaningful reduction in setup overhead.
+Aladtec (the platform; TCP is the parent company after the 2021 acquisition) is a scheduling platform used at critical access hospitals and EMS organizations. Unlike UKG, it requires minimal IT involvement and can be operational in 2-4 weeks. For a CAH leaving UKG because of implementation complexity, Aladtec represents a meaningful reduction in setup overhead.
 
 The trade-off is clear: Aladtec replaces UKG's complexity with a different kind of self-serve overhead. The nurse manager still configures credential tracking, FLSA overtime thresholds, and shift rules manually. CMS documentation requires the manager to structure and export records; the system does not generate them automatically.
 

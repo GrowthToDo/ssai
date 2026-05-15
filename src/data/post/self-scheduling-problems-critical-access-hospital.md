@@ -34,7 +34,7 @@ metadata:
 - [How Do You Enforce Fairness in a Self-Scheduling Model?](#how-do-you-enforce-fairness-in-a-self-scheduling-model)
 - [What Is a Simultaneous Submission Window?](#what-is-a-simultaneous-submission-window)
 - [How Do You Track Fairness Across Multiple Scheduling Cycles?](#how-do-you-track-fairness-across-multiple-scheduling-cycles)
-- [How SimpleScheduleAI Addresses Self-Scheduling Inequity](#how-simplescheduleai-addresses-self-scheduling-inequity)
+- [How Does SimpleScheduleAI Address Self-Scheduling Inequity?](#how-does-simplescheduleai-address-self-scheduling-inequity)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 Self-scheduling is appealing in theory. Give nurses autonomy over their hours and they will be more engaged, more satisfied, and less likely to leave. That logic has enough truth in it that the model has spread widely in hospital nursing. The problem is that self-scheduling requires structural guardrails that most small hospitals do not have the infrastructure to enforce.

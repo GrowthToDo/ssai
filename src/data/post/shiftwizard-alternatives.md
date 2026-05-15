@@ -58,7 +58,7 @@ ShiftWizard's overall rating is high: 4.3/5 on G2 and 4.4/5 across 723 Capterra 
 >
 > Jennifer C., Director of Emergency Services, July 15, 2024, Capterra
 
-The minority of negative reviews cluster around a handful of themes that come up consistently for CAH-scale users evaluating an alternative.
+The minority of negative reviews cluster around a handful of themes that CAH-scale users raise when evaluating an alternative.
 
 **App Performance Complaints.** Some reviewers report slow load times and glitches during schedule input.
 

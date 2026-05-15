@@ -272,9 +272,11 @@ NurseGrid Manager is not a full SmartLinx replacement but can supplement or part
 **Manager app removed.** Recent platform updates removed the dedicated manager mobile app; managers now access schedules via desktop browser.
 
 > "It no longer has the manager app so I have to login to desktop."
+>
 > Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
 
 > "they took away the Manager App for your phone."
+>
 > Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
 
 NurseGrid Manager includes schedule building and credential tracking. CMS compliance documentation and time and attendance integration are not listed on the NurseGrid product page. Confirm current capabilities with NurseGrid directly before evaluating as a primary SmartLinx replacement.

@@ -209,7 +209,7 @@ Ask the vendor for current named support contacts, response-time SLA, and a rece
 
 **Key advantages:**
 
-- Widely deployed in CAH and EMS settings; lower cost than QGenda with faster implementation at 2-4 weeks
+- Used in CAH and EMS settings; lower cost than QGenda with faster implementation at 2-4 weeks
 - Minimal IT involvement for setup and ongoing operation
 - Pre-built templates for common small-hospital shift patterns
 

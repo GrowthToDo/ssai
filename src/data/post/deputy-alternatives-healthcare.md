@@ -73,6 +73,7 @@ Hospitals move away from Deputy when clinical compliance requirements exceed its
 **App reliability in acute care settings.** For hospitals relying on Deputy to fill shift coverage gaps, app performance determines how quickly a callout can be resolved. One hospital nurse using Deputy noted:
 
 > "Sometimes the app can be a bit slow or glitchy, especially when trying to load shifts."
+>
 > Portia A., Nurse, Hospital & Health Care, April 8, 2026, Capterra
 
 In retail scheduling, a slow shift-loading experience is an inconvenience. In an acute care setting where an uncovered shift creates a patient safety exposure, the same delay becomes an operational risk.

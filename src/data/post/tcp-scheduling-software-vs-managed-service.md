@@ -258,7 +258,7 @@ The comparison between TCP TimeClock+ and a managed scheduling service becomes c
 
 4. **Request a free scheduling assessment from SimpleScheduleAI.** The assessment covers your current overtime patterns, CMS documentation gaps, and callout coverage process. It is free and takes 45 minutes. Visit [SimpleScheduleAI.com](/) or call to schedule.
 
-5. **If you currently use TCP TimeClock+ and are considering whether it is meeting your scheduling needs,** review two things: are you spending more than 3-4 hours per week on scheduling tasks on top of your time tracking work, and are callout events consistently taking more than 20 minutes to resolve? If both answers are yes, the scheduling side of the platform is not keeping pace with what a dedicated service would provide.
+5. **If you currently use TCP TimeClock+ and are considering whether it is meeting your scheduling needs,** review two things: are you spending more than 3-4 hours per week on scheduling tasks on top of your time tracking work, and are callout events regularly taking more than 20 minutes to resolve? If both answers are yes, the scheduling side of the platform is not keeping pace with what a dedicated service would provide.
 
 <div class="not-prose my-10 rounded-xl bg-blue-700 dark:bg-blue-800 px-8 py-8 text-white">
   <h2 class="mb-2 text-2xl font-bold text-white">See What a Managed Service Looks Like for Your Critical Access Hospital</h2>

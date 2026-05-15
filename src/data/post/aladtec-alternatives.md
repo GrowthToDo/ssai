@@ -45,7 +45,7 @@ metadata:
 - [What to Do This Week?](#what-to-do-this-week)
 - [Frequently Asked Questions About Aladtec Alternatives](#frequently-asked-questions-about-aladtec-alternatives)
 
-Aladtec is one of the most widely used scheduling platforms for emergency services organizations and small healthcare teams. The product page covers shift management, time and attendance, overtime tracking, certification tracking, and reporting across fire, EMS, law enforcement, and hospital settings. The platform's heritage is in 24/7 shift-work environments outside of nursing; its hospital-nursing deployment is a more recent expansion of the original use case.
+Aladtec is a scheduling platform built for emergency services organizations and small healthcare teams. The product page covers shift management, time and attendance, overtime tracking, certification tracking, and reporting across fire, EMS, law enforcement, and hospital settings. The platform's heritage is in 24/7 shift-work environments outside of nursing; its hospital-nursing deployment is a more recent expansion of the original use case.
 
 The questions that matter when a hospital evaluates a switch are operational fit: how much weekly capacity does your nurse manager have for ongoing configuration; what compliance capabilities does your facility actually need for CMS surveys; and whether vendor-stated setup timelines hold at your specific scale.
 
@@ -275,11 +275,13 @@ When I Work is a scheduling app positioned across retail, hospitality, and small
 **Audit trail.** A hospital IT reviewer flagged the absence of audit logging:
 
 > "No Auditing capability to see if unauthorized changes were made, and does not work for complex workflows."
+>
 > Jonathan R., IT Admin, Hospital & Health Care, February 25, 2026, Capterra
 
 **Time-off request visibility.** A clinical operations manager noted a workflow limitation:
 
 > "I don't like that when providers have time off requests, they cannot view shifts."
+>
 > Mallory S., Clinical Operations Manager, Hospital & Health Care, February 12, 2026, Capterra
 
 - Documented industry focus skews toward retail, hospitality, and small business rather than acute hospital nursing; CAHs should request a current hospital-context reference customer before relying on it as a primary scheduling system.

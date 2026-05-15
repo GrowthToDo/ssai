@@ -30,12 +30,12 @@ metadata:
 
 ## Table of Contents
 
-- [Why Nurses Are Skeptical of AI Scheduling](#why-nurses-are-skeptical-of-ai-scheduling)
+- [Why Are Nurses Skeptical of AI Scheduling?](#why-are-nurses-skeptical-of-ai-scheduling)
 - [What Does an AI Scheduling System Actually Optimize For?](#what-does-an-ai-scheduling-system-actually-optimize-for)
 - [What Can an AI Scheduling System Not Do?](#what-can-an-ai-scheduling-system-not-do)
 - [How Do You Audit an AI-Generated Schedule Before Posting It?](#how-do-you-audit-an-ai-generated-schedule-before-posting-it)
 - [How Do You Address Staff Skepticism About AI Scheduling?](#how-do-you-address-staff-skepticism-about-ai-scheduling)
-- [How SimpleScheduleAI Handles Transparency and Manager Control](#how-simplescheduleai-handles-transparency-and-manager-control)
+- [How Does SimpleScheduleAI Handle Transparency and Manager Control?](#how-does-simplescheduleai-handle-transparency-and-manager-control)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 When a nurse manager at a 25-bed Critical Access Hospital first proposes switching to AI-assisted scheduling, the most common response from staff is not curiosity. It is suspicion. "Will it understand that I have kids in school?" "Will it know that I always cover for Maria when she needs a Saturday?" "Is this just going to assign me to nights because no one else wants them?"
