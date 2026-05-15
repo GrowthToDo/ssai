@@ -1,11 +1,27 @@
 ---
 name: competitor-reviews
-description: Fetch live G2/Capterra/App Store reviews for a competitor when writing comparison or alternatives posts. Use instead of relying on a static review snapshot.
+description: Fetch live G2/Capterra/App Store reviews for a competitor when writing comparison or alternatives posts. Check the local dossier first — only go online if the competitor is missing or data is stale.
 ---
 
 # Competitor Review Lookup
 
-Use this skill when you need real user complaints, praise, or patterns for a specific competitor (ShiftWizard, QGenda, Aladtec/TCP, NurseGrid, OnShift, UKG/Kronos, Deputy, SmartLinx, Connecteam, Homebase, When I Work).
+Use this skill when you need real user complaints, praise, or patterns for a specific competitor
+(ShiftWizard, QGenda, Aladtec/TCP, NurseGrid, OnShift, UKG/Kronos, Deputy, SmartLinx,
+Connecteam, Homebase, When I Work).
+
+## Step 0 — Check the dossier first (ALWAYS)
+
+Before any web search, read `docs/seo/competitor-dossier.md`.
+
+- If the competitor is in the dossier AND the verification date is <60 days old: use the
+  quotes directly. Do not fetch live data.
+- If the competitor is in the dossier but the verification date is >60 days old: fetch fresh
+  data, verify verbatim, update the dossier with today's date, then use the quotes.
+- If the competitor is not in the dossier: fetch live data, add a new section to the dossier,
+  then use the quotes.
+
+**Why:** Live fetches cost tokens and time. The dossier contains pre-verified verbatim quotes
+with confirmed Capterra product IDs. Most quote lookups are a single Read, not a web crawl.
 
 ## When to invoke
 
@@ -14,9 +30,10 @@ Use this skill when you need real user complaints, praise, or patterns for a spe
 - Adding Key Limitations section for a competitor tool
 - Verifying a reviewer quote before citing it
 
-## What to fetch
+## Step 1 — If going online (dossier miss or stale data)
 
-Run WebSearch queries in this order. Stop when you have 3–5 usable verbatim quotes with attribution.
+Run WebSearch queries in this order. Stop when you have 3–5 usable verbatim quotes with
+attribution.
 
 ```
 site:g2.com/products/[competitor-slug]/reviews "[pain point keyword]"
@@ -29,6 +46,8 @@ For mobile/app complaints:
 "[Competitor Name]" app reviews site:apps.apple.com OR site:play.google.com
 ```
 
+Use the verified Capterra product IDs from the dossier where available — do not guess IDs.
+
 ## What to extract per quote
 
 For each quote you plan to use:
@@ -39,7 +58,14 @@ For each quote you plan to use:
 
 Format:
 > "Verbatim quote."
-> Name, Role, Date, Source
+> Name, Role, Industry, Date, Source
+
+## Step 2 — Update the dossier after fetching live data
+
+After verifying any new quotes online, add them to `docs/seo/competitor-dossier.md`:
+- Add the new quote(s) under the correct competitor section
+- Update the dossier's maintenance log with today's date and what was added/verified
+- Correct any stale product IDs or ratings if the live page differs
 
 ## C&D rules (enforced post 2026-04-30)
 
@@ -61,12 +87,14 @@ Format:
 | UKG / Kronos | small hospital, complex, IT, cost, configuration |
 | Deputy | healthcare compliance, CMS, overtime, hospital |
 | SmartLinx | setup, support, integration |
+| Homebase | healthcare, scheduling, mobile, compliance |
 
 ## After fetching
 
-Log what you found:
+Log what you found in the dossier:
 1. Competitor name
 2. Quotes collected (number)
-3. Date fetched (today's date — quotes are only valid for 30 days per C&D rules)
+3. Date verified
 
-If WebSearch returns no usable results for a competitor, do not substitute volume language. Use "Verify with vendor" framing in the post.
+If WebSearch returns no usable results for a competitor, do not substitute volume language.
+Use "Verify with vendor" framing in the post.
