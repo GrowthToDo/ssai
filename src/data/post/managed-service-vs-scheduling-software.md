@@ -58,61 +58,6 @@ Understanding the tradeoffs requires clarity about what each model actually deli
 
 The distinction is not about quality of output. Both models can produce high-quality schedules. The distinction is about who does the work.
 
-<div class="not-prose my-6 overflow-x-auto">
-  <p class="text-center text-xs font-bold text-slate-700 dark:text-slate-300 mb-3">Who Does the Work: Software vs. Managed Service</p>
-  <table class="w-full text-xs sm:text-sm border-collapse">
-    <thead>
-      <tr class="bg-slate-100 dark:bg-slate-700">
-        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100" style="width:40%">Task</th>
-        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-700 dark:text-slate-300" style="width:30%">Scheduling Software</th>
-        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-blue-700 dark:text-blue-400" style="width:30%">Managed Service</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Build the monthly schedule</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Configure compliance rules</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager / IT</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Generate callout replacement list</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager (tool assists)</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service (delivered to manager)</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Maintain CMS documentation</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager (tool may assist)</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service (automatic)</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Update system as staff changes</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager / IT</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Review and approve final schedule</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-      </tr>
-      <tr>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Confirm callout replacements</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-      </tr>
-      <tr class="bg-slate-50 dark:bg-slate-800">
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Make exceptions and overrides</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 The nurse manager retains decision authority in both models. She reviews and approves schedules, confirms callout replacements, and makes clinical exceptions. What changes is who prepares the inputs for those decisions.
 
 ## Why Scheduling Apps Fail Critical Access Hospitals
@@ -404,3 +349,8 @@ Managed scheduling services are typically more expensive than scheduling softwar
 **Which scheduling platforms are self-serve software vs. managed services?**
 
 Self-serve scheduling software for hospital nursing: Aladtec, SmartLinx, QGenda, NurseGrid Manager, OnShift, Deputy, UKG. Managed scheduling service for Critical Access Hospital nursing: SimpleScheduleAI. The distinction matters when evaluating these tools. Comparing software features to a managed service's workflow is an apples-to-oranges comparison.
+
+---
+
+_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -473,5 +473,20 @@
     "id": "1669413453505-2582fb5083b3",
     "description": "Nurse leaning over patient in hospital bed with monitor in background",
     "topics": ["nurse", "per diem", "patient care", "hospital"]
+  },
+  {
+    "id": "1516841273335-e39b37888115",
+    "description": "Nurse in scrubs reviewing tablet at a nursing station",
+    "topics": ["nurse", "AI scheduling", "trust", "clinical workflow", "nurse manager"]
+  },
+  {
+    "id": "1576091160399-112ba8d25d1d",
+    "description": "Healthcare professional reviewing a document at a hospital desk",
+    "topics": ["healthcare admin", "scheduling crisis", "compliance", "nurse manager", "CAH"]
+  },
+  {
+    "id": "1460925895917-afdab827c52f",
+    "description": "Laptop displaying data analytics dashboard on desk",
+    "topics": ["scheduling software", "UKG", "complexity", "data", "healthcare IT"]
   }
 ]
