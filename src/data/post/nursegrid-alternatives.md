@@ -24,7 +24,7 @@ metadata:
 - NurseGrid's strength is the nurse-facing mobile experience. Its gaps, no FLSA overtime tracking, no CMS audit trail, no certification-unit matching, and a non-functional manager app, make it insufficient as a primary scheduling system for a CAH.
 - The main alternatives are TCP/Aladtec (more management features, self-serve), ShiftWizard (nurse-specific, more modern, self-serve), and SimpleScheduleAI (managed service, full compliance coverage, no nurse app).
 - A hybrid approach, NurseGrid for nurse communication, managed service for scheduling management and compliance, is a viable option for CAHs that value nurse self-service features and need full compliance coverage.
-- The right alternative depends on whether compliance coverage or nurse-facing features is the higher priority at your facility.
+- For a CAH that needs full compliance coverage as its primary scheduling system, ShiftWizard is the strongest self-serve replacement. For zero IT and no ongoing configuration burden, a managed service handles both compliance and weekly scheduling. For a CAH that wants to keep the nurse-facing mobile experience, a hybrid pairing NurseGrid for staff communication with a compliance-focused tool for scheduling management is viable.
 
 ## Table of Contents
 
