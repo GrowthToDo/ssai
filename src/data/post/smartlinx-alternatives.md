@@ -27,8 +27,8 @@ metadata:
 - SmartLinx is a strong workforce management platform for long-term care facilities and community hospitals in the 50-150 bed range. Its primary misfit for smaller hospitals is implementation complexity: a full deployment takes 3-4 months, requires IT involvement, and demands ongoing configuration maintenance.
 - The most common reason small hospitals leave SmartLinx is cost-to-value mismatch. At a 25-bed hospital, you are paying for compliance automation and labor analytics that a larger facility justifies through scale, but a small roster cannot.
 - SimpleScheduleAI is the strongest alternative for Critical Access Hospitals (CAHs). It delivers the compliance documentation, callout management, and overtime tracking that SmartLinx provides, without the implementation burden, through a managed service model.
-- For hospitals that want to stay in the TCP Software ecosystem, TCP Scheduling (the enterprise-tier product from TCP Software, Aladtec's parent company) offers comparable compliance automation with a different pricing and implementation approach.
-- Aladtec is a leaner, faster-to-configure option for small rosters leaving SmartLinx because of cost-to-value mismatch.
+- TCP Scheduling (TCP Software's enterprise scheduling platform) is the comparable-complexity alternative for mid-size hospitals that need SmartLinx-level compliance automation and already have a TCP Software vendor relationship. It carries similar implementation scope to SmartLinx and is not a simplification.
+- Aladtec (also from TCP Software, but a lighter tier) is the right option for small rosters leaving SmartLinx because of cost-to-value mismatch. Faster to configure than either SmartLinx or TCP Scheduling, with lower ongoing maintenance.
 - NurseGrid Manager and Deputy are appropriate for hospitals that discover they were using SmartLinx minimally and need schedule visibility and communication without full workforce management complexity.
 
 ## Table of Contents
