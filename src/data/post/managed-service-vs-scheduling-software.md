@@ -58,57 +58,60 @@ Understanding the tradeoffs requires clarity about what each model actually deli
 
 The distinction is not about quality of output. Both models can produce high-quality schedules. The distinction is about who does the work.
 
-<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Comparison of task ownership between scheduling software and managed scheduling service models">
-  <rect width="800" height="380" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Who Does the Work: Software vs. Managed Service</text>
-
-  <!-- Headers -->
-
-<text x="260" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Task</text>
-<text x="530" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">Scheduling Software</text>
-<text x="720" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">Managed Service</text>
-
-  <line x1="40" y1="72" x2="760" y2="72" stroke="#e2e8f0" stroke-width="1"/>
-
-<text x="60" y="98" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Build the monthly schedule</text>
-<text x="530" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager</text>
-<text x="720" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service</text>
-<line x1="40" y1="110" x2="760" y2="110" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="136" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Configure compliance rules</text>
-<text x="530" y="136" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager / IT</text>
-<text x="720" y="136" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service</text>
-<line x1="40" y1="148" x2="760" y2="148" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="174" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Generate callout replacement list</text>
-<text x="530" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager (tool assists)</text>
-<text x="720" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service (delivered to manager)</text>
-<line x1="40" y1="186" x2="760" y2="186" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="212" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Maintain CMS documentation</text>
-<text x="530" y="212" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager (tool may assist)</text>
-<text x="720" y="212" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service (automatic)</text>
-<line x1="40" y1="224" x2="760" y2="224" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="250" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Update system as staff changes</text>
-<text x="530" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager / IT</text>
-<text x="720" y="250" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Service</text>
-<line x1="40" y1="262" x2="760" y2="262" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="288" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Review and approve final schedule</text>
-<text x="530" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager</text>
-<text x="720" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Nurse manager</text>
-<line x1="40" y1="300" x2="760" y2="300" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="326" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Confirm callout replacements</text>
-<text x="530" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager</text>
-<text x="720" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Nurse manager</text>
-<line x1="40" y1="338" x2="760" y2="338" stroke="#f1f5f9" stroke-width="1"/>
-
-<text x="60" y="364" font-family="system-ui, sans-serif" font-size="12" fill="#0f172a">Make exceptions and overrides</text>
-<text x="530" y="364" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Nurse manager</text>
-<text x="720" y="364" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#1e40af">Nurse manager</text>
-</svg>
+<div class="not-prose my-6 overflow-x-auto">
+  <p class="text-center text-xs font-bold text-slate-700 dark:text-slate-300 mb-3">Who Does the Work: Software vs. Managed Service</p>
+  <table class="w-full text-xs sm:text-sm border-collapse">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-700">
+        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-900 dark:text-slate-100" style="width:40%">Task</th>
+        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-slate-700 dark:text-slate-300" style="width:30%">Scheduling Software</th>
+        <th class="border border-slate-200 dark:border-slate-600 px-4 py-3 text-left font-semibold text-blue-700 dark:text-blue-400" style="width:30%">Managed Service</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Build the monthly schedule</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Configure compliance rules</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager / IT</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Generate callout replacement list</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager (tool assists)</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service (delivered to manager)</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Maintain CMS documentation</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager (tool may assist)</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service (automatic)</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Update system as staff changes</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager / IT</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-blue-700 dark:text-blue-400">Service</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Review and approve final schedule</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Confirm callout replacements</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+      </tr>
+      <tr class="bg-slate-50 dark:bg-slate-800">
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-800 dark:text-slate-200">Make exceptions and overrides</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+        <td class="border border-slate-200 dark:border-slate-600 px-4 py-2 text-slate-600 dark:text-slate-400">Nurse manager</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 The nurse manager retains decision authority in both models. She reviews and approves schedules, confirms callout replacements, and makes clinical exceptions. What changes is who prepares the inputs for those decisions.
 
@@ -116,32 +119,32 @@ The nurse manager retains decision authority in both models. She reviews and app
 
 CAHs face three structural constraints that make the self-serve app model consistently problematic:
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-label="Three structural reasons self-serve scheduling apps fail critical access hospitals">
-  <title>Three Structural Reasons Apps Fail at CAHs</title>
-  <rect width="720" height="180" fill="#f8fafc" rx="10"/>
-  <text x="360" y="26" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">Why Self-Serve Apps Fail Critical Access Hospitals</text>
-  <rect x="40" y="44" width="200" height="120" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="40" y="44" width="200" height="36" fill="#dc2626" rx="8"/>
-  <rect x="40" y="68" width="200" height="16" fill="#dc2626"/>
-  <text x="140" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">No IT Department</text>
-  <text x="140" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Apps need IT for account setup,</text>
-  <text x="140" y="114" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">integrations, troubleshooting.</text>
-  <text x="140" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Most CAHs have no IT staff.</text>
-  <rect x="260" y="44" width="200" height="120" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="260" y="44" width="200" height="36" fill="#ea580c" rx="8"/>
-  <rect x="260" y="68" width="200" height="16" fill="#ea580c"/>
-  <text x="360" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">No Dedicated Scheduler</text>
-  <text x="360" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">The nurse manager is also on</text>
-  <text x="360" y="114" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">clinical shifts. Adding "operate</text>
-  <text x="360" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">new software" rearranges burden.</text>
-  <rect x="480" y="44" width="200" height="120" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="480" y="44" width="200" height="36" fill="#7c3aed" rx="8"/>
-  <rect x="480" y="68" width="200" height="16" fill="#7c3aed"/>
-  <text x="580" y="67" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">Compliance Config Complexity</text>
-  <text x="580" y="100" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">FLSA 8-and-80, CMS §485.635,</text>
-  <text x="580" y="114" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">Texas Labor Code. Configuring</text>
-  <text x="580" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#374151" text-anchor="middle">these correctly requires expertise.</text>
-</svg>
+<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+  <div class="rounded-lg border-2 border-red-300 dark:border-red-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-red-600 px-4 py-3">
+      <p class="text-xs font-bold text-white">No IT Department</p>
+    </div>
+    <div class="px-4 py-3">
+      <p class="text-xs text-slate-700 dark:text-slate-300">Apps need IT for account setup, integrations, and troubleshooting. Most CAHs have no IT staff.</p>
+    </div>
+  </div>
+  <div class="rounded-lg border-2 border-orange-300 dark:border-orange-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-orange-600 px-4 py-3">
+      <p class="text-xs font-bold text-white">No Dedicated Scheduler</p>
+    </div>
+    <div class="px-4 py-3">
+      <p class="text-xs text-slate-700 dark:text-slate-300">The nurse manager is also on clinical shifts. Adding "operate new software" rearranges the burden, not reduces it.</p>
+    </div>
+  </div>
+  <div class="rounded-lg border-2 border-purple-300 dark:border-purple-700 bg-white dark:bg-slate-800 overflow-hidden">
+    <div class="bg-purple-700 px-4 py-3">
+      <p class="text-xs font-bold text-white">Compliance Config Complexity</p>
+    </div>
+    <div class="px-4 py-3">
+      <p class="text-xs text-slate-700 dark:text-slate-300">FLSA 8-and-80, CMS §485.635, Texas Labor Code. Configuring these correctly requires expertise most CAH staff do not have.</p>
+    </div>
+  </div>
+</div>
 
 The practical result: CAHs that implement scheduling apps often see initial improvement followed by gradual drift back to spreadsheets as configuration erodes, staff turnover resets training, and the nurse manager stops having time to operate the system correctly.
 
@@ -155,52 +158,25 @@ The [NSI National Health Care Retention Report](https://www.nsinursingsolutions.
 
 **With a managed scheduling service:** The time investment drops to approximately 1-2 hours per week. The service builds three schedule options. The manager reviews them and selects one in under 30 minutes. During callout events, the service delivers a ranked replacement list in under two minutes. CMS documentation is maintained automatically. The manager's scheduling time is limited to decision-making.
 
-<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" class="w-full my-6" aria-label="Bar chart comparing weekly scheduling hours under three models: current Excel, scheduling software, and managed service">
-  <rect width="800" height="300" fill="#f8fafc" rx="12"/>
-  <text x="400" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#0f172a">Nurse Manager Weekly Scheduling Hours by Model</text>
-  <text x="400" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Estimated for a 25-bed CAH with 15-25 nurses</text>
-
-  <!-- Axes -->
-  <line x1="80" y1="240" x2="720" y2="240" stroke="#94a3b8" stroke-width="1.5"/>
-  <line x1="80" y1="80" x2="80" y2="240" stroke="#94a3b8" stroke-width="1.5"/>
-
-  <!-- Y-axis labels -->
-
-<text x="70" y="244" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">0</text>
-<text x="70" y="205" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">3</text>
-<text x="70" y="166" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">6</text>
-<text x="70" y="127" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">9</text>
-<text x="70" y="88" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">12</text>
-
-  <!-- Grid lines -->
-  <line x1="80" y1="205" x2="720" y2="205" stroke="#f1f5f9" stroke-width="1"/>
-  <line x1="80" y1="166" x2="720" y2="166" stroke="#f1f5f9" stroke-width="1"/>
-  <line x1="80" y1="127" x2="720" y2="127" stroke="#f1f5f9" stroke-width="1"/>
-  <line x1="80" y1="88" x2="720" y2="88" stroke="#f1f5f9" stroke-width="1"/>
-
-  <!-- Bars -->
-  <!-- Current (Excel/manual): 10 hrs avg -->
-  <rect x="140" y="107" width="140" height="133" rx="4" fill="#e2e8f0"/>
-  <text x="210" y="97" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">10 hrs</text>
-  <text x="210" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Current</text>
-  <text x="210" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">(Excel / manual)</text>
-
-  <!-- Scheduling software: 5 hrs avg -->
-  <rect x="330" y="173" width="140" height="67" rx="4" fill="#93c5fd"/>
-  <text x="400" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">5 hrs</text>
-  <text x="400" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Scheduling</text>
-  <text x="400" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Software</text>
-
-  <!-- Managed service: 1.5 hrs avg -->
-  <rect x="520" y="220" width="140" height="20" rx="4" fill="#2563eb"/>
-  <text x="590" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#1e40af">1.5 hrs</text>
-  <text x="590" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">Managed</text>
-  <text x="590" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">Service</text>
-
-  <!-- Y axis label -->
-
-<text x="24" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748b" transform="rotate(-90, 24, 180)">Hours/week</text>
-</svg>
+<div class="not-prose my-8 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-6">
+  <p class="text-center text-sm font-bold text-slate-900 dark:text-slate-100 mb-1">Nurse Manager Weekly Scheduling Hours by Model</p>
+  <p class="text-center text-xs text-slate-500 dark:text-slate-400 mb-4">Estimated for a 25-bed CAH with 15–25 nurses</p>
+  <div class="flex justify-around mb-1">
+    <div class="w-16 text-center text-xs font-bold text-slate-600 dark:text-slate-300">10 hrs</div>
+    <div class="w-16 text-center text-xs font-bold text-blue-700 dark:text-blue-400">5 hrs</div>
+    <div class="w-16 text-center text-xs font-bold text-blue-700 dark:text-blue-400">1.5 hrs</div>
+  </div>
+  <div class="flex items-end justify-around border-b border-slate-300 dark:border-slate-600" style="height:120px">
+    <div class="w-16 bg-slate-300 dark:bg-slate-500 rounded-t-sm" style="height:100%"></div>
+    <div class="w-16 bg-blue-300 dark:bg-blue-600 rounded-t-sm" style="height:50%"></div>
+    <div class="w-16 bg-blue-600 dark:bg-blue-500 rounded-t-sm" style="height:15%"></div>
+  </div>
+  <div class="flex justify-around mt-3 text-center">
+    <div class="w-16"><div class="text-xs font-medium text-slate-700 dark:text-slate-300">Current</div><div class="text-xs text-slate-500 dark:text-slate-400">(Excel)</div></div>
+    <div class="w-16"><div class="text-xs font-medium text-slate-700 dark:text-slate-300">Scheduling</div><div class="text-xs text-slate-500 dark:text-slate-400">Software</div></div>
+    <div class="w-16"><div class="text-xs font-medium text-slate-700 dark:text-slate-300">Managed</div><div class="text-xs text-slate-500 dark:text-slate-400">Service</div></div>
+  </div>
+</div>
 
 The 8.5-hour weekly difference between the current state and a managed service represents approximately 442 hours per year for a nurse manager who also takes clinical shifts. At a fully-loaded labor rate of $55-70 per hour, that is $24,000-31,000 per year in recovered clinical capacity.
 
