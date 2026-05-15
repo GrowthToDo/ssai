@@ -30,6 +30,7 @@ metadata:
 - For hospitals that want self-serve software, Aladtec is the best small-roster alternative with stronger callout management than OnShift. SmartLinx is the better alternative for 50-100 bed hospitals needing compliance automation.
 - UKG (formerly Kronos) is the enterprise-tier alternative for hospitals affiliated with larger health systems that need a full workforce management platform, but its implementation complexity makes it unsuitable for CAHs or small community hospitals.
 - QGenda is the better option when the need is to consolidate physician and nursing scheduling under one platform.
+- If you are a CAH leaving OnShift for callout speed or credential enforcement, a managed scheduling service provides ranked, credential-filtered replacement lists, automatic CMS documentation, and Texas overtime compliance with no implementation burden. If you prefer self-serve software with better acute care callout management than OnShift's broadcast model, Aladtec is the right choice. For 50-100 bed hospitals needing compliance depth comparable to SmartLinx with less LTC focus, SmartLinx is the upgrade path.
 
 ## Table of Contents
 
@@ -53,6 +54,8 @@ For hospitals, particularly small acute care hospitals and Critical Access Hospi
 Here is how the alternatives compare:
 
 ## Why Hospitals Look for OnShift Alternatives?
+
+<img src="/images/blog/onshift-alternatives/OnShift.png" alt="OnShift workforce scheduling platform for long-term care and post-acute settings" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 <div class="not-prose my-8 space-y-3">
   <p class="text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4">Top Reasons Hospitals Look for OnShift Alternatives</p>
@@ -78,15 +81,7 @@ Here is how the alternatives compare:
   </div>
 </div>
 
-Capterra and community feedback reinforces these patterns. OnShift users describe the platform in blunt terms:
-
-> "Barely works. It kicks you out constantly." from OnShift user, Capterra
-
-> "Takes several minutes to load." from OnShift user, Capterra
-
-> "Managers cannot see staff schedules." from OnShift user, Capterra
-
-> "No messaging capability through the app." from OnShift user, Capterra
+Capterra reviews of OnShift describe four recurring problems that surface consistently: frequent session dropouts forcing repeated logins, significant load times during shift entry, managers unable to view staff schedules without desktop access, and no in-app messaging capability. These patterns inform the reasons hospitals evaluate alternatives below.
 
 **Open-shift posting too slow for acute care callouts:** OnShift's shift pickup model works by posting open shifts and waiting for caregivers to accept them. In long-term care, where census is stable and coverage gaps are often known days in advance, this model works. In acute care, an emergency callout requires a confirmed replacement within minutes. Posting and waiting is not a viable model.
 
@@ -154,7 +149,7 @@ Capterra and community feedback reinforces these patterns. OnShift users describ
   </table>
 </div>
 
-## What Is the 5 Best OnShift Alternatives for Hospital Scheduling?
+## The 5 Best OnShift Alternatives for Hospital Scheduling
 
 ### 1. [SimpleScheduleAI](/)
 
@@ -224,9 +219,15 @@ SmartLinx and OnShift both serve the LTC and community healthcare market, but Sm
 
 **Key limitations:**
 
-- Implementation is significantly more complex than OnShift; 3-4 month timeline with IT involvement
-- Per-user pricing means cost scales with roster additions
-- Caregiver engagement features that made OnShift appealing are less developed in SmartLinx
+**Implementation complexity.** SmartLinx requires a structured deployment with IT involvement. Hospitals coming off OnShift's simpler onboarding often find the timeline and initial payroll setup difficult.
+
+> "Implementation was much more complex that expected and end result still was full of errors on first payroll."
+>
+> Daniel C., CFO, Hospital & Health Care, March 16, 2021, Capterra
+
+**Per-user pricing.** Cost scales with roster additions and is higher than OnShift at small roster sizes.
+
+**Caregiver engagement.** The engagement-first features that made OnShift appealing for LTC are less developed in SmartLinx.
 
 **Verdict:** The right upgrade from OnShift for hospitals that need compliance automation and labor analytics at the cost of some implementation complexity. Not a simpler alternative, a more capable one.
 
@@ -248,9 +249,15 @@ QGenda is the right OnShift alternative for hospitals that need to consolidate p
 
 **Key limitations:**
 
-- Expensive for nursing-only scheduling; the physician scheduling capability comes at a cost that nursing-only hospitals cannot justify
-- Implementation complexity comparable to SmartLinx; not a simpler alternative to OnShift
-- Caregiver engagement features comparable to OnShift; does not improve that dimension
+**Cost for nursing-only use.** QGenda's pricing reflects a physician scheduling platform. Nursing-only hospitals pay for capabilities they do not use.
+
+**Implementation scope.** Initial provider setup is complex.
+
+> "Doing the initial set up of new providers is a little complicated."
+>
+> Brandi D., Scheduling Coordinator, Hospital & Health Care, December 13, 2023, Capterra
+
+**Caregiver engagement.** QGenda does not improve on OnShift in caregiver-facing engagement features; it targets a different scheduling population.
 
 **Verdict:** QGenda solves the scheduling fragmentation problem that OnShift creates for hospitals with both nursing and provider scheduling needs. For nursing-only hospitals, it is more expensive and not more capable than Aladtec for the same use case.
 
@@ -359,12 +366,12 @@ For a hospital that is primarily a CAH or acute care facility, that mismatch is 
 
 5. **If you are primarily in LTC with a small acute care component, evaluate SmartLinx as an upgrade path rather than an outright replacement.** SmartLinx improves on OnShift's compliance automation while maintaining LTC-appropriate scheduling features. SimpleScheduleAI is the right switch if acute care nursing is your primary scheduling challenge.
 
-<div class="not-prose mt-10 rounded-xl bg-blue-50 border border-blue-100 px-8 py-7 flex flex-col gap-4">
+<div class="not-prose mt-10 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-7 flex flex-col gap-4">
   <div>
-    <p class="text-lg font-bold text-blue-900">Built for what OnShift wasn't designed for</p>
-    <p class="text-blue-800 mt-1">SimpleScheduleAI delivers ranked callout replacements with credential filtering, automatic CMS §485.635 documentation, and Texas overtime compliance. Designed for Critical Access Hospitals where acute care callout dynamics, not LTC engagement features, are the scheduling priority.</p>
+    <p class="text-lg font-bold text-blue-900 dark:text-slate-100">Built for what OnShift wasn't designed for</p>
+    <p class="text-blue-800 dark:text-slate-300 mt-1">SimpleScheduleAI delivers ranked callout replacements with credential filtering, automatic CMS §485.635 documentation, and Texas overtime compliance. Designed for Critical Access Hospitals where acute care callout dynamics, not LTC engagement features, are the scheduling priority.</p>
   </div>
-  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Demo</a>
+  <a href="/contact" class="inline-block self-start rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 px-6 py-3 text-white font-semibold transition-colors">Request a Demo</a>
 </div>
 
 For a full breakdown of [nurse scheduling software](/nurse-scheduling-software) options at the 25-bed CAH scale, and the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides before finalizing your evaluation.
