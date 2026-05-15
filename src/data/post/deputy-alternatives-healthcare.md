@@ -58,6 +58,8 @@ Here is how the alternatives compare before we go deeper:
 
 ## Why Hospitals Move Away from Deputy?
 
+<img src="/images/blog/deputy-alternatives-healthcare/Deputy.png" alt="Deputy general workforce scheduling platform" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
+
 Hospitals move away from Deputy when clinical compliance requirements exceed its general workforce scheduling model. The most common gaps are CMS staffing documentation that must be maintained manually outside the tool, credential enforcement that is not described on the product page, and FLSA 8-and-80 overtime configuration that Deputy does not document in its public materials.
 
 **CMS compliance documentation still entirely manual.** Hospitals using Deputy for scheduling must maintain CMS staffing documentation through a completely separate process, typically spreadsheets or manual logs. Every survey preparation cycle requires assembling that documentation by hand because Deputy has no concept of CMS compliance requirements. These gaps are based on product page verification as of May 2026; credential enforcement, FLSA 8-and-80 configuration, and CMS documentation tooling are not described on Deputy's public product pages.
@@ -189,7 +191,15 @@ The migration from Deputy to Aladtec is straightforward: export your current sta
 
 **Scheduling interface friction.** The scheduling edit workflow requires multiple steps per change. Modifying an existing schedule involves more clicks than a drag-and-drop interface. Verify whether the current interface meets your workflow expectations before migrating.
 
-**Schedule model fit.** Aladtec is built around auto-scheduling and pattern-based shift logic. Hospitals using fully manual scheduling approaches may need time to adapt workflows to the Aladtec model. Confirm whether the scheduling model aligns with how your team currently builds schedules before committing to the transition.
+> "When editing the schedule there are a lot of clicks involved."
+>
+> Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
+
+**Administrator setup complexity.** The administrator-side configuration can require time to learn, particularly for facilities transitioning from manual or paper-based workflows.
+
+> "It was a bit complicated to figure out from the administrator side."
+>
+> Jeanne C., Administrative Coordinator, Hospital & Health Care, May 7, 2019, Capterra
 
 CMS compliance documentation and initial credential configuration require setup time. Confirm current CMS documentation export capabilities with Aladtec directly.
 
@@ -218,9 +228,17 @@ For healthcare organizations using Deputy primarily for schedule publishing and 
 
 **Key limitations:**
 
-**Healthcare compliance tooling.** When I Work is a general workforce scheduling platform. Credential enforcement, FLSA healthcare overtime tracking, and CMS documentation are not featured on the product page. Verify current capabilities with When I Work directly before evaluating for a clinical environment.
+**Healthcare compliance tooling.** When I Work is a general workforce scheduling platform. Credential enforcement, FLSA healthcare overtime tracking, and CMS documentation are not featured on the product page. Hospital users have noted the absence of audit capability:
 
-**Hospital-specific scheduling logic.** When I Work does not feature acute care callout ranking or unit-based credential filtering. Confirm whether these capabilities exist before evaluating as a hospital nursing replacement.
+> "No Auditing capability to see if unauthorized changes were made, and does not work for complex workflows."
+>
+> Jonathan R., IT Admin, Hospital & Health Care, February 25, 2026, Capterra
+
+**Hospital-specific scheduling logic.** When I Work does not feature acute care callout ranking or unit-based credential filtering. Time-off request visibility for providers has been flagged as a gap by clinical staff:
+
+> "I don't like that when providers have time off requests, they cannot view shifts."
+>
+> Mallory S., Clinical Operations Manager, Hospital & Health Care, February 12, 2026, Capterra
 
 **Verdict:** A reasonable Deputy alternative for non-clinical healthcare settings where compliance is not the driver of the switch. For hospital nursing, it solves none of the problems that make Deputy inadequate.
 
@@ -276,7 +294,15 @@ For any hospital nursing environment, Homebase is the wrong category of tool. He
 
 **Healthcare compliance tooling.** Homebase is designed for retail and service teams. Healthcare-specific compliance features are not documented on the product page. Verify current capabilities with Homebase before evaluating for any clinical setting.
 
-**Scheduling feature depth.** Homebase targets very simple single-location teams. Confirm whether the feature set meets your scheduling requirements before evaluating as a Deputy replacement.
+**Scheduling feature depth.** Homebase targets very simple single-location teams. Mobile scheduling and multi-location tracking have been flagged by hospital users as gaps:
+
+> "I did not like that I could not do scheduling on the app"
+>
+> Amber B., Executive Director, Hospital & Health Care, March 26, 2025, Capterra
+
+> "Homebase did not allow us to track hours across multiple locations unless we paid extra for it. It was not able to limit number of people on a shift, to our knowledge."
+>
+> Angela P., Director, Mental Health Care, September 10, 2025, Capterra
 
 **Verdict:** A cost reduction move for the simplest possible scheduling environments. Any hospital nursing context requires a purpose-built tool, not a retail scheduling app.
 
