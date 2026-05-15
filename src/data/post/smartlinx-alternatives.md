@@ -27,7 +27,7 @@ metadata:
 - SmartLinx is a strong workforce management platform for long-term care facilities and community hospitals in the 50-150 bed range. Its primary misfit for smaller hospitals is implementation complexity: a full deployment takes 3-4 months, requires IT involvement, and demands ongoing configuration maintenance.
 - The most common reason small hospitals leave SmartLinx is cost-to-value mismatch. At a 25-bed hospital, you are paying for compliance automation and labor analytics that a larger facility justifies through scale, but a small roster cannot.
 - SimpleScheduleAI is the strongest alternative for Critical Access Hospitals (CAHs). It delivers the compliance documentation, callout management, and overtime tracking that SmartLinx provides, without the implementation burden, through a managed service model.
-- For hospitals that want to stay in the TCP Software ecosystem, TCP Scheduling (SmartLinx's direct competitor from Aladtec's parent company) offers comparable compliance automation with a different pricing and implementation approach.
+- For hospitals that want to stay in the TCP Software ecosystem, TCP Scheduling (the enterprise-tier product from TCP Software, Aladtec's parent company) offers comparable compliance automation with a different pricing and implementation approach.
 - Aladtec is a leaner, faster-to-configure option for small rosters leaving SmartLinx because of cost-to-value mismatch.
 - NurseGrid Manager and Deputy are appropriate for hospitals that discover they were using SmartLinx minimally and need schedule visibility and communication without full workforce management complexity.
 
@@ -52,6 +52,8 @@ SmartLinx built its reputation in long-term care scheduling, where 24/7 coverage
 The mismatch appears at smaller hospitals. A 25-bed Critical Access Hospital (CAH) and a 150-bed long-term care facility both have 24/7 coverage requirements, but the operational and financial scale is different. At 25 beds, the implementation investment, per-user pricing, and ongoing maintenance that SmartLinx requires can consume budget and administrative time that a small hospital cannot spare. This guide evaluates the five best alternatives from the perspective of [nurse scheduling software](/nurse-scheduling-software) needs at the CAH scale, including the specific compliance requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling).
 
 ## Why Hospitals Switch Away from SmartLinx?
+
+<img src="/images/blog/smartlinx-alternatives/SmartLinx.png" alt="SmartLinx workforce management platform for healthcare and long-term care" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
 Small hospitals leave SmartLinx for predictable reasons. The platform's per-user pricing, IT-dependent configuration, and 3-4 month implementation timeline were designed for mid-market facilities with dedicated IT staff. At 25 beds, those costs do not recover their investment the way they do at 100 beds. The most common exit drivers, ranked by frequency:
 
@@ -87,7 +89,8 @@ Small hospitals leave SmartLinx for predictable reasons. The platform's per-user
 
 **Implementation cost and timeline:** SmartLinx implementations at small hospitals typically involve significant vendor involvement and a multi-month parallel-run period. At a 25-bed CAH, that means training staff on a complex platform and paying for an implementation that serves a roster smaller than the platform was designed for.
 
-> "Implementation was much more complex than expected and end result still was full of errors on first payroll."
+> "Implementation was much more complex that expected and end result still was full of errors on first payroll."
+>
 > Daniel C., CFO, Hospital & Health Care, March 16, 2021, Capterra
 
 **Per-user pricing at small rosters:** SmartLinx's per-user pricing model means the cost per scheduling outcome does not scale down proportionally with roster size. At 20 nurses, the monthly cost per nurse is higher than at 100 nurses. The compliance automation and analytics features that justify SmartLinx's price at larger facilities are underutilized at 25 beds.
@@ -205,11 +208,13 @@ The tradeoff is that Aladtec has meaningful gaps compared to SmartLinx: no integ
 **Scheduling interface friction.** Some nurse managers describe a high number of steps required to edit schedules.
 
 > "When editing the schedule there are a lot of clicks involved."
+>
 > Amanda F., Nurse Manager, Hospital & Health Care, October 13, 2020, Capterra
 
-**Schedule model fit.** Aladtec's scheduling approach may not align with hospitals that use traditional paper-based scheduling methods.
+**Administrator setup complexity.** The administrator-side configuration can require time to learn, particularly for facilities transitioning from paper-based or manual workflows.
 
-> "Not as helpful for those of us that still do a traditional schedule. Automatic scheduling feature needs work."
+> "It was a bit complicated to figure out from the administrator side."
+>
 > Jeanne C., Administrative Coordinator, Hospital & Health Care, May 7, 2019, Capterra
 
 Time and attendance integration, automated CMS compliance documentation, and callout overtime automation are not included in the base Aladtec platform. Confirm current feature availability with Aladtec directly.
@@ -292,6 +297,12 @@ Deputy is a significant simplification from SmartLinx. If the reason for leaving
 **Key limitations:**
 
 **Healthcare compliance tooling.** Deputy is a general workforce scheduling platform and does not market healthcare-specific compliance features. Verify what compliance documentation capabilities exist before evaluating as a SmartLinx replacement.
+
+**App performance.** For hospitals relying on Deputy to communicate shift coverage, app reliability matters.
+
+> "Sometimes the app can be a bit slow or glitchy, especially when trying to load shifts. Also, some features are not very clear at first."
+>
+> Portia A., Nurse, Hospital & Health Care, April 8, 2026, Capterra
 
 **Healthcare feature scope.** Deputy does not market healthcare-specific compliance documentation or nurse credentialing features. Confirm current capability scope with Deputy directly before evaluating as a SmartLinx replacement.
 
