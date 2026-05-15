@@ -24,7 +24,7 @@ metadata:
 
 - ShiftWizard is a hospital scheduling platform owned by HealthStream, Inc. (acquired). It holds 4.3/5 on G2 and 4.4/5 across 723 Capterra reviews (data verified 2026-04-30), with over 88% of Capterra reviews rating 4 stars or higher.
 - For a Critical Access Hospital, the right comparison is not feature-by-feature. It is which operating model fits a 25-bed facility with no dedicated scheduling coordinator and a nurse manager who also takes clinical shifts.
-- The four main alternatives are SimpleScheduleAI (managed service, no IT required), TCP Scheduling / Aladtec (self-serve, public-safety heritage with hospital expansion), NurseGrid (nurse-facing, manager tier available), and QGenda (physician scheduling, positioned for larger health systems).
+- The main platform alternatives are TCP Scheduling / Aladtec (self-serve, public-safety heritage with hospital expansion), NurseGrid (nurse-facing, manager tier available), and QGenda (physician scheduling, positioned for larger health systems). For facilities where the core issue is scheduling labor rather than platform fit, a managed service is a different operating model.
 - The critical question before any evaluation: does your nurse manager have 4-6 hours per week available for scheduling administration after go-live? If not, the operating model matters more than which platform you choose.
 - For a CAH staying on a self-serve platform, TCP/Aladtec is the closest healthcare-specific alternative at comparable cost and setup time. For a facility where the nurse manager cannot sustain weekly scheduling administration alongside clinical shifts, SimpleScheduleAI removes that work entirely rather than swapping one platform for another.
 
