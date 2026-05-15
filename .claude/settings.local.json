@@ -12,6 +12,7 @@
       "Bash(curl -s http://localhost:3000/)",
       "Bash(./node_modules/.bin/astro dev --port 4000)",
       "Bash(./node_modules/.bin/prettier --write .)",
+<<<<<<< Updated upstream
       "Bash(npx prettier *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
@@ -102,5 +103,10 @@
       "Bash(git pull *)",
       "Bash(git stash *)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "google-search-console",
+    "microsoft-clarity",
+    "bing-webmaster"
+  ]
 }
