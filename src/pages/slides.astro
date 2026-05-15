@@ -232,6 +232,13 @@
     #s2 .pain-title { font-size: 18px; font-weight: 700; }
     #s2 .pain-body { font-size: 15px; color: var(--muted); line-height: 1.55; }
 
+    /* slide 7 — compact 2×2 grid to stay within 592px */
+    #s7 h2 { font-size: 42px; }
+    #s7 .divider { margin: 16px 0; }
+    #s7 .grid-2 { margin-top: 8px !important; gap: 14px !important; }
+    #s7 .card { padding: 20px 24px; }
+    #s7 .card p { font-size: 14px !important; margin-top: 8px !important; }
+
     /* slide 8 — compact to prevent overflow */
     #s8 h2 { font-size: 38px; }
     #s8 .divider { margin: 14px 0; }
@@ -554,11 +561,11 @@
   // Click anywhere on slide to advance (except nav)
   document.getElementById('deck').addEventListener('click', () => goTo(current + 1));
 
-  // Scale deck to fit viewport
+  // Scale deck to fit viewport — never exceed 1:1, reserve 80px for nav bar
   function scale() {
     const vw = window.innerWidth, vh = window.innerHeight;
     const sw = 1280, sh = 720;
-    const s = Math.min(vw / sw, vh / sh) * 0.96;
+    const s = Math.min(1, vw / sw, (vh - 80) / sh) * 0.97;
     document.getElementById('deck').style.transform = `scale(${s})`;
   }
   window.addEventListener('resize', scale);
