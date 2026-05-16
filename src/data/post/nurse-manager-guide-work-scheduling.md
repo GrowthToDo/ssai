@@ -118,7 +118,7 @@ The callout coverage component is proportionally the most variable and most disr
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service that takes the mechanical scheduling work off the nurse manager's plate. The nurse manager provides oversight and final approval; the service handles schedule generation, callout coverage shortlists, overtime monitoring, and compliance logging.
+SimpleScheduleAI is a managed [nurse scheduling software](/nurse-scheduling-software) service that takes the mechanical scheduling work off the nurse manager's plate. The nurse manager provides oversight and final approval; the service handles schedule generation, callout coverage shortlists, overtime monitoring, and compliance logging.
 
 The typical outcome: scheduling time drops from 8-12 hours per week to 1-2 hours per week. The remaining 1-2 hours is judgment-based review work, which is where a nurse manager's clinical experience actually adds value.
 

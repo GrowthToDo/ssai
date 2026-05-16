@@ -200,7 +200,7 @@ For a CAH switching from NurseGrid specifically because of the manager app probl
 
 ### SimpleScheduleAI
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service covering the compliance and management requirements NurseGrid does not address. A scheduling specialist handles configuration and schedule generation; the nurse manager reviews and approves.
+SimpleScheduleAI is a managed [nurse scheduling software](/nurse-scheduling-software) service covering the compliance and management requirements NurseGrid does not address. A scheduling specialist handles configuration and schedule generation; the nurse manager reviews and approves.
 
 The honest trade-off: SimpleScheduleAI does not have a nurse-facing mobile app. If nurse self-service features are a significant reason your facility uses NurseGrid, that function does not transfer. A hybrid approach, keeping a communication tool for nurse-facing features while switching to a managed service for scheduling management and compliance, is worth considering.
 

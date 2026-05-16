@@ -136,6 +136,14 @@ const faqSchema = {
         text: 'Yes. Scheduling software reduces overtime by distributing shifts equitably, flagging approaching overtime thresholds before schedules are published, and generating cost-optimized draft schedules. Critical access hospitals typically see 15 to 30% overtime reductions after implementing automated nurse scheduling.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'Is there a nurse scheduling app for small hospitals?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, but most nurse scheduling apps are built for phone-based shift swapping, not for building a compliant hospital schedule. A small hospital needs a nurse scheduler that handles certifications, Texas overtime rules, and ranked callout coverage, not just a calendar. SimpleScheduleAI delivers that as a managed service, so the nurse manager reviews a finished schedule instead of operating an app.',
+      },
+    },
   ],
 };
 ---
@@ -167,6 +175,12 @@ const faqSchema = {
         Unlike general employee scheduling tools, nurse scheduling software is built for clinical staffing: it
         understands FLSA overtime rules, per-diem coverage protocols, nursing certification requirements, and state
         nursing board regulations. These are not features a generic scheduling app can bolt on.
+      </p>
+      <p>
+        The same category goes by several names: a nurse scheduler, a nursing scheduler, a nurse rostering system, or a
+        nurse scheduling app. They describe the same job, turning nurse availability, skills, and shift rules into a
+        posted schedule without a manual rebuild every cycle. What separates a usable system from a generic app is
+        whether it handles clinical constraints and last-minute callouts, not the label on the box.
       </p>
 
       <h2>Why Do Critical Access Hospitals Need Different Scheduling Software?</h2>
@@ -209,13 +223,54 @@ const faqSchema = {
         IT integration, and Texas-specific compliance built in.
       </p>
 
+      <h2>How Do Nurse Scheduling Options Compare for a Small Hospital?</h2>
+      <p>
+        A 25-bed hospital realistically has three ways to build the nurse schedule: a manual spreadsheet, a generic
+        employee scheduling app, or purpose-built nurse scheduling software run as a managed service. They differ most
+        on callout coverage and compliance, the two places a small hospital actually gets hurt.
+      </p>
+      <div class="not-prose my-8 overflow-x-auto">
+        <table class="w-full border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-700">
+              <th class="p-3 text-left font-semibold text-slate-900 dark:text-slate-100">Method</th>
+              <th class="p-3 text-left font-semibold text-slate-900 dark:text-slate-100">Manager Time</th>
+              <th class="p-3 text-left font-semibold text-slate-900 dark:text-slate-100">Callout Coverage</th>
+              <th class="p-3 text-left font-semibold text-slate-900 dark:text-slate-100">Texas Compliance</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-700 dark:text-slate-300">
+            <tr class="border-b border-slate-200 dark:border-slate-800">
+              <td class="p-3">Manual spreadsheet</td>
+              <td class="p-3">8 to 12 hrs/week</td>
+              <td class="p-3">Phone tree, hours</td>
+              <td class="p-3">None, tracked by hand</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-800">
+              <td class="p-3">Generic employee app</td>
+              <td class="p-3">4 to 6 hrs/week</td>
+              <td class="p-3">Manual, no ranking</td>
+              <td class="p-3">Not built for nursing rules</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold text-slate-900 dark:text-slate-100">SimpleScheduleAI (managed)</td>
+              <td class="p-3">1 to 2 hrs/week</td>
+              <td class="p-3">Ranked shortlist, minutes</td>
+              <td class="p-3">Texas rules + audit trail</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>How SimpleScheduleAI Works as Nurse Scheduling Software</h2>
       <p>
         SimpleScheduleAI is a managed service, not just a software subscription. Your nurse manager uploads the existing
         roster via Excel, our team configures your shift rules and compliance requirements, and the system generates
-        three AI-drafted schedule options (balanced, fairness-optimized, and cost-optimized) for your review and final
-        approval. When a nurse calls out, the system instantly surfaces a replacement shortlist from available,
-        qualified staff.
+        three <a href="/ai-nurse-scheduling">AI-drafted schedule options</a> (balanced, fairness-optimized, and cost-optimized)
+        for your review and final approval. When a nurse calls out, the system instantly surfaces a replacement shortlist
+        from available, qualified staff. The full workflow, from roster upload to posted schedule, is on <a
+          href="/how-it-works">how it works</a
+        >.
       </p>
       <p>
         We don't replace the nurse manager's judgment. We eliminate the 8 hours of administrative work so they can apply
@@ -271,6 +326,12 @@ const faqSchema = {
       <p>Explore our in-depth guides on nurse scheduling for critical access hospitals:</p>
       <ul>
         <li>
+          <a href="/ai-nurse-scheduling">AI Nurse Scheduling: How It Works and How to Trust It</a>
+        </li>
+        <li>
+          <a href="/critical-access-hospital-scheduling">Critical Access Hospital Scheduling: The Complete Guide</a>
+        </li>
+        <li>
           <a href="/blog/healthcare-scheduling-crisis">The $26,000 Scheduling Burden at Critical Access Hospitals</a>
         </li>
         <li>
@@ -317,6 +378,11 @@ const faqSchema = {
         title: 'How long does it take to implement nurse scheduling software?',
         description:
           'Enterprise platforms take weeks or months. SimpleScheduleAI onboards critical access hospitals in 3 to 5 business days via Excel roster upload; no IT integration or EHR connection required.',
+      },
+      {
+        title: 'Is there a nurse scheduling app for small hospitals?',
+        description:
+          'Most nurse scheduling apps are built for phone-based shift swapping, not for building a compliant hospital schedule. A small hospital needs a nurse scheduler that handles certifications, Texas overtime rules, and ranked callout coverage. SimpleScheduleAI delivers that as a managed service: the nurse manager reviews a finished schedule instead of operating an app.',
       },
     ]}
   />

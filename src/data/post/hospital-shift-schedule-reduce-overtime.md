@@ -93,7 +93,7 @@ The financial case: reducing overtime by 15% at a 25-bed CAH with $400K annual n
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service that makes overtime prevention part of every scheduling cycle. Each draft schedule option includes total scheduled hours per nurse per workweek and flags any nurse at risk of overtime before the draft is presented for approval.
+SimpleScheduleAI is a managed [nurse scheduling software](/nurse-scheduling-software) service that makes overtime prevention part of every scheduling cycle. Each draft schedule option includes total scheduled hours per nurse per workweek and flags any nurse at risk of overtime before the draft is presented for approval.
 
 Callout shortlists are ranked to explicitly deprioritize nurses near the 40-hour threshold, a nurse at 38 hours appears below a nurse at 28 hours in the replacement list, regardless of who is more "reliable" from the manager's perspective.
 

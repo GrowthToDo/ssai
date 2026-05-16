@@ -91,7 +91,7 @@ When evaluating nursing scheduling software options, ask four questions:
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a managed [healthcare staff scheduling](/healthcare-staff-scheduling) service built for the CAH nursing management context. The service handles schedule building, callout coverage shortlists, overtime tracking, and CMS compliance documentation; the nurse manager reviews and approves.
+SimpleScheduleAI is a managed [nurse scheduling software](/nurse-scheduling-software) service built for the CAH nursing management context. The service handles schedule building, callout coverage shortlists, overtime tracking, and CMS compliance documentation; the nurse manager reviews and approves.
 
 For nurse managers who've looked at enterprise nursing software platforms and found them either too expensive or too complex for a 25-bed setting, a managed service offers the compliance and coverage features of healthcare-specific platforms with the simplicity and implementation speed of a lightweight tool.
 

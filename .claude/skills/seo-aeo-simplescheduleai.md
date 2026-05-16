@@ -704,8 +704,9 @@ can AI help with hospital nurse scheduling?
 | nurse scheduling ROI                               | `/roi`                                                  |
 | nurse scheduling software                          | `/nurse-scheduling-software` (Hub)                      |
 | best nurse scheduling software                     | `/nurse-scheduling-software` (Hub)                      |
-| healthcare scheduling software                     | `/healthcare-staff-scheduling` (Hub)                    |
-| medical scheduling software                        | `/healthcare-staff-scheduling` (Hub)                    |
+| healthcare scheduling software                     | `/nurse-scheduling-software` (Hub)                      |
+| medical scheduling software                        | `/nurse-scheduling-software` (Hub)                      |
+| AI nurse scheduling                                | `/ai-nurse-scheduling` (Hub)                            |
 | healthcare staff scheduling software               | `/critical-access-hospital-scheduling` (Hub)            |
 | hospital scheduling                                | `/critical-access-hospital-scheduling` (Hub)            |
 | free nurse scheduling tools                        | `/tools` (Tools index)                                  |
@@ -1234,7 +1235,7 @@ See `docs/superpowers/plans/` for execution plans.
 - [ ] Update SEO/GEO skill with evergreen patterns
 - [ ] Create pillar page: `/nurse-scheduling-software`
 - [ ] Create pillar page: `/critical-access-hospital-scheduling`
-- [ ] Create pillar page: `/healthcare-staff-scheduling`
+- [x] Create pillar page: `/ai-nurse-scheduling` (replaced retired `/healthcare-staff-scheduling`, now 301 to `/nurse-scheduling-software`)
 - [ ] Create G2 + Capterra + Crunchbase profiles
 
 **Phase 2B (Blog + Glossary):**
