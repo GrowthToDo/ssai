@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-04-21T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
@@ -79,8 +79,8 @@ UKG was built for health systems with dedicated IT departments, HRIS analysts, a
         <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">Managed service handles config for you</td>
       </tr>
       <tr class="border-b border-slate-200 dark:border-slate-700">
-        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">6â€“12 month implementation budget</td>
-        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">$150Kâ€“$500K not in budget</td>
+        <td class="py-3 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">6-12 month implementation budget</td>
+        <td class="py-3 px-4 bg-red-50 dark:bg-red-950 text-red-800 dark:text-red-300 border border-red-200 dark:border-red-800">$150K-$500K not in budget</td>
         <td class="py-3 px-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-green-200 dark:border-green-800">Live in 48 hours, no project required</td>
       </tr>
       <tr>
@@ -100,7 +100,7 @@ Beyond the purchase price, the operational cost of running UKG at CAH scale is s
 
 **Configuration errors.** Without dedicated HRIS staff, overtime rules, credential requirements, and unit staffing minimums get misconfigured. The result is scheduling errors that only surface at payroll, sometimes after overpaying nurses by thousands of dollars. At a 25-bed hospital where there is no HRIS analyst to own the configuration, this is the highest operational risk of the platform.
 
-**Compliance gaps.** UKG can produce CMS Â§485.635 documentation, but only if configured correctly. Misconfiguration means the audit trail has gaps, which creates survey exposure. At a large hospital with a workforce management team, someone is responsible for audit readiness. At a CAH, this falls to whoever has time.
+**Compliance gaps.** UKG can produce CMS §485.635 documentation, but only if configured correctly. Misconfiguration means the audit trail has gaps, which creates survey exposure. At a large hospital with a workforce management team, someone is responsible for audit readiness. At a CAH, this falls to whoever has time.
 
 **Support complexity.** UKG's support model is designed for enterprise customers with internal technical staff who can translate business problems into platform configuration requests. A nurse manager who needs a scheduling rule changed faces a support process built for IT professionals, not clinicians.
 
@@ -156,7 +156,7 @@ The three best UKG alternatives for a Critical Access Hospital are SimpleSchedul
 
 <img src="/images/blog/ukg-alternatives-small-hospitals/SimpleScheduleAI.png" alt="SimpleScheduleAI nurse scheduling managed service for critical access hospitals" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-SimpleScheduleAI is a managed scheduling service built specifically for Critical Access Hospitals. There is no platform to configure or maintain. The nurse manager uploads a staff roster in Excel format and the first schedule is delivered within 48 hours. FLSA 8-and-80 overtime logic, CMS Â§485.635 documentation, and charge nurse designation enforcement are built-in defaults, not configuration options.
+SimpleScheduleAI is a managed scheduling service built specifically for Critical Access Hospitals. There is no platform to configure or maintain. The nurse manager uploads a staff roster in Excel format and the first schedule is delivered within 48 hours. FLSA 8-and-80 overtime logic, CMS §485.635 documentation, and charge nurse designation enforcement are built-in defaults, not configuration options.
 
 The nurse manager reviews and approves schedules and handles callout coverage using the automated ranked replacement list. Weekly scheduling time drops to 1-2 hours. No IT involvement. No implementation project. For a CAH coming off UKG, a managed service is typically the fastest path to operational simplicity.
 
@@ -165,7 +165,7 @@ The nurse manager reviews and approves schedules and handles callout coverage us
 **Key advantages:**
 
 - Live in 48 hours from Excel roster upload; no IT involvement or implementation project
-- CMS Â§485.635 documentation is automatic, eliminating manual survey prep
+- CMS §485.635 documentation is automatic, eliminating manual survey prep
 - Callout replacement list is ranked by overtime risk and filtered by credentials before it reaches the manager
 - Texas overtime compliance (FLSA 8-and-80 rule) and CMS CAH requirements are built-in defaults
 - Service maintains scheduling rules as staff and policies change; no ongoing configuration burden
@@ -212,7 +212,7 @@ If you are leaving UKG because it demands too much from one person, Aladtec is s
 **Key limitations:**
 
 - Nurse manager configures and operates all scheduling rules manually
-- No automatic CMS Â§485.635 audit trail generation; documentation requires manual export
+- No automatic CMS §485.635 audit trail generation; documentation requires manual export
 - **Click-Heavy Workflow.** Routine schedule edits require multiple steps.
 
   > "When editing the schedule there are a lot of clicks involved."
@@ -267,7 +267,7 @@ SmartLinx is most cited by skilled nursing and long-term care facilities, not ac
 - Designed for 50-200 bed facilities; configuration and pricing reflect that scale
 - Requires a dedicated scheduling administrator to operate effectively post-implementation
 - Verify setup complexity and configuration burden with a current SmartLinx reference at CAH or small hospital scale before deciding
-- Primary compliance coverage targets SNF/LTC regulatory requirements, not CAH-specific CMS Â§485.635
+- Primary compliance coverage targets SNF/LTC regulatory requirements, not CAH-specific CMS §485.635
 
 **Verdict:** SmartLinx is a capable platform for the facility size it was built for. A 25-bed CAH without a dedicated IT resource and scheduling coordinator will not get the value the platform is priced for. If UKG felt over-engineered, SmartLinx is a smaller step down, not a different operating model.
 
@@ -309,7 +309,7 @@ If none of these conditions apply, a 25-bed CAH cannot run UKG correctly, and th
         <td class="py-3 text-blue-700 dark:text-blue-400">None</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
-        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS Â§485.635 documentation</td>
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Yes, if configured correctly</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Yes, automatic default</td>
       </tr>

@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-04-24T00:00:00Z
 updateDate: 2026-05-08T00:00:00Z
@@ -67,13 +67,13 @@ Aladtec by TCP holds 4.3/5 on G2 (97 reviews) and 4.6/5 on Capterra (17 reviews)
 
 > "When editing the schedule there are a lot of clicks involved."
 >
-> _Amanda F., Nurse Manager (Hospital & Health Care), posted October 13, 2020 on Capterra_
+> Amanda F., Nurse Manager (Hospital & Health Care), posted October 13, 2020 on Capterra
 
 **Setup Complexity Complaints.** Some administrators describe the initial configuration as harder than expected.
 
 > "It was a bit complicated to figure out from the administrator side."
 >
-> _Jeanne C., Administrative Coordinator, posted May 7, 2019 on Capterra_
+> Jeanne C., Administrative Coordinator, posted May 7, 2019 on Capterra
 
 A note on the Aladtec sample: the most recent hospital-context reviews on Capterra are several years old, and the recent Capterra reviews skew toward fire, EMS, and law-enforcement users. CAHs evaluating Aladtec should request a current hospital-nursing reference customer at CAH scale and ask the vendor for documented support response-time SLAs, especially given the post-TCP-acquisition timeline.
 
@@ -81,7 +81,7 @@ A representative positive review (from a public-safety user):
 
 > "Their customer support team is better than any other support team I have ever had to deal with."
 >
-> _Jody S., Security Management, posted August 14, 2025 on Capterra_
+> Jody S., Security Management, posted August 14, 2025 on Capterra
 
 For a hospital nurse manager evaluating Aladtec, the operational questions worth probing in the demo include configuration maintenance ownership as the roster changes, the workflow for assembling CMS §485.635 documentation, and the callout workflow when overtime status needs to be verified before placing calls.
 

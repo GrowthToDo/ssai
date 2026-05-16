@@ -1,4 +1,4 @@
-﻿---
+---
 publishDate: 2026-04-11T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
@@ -64,7 +64,7 @@ UKG fails at a 25-bed hospital because every operational assumption the platform
       <p class="font-bold text-white text-xs">Implementation Time</p>
     </div>
     <div class="px-3 py-3 space-y-2">
-      <p class="text-xs text-slate-700 dark:text-slate-300">6–12 months from contract to first live schedule.</p>
+      <p class="text-xs text-slate-700 dark:text-slate-300">6-12 months from contract to first live schedule.</p>
       <p class="text-xs text-slate-500 dark:text-slate-400">A CAH in acute scheduling distress cannot wait 6 months.</p>
     </div>
   </div>
@@ -73,7 +73,7 @@ UKG fails at a 25-bed hospital because every operational assumption the platform
       <p class="font-bold text-white text-xs">Implementation Cost</p>
     </div>
     <div class="px-3 py-3 space-y-2">
-      <p class="text-xs text-slate-700 dark:text-slate-300">$150,000–$500,000 before licensing fees.</p>
+      <p class="text-xs text-slate-700 dark:text-slate-300">$150,000-$500,000 before licensing fees.</p>
       <p class="text-xs text-slate-500 dark:text-slate-400">ROI works at a 500-bed system. Rarely at a 25-bed CAH.</p>
     </div>
   </div>
@@ -159,10 +159,10 @@ These requirements can be met by purpose-built tools at a fraction of UKG's cost
     <tbody>
       <tr class="border-b border-slate-200 dark:border-slate-700">
         <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Launch time</td>
-        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">2–4 weeks</td>
-        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">3–4 months</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">2-4 weeks</td>
+        <td class="py-2 px-3 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">3-4 months</td>
         <td class="py-2 px-3 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-300 border border-slate-200 dark:border-slate-700">48 hours</td>
-        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">6–12 months</td>
+        <td class="py-2 px-3 bg-red-50 dark:bg-red-950 text-red-700 dark:text-red-300 border border-slate-200 dark:border-slate-700">6-12 months</td>
       </tr>
       <tr class="border-b border-slate-200 dark:border-slate-700">
         <td class="py-2 px-3 font-semibold bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">IT required</td>

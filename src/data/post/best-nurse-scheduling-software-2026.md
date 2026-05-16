@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-04-02T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
@@ -151,7 +151,7 @@ Managed scheduling services take a different approach: a scheduling team handles
 
 ### Question 3: What compliance requirements do you actually have?
 
-[FLSA overtime rules](https://www.dol.gov/agencies/whd/flsa) apply to every hospital. Critical Access Hospitals also operate under [CMS Conditions of Participation Â§485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals). Larger hospitals face JCAHO accreditation requirements and state-specific staffing ratios on top of that.
+[FLSA overtime rules](https://www.dol.gov/agencies/whd/flsa) apply to every hospital. Critical Access Hospitals also operate under [CMS Conditions of Participation §485.635](https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals). Larger hospitals face JCAHO accreditation requirements and state-specific staffing ratios on top of that.
 
 Minimum requirements for any hospital:
 
@@ -176,7 +176,7 @@ Any software that does not provide all four of these is a compliance liability f
   </div>
   <div class="rounded-lg bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 p-5">
     <p class="font-bold text-green-800 dark:text-green-300 text-sm">Community Hospital</p>
-    <p class="text-xs text-green-600 dark:text-green-400 mb-3">50â€“200 beds</p>
+    <p class="text-xs text-green-600 dark:text-green-400 mb-3">50-200 beds</p>
     <ul class="space-y-1 text-xs text-green-700 dark:text-green-300 mb-3">
       <li>QGenda</li>
       <li>SmartLinx</li>
@@ -207,7 +207,7 @@ The eight platforms worth evaluating for nurse scheduling in 2026 are SimpleSche
 
 SimpleScheduleAI is a new service in active pilot phase, without public G2 or Capterra reviews yet. It operates as a managed scheduling service rather than self-serve software: a scheduling specialist builds the weekly schedule using your staff roster, compliance rules, and fairness preferences. The nurse manager reviews and approves. When a nurse calls out, the team surfaces a ranked shortlist of qualified, available, non-overtime staff within minutes.
 
-The model is built for small hospitals in Texas, with Texas overtime compliance, CMS Â§485.635 audit trail requirements, and charge nurse coverage rules built into the scheduling logic.
+The model is built for small hospitals in Texas, with Texas overtime compliance, CMS §485.635 audit trail requirements, and charge nurse coverage rules built into the scheduling logic.
 
 **Best for:** Critical Access Hospitals where the nurse manager is also clinically active and scheduling is a weekly time drain.
 
@@ -396,7 +396,7 @@ Deputy is a general workforce scheduling platform used across retail, hospitalit
 
 **Key limitations:**
 
-- Deputy's healthcare page (deputy.com/industry/healthcare) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS Â§485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
+- Deputy's healthcare page (deputy.com/industry/healthcare) describes the platform as covering shift scheduling, time tracking, and labor law compliance for healthcare environments. It does not specifically mention HIPAA compliance, BAA terms, or CMS audit-trail features in the documented page content. Healthcare buyers who require HIPAA, BAA, or CMS §485.635 audit-trail support should confirm directly with Deputy sales whether these capabilities are covered in their tier and contract.
 - Credential tracking and clinical compliance documentation are not described as core features on the healthcare page. CAHs evaluating Deputy as a primary scheduling system for a licensed clinical environment should ask the vendor directly about these capabilities and request reference customers at similar scale.
 
 **Verdict:** Strongly rated as a general workforce scheduling tool. CAHs evaluating Deputy as a primary scheduling system in a licensed clinical environment should specifically verify HIPAA, BAA, credential-tracking, and CMS audit-trail capabilities directly with the vendor before deciding.
@@ -489,7 +489,7 @@ Hospital size determines the right scheduling platform more than any other varia
 
 Your first question is whether you want to manage scheduling yourself or eliminate it as a management task. If your nurse manager is also clinically active and spends 8+ hours per week on scheduling, the administrative model of self-serve software may not solve the right problem.
 
-- **Best self-serve option:** Aladtec. Lower implementation burden than SmartLinx, includes credential tracking, used widely in small hospitals and EMS.
+- **Best self-serve option:** Aladtec. Lower implementation burden than SmartLinx, includes credential tracking, built for small hospitals and EMS.
 - **Best managed option:** SimpleScheduleAI. Built specifically for this segment, handles scheduling and compliance for you.
 - **Less likely to fit at this scale:** UKG (typical implementation 6 to 18 months at hospital scale), QGenda (positioned for larger health systems and physician groups), Deputy (positioned across many industries; if HIPAA/CMS audit-trail support is required, confirm tier coverage with the vendor).
 
@@ -553,7 +553,7 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
     </div>
   </div>
   <div class="rounded-lg border border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-950 p-5">
-    <p class="font-bold text-green-800 dark:text-green-300 text-sm mb-3">25â€“75 beds</p>
+    <p class="font-bold text-green-800 dark:text-green-300 text-sm mb-3">25-75 beds</p>
     <div class="space-y-2">
       <div class="rounded bg-green-100 dark:bg-green-900 border border-green-300 dark:border-green-700 px-3 py-2">
         <p class="font-semibold text-green-800 dark:text-green-300 text-xs">SmartLinx or Aladtec</p>
@@ -567,7 +567,7 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
     </div>
   </div>
   <div class="rounded-lg border border-orange-200 dark:border-orange-800 bg-orange-50 dark:bg-orange-950 p-5">
-    <p class="font-bold text-orange-800 dark:text-orange-300 text-sm mb-3">75â€“200+ beds</p>
+    <p class="font-bold text-orange-800 dark:text-orange-300 text-sm mb-3">75-200+ beds</p>
     <div class="space-y-2">
       <div class="rounded bg-orange-100 dark:bg-orange-900 border border-orange-300 dark:border-orange-700 px-3 py-2">
         <p class="font-semibold text-orange-800 dark:text-orange-300 text-xs">QGenda or SmartLinx</p>
@@ -591,13 +591,13 @@ If you run a Critical Access Hospital specifically, we have a dedicated guide th
 1. Count your beds and identify your tier: under 25, 25-75, or 75+. This single number rules out more than half the platforms in this guide.
 2. If you are under 50 beds, put Aladtec and SimpleScheduleAI side by side. They serve the same segment with different models - one is self-serve software, the other builds the schedule for you.
 3. Request demos from your two or three shortlisted tools. Ask each vendor: how long does implementation take, who owns the configuration, and what does the audit trail look like during a CMS survey?
-4. Ask any vendor for a compliance documentation sample - specifically a staffing report formatted for a CMS Â§485.635 review.
+4. Ask any vendor for a compliance documentation sample - specifically a staffing report formatted for a CMS §485.635 review.
 5. Calculate how many hours per week your nurse manager currently spends on scheduling. Multiply by their hourly rate. That is the baseline ROI any tool needs to beat.
 
 <div class="not-prose my-12 rounded-xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 px-8 py-10 text-center">
   <p class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Running a Critical Access Hospital in Texas?</p>
   <p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Free 60-day pilot. No IT setup. No commitment. We build the schedule, you approve it.</p>
-  <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot â†’</a>
+  <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Pilot Spot →</a>
 </div>
 
 ## A Note on Sources

@@ -1,4 +1,4 @@
-﻿---
+---
 publishDate: 2026-04-14T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
@@ -129,7 +129,7 @@ Auditing an AI-generated schedule before posting requires checking three things:
       <p class="font-bold text-white text-sm">Step 3: Preference Check</p>
     </div>
     <ul class="px-4 py-3 space-y-2 text-xs text-slate-700 dark:text-slate-300">
-      <li>Match rate above 60–70%</li>
+      <li>Match rate above 60-70%</li>
       <li>Check low-match nurses first</li>
       <li>Investigate persistent low matches</li>
     </ul>

@@ -1,4 +1,4 @@
-﻿---
+---
 publishDate: 2026-04-12T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
@@ -72,7 +72,7 @@ A 25-bed hospital running 24/7 nursing coverage needs a predictable distribution
     <div class="bg-red-800 dark:bg-red-900 px-3 py-2">
       <p class="font-bold text-white text-xs">4. Burnout Builds</p>
     </div>
-    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Burden concentrates on 2–3 nurses until they stop saying yes</p>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Burden concentrates on 2-3 nurses until they stop saying yes</p>
   </div>
 </div>
 
@@ -108,11 +108,11 @@ A related challenge surfaces when hospitals try to use nurse-facing scheduling a
 
 > "It no longer has the manager app so I have to login to desktop."
 >
-> _Chief Nursing Officer, Hospital & Health Care, posted June 13, 2024 on Capterra_
+> Chief Nursing Officer, Hospital & Health Care, posted June 13, 2024 on Capterra
 
 > "they took away the Manager App for your phone."
 >
-> _Staffing Coordinator, Medical Practice, posted June 11, 2024 on Capterra_
+> Staffing Coordinator, Medical Practice, posted June 11, 2024 on Capterra
 
 For a nurse manager moving between the floor and her office, this kind of mobile-vs-desktop split adds friction to the simultaneous-submission model. CAHs evaluating any nurse-facing app for preference collection should verify current manager-side mobile capabilities directly with the vendor before relying on it.
 

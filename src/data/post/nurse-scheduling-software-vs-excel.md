@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-04-30T00:00:00Z
 updateDate: 2026-05-15T00:00:00Z
@@ -51,7 +51,7 @@ Nurse scheduling software automatically enforces staffing rules, tracks certific
     <tbody>
       <tr class="bg-white dark:bg-slate-800">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Sunday-evening callout response</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">30–45 min phone tree</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-yellow-700 dark:text-yellow-400">30-45 min phone tree</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">Ranked shortlist in seconds</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-900">
@@ -76,8 +76,8 @@ Nurse scheduling software automatically enforces staffing rules, tracks certific
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-900">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Manager weekly burden</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">8–12 hours</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1–4 hours (depends on model)</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-red-700 dark:text-red-400">8-12 hours</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">1-4 hours (depends on model)</td>
       </tr>
     </tbody>
   </table>

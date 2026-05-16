@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-05-15T00:00:00Z
 updateDate: 2026-05-15T00:00:00Z
@@ -111,7 +111,7 @@ The [NSI National Health Care Retention Report](https://www.nsinursingsolutions.
 
 <div class="not-prose my-8 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-6">
   <p class="text-center text-sm font-bold text-slate-900 dark:text-slate-100 mb-1">Nurse Manager Weekly Scheduling Hours by Model</p>
-  <p class="text-center text-xs text-slate-500 dark:text-slate-400 mb-4">Estimated for a 25-bed CAH with 15–25 nurses</p>
+  <p class="text-center text-xs text-slate-500 dark:text-slate-400 mb-4">Estimated for a 25-bed CAH with 15-25 nurses</p>
   <div class="flex justify-around mb-1">
     <div class="w-16 text-center text-xs font-bold text-slate-600 dark:text-slate-300">10 hrs</div>
     <div class="w-16 text-center text-xs font-bold text-blue-700 dark:text-blue-400">5 hrs</div>
