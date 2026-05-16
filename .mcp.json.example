@@ -19,11 +19,7 @@
     },
     "microsoft-clarity": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@microsoft/clarity-mcp-server",
-        "--clarity_api_token=__SET_IN_LOCAL_.mcp.json__"
-      ]
+      "args": ["-y", "@microsoft/clarity-mcp-server", "--clarity_api_token=__SET_IN_LOCAL_.mcp.json__"]
     },
     "bing-webmaster": {
       "command": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/uvx.exe",
