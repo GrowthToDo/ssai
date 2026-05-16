@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env.local
 .env.production
 
+# MCP config holds plaintext API credentials - never commit (use .mcp.json.example)
+.mcp.json
+
 # macOS-specific files
 .DS_Store
 

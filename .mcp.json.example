@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "dataforseo": {
+      "command": "npx",
+      "args": ["-y", "dataforseo-mcp-server"],
+      "env": {
+        "DATAFORSEO_USERNAME": "__SET_IN_LOCAL_.mcp.json__",
+        "DATAFORSEO_PASSWORD": "__SET_IN_LOCAL_.mcp.json__",
+        "ENABLED_MODULES": "SERP,KEYWORDS_DATA,ONPAGE,DATAFORSEO_LABS,BACKLINKS,DOMAIN_ANALYTICS,BUSINESS_DATA,CONTENT_ANALYSIS,AI_OPTIMIZATION",
+        "FIELD_CONFIG_PATH": "C:\\Users\\Admin\\.claude\\skills\\seo\\dataforseo-field-config.json"
+      }
+    },
+    "google-search-console": {
+      "command": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/uvx.exe",
+      "args": ["--from", "git+https://github.com/AminForou/mcp-gsc", "mcp-gsc"],
+      "env": {
+        "GSC_OAUTH_CLIENT_SECRETS_FILE": "C:/Users/Admin/gsc-credentials/__SET_LOCALLY__.json"
+      }
+    },
+    "microsoft-clarity": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/clarity-mcp-server",
+        "--clarity_api_token=__SET_IN_LOCAL_.mcp.json__"
+      ]
+    },
+    "bing-webmaster": {
+      "command": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/Scripts/uvx.exe",
+      "args": ["--from", "git+https://github.com/zizzfizzix/mcp-server-bwt", "mcp-server-bwt"],
+      "env": {
+        "BING_WEBMASTER_API_KEY": "__SET_IN_LOCAL_.mcp.json__"
+      }
+    }
+  }
+}
