@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-05-09T00:00:00Z
 updateDate: 2026-05-09T00:00:00Z
@@ -440,5 +440,5 @@ At a 20-nurse roster, Deputy costs approximately $90 per month ($4.50 per user).
 
 Credential tracking enforcement, FLSA healthcare overtime configuration, CMS documentation, and charge nurse logic are not documented on Deputy's product page. Verify current capabilities with Deputy directly. For hospitals with clinical scheduling requirements, confirm whether Deputy's current feature set covers those needs before relying on it for compliance-sensitive scheduling.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

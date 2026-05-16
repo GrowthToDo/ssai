@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-04-28T00:00:00Z
 updateDate: 2026-05-14T00:00:00Z
@@ -326,4 +326,4 @@ They serve different purposes. ShiftWizard is a general hospital scheduling plat
 
 ---
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service for Critical Access Hospitals in Texas. He writes about scheduling operations, CAH compliance, and workforce management for small hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service for Critical Access Hospitals in Texas. He writes about scheduling operations, CAH compliance, and workforce management for small hospitals._

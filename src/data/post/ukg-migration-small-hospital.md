@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-05-07T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
@@ -227,5 +227,5 @@ The most common reasons, in order: the system costs more than its value at small
 
 The replacement depends on what you actually need. If you need basic scheduling without healthcare compliance, general tools like Deputy or When I Work are cheaper but require manual compliance tracking. If you need healthcare-specific scheduling with Texas overtime compliance, callout automation, and no IT requirement, SimpleScheduleAI is built specifically for CAH-scale operations. [See how SimpleScheduleAI works →](/how-it-works) or review the [full comparison guide](/blog/best-nurse-scheduling-software-2026) for a detailed breakdown.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

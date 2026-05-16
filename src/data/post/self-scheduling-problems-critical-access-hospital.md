@@ -1,4 +1,4 @@
----
+﻿---
 publishDate: 2026-04-12T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
@@ -202,5 +202,5 @@ A fairness score measures how equitably undesirable shifts, nights, weekends, an
 
 Yes. A hybrid model works: nurses submit preferences through whatever communication channel the unit already uses, and the scheduling service uses those preferences as inputs when generating the schedule. The difference is that preferences are applied subject to fair distribution rules and coverage requirements, not first-come-first-served. The nurse still has input. The manager still approves. The system enforces the rules that manual self-scheduling cannot consistently enforce.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

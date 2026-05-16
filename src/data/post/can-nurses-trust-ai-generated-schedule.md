@@ -1,4 +1,4 @@
----
+﻿---
 publishDate: 2026-04-14T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
 author: 'Pradeep Pandey'
@@ -200,5 +200,5 @@ Yes, partially. AI-assisted scheduling in other platforms has a documented patte
 
 Transparency about how a schedule was built is good practice regardless of the method. Telling staff that the schedule was generated using a system that applies consistent rules and was reviewed by the manager before posting is more likely to build acceptance than silence. The nurses who ask how the schedule was built deserve an honest answer.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-05-12T00:00:00Z
 updateDate: 2026-05-14T00:00:00Z
@@ -297,5 +297,5 @@ With TCP TimeClock+: the nurse manager checks the platform for availability, rev
 
 Two reasons. First, the staff-facing mobile app: nurses can clock in and out, view schedules, and request time off in one place. SimpleScheduleAI does not have a nurse-facing interface. Second, unified time and attendance: if your hospital uses TimeClock+ for payroll and time tracking, keeping scheduling in the same platform reduces reconciliation work between systems. A managed scheduling service covers scheduling only; it does not replace a time and attendance system. If a hospital-specific scheduling platform with a nurse-facing app is the goal, see how [ShiftWizard compares to a managed service](/blog/shiftwizard-vs-managed-service).
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-04-24T00:00:00Z
 updateDate: 2026-05-08T00:00:00Z
@@ -505,5 +505,5 @@ Aladtec is designed to be HIPAA compliant for scheduling purposes. Its documenta
 
 ---
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

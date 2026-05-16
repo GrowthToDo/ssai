@@ -1,4 +1,4 @@
----
+﻿---
 draft: false
 publishDate: 2026-05-15T00:00:00Z
 updateDate: 2026-05-15T00:00:00Z
@@ -370,5 +370,5 @@ Self-serve scheduling software for hospital nursing: Aladtec, SmartLinx, QGenda,
 
 ---
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -626,5 +626,5 @@ Deputy is the lowest-cost option at roughly $4-6 per employee per month, but it 
 
 Scheduling software is a tool your nurse manager logs into, configures, and uses to build schedules each week. A managed scheduling service provides a scheduling team that builds the schedule for you, using your rules and roster - your manager reviews and approves. For hospitals where the nurse manager is also clinically active, managed service often solves the real problem (the weekly time cost of scheduling) where software only shifts the work to a different tool.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)
