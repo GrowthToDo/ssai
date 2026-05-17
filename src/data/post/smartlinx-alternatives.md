@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-05-06T00:00:00Z
 updateDate: 2026-05-08T00:00:00Z
@@ -176,7 +176,7 @@ SimpleScheduleAI delivers the compliance documentation, overtime tracking, and c
 **Key advantages:**
 
 - Days to first schedule draft via Excel roster upload, compared to 3-4 months for a SmartLinx implementation
-- CMS Â§485.635 documentation is automatic, not a configured module requiring IT setup
+- CMS §485.635 documentation is automatic, not a configured module requiring IT setup
 - Callout overtime ranking is built into the shortlist generation, not a separately configured compliance rule
 - No ongoing IT dependency; the service manages configuration as the hospital changes
 - Texas overtime compliance and CMS CAH requirements are defaults, not configuration options
@@ -272,9 +272,11 @@ NurseGrid Manager is not a full SmartLinx replacement but can supplement or part
 **Manager app removed.** Recent platform updates removed the dedicated manager mobile app; managers now access schedules via desktop browser.
 
 > "It no longer has the manager app so I have to login to desktop."
+>
 > Chief Nursing Officer, Hospital & Health Care, June 13, 2024, Capterra
 
 > "they took away the Manager App for your phone."
+>
 > Staffing Coordinator, Medical Practice, June 11, 2024, Capterra
 
 NurseGrid Manager includes schedule building and credential tracking. CMS compliance documentation and time and attendance integration are not listed on the NurseGrid product page. Confirm current capabilities with NurseGrid directly before evaluating as a primary SmartLinx replacement.
@@ -348,7 +350,7 @@ The most meaningful difference between SmartLinx and SimpleScheduleAI for a 25-b
         <td class="py-3 text-blue-700 dark:text-blue-400">Days, Excel upload</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
-        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">CMS Â§485.635 documentation</td>
+        <td class="py-3 pr-4 text-slate-700 dark:text-slate-300">CMS §485.635 documentation</td>
         <td class="py-3 pr-4 text-slate-600 dark:text-slate-400">Yes, configured module</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Yes, automatic default</td>
       </tr>
@@ -398,7 +400,7 @@ For hospitals where T&A is managed through payroll software independently of the
 
 3. **Identify the gap driving the switch.** Is it implementation cost that already happened, ongoing IT dependency, per-user pricing growth, or features that do not map to your workflows? Different gaps point to different alternatives.
 
-4. **Request a pilot of SimpleScheduleAI with your specific use case.** Describe your current SmartLinx setup, what you use it for, and what is not working. Ask how SimpleScheduleAI handles the same requirements. [Start your pilot â†’](/pilot)
+4. **Request a pilot of SimpleScheduleAI with your specific use case.** Describe your current SmartLinx setup, what you use it for, and what is not working. Ask how SimpleScheduleAI handles the same requirements. [Start your pilot →](/pilot)
 
 5. **If T&A integration is non-negotiable, evaluate whether QGenda or a newer SmartLinx alternative addresses both the scheduling and T&A requirements.** Do not move to a tool that eliminates T&A integration without a clear plan for how payroll reconciliation will work in the new setup.
 
@@ -439,5 +441,5 @@ SmartLinx does not publish pricing and requires a quote. Industry comparisons su
 
 SmartLinx is designed to be HIPAA compliant for workforce management and scheduling data. This is a standard consideration across all scheduling platforms in healthcare and is not a differentiating factor among the tools reviewed here.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
-[LinkedIn â†’](https://www.linkedin.com/in/pradeep-pandeyji/)
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+[LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

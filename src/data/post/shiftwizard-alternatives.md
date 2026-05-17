@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-04-26T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
@@ -58,7 +58,7 @@ ShiftWizard's overall rating is high: 4.3/5 on G2 and 4.4/5 across 723 Capterra 
 >
 > Jennifer C., Director of Emergency Services, July 15, 2024, Capterra
 
-The minority of negative reviews cluster around a handful of themes that come up consistently for CAH-scale users evaluating an alternative.
+The minority of negative reviews cluster around a handful of themes that CAH-scale users raise when evaluating an alternative.
 
 **App Performance Complaints.** Some reviewers report slow load times and glitches during schedule input.
 
@@ -105,19 +105,19 @@ For a CAH evaluating ShiftWizard, ask the demo to walk through swap workflows fr
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">ShiftWizard (current)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Hospital nursing, self-serve</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.3/5<br>Capterra: 4.4/5 (723 reviews)</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">2â€“4 weeks</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">2-4 weeks</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-semibold text-blue-700 dark:text-blue-400">SimpleScheduleAI</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">CAHs, no IT, NM on clinical shifts</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">New service; active pilot phase</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">3â€“5 days</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">3-5 days</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">TCP Scheduling (Aladtec)</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Public safety, EMS, small hospital self-serve</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">G2: 4.3/5 (97 reviews)<br>Capterra: 4.6/5 (17 reviews)</td>
-        <td class="py-3 text-slate-600 dark:text-slate-400">2â€“4 weeks</td>
+        <td class="py-3 text-slate-600 dark:text-slate-400">2-4 weeks</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">NurseGrid</td>
@@ -145,14 +145,14 @@ The four alternatives below cover the range a CAH is likely to encounter: a mana
 
 SimpleScheduleAI is a managed [nurse scheduling service](/how-it-works) built specifically for Critical Access Hospitals in Texas. Unlike a self-serve platform, SimpleScheduleAI requires no configuration work from the nurse manager: a scheduling specialist handles setup from an Excel roster upload, builds draft schedules each cycle, and maintains the system as the roster changes.
 
-The service is a new offering in active pilot phase, without public G2 or Capterra reviews yet. CMS Â§485.635 staffing documentation is logged automatically throughout each scheduling cycle. Callout replacement generates a ranked shortlist cross-referenced against current-week hours and FLSA 8-and-80 overtime thresholds. Texas overtime compliance is built in as a default.
+The service is a new offering in active pilot phase, without public G2 or Capterra reviews yet. CMS §485.635 staffing documentation is logged automatically throughout each scheduling cycle. Callout replacement generates a ranked shortlist cross-referenced against current-week hours and FLSA 8-and-80 overtime thresholds. Texas overtime compliance is built in as a default.
 
 **Best for:** Critical Access Hospitals leaving ShiftWizard because the weekly scheduling administration load exceeds what one nurse manager can absorb while also taking clinical shifts.
 
 **Key advantages:**
 
 - Eliminates configuration maintenance: the service maintains scheduling rules as staff and policies change
-- CMS Â§485.635 documentation is automatic, not a manual export before each survey
+- CMS §485.635 documentation is automatic, not a manual export before each survey
 - Callout shortlist is ranked by overtime risk without manual calculation from the manager
 - Excel-based roster upload means no IT involvement during transition
 - Free 60-day pilot for qualifying CAHs in Texas, with no setup fee and no contract commitment during the pilot
@@ -213,7 +213,7 @@ A representative positive review from a public-safety user:
 
 NurseGrid Manager is the manager-tier product of NurseGrid, owned by HealthStream, Inc. It holds 4.2/5 across 13 Capterra reviews (verified 2026-04-30). The Capterra sample is small; reviews on the iOS App Store and Google Play are typically a more meaningful signal for a nurse-facing app.
 
-NurseGrid is built primarily for individual nurses managing their own schedules. The standard product covers mobile schedule visibility, shift trade requests, and availability management. A NurseGrid for Managers tier extends this with unit-level oversight. For CAHs evaluating NurseGrid as a primary scheduling system rather than a staff-facing layer, capabilities like CMS Â§485.635 audit-trail export, proactive FLSA overtime flagging, and credential-based callout filtering are critical; tier coverage of these features may differ from the standard product. Confirm directly with NurseGrid sales before relying on it as your primary system.
+NurseGrid is built primarily for individual nurses managing their own schedules. The standard product covers mobile schedule visibility, shift trade requests, and availability management. A NurseGrid for Managers tier extends this with unit-level oversight. For CAHs evaluating NurseGrid as a primary scheduling system rather than a staff-facing layer, capabilities like CMS §485.635 audit-trail export, proactive FLSA overtime flagging, and credential-based callout filtering are critical; tier coverage of these features may differ from the standard product. Confirm directly with NurseGrid sales before relying on it as your primary system.
 
 A representative positive review:
 
@@ -231,7 +231,7 @@ A representative positive review:
 
 **Key limitations:**
 
-- **Manager Mobile App.** Multiple Capterra reviewers describe the loss of manager-side mobile functionality, requiring desktop login for schedule edits.
+- **Manager Mobile App.** The manager-side mobile app was removed, requiring desktop login for schedule edits (Capterra, June 2024).
 
   > "It no longer has the manager app so I have to login to desktop."
   >
@@ -336,7 +336,7 @@ If all of these conditions apply, the switch cost and learning curve of an alter
         <td class="py-3 text-blue-700 dark:text-blue-400">3 drafts delivered by specialist in 48 hrs</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
-        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS Â§485.635 documentation</td>
+        <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">CMS §485.635 documentation</td>
         <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">Platform-assisted, manager-driven export</td>
         <td class="py-3 text-blue-700 dark:text-blue-400">Automatic, always current</td>
       </tr>
@@ -357,8 +357,8 @@ If all of these conditions apply, the switch cost and learning curve of an alter
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">Implementation time</td>
-        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">2â€“4 weeks typical</td>
-        <td class="py-3 text-blue-700 dark:text-blue-400">Excel upload, 3â€“5 days to first draft</td>
+        <td class="py-3 pr-2 text-slate-600 dark:text-slate-400">2-4 weeks typical</td>
+        <td class="py-3 text-blue-700 dark:text-blue-400">Excel upload, 3-5 days to first draft</td>
       </tr>
       <tr class="border-b border-slate-100 dark:border-slate-800 align-top">
         <td class="py-3 pr-2 font-medium text-slate-900 dark:text-slate-100">IT requirement</td>
@@ -391,7 +391,7 @@ For a nurse manager at a 25-bed CAH who also takes clinical shifts, the self-ser
 <div class="not-prose mt-10 rounded-xl bg-blue-50 dark:bg-blue-950 border border-blue-100 dark:border-blue-900 px-8 py-7 flex flex-col gap-4">
   <div>
     <p class="text-lg font-bold text-blue-900 dark:text-blue-200">Leaving ShiftWizard? Built for what a CAH actually needs.</p>
-    <p class="text-blue-800 dark:text-blue-300 mt-1">SimpleScheduleAI eliminates the configuration burden, automates CMS Â§485.635 documentation, and ranks callout replacements by overtime risk. Designed for CAH nurse managers who cannot maintain a scheduling system while also taking clinical shifts.</p>
+    <p class="text-blue-800 dark:text-blue-300 mt-1">SimpleScheduleAI eliminates the configuration burden, automates CMS §485.635 documentation, and ranks callout replacements by overtime risk. Designed for CAH nurse managers who cannot maintain a scheduling system while also taking clinical shifts.</p>
   </div>
   <a href="/pilot" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Pilot or Reference Call</a>
 </div>
@@ -410,7 +410,7 @@ If you are currently evaluating hospital scheduling options for your CAH, these 
 
 4. **Build a full cost comparison, not just licensing.** Add setup fees, configuration services, and estimated internal staff time for onboarding to the annual licensing cost. Compare that aggregate figure across every option you are considering, including a managed service.
 
-5. **If the managed service operating model fits your constraints, request a pilot.** SimpleScheduleAI offers a free 60-day pilot for qualifying CAHs in Texas, with no setup fee and no contract commitment during the pilot. You can request a reference call with a current pilot facility before committing. [Request a pilot or reference call â†’](/pilot)
+5. **If the managed service operating model fits your constraints, request a pilot.** SimpleScheduleAI offers a free 60-day pilot for qualifying CAHs in Texas, with no setup fee and no contract commitment during the pilot. You can request a reference call with a current pilot facility before committing. [Request a pilot or reference call →](/pilot)
 
 ## A Note on Sources
 
@@ -438,7 +438,7 @@ No. SimpleScheduleAI is a manager-facing managed scheduling service; nurses do n
 
 A self-serve platform gives the nurse manager direct control and requires her to configure, build, and operate the system week to week. A managed service handles configuration, schedule generation, and system maintenance on her behalf; she reviews and approves the outputs. The choice depends on how much administrative bandwidth the nurse manager has beyond her clinical responsibilities, not on which approach has better features.
 
-[See how the managed service model works in practice â†’](/how-it-works)
+[See how the managed service model works in practice →](/how-it-works)
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

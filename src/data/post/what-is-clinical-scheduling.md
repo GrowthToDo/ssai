@@ -18,7 +18,7 @@ metadata:
 
 ## TL;DR
 
-Clinical scheduling coordinates when and where clinical staff work across inpatient, outpatient, and on-call settings. It is broader than nurse scheduling, which focuses on one staff category. Critical access hospitals manage both simultaneously, often with a single nurse manager responsible for everything. Dedicated [healthcare staff scheduling](/healthcare-staff-scheduling) support reduces the administrative load without requiring a full HR department.
+Clinical scheduling coordinates when and where clinical staff work across inpatient, outpatient, and on-call settings. It is broader than nurse scheduling, which focuses on one staff category. Critical access hospitals manage both simultaneously, often with a single nurse manager responsible for everything. Dedicated [nurse scheduling software](/nurse-scheduling-software) support reduces the administrative load without requiring a full HR department.
 
 ## What is clinical scheduling?
 
@@ -68,7 +68,7 @@ For CAHs specifically, the most practical answer to "what software do we need fo
 
 ## How SimpleScheduleAI Helps?
 
-SimpleScheduleAI is a [healthcare staff scheduling](/healthcare-staff-scheduling) managed service focused specifically on inpatient nursing scheduling at critical access hospitals. We handle the weekly nursing schedule build, callout coverage support, overtime tracking, and compliance flagging, your nurse manager reviews and approves the final schedule rather than spending 8-12 hours building it from scratch each week.
+SimpleScheduleAI is a [nurse scheduling software](/nurse-scheduling-software) managed service focused specifically on inpatient nursing scheduling at critical access hospitals. We handle the weekly nursing schedule build, callout coverage support, overtime tracking, and compliance flagging, your nurse manager reviews and approves the final schedule rather than spending 8-12 hours building it from scratch each week.
 
 We are honest about scope: we do not currently manage physician on-call scheduling or ancillary department coordination. Our focus on nursing scheduling at CAHs is intentional, it is where the administrative burden is highest and where managed service support delivers the fastest return. For the broader clinical scheduling challenge, we help stabilize the nursing layer first.
 

@@ -71,7 +71,7 @@ Most critical access hospitals do not need enterprise WFM. The complexity and im
 ---
 
 For CAH-specific scheduling guidance, see our [critical access hospital scheduling guide](/critical-access-hospital-scheduling).
-For more on practical staff scheduling solutions for critical access and rural hospitals, see: [Healthcare Staff Scheduling](/healthcare-staff-scheduling).
+For more on practical staff scheduling solutions for critical access and rural hospitals, see: [Nurse Scheduling Software](/nurse-scheduling-software).
 
 ---
 

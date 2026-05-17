@@ -34,7 +34,7 @@ metadata:
 - [How Do You Enforce Fairness in a Self-Scheduling Model?](#how-do-you-enforce-fairness-in-a-self-scheduling-model)
 - [What Is a Simultaneous Submission Window?](#what-is-a-simultaneous-submission-window)
 - [How Do You Track Fairness Across Multiple Scheduling Cycles?](#how-do-you-track-fairness-across-multiple-scheduling-cycles)
-- [How SimpleScheduleAI Addresses Self-Scheduling Inequity](#how-simplescheduleai-addresses-self-scheduling-inequity)
+- [How Does SimpleScheduleAI Address Self-Scheduling Inequity?](#how-does-simplescheduleai-address-self-scheduling-inequity)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 Self-scheduling is appealing in theory. Give nurses autonomy over their hours and they will be more engaged, more satisfied, and less likely to leave. That logic has enough truth in it that the model has spread widely in hospital nursing. The problem is that self-scheduling requires structural guardrails that most small hospitals do not have the infrastructure to enforce.
@@ -72,7 +72,7 @@ A 25-bed hospital running 24/7 nursing coverage needs a predictable distribution
     <div class="bg-red-800 dark:bg-red-900 px-3 py-2">
       <p class="font-bold text-white text-xs">4. Burnout Builds</p>
     </div>
-    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Burden concentrates on 2–3 nurses until they stop saying yes</p>
+    <p class="px-3 py-3 text-xs text-slate-600 dark:text-slate-400">Burden concentrates on 2-3 nurses until they stop saying yes</p>
   </div>
 </div>
 
@@ -108,11 +108,11 @@ A related challenge surfaces when hospitals try to use nurse-facing scheduling a
 
 > "It no longer has the manager app so I have to login to desktop."
 >
-> _Chief Nursing Officer, Hospital & Health Care, posted June 13, 2024 on Capterra_
+> Chief Nursing Officer, Hospital & Health Care, posted June 13, 2024 on Capterra
 
 > "they took away the Manager App for your phone."
 >
-> _Staffing Coordinator, Medical Practice, posted June 11, 2024 on Capterra_
+> Staffing Coordinator, Medical Practice, posted June 11, 2024 on Capterra
 
 For a nurse manager moving between the floor and her office, this kind of mobile-vs-desktop split adds friction to the simultaneous-submission model. CAHs evaluating any nurse-facing app for preference collection should verify current manager-side mobile capabilities directly with the vendor before relying on it.
 
@@ -202,5 +202,5 @@ A fairness score measures how equitably undesirable shifts, nights, weekends, an
 
 Yes. A hybrid model works: nurses submit preferences through whatever communication channel the unit already uses, and the scheduling service uses those preferences as inputs when generating the schedule. The difference is that preferences are applied subject to fair distribution rules and coverage requirements, not first-come-first-served. The nurse still has input. The manager still approves. The system enforces the rules that manual self-scheduling cannot consistently enforce.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

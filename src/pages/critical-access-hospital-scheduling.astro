@@ -56,7 +56,7 @@ const faqSchema = {
       name: 'How do critical access hospitals handle nurse callouts?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most CAHs rely on a manual phone tree when a nurse calls out: the charge nurse or manager calls available staff until someone agrees to come in. This process typically takes 1–3 hours and often results in overtime. Automated callout coverage tools generate a replacement shortlist instantly from available, qualified staff.',
+        text: 'Most CAHs rely on a manual phone tree when a nurse calls out: the charge nurse or manager calls available staff until someone agrees to come in. This process typically takes 1 to 3 hours and often results in overtime. Automated callout coverage tools generate a replacement shortlist instantly from available, qualified staff.',
       },
     },
     {
@@ -64,7 +64,7 @@ const faqSchema = {
       name: 'What scheduling software is designed for critical access hospitals?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most nurse scheduling software is built for large health systems. SimpleScheduleAI is purpose-built for critical access hospitals: no IT integration required, Excel roster upload, 3–5 day onboarding, Texas overtime compliance built in, and a ranked callout replacement shortlist for immediate coverage needs.',
+        text: 'Most nurse scheduling software is built for large health systems. SimpleScheduleAI is purpose-built for critical access hospitals: no IT integration required, Excel roster upload, 3 to 5 day onboarding, Texas overtime compliance built in, and a ranked callout replacement shortlist for immediate coverage needs.',
       },
     },
     {
@@ -72,7 +72,7 @@ const faqSchema = {
       name: 'How much does a nurse manager spend on scheduling at a critical access hospital?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "CAH nurse managers spend an average of 8–12 hours per week on manual scheduling tasks, including building the schedule, handling callouts, tracking overtime, and managing schedule changes. At a $50/hr loaded rate, that's a $26,000 annual administrative burden that scheduling software can reduce to 1–2 hours per week.",
+        text: "CAH nurse managers spend an average of 8 to 12 hours per week on manual scheduling tasks, including building the schedule, handling callouts, tracking overtime, and managing schedule changes. At a $50/hr loaded rate, that's a $26,000 annual administrative burden that scheduling software can reduce to 1 to 2 hours per week.",
       },
     },
     {
@@ -118,16 +118,16 @@ const breadcrumbSchema = {
     <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 prose dark:prose-invert prose-lg max-w-none">
       <h2>What Makes Critical Access Hospital Scheduling Different?</h2>
       <p>
-        If you have tried scheduling software before and walked away because nothing fit a 20-bed hospital, you are not
-        alone. CAH scheduling is fundamentally different from large-system scheduling because the margin for error is
-        near zero. With 25 or fewer acute care beds, a single callout can leave a unit uncovered. There is no float
-        pool, no agency desk on retainer, and no IT team to support scheduling software. The nurse manager handles
-        everything, often on a personal phone at 5 AM on a Sunday.
+        If you have tried <a href="/nurse-scheduling-software">nurse scheduling software</a> before and walked away because
+        nothing fit a 20-bed hospital, you are not alone. CAH scheduling is fundamentally different from large-system scheduling
+        because the margin for error is near zero. With 25 or fewer acute care beds, a single callout can leave a unit uncovered.
+        There is no float pool, no agency desk on retainer, and no IT team to support scheduling software. The nurse manager
+        handles everything, often on a personal phone at 5 AM on a Sunday.
       </p>
       <p>
         Critical access hospitals are federally designated rural facilities certified under CMS Conditions of
         Participation (42 CFR §485.635). There are approximately 1,350 CAHs in the United States, with 84 in Texas
-        alone, serving rural communities where the nearest alternative hospital may be 30–60 miles away.
+        alone, serving rural communities where the nearest alternative hospital may be 30 to 60 miles away.
       </p>
       <p>
         The volume is small enough that spreadsheets feel manageable until they aren't. The coverage requirements are
@@ -144,10 +144,10 @@ const breadcrumbSchema = {
       <ul>
         <li>
           <strong>Manual roster management:</strong> Most CAHs still use Excel or paper. Building a 4-week schedule takes
-          4–6 hours and has to be rebuilt from scratch each cycle.
+          4 to 6 hours and has to be rebuilt from scratch each cycle.
         </li>
         <li>
-          <strong>Callout coverage gaps:</strong> The manual phone tree for callout replacement takes 1–3 hours on average
+          <strong>Callout coverage gaps:</strong> The manual phone tree for callout replacement takes 1 to 3 hours on average
           and often ends in mandatory overtime or uncovered shifts.
         </li>
         <li>
@@ -190,13 +190,53 @@ const breadcrumbSchema = {
         replacement shortlist from available, qualified staff in seconds.
       </p>
       <p>
-        The nurse manager makes the final call on every schedule and every replacement. The service eliminates the 8–10
-        hours of administrative work per week, though it does not replace the clinical judgment that only an experienced
-        nurse manager can provide.
+        The nurse manager makes the final call on every schedule and every replacement. The service eliminates the 8 to
+        10 hours of administrative work per week, though it does not replace the clinical judgment that only an
+        experienced nurse manager can provide.
       </p>
       <p>
         <strong>Not right for:</strong> Hospitals with more than 50 beds or those needing deep EHR integration. SimpleScheduleAI
         is purpose-built for the critical access context.
+      </p>
+
+      <h2>Worked Example: Staffing Math for a 25-Bed CAH on 12-Hour Shifts</h2>
+      <p>
+        Consider a 25-bed critical access hospital running med-surg and a small ED on two 12-hour shifts. To keep a
+        registered nurse on duty at all times and hold a safe ratio, the unit needs roughly 4 to 6 nurses on days and 3
+        to 5 on nights, every day of the year. That is about 14 to 18 nurse shifts a day, or close to 110 to 125 shifts
+        a week before a single callout.
+      </p>
+      <p>
+        Filling those shifts from a roster of 25 to 35 nurses leaves almost no slack. Each nurse works three 12-hour
+        shifts a week to stay near 36 hours and avoid overtime. One vacation, one FMLA leave, and one resignation in the
+        same month removes nine or more shifts a week from a system that had none to spare. This is why the schedule
+        cannot be rebuilt by hand each cycle: the constraints interact, and one nurse's availability change ripples
+        across the whole 4-week block.
+      </p>
+      <p>
+        The same math explains why overtime creep is structural, not a discipline problem. When the roster is this
+        tight, the fastest way to cover a gap is to extend a nurse already on the schedule. Without a system flagging
+        who is approaching 40 hours before the schedule is published, those extensions stay invisible until payroll
+        runs.
+      </p>
+
+      <h2>Manual Phone Tree vs Automated Callout: What the Time Difference Costs</h2>
+      <p>
+        When a nurse calls out at 5 AM, the manual process is a phone tree: the charge nurse calls down a list, leaves
+        voicemails, waits for callbacks, and repeats until someone agrees to come in. At a CAH this takes 1 to 3 hours
+        and pulls the charge nurse away from patient care during that window. It often ends in mandatory overtime,
+        because the first person who says yes is whoever is reachable, not whoever is freshest or lowest cost.
+      </p>
+      <p>
+        An automated callout shortlist changes the inputs, not the decision. The system ranks available, qualified staff
+        by overtime status, certification, and fairness, and surfaces the top candidates in seconds. The nurse manager
+        still decides who to bring in. What changes is that the 1 to 3 hours of dialing becomes a 5-minute review, and
+        the choice is informed by who is genuinely under 40 hours rather than who happened to pick up.
+      </p>
+      <p>
+        Across a year, a hospital that averages two callouts a week spends 100 to 300 charge-nurse hours on phone trees
+        alone. That is the hidden line item automated coverage removes, on top of the overtime it prevents by selecting
+        replacements on hours and cost rather than on who answered first.
       </p>
 
       <h2>Critical Access Hospital Scheduling Guides</h2>
@@ -237,17 +277,17 @@ const breadcrumbSchema = {
       {
         title: 'How do CAHs handle nurse callouts without a large float pool?',
         description:
-          'Most CAHs rely on manual phone trees when a nurse calls out, a process that takes 1–3 hours and often ends in overtime or uncovered shifts. Automated scheduling tools generate a replacement shortlist from available qualified staff in seconds.',
+          'Most CAHs rely on manual phone trees when a nurse calls out, a process that takes 1 to 3 hours and often ends in overtime or uncovered shifts. Automated scheduling tools generate a replacement shortlist from available qualified staff in seconds.',
       },
       {
         title: 'What is the best scheduling software for a 25-bed hospital?',
         description:
-          'SimpleScheduleAI is purpose-built for CAHs: no IT integration required, 3–5 day onboarding via Excel upload, Texas compliance built in, ranked callout replacement list, and three AI-drafted schedule options per cycle.',
+          'SimpleScheduleAI is purpose-built for CAHs: no IT integration required, 3 to 5 day onboarding via Excel upload, Texas compliance built in, ranked callout replacement list, and three AI-drafted schedule options per cycle.',
       },
       {
         title: 'How much time do nurse managers spend on scheduling?',
         description:
-          "CAH nurse managers spend 8–12 hours per week on scheduling tasks. At a $50/hr loaded rate, that's a $26,000 annual administrative burden, before counting overtime costs from coverage gaps.",
+          "CAH nurse managers spend 8 to 12 hours per week on scheduling tasks. At a $50/hr loaded rate, that's a $26,000 annual administrative burden, before counting overtime costs from coverage gaps.",
       },
       {
         title: 'Can scheduling software help with Texas nursing compliance?',

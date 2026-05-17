@@ -111,7 +111,7 @@ The [NSI National Health Care Retention Report](https://www.nsinursingsolutions.
 
 <div class="not-prose my-8 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-6">
   <p class="text-center text-sm font-bold text-slate-900 dark:text-slate-100 mb-1">Nurse Manager Weekly Scheduling Hours by Model</p>
-  <p class="text-center text-xs text-slate-500 dark:text-slate-400 mb-4">Estimated for a 25-bed CAH with 15–25 nurses</p>
+  <p class="text-center text-xs text-slate-500 dark:text-slate-400 mb-4">Estimated for a 25-bed CAH with 15-25 nurses</p>
   <div class="flex justify-around mb-1">
     <div class="w-16 text-center text-xs font-bold text-slate-600 dark:text-slate-300">10 hrs</div>
     <div class="w-16 text-center text-xs font-bold text-blue-700 dark:text-blue-400">5 hrs</div>
@@ -340,7 +340,7 @@ The total nurse manager time investment per scheduling cycle is under two hours.
   <a href="/pilot" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Free Scheduling Assessment</a>
 </div>
 
-For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
+For more context, see our guides on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals, how [AI nurse scheduling](/ai-nurse-scheduling) works as a managed service, and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling).
 
 ## Frequently Asked Questions
 
@@ -370,5 +370,5 @@ Self-serve scheduling software for hospital nursing: Aladtec, SmartLinx, QGenda,
 
 ---
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -18,6 +18,7 @@ const founders = [
     bio: 'Deputy General Manager of Operations, Apollo Hospitals. 7 years inside hospital ops managing 2,000+ beds across 19 hospitals. Building the scheduling fix he watched them need every week.',
     imageAlt: 'Pradeep Pandey, Co-founder of SimpleScheduleAI',
     imageSrc: '/founders/pradeep.webp',
+    profileUrl: '/about/pradeep-pandey',
   },
   {
     name: 'Gautham',
@@ -25,6 +26,7 @@ const founders = [
     bio: '3x founder, 15 years in tech. Built the system so it works without your nurses or staff touching any software.',
     imageAlt: 'Gautham, Co-founder of SimpleScheduleAI',
     imageSrc: '/founders/gautham.png',
+    profileUrl: undefined,
   },
 ];
 ---
@@ -46,7 +48,15 @@ const founders = [
             loading="lazy"
             decoding="async"
           />
-          <h3 class="mt-5 text-lg font-bold">{founder.name}</h3>
+          <h3 class="mt-5 text-lg font-bold">
+            {founder.profileUrl ? (
+              <a href={founder.profileUrl} class="hover:text-primary transition-colors">
+                {founder.name}
+              </a>
+            ) : (
+              founder.name
+            )}
+          </h3>
           <p class="text-sm font-semibold text-primary">{founder.title}</p>
           <p class="mt-3 text-sm leading-relaxed text-muted">{founder.bio}</p>
         </div>

@@ -24,7 +24,7 @@ metadata:
 - Migrating off UKG (or any enterprise scheduling platform) at a small hospital requires 30-60 days of parallel operation: running the old system alongside the new one while staff transition. Cutting over cold is the most common migration mistake.
 - The hardest part of the migration is not the software switch. It is extracting usable data from the departing platform in a format your next system can ingest, and it is managing staff communication through the uncertainty window.
 - UKG contracts typically include 30-90 day termination notice requirements and often auto-renew. Read the exit clause before giving notice; the notice letter is a legally triggering document.
-- Small hospitals migrating off enterprise platforms consistently report that the replacement system felt easier to use within two weeks, but that the migration process itself was more disruptive than expected.
+- Based on our interviews with small hospitals that migrated off enterprise platforms, the replacement system typically felt easier to use within two weeks, but the migration process itself was more disruptive than expected.
 - The primary driver for small hospital UKG exits is not feature dissatisfaction. It is the ongoing cost and administrative overhead of a system that requires more IT infrastructure and HR staffing capacity than a 25-bed facility has.
 
 ## Table of Contents
@@ -176,7 +176,7 @@ The most effective communication is direct, in person, to charge nurses first. C
 
 ## What to Look for in the Replacement System?
 
-Small hospitals exiting UKG consistently make the same mistake in selecting a replacement: they evaluate the feature list and discount the implementation experience. A system with fewer features that takes 5 days to implement is better for a 25-bed CAH than a system with more features that takes 6 months.
+Small hospitals exiting UKG often make the same mistake in selecting a replacement: they evaluate the feature list and discount the implementation experience. A system with fewer features that takes 5 days to implement is better for a 25-bed CAH than a system with more features that takes 6 months.
 
 The evaluation criteria that matter most for a CAH replacement:
 
@@ -227,5 +227,5 @@ The most common reasons, in order: the system costs more than its value at small
 
 The replacement depends on what you actually need. If you need basic scheduling without healthcare compliance, general tools like Deputy or When I Work are cheaper but require manual compliance tracking. If you need healthcare-specific scheduling with Texas overtime compliance, callout automation, and no IT requirement, SimpleScheduleAI is built specifically for CAH-scale operations. [See how SimpleScheduleAI works →](/how-it-works) or review the [full comparison guide](/blog/best-nurse-scheduling-software-2026) for a detailed breakdown.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

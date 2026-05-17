@@ -1,4 +1,4 @@
-﻿---
+---
 draft: false
 publishDate: 2026-05-02T00:00:00Z
 updateDate: 2026-05-07T00:00:00Z
@@ -50,7 +50,7 @@ ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, 
 
 ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM). It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews), with over 88% of Capterra reviews rating 4 stars or higher. G2's overall summary describes ShiftWizard as a tool users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
 
-ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
+ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com](https://www.healthstream.com)).
 
 The defining characteristic of the platform from an operating-model standpoint: it is self-serve. The vendor provides software, training, and onboarding support; your team configures the system, builds schedules, and operates the platform week to week. The schedule does not generate itself; the nurse manager (or a scheduling coordinator at facilities that have one) is the operator.
 
@@ -81,7 +81,7 @@ These questions surface operational fit faster than feature checklists do. Use t
   </div>
   <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
     <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">3. Compliance</div>
-    <p class="text-sm text-slate-600 dark:text-slate-300">"Show me the audit-trail export for CMS Â§485.635. Show me the FLSA 8-and-80 overtime rule configuration."</p>
+    <p class="text-sm text-slate-600 dark:text-slate-300">"Show me the audit-trail export for CMS §485.635. Show me the FLSA 8-and-80 overtime rule configuration."</p>
   </div>
   <div class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-4">
     <div class="mb-3 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-bold text-white">4. Mobile Workflow</div>
@@ -172,7 +172,7 @@ A managed service is the right model when:
 - **Your nurse manager is also a charge nurse, department head, or other clinical role.** Time on the floor cannot be substituted with platform time; the scheduling work needs to come off her calendar entirely, not be made faster.
 - **Your facility has no dedicated IT capacity.** Implementation that assumes IT support, for integrations, configuration, or troubleshooting, fails at facilities where the IT person is one part-time role.
 - **Time-to-operational matters more than mobile self-service.** When a current scheduling situation is unsustainable, a 3-5 day setup timeline matters more than a staff app that the previous platform also had.
-- **Compliance documentation is a survey-relevant concern.** Managed services typically deliver auto-logged audit trails for CMS Â§485.635 as part of the service, rather than requiring the nurse manager to maintain documentation through configuration.
+- **Compliance documentation is a survey-relevant concern.** Managed services typically deliver auto-logged audit trails for CMS §485.635 as part of the service, rather than requiring the nurse manager to maintain documentation through configuration.
 
 ## Which Model Fits Your Critical Access Hospital?
 
@@ -200,7 +200,7 @@ SimpleScheduleAI is a new service in active pilot phase, without public G2 or Ca
 - **A free 60-day pilot for qualifying CAHs in Texas.** No setup fee or commitment during the pilot. You evaluate on actual delivered schedules, not on demos.
 - **Direct customer references on request.** We can connect you with current pilot facilities for an unfiltered reference call.
 - **Founder-led service.** Pradeep Pandey, founder, has direct operations experience at Apollo Hospitals (Deputy GM, Operations) and an MBA from IIM Trichy. Service decisions go through him, not through a tier-3 support queue.
-- **CAH-specific design.** Excel roster onboarding, no IT integration required, 3-5 day go-live, Texas FLSA 8-and-80 compliance built in, CMS Â§485.635 audit trail logged automatically.
+- **CAH-specific design.** Excel roster onboarding, no IT integration required, 3-5 day go-live, Texas FLSA 8-and-80 compliance built in, CMS §485.635 audit trail logged automatically.
 
 SimpleScheduleAI is the right choice for a CAH where the nurse manager has concluded that the self-serve scheduling model takes more weekly time than her role can absorb, and where direct customer-reference validation matters more than aggregate vendor reviews.
 
@@ -245,7 +245,7 @@ This hybrid is technically possible but creates two systems of record for schedu
 
 Setup configuration that drifts out of date. Self-serve platforms work as well as the rules configured in them; if a regulatory rule changes or a unit-specific scheduling pattern shifts, the configuration needs maintenance. At facilities with no dedicated scheduling administrator, that maintenance work tends to slip, and the platform produces increasingly inaccurate output until someone catches it.
 
-[See how the managed service model works in practice â†’](/how-it-works)
+[See how the managed service model works in practice →](/how-it-works)
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

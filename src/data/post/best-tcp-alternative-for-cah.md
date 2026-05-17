@@ -134,7 +134,7 @@ The trade-off is the staff-facing experience: TCP TimeClock+ has a nurse-facing 
     <tbody>
       <tr class="bg-white dark:bg-slate-800">
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-900 dark:text-slate-100">Setup</td>
-        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager configures; timeline not published — contact TCP</td>
+        <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-slate-700 dark:text-slate-300">Nurse manager configures; timeline not published - contact TCP</td>
         <td class="border border-slate-300 dark:border-slate-600 px-4 py-2 text-green-700 dark:text-green-400">3-5 days (specialist configures)</td>
       </tr>
       <tr class="bg-slate-50 dark:bg-slate-700">
@@ -326,4 +326,4 @@ They serve different purposes. ShiftWizard is a general hospital scheduling plat
 
 ---
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service for Critical Access Hospitals in Texas. He writes about scheduling operations, CAH compliance, and workforce management for small hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service for Critical Access Hospitals in Texas. He writes about scheduling operations, CAH compliance, and workforce management for small hospitals._

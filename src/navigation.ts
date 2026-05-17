@@ -22,7 +22,7 @@ export const headerData = {
       text: 'Resources',
       links: [
         { text: 'Nurse Scheduling Software', href: getPermalink('/nurse-scheduling-software') },
-        { text: 'Healthcare Staff Scheduling', href: getPermalink('/healthcare-staff-scheduling') },
+        { text: 'AI Nurse Scheduling', href: getPermalink('/ai-nurse-scheduling') },
         { text: 'Critical Access Hospital Scheduling', href: getPermalink('/critical-access-hospital-scheduling') },
         { text: 'Blog', href: getBlogPermalink() },
       ],
@@ -45,7 +45,7 @@ export const footerData = {
       title: 'Resources',
       links: [
         { text: 'Nurse Scheduling Software', href: getPermalink('/nurse-scheduling-software') },
-        { text: 'Healthcare Staff Scheduling', href: getPermalink('/healthcare-staff-scheduling') },
+        { text: 'AI Nurse Scheduling', href: getPermalink('/ai-nurse-scheduling') },
         { text: 'CAH Scheduling Guide', href: getPermalink('/critical-access-hospital-scheduling') },
         { text: 'Blog', href: getBlogPermalink() },
       ],

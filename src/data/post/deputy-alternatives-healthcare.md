@@ -73,6 +73,7 @@ Hospitals move away from Deputy when clinical compliance requirements exceed its
 **App reliability in acute care settings.** For hospitals relying on Deputy to fill shift coverage gaps, app performance determines how quickly a callout can be resolved. One hospital nurse using Deputy noted:
 
 > "Sometimes the app can be a bit slow or glitchy, especially when trying to load shifts."
+>
 > Portia A., Nurse, Hospital & Health Care, April 8, 2026, Capterra
 
 In retail scheduling, a slow shift-loading experience is an inconvenience. In an acute care setting where an uncovered shift creates a patient safety exposure, the same delay becomes an operational risk.
@@ -439,5 +440,5 @@ At a 20-nurse roster, Deputy costs approximately $90 per month ($4.50 per user).
 
 Credential tracking enforcement, FLSA healthcare overtime configuration, CMS documentation, and charge nurse logic are not documented on Deputy's product page. Verify current capabilities with Deputy directly. For hospitals with clinical scheduling requirements, confirm whether Deputy's current feature set covers those needs before relying on it for compliance-sensitive scheduling.
 
-_Pradeep Pandey is the founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI, a managed nurse scheduling service built for Critical Access Hospitals in Texas. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

@@ -68,25 +68,25 @@ For a deeper look at the specific compliance and coverage requirements driving t
   <div class="flex items-center gap-3">
     <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Data entry &amp; versions</span>
     <div class="bg-blue-600 dark:bg-blue-500 rounded h-6 flex items-center px-3" style="width:100%">
-      <span class="text-xs font-semibold text-white whitespace-nowrap">3–4 hrs/week</span>
+      <span class="text-xs font-semibold text-white whitespace-nowrap">3-4 hrs/week</span>
     </div>
   </div>
   <div class="flex items-center gap-3">
     <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Callout coordination</span>
     <div class="bg-indigo-500 dark:bg-indigo-500 rounded h-6 flex items-center px-3" style="width:75%">
-      <span class="text-xs font-semibold text-white whitespace-nowrap">2–3 hrs/week</span>
+      <span class="text-xs font-semibold text-white whitespace-nowrap">2-3 hrs/week</span>
     </div>
   </div>
   <div class="flex items-center gap-3">
     <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">PRN reconciliation</span>
     <div class="bg-violet-500 dark:bg-violet-500 rounded h-6 flex items-center px-3" style="width:50%">
-      <span class="text-xs font-semibold text-white whitespace-nowrap">1–2 hrs/week</span>
+      <span class="text-xs font-semibold text-white whitespace-nowrap">1-2 hrs/week</span>
     </div>
   </div>
   <div class="flex items-center gap-3">
     <span class="text-xs text-slate-600 dark:text-slate-400 w-44 shrink-0">Edits &amp; conflict resolution</span>
     <div class="bg-purple-400 dark:bg-purple-400 rounded h-6 flex items-center px-3" style="width:50%">
-      <span class="text-xs font-semibold text-white whitespace-nowrap">1–2 hrs/week</span>
+      <span class="text-xs font-semibold text-white whitespace-nowrap">1-2 hrs/week</span>
     </div>
   </div>
   <p class="text-sm font-bold text-slate-800 dark:text-slate-200 pt-2 border-t border-slate-200 dark:border-slate-700">Total: ~10 hrs/week × $50/hr × 52 weeks = $26,000/year</p>
@@ -95,7 +95,7 @@ For a deeper look at the specific compliance and coverage requirements driving t
 > "I spend more time fighting with spreadsheets than I do with my actual nursing
 > team. It's exhausting."
 >
-> Nurse Manager, 25-bed Critical Access Hospital
+> Nurse Manager, 25-bed Critical Access Hospital, Texas (from our pre-build research interviews)
 
 ## Why Do Last-Minute Callouts Cost So Much More Than the Agency Invoice?
 
@@ -246,7 +246,7 @@ surface this during onboarding.
   </div>
   <div class="rounded-lg bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 p-4 text-center">
     <p class="font-bold text-green-800 dark:text-green-300 text-xs mb-1">Agency Callouts</p>
-    <p class="text-3xl font-extrabold text-green-700 dark:text-green-400">2–3x</p>
+    <p class="text-3xl font-extrabold text-green-700 dark:text-green-400">2-3x</p>
     <p class="text-xs text-green-600 dark:text-green-500 mt-1">standard hourly rate premium</p>
   </div>
   <div class="rounded-lg bg-orange-50 dark:bg-orange-950 border border-orange-200 dark:border-orange-800 p-4 text-center">
@@ -261,7 +261,7 @@ surface this during onboarding.
   </div>
   <div class="rounded-lg bg-rose-50 dark:bg-rose-950 border border-rose-200 dark:border-rose-800 p-4 text-center">
     <p class="font-bold text-rose-800 dark:text-rose-300 text-xs mb-1">PRN Overhead</p>
-    <p class="text-3xl font-extrabold text-rose-700 dark:text-rose-400">16–18</p>
+    <p class="text-3xl font-extrabold text-rose-700 dark:text-rose-400">16-18</p>
     <p class="text-xs text-rose-600 dark:text-rose-500 mt-1">extra hrs/year in availability mgmt</p>
   </div>
 </div>
@@ -314,5 +314,5 @@ hour manual coordination process with a prioritized list you can act on in minut
   <a href="/pilot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200">Apply for a Free 60-Day Pilot →</a>
 </div>
 
-_Pradeep Pandey is the founder of SimpleScheduleAI. He previously served as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
+_[Pradeep Pandey](/about/pradeep-pandey) is the co-founder of SimpleScheduleAI. He serves as Deputy General Manager of Operations at Apollo Hospitals and holds an MBA from IIM Trichy (Operations and Marketing). His work focuses on workforce optimization and scheduling operations for small and rural hospitals._
 [LinkedIn →](https://www.linkedin.com/in/pradeep-pandeyji/)

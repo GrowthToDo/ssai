@@ -73,7 +73,7 @@ Most CAHs use Microsoft Excel or Google Sheets for nurse scheduling. Some use de
 ---
 
 For nurse-specific scheduling tools, see our [nurse scheduling software guide](/nurse-scheduling-software).
-For more on how clinical scheduling works in practice at critical access hospitals, see: [Healthcare Staff Scheduling](/healthcare-staff-scheduling).
+For more on how clinical scheduling works in practice at critical access hospitals, see: [Critical Access Hospital Scheduling](/critical-access-hospital-scheduling).
 
 ---
 

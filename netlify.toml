@@ -44,6 +44,20 @@
   status = 301
   force = true
 
+# /healthcare-staff-scheduling pillar retired — consolidate equity into the nurse scheduling pillar
+[[redirects]]
+  from = "/healthcare-staff-scheduling"
+  to = "/nurse-scheduling-software"
+  status = 301
+  force = true
+
+# Old crawled non-/blog path for the scheduling-crisis post, 301 to the live post
+[[redirects]]
+  from = "/healthcare-scheduling-crisis-26000-administrative-burden"
+  to = "/blog/healthcare-scheduling-crisis"
+  status = 301
+  force = true
+
 # Catch-all: return true 404 status for unmatched URLs (prevents soft 404s)
 [[redirects]]
   from = "/*"
