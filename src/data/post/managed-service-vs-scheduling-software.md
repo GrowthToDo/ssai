@@ -340,7 +340,7 @@ The total nurse manager time investment per scheduling cycle is under two hours.
   <a href="/pilot" class="inline-block self-start rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors">Request a Free Scheduling Assessment</a>
 </div>
 
-For more context on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling), see our dedicated guides.
+For more context, see our guides on [nurse scheduling software](/nurse-scheduling-software) options for small hospitals, how [AI nurse scheduling](/ai-nurse-scheduling) works as a managed service, and the operational requirements that define [critical access hospital scheduling](/critical-access-hospital-scheduling).
 
 ## Frequently Asked Questions
 

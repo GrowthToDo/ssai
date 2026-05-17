@@ -488,5 +488,35 @@
     "id": "1460925895917-afdab827c52f",
     "description": "Laptop displaying data analytics dashboard on desk",
     "topics": ["scheduling software", "UKG", "complexity", "data", "healthcare IT"]
+  },
+  {
+    "id": "1688565631550-ff8aa569f71a",
+    "description": "Clinician in scrubs with stethoscope analyzing data on a monitor",
+    "topics": ["AI scheduling", "clinical data", "healthcare IT", "decision-making", "comparison"]
+  },
+  {
+    "id": "1666886573264-38075cc56104",
+    "description": "Multiracial doctors with modern gadgets examining an X-ray scan together",
+    "topics": ["clinical team", "healthcare technology", "AI in healthcare", "screen review", "comparison"]
+  },
+  {
+    "id": "1758574437877-68a1ec5fafc3",
+    "description": "Doctors reviewing X-rays on a backlit light board",
+    "topics": ["clinical team", "healthcare decision-making", "comparison", "hospital", "evaluation"]
+  },
+  {
+    "id": "1691934310598-27528df21f9c",
+    "description": "Healthcare worker at a desk using a computer in an office setting",
+    "topics": ["nurse manager", "scheduling software", "admin", "healthcare IT", "managed service"]
+  },
+  {
+    "id": "1526628953301-3e589a6a8b74",
+    "description": "Active patient-monitoring screen displaying clinical data",
+    "topics": ["healthcare data dashboard", "monitoring", "clinical", "software", "analytics"]
+  },
+  {
+    "id": "1666214280391-8ff5bd3c0bf0",
+    "description": "Team of clinicians looking at a computer screen together",
+    "topics": ["clinical team", "screen review", "healthcare decision-making", "evaluation", "comparison"]
   }
 ]
