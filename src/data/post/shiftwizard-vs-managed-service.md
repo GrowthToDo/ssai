@@ -50,7 +50,7 @@ ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, 
 
 ShiftWizard is a self-serve hospital scheduling platform owned by HealthStream, Inc. (NASDAQ: HSTM). It holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews), with over 88% of Capterra reviews rating 4 stars or higher. G2's overall summary describes ShiftWizard as a tool users praise for ease of use and intuitive scheduling, and ShiftWizard has been named a G2 Spring 2026 Leader.
 
-ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
+ShiftWizard is built for hospital scheduling and covers shift assignment, self-scheduling, shift swaps, manager and staff mobile apps, credential management, overtime tracking, and onboarding support ([healthstream.com](https://www.healthstream.com)).
 
 The defining characteristic of the platform from an operating-model standpoint: it is self-serve. The vendor provides software, training, and onboarding support; your team configures the system, builds schedules, and operates the platform week to week. The schedule does not generate itself; the nurse manager (or a scheduling coordinator at facilities that have one) is the operator.
 

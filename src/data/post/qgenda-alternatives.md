@@ -241,7 +241,7 @@ Ask the vendor for current named support contacts, response-time SLA, and a rece
 
 <img src="/images/blog/qgenda-alternatives/Shiftwizard.png" alt="ShiftWizard hospital nurse scheduling platform by HealthStream" width="1200" height="630" loading="lazy" class="rounded-lg border border-slate-200 my-4" />
 
-ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is a hospital scheduling platform owned by HealthStream, Inc. (acquired), designed specifically for hospital nursing scheduling and used by more than 500 hospital facilities ([healthstream.com/shiftwizard](https://www.healthstream.com/shiftwizard)).
+ShiftWizard holds 4.3/5 on G2 and 4.4/5 on Capterra (723 reviews) and was named a G2 Spring 2026 Leader. It is a hospital scheduling platform owned by HealthStream, Inc. (acquired), designed specifically for hospital nursing scheduling and used by more than 500 hospital facilities ([healthstream.com](https://www.healthstream.com)).
 
 A representative positive review:
 
