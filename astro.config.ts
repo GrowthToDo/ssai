@@ -34,7 +34,11 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap({
-      filter: (page) => !page.includes('/tag/') && !page.includes('/ask') && !page.includes('/simulator'),
+      filter: (page) =>
+        !page.includes('/tag/') &&
+        !page.includes('/category/') &&
+        !page.includes('/ask') &&
+        !page.includes('/simulator'),
     }),
     mdx(),
     svelte(),
