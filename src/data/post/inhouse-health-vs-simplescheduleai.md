@@ -1,6 +1,6 @@
 ---
-draft: true
-publishDate: 2026-05-22T00:00:00Z
+draft: false
+publishDate: 2026-05-17T00:00:00Z
 updateDate: 2026-05-17T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'In-House Health vs. SimpleScheduleAI for Critical Access'
@@ -49,7 +49,7 @@ Both products use AI to build nurse schedules, so they show up in the same searc
 
 In-House Health is software a hospital licenses and runs itself: a nurse leader configures it, feeds it data, and operates the AI scheduling workflow. SimpleScheduleAI is a managed service: the vendor builds the schedule and maintains compliance documentation, and the nurse manager reviews and approves the output. The first sells a platform. The second sells the finished scheduling work.
 
-That difference decides who does the labor. With a self-operated AI platform, the AI accelerates the work, but a person inside the hospital still owns configuration, data hygiene, exception handling, and audit documentation as staff turn over. That person needs time and some technical comfort. At a 25-bed Critical Access Hospital, the [CMS Conditions of Participation for CAHs](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-485/subpart-F) require a specific staffing and documentation discipline, and the nurse manager who would own a platform is often also covering clinical shifts. A managed service moves that operating burden to the vendor. The hospital approves rather than administers. Neither model is universally better. The right one depends on whether your facility has the bandwidth to run a platform. For more on how an algorithm-driven approach changes the day-to-day work, see our breakdown of [AI nurse scheduling versus traditional methods](/blog/ai-nurse-scheduling-vs-traditional).
+That difference decides who does the labor. With a self-operated AI platform, the AI accelerates the work, but a person inside the hospital still owns configuration, data hygiene, exception handling, and audit documentation as staff turn over. That person needs time and some technical comfort. At a 25-bed Critical Access Hospital, the [CMS Conditions of Participation for CAHs](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-485/subpart-F) require a specific staffing and documentation discipline, and the nurse manager who would own a platform is often also covering clinical shifts. A managed service moves that operating burden to the vendor. The hospital approves rather than administers. Neither model is universally better. The right one depends on whether your facility has the bandwidth to run a platform. For more on how an algorithm-driven approach changes the day-to-day work, see our guide to [how AI nurse scheduling works](/ai-nurse-scheduling).
 
 ## What Is In-House Health?
 
