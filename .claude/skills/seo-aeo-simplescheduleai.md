@@ -8,7 +8,7 @@ description: >
 product: SimpleScheduleAI
 target_audience: CAH Administrators, Hospital CEOs, Nurse Managers, Directors of Nursing (DONs)
 primary_market: Critical Access Hospitals (≤25 beds), Texas, United States
-last_updated: 2026-03
+last_updated: 2026-05-17
 ---
 
 # SEO & GEO/AEO Skill — SimpleScheduleAI
@@ -22,6 +22,29 @@ fairness-optimized / cost-optimized), ranked callout replacement shortlists,
 audit trail logging, and Texas-specific overtime compliance. Decision-makers are
 **CAH Administrators / Hospital CEOs** and **Nurse Managers / Directors of
 Nursing (DONs)**.
+
+---
+
+## PART 0 — 2026 RECALIBRATION (READ FIRST; OVERRIDES ANY CONFLICTING CLAIM BELOW)
+
+Source: Google's official AI optimization guide (developers.google.com/search/docs/fundamentals/ai-optimization-guide), reviewed 2026-05-17. Where anything later in this skill conflicts with Part 0, Part 0 wins.
+
+**Hard facts (Google, verbatim intent):**
+
+- Structured data is NOT required for generative AI search; there is no special schema.org markup for AI features. Eligibility for AI features = a normal indexed page eligible for a snippet.
+- Explicitly NOT needed / counterproductive: llms.txt and other "special" markup; content "chunking"; rewriting content for AI (AI understands synonyms); over-focusing on structured data; seeking inauthentic mentions.
+- Per-query content variations / pages generated for every query fan-out VIOLATE Google's scaled-content-abuse policy.
+- FAQ rich results were restricted to government/health authority sites in 2023. HowTo rich results were removed by Google in 2023. Do NOT add HowTo schema; do NOT pursue FAQ markup for a rich result.
+
+**Cross-LLM reality:** ChatGPT, Perplexity, Claude, Gemini, and Copilot do not follow Google's rules, but evidence shows they reward the SAME fundamentals and there is no evidence they reward schema tricks. They lean on the Bing index (ChatGPT Search, Copilot) + visible, sourced text + entity signals. Keep Bing Webmaster + IndexNow current, not just GSC. llms.txt is optional-harmless, never treated as a lever.
+
+**SUPERSEDED in this skill (ignore as ranking/citation levers):** "schema stacking = 1.8x / 2.3x / 36% citations"; "pages without schema risk 60% AI visibility loss"; FAQPage/HowTo as a rich-result strategy; llms.txt as a ranking signal; the per-engine "do X to win engine Y" tables framed as hacks; "rewrite/chunk content for AI." Keep these only as background, not instructions.
+
+**KEEP and REFRAME (still valid as good practice, not tricks):** one H1 with the primary keyword; unique, non-commodity, people-first content with a genuine CAH point of view (do not recycle commodity content); answer-first concise sections under clear question headings — this is simply good writing that humans and every LLM extract, NOT a "capsule citation multiplier"; every statistic/claim hyperlinked to a primary source (E-E-A-T, and what Perplexity/Claude reward); entity/brand consistency (Organization, sameAs, consistent NAP, authoritative mentions); internal linking to pillar pages; freshness/`dateModified`; only the still-supported schema types — Article/BlogPosting, BreadcrumbList, Organization, Product — which the Astro layout auto-generates (do NOT hand-add or stack JSON-LD); robots.txt allowing all AI crawlers; and the full tone rules (no em-dashes, no AI-tone) + the pre-publish checklist, which remain in force.
+
+**pSEO guardrail (now a Google policy line, not optional):** any programmatic surface must carry >=40% unique CAH-specific prose, noindex sub-threshold variants, and a capped seed set. Per-query thin variants are scaled-content-abuse.
+
+**Net:** win on content depth, topical authority, internal links, real backlinks/distribution, brand search, site speed, and presence in BOTH Google and Bing indexes. Not on schema or AEO ornamentation. Do not spend effort on low-leverage SEO-tool hygiene (e.g., mass meta-description rewrites) that does not move rankings or AI citations.
 
 ---
 

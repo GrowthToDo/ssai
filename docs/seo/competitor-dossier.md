@@ -378,6 +378,63 @@ not CAH-specific CMS §485.635. Ask for hospital-acute reference customers speci
 
 ---
 
+## symplr Smart Square
+
+**Product:** AI-driven nurse and staff scheduling platform for health systems. Predictive analytics, real-time staffing adjustments, patented open-shift management, nurse competency integration, and time/attendance via the companion symplr Workforce product. Formerly Avantas Smart Square; acquired by symplr from AMN Healthcare on July 2, 2025 for $75M ($65M at close plus a $10M note due end of 2026). Two-time Best in KLAS for Scheduling: Nurse and Staff (2025 and 2026).
+
+**Ratings (verified 2026-05-17):**
+
+- G2: Listed under the symplr seller profile; symplr brand aggregate 4.3/5 (356 reviews) across all symplr products. No standalone Smart Square G2 star rating and count retrievable this pass (G2 blocks automated fetch; flagged for manual re-check at g2.com/products/symplr-smart-square/reviews before any G2 figure is cited).
+- Capterra (Smart Square): 4.6/5 (19 reviews)
+- Capterra (symplr Workforce, separate listing): 4.1/5 (13 reviews)
+- TrustRadius: No standalone listing surfaced (verified 2026-05-17)
+- Gartner Peer Insights: symplr Workforce listing exists; no usable verbatim quotes retrieved this pass
+- KLAS Research: Profile exists; KLAS comments are subscriber-gated and not citable verbatim
+
+**Capterra URL, Smart Square (verified 2026-05-17):** https://www.capterra.com/p/275941/Smart-Square/reviews/
+
+**Capterra URL, symplr Workforce (verified 2026-05-17):** https://www.capterra.com/p/241148/symplr-Workforce/reviews/
+
+**Important caveat:** Smart Square Capterra reviews skew heavily to large health-system roles (System Administrator, Labor Management Analyst, Director of Labor Management, COO) and the bulk of the 19 reviews are dated November 2022. No CAH, rural, or 25-bed-or-fewer reference reviews exist. Product page does not document CMS §485.635 CAH audit-trail or single-CAH deployment fit. Verify any small or rural capability directly with vendor.
+
+### Verified Reviewer Quotes
+
+**Positive, Empowers Staff (hospital RN):**
+
+> "SmartSquare stands out as an exceptional tool that empowers employees."
+>
+> Hanna N., RN, Hospital & Health Care, July 15, 2024, Capterra _(verified 2026-05-17)_
+
+**Positive, Cross-Unit Visibility (hospital director):**
+
+> "You can see staff on all units in real time so you are able to balance resources."
+>
+> Wanda C., Director, Hospital & Health Care, November 10, 2022, Capterra _(verified 2026-05-17)_
+
+**Negative, Learning Curve (hospital system admin):**
+
+> "Learning SS was a challenge being as though it is a robust software."
+>
+> Stephanie T., System Administrator, Hospital & Health Care, November 23, 2022, Capterra _(verified 2026-05-17)_
+
+**Negative, symplr Workforce Reliability (hospital RN):**
+
+> "Doesn't work when needed. Most of the nurses at the hospital put their schedule in."
+>
+> Elisabeth C., RN, Medical Practice, May 7, 2018, Capterra _(verified 2026-05-17; symplr Workforce listing, p/241148)_
+
+**Product positioning (from symplr.com and acquisition press, verified 2026-05-17):**
+
+- Positioned as "AI-driven workforce optimization for health systems"; symplr states it is "trusted in 9 of 10 U.S. hospitals and 400+ U.S. health plans"
+- "cloud-based SaaS workforce management solution with AI-driven scheduling capabilities such as predictive analytics, real-time staffing adjustments, open-shift management and nurse competency integration" (acquisition press release, exact phrasing)
+- Vendor stat claims (exact phrasing): "forecast patient volume up to 120 days in advance"; capabilities "reduce time spent on staffing and timecard-related tasks by about 50%" and "free up as much as 75% of payroll team capacity"; a secondary "96% accuracy" forecasting figure appears only in aggregated third-party coverage and must be re-verified on symplr.com before being cited verbatim
+- Two-time Best in KLAS: Scheduling: Nurse and Staff (2025; 2026, announced Feb 4, 2026)
+- Pricing: not publicly published; enterprise quote-based via symplr sales
+
+**CAH/rural fit:** Explicitly enterprise and health-system oriented. Positioning ("across the enterprise," "9 of 10 U.S. hospitals," "health systems"), reviewer roles (Labor Management Analysts, System Administrators, Director of Labor Management, COO), and the symplr Operations Platform context all point to large multi-facility systems, not standalone 25-bed-or-fewer Critical Access Hospitals. No documented CAH, rural, or small-hospital reference customers. High brand search volume (~74k/mo) reflects enterprise market penetration, not small-rural suitability. Per checklist L66, evaluative claims about CAH fit must use neutral product-page framing; do not assert CAH unsuitability without a verbatim source, frame factually as enterprise/health-system positioned with no documented CAH references.
+
+---
+
 ## TCP TimeClock+
 
 **Product:** Time and attendance platform with scheduling features built in. Separate from
@@ -464,9 +521,10 @@ The following appear in posts but have no verified quotes collected yet. Go onli
 
 ## Maintenance Log
 
-| Date       | Action                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-04-30 | Initial quotes sourced from Capterra/G2 for all published alternatives posts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 2026-05-15 | Verified verbatim: Melissa R. (ShiftWizard), Carol G. + Daniel C. (SmartLinx), Amber B. + Angela P. (Homebase), Portia A. + Julie B. + Jackie D. (Deputy). Corrected Capterra product IDs for ShiftWizard (178376), SmartLinx (154002), Homebase (153076), Deputy (167811).                                                                                                                                                                                                                                                                                   |
-| 2026-05-16 | Added In-House Health and M7 Health sections (VC-funded AI nurse-scheduling startups). In-House Health: no G2 listing, no Capterra listing, zero third-party reviews (verified 2026-05-16). M7 Health: Capterra listing confirmed (product ID 10037829) but 0.0/5 with 0 reviews, no accessible G2 listing, zero third-party reviews (verified 2026-05-16). Both: no usable verbatim quotes, neutral product-page framing required per checklist L66. Positioning and vendor stat claims captured verbatim from own sites and public press.                   |
-| 2026-05-16 | Secondary source pass (beyond G2/Capterra) for In-House Health + M7. Checked Software Advice, GetApp, Gartner Peer Insights, Apple App Store, Google Play, Reddit, LinkedIn, Product Hunt. In-House Health: iOS/Android apps exist (rating not retrievable, flagged for re-check); named PR quote (Kerridge, Chicago VA, via Fierce). M7: no consumer app; named partnership-PR quotes (Trainor/Ochsner, Jay/ScionHealth) on customer newsrooms. No independent third-party reviews found anywhere. Neutral product-page framing confirmed to stand for both. |
+| Date       | Action                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-04-30 | Initial quotes sourced from Capterra/G2 for all published alternatives posts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 2026-05-15 | Verified verbatim: Melissa R. (ShiftWizard), Carol G. + Daniel C. (SmartLinx), Amber B. + Angela P. (Homebase), Portia A. + Julie B. + Jackie D. (Deputy). Corrected Capterra product IDs for ShiftWizard (178376), SmartLinx (154002), Homebase (153076), Deputy (167811).                                                                                                                                                                                                                                                                                                         |
+| 2026-05-16 | Added In-House Health and M7 Health sections (VC-funded AI nurse-scheduling startups). In-House Health: no G2 listing, no Capterra listing, zero third-party reviews (verified 2026-05-16). M7 Health: Capterra listing confirmed (product ID 10037829) but 0.0/5 with 0 reviews, no accessible G2 listing, zero third-party reviews (verified 2026-05-16). Both: no usable verbatim quotes, neutral product-page framing required per checklist L66. Positioning and vendor stat claims captured verbatim from own sites and public press.                                         |
+| 2026-05-16 | Secondary source pass (beyond G2/Capterra) for In-House Health + M7. Checked Software Advice, GetApp, Gartner Peer Insights, Apple App Store, Google Play, Reddit, LinkedIn, Product Hunt. In-House Health: iOS/Android apps exist (rating not retrievable, flagged for re-check); named PR quote (Kerridge, Chicago VA, via Fierce). M7: no consumer app; named partnership-PR quotes (Trainor/Ochsner, Jay/ScionHealth) on customer newsrooms. No independent third-party reviews found anywhere. Neutral product-page framing confirmed to stand for both.                       |
+| 2026-05-17 | Added symplr Smart Square section (formerly Avantas Smart Square; acquired by symplr from AMN Healthcare 2025-07-02, $75M). Verified verbatim: Hanna N., Wanda C., Stephanie T. (Smart Square, Capterra p/275941, 4.6/5, 19 reviews); Elisabeth C. (symplr Workforce, Capterra p/241148, 4.1/5, 13 reviews). G2 standalone Smart Square rating not retrievable (G2 blocks automated fetch); symplr brand aggregate 4.3/5 (356) noted, flagged for manual re-check. KLAS profile subscriber-gated. No CAH/rural reference customers; neutral product-page framing per checklist L66. |
