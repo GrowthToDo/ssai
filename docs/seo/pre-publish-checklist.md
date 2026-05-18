@@ -1,11 +1,22 @@
 # Pre-Publish Checklist — SimpleScheduleAI Blog & Pages
 
-Run this before publishing any new page or blog post. Every item must be ✅.
+Run this before publishing any new page or blog post.
+
+## Part 0 Reconciliation (read first — overrides any conflicting item below)
+
+This checklist predates Google's AI optimization guidance. See the skill's PART 0. Where an item below conflicts with this block, this block wins.
+
+- **Guidelines, NOT publish gates** (quality heuristics; never block a publish on these): title 50-60 chars, meta/excerpt length, "every H2 is a question", the 40-70-word answer capsule, 120-180-word sections, one-stat-per-150-200-words. Google does not treat these as ranking or AI-citation levers. The full "Critical Access Hospitals" title is intentionally allowed to exceed 60.
+- **Superseded mechanics** (keep the writing, drop the reasoning): any "for maximum ChatGPT citation probability", "AI citation penalty", "schema stacking", or rich-result framing. Write answer-first, well-structured, sourced prose because it is good for readers and extraction, not for a citation multiplier.
+- **Schema:** the Astro layout auto-generates the only supported types (Article/BlogPosting, BreadcrumbList, FAQPage). Do NOT hand-add or stack JSON-LD. FAQ and HowTo rich results were restricted/removed by Google in 2023 — never chase them; schema only needs to be error-free, it is not a publish gate.
+- **llms.txt:** optional-harmless, never a gate or a lever.
+- **Hard gates that DO block publish:** no em-dashes/en-dashes; no AI-tone phrases; both pillar links + `/how-it-works`; every stat hyperlinked to a primary source; all competitor-content + comparison-table integrity rules; image load/relevance/uniqueness/no-quotes; dark-mode table variants; Key Takeaways/excerpt match body; no inline `<svg>`; no leaked tags; `npm run build` passes; robots allows AI crawlers; no PHI/HIPAA issues.
+- **After publishing:** deploy + `npm run indexnow` feeds Bing/IndexNow (ChatGPT Search and Copilot lean on Bing), plus GSC request-indexing and the monthly AI-citation log.
 
 ## Content
 
 - [ ] Unique title tag (50–60 chars) containing primary keyword
-- [ ] Unique meta description (140–160 chars) with benefit + audience signal
+- [ ] Unique, useful meta description/excerpt (length is NOT a ranking factor; guideline only, never block publish on it — see Part 0 Reconciliation)
 - [ ] One H1 per page containing primary keyword
 - [ ] **Title/H1 never uses "CAH" abbreviation** — always spell out "Critical Access Hospital(s)" for SEO
 - [ ] **Title/H1 audience matches content audience** — if the post is specifically about CAHs (mentions CMS §485.635, 25-bed scale, CAH designation), the title must say "Critical Access Hospital(s)", not "Small Hospitals" or "Small Hospital"
@@ -13,7 +24,7 @@ Run this before publishing any new page or blog post. Every item must be ✅.
 - [ ] Primary keyword appears in first 100 words of body text
 - [ ] All H2/H3 headings phrased as questions
 - [ ] Every H2/H3 has a 40–70 word direct answer capsule immediately below it
-- [ ] Sections are 120–180 words for maximum ChatGPT citation probability
+- [ ] Sections are substantive (about 120–180 words is a thoroughness heuristic, NOT a citation lever — see Part 0 Reconciliation)
 - [ ] One stat or data point per 150–200 words
 - [ ] Every stat/regulatory claim hyperlinks to a primary source (CMS, HRSA, Texas DSHS, ANA)
 - [ ] FAQ section present (product/landing/blog pages) — minimum 3 Q&As
@@ -118,11 +129,11 @@ _These apply whenever the filename matches the pattern `[tool]-alternatives.md`.
 - [ ] `dateModified` in BlogPosting schema reflects today's actual publish/update date
 - [ ] Canonical tag points to the correct final URL
 - [ ] Page added to `public/sitemap.xml` (or will auto-generate on build)
-- [ ] Schema validated at https://search.google.com/test/rich-results ✅
+- [ ] Auto-generated schema (Article/BlogPosting + BreadcrumbList) is error-free if spot-checked; do NOT hand-add/stack JSON-LD or chase FAQ/HowTo rich results (restricted/removed by Google 2023); not a publish gate (see Part 0 Reconciliation)
 
 ## AEO / GEO
 
-- [ ] `public/llms.txt` updated if this adds a new feature, page, or pricing change
+- [ ] `public/llms.txt`: optional-harmless, not a gate or ranking lever (update only if trivially relevant — see Part 0 Reconciliation)
 - [ ] `public/robots.txt` still allows all AI crawlers (no accidental blocks added)
 - [ ] No PHI-capturing forms or HIPAA-violating tracking code introduced
 - [ ] Build passes locally: `npm run build` completes without errors
@@ -130,6 +141,7 @@ _These apply whenever the filename matches the pattern `[tool]-alternatives.md`.
 ## After Publishing
 
 - [ ] Submit URL to Google Search Console → URL Inspection → Request Indexing
+- [ ] After deploy, run `npm run indexnow` to feed Bing/IndexNow (ChatGPT Search and Copilot lean on the Bing index)
 - [ ] Query the page's target keyword in Perplexity and ChatGPT to baseline AI visibility
 - [ ] Add to AEO tracking spreadsheet (monthly check schedule)
 - [ ] Post excerpt + link on LinkedIn company page
