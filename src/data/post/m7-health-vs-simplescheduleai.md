@@ -9,7 +9,7 @@ excerpt: >
   systems with IT and dedicated scheduling staff. SimpleScheduleAI is a fully managed scheduling
   service built for the single Critical Access Hospital with no IT department. This guide compares
   both honestly so a 25-bed hospital can pick the right model.
-image: https://images.unsplash.com/photo-1666886573264-38075cc56104?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: /images/blog/m7-health.png
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
@@ -25,7 +25,7 @@ metadata:
 
 - M7 Health describes itself on its [product page](https://www.m7health.com/) as nurse scheduling and labor optimization for health systems. Its named reference customers are Ochsner Health (a 47-hospital system) and ScionHealth (a multi-hospital company). It is built for large organizations that run it with their own IT and scheduling staff.
 - SimpleScheduleAI is a fully managed scheduling service built for the single Critical Access Hospital of 25 beds or fewer, with no IT department, no dedicated scheduler, and Texas compliance requirements.
-- M7 Health publishes its own figures (for example, more than 60% less administrative scheduling time) for large health-system deployments. These are vendor figures, not independent results, so confirm them against a facility your size before relying on them.
+- M7 Health claims more than 60% less administrative scheduling time at large health-system deployments. These are the vendor's own figures, not independent results. Confirm them against a comparable facility before relying on them.
 - M7 Health has a Capterra listing with no user reviews, and no G2 listing was accessible. There are no independent third-party reviews of M7 Health to evaluate.
 - For a standalone 25-bed Critical Access Hospital, the deciding factor is not feature depth. It is whether the hospital has the IT and scheduling staff that software you run yourself assumes. Most do not.
 
@@ -75,13 +75,13 @@ Software you run yourself fits an organization that has people to run it. A larg
 
 ## Who Is M7 Health Best For?
 
-M7 Health is best for large health systems and multi-hospital organizations that have IT teams, scheduling coordinators, and the internal capacity to run workforce software themselves. As covered in [What Is M7 Health?](#what-is-m7-health), its positioning and its named deployments at Ochsner Health and ScionHealth make this audience explicit.
+M7 Health is best for large health systems and multi-hospital organizations that have IT teams, scheduling coordinators, and the internal capacity to run workforce software themselves.
 
 This is a fair assessment, not a dismissal. A 47-hospital system like Ochsner has problems a standalone hospital does not: standardizing scheduling rules across dozens of facilities, controlling premium labor cost at scale, and rolling a single platform out to thousands of staff. That is the scale M7 is built and funded to serve. For a company with a workforce management office and IT integration staff, software you run yourself is the correct model. The same strength that makes M7 a good fit for a 47-hospital system is exactly the reason it is the wrong fit for one 25-bed hospital with no IT department.
 
 ## Who Is SimpleScheduleAI Best For?
 
-SimpleScheduleAI is best for a single Critical Access Hospital of 25 beds or fewer, in Texas, where the nurse manager also takes clinical shifts, there is no IT department, and there is no dedicated scheduler. The product is described in full under [What Is SimpleScheduleAI?](#what-is-simplescheduleai); the point here is fit, not a feature list.
+SimpleScheduleAI is best for a single Critical Access Hospital of 25 beds or fewer, in Texas, where the nurse manager also takes clinical shifts, there is no IT department, and there is no dedicated scheduler.
 
 At that scale, the nurse manager is on the floor. She does not have eight hours a week to run scheduling software, and the hospital has no IT staff to configure it. The managed model fits that reality because the hospital reviews finished schedules instead of operating a platform. [HRSA rural health workforce data](https://www.hrsa.gov/rural-health) and [AONL nursing leadership research](https://www.aonl.org/resources/nursing-leadership-research) both document that small rural facilities run without the administrative depth larger systems take for granted, which is exactly the gap a managed service is built to close. If your hospital has the IT and scheduling staff to operate enterprise software, SimpleScheduleAI is not the right fit, and software you run yourself may serve you better.
 
@@ -162,7 +162,7 @@ The honest comparison is not feature by feature. It is model against model. M7 H
 
 Software a hospital runs itself assumes resources a Critical Access Hospital does not have: an IT department to integrate it, a scheduling coordinator to operate it, and a workforce office to maintain its rules. A 25-bed hospital has none of these. The product is not weak. It is built for an organization that is structurally different from a single small hospital.
 
-This is the same pattern across the category, and it is the central reason a managed model exists. M7 Health is positioned for systems like Ochsner, where 47 hospitals share one workforce management function, as detailed in [What Is M7 Health?](#what-is-m7-health). A standalone CAH has one nurse manager who also takes shifts and no equivalent workforce function. When software designed for enterprise administrative depth lands at a hospital without it, configuration drifts, the manager stops maintaining it, and scheduling slides back to spreadsheets. The deciding factor for a CAH is not which platform has more features. It is whether the hospital can staff the model the product assumes.
+This is the same pattern across the category, and it is the central reason a managed model exists. M7 Health is built for systems like Ochsner, where 47 hospitals share one workforce management function. A standalone CAH has one nurse manager who also takes shifts and no equivalent back-office layer. When software designed for enterprise administrative depth lands at a hospital without it, configuration drifts, the manager stops maintaining it, and scheduling slides back to spreadsheets. The deciding factor for a CAH is not which platform has more features. It is whether the hospital can staff the model the product assumes.
 
 <div class="not-prose my-8 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-6">
   <p class="text-center text-sm font-bold text-slate-900 dark:text-slate-100 mb-1">Match the Model to the Facility</p>
@@ -211,11 +211,7 @@ For more context, see how [AI nurse scheduling](/ai-nurse-scheduling) works as a
 
 ## A Note on Sources
 
-All M7 Health details in this post, including its positioning, named enterprise customers, and published metrics, come only from M7's own website and public press, verified 2026-05-16. M7's published figures, such as the statement that it reduced administrative scheduling time by more than 60 percent, are M7 vendor marketing claims describing large health-system deployments. They are not independently verified results and not managed-service outcomes, and they are labeled as vendor claims wherever they appear above.
-
-M7 Health has a Capterra listing that currently shows no user reviews, and no accessible G2 listing was found as of 2026-05-16. There are no independent third-party reviews of M7 Health on Capterra, G2, TrustRadius, Software Advice, GetApp, or Gartner Peer Insights to evaluate. Because no independent reviews exist, this post uses neutral product-page framing for every M7 evaluative point. Where M7's product page does not explicitly document a capability, the post says "not documented on the product page" rather than asserting absence.
-
-The Ochsner Health and ScionHealth statements are partnership-announcement PR published on those customers' own newsrooms. They are cited here only as evidence that M7 is deployed across large multi-hospital systems, which is a factual point of differentiation, and never as product reviews or satisfaction evidence.
+All M7 Health details come only from M7's own website and public press, verified 2026-05-16. Figures such as more than 60% less administrative scheduling time are M7 vendor claims for large health-system deployments, not independently verified results. M7 has no user reviews on Capterra, G2, TrustRadius, Software Advice, GetApp, or Gartner Peer Insights; this post uses neutral product-page framing throughout, and says "not documented on the product page" where a capability is not explicitly stated. The Ochsner Health and ScionHealth statements are partnership PR cited only as evidence of enterprise deployment scale, not as product reviews.
 
 ## Frequently Asked Questions
 
