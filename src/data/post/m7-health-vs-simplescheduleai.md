@@ -9,7 +9,7 @@ excerpt: >
   systems with IT and dedicated scheduling staff. SimpleScheduleAI is a fully managed scheduling
   service built for the single Critical Access Hospital with no IT department. This guide compares
   both honestly so a 25-bed hospital can pick the right model.
-image: /images/blog/m7-health.png
+image: https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
