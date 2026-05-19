@@ -8,7 +8,7 @@ excerpt: >
   In-House Health is an AI scheduling platform the hospital operates itself, positioned for larger
   nursing teams in bigger hospitals. SimpleScheduleAI is a fully managed scheduling service built
   for Texas Critical Access Hospitals with no IT department.
-image: https://images.unsplash.com/photo-1688565631550-ff8aa569f71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1623438787437-7bcc5637efeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - inhouse-health
@@ -40,6 +40,7 @@ metadata:
 - [What Happens When a Nurse Calls Out at 5:30 a.m.?](#what-happens-when-a-nurse-calls-out-at-530-am)
 - [How Does SimpleScheduleAI Compare to In-House Health?](#how-does-simplescheduleai-compare-to-in-house-health)
 - [What Does This Mean for a 25-Bed Hospital Specifically?](#what-does-this-mean-for-a-25-bed-hospital-specifically)
+- [How Should a Critical Access Hospital Evaluate a Scheduling Vendor?](#how-should-a-critical-access-hospital-evaluate-a-scheduling-vendor)
 - [What to Do This Week](#what-to-do-this-week)
 - [A Note on Sources](#a-note-on-sources)
 - [Frequently Asked Questions](#frequently-asked-questions)
@@ -190,6 +191,22 @@ This is a structural reality at the CAH scale, not a product flaw. Critical Acce
   </ul>
   <p class="mt-4 text-xs text-slate-500 dark:text-slate-400">Framing reflects each vendor's documented positioning and CMS bed-size definition for Critical Access Hospitals; it is not a performance ranking.</p>
 </div>
+
+## How Should a Critical Access Hospital Evaluate a Scheduling Vendor?
+
+A Critical Access Hospital should evaluate a scheduling vendor on operating model fit, not feature count: who runs the system day to day, who owns compliance documentation, and what staff the product assumes the hospital already has. A longer feature list does not help if no one at the hospital has time to operate the tool that produces it.
+
+Use the same four questions with every vendor, In-House Health, SimpleScheduleAI, or any other. They cut through a demo faster than a feature comparison.
+
+First, who builds and maintains the schedule each week, hospital staff or the vendor? This single answer separates a platform you operate from a service that operates for you, and it decides where the weekly hours land. At a 25-bed hospital where the nurse manager also takes clinical shifts, those hours are scarce.
+
+Second, what does the hospital have to configure or connect before go-live, and who does that work? For a seed-stage platform without a published small-hospital onboarding path, get this in writing. If the realistic owner is a nurse manager with no IT support, that changes the calculus regardless of how capable the AI is.
+
+Third, how is [CMS §485.635](https://www.ecfr.gov/current/title-42/section-485.635) documentation produced and kept current, and what happens to it as staff turn over? Ask each vendor to show a sample of the exact records a surveyor would see, not a description of them.
+
+Fourth, can the vendor name a reference customer that matches your facility: a single Critical Access Hospital at 25 beds or fewer with no dedicated scheduler? Positioning aimed at larger nursing teams does not predict behavior at a 25-bed hospital. The staffing context is the variable that decides fit.
+
+Write the answers down before any demo. A demo shows what the software can do. These four questions show who at your hospital has to do it, which is what actually determines whether the model fits.
 
 ## What to Do This Week
 

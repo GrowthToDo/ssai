@@ -9,7 +9,7 @@ excerpt: >
   systems with IT and dedicated scheduling staff. SimpleScheduleAI is a fully managed scheduling
   service built for the single Critical Access Hospital with no IT department. This guide compares
   both honestly so a 25-bed hospital can pick the right model.
-image: https://images.unsplash.com/photo-1551592357-ca22ce69bf45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1581595219315-a187dd40c322?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
 category: Healthcare Operations
 tags:
   - nurse-scheduling-software
@@ -41,6 +41,7 @@ metadata:
 - [What Happens When a Nurse Calls Out at 5:30 a.m.?](#what-happens-when-a-nurse-calls-out-at-530-am)
 - [How Does SimpleScheduleAI Compare to M7 Health?](#how-does-simplescheduleai-compare-to-m7-health)
 - [Why Does Enterprise Scheduling Software Struggle at a Critical Access Hospital?](#why-does-enterprise-scheduling-software-struggle-at-a-critical-access-hospital)
+- [How Should a Critical Access Hospital Evaluate a Scheduling Vendor?](#how-should-a-critical-access-hospital-evaluate-a-scheduling-vendor)
 - [What to Do This Week](#what-to-do-this-week)
 - [A Note on Sources](#a-note-on-sources)
 - [Frequently Asked Questions](#frequently-asked-questions)
@@ -214,6 +215,22 @@ This is the same pattern across the category, and it is the central reason a man
     </div>
   </div>
 </div>
+
+## How Should a Critical Access Hospital Evaluate a Scheduling Vendor?
+
+A Critical Access Hospital should evaluate a scheduling vendor on operating model fit, not feature count: who runs the system day to day, who owns compliance documentation, and what staff the product assumes the hospital already has. The product with the longest feature list is not the right one if no one at the hospital has time to operate it.
+
+Use the same four questions with every vendor, M7 Health, SimpleScheduleAI, or any other. They cut through demos faster than a feature matrix.
+
+First, who builds and maintains the schedule each week, hospital staff or the vendor? This one answer separates software you run yourself from a service that runs scheduling for you, and it decides where the weekly hours land. A 25-bed hospital with one stretched nurse manager rarely has hours to give.
+
+Second, what does the hospital have to connect or configure before go-live, and who does that work? If the answer involves payroll, timekeeping, or EHR integration and the hospital has no IT department, the realistic owner of that work is the nurse manager or CNO, on top of clinical shifts.
+
+Third, how is [CMS §485.635](https://www.ecfr.gov/current/title-42/section-485.635) documentation produced and kept current, and what happens to it when staff turn over? Ask each vendor to show a sample of the exact records a surveyor would see, not a description of them.
+
+Fourth, can the vendor name a reference customer that matches your facility: a single Critical Access Hospital at 25 beds or fewer with no dedicated scheduler? A reference at a 47-hospital system does not predict how the product behaves at a 25-bed one. The staffing context is the variable that matters.
+
+Write the answers down before any demo. A demo shows what the software can do. These four questions show who at your hospital has to do it, which is the part that decides whether the model actually fits.
 
 ## What to Do This Week
 
