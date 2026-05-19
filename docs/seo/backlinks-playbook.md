@@ -38,11 +38,11 @@ Long description (≤300 chars):
   Access Hospitals with 25 or fewer beds. It cuts the 8 to 12 weekly hours nurse
   managers spend on schedules and callouts, with Texas overtime compliance and a
   full audit trail. No IT integration. Free 60-day pilot.
-LinkedIn (company): https://www.linkedin.com/company/simplescheduleai   [confirm/create]
-LinkedIn (founder): [Pradeep — paste your personal LinkedIn URL here once]
+LinkedIn (company): https://www.linkedin.com/company/simplescheduleai
+LinkedIn (founder): https://www.linkedin.com/in/pradeep-pandeyji/
 ```
 
-> Fill the two LinkedIn URLs before starting Week 1. Every later step reuses this block.
+> LinkedIn URLs locked 2026-05-19. Every later step reuses this block byte-identical.
 
 ---
 
