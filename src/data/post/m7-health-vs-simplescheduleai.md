@@ -1,6 +1,6 @@
 ---
-draft: true
-publishDate: 2026-05-23T00:00:00Z
+draft: false
+publishDate: 2026-05-18T00:00:00Z
 updateDate: 2026-05-17T00:00:00Z
 author: 'Pradeep Pandey'
 title: 'M7 Health vs. SimpleScheduleAI for Critical Access Hospitals'
