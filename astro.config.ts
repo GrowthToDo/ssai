@@ -38,7 +38,10 @@ export default defineConfig({
         !page.includes('/tag/') &&
         !page.includes('/category/') &&
         !page.includes('/ask') &&
-        !page.includes('/simulator'),
+        !page.includes('/simulator') &&
+        // Dormant programmatic SEO surface: never list /alternatives/ pages
+        // until an entry is flipped live per the switch-on contract.
+        !page.includes('/alternatives/'),
     }),
     mdx(),
     svelte(),
